@@ -1,17 +1,23 @@
 ---
 permalink: /index.html
-title: ' Eleventy Excellent'
-description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
+title: 'I build things'
+description: ''
 layout: 'home'
 blog:
   title: 'Blog'
-  intro: "I'm showing the last 4 blog posts, but there might be more!"
+  intro: 'Most recent posts:'
 ---
 
-## An Eleventy starter
+{% image "https://assets.chrism.cloud/chrismcleod.dev/2023/07/06_1280.png", "a computer-generated illustration of Chris McLeod", "","","rounded-full" %}
 
-This (opiniated) [Eleventy](https://www.11ty.dev/) starter is based on [Andy Bell's](https://mastodon.social/@andy@bell.bz) talk 'Be the browser’s mentor, not its micromanager' and it's companion website buildexcellentwebsit.es.
+I’m a software developer with over 20 years of work experience, but I’ve been experimenting with technology and programming since I received my very first Commodore 64 in 1989. I’ve done everything from front-line IT support in small companies, through to leading development teams on key projects for industry and government.
 
-In his words, it's about hinting the browser rather than micromanaging it, using progressive enhancement, CSS layout, fluid type & spacing, as well as modern CSS features.
+Outside of work I’m a keen learner, having studied for – and earned – several certifications. I enjoy spending the rest of my free time immersed in one of my hobbies – more often than not miniature painting and tabletop wargaming.
 
-This way we can shape frontends that look good to everyone, regardless of device, connection speed or context.
+## What I can do
+
+- **Frontend Web development**, including React, Bootstrap, Angular, Tailwind, Eleventy.
+- **Microsoft Azure certified**, DevOps experience.
+- **Databases** – RDBMS and NoSQL, Data Warehousing and Business Intelligence.
+- **Backend systems**, including .NET, Node, REST and GraphQL.
+- **Experienced team lead**, mentor, and people manager.

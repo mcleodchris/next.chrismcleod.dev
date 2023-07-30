@@ -6,7 +6,8 @@ const imageShortcodePlaceholder = async (
   src,
   alt,
   caption,
-  sizes = '(min-width: 55rem) 820px, 100vw'
+  sizes = '(min-width: 55rem) 820px, 100vw',
+  classes = ''
 ) => {
   if (!alt) {
     throw new Error(`Missing \`alt\` on myImage from: ${src}`);
@@ -53,7 +54,8 @@ const imageShortcodePlaceholder = async (
         height="${lowsrc.height}"
         alt="${alt}"
 				loading = 'lazy'
-        decoding="async">
+        decoding="async"
+        class="${classes}">
     </picture>
     ${
       caption
