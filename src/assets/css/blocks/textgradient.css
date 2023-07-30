@@ -1,0 +1,13 @@
+.gradient-text {
+  color: transparent;
+  background: conic-gradient(
+    var(--color-primary) 0 33%,
+    var(--color-secondary) 0 55%,
+    #1471bb 0 70%,
+    #ff8b59 0 87%,
+    #c569bc 0 100%
+  );
+  padding: 0.6rem 0;
+  background-size: 50%;
+  background-clip: text;
+}
