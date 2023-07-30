@@ -1,16 +1,12 @@
 module.exports = {
   top: [
     {
-      text: 'About',
-      url: '/about/'
-    },
-    {
-      text: 'Get started',
-      url: '/get-started/'
-    },
-    {
       text: 'Blog',
       url: '/blog/'
+    },
+    {
+      text: 'Elsewhere',
+      url: 'https://links.chrism.cloud/'
     }
   ],
   bottom: [
