@@ -1,7 +1,6 @@
 const Image = require('@11ty/eleventy-img');
 const path = require('path');
 const htmlmin = require('html-minifier-terser');
-const {v4: uuidv4} = require('uuid');
 
 const imageShortcodePlaceholder = async (
   src,
