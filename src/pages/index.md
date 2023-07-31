@@ -1,6 +1,6 @@
 ---
 permalink: /index.html
-title: 'I build things'
+title: 'I Build Things'
 description: 'Chris McLeod is a software developer with over 20 years of experience. Sometimes he writes about it.'
 layout: 'home'
 blog:

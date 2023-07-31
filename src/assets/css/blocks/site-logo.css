@@ -8,3 +8,7 @@
   padding: var(--space-xs) 0;
   font-size: var(--size-step-1);
 }
+.logo svg {
+  fill: var(--color-primary);
+  block-size: var(--size-step-0);
+}
