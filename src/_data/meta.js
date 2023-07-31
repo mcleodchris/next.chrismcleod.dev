@@ -2,7 +2,7 @@ module.exports = {
   url: process.env.URL || 'http://localhost:8080',
   siteName: 'Chris McLeod',
   siteDescription:
-    'Eleventy starter based on the workflow suggested by buildexcellentwebsit.es.',
+    'Chris McLeod is a software developer with over 20 years of experience. Sometimes he writes about it.',
   siteType: 'Person', // schema
   locale: 'en_EN',
   lang: 'en',
@@ -10,21 +10,20 @@ module.exports = {
   author: 'Chris McLeod', // i.e. Lene Saile - author's name. Must be set.
   authorEmail: '', // i.e. hola@lenesaile.com - email of the author
   authorWebsite: 'https://chrismcleod.dev/', // i.e. https.://www.lenesaile.com - the personal site of the author
-  themeColor: '#DD4462', //  Manifest: defines the default theme color for the application
-  themeBgColor: '#F3F3F3', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
+  themeColor: '#D81E5B', //  Manifest: defines the default theme color for the application
+  themeBgColor: '#F4F7F5', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
   meta_data: {
     opengraph_default: '/assets/images/opengraph-default.jpg', // fallback/default meta image
     opengraph_default_alt:
-      'Visible content: Eleventy starter based on workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es ', // alt text for default meta image
+      'Chris McLeod is a software developer with over 20 years of experience. Sometimes he writes about it.', // alt text for default meta image
     twitterSite: '', // i.e. @site - twitter profile of the site
     twitterCreator: '', // i.e. @author -  twitter profile of the site
-    mastodonProfile: '' // i.e. https://front-end.social/@lene - url to your mastodon instance/profile
+    mastodonProfile: 'https://mastodon.online/@mstrkapowski' // i.e. https://front-end.social/@lene - url to your mastodon instance/profile
   },
   blog: {
     // this is for the rss feed
-    name: 'My great Web Development Blog',
-    description:
-      'Tell the word what you are writing about in your blog! It will show up on feed readers.'
+    name: "Chris McLeod's blog",
+    description: 'Blog posts by Chris McLeod, posted to https://chrismcleod.dev'
   },
   pagination: {
     itemsPerPage: 20

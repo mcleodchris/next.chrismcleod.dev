@@ -10,10 +10,9 @@ preloads:
 
 <article class="region blog">
   <div class="wrapper flow prose">
-    <h1 class="gradient-text">{{ title }}</h1>
-
-    {% set definedDate = date %} {% include "partials/date.njk" %}
-
+    <h1 {% if gradient === true %} class="gradient-text" {% endif %}>{{ title }}</h1>
+    {% set definedDate = date %}
+    {% include "partials/date.njk" %}
     {{ content | safe }}
   </div>
 </article>

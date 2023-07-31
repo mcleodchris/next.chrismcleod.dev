@@ -1,12 +1,13 @@
 ---
-title: "#emosnotdead"
+title: '#emosnotdead'
 created: 2021-03-29
-categories: 
+categories:
   - general-life
-authors: 
+authors:
   - chris
+youtube: true
 ---
 
 It's just one of those days
 
-https://youtu.be/o3\_tkNIR1-w
+{% youtube "o3_tkNIR1-w", "Felt emo, might delete"%}

@@ -1,7 +1,7 @@
 ---
 permalink: /index.html
 title: 'I build things'
-description: ''
+description: 'Chris McLeod is a software developer with over 20 years of experience. Sometimes he writes about it.'
 layout: 'home'
 blog:
   title: 'Blog'
@@ -17,7 +17,7 @@ Outside of work I’m a keen learner, having studied for – and earned – seve
 ## What I can do
 
 - **Frontend Web development**, including React, Bootstrap, Angular, Tailwind, Eleventy.
-- **Microsoft Azure certified**, DevOps experience.
+- **Microsoft Azure certified**, DevOps experience, Containerisation, virtualisation, and system administration.
 - **Databases** – RDBMS and NoSQL, Data Warehousing and Business Intelligence.
-- **Backend systems**, including .NET, Node, REST and GraphQL.
+- **Backend systems**, including .NET, Node.JS, PHP, REST and GraphQL.
 - **Experienced team lead**, mentor, and people manager.

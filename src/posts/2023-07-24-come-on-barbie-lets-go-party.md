@@ -1,15 +1,16 @@
 ---
-title: "Come on Barbie, let’s go party"
+title: 'Come on Barbie, let’s go party'
 created: 2023-07-24
-categories: 
+categories:
   - general-life
-tags: 
+tags:
   - barbie
   - movie
   - recommendation
   - review
-authors: 
+authors:
   - chris
+gradient: true
 ---
 
 I recently had the pleasure of visiting the cinema to watch the highly anticipated movie, Barbie, and I must say, it was an absolute blast! Going in, I had mixed expectations - basically expecting something similar to The Lego Movie (funny, a few touching moments, but ultimately empty), but what I got was so much more.

@@ -1,5 +1,10 @@
 [
   {
+    "platform": "github",
+    "url": "https://github.com/mcleodchris/next.chrismcleod.dev",
+    "icon": "github.svg"
+  },
+  {
     "platform": "rss",
     "url": "/feed.xml",
     "icon": "rss.svg"
