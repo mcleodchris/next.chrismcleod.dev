@@ -1,15 +1,16 @@
 ---
-title: "Hey 👋🏻 Goodbye"
+title: 'Hey 👋🏻 Goodbye'
 created: 2021-04-30
-categories: 
+categories:
   - general-life
-tags: 
+tags:
   - basecamp
   - customer-data
   - email
   - hey
-authors: 
+authors:
   - chris
+redirectFrom: ['/2021/04/30/hey-%f0%9f%91%8b%f0%9f%8f%bb-goodbye/']
 ---
 
 I got rid of my Hey email address last night. I really liked the “mental model” of how the app organised email, but there was never enough there to push me to fully switch over from Proton Mail. I couldn’t justify paying for 2 email services over the long term, so one had to go eventually. The [furore](https://www.theverge.com/2021/4/27/22406673/basecamp-political-speech-policy-controversy) and [fallout](https://janeyang.org/2021/04/27/an-open-letter-to-jason-and-david/) of the last couple of days helped make the choice easier and sooner.
@@ -26,6 +27,6 @@ But let’s suppose for a moment they were (as they say) completely ignorant - f
 
 No thank you. No amount of convenient email organisation is worth that. So: subscription cancelled, data exported, deleted[1](#fn1), and the app has been removed from my devices.
 
-* * *
+---
 
 1. Has it been though? I guess that’s something I’ll need to take on trust… [↩](#fnref1)

@@ -1,10 +1,10 @@
 ---
-title: "Summer of Certifications"
+title: 'Summer of Certifications'
 created: 2021-05-21
-categories: 
+categories:
   - general-life
   - work
-tags: 
+tags:
   - ai
   - ai-900
   - azure
@@ -15,8 +15,9 @@ tags:
   - pl-900
   - power-platform
   - training
-authors: 
+authors:
   - chris
+redirectFrom: ['/2021/05/21/summer-of-certification/']
 ---
 
 Since last year I’ve made a point that whenever I feel a bit "neurofunky", I try to do something to invest in myself. The last few days have been _a thing_ so I’ve planned the pathways to my next certification(s), and set myself up with some of the resources I’ll need to get there.

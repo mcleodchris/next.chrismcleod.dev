@@ -1,15 +1,16 @@
 ---
-title: "Zone of Control"
+title: 'Zone of Control'
 created: 2021-04-04
-categories: 
+categories:
   - general-life
-tags: 
+tags:
   - homekit
   - iot
   - philips-hue
   - smart-home
-authors: 
+authors:
   - chris
+redirectFrom: ['/2021/04/04/zone-of-control/']
 ---
 
 I've been scratching my head since yesterday, trying to figure out how to get a Hue Smart Button to turn off all my lights with a single button press. Every night I ask Siri to "turn off all the lights," and it would be nice to have a physical button to achieve the same thing - especially for those times Siri just refuses to understand what I'm asking it to do. I eventually found part of the solution, I think, but it took some digging.

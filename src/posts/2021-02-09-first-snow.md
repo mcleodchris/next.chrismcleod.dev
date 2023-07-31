@@ -1,15 +1,17 @@
 ---
-title: "First snow"
+title: 'First snow'
 created: 2021-02-09
-categories: 
+categories:
   - general-life
-tags: 
+tags:
   - snow
   - winter
-authors: 
+authors:
   - chris
+redirectFrom: ['/2021/02/09/first-snow/']
 ---
 
 ![](assets/images/img_0228.jpg)
+{% image "assets.chrism.cloud/chrismcleod.dev/2021/08/img_0228.jpg", "heavy snowfall on bare tree branches, with snow-covered rooftops in the background"%}
 
 Our first major drop of snow this winter, and the heaviest I’ve seen in a while.

@@ -13,6 +13,7 @@ tags:
   - react
 authors:
   - chris
+redirectFrom: ['/2022/12/22/updating-apps-updating-skills/']
 ---
 
 {% image "https://assets.chrism.cloud/chrismcleod.dev/2022/12/image.png", "A screenshot of some Laravel user authentication boilerplate code" %}

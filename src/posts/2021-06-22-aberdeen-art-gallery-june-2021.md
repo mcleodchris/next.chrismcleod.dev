@@ -1,16 +1,17 @@
 ---
-title: "Aberdeen Art Gallery, June 2021"
+title: 'Aberdeen Art Gallery, June 2021'
 created: 2021-06-22
-categories: 
+categories:
   - general-life
-tags: 
+tags:
   - aberdeen-art-gallery
   - art
   - day-out
   - gallery
-authors: 
+authors:
   - chris
-image: \assets\images\img_0509-scaled.jpg
+image: https://assets.chrism.cloud/chrismcleod.dev/images/img_0509-scaled.jpg
+redirectFrom: ['/2021/06/22/aberdeen-art-gallery-june-2021/']
 ---
 
 It's been a very long time since I visited the art gallery. Almost a decade, in fact. When the refurbishment was completed in late 2019 I heard a lot of good things, but before I could get around to paying a visit, COVID hit and we were all locked indoors.
@@ -25,24 +26,24 @@ Overall, I was impressed, and I'm sure we'll be scheduling more regular visits i
 
 To the side you'll see a selection of the photos I took throughout our visit. I was consciously trying to avoid experiencing the visit just through the viewfinder, so there's not a huge number of photos, but even though, this is only a small selection of what I could have shared.
 
-![](assets/images/img_0507.jpg)
+{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0507.jpg", "error: description unavailable" %}
 
-![](assets/images/img_0501.jpg)
+{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0501.jpg", "error: description unavailable" %}
 
-![](assets/images/img_0509.jpg)
+{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0509.jpg", "error: description unavailable" %}
 
-![](assets/images/img_0500.jpg)
+{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0500.jpg", "error: description unavailable" %}
 
-![](assets/images/img_0486.jpg)
+{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0486.jpg", "error: description unavailable" %}
 
-![](assets/images/img_0510.jpg)
+{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0510.jpg", "error: description unavailable" %}
 
-![](assets/images/img_0506.jpg)
+{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0506.jpg", "error: description unavailable" %}
 
-![](assets/images/img_0505.jpg)
+{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0505.jpg", "error: description unavailable" %}
 
-![](assets/images/img_0508.jpg)
+{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0508.jpg", "error: description unavailable" %}
 
-![](assets/images/img_0498.jpg)
+{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0498.jpg", "error: description unavailable" %}
 
-![](assets/images/img_0511.jpg)
+{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0511.jpg", "error: description unavailable" %}

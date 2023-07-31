@@ -6,6 +6,7 @@ categories:
 authors:
   - chris
 youtube: true
+redirectFrom: ['/2021/03/29/emosnotdead/']
 ---
 
 It's just one of those days

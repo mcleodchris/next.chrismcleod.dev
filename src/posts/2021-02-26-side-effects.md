@@ -1,15 +1,16 @@
 ---
-title: "Side Effects"
+title: 'Side Effects'
 created: 2021-02-26
-categories: 
+categories:
   - general-life
-tags: 
+tags:
   - covid
   - nhs
   - vaccination
   - vaccine
-authors: 
+authors:
   - chris
+redirectFrom: ['/2021/02/26/side-effects/']
 ---
 
 I got my first COVID vaccination jab a couple of days ago, so for the benefit of others I thought I'd share my experience.

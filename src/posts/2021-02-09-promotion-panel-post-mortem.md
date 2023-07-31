@@ -1,19 +1,20 @@
 ---
-title: "Promotion Panel Post-Mortem"
+title: 'Promotion Panel Post-Mortem'
 created: 2021-02-09
-categories: 
+categories:
   - work
-tags: 
+tags:
   - objectives
   - presentation
   - promotion
-authors: 
+authors:
   - chris
+redirectFrom: ['/2021/02/09/promotion-panel-post-mortem/']
 ---
 
 So it's done. I had my promotion panel interview yesterday. It went great, apart from one little tiny detail - I went over time. Pretty much [the one hard-and-fast rule](/2021/01/18/15-minutes/) you're given, and I broke it. Granted, it was _really_ close - I was partway through my final slide - but it leaves a bitter taste to have come so close to getting through the part I was most worried about.
 
-I know _why_ I ran over. In one of my more content-heavy slides I stumbled a bit with some last minute suggested additions, adding a little too much detail off-the-cuff as I hadn't practiced these points as much as the rest. Those few seconds made all of the difference, and while I tried to mask the dissappointment of being stopped as quickly as I could before going into the Q&A, I'm sure there would have been a split-second where my body language or facial expression gave it away, if any of the panel were looking at my camera feed and not the slide deck.
+I know _why_ I ran over. In one of my more content-heavy slides I stumbled a bit with some last minute suggested additions, adding a little too much detail off-the-cuff as I hadn't practiced these points as much as the rest. Those few seconds made all of the difference, and while I tried to mask the disappointment of being stopped as quickly as I could before going into the Q&A, I'm sure there would have been a split-second where my body language or facial expression gave it away, if any of the panel were looking at my camera feed and not the slide deck.
 
 The Q&A part was fine. It was a little bit of a blur due to trying to recover, but I had the overall impression it was easier than I expected, and shorter. I received one question relating to my last slide which basically let me finish off what I would have said, and a couple of questions around Agile working practices and specifically on leading Agile teams, which required more longform answers… but overall I came out of the Q&A feeling much more confident again.
 

@@ -1,15 +1,16 @@
 ---
-title: "Objectives for 2021"
+title: 'Objectives for 2021'
 created: 2021-01-01
-categories: 
+categories:
   - general-life
   - work
-tags: 
+tags:
   - certifications
   - objectives
   - promotion
-authors: 
+authors:
   - chris
+redirectFrom: ['/2021/01/01/objectives-for-2021/']
 ---
 
 ## A Short Introduction and TL;DR

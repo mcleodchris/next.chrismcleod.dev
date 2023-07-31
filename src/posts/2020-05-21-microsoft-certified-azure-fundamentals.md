@@ -1,19 +1,20 @@
 ---
-title: "Microsoft Certified: Azure Fundamentals"
+title: 'Microsoft Certified: Azure Fundamentals'
 created: 2020-05-21
-categories: 
+categories:
   - general-life
   - work
-tags: 
+tags:
   - azure
   - certifications
   - certified
   - dp-900
   - exam
   - microsoft
-authors: 
+authors:
   - chris
-image: \assets\images\azure-fundamentals-1.png
+image: https://assets.chrism.cloud/chrismcleod.dev/2022/03/azure-fundamentals-1.png
+redirectFrom: ['/2020/05/21/microsoft-certified-azure-fundamentals/']
 ---
 
-![](assets/images/azure-fundamentals-1.png)
+{% image "https://assets.chrism.cloud/chrismcleod.dev/2022/03/azure-fundamentals-1.png", "Microsoft Azure Fundamentals achievement badge" %}

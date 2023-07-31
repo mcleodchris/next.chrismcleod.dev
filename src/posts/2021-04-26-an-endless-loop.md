@@ -1,14 +1,15 @@
 ---
-title: "An Endless Loop"
+title: 'An Endless Loop'
 created: 2021-04-26
-categories: 
+categories:
   - general-life
-tags: 
+tags:
   - engineering
   - software-development
   - work
-authors: 
+authors:
   - chris
+redirectFrom: ['/2021/04/26/an-endless-loop/']
 ---
 
 1. Write code

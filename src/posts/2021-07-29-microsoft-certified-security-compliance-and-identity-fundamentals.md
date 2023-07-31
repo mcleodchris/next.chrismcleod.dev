@@ -14,6 +14,8 @@ tags:
 authors:
   - chris
 image: https://assets.chrism.cloud/chrismcleod.dev/2021/08/microsoft-certified-security-compliance-and-identity-fundamentals.png
+redirectFrom:
+  ['/2021/07/29/microsoft-certified-security-compliance-and-identity-fundamentals/']
 ---
 
 {% image "https://assets.chrism.cloud/chrismcleod.dev/2021/08/microsoft-certified-security-compliance-and-identity-fundamentals.png", "Microsoft Certified: Security, Compliance, and Identity Fundamentals award badge" %}
