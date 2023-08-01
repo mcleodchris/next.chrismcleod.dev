@@ -13,6 +13,7 @@ tags:
   - verification
 authors:
   - chris
+redirectFrom: ['/2023/04/15/resource-notes-gpg-commit-signing-and-more/']
 ---
 
 Below are a few resources I need to explore later around using GPG, YubiKeys, Git commit signing, amongst other things:

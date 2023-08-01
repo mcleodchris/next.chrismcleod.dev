@@ -13,6 +13,7 @@ tags:
   - web-development
 authors:
   - chris
+redirectFrom: ['/2023/07/21/azure-static-web-apps-are-awesome/']
 ---
 
 I want to share why Azure Static Web Apps has become one of my new favourite tools for web development - it's truly awesome! 🚀

@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 gradient: true
+redirectFrom: ['/2023/07/24/come-on-barbie-lets-go-party/']
 ---
 
 I recently had the pleasure of visiting the cinema to watch the highly anticipated movie, Barbie, and I must say, it was an absolute blast! Going in, I had mixed expectations - basically expecting something similar to The Lego Movie (funny, a few touching moments, but ultimately empty), but what I got was so much more.

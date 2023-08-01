@@ -16,6 +16,7 @@ tags:
 authors:
   - chris
 image: https://assets.chrism.cloud/chrismcleod.dev/2023/05/microsoft-certified-devops-engineer-expert.png
+redirectFrom: ['/2023/05/25/microsoft-certified-azure-devops-engineer-expert/']
 ---
 
 {% image "https://assets.chrism.cloud/chrismcleod.dev/2023/05/microsoft-certified-devops-engineer-expert.png", "Microsoft Certified: DevOps Engineer Expert" %}

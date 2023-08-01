@@ -1,14 +1,15 @@
 ---
 title: "Assassin's Creed: Valhalla"
 created: 2023-01-03
-categories: 
+categories:
   - general-life
-tags: 
+tags:
   - assassins-creed
   - assassins-creed-valhalla
   - games
-authors: 
+authors:
   - chris
+redirectFrom: ['/2023/01/03/assassins-creed-valhalla/']
 ---
 
 **Warning:** May contain mild spoilers for Assassin's Creed: Valhalla.

@@ -11,6 +11,7 @@ tags:
   - wsa
 authors:
   - chris
+redirectFrom: ['/2023/07/10/installing-threads-on-windows-11/']
 ---
 
 [Threads](https://www.threads.net/@mstrkapowski) is the new social media app on the block; Facebook Meta's long-rumoured Twitter-like service. You've probably heard of it - only 5 days after launch and it [already has 100 million users](https://www.bbc.co.uk/news/technology-66153244). There isn't a web version of Threads yet, much to my chagrin, but if you're on Windows 11 you can use the Windows Subsystem for Android (WSA) and Android Debug Bridge (ADB) to sideload the Android version of the mobile app.

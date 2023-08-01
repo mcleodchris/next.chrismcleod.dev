@@ -1,17 +1,18 @@
 ---
-title: "Quick-fire Thoughts on Bluesky"
+title: 'Quick-fire Thoughts on Bluesky'
 created: 2023-05-03
-categories: 
+categories:
   - general-life
-tags: 
+tags:
   - bluesky
   - decentralisation
   - fediverse
   - mastodon
   - social-media
   - twitter
-authors: 
+authors:
   - chris
+redirectFrom: ['/2023/05/03/quick-fire-thoughts-on-bluesky/']
 ---
 
 I got a bluesky invite a couple of days ago, set up [my account](https://bsky.app/profile/chrismcleod.dev), and I've been trying to wrap my head around the new protocol-based "not-Twitter" service ever since. It's… an odd duck, to be sure.

@@ -11,6 +11,7 @@ tags:
   - wordpress
 authors:
   - chris
+redirectFrom: ['/2023/01/04/activitypub-vs-jetpack-boost/']
 ---
 
 I just had an interesting issue where [the ActivityPub plugin](https://wordpress.org/plugins/activitypub/) started reporting that my author page on both this site and [Worlds In Miniature](https://worldsinminiature.com/) was no longer serving valid JSON, and so was inaccessible:

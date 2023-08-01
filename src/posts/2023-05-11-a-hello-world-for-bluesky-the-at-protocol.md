@@ -14,6 +14,7 @@ tags:
   - social-media
 authors:
   - chris
+redirectFrom: ['/2023/05/11/a-hello-world-for-bluesky-the-at-protocol/']
 ---
 
 ## Preamble
@@ -40,7 +41,7 @@ Authentication is reasonably straightforward. We POST a JSON object with our ide
 
 ### Request
 
-```
+```bash
 curl --location 'https://bsky.social/xrpc/com.atproto.server.createSession' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -51,13 +52,13 @@ curl --location 'https://bsky.social/xrpc/com.atproto.server.createSession' \
 
 ### Response
 
-```
+```json
 {
-    "did": "did:plc:<identifier>",
-    "handle": "chrismcleod.dev",
-    "email": "<email>",
-    "accessJwt": "<JWT Token>",
-    "refreshJwt": "<Refresh Token>"
+  "did": "did:plc:<identifier>",
+  "handle": "chrismcleod.dev",
+  "email": "<email>",
+  "accessJwt": "<JWT Token>",
+  "refreshJwt": "<Refresh Token>"
 }
 ```
 
@@ -75,15 +76,15 @@ Now we have our authentication token and identifier, we can write a new post to 
 
 Posts record objects use the [app.bsky.feed.post](https://atproto.com/lexicons/app-bsky-feed#post) type, so we must declare that in our record object. Other required fields in the Post record are `text` and `createdAt`. For Posts, the record `$type` is also the collection type. The repo is your `did` from earlier. Put together, the complete payload looks like this:
 
-```
+```json
 {
-    "collection": "app.bsky.feed.post",
-    "repo": "<myDID>",
-    "record": {
-        "text": "Hello World!",
-        "createdAt": "<$isoTimestamp>",
-        "$type": "app.bsky.feed.post"
-    }
+  "collection": "app.bsky.feed.post",
+  "repo": "<myDID>",
+  "record": {
+    "text": "Hello World!",
+    "createdAt": "<$isoTimestamp>",
+    "$type": "app.bsky.feed.post"
+  }
 }
 // The values enclosed in < > are Postman variables - substitute with your own values, without the curly braces.
 ```
@@ -94,7 +95,7 @@ There are other properties we can add to our bluesky Post, but I'm not going to 
 
 Putting our payload and authentication token together, we get a cURL command similar to this:
 
-```
+```bash
 curl --location 'https://bsky.social/xrpc/com.atproto.repo.createRecord' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer <token>' \
@@ -113,10 +114,10 @@ curl --location 'https://bsky.social/xrpc/com.atproto.repo.createRecord' \
 
 The response will contain an `at://` protocol URI to your new post, as well as the signature (`cid`), and look something like this:
 
-```
+```json
 {
-    "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y",
-    "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu"
+  "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y",
+  "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu"
 }
 ```
 
@@ -127,36 +128,32 @@ You will need both of these to make your reply, so copy the entire object from y
 Replies are essentially just regular Posts, they just have an extra `reply` property which pins them to the conversation tree. This property is an object with two properties: `root` and `parent`. `root` is the very first message in the thread - the one everything else is a descendant of. `parent` is the specific message you are replying to, which might be nested several layers deep. Taking the following example:
 
 1. Post 1
-
    - Reply 1
-
    - Reply 2
-
      - Reply 3
-
    - Reply 4
 
 For any reply in this tree, `root` will always be a reference to Post 1, and `parent` will be a reference to, e.g. Reply 3, or whichever post you are replying to. Because we are replying to our own Hello World message from above, both `root` and `parent` will be references to the same Post. As such, to reply to our own message, our Reply payload would look like this:
 
-```
+```json
 {
-    "collection": "app.bsky.feed.post",
-    "repo": "<myDID>",
-    "record": {
-        "text": "Hello, Hello World",
-        "createdAt": "<$isoTimestamp>",
-        "reply": {
-            "root": {
-                "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y",
-                "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu"
-            },
-            "parent": {
-                "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y",
-                "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu"
-            }
-        },
-        "$type": "app.bsky.feed.post"
-    }
+  "collection": "app.bsky.feed.post",
+  "repo": "<myDID>",
+  "record": {
+    "text": "Hello, Hello World",
+    "createdAt": "<$isoTimestamp>",
+    "reply": {
+      "root": {
+        "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y",
+        "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu"
+      },
+      "parent": {
+        "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y",
+        "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu"
+      }
+    },
+    "$type": "app.bsky.feed.post"
+  }
 }
 ```
 
@@ -164,7 +161,7 @@ I've highlighted the new part of the message. The full request looks like:
 
 ### Request
 
-```
+```bash
 curl --location 'https://bsky.social/xrpc/com.atproto.repo.createRecord' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer <token>' \
@@ -193,10 +190,10 @@ curl --location 'https://bsky.social/xrpc/com.atproto.repo.createRecord' \
 
 Server responses to Replies are the same as to Posts - an object containing the `uri` and `cid`:
 
-```
+```json
 {
-    "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh33tthzm27",
-    "cid": "bafyreifh4xinbvqujmrbc6unyyhhefn4x6dg3cieutk5u5sp4b6c7hmcki"
+  "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh33tthzm27",
+  "cid": "bafyreifh4xinbvqujmrbc6unyyhhefn4x6dg3cieutk5u5sp4b6c7hmcki"
 }
 ```
 
@@ -206,7 +203,7 @@ Now we're creating posts, how do we list posts by a given user ? Using a GET to 
 
 ### Request
 
-```
+```bash
 curl --location 'https://bsky.social/xrpc/app.bsky.feed.getAuthorFeed?actor=chrismcleod.dev&limit=5' \
 --header 'Authorization: Bearer <token>'
 ```
@@ -215,341 +212,341 @@ curl --location 'https://bsky.social/xrpc/app.bsky.feed.getAuthorFeed?actor=chri
 
 The response includes details of the author's posts, as well as any posts they were in reply to:
 
-```
+```json
 {
-    "feed": [
-        {
-            "post": {
-                "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvhatmjm6u2z",
-                "cid": "bafyreicej3vuls22l5tli5aycnnxebap77vvczc43o73g6px34q6uinibq",
-                "author": {
-                    "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
-                    "handle": "chrismcleod.dev",
-                    "displayName": "Chris M",
-                    "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
-                    "viewer": {
-                        "muted": false,
-                        "blockedBy": false
-                    },
-                    "labels": []
-                },
-                "record": {
-                    "text": "thing is, I'm sure it changes per manufacturer! Last toaster was \"toastiness\", current is time",
-                    "$type": "app.bsky.feed.post",
-                    "reply": {
-                        "root": {
-                            "cid": "bafyreie4477tqvjkwffgmwfhcgd4zjuw73xesmpfkcwylucn6xijyfjgha",
-                            "uri": "at://did:plc:aeh5xvhpva7ksoialzs4o77y/app.bsky.feed.post/3jvhacxqpqh2n"
-                        },
-                        "parent": {
-                            "cid": "bafyreie4477tqvjkwffgmwfhcgd4zjuw73xesmpfkcwylucn6xijyfjgha",
-                            "uri": "at://did:plc:aeh5xvhpva7ksoialzs4o77y/app.bsky.feed.post/3jvhacxqpqh2n"
-                        }
-                    },
-                    "createdAt": "2023-05-11T11:57:59.203Z"
-                },
-                "replyCount": 0,
-                "repostCount": 0,
-                "likeCount": 0,
-                "indexedAt": "2023-05-11T11:57:59.435Z",
-                "viewer": {},
-                "labels": []
+  "feed": [
+    {
+      "post": {
+        "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvhatmjm6u2z",
+        "cid": "bafyreicej3vuls22l5tli5aycnnxebap77vvczc43o73g6px34q6uinibq",
+        "author": {
+          "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
+          "handle": "chrismcleod.dev",
+          "displayName": "Chris M",
+          "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
+          "viewer": {
+            "muted": false,
+            "blockedBy": false
+          },
+          "labels": []
+        },
+        "record": {
+          "text": "thing is, I'm sure it changes per manufacturer! Last toaster was \"toastiness\", current is time",
+          "$type": "app.bsky.feed.post",
+          "reply": {
+            "root": {
+              "cid": "bafyreie4477tqvjkwffgmwfhcgd4zjuw73xesmpfkcwylucn6xijyfjgha",
+              "uri": "at://did:plc:aeh5xvhpva7ksoialzs4o77y/app.bsky.feed.post/3jvhacxqpqh2n"
             },
-            "reply": {
-                "root": {
-                    "uri": "at://did:plc:aeh5xvhpva7ksoialzs4o77y/app.bsky.feed.post/3jvhacxqpqh2n",
-                    "cid": "bafyreie4477tqvjkwffgmwfhcgd4zjuw73xesmpfkcwylucn6xijyfjgha",
-                    "author": {
-                        "did": "did:plc:aeh5xvhpva7ksoialzs4o77y",
-                        "handle": "mzbat.bsky.social",
-                        "displayName": "bat 🦇",
-                        "avatar": "https://cdn.bsky.social/imgproxy/DCZNdq7mkezO6MIIKOkj4JIxpwvr6ihrVD3mQy_1gAY/rs:fill:1000:1000:1:0/plain/bafkreia3rwn5fvkd3vw5pc6aipivac6tfcbk3ma6qjjymxwzsse2dnjuxa@jpeg",
-                        "viewer": {
-                            "muted": false,
-                            "blockedBy": false,
-                            "following": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.graph.follow/3justmfnnia2v",
-                            "followedBy": "at://did:plc:aeh5xvhpva7ksoialzs4o77y/app.bsky.graph.follow/3jut3rhljvo2m"
-                        },
-                        "labels": []
-                    },
-                    "record": {
-                        "text": "All this time I thought the number dial on the toaster was the level of toastiness but it’s really just the number of minutes to cook? I’m flabbergasted.",
-                        "$type": "app.bsky.feed.post",
-                        "createdAt": "2023-05-11T11:48:40.559Z"
-                    },
-                    "replyCount": 4,
-                    "repostCount": 0,
-                    "likeCount": 11,
-                    "indexedAt": "2023-05-11T11:48:40.795Z",
-                    "viewer": {
-                        "like": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.like/3jvharu3yuk26"
-                    },
-                    "labels": []
-                },
-                "parent": {
-                    "uri": "at://did:plc:aeh5xvhpva7ksoialzs4o77y/app.bsky.feed.post/3jvhacxqpqh2n",
-                    "cid": "bafyreie4477tqvjkwffgmwfhcgd4zjuw73xesmpfkcwylucn6xijyfjgha",
-                    "author": {
-                        "did": "did:plc:aeh5xvhpva7ksoialzs4o77y",
-                        "handle": "mzbat.bsky.social",
-                        "displayName": "bat 🦇",
-                        "avatar": "https://cdn.bsky.social/imgproxy/DCZNdq7mkezO6MIIKOkj4JIxpwvr6ihrVD3mQy_1gAY/rs:fill:1000:1000:1:0/plain/bafkreia3rwn5fvkd3vw5pc6aipivac6tfcbk3ma6qjjymxwzsse2dnjuxa@jpeg",
-                        "viewer": {
-                            "muted": false,
-                            "blockedBy": false,
-                            "following": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.graph.follow/3justmfnnia2v",
-                            "followedBy": "at://did:plc:aeh5xvhpva7ksoialzs4o77y/app.bsky.graph.follow/3jut3rhljvo2m"
-                        },
-                        "labels": []
-                    },
-                    "record": {
-                        "text": "All this time I thought the number dial on the toaster was the level of toastiness but it’s really just the number of minutes to cook? I’m flabbergasted.",
-                        "$type": "app.bsky.feed.post",
-                        "createdAt": "2023-05-11T11:48:40.559Z"
-                    },
-                    "replyCount": 4,
-                    "repostCount": 0,
-                    "likeCount": 11,
-                    "indexedAt": "2023-05-11T11:48:40.795Z",
-                    "viewer": {
-                        "like": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.like/3jvharu3yuk26"
-                    },
-                    "labels": []
-                }
+            "parent": {
+              "cid": "bafyreie4477tqvjkwffgmwfhcgd4zjuw73xesmpfkcwylucn6xijyfjgha",
+              "uri": "at://did:plc:aeh5xvhpva7ksoialzs4o77y/app.bsky.feed.post/3jvhacxqpqh2n"
             }
+          },
+          "createdAt": "2023-05-11T11:57:59.203Z"
         },
-        {
-            "post": {
-                "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh5cu7lzv2h",
-                "cid": "bafyreibambjl4tbpgacmq5kofs6xfgkamjut2vkuql3zpe7dydvf4ykafm",
-                "author": {
-                    "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
-                    "handle": "chrismcleod.dev",
-                    "displayName": "Chris M",
-                    "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
-                    "viewer": {
-                        "muted": false,
-                        "blockedBy": false
-                    },
-                    "labels": []
-                },
-                "record": {
-                    "text": "TBH, I'm kinda glad this didn't work 😂\n\nI didn't expect it to, but if you stick something in the protocol called `createInviteCode`, you better believe I'm going to give it a try!",
-                    "$type": "app.bsky.feed.post",
-                    "embed": {
-                        "$type": "app.bsky.embed.images",
-                        "images": [
-                            {
-                                "alt": "A screenshot of an API call made to the createInviteCode AT protocol endpoint. It was unsuccessful due to lack of authorisation",
-                                "image": {
-                                    "$type": "blob",
-                                    "ref": {
-                                        "$link": "bafkreicl4wg7bfqecuy5mvw6ygzgxrz7qll22oxupgsp6v6m6sc2iypuzy"
-                                    },
-                                    "mimeType": "image/jpeg",
-                                    "size": 225657
-                                }
-                            }
-                        ]
-                    },
-                    "createdAt": "2023-05-11T10:54:55.583Z"
-                },
-                "embed": {
-                    "$type": "app.bsky.embed.images#view",
-                    "images": [
-                        {
-                            "thumb": "https://cdn.bsky.social/imgproxy/Dx4hVByyiOlNRTyDaOHP0lm8nyc2ElLfEcQ5TOSB0BY/rs:fit:1000:1000:1:0/plain/bafkreicl4wg7bfqecuy5mvw6ygzgxrz7qll22oxupgsp6v6m6sc2iypuzy@jpeg",
-                            "fullsize": "https://cdn.bsky.social/imgproxy/LQ6Ni5920A63RVdwkUoKZnWM15PjVFcRwz_atFOnOr4/rs:fit:2000:2000:1:0/plain/bafkreicl4wg7bfqecuy5mvw6ygzgxrz7qll22oxupgsp6v6m6sc2iypuzy@jpeg",
-                            "alt": "A screenshot of an API call made to the createInviteCode AT protocol endpoint. It was unsuccessful due to lack of authorisation"
-                        }
-                    ]
-                },
-                "replyCount": 0,
-                "repostCount": 0,
-                "likeCount": 2,
-                "indexedAt": "2023-05-11T10:54:55.856Z",
-                "viewer": {},
-                "labels": []
-            }
-        },
-        {
-            "post": {
-                "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh3fd5mrg2x",
-                "cid": "bafyreiatii5cpouvemlcdpxbi3ulh2joap2rilqd7dtuvuzt4g5qqz7m3q",
-                "author": {
-                    "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
-                    "handle": "chrismcleod.dev",
-                    "displayName": "Chris M",
-                    "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
-                    "viewer": {
-                        "muted": false,
-                        "blockedBy": false
-                    },
-                    "labels": []
-                },
-                "record": {
-                    "text": "Well that was a fun hour or so of tinkering around with the protocol to figure out the basics. Some of the lexicon is a little verbose for my tastes, better verbose than ambiguous, I guess.\n\nNow to use this knowledge for good/evil",
-                    "$type": "app.bsky.feed.post",
-                    "embed": {
-                        "$type": "app.bsky.embed.images",
-                        "images": [
-                            {
-                                "alt": "",
-                                "image": {
-                                    "$type": "blob",
-                                    "ref": {
-                                        "$link": "bafkreick25qjy6l75xlied3b5ozxl3r6xq54xlks5pacud2ububm3aamve"
-                                    },
-                                    "mimeType": "image/jpeg",
-                                    "size": 98914
-                                }
-                            }
-                        ]
-                    },
-                    "createdAt": "2023-05-11T10:20:30.929Z"
-                },
-                "embed": {
-                    "$type": "app.bsky.embed.images#view",
-                    "images": [
-                        {
-                            "thumb": "https://cdn.bsky.social/imgproxy/9TcZtC0w98I4uQ1DSNBssgw2u1b7fgp4bY7qB78oNxI/rs:fit:1000:1000:1:0/plain/bafkreick25qjy6l75xlied3b5ozxl3r6xq54xlks5pacud2ububm3aamve@jpeg",
-                            "fullsize": "https://cdn.bsky.social/imgproxy/6Ph5-LuMWuoS9iV-EFGYDhtkhazlzuHqQMhFeWXs8y8/rs:fit:2000:2000:1:0/plain/bafkreick25qjy6l75xlied3b5ozxl3r6xq54xlks5pacud2ububm3aamve@jpeg",
-                            "alt": ""
-                        }
-                    ]
-                },
-                "replyCount": 0,
-                "repostCount": 0,
-                "likeCount": 1,
-                "indexedAt": "2023-05-11T10:20:31.409Z",
-                "viewer": {},
-                "labels": []
-            }
-        },
-        {
-            "post": {
-                "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh33tthzm27",
-                "cid": "bafyreifh4xinbvqujmrbc6unyyhhefn4x6dg3cieutk5u5sp4b6c7hmcki",
-                "author": {
-                    "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
-                    "handle": "chrismcleod.dev",
-                    "displayName": "Chris M",
-                    "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
-                    "viewer": {
-                        "muted": false,
-                        "blockedBy": false
-                    },
-                    "labels": []
-                },
-                "record": {
-                    "text": "A test reply made using info from the ATproto docs",
-                    "$type": "app.bsky.feed.post",
-                    "reply": {
-                        "root": {
-                            "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu",
-                            "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y"
-                        },
-                        "parent": {
-                            "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu",
-                            "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y"
-                        }
-                    },
-                    "createdAt": "2023-05-11T10:15:12.698Z"
-                },
-                "replyCount": 0,
-                "repostCount": 0,
-                "likeCount": 1,
-                "indexedAt": "2023-05-11T10:15:13.161Z",
-                "viewer": {
-                    "like": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.like/3jvh34asm772t"
-                },
-                "labels": []
+        "replyCount": 0,
+        "repostCount": 0,
+        "likeCount": 0,
+        "indexedAt": "2023-05-11T11:57:59.435Z",
+        "viewer": {},
+        "labels": []
+      },
+      "reply": {
+        "root": {
+          "uri": "at://did:plc:aeh5xvhpva7ksoialzs4o77y/app.bsky.feed.post/3jvhacxqpqh2n",
+          "cid": "bafyreie4477tqvjkwffgmwfhcgd4zjuw73xesmpfkcwylucn6xijyfjgha",
+          "author": {
+            "did": "did:plc:aeh5xvhpva7ksoialzs4o77y",
+            "handle": "mzbat.bsky.social",
+            "displayName": "bat 🦇",
+            "avatar": "https://cdn.bsky.social/imgproxy/DCZNdq7mkezO6MIIKOkj4JIxpwvr6ihrVD3mQy_1gAY/rs:fill:1000:1000:1:0/plain/bafkreia3rwn5fvkd3vw5pc6aipivac6tfcbk3ma6qjjymxwzsse2dnjuxa@jpeg",
+            "viewer": {
+              "muted": false,
+              "blockedBy": false,
+              "following": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.graph.follow/3justmfnnia2v",
+              "followedBy": "at://did:plc:aeh5xvhpva7ksoialzs4o77y/app.bsky.graph.follow/3jut3rhljvo2m"
             },
-            "reply": {
-                "root": {
-                    "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y",
-                    "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu",
-                    "author": {
-                        "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
-                        "handle": "chrismcleod.dev",
-                        "displayName": "Chris M",
-                        "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
-                        "viewer": {
-                            "muted": false,
-                            "blockedBy": false
-                        },
-                        "labels": []
-                    },
-                    "record": {
-                        "text": "A test post made using info from the ATproto docs",
-                        "$type": "app.bsky.feed.post",
-                        "createdAt": "2023-05-11T10:09:39.554Z"
-                    },
-                    "replyCount": 1,
-                    "repostCount": 0,
-                    "likeCount": 0,
-                    "indexedAt": "2023-05-11T10:09:39.975Z",
-                    "viewer": {},
-                    "labels": []
-                },
-                "parent": {
-                    "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y",
-                    "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu",
-                    "author": {
-                        "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
-                        "handle": "chrismcleod.dev",
-                        "displayName": "Chris M",
-                        "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
-                        "viewer": {
-                            "muted": false,
-                            "blockedBy": false
-                        },
-                        "labels": []
-                    },
-                    "record": {
-                        "text": "A test post made using info from the ATproto docs",
-                        "$type": "app.bsky.feed.post",
-                        "createdAt": "2023-05-11T10:09:39.554Z"
-                    },
-                    "replyCount": 1,
-                    "repostCount": 0,
-                    "likeCount": 0,
-                    "indexedAt": "2023-05-11T10:09:39.975Z",
-                    "viewer": {},
-                    "labels": []
-                }
-            }
+            "labels": []
+          },
+          "record": {
+            "text": "All this time I thought the number dial on the toaster was the level of toastiness but it’s really just the number of minutes to cook? I’m flabbergasted.",
+            "$type": "app.bsky.feed.post",
+            "createdAt": "2023-05-11T11:48:40.559Z"
+          },
+          "replyCount": 4,
+          "repostCount": 0,
+          "likeCount": 11,
+          "indexedAt": "2023-05-11T11:48:40.795Z",
+          "viewer": {
+            "like": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.like/3jvharu3yuk26"
+          },
+          "labels": []
         },
-        {
-            "post": {
-                "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y",
-                "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu",
-                "author": {
-                    "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
-                    "handle": "chrismcleod.dev",
-                    "displayName": "Chris M",
-                    "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
-                    "viewer": {
-                        "muted": false,
-                        "blockedBy": false
-                    },
-                    "labels": []
-                },
-                "record": {
-                    "text": "A test post made using info from the ATproto docs",
-                    "$type": "app.bsky.feed.post",
-                    "createdAt": "2023-05-11T10:09:39.554Z"
-                },
-                "replyCount": 1,
-                "repostCount": 0,
-                "likeCount": 0,
-                "indexedAt": "2023-05-11T10:09:39.975Z",
-                "viewer": {},
-                "labels": []
-            }
+        "parent": {
+          "uri": "at://did:plc:aeh5xvhpva7ksoialzs4o77y/app.bsky.feed.post/3jvhacxqpqh2n",
+          "cid": "bafyreie4477tqvjkwffgmwfhcgd4zjuw73xesmpfkcwylucn6xijyfjgha",
+          "author": {
+            "did": "did:plc:aeh5xvhpva7ksoialzs4o77y",
+            "handle": "mzbat.bsky.social",
+            "displayName": "bat 🦇",
+            "avatar": "https://cdn.bsky.social/imgproxy/DCZNdq7mkezO6MIIKOkj4JIxpwvr6ihrVD3mQy_1gAY/rs:fill:1000:1000:1:0/plain/bafkreia3rwn5fvkd3vw5pc6aipivac6tfcbk3ma6qjjymxwzsse2dnjuxa@jpeg",
+            "viewer": {
+              "muted": false,
+              "blockedBy": false,
+              "following": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.graph.follow/3justmfnnia2v",
+              "followedBy": "at://did:plc:aeh5xvhpva7ksoialzs4o77y/app.bsky.graph.follow/3jut3rhljvo2m"
+            },
+            "labels": []
+          },
+          "record": {
+            "text": "All this time I thought the number dial on the toaster was the level of toastiness but it’s really just the number of minutes to cook? I’m flabbergasted.",
+            "$type": "app.bsky.feed.post",
+            "createdAt": "2023-05-11T11:48:40.559Z"
+          },
+          "replyCount": 4,
+          "repostCount": 0,
+          "likeCount": 11,
+          "indexedAt": "2023-05-11T11:48:40.795Z",
+          "viewer": {
+            "like": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.like/3jvharu3yuk26"
+          },
+          "labels": []
         }
-    ],
-    "cursor": "1683799779554::bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu"
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh5cu7lzv2h",
+        "cid": "bafyreibambjl4tbpgacmq5kofs6xfgkamjut2vkuql3zpe7dydvf4ykafm",
+        "author": {
+          "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
+          "handle": "chrismcleod.dev",
+          "displayName": "Chris M",
+          "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
+          "viewer": {
+            "muted": false,
+            "blockedBy": false
+          },
+          "labels": []
+        },
+        "record": {
+          "text": "TBH, I'm kinda glad this didn't work 😂\n\nI didn't expect it to, but if you stick something in the protocol called `createInviteCode`, you better believe I'm going to give it a try!",
+          "$type": "app.bsky.feed.post",
+          "embed": {
+            "$type": "app.bsky.embed.images",
+            "images": [
+              {
+                "alt": "A screenshot of an API call made to the createInviteCode AT protocol endpoint. It was unsuccessful due to lack of authorisation",
+                "image": {
+                  "$type": "blob",
+                  "ref": {
+                    "$link": "bafkreicl4wg7bfqecuy5mvw6ygzgxrz7qll22oxupgsp6v6m6sc2iypuzy"
+                  },
+                  "mimeType": "image/jpeg",
+                  "size": 225657
+                }
+              }
+            ]
+          },
+          "createdAt": "2023-05-11T10:54:55.583Z"
+        },
+        "embed": {
+          "$type": "app.bsky.embed.images#view",
+          "images": [
+            {
+              "thumb": "https://cdn.bsky.social/imgproxy/Dx4hVByyiOlNRTyDaOHP0lm8nyc2ElLfEcQ5TOSB0BY/rs:fit:1000:1000:1:0/plain/bafkreicl4wg7bfqecuy5mvw6ygzgxrz7qll22oxupgsp6v6m6sc2iypuzy@jpeg",
+              "fullsize": "https://cdn.bsky.social/imgproxy/LQ6Ni5920A63RVdwkUoKZnWM15PjVFcRwz_atFOnOr4/rs:fit:2000:2000:1:0/plain/bafkreicl4wg7bfqecuy5mvw6ygzgxrz7qll22oxupgsp6v6m6sc2iypuzy@jpeg",
+              "alt": "A screenshot of an API call made to the createInviteCode AT protocol endpoint. It was unsuccessful due to lack of authorisation"
+            }
+          ]
+        },
+        "replyCount": 0,
+        "repostCount": 0,
+        "likeCount": 2,
+        "indexedAt": "2023-05-11T10:54:55.856Z",
+        "viewer": {},
+        "labels": []
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh3fd5mrg2x",
+        "cid": "bafyreiatii5cpouvemlcdpxbi3ulh2joap2rilqd7dtuvuzt4g5qqz7m3q",
+        "author": {
+          "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
+          "handle": "chrismcleod.dev",
+          "displayName": "Chris M",
+          "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
+          "viewer": {
+            "muted": false,
+            "blockedBy": false
+          },
+          "labels": []
+        },
+        "record": {
+          "text": "Well that was a fun hour or so of tinkering around with the protocol to figure out the basics. Some of the lexicon is a little verbose for my tastes, better verbose than ambiguous, I guess.\n\nNow to use this knowledge for good/evil",
+          "$type": "app.bsky.feed.post",
+          "embed": {
+            "$type": "app.bsky.embed.images",
+            "images": [
+              {
+                "alt": "",
+                "image": {
+                  "$type": "blob",
+                  "ref": {
+                    "$link": "bafkreick25qjy6l75xlied3b5ozxl3r6xq54xlks5pacud2ububm3aamve"
+                  },
+                  "mimeType": "image/jpeg",
+                  "size": 98914
+                }
+              }
+            ]
+          },
+          "createdAt": "2023-05-11T10:20:30.929Z"
+        },
+        "embed": {
+          "$type": "app.bsky.embed.images#view",
+          "images": [
+            {
+              "thumb": "https://cdn.bsky.social/imgproxy/9TcZtC0w98I4uQ1DSNBssgw2u1b7fgp4bY7qB78oNxI/rs:fit:1000:1000:1:0/plain/bafkreick25qjy6l75xlied3b5ozxl3r6xq54xlks5pacud2ububm3aamve@jpeg",
+              "fullsize": "https://cdn.bsky.social/imgproxy/6Ph5-LuMWuoS9iV-EFGYDhtkhazlzuHqQMhFeWXs8y8/rs:fit:2000:2000:1:0/plain/bafkreick25qjy6l75xlied3b5ozxl3r6xq54xlks5pacud2ububm3aamve@jpeg",
+              "alt": ""
+            }
+          ]
+        },
+        "replyCount": 0,
+        "repostCount": 0,
+        "likeCount": 1,
+        "indexedAt": "2023-05-11T10:20:31.409Z",
+        "viewer": {},
+        "labels": []
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh33tthzm27",
+        "cid": "bafyreifh4xinbvqujmrbc6unyyhhefn4x6dg3cieutk5u5sp4b6c7hmcki",
+        "author": {
+          "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
+          "handle": "chrismcleod.dev",
+          "displayName": "Chris M",
+          "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
+          "viewer": {
+            "muted": false,
+            "blockedBy": false
+          },
+          "labels": []
+        },
+        "record": {
+          "text": "A test reply made using info from the ATproto docs",
+          "$type": "app.bsky.feed.post",
+          "reply": {
+            "root": {
+              "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu",
+              "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y"
+            },
+            "parent": {
+              "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu",
+              "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y"
+            }
+          },
+          "createdAt": "2023-05-11T10:15:12.698Z"
+        },
+        "replyCount": 0,
+        "repostCount": 0,
+        "likeCount": 1,
+        "indexedAt": "2023-05-11T10:15:13.161Z",
+        "viewer": {
+          "like": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.like/3jvh34asm772t"
+        },
+        "labels": []
+      },
+      "reply": {
+        "root": {
+          "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y",
+          "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu",
+          "author": {
+            "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
+            "handle": "chrismcleod.dev",
+            "displayName": "Chris M",
+            "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
+            "viewer": {
+              "muted": false,
+              "blockedBy": false
+            },
+            "labels": []
+          },
+          "record": {
+            "text": "A test post made using info from the ATproto docs",
+            "$type": "app.bsky.feed.post",
+            "createdAt": "2023-05-11T10:09:39.554Z"
+          },
+          "replyCount": 1,
+          "repostCount": 0,
+          "likeCount": 0,
+          "indexedAt": "2023-05-11T10:09:39.975Z",
+          "viewer": {},
+          "labels": []
+        },
+        "parent": {
+          "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y",
+          "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu",
+          "author": {
+            "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
+            "handle": "chrismcleod.dev",
+            "displayName": "Chris M",
+            "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
+            "viewer": {
+              "muted": false,
+              "blockedBy": false
+            },
+            "labels": []
+          },
+          "record": {
+            "text": "A test post made using info from the ATproto docs",
+            "$type": "app.bsky.feed.post",
+            "createdAt": "2023-05-11T10:09:39.554Z"
+          },
+          "replyCount": 1,
+          "repostCount": 0,
+          "likeCount": 0,
+          "indexedAt": "2023-05-11T10:09:39.975Z",
+          "viewer": {},
+          "labels": []
+        }
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3jvh2rw5ua22y",
+        "cid": "bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu",
+        "author": {
+          "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
+          "handle": "chrismcleod.dev",
+          "displayName": "Chris M",
+          "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
+          "viewer": {
+            "muted": false,
+            "blockedBy": false
+          },
+          "labels": []
+        },
+        "record": {
+          "text": "A test post made using info from the ATproto docs",
+          "$type": "app.bsky.feed.post",
+          "createdAt": "2023-05-11T10:09:39.554Z"
+        },
+        "replyCount": 1,
+        "repostCount": 0,
+        "likeCount": 0,
+        "indexedAt": "2023-05-11T10:09:39.975Z",
+        "viewer": {},
+        "labels": []
+      }
+    }
+  ],
+  "cursor": "1683799779554::bafyreibmcnkzbxtciyydktbatjlpgh5hollpov4zvpwtaaq353vyzfbxwu"
 }
 ```
 
@@ -559,30 +556,30 @@ OK, last one. To get the profile details of a user, we use a GET to [`/xprc/app.
 
 ### Request
 
-```
+```bash
 curl --location 'https://bsky.social/xrpc/app.bsky.actor.getProfile?actor=chrismcleod.dev' \
 --header 'Authorization: Bearer <token>'
 ```
 
 ### Response
 
-```
+```json
 {
-    "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
-    "handle": "chrismcleod.dev",
-    "displayName": "Chris M",
-    "description": "Online since before some of you were born. \nTired.\nLead Software Developer, but I’m not allowed to talk about it.\nHe/him/his. Scotland\n⚠️Potential to post Warhammer content⚠️\n—\nhttps://chrismcleod.dev \nhttp://worldsinminiature.com ",
-    "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
-    "banner": "https://cdn.bsky.social/imgproxy/wNj_cLIyXZOj2m2t_nbehxg4JVAHzixb8iXFG5uNuwA/rs:fill:3000:1000:1:0/plain/bafkreicgnnuuhbz6eb7hcnrisjeyekgexea6pcdxp5uob56zohsp56jzd4@jpeg",
-    "followsCount": 140,
-    "followersCount": 64,
-    "postsCount": 82,
-    "indexedAt": "2023-05-09T19:44:05.927Z",
-    "viewer": {
-        "muted": false,
-        "blockedBy": false
-    },
-    "labels": []
+  "did": "did:plc:fcewtyqycu5qlt26tnbnan6h",
+  "handle": "chrismcleod.dev",
+  "displayName": "Chris M",
+  "description": "Online since before some of you were born. \nTired.\nLead Software Developer, but I’m not allowed to talk about it.\nHe/him/his. Scotland\n⚠️Potential to post Warhammer content⚠️\n—\nhttps://chrismcleod.dev \nhttp://worldsinminiature.com ",
+  "avatar": "https://cdn.bsky.social/imgproxy/42qD9eitqqNjGc7IXG6e13lmN2IH_m9RqUTH1ih-oDQ/rs:fill:1000:1000:1:0/plain/bafkreigc4hh664b524ku2tbkrsubserosqqlj3tsxuqxpg72lbng3xcfay@jpeg",
+  "banner": "https://cdn.bsky.social/imgproxy/wNj_cLIyXZOj2m2t_nbehxg4JVAHzixb8iXFG5uNuwA/rs:fill:3000:1000:1:0/plain/bafkreicgnnuuhbz6eb7hcnrisjeyekgexea6pcdxp5uob56zohsp56jzd4@jpeg",
+  "followsCount": 140,
+  "followersCount": 64,
+  "postsCount": 82,
+  "indexedAt": "2023-05-09T19:44:05.927Z",
+  "viewer": {
+    "muted": false,
+    "blockedBy": false
+  },
+  "labels": []
 }
 ```
 
