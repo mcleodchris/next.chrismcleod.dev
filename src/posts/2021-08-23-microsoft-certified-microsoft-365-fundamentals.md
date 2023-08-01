@@ -1,22 +1,23 @@
 ---
-title: "Microsoft Certified: Microsoft 365 Fundamentals"
+title: 'Microsoft Certified: Microsoft 365 Fundamentals'
 created: 2021-08-23
-categories: 
+categories:
   - general-life
   - work
-tags: 
+tags:
   - azure
   - certifications
   - certified
   - exam
   - microsoft
   - ms-900
-authors: 
+authors:
   - chris
-image: \assets\images\microsoft-365-certified-fundamentals1-1.png
+image: https://assets.chrism.cloud/chrismcleod.dev/images/microsoft-365-certified-fundamentals1-1.png
+redirectFrom: ['/2021/08/23/microsoft-certified-microsoft-365-fundamentals/']
 ---
 
-![](assets/images/microsoft-365-certified-fundamentals1-1.png)
+{% image "https://assets.chrism.cloud/chrismcleod.dev/images/microsoft-365-certified-fundamentals1-1.png", "Microsoft 365 Fundamentals achievement badge" %}
 
 Note to self: don't book exams for very first thing on a Monday, as you might not get to finish your coffee beforehand! Bad scheduling aside, this morning I passed the [Microsoft MS-900 exam](https://docs.microsoft.com/en-gb/learn/certifications/exams/ms-900). This takes me to five certifications this year, adding [Microsoft Certified: Microsoft 365 Fundamentals](https://www.credly.com/earner/earned/badge/0fc01218-224c-4e42-8905-08ed56bd78c8) to the list.
 

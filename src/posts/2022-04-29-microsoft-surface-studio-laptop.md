@@ -9,6 +9,7 @@ tags:
   - surface-studio-laptop
 authors:
   - chris
+redirectFrom: ['/2022/04/29/microsoft-surface-studio-laptop/']
 ---
 
 This [review of the Microsoft Surface Studio Laptop, by Bill Bennett](https://billbennett.co.nz/surface-laptop-studio-review/), largely matches my own experiences with it. I've been using the Studio for the last couple of months, having bought it as a replacement for my aging self-built desktop, and it's easily one of the best laptops I've ever used. Definitely the best _Windows_ laptop.

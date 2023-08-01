@@ -1,15 +1,16 @@
 ---
-title: "A Belated Check-in"
+title: 'A Belated Check-in'
 created: 2021-10-27
-categories: 
+categories:
   - general-life
-tags: 
+tags:
   - general
   - hobby
   - life
   - work
-authors: 
+authors:
   - chris
+redirectFrom: ['/2021/10/27/a-belated-check-in/']
 ---
 
 You know when you have something nagging at you, where it's "I should be doing this, I _want_ to do this, but I just don't have any drive"? That's been me looking at this editor most days for the last 2 months. _Ennui_, I think they call it. But not really through boredom in my case. Just the overwhelming sense of \*waves arms at everything\* getting on top of me a bit lately. So now that I'm managing to get some words out, what have I been up to?

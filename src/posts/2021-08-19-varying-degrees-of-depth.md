@@ -1,17 +1,18 @@
 ---
-title: "Varying Degrees of Depth"
+title: 'Varying Degrees of Depth'
 created: 2021-08-19
-categories: 
+categories:
   - general-life
-tags: 
+tags:
   - azure
   - certifications
   - microsoft
   - microsoft-365
   - ms-900
   - study
-authors: 
+authors:
   - chris
+redirectFrom: ['/2021/08/19/varying-degrees-of-depth/']
 ---
 
 I'm studying for the MS-900 exam (yes, yes, I know [I said I was going to take a break from exams](/2021/07/29/microsoft-certified-security-compliance-and-identity-fundamentals/)…), and one thing I'm really struggling to reconcile in my head is that all of the security-related questions are **much** more technically in-depth than any of the questions I remember getting in the security-focussed SC-900 exam or its preparation material. In fact, a lot of the questions seem to be more in-depth than the equivilent tests for most of the other Fundamentals-level exams I've studied for.

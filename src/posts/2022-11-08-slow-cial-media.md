@@ -1,14 +1,15 @@
 ---
-title: "\"Slow-cial Media\""
+title: '"Slow-cial Media"'
 created: 2022-11-08
-categories: 
+categories:
   - general-life
-tags: 
+tags:
   - mastodon
   - social-media
   - technology
-authors: 
+authors:
   - chris
+redirectFrom: ['/2022/11/08/slow-cial-media/']
 ---
 
 I jokingly called Mastodon “slow-cial media” yesterday, because everything is happening on a time delay at the moment while the network adjusts to the extra traffic – me posting vs followers seeing the toot, interactions with the toot vs me getting the notification, me seeing new toots, etc; everything feels 1-3 hours behind when it happened – and I meant it as a good thing because it’s unintentionally made my experience a little bit nicer and more relaxing. There’s no pressure due to everything being fast-paced and “now, now, now!”

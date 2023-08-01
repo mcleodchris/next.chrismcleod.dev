@@ -1,10 +1,11 @@
 ---
-title: "Micro.blog adds (tentative) support for moving from Mastodon"
+title: 'Micro.blog adds (tentative) support for moving from Mastodon'
 created: 2022-12-02
-categories: 
+categories:
   - uncategorised
-authors: 
+authors:
   - chris
+redirectFrom: ['/2022/12/02/micro-blog-adds-tentative-support-for-moving-from-mastodon/']
 ---
 
 _Bookmarked [https://www.manton.org/2022/12/02/moving-from-mastodon.html](https://www.manton.org/2022/12/02/moving-from-mastodon.html)._

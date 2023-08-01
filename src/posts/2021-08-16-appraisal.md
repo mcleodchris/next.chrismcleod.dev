@@ -10,6 +10,7 @@ tags:
   - productivity
 authors:
   - chris
+redirectFrom: ['/2021/08/16/appraisal/']
 ---
 
 I had my yearly performance review/annual appraisal today. I know a lot of developers (and non-developers!) who treat these with a very dismissive or laid-back attitude. A lot of the time it's because it's seen as a "box ticking" exercise with little obvious benefit to the appraised. Another common attitude I've seen over the years is that the outcome is already decided before the meeting, often on personal or emotive reasons rather than an honest and clear-eyed look at how the preceding twelve months have gone.

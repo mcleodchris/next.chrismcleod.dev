@@ -1,22 +1,23 @@
 ---
-title: "Microsoft Certified: Azure Developer Associate"
+title: 'Microsoft Certified: Azure Developer Associate'
 created: 2022-03-31
-categories: 
+categories:
   - general-life
   - work
-tags: 
+tags:
   - az-204
   - azure
   - certifications
   - certified
   - exam
   - microsoft
-authors: 
+authors:
   - chris
-image: \assets\images\microsoft-certified-azure-developer-associate.1.png
+image: https://assets.chrism.cloud/chrismcleod.dev/2022/04/microsoft-certified-azure-developer-associate.1.png
+redirectFrom: ['/2022/03/31/microsoft-certified-azure-developer-associate/']
 ---
 
-![](assets/images/microsoft-certified-azure-developer-associate.1.png)
+{% image "https://assets.chrism.cloud/chrismcleod.dev/2022/04/microsoft-certified-azure-developer-associate.1.png", "Microsoft Azure Developer Associate achievement badge" %}
 
 Finally, I got around to my first Associate-level Microsoft certification. I'd originally planned to sit the AZ-204 exam for the Azure Developer Associate certification in November, as a follow-on to sitting AZ-104 in September. I'd fit AZ-102 somewhere after those, as I just wanted to do that one for fun. In the end, that all turned out to be too ambitious; with work being as busy as it turned out to be, and me quickly realising I'd bitten off more than I could chew, I kicked both exams further down the road. Both were pushed into February, while I figured out how I wanted to approach things. I decided I would give myself space to pass one Associate exam before committing to any more. For whatever reason, on the day I made the decision I was more confident about the Azure Developer material (funny that, given I'm a _Lead Developer_!), rather than the Administrator course, so I went with that. But I still needed a deadline, preferably not too far in the future, so March 31st was picked!
 

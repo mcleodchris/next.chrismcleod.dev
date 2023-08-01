@@ -1,10 +1,11 @@
 ---
-title: "Ooh.directory"
+title: 'Ooh.directory'
 created: 2022-12-02
-categories: 
+categories:
   - uncategorised
-authors: 
+authors:
   - chris
+redirectFrom: ['/2022/12/02/ooh-directory/']
 ---
 
 _Bookmarked [https://ooh.directory/](https://ooh.directory/)._

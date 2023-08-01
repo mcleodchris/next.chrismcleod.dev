@@ -1,15 +1,16 @@
 ---
-title: "Going Independent (again)"
+title: 'Going Independent (again)'
 created: 2022-04-28
-categories: 
+categories:
   - general-life
-tags: 
+tags:
   - activitypub
   - fediverse
   - indieweb
   - openweb
-authors: 
+authors:
   - chris
+redirectFrom: ['/2022/04/28/going-independent-again/']
 ---
 
 All going well - and DNS willing - this site has been migrated off of Wordpress.com and back to self-hosted. That's all well and good, but along the way, the site has picked up a couple of new tricks -
