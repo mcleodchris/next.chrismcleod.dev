@@ -1,6 +1,6 @@
 ---
 title: 'Fixing create-react-app'
-created: 2021-12-17
+date: 2021-12-17
 categories:
   - projects
   - work

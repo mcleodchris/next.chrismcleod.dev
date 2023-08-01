@@ -1,6 +1,6 @@
 ---
 title: 'Promotion Panel Post-Mortem'
-created: 2021-02-09
+date: 2021-02-09
 categories:
   - work
 tags:

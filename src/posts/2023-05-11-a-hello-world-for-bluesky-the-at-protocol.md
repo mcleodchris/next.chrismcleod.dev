@@ -1,6 +1,6 @@
 ---
 title: 'A "Hello World" for bluesky/the AT protocol'
-created: 2023-05-11
+date: 2023-05-11
 categories:
   - projects
 tags:

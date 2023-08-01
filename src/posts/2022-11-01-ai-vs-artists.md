@@ -1,6 +1,6 @@
 ---
 title: 'AI vs Artists'
-created: 2022-11-01
+date: 2022-11-01
 categories:
   - uncategorised
 authors:

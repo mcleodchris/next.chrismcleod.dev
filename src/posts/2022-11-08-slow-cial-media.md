@@ -1,6 +1,6 @@
 ---
 title: '"Slow-cial Media"'
-created: 2022-11-08
+date: 2022-11-08
 categories:
   - general-life
 tags:

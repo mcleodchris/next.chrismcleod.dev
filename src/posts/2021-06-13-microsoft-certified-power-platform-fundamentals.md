@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft Certified: Power Platform Fundamentals'
-created: 2021-06-13
+date: 2021-06-13
 categories:
   - general-life
   - work

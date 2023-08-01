@@ -1,6 +1,6 @@
 ---
 title: 'Talking to Myself'
-created: 2021-02-04
+date: 2021-02-04
 categories:
   - work
 tags:

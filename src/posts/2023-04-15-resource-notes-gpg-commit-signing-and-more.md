@@ -1,6 +1,6 @@
 ---
 title: 'Resource Notes: GPG, commit signing and more'
-created: 2023-04-15
+date: 2023-04-15
 categories:
   - uncategorised
 tags:

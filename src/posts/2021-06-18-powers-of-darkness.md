@@ -1,6 +1,6 @@
 ---
 title: 'Powers of Darkness'
-created: 2021-06-18
+date: 2021-06-18
 categories:
   - books
 tags:

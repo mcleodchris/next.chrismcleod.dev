@@ -1,6 +1,6 @@
 ---
 title: 'Micro.blog adds (tentative) support for moving from Mastodon'
-created: 2022-12-02
+date: 2022-12-02
 categories:
   - uncategorised
 authors:

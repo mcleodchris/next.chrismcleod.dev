@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft Surface Studio Laptop'
-created: 2022-04-29
+date: 2022-04-29
 categories:
   - general-life
 tags:

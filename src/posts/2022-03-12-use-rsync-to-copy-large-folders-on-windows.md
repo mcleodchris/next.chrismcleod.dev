@@ -1,6 +1,6 @@
 ---
 title: 'Use Rsync to copy large folders on Windows'
-created: 2022-03-12
+date: 2022-03-12
 categories:
   - general-life
 tags:

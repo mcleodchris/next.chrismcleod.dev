@@ -1,6 +1,6 @@
 ---
 title: 'Some Development Environment Notes'
-created: 2021-09-01
+date: 2021-09-01
 categories:
   - work
 tags:

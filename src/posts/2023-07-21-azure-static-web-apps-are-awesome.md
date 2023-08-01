@@ -1,6 +1,6 @@
 ---
 title: 'Azure Static Web Apps are Awesome!'
-created: 2023-07-21
+date: 2023-07-21
 categories:
   - general-life
   - projects

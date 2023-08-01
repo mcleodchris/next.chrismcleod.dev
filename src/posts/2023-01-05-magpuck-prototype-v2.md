@@ -1,6 +1,6 @@
 ---
 title: 'MagPuck Prototype v2'
-created: 2023-01-05
+date: 2023-01-05
 categories:
   - general-life
   - projects

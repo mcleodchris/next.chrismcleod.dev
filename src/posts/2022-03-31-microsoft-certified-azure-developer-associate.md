@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft Certified: Azure Developer Associate'
-created: 2022-03-31
+date: 2022-03-31
 categories:
   - general-life
   - work

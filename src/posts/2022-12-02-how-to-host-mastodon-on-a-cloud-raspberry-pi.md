@@ -1,6 +1,6 @@
 ---
 title: 'How to host Mastodon on a Cloud Raspberry Pi'
-created: 2022-12-02
+date: 2022-12-02
 categories:
   - uncategorised
 authors:

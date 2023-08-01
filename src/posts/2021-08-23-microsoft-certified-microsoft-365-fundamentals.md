@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft Certified: Microsoft 365 Fundamentals'
-created: 2021-08-23
+date: 2021-08-23
 categories:
   - general-life
   - work

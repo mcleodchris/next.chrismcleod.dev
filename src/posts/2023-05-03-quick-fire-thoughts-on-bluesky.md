@@ -1,6 +1,6 @@
 ---
 title: 'Quick-fire Thoughts on Bluesky'
-created: 2023-05-03
+date: 2023-05-03
 categories:
   - general-life
 tags:

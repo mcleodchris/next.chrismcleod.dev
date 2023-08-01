@@ -1,6 +1,6 @@
 ---
 title: 'Installing Threads on Windows 11'
-created: 2023-07-10
+date: 2023-07-10
 categories:
   - general-life
 tags:

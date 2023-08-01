@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft Certified: Azure Fundamentals'
-created: 2020-05-21
+date: 2020-05-21
 categories:
   - general-life
   - work

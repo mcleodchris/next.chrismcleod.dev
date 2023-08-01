@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft Certified: Security, Compliance, and Identity Fundamentals'
-created: 2021-07-29
+date: 2021-07-29
 categories:
   - general-life
   - work

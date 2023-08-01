@@ -1,6 +1,6 @@
 ---
 title: 'Updating Apps; Updating Skills'
-created: 2022-12-22
+date: 2022-12-22
 categories:
   - general-life
   - projects

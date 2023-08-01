@@ -1,6 +1,6 @@
 ---
 title: 'A Typical Day'
-created: 2021-01-16
+date: 2021-01-16
 categories:
   - general-life
   - work

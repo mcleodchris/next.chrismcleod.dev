@@ -1,6 +1,6 @@
 ---
 title: 'Warhammer x Amazon'
-created: 2022-12-16
+date: 2022-12-16
 categories:
   - general-life
 tags:

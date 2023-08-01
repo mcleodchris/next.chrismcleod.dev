@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft Certified: Azure AI Fundamentals'
-created: 2021-06-26
+date: 2021-06-26
 categories:
   - general-life
   - work

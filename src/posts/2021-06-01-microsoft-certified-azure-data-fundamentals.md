@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft Certified: Azure Data Fundamentals'
-created: 2021-06-01
+date: 2021-06-01
 categories:
   - general-life
   - work

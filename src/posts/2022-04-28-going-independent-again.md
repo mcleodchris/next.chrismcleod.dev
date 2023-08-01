@@ -1,6 +1,6 @@
 ---
 title: 'Going Independent (again)'
-created: 2022-04-28
+date: 2022-04-28
 categories:
   - general-life
 tags:

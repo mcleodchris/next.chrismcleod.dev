@@ -1,6 +1,6 @@
 ---
 title: 'Aberdeen Art Gallery, June 2021'
-created: 2021-06-22
+date: 2021-06-22
 categories:
   - general-life
 tags:

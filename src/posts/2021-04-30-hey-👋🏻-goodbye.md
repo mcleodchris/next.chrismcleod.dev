@@ -1,6 +1,6 @@
 ---
 title: 'Hey 👋🏻 Goodbye'
-created: 2021-04-30
+date: 2021-04-30
 categories:
   - general-life
 tags:
