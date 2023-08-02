@@ -1,5 +1,5 @@
 module.exports = {
-  url: 'https://chrismcleod.dev/',
+  url: 'https://chrismcleod.dev',
   siteName: 'Chris McLeod',
   siteDescription:
     'Chris McLeod is a software developer with over 20 years of experience. Sometimes he writes about it.',
@@ -9,7 +9,7 @@ module.exports = {
   skipContent: 'Skip to content',
   author: 'Chris McLeod', // i.e. Lene Saile - author's name. Must be set.
   authorEmail: '', // i.e. hola@lenesaile.com - email of the author
-  authorWebsite: 'https://chrismcleod.dev/', // i.e. https.://www.lenesaile.com - the personal site of the author
+  authorWebsite: 'https://chrismcleod.dev', // i.e. https.://www.lenesaile.com - the personal site of the author
   themeColor: '#D81E5B', //  Manifest: defines the default theme color for the application
   themeBgColor: '#F4F7F5', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
   meta_data: {

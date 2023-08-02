@@ -7,7 +7,8 @@ const imageShortcodePlaceholder = async (
   alt,
   caption,
   sizes = '(min-width: 55rem) 820px, 100vw',
-  classes = ''
+  classes = '',
+  lazy = true
 ) => {
   if (!alt) {
     throw new Error(`Missing \`alt\` on myImage from: ${src}`);
@@ -17,13 +18,7 @@ const imageShortcodePlaceholder = async (
     widths: [320, 570, 820],
     formats: ['avif', 'webp', 'jpeg'],
     urlPath: '/assets/images/',
-    outputDir: './dist/assets/images/',
-    filenameFormat: function (id, src, width, format, options) {
-      const extension = path.extname(src);
-      const name = `${id}-${path.basename(src, extension)}`;
-
-      return `${name}-${width}w.${format}`;
-    }
+    outputDir: './dist/assets/images/'
   });
 
   let lowsrc = metadata.jpeg[metadata.jpeg.length - 1];
@@ -53,7 +48,7 @@ const imageShortcodePlaceholder = async (
         width="${lowsrc.width}"
         height="${lowsrc.height}"
         alt="${alt}"
-				loading = 'lazy'
+				${lazy ? 'loading="lazy"' : ''}
         decoding="async"
         class="${classes}">
     </picture>
