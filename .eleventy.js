@@ -111,7 +111,9 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.setLibrary('md', markdownLib);
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(inclusiveLangPlugin);
+  eleventyConfig.addPlugin(inclusiveLangPlugin, {
+    words: 'simply,obviously,basically,of course,clearly,everyone knows'
+  });
   eleventyConfig.addPlugin(bundlerPlugin);
 
   // 	--------------------- Passthrough File Copy -----------------------

@@ -15,7 +15,7 @@ redirectFrom: ['/2021/01/01/objectives-for-2021/']
 
 ## A Short Introduction and TL;DR
 
-I'm not one to make New Year's resolutions; the changing of the year is more-or-less just another day to me, and I tend not to assign it significance enough to make goals in advance. That said, I do like to set myself some objectives once I've got an idea for where the year might be headed. 2020 was a bit of a disaster on this front, but more on that in a retrospective blog post. Anyway, as I know roughly where I expect the first six months of the year to go, now seems as good a time as any to write down some of those objectives (in no particular order):
+I'm not one to make New Year's resolutions; the changing of the year is more-or-less like any another day to me, and I tend not to assign it significance enough to make goals in advance. That said, I do like to set myself some objectives once I've got an idea for where the year might be headed. 2020 was a bit of a disaster on this front, but more on that in a retrospective blog post. Anyway, as I know roughly where I expect the first six months of the year to go, now seems as good a time as any to write down some of those objectives (in no particular order):
 
 1. Get Promoted.
 2. Get Certified.
@@ -48,7 +48,7 @@ I'm not sure how much explanation this one needs: with all of the lockdowns, "st
 
 In late 2019 and pre-COVID 2020 I was successfully working hard to lose weight. I can't reinstate the exact same routines in 2021, but I have an exercise bike, [Apple Fitness +](https://www.apple.com/uk/apple-fitness-plus/), and a desire to get back on track.
 
-I'm not asking for any sort of miracle weight loss. Just to feel more comfortable in some of my clothes again, and some signs of improvement.
+I'm not asking for any sort of miracle weight loss, but to feel more comfortable in some of my clothes again, and some signs of improvement.
 
 ### 4\. Continue My DevOps Journey
 
@@ -58,7 +58,7 @@ But I'm conscious that projects tend to come to an end eventually, and DevOps sk
 
 Internally, we offer a DevOps "boot camp", which is a short, intensive, pathway into the DevOps world. I took part in the first version of the course, but it's been refreshed and now offers a direct path to two further Microsoft accreditations - both of which I had planned to study for in my free time. I figure that if the company are willing to pay for these, then I might as well take them up on the offer!
 
-The main challenge I'm going to have with this objective is time. It's a self-study course, nominally over a 3 week period, and then there's the exams to prepare for after that. With everything else going on at the moment, I simply don't have the time to spareâ€¦ and I worry about losing momentum. But this is part of the reason to write it down here - to hold myself accountable!
+The main challenge I'm going to have with this objective is time. It's a self-study course, nominally over a 3 week period, and then there's the exams to prepare for after that. With everything else going on at the moment, I don't have the time to spareâ€¦ and I worry about losing momentum. But this is part of the reason to write it down here - to hold myself accountable!
 
 ## Wrap-up
 

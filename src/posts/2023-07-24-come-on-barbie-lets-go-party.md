@@ -14,7 +14,7 @@ gradient: true
 redirectFrom: ['/2023/07/24/come-on-barbie-lets-go-party/']
 ---
 
-I recently had the pleasure of visiting the cinema to watch the highly anticipated movie, Barbie, and I must say, it was an absolute blast! Going in, I had mixed expectations - basically expecting something similar to The Lego Movie (funny, a few touching moments, but ultimately empty), but what I got was so much more.
+I recently had the pleasure of visiting the cinema to watch the highly anticipated movie, Barbie, and I must say, it was an absolute blast! Going in, I had mixed expectations - essentially expecting something similar to The Lego Movie (funny, a few touching moments, but ultimately empty), but what I got was so much more.
 
 From the very start, I was hooked. I was pretty much smiling or laughing the whole way through. It weaved heartwarming moments throughout, making it a well-rounded and engaging experience. Margot Robbie and Ryan Gosling were undoubtedly the stars of the show, and they played their roles to perfection, adding an extra layer of charm to the movie.
 

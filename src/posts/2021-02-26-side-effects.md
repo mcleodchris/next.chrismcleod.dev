@@ -21,7 +21,7 @@ First off, for the first 24 hours (almost exactly) after the jab, I had zero sid
 - chills
 - body aches
 
-In all, it was like I had a bad cold, just without a runny nose. I went to bed slightly early last night, feeling a little rough and expecting to feel rubbish this morning.
+In all, it was like I had a bad cold, but without a runny nose. I went to bed slightly early last night, feeling a little rough and expecting to feel rubbish this morning.
 
 As it turned out, I woke up feeling absolutely fine. It's as if yesterday afternoon/evening didn't happen at all.
 
