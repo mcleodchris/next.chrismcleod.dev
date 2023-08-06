@@ -31,7 +31,7 @@ nav.navbar {
 
 /* Remove default list styling and create layout for list */
 nav.navbar ul {
-  background: var(--nav-list-background, var(--color-light));
+  background: var(--nav-list-background, var(--color-bg));
   box-shadow: var(--nav-list-shadow, -5px 0 11px 0 rgb(0 0 0 / 0.2));
   display: flex;
   flex-direction: var(--nav-list-layout, column);
@@ -63,7 +63,7 @@ nav.navbar [aria-expanded='false'] + ul {
 
 /* Basic link styling */
 nav.navbar a {
-  --text-color: var(--color-dark);
+  --text-color: var(--color-fg);
   color: var(--text-color);
   padding: 0.1rem;
   text-decoration: none;

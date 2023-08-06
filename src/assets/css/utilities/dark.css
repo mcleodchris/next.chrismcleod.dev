@@ -1,0 +1,41 @@
+/* Dark mode overrides to colours as required */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-fg: var(--color-light);
+    --color-bg: var(--color-inverse-dark);
+    --color-primary: var(--color-inverse-primary);
+    --color-secondary: var(--color-inverse-secondary);
+    --color-primary-glare: var(--color-inverse-primary-glare);
+    --color-secondary-glare: var(--color-inverse-secondary-glare);
+    --spot-color: var(--color-inverse-primary);
+  }
+  img {
+    filter: brightness(0.8) contrast(1.2);
+  }
+  .card {
+    background: var(--color-inverse-dark-glare);
+    border: 4px solid var(--color-inverse-dark-glare);
+    color: var(--color-fg);
+  }
+  .site-foot {
+    background: var(--color-inverse-dark-glare);
+    color: var(--color-fg);
+  }
+  .spot-color-primary .section__inner,
+  .spot-color-primary .seperator {
+    --spot-color: var(--color-inverse-primary);
+  }
+  .spot-color-secondary .section__inner,
+  .spot-color-secondary .seperator {
+    --spot-color: var(--color-inverse-secondary);
+  }
+  .section__inner {
+    color: var(--color-fg);
+  }
+  code[class*='language-'],
+  pre[class*='language-'],
+  code {
+    background: var(--color-inverse-dark-glare);
+    color: var(--color-fg);
+  }
+}

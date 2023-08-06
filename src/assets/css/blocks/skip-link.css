@@ -15,8 +15,8 @@
   block-size: auto;
   overflow: visible;
   inline-size: auto;
-  background-color: var(--color-dark);
-  color: var(--color-light);
+  background-color: var(--color-fg);
+  color: var(--color-bg);
   padding: var(--space-s-m);
   line-height: 1;
 }

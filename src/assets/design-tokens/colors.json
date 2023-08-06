@@ -29,6 +29,38 @@
     {
       "name": "Secondary Glare",
       "value": "#1D4E89"
+    },
+    {
+      "name": "Inverse Light",
+      "value": "#2B2926"
+    },
+    {
+      "name": "Inverse Dark",
+      "value": "#181920"
+    },
+    {
+      "name": "Inverse Dark Glare",
+      "value": "#272934"
+    },
+    {
+      "name": "Inverse Light Glare",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "Inverse Primary",
+      "value": "#3bb0a5"
+    },
+    {
+      "name": "Inverse Primary Glare",
+      "value": "#54fcec"
+    },
+    {
+      "name": "Inverse Secondary",
+      "value": "#6021e0"
+    },
+    {
+      "name": "Inverse Secondary Glare",
+      "value": "#8a25ff"
     }
   ]
 }

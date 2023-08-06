@@ -1,7 +1,7 @@
 .card {
-  background: var(--color-dark);
-  border: 4px solid var(--color-dark);
-  color: var(--color-light);
+  background: var(--color-fg);
+  border: 4px solid var(--color-fg);
+  color: var(--color-bg);
   padding: var(--space-m-l);
   border-radius: var(--border-radius);
   max-inline-size: unset;
@@ -9,7 +9,7 @@
 }
 
 .card ::selection {
-  color: var(--color-dark);
+  color: var(--color-fg);
   background: var(--color-secondary);
 }
 
@@ -25,13 +25,7 @@
 .card:hover,
 .card:focus-within {
   border: 4px solid var(--color-primary);
-  background: conic-gradient(
-    var(--color-primary) 0 33%,
-    var(--color-secondary) 0 55%,
-    #011936 0 70%,
-    #db222a 0 87%,
-    #51a3a3 0 100%
-  );
+  background: var(--sparkle, var(--color-bg));
 }
 
 .card a {

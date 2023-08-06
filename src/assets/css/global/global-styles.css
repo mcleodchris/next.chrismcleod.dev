@@ -5,8 +5,8 @@
   project: https://cube.fyi/css.html
 */
 body {
-  color: var(--color-dark);
-  background: var(--color-light);
+  color: var(--color-fg);
+  background: var(--color-bg);
   font-size: var(--size-step-1);
   font-family: var(--font-base);
   line-height: 1.4;
@@ -114,7 +114,7 @@ article [href^='http']:not([href*='chrismcleod.dev'])::after {
 /* Base selection styles that invert whatever colours are rendered */
 ::selection {
   background: var(--color-primary);
-  color: var(--color-light);
+  color: var(--color-bg);
 }
 
 .preload-transitions * {

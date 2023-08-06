@@ -2,9 +2,9 @@ code,
 pre {
   padding: 0.125em 0.4em;
   font-family: var(--font-mono);
-  background: var(--color-dark);
+  background: var(--color-fg);
   border-radius: var(--border-radius);
-  color: var(--color-light);
+  color: var(--color-bg);
   font-size: var(--size-step-0);
 }
 
@@ -23,8 +23,8 @@ pre[class*='language-'] {
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
-  color: var(--color-light);
-  background: var(--color-dark);
+  color: var(--color-bg);
+  background: var(--color-fg);
   line-height: 1.5;
   border-radius: var(--border-radius);
 
