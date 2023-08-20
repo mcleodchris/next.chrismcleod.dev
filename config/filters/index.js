@@ -121,6 +121,8 @@ const splitlines = (input, maxCharLength) => {
   return lines;
 };
 
+const jsonToString = json => JSON.stringify(json, null, 2);
+
 module.exports = {
   limit,
   toHtml,
@@ -132,5 +134,6 @@ module.exports = {
   minifyCss,
   minifyJs,
   mdInline,
-  splitlines
+  splitlines,
+  jsonToString
 };

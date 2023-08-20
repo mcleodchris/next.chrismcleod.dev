@@ -1,0 +1,33 @@
+---
+layout: base
+---
+
+<header class="section spot-color-secondary">
+    {% include 'svg/divider-waves-inverse.svg' %}
+    <div class="section__inner region">
+        <div class="wrapper flow">
+            <section class="prose text-center">
+                <h1 class="fade-in">{{ title }}</h1>
+            </section>
+        </div>
+    </div>
+    {% include 'svg/divider-waves.svg' %}
+</header>
+<article class="region page">
+    <div class="wrapper flow prose">
+        {{ content | safe }}
+    </div>
+</article>
+<article class="wrapper region">
+    {% for tag in feeds %}
+        <h2>{{ tag.name }}</h2>
+        <ol>
+            {% for link in tag.feeds %}
+                <li>
+                    <a href="{{ link.site_url | url }}">{{ link.title }}</a>
+                    ({{ link.domain }})
+                </li>
+            {% endfor %}
+        </ol>
+    {% endfor %}
+</article>

@@ -5,6 +5,10 @@ module.exports = {
       url: '/blog/'
     },
     {
+      text: 'Links',
+      url: '/links/'
+    },
+    {
       text: 'Elsewhere',
       url: 'https://links.chrism.cloud/'
     }

@@ -12,6 +12,7 @@
 /**
  *  @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig
  */
+require('dotenv').config();
 
 // get package.json
 const packageVersion = require('./package.json').version;
@@ -28,7 +29,8 @@ const {
   minifyCss,
   minifyJs,
   mdInline,
-  splitlines
+  splitlines,
+  jsonToString
 } = require('./config/filters/index.js');
 
 // module import shortcodes
@@ -85,6 +87,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('keys', Object.keys);
   eleventyConfig.addFilter('values', Object.values);
   eleventyConfig.addFilter('entries', Object.entries);
+  eleventyConfig.addFilter('jsonToString', jsonToString);
 
   // 	--------------------- Custom shortcodes ---------------------
   eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcodePlaceholder);
