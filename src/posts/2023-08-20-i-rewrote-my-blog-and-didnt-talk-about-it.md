@@ -1,6 +1,6 @@
 ---
 title: I Rebuilt My Blog and Didn't Write About It
-date: 2023-08-10
+date: 2023-08-20
 tags:
   - blog
   - blogging
