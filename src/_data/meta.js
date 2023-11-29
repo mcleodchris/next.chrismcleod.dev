@@ -32,5 +32,5 @@ module.exports = {
   menu: {
     closedText: 'Menu'
   },
-  indieauth: 'https://github.com/mcleodch'
+  indieauth: 'https://github.com/mcleodchris'
 };
