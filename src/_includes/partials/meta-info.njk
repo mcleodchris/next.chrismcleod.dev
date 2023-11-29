@@ -44,3 +44,6 @@ name="twitter:dnt" content="on"/> <!-- Favicon -->
 <link rel="icon" type="image/png" href="{{ '/favicon-32x32.png' | url }}" sizes="32x32"/>
 <link rel="icon" type="image/png" href="{{ '/favicon-16x16.png' | url }}" sizes="16x16"/>
 <link rel="manifest" href="{{ '/site.webmanifest' | url }}"/>
+{% if meta.indieauth %}
+  <link href="{{ meta.indieauth }}" rel="me authn"/>
+{% endif %}
