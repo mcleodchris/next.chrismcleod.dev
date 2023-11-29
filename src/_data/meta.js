@@ -31,5 +31,6 @@ module.exports = {
   address: {},
   menu: {
     closedText: 'Menu'
-  }
+  },
+  indieauth: 'https://github.com/mcleodch'
 };
