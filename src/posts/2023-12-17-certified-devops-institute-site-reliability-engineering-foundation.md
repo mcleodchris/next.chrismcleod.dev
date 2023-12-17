@@ -1,0 +1,22 @@
+---
+title: 'Certified: DevOps Institute Site Reliability Engineering Fundamentals'
+date: 2023-12-17T20:11Z
+tags:
+  - certification
+  - certified
+  - SRE
+  - 'Site Reliability Engineering'
+  - 'DevOps Institute'
+---
+
+It's been a very busy week, so I'm only managing to blog about this now, even though it happened last weekend. Last Saturday (9th December) I sat and passed [the Foundation-level DevOps Institute certification for Site Reliability Engineering](https://www.devopsinstitute.com/certifications/sre-foundation/). This was a bit of a spur-of-the-moment certification to sit; it was instigated by a random conversation with a manager (not one of my own) who brought up Site Reliability Engineering, and the need to have more knowledge of it within our area of the organisation. It was a topic I was aware of through my various DevOps studies, but not as anything more than a passing mention. In order to be able to start fleshing out our internal wikis with at least some basic information (that other, more experienced colleagues could then bulk out further), I started looking at some of the internal training resources for more information. Fast forward another 2 weeks, and I had an unexpected opportunity to go on a 2-day external training course that included a voucher for sitting the certification exam. Wanting to strike while the iron was hot, I scheduled the exam for the day after the training, and that was that!
+
+Having the prior DevOps knowledge definitely helped, but I wouldn't say it was essential. It was mostly a benefit in terms of knowing some of the general processes and concepts. Overall, the topic wasn't much of a jump from what I'd done before, and being a foundation level exam, was broad rather than deep in terms of knowledge needed.
+
+In terms of resources used, I think most of the concepts can be learned from the many [videos on YouTube](https://youtube.com/playlist?list=PLIivdWyY5sqJrKl7D2u-gmis8h9K66qoj&si=-9facxE9yC6LD2SD) that cover SRE, and the books at https://sre.google/. I do, however, recommend the virtual classroom course run by QA, if your employer will pay for it. It's 2 days, gives you everything you need to pass the exam, and includes a voucher for the exam itself (which costs £220 otherwise).
+
+The exam itself was fairly standard for this level of certification - 40 multiple choice questions (4 possible answers per question), about an hour to complete the exam, and a pass rate of 65% (or, in SRE terms, an error budget of 14 wrong answers 😅). Interestingly, if you have the official hardcopy training materials, it's an open book exam. I did not have them, so I had to go off memory. Having only sat Microsoft exams through PearsonVUE, I found the DevOps Institute exam - run by [PeopleCert](https://www.peoplecert.org/browse-certifications/devops/DevOps-13/sre-foundation-3782) - to be interestingly different. The best way to describe it would be the check-in was more "hands-on". Instead of uploading some pictures of my space and waiting for approval to start the exam through what feels like automated processes, I had to interact with the real-life proctor and use my webcam to slowly pan around the room and over every part of my desk - including underneath. This did lead to the situation where I had to slightly adjust the angle of my desk + webcam in the room so myself, the entrance door, and a cupboard door were all visible at the same time, but it was only a minor inconvenience. The proctor was very pleasant to interact with and was only enforcing the examination policies, not being unreasonable. Once the exam is completed, you get your initial score but have to wait a couple of days before receiving your official results + certificate. Being used to receiving everything from Microsoft within a couple of hours, this threw me, but it's not the end of the world. My confirmation arrived near the end of the business day on Monday, so it wasn't like I had an an unreasonable length of time to wait, really.
+
+Overall, I'd recommend the exam and learning experience, for no other reason than simply having a verified understanding of the core concepts of SRE. Though obviously, it's far from essential. I'm not sure if SRE is a topic I'm going to go deeper into, but we'll see what next year holds!
+
+{% image "https://assets.chrism.cloud/chrismcleod.dev/2023/12/sre_foundation_badge.png", "DevOps Institute Site Reliability Engineering Fundamentals achievement badge" %}
