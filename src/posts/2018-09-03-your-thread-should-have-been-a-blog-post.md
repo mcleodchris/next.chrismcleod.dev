@@ -12,4 +12,4 @@ archived: true
 >
 > Yes. All of them. Every time.
 
-\--- [Patrick Rhone](https://www.patrickrhone.net/4480-2/)
+&mdash; [Patrick Rhone](https://www.patrickrhone.net/4480-2/)

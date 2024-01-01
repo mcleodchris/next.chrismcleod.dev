@@ -32,5 +32,3 @@ With this turned off, Bridgy could syndicate my posts again.
 I’m starting to wonder if this setting is a contributing factor to the issues I’ve had where Webmentions and associated posts like Replies, Likes, and others seemingly haven’t worked? Perhaps someone with more experience with Cloudflare or the various IndieWeb tools could shed some light?
 
 At the very least, I hope this post saves someone a bit of head-scratching if they suddenly find their Bridgy integration stops working.
-
-Shared to [IndieWeb.xyz](https://indieweb.xyz/en/indieweb).

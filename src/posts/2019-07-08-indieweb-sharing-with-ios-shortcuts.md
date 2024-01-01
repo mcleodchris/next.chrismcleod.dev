@@ -13,7 +13,7 @@ authors:
 archived: true
 ---
 
-I [mentioned last week](/blog/8716/) I had setup iOS Shortcuts to post Likes, Reposts, and Bookmarks to my website, and automatically syndicate those posts to Twitter. This solved a particular pain point in my “workflow,” where I’d share something to my website with Indigenous, but then have to go in to the WordPress editor through a browser to get the post to share back to Twitter. This was enough of a pain I avoided it where possible. With the new shortcuts I don’t have to worry about that. A couple of taps, and everything “Just Works”(tm).
+I [mentioned last week](/blog/indieweb-ios-shortcuts/) I had setup iOS Shortcuts to post Likes, Reposts, and Bookmarks to my website, and automatically syndicate those posts to Twitter. This solved a particular pain point in my “workflow,” where I’d share something to my website with Indigenous, but then have to go in to the WordPress editor through a browser to get the post to share back to Twitter. This was enough of a pain I avoided it where possible. With the new shortcuts I don’t have to worry about that. A couple of taps, and everything “Just Works”(tm).
 
 [Video Link](https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/10/20190708_3E612010-62C8-4897-8738-F3062EA71E9E.mp4)
 

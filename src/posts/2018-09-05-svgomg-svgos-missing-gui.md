@@ -8,4 +8,4 @@ authors:
 archived: true
 ---
 
-I've been using this great online tool for optimizing SVG files recently, which vastly improves the file size and readability of the average Inkscape output.
+I've been using [this great online tool for optimizing SVG files](https://svgomg.net/) recently, which vastly improves the file size and readability of the average Inkscape output.

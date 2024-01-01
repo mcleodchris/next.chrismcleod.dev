@@ -29,4 +29,4 @@ One of the reasons I love [Kicks Condor](https://www.kickscondor.com/) is becaus
 
 By making things easier, more accessible - and safer - it feels like we've hidden away the building blocks. It's harder for people to get at the pieces they need to try their own thing out of curiosity. Can you imagine if LEGO pieces were keyed to only fit a certain way, so you could only build what was shown on the box art?
 
-Shared to [IndieWeb.xyz](https://indieweb.xyz/en/linking) and [IndieNews](https://news.indieweb.org/en)
+Shared to [IndieNews](https://news.indieweb.org/en)

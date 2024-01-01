@@ -119,7 +119,7 @@ After building the Immolator I sprayed it with with Halfords Grey Car Body prime
 
 I knew the old Rhino kit was smaller than the current kit, but I hadn't realised by how much until I put the Immolator next to a Razorback. It's easily 25% smaller.
 
-When I started opening the box for the Immolator, I was a little intimidated… mainly because I'd never find another in this good a condition if I messed up! By the end though I'd enjoyed myself so much I scoured eBay to find [a retro Rhino kit](/blog/9212/) to work on next!
+When I started opening the box for the Immolator, I was a little intimidated… mainly because I'd never find another in this good a condition if I messed up! By the end though I'd enjoyed myself so much I scoured eBay to find [a retro Rhino kit](/blog/mk1-imperial-rhino-restoration/) to work on next!
 
 ## Gallery
 

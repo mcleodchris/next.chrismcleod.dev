@@ -19,7 +19,7 @@ archived: true
 
 {% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/06/B8D9D1F5-A102-4FAA-A8DE-66C12BCC96F3-e1559823306749.png", "Screenshot of my Instagram feed, showing a model lounging under the sun on some rainbow-painted stairs; Photo by Donna Murray Photography" %}
 
-[I mentioned yesterday](/blog/bollocks-to-this-instagram-ad-hellhole/) my frustrations with Instagram were at an all-time high, and I wanted to "soft quit" the app by adding my follows as a source in Monocle. I didn't find any existing guide on how to do this (sorry if I missed yours!), but I did get two [useful](https://doubleloop.net/2019/06/05/5725/) [suggestions](https://stephenpieper.net/monocle-instagram/) about tools to enable this: [Instagram Atom](https://instagram-atom.appspot.com/), and [Granary](https://granary.io).
+[I mentioned yesterday](https://mrkapowski.com/2019/06/bollocks-to-this-instagram-ad-hellhole) my frustrations with Instagram were at an all-time high, and I wanted to "soft quit" the app by adding my follows as a source in Monocle. I didn't find any existing guide on how to do this (sorry if I missed yours!), but I did get two [useful](https://doubleloop.net/2019/06/05/5725/) [suggestions](https://stephenpieper.net/monocle-instagram/) about tools to enable this: [Instagram Atom](https://instagram-atom.appspot.com/), and [Granary](https://granary.io).
 
 I use Granary already, to pipe Twitter into Monocle, so that was my preferred option. The short guide below documents the steps I took to get things set up.
 
