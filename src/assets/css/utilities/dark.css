@@ -22,7 +22,8 @@
     color: var(--color-fg);
   }
   .spot-color-primary .section__inner,
-  .spot-color-primary .seperator {
+  .spot-color-primary .seperator,
+  .spot-color-primary.old {
     --spot-color: var(--color-inverse-primary);
   }
   .spot-color-secondary .section__inner,
