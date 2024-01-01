@@ -2,7 +2,7 @@ module.exports = {
   top: [
     {
       text: 'Blog',
-      url: '/blog/'
+      url: '/blog/page-0/'
     },
     {
       text: 'Links',
