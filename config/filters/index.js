@@ -1,5 +1,7 @@
 const lodash = require('lodash');
 const dayjs = require('dayjs');
+var relativeTime = require('dayjs/plugin/relativeTime');
+dayjs.extend(relativeTime);
 const CleanCSS = require('clean-css');
 const markdownLib = require('../plugins/markdown');
 const site = require('../../src/_data/meta');
@@ -45,6 +47,10 @@ const toISOString = dateString => dayjs(dateString).toISOString();
 
 /** Formats a date using dayjs's conventions: https://day.js.org/docs/en/display/format */
 const formatDate = (date, format) => dayjs(date).format(format);
+
+const longAgo = date => dayjs(date).fromNow();
+
+const dateDiff = date => dayjs().diff(dayjs(date), 'year');
 
 const minifyCss = code => new CleanCSS({}).minify(code).styles;
 
@@ -135,5 +141,7 @@ module.exports = {
   minifyJs,
   mdInline,
   splitlines,
-  jsonToString
+  jsonToString,
+  longAgo,
+  dateDiff
 };

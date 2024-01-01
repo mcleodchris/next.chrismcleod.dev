@@ -30,7 +30,9 @@ const {
   minifyJs,
   mdInline,
   splitlines,
-  jsonToString
+  jsonToString,
+  longAgo,
+  dateDiff
 } = require('./config/filters/index.js');
 
 // module import shortcodes
@@ -88,6 +90,8 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('values', Object.values);
   eleventyConfig.addFilter('entries', Object.entries);
   eleventyConfig.addFilter('jsonToString', jsonToString);
+  eleventyConfig.addFilter('longAgo', longAgo);
+  eleventyConfig.addFilter('dateDiff', dateDiff);
 
   // 	--------------------- Custom shortcodes ---------------------
   eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcodePlaceholder);
