@@ -4,13 +4,8 @@ date: 2012-08-22
 categories:
   - articles
 tags:
-  - celebrating
-  - goals
-  - success
-  - targets
-  - technical-support
+  - personal
   - work
-  - work-goals
 authors:
   - chris
 archived: true

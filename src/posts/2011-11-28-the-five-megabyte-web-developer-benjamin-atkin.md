@@ -4,14 +4,8 @@ date: 2011-11-28
 categories:
   - articles
 tags:
-  - apps
-  - code
-  - deployment
-  - development
-  - hack
-  - heroku
-  - projects
-  - servers
+  - cloud-computing
+  - programming
 authors:
   - chris
 archived: true

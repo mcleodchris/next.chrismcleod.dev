@@ -5,15 +5,10 @@ categories:
   - articles
   - hobby
 tags:
-  - games-workshop
-  - gaming
-  - geek
-  - hobby
+  - tabletop-gaming
   - miniatures
   - warhammer
-  - warhammer-40-000
   - warhammer-40000
-  - warhammer-40k
 authors:
   - chris
 archived: true

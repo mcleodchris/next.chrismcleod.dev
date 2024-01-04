@@ -7,6 +7,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - social-media
 ---
 
 {% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/9c4c1e9c-794e-4ce7-b617-ed4882c98160.jpg", "August 17th I am out #deactiday" %}

@@ -6,9 +6,7 @@ categories:
   - projects
 tags:
   - 3d-printing
-  - magpuck
-  - miniatures
-  - prototyping
+  - projects
   - tools
 authors:
   - chris

@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - web-design
+  - links
 ---
 
 [Brent Simmons writes](http://inessential.com/2014/11/25/web_performance):

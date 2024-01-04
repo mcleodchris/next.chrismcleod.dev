@@ -4,15 +4,9 @@ date: 2019-01-02
 categories:
   - notes
 tags:
-  - 40k
-  - adepta-sororitas
-  - hobby
-  - painthammer
-  - painthammer2019
-  - paintingwarhammer
-  - taleofmanywarlords
   - warhammer-40000
-  - warhammer-40k
+  - warhammer
+  - miniatures
 authors:
   - chris
 archived: true

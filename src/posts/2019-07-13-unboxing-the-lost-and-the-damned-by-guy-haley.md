@@ -4,13 +4,10 @@ date: 2019-07-13
 categories:
   - notes
 tags:
-  - black-library
-  - book-unboxing
   - books
-  - guy-haley
+  - gallery
   - horus-heresy
-  - the-siege-of-terra
-  - the-solar-war
+  - warhammer
   - warhammer-40000
 authors:
   - chris

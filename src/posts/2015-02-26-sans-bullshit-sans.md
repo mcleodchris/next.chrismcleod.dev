@@ -6,6 +6,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - typography
 ---
 
 {% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2015/02/sansbullshitsans.png", "sans bullshit sans type sample" %}

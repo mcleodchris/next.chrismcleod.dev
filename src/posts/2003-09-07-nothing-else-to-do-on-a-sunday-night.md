@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - linux
 ---
 
 Then build your own Linux distro! Fun for all the family!

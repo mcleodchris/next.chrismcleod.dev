@@ -5,13 +5,9 @@ categories:
   - articles
 tags:
   - amazon
-  - amazon-kindle
-  - books
-  - e-book
-  - epub
-  - iriver-story
   - kindle
-  - sony
+  - books
+  - e-books
 authors:
   - chris
 archived: true

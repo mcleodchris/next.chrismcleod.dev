@@ -5,9 +5,7 @@ categories:
   - articles
 tags:
   - dating
-  - experiences
-  - love
-  - online-dating
+  - correspondence
 authors:
   - chris
 archived: true

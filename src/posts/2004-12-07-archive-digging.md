@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - site-meta
+  - web-design
 ---
 
 When I implemented dated URLs for the blog, I [mentioned](/2004/11/21/minor-site-tweaks/ "Minor Site Tweaks") that I had a particular idea that I wanted to implement. This idea is simple enough – an easy, convenient way for a reader to find entries in the archives. The basics of the idea are explained, in [Michael’s](https://web.archive.org/web/20060223182810/http://binarybonsai.com/) [discussion on his recent redesign](https://web.archive.org/web/20060223182810/http://binarybonsai.com/archives/2004/11/21/freya-dissection/). He calls it a “Digging archive system”, for lack of a better term. Think of it as a “lite” version of Apple’s Finder, but for you weblog archives.

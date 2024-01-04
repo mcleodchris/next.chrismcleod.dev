@@ -4,17 +4,10 @@ date: 2009-09-05
 categories:
   - articles
 tags:
-  - data-formats
-  - hcard
+  - microformats
   - html
-  - html-element
-  - javascript
-  - languages
-  - markup-language
-  - markup-languages
   - php
   - programming
-  - source-code
 authors:
   - chris
 archived: true

@@ -5,14 +5,10 @@ categories:
   - articles
   - code-development
 tags:
-  - cascading-style-sheets
-  - em-typography
-  - gecko
-  - html-element
-  - point-typography
-  - safari
-  - web-browser
+  - css
+  - browsers
   - web-design
+  - how-to
 authors:
   - chris
 archived: true

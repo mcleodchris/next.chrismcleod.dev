@@ -5,13 +5,10 @@ categories:
   - articles
 tags:
   - adobe
-  - adobe-photoshop-lightroom
-  - adobe-systems
+  - lightroom
   - aperture
   - apple
-  - lightroom
-  - macintosh
-  - raw-image-format
+  - software
 authors:
   - chris
 archived: true

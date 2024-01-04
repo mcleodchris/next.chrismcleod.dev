@@ -7,13 +7,17 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - networking
+  - servers
+  - how-to
 ---
 
 It's super simple. Just include a `push` directive in your site definition. You can leave it as just that, and Caddy will use any [Link HTTP headers](https://www.w3.org/wiki/LinkHeader) to figure it out.
 
 If you want more control, you can expand the directive and specify both the path and associated resources, like so:
 
-```
+```text
 example.com {
     root /var/www/example
     push / {

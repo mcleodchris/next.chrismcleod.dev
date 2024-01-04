@@ -4,7 +4,6 @@ date: 2018-04-15
 categories:
   - notes
 tags:
-  - article
   - blogging
   - indieweb
   - social-media

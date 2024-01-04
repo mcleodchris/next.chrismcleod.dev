@@ -4,25 +4,11 @@ date: 2013-09-15
 categories:
   - articles
 tags:
-  - brian-kennedy
   - devops
-  - drew-crawford
-  - edward-snowden
-  - email
-  - gchq
-  - google
-  - google-apps
-  - http-secure
-  - internet
   - linux
-  - linux-servers
-  - national-security-agency
-  - operations
-  - prism
   - security
   - servers
   - software
-  - technology
 authors:
   - chris
 archived: true

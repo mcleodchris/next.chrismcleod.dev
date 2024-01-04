@@ -4,21 +4,11 @@ date: 2013-05-23
 categories:
   - articles
 tags:
-  - battery-charger
-  - ebay
-  - gadgets
-  - ikea
-  - inductive-charging
-  - nexus
-  - nexus-4
-  - nokia
-  - tech
   - technology
-  - wireless
-  - wireless-charging
 authors:
   - chris
 archived: true
+youtube: true
 ---
 
 Wireless charging is one of those things I really, _really_ want to succeed. I hate plugging stuff in; I hate having wires trailing all over the place, and I hate having to fiddle with connectors. Eight times out of ten I will try to plug in a micro-USB any cable upside down on the first attempt.
@@ -41,4 +31,4 @@ What I'd really like to see - and it's something I think would solve a lot of th
 
 If I get some free time over summer I'll try hacking this idea together (hopefully it doesn't cause a fire!). In the meantime, here's a really well done video of someone combining the Nokia charger with an Ikea nightstand. It would be wonderful if this was the reality of wireless charging.
 
-http://youtu.be/xZo2pA0Qc9U
+{% youtube "xZo2pA0Qc9U", "" %}

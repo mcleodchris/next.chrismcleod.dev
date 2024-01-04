@@ -5,11 +5,9 @@ categories:
   - general-life
   - work
 tags:
-  - az-204
   - azure
   - certifications
-  - certified
-  - exam
+  - learning
   - microsoft
 authors:
   - chris

@@ -2,7 +2,8 @@
 title: '#emosnotdead'
 date: 2021-03-29
 categories:
-  - general-life
+  - miscellaneous
+  - video
 authors:
   - chris
 youtube: true

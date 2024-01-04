@@ -4,14 +4,12 @@ date: 2014-11-28
 categories:
   - notes
 tags:
-  - episode-7
   - star-wars
-  - star-wars-the-force-awakens
-  - the-force-awakens
-  - trailer
+  - movies
 authors:
   - chris
 archived: true
+youtube: true
 ---
 
-http://youtu.be/erLk59H86ww
+{% youtube "erLk59H86ww", "" %}

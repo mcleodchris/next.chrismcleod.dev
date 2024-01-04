@@ -5,13 +5,9 @@ categories:
   - general-life
   - work
 tags:
-  - az-400
   - azure
   - certifications
-  - certified
-  - devops
-  - exam
-  - learning-and-development
+  - learning
   - microsoft
 authors:
   - chris

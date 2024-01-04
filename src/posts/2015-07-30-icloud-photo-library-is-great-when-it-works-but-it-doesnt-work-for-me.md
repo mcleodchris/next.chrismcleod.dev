@@ -4,15 +4,11 @@ date: 2015-07-30
 categories:
   - articles
 tags:
-  - 2
+  - software
   - apple
-  - cloud-services
-  - icloud
-  - icloud-photo-library
-  - iphone
-  - iphoto
-  - mac
+  - cloud-computing
   - photos
+  - user-experience
 authors:
   - chris
 archived: true

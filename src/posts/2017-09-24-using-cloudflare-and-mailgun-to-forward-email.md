@@ -7,6 +7,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - email
+  - how-to
 ---
 
 Recently I've been "[sunsetting](/blog/sunsetting-a-decades-old-email-address.markdown)" old email accounts I don't really need any more. One of them was a private domain, and was hosted with Fastmail. In most cases I could have set up a simple forwarding rule from my domain registrar to my master email, but this one domain made extensive use of subdomains to filter and "tag" email from services -- i.e. _user@service.domain.com_. Forwarding from the registrar would only catch mail at the top level. Everything else would return an error to the sender[^1]. If I were to move the DNS to Cloudflare, like my other "active" domains, I wouldn't be able to do even this basic forwarding; I'd have to setup my own mail server to handle the domain.

@@ -4,23 +4,10 @@ date: 2012-11-03
 categories:
   - reviews
 tags:
-  - angel-exterminatus
-  - black-library
-  - chaos
-  - chaos-space-marines
-  - eldar
-  - fulgrim
-  - gaming
-  - graham-mcneill
-  - horus
-  - horus-heresy
-  - imperium
-  - iron-warriors
-  - science-fiction
-  - space-marine
-  - space-marines
+  - books
+  - review
   - warhammer
-  - warhammer-40-000
+  - warhammer-40000
 authors:
   - chris
 archived: true

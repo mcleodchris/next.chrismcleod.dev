@@ -5,14 +5,7 @@ categories:
   - articles
 tags:
   - apple
-  - christmas
-  - gadgets
-  - google
   - ipad
-  - ipad-mini
-  - iphone
-  - ipod-mini
-  - kindle-fire-hd
   - technology
 authors:
   - chris

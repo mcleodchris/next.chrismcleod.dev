@@ -4,13 +4,8 @@ date: 2005-06-15
 categories:
   - articles
 tags:
-  - business
-  - employment
-  - home
-  - homeoffice
-  - small-business
-  - telecommuting
-  - work-at-home-parents
+  - work-from-home
+  - tips
 authors:
   - chris
 archived: true

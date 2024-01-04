@@ -7,8 +7,7 @@ tags:
   - android
   - social-media
   - threads
-  - windows-11
-  - wsa
+  - microsoft
 authors:
   - chris
 redirectFrom: ['/2023/07/10/installing-threads-on-windows-11/']

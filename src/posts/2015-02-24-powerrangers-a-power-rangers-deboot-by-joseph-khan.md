@@ -4,18 +4,17 @@ date: 2015-02-24
 categories:
   - articles
 tags:
-  - james-van-der-beek
-  - joseph-khan
-  - katee-sackhoff
   - nsfw
   - power-rangers
-  - short-film
+  - video
+  - nostalgia
 authors:
   - chris
 archived: true
+youtube: true
 ---
 
-http://youtu.be/vw5vcUPyL90
+{% youtube "vw5vcUPyL90", "" %}
 
 Awesome. [More info available here](https://www.youtube.com/watch?v=dDKR_2HqymU).
 

@@ -5,6 +5,8 @@ categories:
   - articles
 authors:
   - chris
+tags:
+  - browsers
 archived: true
 ---
 

@@ -5,8 +5,6 @@ categories:
   - articles
 tags:
   - apple
-  - ios
-  - iphone
   - software
   - technology
 authors:

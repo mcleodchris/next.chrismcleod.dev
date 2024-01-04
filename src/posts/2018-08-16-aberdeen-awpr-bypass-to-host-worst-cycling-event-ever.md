@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - scotland
+  - link
 ---
 
 > The new Aberdeen Western Peripheral Road (AWPR) is to host a “Go North East Road Festival” before it is opened to traffic in September. The event will offer cyclists an opportunity to “wobble or weave” on the road to promote active travel. However, people will not be allowed to bring their own bikes “for everyone’s safety” and cyclists will be banned from the road forever once the event is over.

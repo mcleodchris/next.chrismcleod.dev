@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - gaming
+  - god-of-war
 ---
 
 The Playstation EU blog has a pretty fasciniating look at [how the first boss battle in God of War, against "The Stranger," was designed](https://blog.eu.playstation.com/2018/08/16/santa-monica-studio-details-the-epic-creation-of-god-of-wars-unforgettable-stranger-fight/#sf195689382).

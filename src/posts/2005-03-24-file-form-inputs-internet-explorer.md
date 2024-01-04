@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - browsers
+  - web-design
 ---
 
 Since rolling out Windows XP SP2 around the office network, I’ve come across curious differences in the way Internet Explorer handles file form inputs (`input type="file"...`), before and after SP2 is applied. At least I think I have…

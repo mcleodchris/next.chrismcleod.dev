@@ -4,17 +4,8 @@ date: 2012-11-18
 categories:
   - articles
 tags:
-  - battle-net
-  - blizzard
-  - blizzard-entertainment
-  - games
   - gaming
   - starcraft
-  - starcraft-2
-  - starcraft-ii-heart-of-the-swarm
-  - starcraft-ii-wings-of-liberty
-  - strategy
-  - swarm
 authors:
   - chris
 archived: true

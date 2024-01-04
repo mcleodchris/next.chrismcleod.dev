@@ -6,14 +6,7 @@ categories:
 tags:
   - computing
   - ipad
-  - keyboard
-  - keyboards
-  - laptop
-  - laptops
-  - mg-siegler
-  - microsoft
-  - mobile
-  - surface
+  - apple
 authors:
   - chris
 archived: true

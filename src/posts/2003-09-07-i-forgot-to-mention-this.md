@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - mozilla
+  - email
 ---
 
 A few days ago, version 0.2 of Mozilla Thunderbird (http://www.mozilla.org/products/thunderbird/) was released to the public.

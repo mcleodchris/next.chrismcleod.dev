@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - links
+  - dark-side-of-tech
 ---
 
 > The .io domain is a hit, but few startups using it appreciate the associations it carries — a mass expulsion that took place within living memory, and a crucial staging-post for the “War on Terror”.

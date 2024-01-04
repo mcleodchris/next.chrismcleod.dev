@@ -6,10 +6,8 @@ categories:
   - notes
 tags:
   - brid-gy
-  - cloudflare
   - indieweb
   - syndication
-  - troubleshooting
 authors:
   - chris
 archived: true

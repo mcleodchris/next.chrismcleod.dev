@@ -7,6 +7,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - security
+  - personal
 ---
 
 I got an email from BA about this, first thing this morning, but per [The Guardian](https://www.theguardian.com/business/2018/sep/06/british-airways-customer-data-stolen-from-its-website):

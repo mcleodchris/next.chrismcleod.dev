@@ -4,10 +4,8 @@ date: 2019-05-15
 categories:
   - code-development
 tags:
-  - development
-  - k-theme
+  - programming
   - wordpress
-  - wordpress-themes
 authors:
   - chris
 archived: true

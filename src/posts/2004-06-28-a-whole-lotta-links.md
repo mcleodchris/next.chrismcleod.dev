@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - web-standards
+  - links
 ---
 
 Just came by [this massive list of great web standards articles](https://web.archive.org/web/20040802235511/http://www.orderedlist.com/articles/simple_list "OrderedList.com : Simple List") by way of[Simplebits](https://web.archive.org/web/20040802235511/http://www.simplebits.com/) (where you can also find this list).

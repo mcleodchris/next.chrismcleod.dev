@@ -6,8 +6,13 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - netflix
+  - TV
+  - marvel
+youtube: true
 ---
 
-http://youtu.be/VK1mrTQd8D0
+{% youtube "VK1mrTQd8D0", "" %}
 
 Looks better than I hoped for. I'm interested to see if/how they'll get from the ghetto-looking disguise to something resembling the comic costume.

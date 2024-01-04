@@ -7,6 +7,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - learning
+  - ruby
+  - video
 ---
 
 There’s some really good learning to be had here, even if the videos themselves are “old.”

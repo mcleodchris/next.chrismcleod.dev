@@ -4,15 +4,10 @@ date: 2014-11-20
 categories:
   - articles
 tags:
-  - differentiation
   - economics
   - internet
-  - model-t
-  - publishing
-  - scale
   - software
   - taylor-swift
-  - value
 authors:
   - chris
 archived: true

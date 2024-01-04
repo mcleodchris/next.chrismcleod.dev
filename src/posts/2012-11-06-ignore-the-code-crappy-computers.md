@@ -4,14 +4,8 @@ date: 2012-11-06
 categories:
   - articles
 tags:
-  - bitly
-  - computer
-  - computing
-  - ifttt
-  - link
-  - specifications
+  - miscellaneous
   - technology
-  - users
 authors:
   - chris
 archived: true

@@ -3,6 +3,8 @@ title: "Bloody Modern Technology…"
 date: 2003-05-28
 categories:
   - articles
+tags:
+  - personal
 authors:
   - chris
 archived: true

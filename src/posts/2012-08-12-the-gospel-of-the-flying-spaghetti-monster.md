@@ -4,12 +4,9 @@ date: 2012-08-12
 categories:
   - articles
 tags:
-  - book
+  - books
   - flying-spaghetti-monster
-  - fsm
   - image
-  - instagram
-  - religion
 authors:
   - chris
 archived: true

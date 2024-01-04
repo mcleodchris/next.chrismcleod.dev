@@ -4,16 +4,9 @@ date: 2013-12-22
 categories:
   - articles
 tags:
-  - aol
-  - internet
-  - ipod
-  - itunes
+  - software
+  - internet-history
   - music
-  - napster
-  - nostalgia
-  - spotify
-  - winamp
-  - windows-media-player
 authors:
   - chris
 archived: true

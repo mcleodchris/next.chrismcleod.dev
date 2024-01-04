@@ -5,13 +5,7 @@ categories:
   - notes
 tags:
   - board-games
-  - family-time
   - gaming
-  - munchkin
-  - roll-for-it
-  - sushi-go
-  - tabletop
-  - wil-wheaton
 authors:
   - chris
 archived: true

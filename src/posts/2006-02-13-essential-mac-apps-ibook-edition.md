@@ -5,18 +5,8 @@ categories:
   - articles
 tags:
   - apple
-  - colloquy
-  - ibook
-  - imac
-  - itunes
-  - mac
-  - mac-os-x
-  - marsedit
-  - opensource
-  - panic-software
+  - laptop
   - software
-  - technology
-  - textmate
 authors:
   - chris
 archived: true

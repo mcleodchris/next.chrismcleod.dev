@@ -1,0 +1,33 @@
+---
+layout: base
+---
+
+<header class="section spot-color-primary">
+  {% include 'svg/divider-waves-inverse.svg' %}
+  <div class="section__inner region">
+    <div class="wrapper flow">
+      <section class="prose text-center">
+        <h1 class="fade-in">{{ title }}</h1>
+      </section>
+    </div>
+  </div>
+  {% include 'svg/divider-waves.svg' %}
+</header>
+<article class="region">
+  <div class="wrapper flow prose"> 
+    {{ content | safe }}
+    <h2>Tags <small>({{collections.tagList.length}} unique tags)</small></h2>
+    <p>Tags are used to label posts and group them together. Click on a tag to see all posts with that tag.</p>
+    {% for tag in collections.tagList %}
+        {% if collections[tag].length > 0 %}
+        <a href="/tags/{{ tag }}" class="button">
+        {{ tag }} 
+        ({{ collections[tag].length }} post{% if collections[tag].length > 1 %}s{% endif %})
+        </a>
+        {% endif %}
+    {% endfor %}
+    <h2>Post Graphs</h2>
+    {% postGraph collections.posts %}
+  </div>
+
+</article>

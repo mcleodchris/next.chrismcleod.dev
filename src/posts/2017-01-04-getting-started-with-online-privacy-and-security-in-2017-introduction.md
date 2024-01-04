@@ -4,13 +4,9 @@ date: 2017-01-04
 categories:
   - articles
 tags:
-  - cyber
-  - cybersecurity
-  - internet
-  - ip-bill
   - privacy
   - security
-  - snoopers-charter
+  - politics
   - technology
 authors:
   - chris

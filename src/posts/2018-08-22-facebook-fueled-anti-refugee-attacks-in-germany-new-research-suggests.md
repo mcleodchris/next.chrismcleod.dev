@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - social-media
+  - link
 ---
 
 **Edit, 24-Aug-2018**: The veracity of this study has been called into serious question. [There's a really good, in-depth article about the many issues with the study, on Techdirt](https://www.techdirt.com/articles/20180823/00122840491/dubious-studies-easy-headlines-no-new-report-does-not-clearly-show-facebook-leads-to-hate-crimes.shtml). Rather than just delete this post, as it already gets a bit of traffic I thought it more helpful to add the (better researched) counter to it front and centre.

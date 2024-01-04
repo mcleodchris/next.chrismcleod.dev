@@ -4,11 +4,10 @@ date: 2021-09-01
 categories:
   - work
 tags:
-  - development-environment
-  - docker
-  - list
+  - personal
+  - programming
   - notes
-  - wsl
+  - linux
 authors:
   - chris
 redirectFrom: ['/2021/09/01/some-development-environment-notes/']

@@ -6,9 +6,7 @@ categories:
 tags:
   - indieweb
   - media
-  - silo-quit
-  - silos
-  - wordpress-com
+  - wordpress
 authors:
   - chris
 archived: true

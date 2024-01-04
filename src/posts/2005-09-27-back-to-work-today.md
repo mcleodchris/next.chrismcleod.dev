@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - cerebral-haemorrhage
 ---
 
 Today was a bit of a milestone in my recovery from [the stroke](/blog/life-is-a-lemon/) – I started back to work. Not full-time, mind you. On the advice of my Occupational Therapist, I’m starting back on reduced hours for a couple of weeks.

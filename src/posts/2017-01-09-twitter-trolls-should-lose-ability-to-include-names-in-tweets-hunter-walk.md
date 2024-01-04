@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - social-media
+  - links
 ---
 
 Hunter Walk with a neat idea for dealing with Twitter trolls I've not seen suggested anywhere else:

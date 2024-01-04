@@ -4,10 +4,10 @@ date: 2021-10-27
 categories:
   - general-life
 tags:
-  - general
-  - hobby
-  - life
+  - personal
+  - projects
   - work
+  - blogging
 authors:
   - chris
 redirectFrom: ['/2021/10/27/a-belated-check-in/']

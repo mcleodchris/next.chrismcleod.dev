@@ -4,12 +4,8 @@ date: 2017-01-03
 categories:
   - articles
 tags:
-  - 2017
-  - cyber
-  - encryption
-  - predictions
   - security
-  - tech
+  - techology
 authors:
   - chris
 archived: true

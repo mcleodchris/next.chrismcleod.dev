@@ -4,15 +4,9 @@ date: 2016-12-31
 categories:
   - articles
 tags:
-  - consoles
+  - nostalgia
   - gaming
-  - mario
-  - nes
-  - nes-classic
-  - nes-mini
   - nintendo
-  - nintendo-nes-classic-mini
-  - technology
 authors:
   - chris
 archived: true

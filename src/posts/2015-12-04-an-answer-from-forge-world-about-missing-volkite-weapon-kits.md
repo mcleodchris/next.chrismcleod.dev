@@ -5,11 +5,6 @@ categories:
   - articles
   - hobby
 tags:
-  - 40k
-  - forge-world
-  - games-workshop
-  - gaming
-  - horus-heresy
   - miniatures
   - warhammer
   - warhammer-40000

@@ -5,16 +5,8 @@ categories:
   - articles
 tags:
   - apple
-  - bitly
   - daring-fireball
-  - gadgets
-  - ifttt
   - ipad
-  - ipadmini
-  - iphone
-  - iphone-4
-  - john-gruber
-  - link
   - technology
 authors:
   - chris

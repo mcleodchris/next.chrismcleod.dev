@@ -5,6 +5,10 @@ module.exports = {
       url: '/blog/page-0/'
     },
     {
+      text: 'Sitemap',
+      url: '/sitemap/'
+    },
+    {
       text: 'Links',
       url: '/links/'
     },

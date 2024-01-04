@@ -6,6 +6,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - pc-building
 ---
 
 More articles have been posted over at [Bit Tech](http://bit-tech.net/ "Bit Tech") about the excellent Orac3 case mod project.

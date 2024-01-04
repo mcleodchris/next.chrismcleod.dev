@@ -4,20 +4,9 @@ date: 2014-08-04
 categories:
   - articles
 tags:
-  - grassroots
-  - green-yes
-  - independence
-  - independence-referendum
-  - indyref
-  - people-power
   - politics
   - scotland
   - scottish-independence
-  - snp
-  - undecided-voters
-  - yes
-  - yes-scotland
-  - youyesyet
 authors:
   - chris
 archived: true

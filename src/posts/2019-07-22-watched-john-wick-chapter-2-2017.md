@@ -4,10 +4,8 @@ date: 2019-07-22
 categories:
   - notes
 tags:
-  - film
   - john-wick
-  - john-wick-chapter-2
-  - movie
+  - movies
 authors:
   - chris
 archived: true

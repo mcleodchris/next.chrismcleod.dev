@@ -2,12 +2,10 @@
 title: How I use Generative AI to help write blog posts
 date: 2023-08-31
 tags:
-  - blog
+  - blogging-tools
   - blogging
-  - meta
+  - site-meta
   - AI
-  - LLMs
-  - generative AI
 ---
 The rise of large language models (LLMs) like [ChatGPT](https://openai.com/blog/chatgpt/), [Anthropic's Claude](https://www.anthropic.com), [Google Bard](https://blog.google/products/search/bard-google-ai/), and [Bing Chat](https://www.microsoft.com/en-us/bing/bing-chat)with GPT-4 has opened up exciting new possibilities for augmenting creativity. Recently I started using generative AI tools to help me draft my blog posts. I find that AI can be a great way to generate ideas, outlines, and even full drafts of my posts. Coming up with the initial draft is often the hardest and most time consuming part of the blogging process, and using generative tools can be a big win. So how do I do use these tools?
 

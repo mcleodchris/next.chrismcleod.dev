@@ -4,16 +4,7 @@ date: 2012-09-02
 categories:
   - articles
 tags:
-  - dan-ariely
-  - ego-depletion
-  - health
-  - institute-for-advanced-study
-  - junk-food
   - mental-health
-  - optimal-decision
-  - science
-  - stressful-days
-  - stroop-effect
 authors:
   - chris
 archived: true

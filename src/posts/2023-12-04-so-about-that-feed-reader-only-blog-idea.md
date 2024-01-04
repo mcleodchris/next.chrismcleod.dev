@@ -2,11 +2,9 @@
 title: So About That Feed Reader-Only Blog Idea
 date: 2023-12-04T12:32Z
 tags:
-  - blogs
   - blogging
   - social-media
   - feeds
-  - experiment
 gradient: "true"
 ---
 In my last post I included a footnote about a RSS-only blog idea I’d had ages ago and not done anything with:

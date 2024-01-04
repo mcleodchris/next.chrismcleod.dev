@@ -5,17 +5,11 @@ categories:
   - articles
 tags:
   - android
-  - gadgets
   - google
-  - htc-desire-hd
   - iphone
-  - iphone-5
+  - apple
   - mobile
-  - nexus
-  - nexus-4
-  - smartphone
   - technology
-  - touchwiz
 authors:
   - chris
 archived: true

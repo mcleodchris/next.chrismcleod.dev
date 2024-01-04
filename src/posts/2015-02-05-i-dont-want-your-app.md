@@ -4,17 +4,10 @@ date: 2015-02-05
 categories:
   - articles
 tags:
-  - ads
-  - advertising
-  - annoyances
-  - app
-  - app-store
-  - apps
-  - publishing
   - software
   - user-experience
-  - ux
   - websites
+  - rant
 authors:
   - chris
 archived: true

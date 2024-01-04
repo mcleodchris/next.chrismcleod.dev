@@ -5,12 +5,8 @@ categories:
   - articles
 tags:
   - adobe
-  - adobe-photoshop
-  - adobe-photoshop-lightroom
-  - adobe-systems
-  - apple
-  - credit-card
   - lightroom
+  - apple
 authors:
   - chris
 archived: true

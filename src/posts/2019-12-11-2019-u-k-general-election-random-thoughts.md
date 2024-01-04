@@ -4,12 +4,8 @@ date: 2019-12-11
 categories:
   - notes
 tags:
-  - 2019-election
-  - general-election
-  - politics
   - scotland
-  - tories-out
-  - united-kingdom
+  - politics
 authors:
   - chris
 archived: true

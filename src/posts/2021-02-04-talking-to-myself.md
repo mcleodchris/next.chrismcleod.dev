@@ -4,9 +4,8 @@ date: 2021-02-04
 categories:
   - work
 tags:
-  - objectives
-  - presentation
-  - promotion
+  - personal
+  - work
 authors:
   - chris
 redirectFrom: ['/2021/02/04/talking-to-myself/']

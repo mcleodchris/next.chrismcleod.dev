@@ -4,13 +4,9 @@ date: 2023-04-15
 categories:
   - uncategorised
 tags:
-  - development
-  - gpg
-  - keys
-  - signing
-  - ssh
-  - tech
-  - verification
+  - programming
+  - notes
+  - links
 authors:
   - chris
 redirectFrom: ['/2023/04/15/resource-notes-gpg-commit-signing-and-more/']

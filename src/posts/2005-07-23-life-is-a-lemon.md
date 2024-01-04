@@ -4,13 +4,8 @@ date: 2005-07-23
 categories:
   - articles
 tags:
-  - aberdeen-royal-infirmary
-  - blackjack
-  - cerebral-hemorrhage
-  - egypt
-  - harry-potter
-  - london
-  - woodend-hospital
+  - personal
+  - cerebral-haemorrhage
 authors:
   - chris
 archived: true

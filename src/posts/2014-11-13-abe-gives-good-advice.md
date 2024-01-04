@@ -4,12 +4,8 @@ date: 2014-11-13
 categories:
   - articles
 tags:
-  - abraham-lincoln
-  - inspirational
-  - internet-explorer
-  - joke
   - meme
-  - quote
+  - image
 authors:
   - chris
 archived: true

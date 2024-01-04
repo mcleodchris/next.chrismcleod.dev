@@ -2,9 +2,10 @@
 title: I Rebuilt My Blog and Didn't Write About It
 date: 2023-08-20
 tags:
-  - blog
+  - blogging-tools
   - blogging
-  - meta
+  - site-meta
+  - eleventy
 authors:
   - chris
 gradient: true

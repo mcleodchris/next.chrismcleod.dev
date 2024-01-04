@@ -5,21 +5,10 @@ categories:
   - articles
   - code-development
 tags:
-  - apache-http-server
-  - apple
-  - command-line-interface
-  - mac
-  - mac-mini
-  - mac-os-x
-  - mamp
-  - mysql
+  - how-to
   - php
   - ruby
-  - sequel-pro
   - software
-  - technology
-  - textmate
-  - unix
 authors:
   - chris
 archived: true

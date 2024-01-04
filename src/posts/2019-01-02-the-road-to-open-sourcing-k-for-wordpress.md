@@ -8,7 +8,6 @@ tags:
   - blogging
   - indieweb
   - open-source
-  - web-development
   - wordpress
 authors:
   - chris

@@ -5,11 +5,9 @@ categories:
   - general-life
   - work
 tags:
-  - ai-900
   - azure
   - certifications
-  - certified
-  - exam
+  - learning
   - microsoft
 authors:
   - chris

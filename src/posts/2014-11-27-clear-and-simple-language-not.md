@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - work
+  - software
 ---
 
 I'm reading up on Oracle 12c for work, and my brain is melting from the Enterprise buzzword gobbledygook :/

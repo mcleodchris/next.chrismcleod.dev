@@ -4,13 +4,11 @@ date: 2015-01-13
 categories:
   - articles
 tags:
-  - big-brother
-  - it
-  - messaging
   - politics
   - security
   - software
   - technology
+  - privacy
 authors:
   - chris
 archived: true

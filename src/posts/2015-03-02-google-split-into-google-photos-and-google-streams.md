@@ -5,8 +5,9 @@ categories:
   - articles
 tags:
   - google
-  - google-photos
-  - google-plus
+  - photos
+  - software
+  - social-media
 authors:
   - chris
 archived: true

@@ -5,12 +5,9 @@ categories:
   - articles
   - notes
 tags:
-  - aperture
   - indieweb
-  - microsub
-  - monocle
   - open-source
-  - social-reader
+  - feeds
 authors:
   - chris
 archived: true

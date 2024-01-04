@@ -4,11 +4,7 @@ date: 2021-06-18
 categories:
   - books
 tags:
-  - dracula
-  - iceland
-  - novel
-  - powers-of-darkness
-  - vladimar-asmundsson
+  - books
 authors:
   - chris
 redirectFrom: ['/2021/06/18/powers-of-darkness/']

@@ -4,18 +4,7 @@ date: 2012-10-28
 categories:
   - articles
 tags:
-  - apple
-  - applestore
-  - bitly
-  - ifttt
-  - ipad
-  - iphone
-  - link
-  - macintosh
-  - microsoft
-  - ms-surface
-  - surface
-  - windows-rt
+  - miscellaneous
 authors:
   - chris
 archived: true

@@ -4,10 +4,7 @@ date: 2019-01-19
 categories:
   - notes
 tags:
-  - diversity
-  - egalitarianism
-  - games-workshop
-  - radicalism
+  - tabletop-gaming
   - warhammer
 authors:
   - chris

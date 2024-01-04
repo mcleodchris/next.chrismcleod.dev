@@ -7,6 +7,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - TV
+  - doctor-who
 ---
 
 Fantastic choice.

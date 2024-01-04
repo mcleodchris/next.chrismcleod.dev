@@ -5,10 +5,9 @@ categories:
   - articles
 tags:
   - apple
-  - daring-fireball
-  - ios-apple
   - iphone
-  - operating-systems
+  - software
+  - daring-fireball
 authors:
   - chris
 archived: true

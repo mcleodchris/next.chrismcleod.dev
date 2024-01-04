@@ -5,6 +5,10 @@ categories:
   - uncategorised
 authors:
   - chris
+tags:
+  - internet
+  - indieweb
+  - links
 redirectFrom: ['/2022/12/02/ooh-directory/']
 ---
 

@@ -4,14 +4,9 @@ date: 2012-12-28
 categories:
   - articles
 tags:
-  - christmas
   - computing
-  - diy
-  - hobby
-  - links
   - projects
   - raspberry-pi
-  - technology
 authors:
   - chris
 archived: true

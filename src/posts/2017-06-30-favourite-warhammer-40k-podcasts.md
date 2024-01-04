@@ -7,6 +7,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - warhammer-40000
+  - warhammer
+  - podcasts
 ---
 
 I've listened to a lot of 40K podcasts over the last couple of years. Over that time I've slowly winnowed my subscriptions down to just a handful.

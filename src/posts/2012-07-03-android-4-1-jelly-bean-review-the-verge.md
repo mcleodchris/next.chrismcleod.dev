@@ -6,11 +6,6 @@ categories:
 tags:
   - android
   - google
-  - jelly-bean
-  - metro
-  - microsoft
-  - user-interface
-  - verge
 authors:
   - chris
 archived: true

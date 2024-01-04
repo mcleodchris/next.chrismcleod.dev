@@ -7,9 +7,7 @@ tags:
   - azure
   - certifications
   - microsoft
-  - microsoft-365
-  - ms-900
-  - study
+  - learning
 authors:
   - chris
 redirectFrom: ['/2021/08/19/varying-degrees-of-depth/']

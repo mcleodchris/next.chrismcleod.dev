@@ -4,10 +4,8 @@ date: 2013-05-28
 categories:
   - articles
 tags:
-  - 10-years-of-wordpress
   - blogging
   - wordpress
-  - wordpress-com
 authors:
   - chris
 archived: true

@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - link
+  - management
 ---
 
 A great article by Rands on managing the communication of changes to groups of people - [Kobayashi Maru Management](http://randsinrepose.com/archives/kobayashi-maru-management/):

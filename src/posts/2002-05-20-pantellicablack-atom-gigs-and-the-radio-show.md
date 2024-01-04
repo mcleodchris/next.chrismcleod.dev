@@ -3,6 +3,8 @@ title: "Pantellica/Black Atom, Gigs, and the Radio Show"
 date: 2002-05-20
 categories:
   - articles
+tags:
+  - personal
 authors:
   - chris
 archived: true

@@ -4,11 +4,8 @@ date: 2015-03-07
 categories:
   - articles
 tags:
-  - comics
-  - craft
-  - crochet
-  - loki
-  - thor
+  - crafts
+  - marvel
 authors:
   - chris
 archived: true

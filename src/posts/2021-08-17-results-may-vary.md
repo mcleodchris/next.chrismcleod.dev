@@ -4,8 +4,7 @@ date: 2021-08-17
 categories:
   - general-life
 tags:
-  - broadband
-  - fttp
+  - personal
   - internet
 authors:
   - chris

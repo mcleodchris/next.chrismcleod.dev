@@ -6,6 +6,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
 ---
 
 Nearly a week without an update... well, you can blame my router for that one. Let me tell the story.

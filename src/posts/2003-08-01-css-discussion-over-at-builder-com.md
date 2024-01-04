@@ -3,6 +3,9 @@ title: "CSS Discussion Over at Builder.com"
 date: 2003-08-01
 categories:
   - articles
+tags:
+  - web-standards
+  - css
 authors:
   - chris
 archived: true

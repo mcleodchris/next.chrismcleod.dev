@@ -4,11 +4,11 @@ date: 2019-06-19
 categories:
   - notes
 tags:
-  - ifttt
   - indieweb
   - textpattern
-  - webmention-app
+  - blogging-tools
   - webmentions
+  - how-to
 authors:
   - chris
 archived: true

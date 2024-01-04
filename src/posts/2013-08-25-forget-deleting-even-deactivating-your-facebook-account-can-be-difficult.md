@@ -5,11 +5,9 @@ categories:
   - articles
 tags:
   - facebook
-  - internet
-  - online-communities
-  - social-networking
-  - social-networks
+  - social-media
   - technology
+  - privacy
 authors:
   - chris
 archived: true

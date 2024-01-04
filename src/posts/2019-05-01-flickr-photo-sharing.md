@@ -6,6 +6,9 @@ categories:
   - notes
 authors:
   - chris
+tags:
+  - social-media
+  - photos
 archived: true
 ---
 

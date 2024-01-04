@@ -5,8 +5,8 @@ categories:
   - general-life
   - work
 tags:
-  - productivity
-  - work-life-balance
+  - personal
+  - work
 authors:
   - chris
 redirectFrom: ['/2021/01/16/a-typical-day/']

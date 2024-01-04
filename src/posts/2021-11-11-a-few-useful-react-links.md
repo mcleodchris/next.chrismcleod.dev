@@ -4,9 +4,8 @@ date: 2021-11-11
 categories:
   - work
 tags:
-  - documentation
+  - learning
   - javascript
-  - learning-and-development
   - notes
   - react
 authors:

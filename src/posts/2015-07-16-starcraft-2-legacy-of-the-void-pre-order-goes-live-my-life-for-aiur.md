@@ -5,10 +5,7 @@ categories:
   - articles
 tags:
   - gaming
-  - pc-gaming
   - starcraft
-  - starcraft-2
-  - starcraft-ii-legacy-of-the-void
 authors:
   - chris
 archived: true

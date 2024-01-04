@@ -5,15 +5,10 @@ categories:
   - articles
 tags:
   - browsers
-  - chrome
-  - duckduckgo
-  - firefox
-  - google
   - internet
   - privacy
-  - search-engine
   - technology
-  - web-browser
+  - security
 authors:
   - chris
 archived: true

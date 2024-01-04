@@ -6,6 +6,11 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - transformers
+  - toys
+  - nostalgia
 ---
 
 I’ve been fascinated by the Transformers – the “Robots in Disguise” – since I was a young’un. There’s just something about giant robots that transform into everyday vehicles and objects that is plain _cool_!

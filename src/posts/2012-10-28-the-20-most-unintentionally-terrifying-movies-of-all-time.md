@@ -4,13 +4,7 @@ date: 2012-10-28
 categories:
   - articles
 tags:
-  - bitly
-  - childrens-films
-  - halloween
-  - ifttt
-  - link
   - movies
-  - scary
 authors:
   - chris
 archived: true

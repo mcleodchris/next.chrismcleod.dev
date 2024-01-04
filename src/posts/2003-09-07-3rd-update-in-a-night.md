@@ -6,6 +6,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - software
 ---
 
 What's up wit' dat? :)

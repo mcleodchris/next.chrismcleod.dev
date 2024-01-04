@@ -5,18 +5,18 @@ categories:
   - articles
 tags:
   - amazon
-  - amazon-echo
-  - cloud
   - internet-of-things
-  - tech
+  - technology
+  - privacy
 authors:
   - chris
 archived: true
+youtube: true
 ---
 
 Amazon's take on a Siri-like service is [a dedicated device called Echo](http://www.amazon.com/oc/echo), which sits in your home *always listening*. It's a could service connected microphone and speaker which will answer questions, give you the news, and play music from a handful of services.
 
-http://youtu.be/KkOCeAtKHIc
+{% youtube "KkOCeAtKHIc", "" %}
 
 It's a nice idea (in theory), which sort of brings a Star Trek-like function to your home - who doesn't remember Picard and crew simply saying "Computer" then asking a question/giving a command? The device itself looks nice enough to have in the house… but, to me, there's just something creepy about the whole thing.
 

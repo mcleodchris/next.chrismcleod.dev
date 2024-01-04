@@ -5,11 +5,8 @@ categories:
   - articles
   - notes
 tags:
-  - battle-for-azeroth
   - gaming
-  - video-games
   - world-of-warcraft
-  - wow
 authors:
   - chris
 archived: true

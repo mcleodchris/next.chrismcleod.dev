@@ -6,8 +6,6 @@ categories:
   - uncategorised
 tags:
   - 3d-printing
-  - humour
-  - lychee
   - software
 authors:
   - chris

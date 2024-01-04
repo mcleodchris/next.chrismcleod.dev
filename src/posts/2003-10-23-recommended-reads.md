@@ -4,7 +4,7 @@ date: 2003-10-23
 categories:
   - articles
 tags:
-  - 63
+  - links
 authors:
   - chris
 archived: true

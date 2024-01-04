@@ -3,6 +3,8 @@ title: "I'm Really Angry With You"
 date: 2003-06-01
 categories:
   - articles
+tags:
+  - music
 authors:
   - chris
 archived: true

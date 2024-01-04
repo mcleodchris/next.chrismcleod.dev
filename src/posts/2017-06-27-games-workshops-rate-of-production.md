@@ -6,6 +6,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - miscellaneous
 ---
 
 If you step back and think about it, [Games Workshop](https://www.games-workshop.com/) produce a staggering amount of new products not only per year, but _per month_. It's something I don't think they get enough credit for.

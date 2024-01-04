@@ -4,22 +4,13 @@ date: 2013-09-13
 categories:
   - code-development
 tags:
-  - asteroids
   - coder
-  - debian
-  - development
-  - google
-  - javascript
   - linux
-  - node-js
-  - pi-project
-  - programmer
+  - programming
+  - javascript
   - raspberry-pi
   - software
-  - technology
-  - web
-  - web-developer
-  - web-development
+  - guide
 authors:
   - chris
 archived: true

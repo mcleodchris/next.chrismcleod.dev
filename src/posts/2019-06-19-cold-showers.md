@@ -6,6 +6,11 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - link
+  - miscellaneous
+  - mental-health
 ---
 
 > [I Took A Freezing-Cold Shower Every Morning For A Month & This Is What Happened - Refinery29 UK](https://apple.news/A90rz9h9KSYCd330RYqpOsw)

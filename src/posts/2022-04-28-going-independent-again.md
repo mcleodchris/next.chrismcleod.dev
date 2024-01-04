@@ -5,9 +5,9 @@ categories:
   - general-life
 tags:
   - activitypub
-  - fediverse
   - indieweb
-  - openweb
+  - blogging
+  - blogging-tools
 authors:
   - chris
 redirectFrom: ['/2022/04/28/going-independent-again/']

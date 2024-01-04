@@ -7,6 +7,11 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - blogging
+  - indieweb
+  - open-source
+  - wordpress
 ---
 
 I've been [chipping away at K](/blog/the-road-to-open-sourcing-k-for-wordpress/) as time allows over the last week. It's still a long way from where I'd like it to be, but it's getting there...

@@ -5,12 +5,10 @@ categories:
   - general-life
   - projects
 tags:
-  - firebase
-  - ipaintedthis
-  - laravel
-  - learning-and-development
+  - learning
   - php
   - react
+  - programming
 authors:
   - chris
 redirectFrom: ['/2022/12/22/updating-apps-updating-skills/']

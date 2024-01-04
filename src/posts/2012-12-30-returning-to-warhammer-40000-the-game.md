@@ -5,21 +5,10 @@ categories:
   - articles
   - hobby
 tags:
-  - codex
-  - dark-eldar
-  - games
-  - games-workshop
-  - hobby
+  - tabletop-gaming
   - miniatures
-  - necron
-  - nostalgia
-  - science-fiction
-  - sisters-of-battle
-  - space-marine
-  - space-marines
   - warhammer
-  - warhammer-40-000
-  - warhammer-40k
+  - warhammer-40000
 authors:
   - chris
 archived: true

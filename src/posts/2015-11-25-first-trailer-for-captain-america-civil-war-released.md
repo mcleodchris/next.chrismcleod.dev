@@ -4,21 +4,17 @@ date: 2015-11-25
 categories:
   - articles
 tags:
-  - captain-america
-  - captain-amerrica-civil-war
-  - cinema
-  - civil-war
   - marvel
   - movies
-  - trailer
 authors:
   - chris
 archived: true
+youtube: true
 ---
 
 It looks fantastic:
 
-https://youtu.be/43NWzay3W4s
+{% youtube "43NWzay3W4s", "" %}
 
 But it was too early in the morning to deal with this:
 

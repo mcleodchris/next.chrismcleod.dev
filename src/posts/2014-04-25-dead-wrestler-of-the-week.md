@@ -4,12 +4,7 @@ date: 2014-04-25
 categories: 
   - articles
 tags: 
-  - chris-beniot
-  - dead-wrestler-of-the-week
-  - deadspin
-  - owen-hart
   - wrestling
-  - wwe
 authors: 
   - chris
 archived: true

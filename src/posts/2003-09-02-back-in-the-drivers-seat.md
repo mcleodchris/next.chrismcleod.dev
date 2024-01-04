@@ -4,7 +4,7 @@ date: 2003-09-02
 categories:
   - articles
 tags:
-  - 1
+  - personal
 authors:
   - chris
 archived: true

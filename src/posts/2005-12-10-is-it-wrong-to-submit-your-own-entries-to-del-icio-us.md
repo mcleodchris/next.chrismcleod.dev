@@ -5,11 +5,8 @@ categories:
   - articles
 tags:
   - blogging
+  - blogging-tools
   - bookmarks
-  - del-icio-us
-  - problogger
-  - promotion
-  - social-networks
 authors:
   - chris
 archived: true

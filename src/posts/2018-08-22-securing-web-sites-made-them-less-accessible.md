@@ -6,6 +6,12 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - blogging
+  - internet
+  - security
+  - privacy
+  - accessibility
 ---
 
 Eric Meyer: [Securing Web Sites Made Them Less Accessible](https://meyerweb.com/eric/thoughts/2018/08/07/securing-sites-made-them-less-accessible/)

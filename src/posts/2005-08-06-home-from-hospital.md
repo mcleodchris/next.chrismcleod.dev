@@ -4,14 +4,8 @@ date: 2005-08-06
 categories:
   - articles
 tags:
-  - fitness
-  - health
-  - hospital
-  - ibook
-  - occupational-therapist
-  - personal-training
-  - physical-fitness
-  - war-wound
+  - personal
+  - cerebral-haemorrhage
 authors:
   - chris
 archived: true

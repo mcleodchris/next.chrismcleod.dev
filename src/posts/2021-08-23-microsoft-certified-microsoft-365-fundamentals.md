@@ -7,10 +7,8 @@ categories:
 tags:
   - azure
   - certifications
-  - certified
-  - exam
+  - learning
   - microsoft
-  - ms-900
 authors:
   - chris
 image: https://assets.chrism.cloud/chrismcleod.dev/images/microsoft-365-certified-fundamentals1-1.png

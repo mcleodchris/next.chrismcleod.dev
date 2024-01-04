@@ -5,8 +5,9 @@ categories:
   - articles
   - notes
 tags:
-  - documentation
-  - howto
+  - blogging
+  - blogging-tools
+  - how-to
   - indieweb
   - textpattern
 authors:

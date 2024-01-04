@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - php
+  - tip
 ---
 
 [Simple Python Server](https://andy-bell.design/notes/191/)

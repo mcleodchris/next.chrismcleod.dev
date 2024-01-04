@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - links
+  - miscellaneous
 ---
 
 > Almost every time I’ve talked to a reporter has gone this way: they had already decided the narrative beforehand. I’m never being asked for information — I’m being used for quotes to back up their predetermined story, regardless of whether it’s true. (Consider this when you read the news.) Misquotes usually aren’t mistakes — they’re edited, consciously or not, to say what the reporter needs them to say.

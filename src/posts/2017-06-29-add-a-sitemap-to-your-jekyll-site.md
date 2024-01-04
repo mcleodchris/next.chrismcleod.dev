@@ -7,6 +7,11 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - blogging
+  - blogging-tools
+  - jekyll
+  - how-to
 ---
 
 An XML Sitemap can be useful for optimising your site with Google, particularly if you make use of their Webmaster Tools. Jekyll doesn’t come with one out-of-the-box, but it is easy to add one. There’s probably a plugin out there which will automate things, but I just used a normal Jekyll-generated file for mine, based on code found on [Robert Birnie’s site](http://www.uberobert.com/generate-a-jekyll-sitemap/).

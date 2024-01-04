@@ -7,10 +7,8 @@ categories:
 tags:
   - azure
   - certifications
-  - certified
-  - exam
+  - learning
   - microsoft
-  - sc-900
 authors:
   - chris
 image: https://assets.chrism.cloud/chrismcleod.dev/2021/08/microsoft-certified-security-compliance-and-identity-fundamentals.png

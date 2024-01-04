@@ -5,14 +5,10 @@ categories:
   - projects
   - work
 tags:
-  - create-react-app
-  - nodejs
-  - notes
-  - npm
-  - npx
+  - tip
   - react
-  - troubleshooting
-  - wsl
+  - programming
+  - linux
 authors:
   - chris
 redirectFrom: ['/2021/12/17/fixing-create-react-app/']

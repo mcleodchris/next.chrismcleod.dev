@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - blogging
+  - feeds
 ---
 
 In response to the Motherboard article "[The Rise and Demise of RSS](https://motherboard.vice.com/en_us/article/a3mm4z/the-rise-and-demise-of-rss)" I linked to a couple of days ago, [Colin makes some great points](https://cdevroe.com/2019/01/16/rss-subscribing).

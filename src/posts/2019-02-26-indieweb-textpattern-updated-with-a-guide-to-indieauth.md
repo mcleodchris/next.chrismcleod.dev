@@ -4,7 +4,9 @@ date: 2019-02-26
 categories:
   - notes
 tags:
-  - indieauth
+  - how-to
+  - blogging
+  - blogging-tools
   - indieweb
   - textpattern
 authors:

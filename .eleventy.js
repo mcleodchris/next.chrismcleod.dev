@@ -43,7 +43,7 @@ const {
 } = require('./config/shortcodes/index.js');
 
 // module import collections
-const {getAllPosts} = require('./config/collections/index.js');
+const {getAllPosts, getAllSubscriptions, tagList} = require('./config/collections/index.js');
 
 // module import events
 const {svgToJpeg} = require('./config/events/index.js');
@@ -57,6 +57,7 @@ const {escape} = require('lodash');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const inclusiveLangPlugin = require('@11ty/eleventy-plugin-inclusive-language');
 const bundlerPlugin = require('@11ty/eleventy-plugin-bundle');
+const postGraph = require('@rknightuk/eleventy-plugin-post-graph');
 
 module.exports = eleventyConfig => {
   // 	--------------------- Custom Watch Targets -----------------------
@@ -69,6 +70,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('home', 'home.njk');
   eleventyConfig.addLayoutAlias('blog', 'blog.njk');
   eleventyConfig.addLayoutAlias('post', 'post.njk');
+  eleventyConfig.addLayoutAlias('sitemap', 'sitemap.njk');
 
   // 	---------------------  Custom filters -----------------------
   eleventyConfig.addFilter('limit', limit);
@@ -109,6 +111,8 @@ module.exports = eleventyConfig => {
 
   // 	--------------------- Custom collections -----------------------
   eleventyConfig.addCollection('posts', getAllPosts);
+  eleventyConfig.addCollection('subscriptions', getAllSubscriptions);
+  eleventyConfig.addCollection('tagList', tagList);
 
   // 	--------------------- Events ---------------------
   eleventyConfig.on('afterBuild', svgToJpeg);
@@ -122,6 +126,7 @@ module.exports = eleventyConfig => {
     words: 'simply,obviously,basically,of course,clearly,everyone knows'
   });
   eleventyConfig.addPlugin(bundlerPlugin);
+  eleventyConfig.addPlugin(postGraph);
 
   // 	--------------------- Passthrough File Copy -----------------------
   // same path

@@ -5,12 +5,7 @@ categories:
   - articles
 tags:
   - apple
-  - bugs
-  - frustrations
-  - ios
-  - iphone
-  - iphone-5s
-  - reboots
+  - mobile
   - software
 authors:
   - chris

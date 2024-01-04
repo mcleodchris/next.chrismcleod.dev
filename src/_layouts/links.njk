@@ -19,15 +19,17 @@ layout: base
     </div>
 </article>
 <article class="wrapper region">
-    {% for tag in feeds %}
-        <h2>{{ tag.name }}</h2>
-        <ol>
-            {% for link in tag.feeds %}
-                <li>
-                    <a href="{{ link.site_url | url }}">{{ link.title }}</a>
-                    ({{ link.domain }})
-                </li>
-            {% endfor %}
-        </ol>
+    {% set category = "" %}
+    {% for feed in collections.subscriptions %}
+        {% if feed.data.category != category %}
+            {% set category = feed.data.category %}
+            {% if category != "" %}</ul>{% endif %}
+            <h2>{{ category }}</h2>
+            <ul>
+        {% endif %}
+        <li><a href="{{ feed.data.site_url | url }}">{{ feed.data.title }}</a> ({{ feed.data.domain}})
+            {%if feed.content %}<p>{{ feed.content | safe }}</p>{% endif %}
+        </li>
     {% endfor %}
+    </ul>
 </article>

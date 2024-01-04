@@ -5,12 +5,8 @@ categories:
   - articles
 tags:
   - apple
-  - dock
-  - finder
-  - ibook
-  - ipad
-  - languages
-  - mac-os-x
+  - laptops
+  - personal
 authors:
   - chris
 archived: true

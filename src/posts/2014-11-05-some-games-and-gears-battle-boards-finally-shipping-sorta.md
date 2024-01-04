@@ -4,14 +4,9 @@ date: 2014-11-05
 categories:
   - articles
 tags:
-  - battle-board-kickstarter
-  - battle-boards
-  - games
-  - games-and-gears
-  - kickstarter
-  - wargaming
+  - tabletop-gaming
   - warhammer
-  - warhammer-40-000
+  - warhammer-40000
 authors:
   - chris
 archived: true

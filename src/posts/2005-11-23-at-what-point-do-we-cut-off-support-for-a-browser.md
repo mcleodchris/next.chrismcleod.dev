@@ -4,14 +4,8 @@ date: 2005-11-23
 categories:
   - articles
 tags:
-  - camino
-  - firefox
-  - google-chrome
-  - internet-explorer
-  - netnewswire
-  - opera
-  - safari
-  - web-browser
+  - web-design
+  - browsers
 authors:
   - chris
 archived: true

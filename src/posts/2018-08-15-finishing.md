@@ -7,6 +7,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - projects
 ---
 
 [This post, by Steve Smith](https://orderedlist.com/blog/finishing/), speaks to me and my constant struggles to finish projects:

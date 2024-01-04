@@ -5,8 +5,7 @@ categories:
   - general-life
 tags:
   - assassins-creed
-  - assassins-creed-valhalla
-  - games
+  - gaming
 authors:
   - chris
 redirectFrom: ['/2023/01/03/assassins-creed-valhalla/']

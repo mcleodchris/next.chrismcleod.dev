@@ -6,7 +6,7 @@ categories:
 tags:
   - link-list
   - links
-  - the-reading-list
+  - miscellaneous
 authors:
   - chris
 archived: true

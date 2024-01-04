@@ -5,9 +5,7 @@ categories:
   - notes
 tags:
   - blogging
-  - editors
-  - ios
-  - ulysses
+  - blogging-tools
   - writing
 authors:
   - chris

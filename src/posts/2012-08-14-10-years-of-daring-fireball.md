@@ -6,10 +6,7 @@ categories:
 tags:
   - apple
   - daring-fireball
-  - ipad
-  - iphone
-  - john-gruber
-  - macintosh
+  - blogging
 authors:
   - chris
 archived: true

@@ -4,11 +4,8 @@ date: 2005-11-29
 categories:
   - articles
 tags:
-  - conditions-and-diseases
-  - epilepsy
-  - epileptic-seizure
-  - health
-  - neurological-disorders
+  - personal
+  - cerebral-haemorrhage
 authors:
   - chris
 archived: true

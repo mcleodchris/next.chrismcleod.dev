@@ -5,11 +5,8 @@ categories:
   - notes
 tags:
   - activitypub
-  - federation
   - indieweb
-  - protocols
   - social-media
-  - twitter
 authors:
   - chris
 archived: true

@@ -4,9 +4,7 @@ date: 2015-05-17
 categories:
   - articles
 tags:
-  - frustrations
   - google
-  - google-apps
   - software
   - user-experience
 authors:

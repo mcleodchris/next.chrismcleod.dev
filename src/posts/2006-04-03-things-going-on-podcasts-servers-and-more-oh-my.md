@@ -4,14 +4,9 @@ date: 2006-04-03
 categories:
   - articles
 tags:
-  - apache
-  - dvd
-  - garageband
-  - ibook
-  - imac-g5
-  - itunes
-  - podcast
-  - windows-server-2003
+  - personal
+  - podcasting
+  - miscellaneous
 authors:
   - chris
 archived: true

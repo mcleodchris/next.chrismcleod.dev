@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - work-from-home
 ---
 
 A lot of catching up to do, so I might go into post overdrive for a little bit.

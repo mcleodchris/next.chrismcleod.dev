@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - site-meta
+  - blogging
+  - blogging-tools
 ---
 
 Ever since I joined [Technorati](https://web.archive.org/web/20040726182032/http://www.technorati.com/) and "claimed ownership" of this blog (and [Gentooist](https://web.archive.org/web/20040726182032/http://www.gentooist.co.uk/)), my [Technorati Profile](https://web.archive.org/web/20040726182032/http://www.technorati.com/profile/chrismcleod) has always read "No Verified Blogs". What exactly do I have to do to change this? I _thought_ the instructions were something along the line of:

@@ -6,6 +6,11 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - social-media
+  - writing
+  - blogging
+  - link
 ---
 
 > After nearly four weeks, my attention span became something it hadn’t been in ages, something iron and concrete and unlike the fluttering moth that it had been in recent years. And that was when I started doing something I hadn’t done in ages: I started writing again.

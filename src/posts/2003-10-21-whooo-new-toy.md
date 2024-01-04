@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - transformers
+  - toys
+  - nostalgia
 ---
 
 After a week and a half of waiting, my new Transformers Binaltech Smokescreen arrived in the post today :D

@@ -6,7 +6,7 @@ categories:
   - notes
 tags:
   - world-of-warcraft
-  - wow
+  - gaming
 authors:
   - chris
 archived: true

@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - security
+  - link
 ---
 
 [Dark Reading|Hacker Unlocks 'God Mode' and Shares the 'Key':](https://www.darkreading.com/vulnerabilities---threats/hacker-unlocks-god-mode-and-shares-the-key/d/d-id/1332543)

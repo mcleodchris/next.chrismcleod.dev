@@ -5,9 +5,8 @@ categories:
   - articles
   - notes
 tags:
-  - development
+  - programming
   - indieweb
-  - k-theme
   - wordpress
 authors:
   - chris

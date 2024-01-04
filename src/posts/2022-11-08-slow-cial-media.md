@@ -4,7 +4,6 @@ date: 2022-11-08
 categories:
   - general-life
 tags:
-  - mastodon
   - social-media
   - technology
 authors:

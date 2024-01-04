@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - programming
+  - facebook
+  - personal
 ---
 
 I'm having heaps of fun experimenting with the Facebook APIs. It's definitely a learning experience, and it's something I've kind of missed - just playing around with a technology, with absolutely no expectation anything will come of it.

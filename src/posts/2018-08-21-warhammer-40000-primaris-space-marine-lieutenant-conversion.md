@@ -6,6 +6,11 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - projects
+  - warhammer
+  - warhammer-40000
+  - armies-on-parade
 ---
 
 {% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/img_0811.jpg", "alt temporarily text not available" %}

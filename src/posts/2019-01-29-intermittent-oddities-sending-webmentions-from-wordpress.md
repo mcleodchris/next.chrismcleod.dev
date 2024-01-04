@@ -4,8 +4,7 @@ date: 2019-01-29
 categories:
   - notes
 tags:
-  - mr-kapowski
-  - plugin
+  - site-meta
   - webmentions
   - wordpress
 authors:

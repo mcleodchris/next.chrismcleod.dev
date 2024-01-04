@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - security
+  - miscellaneous
 ---
 
 {% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2015/02/phishing.png", "phishing attempt screenshot" %}

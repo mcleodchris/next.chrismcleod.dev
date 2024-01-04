@@ -1,9 +1,36 @@
 /** Returns all blog posts as a collection. */
 const getAllPosts = collection => {
-  const projects = collection.getFilteredByGlob('./src/posts/*.md');
-  return projects.reverse();
+  const posts = collection.getFilteredByGlob('./src/posts/*.md');
+  return posts.reverse();
+};
+const getAllSubscriptions = collection => {
+  const subscriptions = collection.getFilteredByGlob('./src/subscriptions/*.md');
+  // sort subscriptions by category, alphabetically
+  subscriptions.sort((a, b) => {
+    if (a.data.category > b.data.category) return 1;
+    if (a.data.category < b.data.category) return -1;
+    return 0;
+  });
+  return subscriptions;
+};
+
+const tagList = collection => {
+  const tagsSet = new Set();
+  collection.getAll().forEach(item => {
+    if (!item.data.tags) return;
+    item.data.tags
+      .filter(tag => !['posts', 'all'].includes(tag))
+      .forEach(tag => tagsSet.add(tag));
+  });
+  return Array.from(tagsSet).sort((tag1, tag2) => {
+    if(collection.getFilteredByTag(tag1).length > collection.getFilteredByTag(tag2).length) return -1;
+    if(collection.getFilteredByTag(tag1).length < collection.getFilteredByTag(tag2).length) return 1;
+    return 0;
+  });
 };
 
 module.exports = {
-  getAllPosts
+  getAllPosts,
+  getAllSubscriptions,
+  tagList
 };

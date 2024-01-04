@@ -5,13 +5,7 @@ categories:
   - articles
 tags:
   - android
-  - android-4-1
-  - bean
   - google
-  - iphone
-  - jelly-bean
-  - nexus
-  - nexus-one
 authors:
   - chris
 archived: true

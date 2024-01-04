@@ -6,10 +6,6 @@ categories:
   - code-development
 tags:
   - cloud-computing
-  - documentation
-  - heroku
-  - mongodb
-  - pecl
   - php
   - programming
 authors:

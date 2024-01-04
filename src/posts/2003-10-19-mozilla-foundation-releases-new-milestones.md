@@ -6,6 +6,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - mozilla
 ---
 
 A few days late with this one, but hey-ho…

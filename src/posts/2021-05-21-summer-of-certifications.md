@@ -5,16 +5,10 @@ categories:
   - general-life
   - work
 tags:
-  - ai
-  - ai-900
+  - microsoft
   - azure
   - certifications
-  - data
-  - dp-900
-  - learning-and-development
-  - pl-900
-  - power-platform
-  - training
+  - learning
 authors:
   - chris
 redirectFrom: ['/2021/05/21/summer-of-certification/']

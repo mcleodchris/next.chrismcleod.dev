@@ -4,9 +4,7 @@ date: 2019-03-01
 categories:
   - notes
 tags:
-  - banshee
-  - basilisk
-  - miniature-painting
+  - miniatures
 authors:
   - chris
 archived: true

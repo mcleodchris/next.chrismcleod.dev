@@ -4,16 +4,9 @@ date: 2013-06-21
 categories:
   - articles
 tags:
-  - content
-  - digital-media
-  - dredd
-  - films
-  - itunes
   - media
   - movies
   - netflix
-  - rentals
-  - the-amazing-spider-man
 authors:
   - chris
 archived: true

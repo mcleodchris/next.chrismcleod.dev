@@ -4,12 +4,8 @@ date: 2014-07-22
 categories:
   - articles
 tags:
-  - government
-  - independence
-  - independence-referendum
-  - peter-arnott
+  - politics
   - scotland
-  - scots
   - scottish-independence
 authors:
   - chris

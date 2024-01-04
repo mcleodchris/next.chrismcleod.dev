@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - web-design
+  - blogging
 ---
 
 I’ve been browsing more than a few blogs recently, to get some ideas for some projects. One thing that I noticed, which I’ve never picked up on before, is the “Recent Entries” list. More specifically, its inclusion on a site home page.

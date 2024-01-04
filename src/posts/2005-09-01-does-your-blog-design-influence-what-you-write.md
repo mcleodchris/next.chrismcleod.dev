@@ -4,11 +4,9 @@ date: 2005-09-01
 categories:
   - articles
 tags:
-  - design
-  - twitter
+  - blogging
   - web-design
-  - web-design-and-development
-  - web-development
+  - writing
 authors:
   - chris
 archived: true

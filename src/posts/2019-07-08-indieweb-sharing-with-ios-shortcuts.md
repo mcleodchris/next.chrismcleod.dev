@@ -4,10 +4,10 @@ date: 2019-07-08
 categories:
   - articles
 tags:
-  - howto
+  - how-to
   - indieweb
   - ios
-  - shortcuts
+  - blogging-tools
 authors:
   - chris
 archived: true

@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - jekyll
+  - tip
 ---
 
 Having just spent faaaar too long to get a sample Liquid code block to not be parsed by Jekyll, I thought I better make note of this, for my own benefit:

@@ -4,17 +4,14 @@ date: 2015-02-10
 categories:
   - articles
 tags:
-  - film
-  - harry-potter
-  - movie
-  - severus-snape
-  - snape
-  - supercut
+  - video
+  - movies
 authors:
   - chris
 archived: true
+youtube: true
 ---
 
-http://youtu.be/RhOQ4VW6xV8
+{% youtube "RhOQ4VW6xV8", "" %}
 
 Brilliant.

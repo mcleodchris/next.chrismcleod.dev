@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - linux
+  - laptops
 ---
 
 _Last Updated: 27/May/2004_

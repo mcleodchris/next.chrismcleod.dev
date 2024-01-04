@@ -4,10 +4,7 @@ date: 2021-02-26
 categories:
   - general-life
 tags:
-  - covid
-  - nhs
-  - vaccination
-  - vaccine
+  - personal
 authors:
   - chris
 redirectFrom: ['/2021/02/26/side-effects/']

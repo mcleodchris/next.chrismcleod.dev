@@ -3,6 +3,11 @@ title: 'Micro.blog adds (tentative) support for moving from Mastodon'
 date: 2022-12-02
 categories:
   - uncategorised
+tags:
+  - indieweb
+  - blogging
+  - blogging-tools
+  - micro.blog
 authors:
   - chris
 redirectFrom: ['/2022/12/02/micro-blog-adds-tentative-support-for-moving-from-mastodon/']

@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - agile
+  - lean-software
 ---
 
 I was having an informal chat with a former colleague[^1] today. After shooting the breeze about this and that, he announced how he had become a big fan of 37Signals’ [Get Real](https://web.archive.org/web/20060422031042/http://getreal.37signals.com/) methodology and was applying it to his own work. Fine, I thought… Until he started going on about how it allows him to start a project without much of any sort of planning. “Oh no it doesn’t” says I. You still have to know what you’re building and why, before you jump in and code. Without some sort of plan, you end up with a mess. A big unwieldy app that doesn’t focus on the job (nor do it well). You end up missing one of the big points of “Getting Real” – **Lean Software**

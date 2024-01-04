@@ -5,10 +5,9 @@ categories:
   - articles
   - notes
 tags:
-  - black-library
-  - book-unboxing
+  - books
   - horus-heresy
-  - the-solar-war
+  - gallery
   - warhammer
 authors:
   - chris

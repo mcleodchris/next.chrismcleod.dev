@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - programming
+  - bugs
 ---
 
 I’ve spent the last two days looking at the same line of code, trying to work out why the fuck it’s not working right.

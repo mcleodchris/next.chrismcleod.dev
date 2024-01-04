@@ -6,6 +6,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - web-standards
 ---
 
 At last, [a Government Website that follows web standards](https://web.archive.org/web/20041111030118/http://www.businesslink.gov.uk/bdotg/action/home "DTI Business Link Website").

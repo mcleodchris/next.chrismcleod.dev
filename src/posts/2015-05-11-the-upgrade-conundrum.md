@@ -4,13 +4,9 @@ date: 2015-05-11
 categories:
   - articles
 tags:
-  - 3
-  - computer
-  - hardware
-  - mac
-  - pc
-  - tech
-  - upgrades
+  - pc-building
+  - computing
+  - personal
 authors:
   - chris
 archived: true

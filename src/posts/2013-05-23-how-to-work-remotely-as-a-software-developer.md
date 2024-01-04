@@ -4,14 +4,10 @@ date: 2013-05-23
 categories:
   - articles
 tags:
-  - developer
-  - discipline
-  - hacker-news
-  - link
+  - programming
   - productivity
   - software
-  - work
-  - working-from-home
+  - work-from-home
 authors:
   - chris
 archived: true

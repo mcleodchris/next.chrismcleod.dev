@@ -4,9 +4,8 @@ date: 2019-01-28
 categories:
   - notes
 tags:
-  - culture
-  - longreads
-  - millenials
+  - link
+  - miscellaneous
 authors:
   - chris
 archived: true

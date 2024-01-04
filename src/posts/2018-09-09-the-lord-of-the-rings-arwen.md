@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - projects
+  - tolkien
+  - miniatures
 ---
 
 Similar to my [Lord of Blights](/blog/age-of-sigmar-lord-of-blights/), this is a "catch-up post" for a model I painted earlier this year.

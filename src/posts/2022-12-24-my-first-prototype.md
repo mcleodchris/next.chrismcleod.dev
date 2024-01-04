@@ -5,13 +5,9 @@ categories:
   - general-life
   - projects
 tags:
-  - 3d-printer
   - 3d-printing
-  - design
-  - iteration
-  - magpuck
-  - prototyping
-  - tools
+  - learning
+  - projects
 authors:
   - chris
 image: https://assets.chrism.cloud/chrismcleod.dev/2022/12/img_1488-2.jpg

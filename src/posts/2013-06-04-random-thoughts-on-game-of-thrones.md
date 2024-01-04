@@ -4,14 +4,8 @@ date: 2013-06-04
 categories:
   - articles
 tags:
-  - book
-  - characters-in-a-song-of-ice-and-fire
-  - daniel-craig
-  - game-of-thrones
-  - major-houses-in-a-song-of-ice-and-fire
-  - roose-bolton
-  - song-of-ice-and-fire
-  - storm-of-swords
+  - books
+  - TV
 authors:
   - chris
 archived: true

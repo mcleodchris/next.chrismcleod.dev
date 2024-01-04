@@ -5,15 +5,9 @@ categories:
   - articles
 archived: true
 tags:
-  - Apple
-  - application
+  - apple
+  - software
   - email
-  - Email-client
-  - ios
-  - iPhone
-  - Mail
-  - Sparrow
-  - user-interface
 authors:
   - chris
 ---

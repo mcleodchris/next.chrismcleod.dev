@@ -3,6 +3,10 @@ title: "Mmmmm, Shiny"
 date: 2003-06-02
 categories:
   - articles
+tags:
+  - personal
+  - gaming
+  - pc-building
 authors:
   - chris
 archived: true

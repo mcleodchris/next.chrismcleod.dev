@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - site-meta
+  - blogging
 ---
 
 Sometimes you just can’t ignore the temptation to tweak and tinker with your work, especially when it’s a personal site…
