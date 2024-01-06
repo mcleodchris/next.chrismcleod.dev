@@ -4,19 +4,7 @@ date: 2012-07-19
 categories:
   - articles
 tags:
-  - Algorithm
-  - developer
-  - development
-  - GOTO
-  - Java
-  - Languages
-  - novice programmer
-  - Programming
-  - Pseudocode
-  - software-development
-  - Source-Code
-  - technology
-  - Turbo-Pascal
+  - programming
 archived: true
 ---
 

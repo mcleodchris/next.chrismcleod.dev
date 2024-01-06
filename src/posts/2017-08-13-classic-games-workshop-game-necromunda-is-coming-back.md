@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - gaming
+  - nostalgia
+  - warhammer
 ---
 
 Flyers handed out at the [Forge World Open Day 2017](https://www.warhammer-community.com/2017/08/13/forge-world-open-day-live-blog/) have teased the new version of the game, called _Necromunda: Underhive_.

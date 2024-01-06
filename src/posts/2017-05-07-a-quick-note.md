@@ -5,7 +5,7 @@ categories:
   - articles
 tags:
   - blogging
-  - meta
+  - site-meta
 authors:
   - chris
 archived: true

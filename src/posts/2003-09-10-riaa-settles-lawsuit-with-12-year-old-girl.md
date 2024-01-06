@@ -6,7 +6,6 @@ categories:
 tags:
   - copyright
   - music
-  - riaa
 authors:
   - chris
 archived: true

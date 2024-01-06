@@ -4,10 +4,9 @@ date: 2021-04-30
 categories:
   - general-life
 tags:
-  - basecamp
-  - customer-data
   - email
-  - hey
+  - privacy
+  - dark-side-of-tech
 authors:
   - chris
 redirectFrom: ['/2021/04/30/hey-%f0%9f%91%8b%f0%9f%8f%bb-goodbye/']

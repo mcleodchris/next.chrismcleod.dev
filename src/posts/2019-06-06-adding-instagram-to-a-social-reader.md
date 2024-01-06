@@ -4,14 +4,9 @@ date: 2019-06-06
 categories:
   - notes
 tags:
-  - indie-reader
   - indieweb
-  - instagram
-  - microsub
-  - monocle
-  - silo-quit
-  - social-reader
-  - soft-quit
+  - social-media
+  - software
 authors:
   - chris
 archived: true

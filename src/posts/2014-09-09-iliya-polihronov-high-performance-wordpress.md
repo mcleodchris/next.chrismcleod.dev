@@ -4,12 +4,8 @@ date: 2014-09-09
 categories:
   - code-development
 tags:
-  - configuration
-  - infrastructure
-  - nginx
-  - optimisation
+  - guide
   - servers
-  - web-server
   - wordpress
 authors:
   - chris

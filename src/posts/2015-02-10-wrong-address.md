@@ -6,6 +6,11 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - software
+  - personal
+  - email
+  - gmail
 ---
 
 I've had my GMail address for several years now; I don't really use it for anything more than legacy accounts, logins, or as a spam trap. For the most part it just sits there in the background, silently passing on any messages it receives to my "proper" account, which is email with a custom domain hosted on Fastmail.

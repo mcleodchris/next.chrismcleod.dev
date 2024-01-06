@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - gaming
+  - nostalgia
+  - warhammer
 ---
 
 Games Workshop have released [a new website for the upcoming new version of Necromunda](https://necromunda.com/). Digging through the website gives plenty of new information about the game:

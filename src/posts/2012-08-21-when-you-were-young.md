@@ -5,15 +5,7 @@ categories:
   - articles
 tags:
   - blogging
-  - chris-mcleod
-  - content
-  - content-management
-  - internet-archive
-  - linklog
-  - me
-  - personal
-  - site-management
-  - wayback-machine
+  - site-meta
 authors:
   - chris
 archived: true

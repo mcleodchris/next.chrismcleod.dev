@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - work
 ---
 
 Once upon a time I viewed myself as only a developer. I didn't like support, and tried to avoid it as much as possible - even though I knew it was in the customer service side where I would always learn the most in my day-to-day job. I put it down to the stubborn "programmer" in me! Then I moved into a role which was 90% support work, and I had an awakening of sorts: I really like support work. More than that, I _loved_ working in support. I haven't really talked much[^1] about this shift in mindset, so this post is part of an attempt to rectify that.

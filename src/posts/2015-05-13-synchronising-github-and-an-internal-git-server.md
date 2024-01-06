@@ -5,12 +5,9 @@ categories:
   - articles
   - code-development
 tags:
-  - code
-  - collaboration
-  - development
-  - git
+  - guide
+  - programming
   - github
-  - scm
 authors:
   - chris
 archived: true

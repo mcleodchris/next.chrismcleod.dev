@@ -5,12 +5,7 @@ categories:
   - articles
 tags:
   - browsers
-  - firebird
-  - firefox
-  - internet-explorer
   - mozilla
-  - mozilla-project
-  - www
 authors:
   - chris
 archived: true

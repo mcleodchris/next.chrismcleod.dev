@@ -4,12 +4,9 @@ date: 2019-07-26
 categories:
   - notes
 tags:
-  - amd
-  - computer
-  - diy
-  - hardware
-  - pc
-  - self-build
+  - computing
+  - pc-building
+  - personal
 authors:
   - chris
 archived: true

@@ -4,13 +4,10 @@ date: 2019-11-30
 categories:
   - notes
 tags:
-  - deletefacebook
   - facebook
   - indieweb
-  - instagram
-  - messenger
-  - silo-quit
-  - whatsapp
+  - social-media
+  - personal
 authors:
   - chris
 archived: true

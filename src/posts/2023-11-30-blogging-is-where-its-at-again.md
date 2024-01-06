@@ -2,9 +2,9 @@
 title: Blogging is where it's at, again
 date: 2023-11-30T11:09Z
 tags:
-  - blogs
   - blogging
   - social-media
+  - feeds
 gradient: "true"
 ---
 

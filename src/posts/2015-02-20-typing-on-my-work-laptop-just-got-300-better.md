@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - laptops
+  - design
+  - hacks
 ---
 
 Thanks to using 2 cork stoppers to elevate the back of the laptop up about an inch.

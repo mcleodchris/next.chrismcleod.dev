@@ -4,14 +4,8 @@ date: 2003-12-02
 categories:
   - articles
 tags:
-  - net-framework
-  - html
+  - dotnet
   - microsoft
-  - microsoft-sql-server
-  - microsoft-webmatrix
-  - ole-db
-  - windows-server
-  - xml
 authors:
   - chris
 archived: true

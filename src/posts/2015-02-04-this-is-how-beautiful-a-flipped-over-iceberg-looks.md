@@ -4,14 +4,8 @@ date: 2015-02-04
 categories:
   - articles
 tags:
-  - alex-cornell
-  - antarctica
-  - beauty
-  - iceberg
-  - inspiration
+  - photo
   - nature
-  - smithsonian
-  - smithsonian-magazine
 authors:
   - chris
 archived: true

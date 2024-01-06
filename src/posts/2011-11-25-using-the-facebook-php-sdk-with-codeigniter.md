@@ -5,14 +5,9 @@ categories:
   - articles
   - code-development
 tags:
-  - api
-  - codeigniter
   - facebook
-  - open-graph
   - php
   - programming
-  - sdk
-  - web-development
 authors:
   - chris
 archived: true

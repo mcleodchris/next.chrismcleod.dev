@@ -5,15 +5,9 @@ categories:
   - articles
 tags:
   - apple
-  - cleartype
-  - firefox
-  - mac-os-x
-  - microsoft-windows
-  - operating-system
-  - safari
+  - browsers
   - software
-  - technology
-  - windows
+  - microsoft
 authors:
   - chris
 archived: true

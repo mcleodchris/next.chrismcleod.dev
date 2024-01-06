@@ -8,8 +8,8 @@ redirectFrom: ['/feed/']
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ meta.url }}/">
   <title>{{ meta.blog.name }}</title>
   <subtitle>{{ meta.blog.description }}</subtitle>
-  <link href="{{ meta.url }}/feed.xml" rel="self" />
-  <link href="{{ meta.url }}/" />
+  <link href="{{ meta.url }}/feed.xml" rel="self" >
+  <link href="{{ meta.url }}/" >
   {% set postslist = collections.posts %}
   <updated>{{ postslist | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ meta.url }}/</id>
@@ -21,7 +21,7 @@ redirectFrom: ['/feed/']
   %}
   <entry>
     <title>{{ post.data.title }}</title>
-    <link href="{{ absolutePostUrl }}" />
+    <link href="{{ absolutePostUrl }}" >
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
     <content

@@ -4,12 +4,9 @@ date: 2006-03-26
 categories:
   - articles
 tags:
-  - languages
-  - open-source
-  - php
-  - programming
-  - textmate
+  - personal
   - wordpress
+  - programming
 authors:
   - chris
 archived: true

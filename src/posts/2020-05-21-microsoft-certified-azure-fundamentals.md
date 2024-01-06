@@ -7,9 +7,7 @@ categories:
 tags:
   - azure
   - certifications
-  - certified
-  - dp-900
-  - exam
+  - learning
   - microsoft
 authors:
   - chris

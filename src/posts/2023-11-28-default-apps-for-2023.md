@@ -2,8 +2,8 @@
 title: Default Apps for 2023
 date: 2023-11-28T17:21Z
 tags:
-    - apps
-    - what-i-use
+    - software
+    - default-apps
 ---
 
 I came across this collection of "what apps am I using?" posts via [Manton](https://www.manton.org/2023/11/28/default-apps-for.html), and thought it would be fun take part. If you want to see what others have posted, [Robb Knight is compiling a list](https://defaults.rknight.me/).

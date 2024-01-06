@@ -4,9 +4,8 @@ date: 2021-02-09
 categories:
   - work
 tags:
-  - objectives
-  - presentation
-  - promotion
+  - work
+  - personal
 authors:
   - chris
 redirectFrom: ['/2021/02/09/promotion-panel-post-mortem/']

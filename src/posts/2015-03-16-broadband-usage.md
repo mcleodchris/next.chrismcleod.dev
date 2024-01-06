@@ -4,10 +4,9 @@ date: 2015-03-16
 categories:
   - articles
 tags:
-  - broadband
-  - data-usage
-  - fibre
+  - miscellaneous
   - internet
+  - image
 authors:
   - chris
 archived: true

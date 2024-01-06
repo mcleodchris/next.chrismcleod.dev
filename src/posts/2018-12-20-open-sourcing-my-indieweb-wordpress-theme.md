@@ -5,10 +5,8 @@ categories:
   - articles
   - notes
 tags:
-  - code
   - indieweb
   - open-source
-  - oss
   - wordpress
 authors:
   - chris

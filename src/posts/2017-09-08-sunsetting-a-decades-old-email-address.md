@@ -7,6 +7,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - email
+  - tip
+  - personal
 ---
 
 I recently decided it was time to consolidate several email accounts, spread across multiple services, to one easily managed account. Some of these have been in use for over a decade. Some are "custom" domains, some are Gmail and other hosted services.

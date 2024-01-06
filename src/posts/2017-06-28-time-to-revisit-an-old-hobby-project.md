@@ -7,6 +7,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - warhammer-40000
+  - warhammer
+  - projects
 ---
 
 Lately I've been feeling a pull to return to my Warhammer 40,000 Flesh Tearers army, which I started around 4 years ago (and promptly only completed one unit of). I had an idea of a small strike-force that was basically just a load of Jump Pack Assault Squads, supported by Land Speeders (with some Death Company elements thrown in). It wouldn't have been very "competetive" but it would have been thematic and fun. I didn't progress the idea very far, as the Blood Angels codex in 7th Edition was… very not good; it also took away the ability to field Assault Squads as a troops choice -- rendering the entire idea invalid.

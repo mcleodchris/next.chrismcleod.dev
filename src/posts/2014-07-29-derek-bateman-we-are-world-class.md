@@ -4,14 +4,7 @@ date: 2014-07-29
 categories:
   - articles
 tags:
-  - alistair-darling
-  - commonwealth-games
-  - derek-bateman
-  - glasgow
-  - independence
-  - labour
   - politics
-  - referendum
   - scotland
   - scottish-independence
 authors:

@@ -4,9 +4,8 @@ date: 2021-05-22
 categories:
   - books
 tags:
-  - alpha-legion
-  - alpharius
-  - primarchs
+  - books
+  - horus-heresy
   - warhammer
 authors:
   - chris

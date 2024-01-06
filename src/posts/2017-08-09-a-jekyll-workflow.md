@@ -7,6 +7,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - jekyll
+  - blogging
+  - how-to
 ---
 
 ### 1\. Sublime Text (Portable) + Plugins

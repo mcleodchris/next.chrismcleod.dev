@@ -5,9 +5,6 @@ categories:
   - articles
 tags:
   - blogging
-  - blogs
-  - new-year
-  - resolutions
 authors:
   - chris
 archived: true

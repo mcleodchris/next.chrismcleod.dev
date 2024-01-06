@@ -4,10 +4,9 @@ date: 2021-04-04
 categories:
   - general-life
 tags:
-  - homekit
-  - iot
-  - philips-hue
   - smart-home
+  - personal
+  - tip
 authors:
   - chris
 redirectFrom: ['/2021/04/04/zone-of-control/']

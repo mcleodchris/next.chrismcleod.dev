@@ -1,5 +1,5 @@
 // © Manuel Matuzović: https://web.dev/website-navigation/
-
+import '@zachleat/pagefind-search';
 const nav = document.querySelector('nav');
 const list = nav.querySelector('ul');
 const burgerClone = document.querySelector('#burger-template').content.cloneNode(true);

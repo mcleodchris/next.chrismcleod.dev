@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - computing
 ---
 
 Every now and then, it’s good to re-evaluate your computing needs. Especially when you have as much spare hardware as me. I’m currently looking at what I’ve got and what I need. Unfortunately, I need help making my mind up. Help me!

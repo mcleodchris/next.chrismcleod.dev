@@ -5,6 +5,10 @@ categories:
   - uncategorised
 authors:
   - chris
+tags:
+  - AI
+  - internet
+  - link
 redirectFrom: ['/2022/11/01/ai-vs-artists/']
 ---
 

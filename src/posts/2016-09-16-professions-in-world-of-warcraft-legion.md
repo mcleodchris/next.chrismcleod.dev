@@ -5,11 +5,7 @@ categories:
   - articles
 tags:
   - gaming
-  - legion
-  - mmorpg
   - warcraft
-  - world-of-warcraft
-  - wow
 authors:
   - chris
 archived: true

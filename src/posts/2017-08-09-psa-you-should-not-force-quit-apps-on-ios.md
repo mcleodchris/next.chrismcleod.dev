@@ -7,6 +7,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - apple
+  - software
+  - user-experience
 ---
 
 > The single biggest misconception about iOS is that it’s good digital hygiene to force quit apps that you aren’t using.

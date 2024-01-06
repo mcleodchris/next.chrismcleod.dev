@@ -6,8 +6,8 @@ categories:
   - work
 tags:
   - certifications
-  - objectives
-  - promotion
+  - personal
+  - work
 authors:
   - chris
 redirectFrom: ['/2021/01/01/objectives-for-2021/']

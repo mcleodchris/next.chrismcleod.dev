@@ -6,6 +6,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - site-meta
 ---
 
 I've updated [my Links page](https://mrkapowski.com/links), adding RSS/feed data to every record I could, so [Inoreader](/blog/inoreader/) will pick up the feeds from [my OPML file](https://mrkapowski.com/wp-links-opml.php). I've also started adding all of the missing "follows" I have - starting with my old Feedly export, then I'll add any missing from Aperture. So far I've added a bunch of blogs on various topics, and a new category for Scotland-focussed content.

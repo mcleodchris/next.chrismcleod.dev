@@ -7,7 +7,7 @@ tags:
   - brid-gy
   - indieweb
   - syndication
-  - twitter
+  - social-media
 authors:
   - chris
 archived: true

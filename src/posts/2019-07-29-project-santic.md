@@ -4,9 +4,9 @@ date: 2019-07-29
 categories:
   - notes
 tags:
-  - adepta-sororitas
-  - miniature-painting
-  - sisters-of-battle
+  - miniatures
+  - projects
+  - warhammer
   - warhammer-40000
 authors:
   - chris

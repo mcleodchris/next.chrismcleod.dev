@@ -6,6 +6,11 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - 1password
+  - security
+  - software
+  - user-experience
 ---
 
 I've managed to cobble together a working Windows computer, using a junker, 11 year-old laptop (re)found in a cupboard some donor parts, and a bit of luck. I'm going to try to get a 1Password export through the desktop client, and attempt importing it to Bitwarden.

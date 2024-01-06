@@ -5,18 +5,10 @@ categories:
   - articles
   - hobby
 tags:
-  - christmas
-  - game
-  - games
-  - games-workshop
-  - gaming
-  - hobby
   - miniatures
-  - science-fiction
-  - space-marine
-  - space-marines
+  - tabletop-gaming
   - warhammer
-  - warhammer-40-000
+  - warhammer-40000
 authors:
   - chris
 archived: true

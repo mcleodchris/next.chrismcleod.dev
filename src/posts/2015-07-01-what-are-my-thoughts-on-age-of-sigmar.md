@@ -6,13 +6,9 @@ categories:
   - hobby
 tags:
   - age-of-sigmar
-  - games-workshop
-  - gaming
-  - internet-rage
-  - kings-of-war
-  - mantic
-  - tabletop
+  - tabletop-gaming
   - warhammer
+  - miniatures
 authors:
   - chris
 archived: true

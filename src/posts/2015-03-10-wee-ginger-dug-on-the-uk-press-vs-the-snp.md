@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - scotland
+  - politics
+  - links
 ---
 
 [The Dug puts into words](https://weegingerdug.wordpress.com/2015/03/09/bell-end-of-the-union/) (far better than I could) some thoughts which came to me on the way home about the borderline racist fury coming from the UK press about the possibility of a large bloc of SNP MPs at the next Westminster election:

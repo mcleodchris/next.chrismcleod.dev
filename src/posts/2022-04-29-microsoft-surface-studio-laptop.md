@@ -4,9 +4,8 @@ date: 2022-04-29
 categories:
   - general-life
 tags:
-  - laptop
+  - laptops
   - microsoft
-  - surface-studio-laptop
 authors:
   - chris
 redirectFrom: ['/2022/04/29/microsoft-surface-studio-laptop/']

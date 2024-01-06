@@ -4,13 +4,10 @@ date: 2019-05-27
 categories:
   - articles
 tags:
-  - collaboration
-  - contributing
   - indieweb
-  - monocle
+  - programming
   - open-source
-  - reader
-  - social-reader
+  - feeds
 authors:
   - chris
 archived: true

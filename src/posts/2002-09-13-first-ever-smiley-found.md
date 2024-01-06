@@ -4,14 +4,8 @@ date: 2002-09-13
 categories:
   - articles
 tags:
-  - carnegie-mellon-university
   - microsoft
-  - microsoft-research
-  - mike-jones
-  - register
-  - scott-fahlman
-  - smiley
-  - star-trek
+  - internet-history
 authors:
   - chris
 archived: true

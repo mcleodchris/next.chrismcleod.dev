@@ -5,12 +5,10 @@ categories:
   - hobby
   - notes
 tags:
-  - 40k
-  - armies-on-parade
-  - paintingwarhammer
-  - space-marines
+  - projects
+  - warhammer
   - warhammer-40000
-  - warhammer-40k
+  - armies-on-parade
 authors:
   - chris
 archived: true

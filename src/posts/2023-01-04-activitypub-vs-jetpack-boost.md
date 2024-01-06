@@ -5,9 +5,7 @@ categories:
   - general-life
 tags:
   - activitypub
-  - jetpack-boost
-  - meta
-  - plugins
+  - site-meta
   - wordpress
 authors:
   - chris

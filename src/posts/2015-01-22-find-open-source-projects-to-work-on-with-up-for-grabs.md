@@ -4,11 +4,8 @@ date: 2015-01-22
 categories:
   - articles
 tags:
-  - collaboration
-  - contributing
   - github
   - open-source
-  - up-for-grabs
 authors:
   - chris
 archived: true

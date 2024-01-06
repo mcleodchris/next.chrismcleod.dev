@@ -4,12 +4,7 @@ date: 2013-11-24
 categories:
   - articles
 tags:
-  - america
-  - holiday
   - san-francisco
-  - trip
-  - united-states
-  - vacation
 authors:
   - chris
 archived: true

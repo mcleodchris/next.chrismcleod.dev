@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - pc-building
 ---
 
 [Worlds Best PC Mod.](http://bit-tech.net/article/114/ "Worlds Best Mod") This thing's given me the modding bug again. Gawd help us.

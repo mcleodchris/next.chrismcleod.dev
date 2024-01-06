@@ -5,7 +5,9 @@ categories:
   - general-life
 tags:
   - warhammer
-  - warhammer40000
+  - warhammer-40000
+  - media
+  - amazon
 authors:
   - chris
 redirectFrom: ['/2022/12/16/warhammer-x-amazon/']

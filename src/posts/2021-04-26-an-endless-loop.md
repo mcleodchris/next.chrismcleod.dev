@@ -4,8 +4,7 @@ date: 2021-04-26
 categories:
   - general-life
 tags:
-  - engineering
-  - software-development
+  - software-engineering
   - work
 authors:
   - chris

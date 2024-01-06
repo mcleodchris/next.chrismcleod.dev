@@ -6,7 +6,8 @@ categories:
 tags:
   - dates-are-hard
   - textpattern
-  - timezones
+  - blogging
+  - blogging-tools
 authors:
   - chris
 archived: true

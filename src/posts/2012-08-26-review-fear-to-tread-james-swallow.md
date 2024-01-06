@@ -4,16 +4,10 @@ date: 2012-08-26
 categories:
   - reviews
 tags:
-  - black-library
-  - blood-angels
-  - gaming
-  - horus
+  - books
+  - warhammer
   - horus-heresy
-  - imperium
-  - james-swallow
-  - space-marine
-  - space-marines
-  - warhammer-40-000
+  - warhammer-40000
 authors:
   - chris
 archived: true

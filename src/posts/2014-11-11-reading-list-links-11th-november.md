@@ -5,7 +5,8 @@ categories:
   - articles
 tags:
   - link-list
-  - the-reading-list
+  - links
+  - miscellaneous
 authors:
   - chris
 archived: true

@@ -4,9 +4,10 @@ date: 2015-03-20
 categories:
   - notes
 tags:
-  - app-store
+  - software
   - apple
-  - ara-labs
+  - user-experience
+  - dark-side-of-tech
 authors:
   - chris
 archived: true

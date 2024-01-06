@@ -5,19 +5,19 @@ categories:
   - articles
 tags:
   - board-games
-  - games-workshop
-  - gaming
-  - space-hulk
+  - warhammer
+  - warhammer-40000
 authors:
   - chris
 archived: true
+youtube: true
 ---
 
 Space Hulk is one of my all-time favourite games. It's one of the best rule sets ever written by Games Workshop. It's been out of print for a few years now, but it looks like it's being brought back for a limited-run re-release.
 
 Rumours have been swirling for a few days now, and this morning Games Workshop put up a teaser video on [their White Dwarf Daily blog](http://www.games-workshop.com/en-GB/What's-New-Today-from-the-White-Dwarf-Team/2014/09/03/Destroy-or-Devour).
 
-http://youtu.be/bp91dSwHmQQ
+{% youtube "bp91dSwHmQQ", "" %}
 
 It's the standard, ropey, low-budget GW affair, simply panning across a piece of artwork depicting a Space Marine being fitted into Terminator armour. But at roughly 31 seconds in, for a few fractions of a second, another picture flashes up, showing a Terminator fighting a Genestealer - the classic badguys in Space Hulk.
 

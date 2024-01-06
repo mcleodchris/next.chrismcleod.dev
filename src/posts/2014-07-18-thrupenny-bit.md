@@ -6,6 +6,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
 ---
 
 When my ex-Mother-in-Law was young, she used to split her pocket money with her best friend; she would give her a "thrupenny bit" every week.

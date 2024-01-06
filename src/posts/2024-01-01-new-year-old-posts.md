@@ -2,10 +2,7 @@
 title: New Year, Old Posts
 date: 2024-01-01T23:32Z
 tags:
-  - blog
   - blogging
-  - blogs
-  - archives
   - site-meta
 ---
 In a case of history repeating itself not [once](https://chrismcleod.dev/blog/regarding-the-thoughtful-cultivation-of-the-archived-internet/) - but [three](https://chrismcleod.dev/blog/reclaiming-history) [times](https://chrismcleod.dev/rewriting-history)! - I've been working through the process of adding "historical" blog posts to my blog. These are posts I have written on previous iterations of my blog, in this case on several different domains, and stretch back over 20 years. Most of the earliest posts have been pulled from The Internet Archive, because younger me didn't think about backups - not that any I'd taken would have lasted this long!

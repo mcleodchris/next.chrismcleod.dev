@@ -6,9 +6,6 @@ categories:
   - general-life
 tags:
   - books
-  - kapowski-reads
-  - library
-  - little-library
   - video
 authors:
   - chris

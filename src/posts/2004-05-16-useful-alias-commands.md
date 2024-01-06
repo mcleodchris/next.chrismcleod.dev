@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - linux
+  - tips
+  - bash
 ---
 
 If – like me – you do a lot of “tinkering” with your Gentoo installation, you’ll invariably end up typing a lot of commands over and over again.

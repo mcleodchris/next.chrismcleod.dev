@@ -7,6 +7,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - gaming
+  - hitman
 ---
 
 I'm having a \_lot\_ of fun in Hitman. I'd go so far to say it's surpassed \_Hitman 2\_ as my favourite entry in the series.

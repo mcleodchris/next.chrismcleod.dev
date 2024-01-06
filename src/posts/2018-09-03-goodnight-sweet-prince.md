@@ -6,6 +6,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - miscellaneous
 ---
 
 {% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/img_0836.jpg", "alt temporarily text not available" %}

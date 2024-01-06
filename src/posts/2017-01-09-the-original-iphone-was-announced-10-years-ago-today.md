@@ -5,11 +5,9 @@ categories:
   - articles
 tags:
   - apple
-  - hardware
   - internet
   - iphone
   - mobile
-  - tech
   - technology
 authors:
   - chris

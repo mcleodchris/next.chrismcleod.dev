@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - mozilla
+  - browsers
 ---
 
 Microsoft’s Internet Explorer is the dominant web browser out there. There’s no denying it. However, it would appear that its grip on the top spot is slowly – but surely – loosening.

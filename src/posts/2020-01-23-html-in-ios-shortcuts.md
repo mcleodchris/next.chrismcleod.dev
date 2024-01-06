@@ -5,9 +5,8 @@ categories:
   - notes
 tags:
   - indieweb
-  - ios
-  - shortcuts
-  - workflow
+  - software
+  - tip
 authors:
   - chris
 archived: true

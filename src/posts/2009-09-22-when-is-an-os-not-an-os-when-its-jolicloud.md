@@ -5,12 +5,8 @@ categories:
   - articles
 tags:
   - cloud-computing
-  - jolicloud
   - netbook
-  - os
   - software
-  - ubuntu
-  - web-applications
 authors:
   - chris
 archived: true

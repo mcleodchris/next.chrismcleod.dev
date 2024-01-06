@@ -6,6 +6,11 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - site-meta
+  - writing
+  - blogging
 ---
 
 **\[Editors Note\]** This was the first post on my Pixel Meadow blog, but obviously _not_ my first ever blog entry.

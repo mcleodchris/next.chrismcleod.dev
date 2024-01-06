@@ -4,13 +4,9 @@ date: 2022-03-12
 categories:
   - general-life
 tags:
-  - backup
-  - computing
-  - general
-  - rsync
+  - software
   - tip
-  - windows
-  - wsl
+  - linux
 authors:
   - chris
 redirectFrom: ['/2022/03/12/use-rsync-to-copy-large-folders-on-windows/']

@@ -2,10 +2,10 @@ module.exports = {
   top: [
     {
       text: 'Blog',
-      url: '/blog/page-0/'
+      url: '/blog/'
     },
     {
-      text: 'Links',
+      text: 'Blogroll',
       url: '/links/'
     },
     {

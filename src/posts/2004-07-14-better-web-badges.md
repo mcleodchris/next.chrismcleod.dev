@@ -6,6 +6,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - web-design
 ---
 
 [Malarkey](http://www.stuffandnonsense.co.uk/archives/wearing_badges_is_not_enough.html) has just posted a fine summery of the pitfall of the various "badges" that currently litter a lot of "standards compliant" websites. You know the ones - they point to the various validators.

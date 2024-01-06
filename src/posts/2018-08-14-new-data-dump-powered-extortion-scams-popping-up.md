@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - dark-side-of-tech
+  - security
+  - privacy
 ---
 
 Beware of [a new extortion scam doing the rounds](https://www.bleepingcomputer.com/news/security/new-hacked-phone-partial-number-extortion-emails-making-a-lot-of-money/):

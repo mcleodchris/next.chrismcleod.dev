@@ -5,9 +5,8 @@ categories:
   - notes
 tags:
   - commonplace-book
-  - documentation
   - indieweb
-  - notes
+  - blogging
 authors:
   - chris
 archived: true

@@ -4,9 +4,8 @@ date: 2019-01-29
 categories:
   - notes
 tags:
-  - me
-  - mr-kapowski
-  - web-development
+  - programming
+  - indieweb
   - wordpress
 authors:
   - chris

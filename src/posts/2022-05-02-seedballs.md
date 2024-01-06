@@ -5,12 +5,8 @@ categories:
   - general-life
   - work
 tags:
-  - flowers
-  - garden
-  - nature
-  - plants
-  - seedballs
-  - wildflowers
+  - photo
+  - miscellaneous
 authors:
   - chris
 redirectFrom: ['/2022/05/02/seedballs/']

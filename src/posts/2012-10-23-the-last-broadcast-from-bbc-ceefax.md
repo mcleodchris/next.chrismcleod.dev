@@ -5,14 +5,8 @@ categories:
   - articles
 tags:
   - bbc
-  - ceefax
-  - entertainment
-  - information
-  - news
   - nostalgia
   - technology
-  - teletext
-  - tv
 authors:
   - chris
 archived: true

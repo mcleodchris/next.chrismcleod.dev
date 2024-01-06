@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - music
+  - meme
 ---
 
 We interrupt our scheduled Star Wars programming to bring you the latest _meme_ spreading through the blogosphere. [Pete](http://pixelicious.co.uk/) passed the baton to me, and before I pass it on, here’s the skinny on my music collection:

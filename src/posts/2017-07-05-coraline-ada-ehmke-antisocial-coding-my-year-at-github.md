@@ -7,6 +7,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - github
+  - dark-side-of-tech
 ---
 
 A powerful recount of [Coraline Ada Ehmke's terrible treatment at GitHub](https://where.coraline.codes/writing/my-year-at-github/). Please take some time to read it.

@@ -4,13 +4,8 @@ date: 2015-01-06
 categories:
   - articles
 tags:
-  - lau-tzu
-  - motivation
+  - miscellaneous
   - quote
-  - tao
-  - taoism
-  - time
-  - time-management
 authors:
   - chris
 archived: true

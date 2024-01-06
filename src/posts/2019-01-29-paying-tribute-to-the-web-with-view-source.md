@@ -5,10 +5,8 @@ categories:
   - notes
 tags:
   - browsers
-  - html
-  - k-theme
-  - view-source
-  - web-development
+  - web-design
+  - internet-history
 authors:
   - chris
 archived: true

@@ -5,14 +5,8 @@ categories:
   - code-development
 tags:
   - github
-  - languages
-  - license
-  - open-source-license
   - open-source
-  - oss
   - programming
-  - project
-  - source-code
 authors:
   - chris
 archived: true

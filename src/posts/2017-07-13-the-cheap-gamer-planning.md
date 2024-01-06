@@ -6,6 +6,11 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - gaming
+  - warhammer
+  - warhammer-40000
+  - tips
 ---
 
 A great post (part of a [great series](http://www.evilkipper.com/category/painting-guides/cheap-gamer/)) from "Admiral Rob" on planning out your gaming purchases to save money and get maximum bang for your buck. Games like Warhammer 40,000 can be _really_ expensive, but if you plan things out ahead of time you can really make some savings.

@@ -4,10 +4,7 @@ date: 2015-05-21
 categories:
   - articles
 tags:
-  - frustrations
   - google
-  - google-account
-  - google-apps
   - software
 authors:
   - chris

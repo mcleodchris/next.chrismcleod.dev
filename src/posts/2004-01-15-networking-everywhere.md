@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - technology
+  - networking
 ---
 
 From [The Register](https://web.archive.org/web/20050414024039/http://www.theregister.co.uk/content/69/34894.html "The Register")

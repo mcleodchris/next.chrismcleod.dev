@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - gaming
+  - red-dead-redemption
 ---
 
 A few summary thoughts, now I've managed to play Red Dead Redemption 2 for a few hours

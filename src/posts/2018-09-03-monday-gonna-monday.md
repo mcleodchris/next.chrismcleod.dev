@@ -6,6 +6,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
 ---
 
 5:06am -- wake up because I had a panic attack _in a dream_. As in, I dreamt I had a panic attack, without actually having a panic attack.

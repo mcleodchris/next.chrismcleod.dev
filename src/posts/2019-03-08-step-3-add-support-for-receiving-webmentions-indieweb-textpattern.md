@@ -6,8 +6,9 @@ categories:
 tags:
   - indieweb
   - textpattern
-  - webmention
-  - webmention-io
+  - webmentions
+  - blogging
+  - blogging-tools
 authors:
   - chris
 archived: true

@@ -4,13 +4,9 @@ date: 2023-05-11
 categories:
   - projects
 tags:
-  - apis
-  - atproto
-  - atprotocol
+  - programming
   - bluesky
-  - http
-  - json
-  - learning-and-development
+  - learning
   - social-media
 authors:
   - chris

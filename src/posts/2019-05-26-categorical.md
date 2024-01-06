@@ -4,12 +4,8 @@ date: 2019-05-26
 categories:
   - notes
 tags:
-  - blogs
-  - categories
-  - categorisation
-  - information-hierarchy
-  - post-kinds
-  - tags
+  - blogging
+  - blogging-tools
   - taxonomy
 authors:
   - chris

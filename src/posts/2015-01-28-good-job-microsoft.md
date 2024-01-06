@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - software
+  - microsoft
+  - rant
 ---
 
 {% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2015/01/silverlight-upgrade-warning.png", "Silverlight Upgrade Warning" %}

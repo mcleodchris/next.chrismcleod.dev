@@ -5,10 +5,7 @@ categories:
   - articles
 tags:
   - computing
-  - glass
   - google
-  - google-glass
-  - tech
   - technology
 authors:
   - chris

@@ -3,9 +3,8 @@ title: Microsoft Role-Based Exams Now (Semi) Open-Book
 date: 2023-08-23
 tags:
   - microsoft
-  - certification
+  - certifications
   - learning
-  - exam
 ---
 
 Microsoft's "role based" exams can be tough-going. There's a *lot* to learn, with a lot of questions where remembering the sometimes subtle nuances between things like different SKUs/pricing plans, or particular flags on a PowerShell command can make all of the difference. A lot of the time this is detail you wouldn't normally need to memorise, but would just look it up in normal day-to-day work.

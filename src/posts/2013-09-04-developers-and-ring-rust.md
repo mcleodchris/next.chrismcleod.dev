@@ -4,19 +4,12 @@ date: 2013-09-04
 categories:
   - code-development
 tags:
-  - developer
-  - development
-  - e-book
-  - ebook
-  - facebook
-  - flipboard
+  - programming
   - github
   - learning
-  - lifehacks
-  - responsive-web-design
-  - skills
   - software
-  - twitter
+  - blogging-tools
+  - advice
 authors:
   - chris
 archived: true

@@ -5,13 +5,9 @@ categories:
   - articles
 tags:
   - amazon
-  - amazon-kindle
-  - books
-  - e-book
-  - gadget
   - kindle
-  - publishing
-  - reading
+  - books
+  - e-books
 authors:
   - chris
 archived: true

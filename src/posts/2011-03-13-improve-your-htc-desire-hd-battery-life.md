@@ -5,11 +5,7 @@ categories:
   - articles
 tags:
   - android
-  - desire-hd
-  - htc
-  - kernel
-  - patch
-  - rom
+  - mobile
 authors:
   - chris
 archived: true

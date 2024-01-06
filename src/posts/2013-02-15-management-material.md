@@ -4,13 +4,8 @@ date: 2013-02-15
 categories:
   - articles
 tags:
-  - business
-  - customer
-  - employment
-  - human-resources
-  - information-technology
-  - management
-  - performance-appraisal
+  - personal
+  - work
 authors:
   - chris
 archived: true

@@ -4,14 +4,9 @@ date: 2009-10-24
 categories:
   - articles
 tags:
-  - avg-software
-  - codec
-  - dropbox
-  - iphone
-  - mcafee
-  - microsoft-windows
+  - software
+  - microsoft
   - windows
-  - windows-7
 authors:
   - chris
 archived: true

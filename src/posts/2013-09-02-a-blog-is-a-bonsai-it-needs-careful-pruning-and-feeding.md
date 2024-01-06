@@ -5,15 +5,8 @@ categories:
   - articles
 tags:
   - blogging
-  - chrismcleod-me
-  - facebook
-  - flickr
-  - google
-  - online-communities
   - personal
-  - site
-  - social-media
-  - twitter
+  - site-meta
 authors:
   - chris
 archived: true

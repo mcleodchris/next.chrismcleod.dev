@@ -4,18 +4,9 @@ date: 2015-06-08
 categories:
   - articles
 tags:
-  - asus-rog
-  - buildapc
-  - computer
-  - custom-pc
-  - intel
-  - nvidia
-  - pc
-  - pc-build
-  - pc-part-picker
-  - reddit
-  - republic-of-gamers
-  - silverstone
+  - personal
+  - pc-building
+  - computing
 authors:
   - chris
 archived: true

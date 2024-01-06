@@ -4,13 +4,8 @@ date: 2015-01-16
 categories:
   - articles
 tags:
-  - 37signals
-  - basecamp
-  - desks
-  - productivity
-  - remote-working
-  - working
-  - working-area
+  - miscellaneous
+  - work-from-home
 authors:
   - chris
 archived: true

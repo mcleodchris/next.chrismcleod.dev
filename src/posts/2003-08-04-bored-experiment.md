@@ -5,6 +5,9 @@ categories:
   - articles
 authors:
   - chris
+tags:
+  - personal
+  - web-standards
 archived: true
 ---
 

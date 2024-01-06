@@ -4,13 +4,9 @@ date: 2012-01-15
 categories:
   - articles
 tags:
-  - adblock
-  - adblock-plus
-  - advertising
-  - domain-name
-  - hosts-file
-  - ip-address
-  - website
+  - ad-blocking
+  - networking
+  - tip
 authors:
   - chris
 archived: true

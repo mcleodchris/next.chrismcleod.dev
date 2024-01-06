@@ -8,6 +8,16 @@
     --color-primary-glare: var(--color-inverse-primary-glare);
     --color-secondary-glare: var(--color-inverse-secondary-glare);
     --spot-color: var(--color-inverse-primary);
+    /* search */
+    --pagefind-ui-primary: var(--color-light);
+    --pagefind-ui-text: var(--color-light);
+    --pagefind-ui-background:var(--color-inverse-dark);
+    --pagefind-ui-border: #eeeeee;
+    --pagefind-ui-tag: #eeeeee;
+  }
+  
+  .pagefind-ui.svelte-e9gkc3 {
+    --pagefind-ui-border: var(--color-inverse-dark-glare);
   }
   img {
     filter: brightness(0.8) contrast(1.2);

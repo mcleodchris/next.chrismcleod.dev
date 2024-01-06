@@ -4,11 +4,10 @@ date: 2015-05-18
 categories:
   - articles
 tags:
-  - frustrations
   - google
-  - google-apps
   - software
   - user-experience
+  - mistakes-were-made
 authors:
   - chris
 archived: true

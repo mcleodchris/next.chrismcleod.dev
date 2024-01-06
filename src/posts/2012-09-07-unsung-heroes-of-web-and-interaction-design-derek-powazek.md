@@ -6,11 +6,7 @@ categories:
 tags:
   - community
   - derek-powazek
-  - design
   - jeffrey-zeldman
-  - social-network
-  - ux
-  - web
   - web-design
 authors:
   - chris

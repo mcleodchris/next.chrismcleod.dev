@@ -4,13 +4,9 @@ date: 2017-01-10
 categories:
   - articles
 tags:
-  - algorithms
-  - fail
-  - instagram
-  - internet
-  - mondaymotivation
   - rant
   - social-media
+  - user-experience
   - technology
 authors:
   - chris

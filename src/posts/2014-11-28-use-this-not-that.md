@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - writing
+  - links
+  - tip
 ---
 
 {% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2014/11/b3ikisriyaae9ps.png", "B3iKIsRIYAAE9ps" %}

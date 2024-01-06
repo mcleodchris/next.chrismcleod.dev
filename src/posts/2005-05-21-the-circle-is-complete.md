@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - movies
+  - star-wars
 ---
 
 Last night I finally went to see _Star Wars, Episode III: Revenge of the Sith_. The place was packed, but I managed to grab one of the few remaining seats with a decent view. It was also hot – the guy in the Wookie costume, 3 rows back must’ve been sweating his arse off. Despite the warnings that Episode 3 wasn’t suitable for younger viewers, there were a lot of young kids in the audience.

@@ -5,11 +5,7 @@ categories:
   - general-life
 tags:
   - bluesky
-  - decentralisation
-  - fediverse
-  - mastodon
   - social-media
-  - twitter
 authors:
   - chris
 redirectFrom: ['/2023/05/03/quick-fire-thoughts-on-bluesky/']

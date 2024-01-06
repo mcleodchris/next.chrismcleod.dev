@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - nostalgia
+  - warhammer
+  - warhammer-40000
 ---
 
 If you've ever read a Games Workshop publication from the 90's, you'll have almost certainly seen some of Mark Gibbons artwork. Mostly stark, black and white illustrations of single characters, he came to define the look of some of the early "named characters" in the settings. Personally I was a huge fan of these, and even tried to emulate some of them during my school art classes. The four below are my favourites of his work, and remain some of my favourite pieces of Warhammer art to this day.

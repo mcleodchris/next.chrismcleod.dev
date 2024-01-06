@@ -6,6 +6,11 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - linux
+  - spam-assassin
+  - email
+  - how-to
 ---
 
 _This post was originally inspired by [this thread](https://web.archive.org/web/20041214215106/http://forums.gentoo.org/viewtopic.php?t=26006) on the Gentoo Support Forums._

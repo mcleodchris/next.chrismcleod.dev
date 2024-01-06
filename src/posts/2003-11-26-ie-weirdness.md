@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - browsers
+  - web-standards
 ---
 
 Internet Explorer is not known for it's strict adherence to [web standards](https://web.archive.org/web/20041111031319/http://webstandards.org/ "Web Standards"). However, recently it's been acting even stranger than normal.

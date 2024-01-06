@@ -7,16 +7,14 @@ categories:
 tags:
   - azure
   - microsoft
-  - resources
-  - serverless
   - static-web-apps
-  - web-development
+  - cloud-computing
 authors:
   - chris
 redirectFrom: ['/2023/07/21/azure-static-web-apps-are-awesome/']
 ---
 
-I want to share why Azure Static Web Apps has become one of my new favourite tools for web development - it's truly awesome! 🚀
+ Azure Static Web Apps has become one of my new favourite tools for web development lately, so I wanted to do a quick write-up.
 
 ## What is Azure Static Web Apps?
 

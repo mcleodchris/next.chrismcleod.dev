@@ -4,13 +4,9 @@ date: 2004-09-25
 categories:
   - articles
 tags:
-  - eldar
-  - marine
-  - ork
-  - real-time-strategy
-  - space-marine
-  - warhammer-40-000
-  - warhammer-40-000-dawn-of-war
+  - gaming
+  - warhammer
+  - warhammer-40000
 authors:
   - chris
 archived: true

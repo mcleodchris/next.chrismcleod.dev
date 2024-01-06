@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - blogging
+  - social-media
 ---
 
 > Your "thread" should have been a blog post…

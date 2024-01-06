@@ -4,10 +4,8 @@ date: 2021-08-16
 categories:
   - work
 tags:
-  - appraisal
-  - feedback
-  - performance-review
-  - productivity
+  - work
+  - personal
 authors:
   - chris
 redirectFrom: ['/2021/08/16/appraisal/']

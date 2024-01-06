@@ -7,6 +7,9 @@ authors:
   - chris
 archived: true
 youtube: true
+tags:
+  - warhammer
+  - media
 ---
 
 {% youtube "OT1ye8LabGs", "Warhammer Animations Teaser" %}

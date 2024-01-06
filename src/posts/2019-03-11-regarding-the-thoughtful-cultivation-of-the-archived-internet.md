@@ -4,11 +4,9 @@ date: 2019-03-11
 categories:
   - notes
 tags:
-  - archives
   - blogging
   - indieweb
   - internet-history
-  - kottke
 authors:
   - chris
 archived: true

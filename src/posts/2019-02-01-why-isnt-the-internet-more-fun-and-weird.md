@@ -5,11 +5,11 @@ categories:
   - articles
   - notes
 tags:
-  - codeblog
-  - experimentation
+  - link
+  - programming
   - html
-  - the-web
-  - web-development
+  - web
+  - blogging
 authors:
   - chris
 archived: true

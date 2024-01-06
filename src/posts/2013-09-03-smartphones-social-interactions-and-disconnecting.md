@@ -4,26 +4,17 @@ date: 2013-09-03
 categories:
   - articles
 tags:
-  - facebook
-  - instagram
-  - interactions
-  - manners
-  - new-york-times
-  - people
-  - smartphone
-  - social
+  - mobile
   - social-media
-  - social-network
-  - social-relation
-  - socialising
-  - twitter
-  - wi-fi
+  - human-interaction
+  - video
 authors:
   - chris
 archived: true
+youtube: true
 ---
 
-http://youtu.be/OINa46HeWg8
+{% youtube "OINa46HeWg8", "" %}
 
 No doubt by now you've seen the video above - "[I Forgot My Phone](http://youtu.be/OINa46HeWg8)" - a fairly sobering take on how social interactions are being affected by the rise of smartphones. Yes, it's a little bit embellished for "shock" value, but there's definitely some truth to it. I meant to share it last week when I first found it via Twitter, but [this article on the New York Times](http://bits.blogs.nytimes.com/2013/09/01/disruptions-more-connected-yet-more-alone/?src=me&ref=general "Disruptions: More Connected, Yet More Alone") reminded me about it, and I thought I'd share a personal anecdote along with the video:
 

@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - site-meta
+  - blogging
 ---
 
 Bit of a long one tonight...

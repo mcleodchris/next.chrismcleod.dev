@@ -4,10 +4,8 @@ date: 2006-03-11
 categories:
   - articles
 tags:
-  - bag
-  - crumpler
   - laptop-bag
-  - starbucks
+  - accessories
 authors:
   - chris
 archived: true

@@ -5,9 +5,7 @@ categories:
   - articles
   - notes
 tags:
-  - hubris
   - mistakes-were-made
-  - sysadmin
   - wordpress
   - wp-cli
 authors:

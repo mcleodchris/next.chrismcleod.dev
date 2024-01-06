@@ -5,9 +5,7 @@ categories:
   - notes
 tags:
   - linux
-  - operating-system
-  - pc
-  - windows
+  - personal
 authors:
   - chris
 archived: true

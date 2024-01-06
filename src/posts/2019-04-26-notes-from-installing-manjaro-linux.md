@@ -8,8 +8,6 @@ tags:
   - linux
   - manjaro
   - notes
-  - pc
-  - setup
 authors:
   - chris
 archived: true

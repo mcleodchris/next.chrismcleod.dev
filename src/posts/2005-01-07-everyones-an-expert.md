@@ -6,6 +6,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
 ---
 
 I witnessed something quite bizarre on the way home from work today. I’d popped into our nearest PC World store on the way, to pick up a USB hub for my parents (2x USB Ports + 8 USB devices = cable nightmare). While I was browsing around, edging closer to the Mac section as I usually do, I overheard another customer talking to a member of staff about antivirus/security software.

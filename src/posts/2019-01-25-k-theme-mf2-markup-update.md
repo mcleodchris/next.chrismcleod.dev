@@ -5,11 +5,9 @@ categories:
   - articles
   - notes
 tags:
-  - development
+  - programming
   - indieweb
-  - k-theme
-  - mf2
-  - theme
+  - microformats
   - wordpress
 authors:
   - chris

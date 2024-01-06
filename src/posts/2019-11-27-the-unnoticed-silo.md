@@ -5,13 +5,9 @@ categories:
   - notes
 tags:
   - 1password
-  - bitwarden
-  - data-exports
-  - password-manager
   - security
-  - silo
+  - software
   - user-experience
-  - user-lock-in
 authors:
   - chris
 archived: true

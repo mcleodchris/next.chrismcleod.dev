@@ -4,12 +4,9 @@ date: 2019-08-12
 categories:
   - articles
 tags:
-  - adepta-sororitas
-  - immolator
-  - kapowskipaints
-  - oldhammer
-  - paintingwarhammer
-  - sisters-of-battle
+  - miniatures
+  - projects
+  - warhammer
   - warhammer-40000
 authors:
   - chris

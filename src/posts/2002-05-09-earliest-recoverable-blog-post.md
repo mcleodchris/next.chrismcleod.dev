@@ -3,6 +3,8 @@ title: "My Earliest Recoverable Blog Post (original title lost)"
 date: 2002-05-09
 categories:
   - articles
+tags:
+  - personal
 authors:
   - chris
 archived: true

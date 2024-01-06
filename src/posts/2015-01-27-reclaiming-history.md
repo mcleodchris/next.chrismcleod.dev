@@ -4,13 +4,8 @@ date: 2015-01-27
 categories:
   - articles
 tags:
-  - archives
-  - chrismcleod-net
-  - history
   - personal
-  - pixelmeadow-com
-  - site
-  - wayback-machine
+  - site-meta
   - wordpress
   - writing
 authors:

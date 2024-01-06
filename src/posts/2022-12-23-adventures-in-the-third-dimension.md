@@ -5,12 +5,8 @@ categories:
   - general-life
   - hobby
 tags:
-  - 3d-printer
   - 3d-printing
-  - fdm
-  - hobbies
-  - hobby
-  - resin
+  - technology
 authors:
   - chris
 redirectFrom: ['/2022/12/23/adventures-in-the-third-dimension/']

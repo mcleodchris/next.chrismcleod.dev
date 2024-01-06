@@ -4,9 +4,7 @@ date: 2021-06-22
 categories:
   - general-life
 tags:
-  - aberdeen-art-gallery
-  - art
-  - day-out
+  - personal
   - gallery
 authors:
   - chris

@@ -6,6 +6,9 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - gaming
 ---
 
 {% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/img_0802.jpg", "alt temporarily text not available" %}

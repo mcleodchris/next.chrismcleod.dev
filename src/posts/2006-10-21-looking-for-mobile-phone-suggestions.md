@@ -5,13 +5,7 @@ categories:
   - articles
 tags:
   - iphone
-  - motorola-pebl
-  - nokia
-  - nokia-3210
-  - samsung
-  - sony-ericsson
-  - user-interface
-  - windows-phone
+  - mobile
 authors:
   - chris
 archived: true

@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - blogging
+  - site-meta
+  - personal
 ---
 
 I’ll be honest - I suck at blogging. I’ve tried and I’ve tried, but I just can’t seem to get it right. Things will maybe start off OK for a little while, but then this usually happens:

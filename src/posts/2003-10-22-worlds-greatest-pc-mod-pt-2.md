@@ -6,6 +6,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - pc-building
 ---
 
 [Bit-Tech](http://www.bit-tech.net/ "Bit-Tech") have just posted [the second article following the Orac3 Mod.](http://bit-tech.net/article/116/ "Part 2 of the Orac3 Mod article")

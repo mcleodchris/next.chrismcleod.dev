@@ -1,1 +1,21 @@
 /* A blank block because there is *always* a button */
+.button {
+  color: var(--button-text, var(--color-fg));
+  background-color: var(--button-bg, var(--color-bg));
+  border: 2px solid var(--button-border, var(--color-fg));
+  border-radius: var(--border-radius);
+  display: inline-block;
+  font: inherit;
+  padding: 0.3em 1em;
+  font-weight: 700;
+  transition-property: background-color, border;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing);
+  text-decoration: none;
+}
+
+.button:hover {
+  --button-text: var(--color-bg);
+  --button-bg: var(--color-fg);
+  --button-border: var(--color-fg);
+}

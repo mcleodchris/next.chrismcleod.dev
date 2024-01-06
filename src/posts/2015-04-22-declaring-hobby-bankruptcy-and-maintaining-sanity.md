@@ -5,9 +5,7 @@ categories:
   - articles
   - hobby
 tags:
-  - games-workshop
-  - gaming
-  - hobby
+  - tabletop-gaming
   - mental-health
   - miniatures
   - projects

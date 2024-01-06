@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - machine-learning
+  - link
+  - programming
 ---
 
 [Machine Learning Can Identify the Authors of Anonymous Code](https://www.wired.com/story/machine-learning-identify-anonymous-code/). Wow/cool/scary.

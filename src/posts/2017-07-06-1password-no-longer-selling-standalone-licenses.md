@@ -7,6 +7,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - 1password
+  - software
+  - security
 ---
 
 I completely missed this when Agile Bits introduced their new [1Password.com](https://www.1password.com/) product (which, admittedly, I didn’t really pay attention to), but standalone licenses for 1Password are no longer being marketed. If you want one, you have to email Support to get one.

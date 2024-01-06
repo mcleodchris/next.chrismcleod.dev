@@ -6,6 +6,11 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - projects
+  - warhammer
+  - miniatures
+  - age-of-sigmar
 ---
 
 Earlier this year I painted up a Lord of Blights, from Warhammer: Age of Sigmar, for a local painting competition. I posted it all over social media at the time, but never got around to posting it here. So consider that oversight corrected!

@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - personal
+  - site-meta
+  - blogging
 ---
 
 Pixel Meadow has been online since September 2004. In that time, I’ve written (fairly) regularly and hopefully haven’t been too boring!

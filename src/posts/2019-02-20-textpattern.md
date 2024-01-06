@@ -4,7 +4,8 @@ date: 2019-02-20
 categories:
   - notes
 tags:
-  - cms
+  - blogging
+  - blogging-tools
   - indieweb
   - textpattern
 authors:

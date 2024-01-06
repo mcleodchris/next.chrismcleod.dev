@@ -4,14 +4,8 @@ date: 2005-05-17
 categories:
   - articles
 tags:
-  - darth-vader
-  - empire
-  - galactic-empire
-  - george-lucas
-  - jedi
+  - movies
   - star-wars
-  - star-wars-episode-i-the-phantom-menace
-  - star-wars-episode-iii-revenge-of-the-sith
 authors:
   - chris
 archived: true

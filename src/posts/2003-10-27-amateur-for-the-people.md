@@ -6,6 +6,8 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - blogging
 ---
 
 Found a nice, interesting piece [about weblogs and how they are an indicator of how most media has been opened up to amateurs, by technology](https://web.archive.org/web/20041121170046/http://www.plasticbag.org/archives/2003/09/weblogs_and_the_mass_amateurisation_of_nearly_everything.shtml "(Weblogs and) The Mass Amateurisation of (Nearly) Everything...").

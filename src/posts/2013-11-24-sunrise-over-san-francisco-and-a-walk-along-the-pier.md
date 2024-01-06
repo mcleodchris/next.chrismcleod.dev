@@ -4,13 +4,9 @@ date: 2013-11-24
 categories:
   - articles
 tags:
-  - embarcadero
   - gallery
-  - long-exposure
-  - photographs
   - photos
   - san-francisco
-  - sunrise
 authors:
   - chris
 archived: true

@@ -4,13 +4,9 @@ date: 2019-12-07
 categories:
   - hobby
 tags:
-  - black-library
-  - blood-angels
-  - book-unboxing
-  - dante
-  - darkness-in-the-blood
-  - mephiston
-  - unboxing
+  - books
+  - warhammer
+  - gallery
   - warhammer-40000
 authors:
   - chris

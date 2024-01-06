@@ -4,10 +4,8 @@ date: 2021-04-28
 categories:
   - general-life
 tags:
-  - covid
-  - nhs
-  - vaccination
-  - vaccine
+  - personal
+  - photo
 authors:
   - chris
 redirectFrom: ['/2021/04/26/vaccination-jab-228/']

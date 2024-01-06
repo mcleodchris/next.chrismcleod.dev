@@ -6,6 +6,10 @@ categories:
 authors:
   - chris
 archived: true
+tags:
+  - internet
+  - links
+  - networking
 ---
 
 A fascinating (and very in-depth!) look at [what happens when you type google.com into a web browser and hit "enter"](https://github.com/alex/what-happens-when)?
