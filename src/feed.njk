@@ -21,7 +21,7 @@ redirectFrom: ['/feed/']
   %}
   <entry>
     <title>{{ post.data.title }}</title>
-    <link href="{{ absolutePostUrl }}" >
+    <link href="{{ absolutePostUrl }}" />
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
     <content
