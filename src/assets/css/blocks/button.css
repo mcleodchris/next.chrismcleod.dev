@@ -1,8 +1,8 @@
 /* A blank block because there is *always* a button */
 .button {
-  color: var(--button-text, var(--color-dark));
-  background-color: var(--button-bg, var(--color-light));
-  border: 2px solid var(--button-border, var(--color-dark));
+  color: var(--button-text, var(--color-fg));
+  background-color: var(--button-bg, var(--color-bg));
+  border: 2px solid var(--button-border, var(--color-fg));
   border-radius: var(--border-radius);
   display: inline-block;
   font: inherit;
@@ -15,7 +15,7 @@
 }
 
 .button:hover {
-  --button-bg: var(--color-dark);
-  --button-text: var(--color-light);
-  --button-border: var(--color-dark);
+  --button-text: var(--color-bg);
+  --button-bg: var(--color-fg);
+  --button-border: var(--color-fg);
 }

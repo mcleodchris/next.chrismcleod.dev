@@ -8,15 +8,15 @@ preloads:
   crossorigin: true
 ---
 
-<article class="region blog">
+<article class="region blog" data-pagefind-body>
   <div class="wrapper flow prose">
     {% set diff = date | dateDiff %}
     {% if diff >= 3 %}
-      <div class="old">
+      <aside class="old" data-pagefind-ignore>
         <p><strong>Proceed With Caution</strong></p>
         <p>This post was written around {{ date | longAgo }}{% if archived === true %}, on an old blog that no longer exists, and is preserved for posterity only{% endif %}.</p>
         <p>A lot can happen in that time; any information given may no longer be accurate, links to original sources may not work, and the the original context may not exist any more. And, most importantly, any views or opinions presented may not match those currently held by the author. All this is to say &mdash; take anything below with a pinch of salt.</p>
-      </div>
+      </aside>
     {% endif %}
     <h1 {% if gradient === true %} class="gradient-text" {% endif %}>{{ title }}</h1>
     {% set definedDate = date %}
