@@ -9,14 +9,15 @@
     "node": ">=16.x.x"
   },
   "scripts": {
+    "start": "run-p dev:*",
     "clean": "rimraf dist",
+    "build": "ELEVENTY_PRODUCTION=true run-s clean build:*",
     "dev:11ty": "eleventy --serve --watch",
     "build:11ty": "eleventy",
-    "start": "run-p dev:*",
-    "index:site": "npx -y pagefind --site dist",
-    "start-search": "npm run build && npm run index:site && npm run start-quick",
-		"start-quick": "npx @11ty/eleventy --serve --incremental --ignore-initial",
-    "build": "ELEVENTY_PRODUCTION=true run-s clean build:* index:*"
+    "build:index": "npx -y pagefind --site dist",
+    "index:serve": "npx -y pagefind --site dist --serve",
+    "start-search": "run-s build:11ty index:local",
+		"start-quick": "eleventy --serve --incremental --ignore-initial"
   },
   "keywords": [],
   "repository": {
