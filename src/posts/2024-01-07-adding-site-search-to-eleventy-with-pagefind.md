@@ -11,7 +11,7 @@ permalink: '/blog/adding-site-search-eleventy-pagefind-web-component'
 gradient: true
 ---
 
-I recently added some new ways to dig through the archives of this site, and chief among them was search. Search is something I've wanted to add for ages, and thankfully it was pretty straightforward, thanks to [Pagefind](https://pagefind.app/) and the [\<pagefind-search\> web component by Zach Leatherman](https://www.zachleat.com/web/pagefind-search/).
+I recently added some new ways to dig through the [archives of this site](/blog/), and chief among them was search. Search is something I've wanted to add for ages, and thankfully it was pretty straightforward, thanks to [Pagefind](https://pagefind.app/) and the [\<pagefind-search\> web component by Zach Leatherman](https://www.zachleat.com/web/pagefind-search/).
 
 ## Installation
 Installing the component starts with adding it to our `package.json` as a regular dependency (_not_ a DevDependency as you might be used to for Eleventy):
