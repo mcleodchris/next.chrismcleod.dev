@@ -17,7 +17,7 @@ redirectFrom: ['/feed/']
     <name>{{ meta.author }}</name>
     <email>{{ meta.authorEmail }}</email>
   </author>
-  {%- for post in postslist %} {%- set absolutePostUrl = post.url | absoluteUrl(meta.url)
+  {%- for post in postslist.slice(0,24) %} {%- set absolutePostUrl = post.url | absoluteUrl(meta.url)
   %}
   <entry>
     <title>{{ post.data.title }}</title>
