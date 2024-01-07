@@ -5,7 +5,7 @@ categories:
   - articles
   - code-development
 tags:
-  - guide
+  - how-to
   - programming
   - github
 authors:

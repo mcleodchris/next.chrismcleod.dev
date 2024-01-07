@@ -5,7 +5,7 @@ categories:
   - articles
 tags:
   - apple
-  - laptop
+  - laptops
   - software
 authors:
   - chris

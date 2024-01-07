@@ -5,7 +5,7 @@ categories:
   - articles
 tags:
   - networking
-  - guide
+  - how-to
 authors:
   - chris
 archived: true

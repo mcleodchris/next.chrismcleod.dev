@@ -5,7 +5,7 @@ tags:
   - blogging
   - social-media
   - feeds
-gradient: "true"
+gradient: true
 ---
 
 I don't blog as much as I used to, or post about as wide an array of topics as I used to, but I've always believed the blog is the "natural form" of posting on the web: a site of your own, that you control[^1] and set your own rules on content and discussion; where you can post whatever you like without worrying about "The Algorithm". Everyone should have a blog, whether it's on a free service like [Wordpress.com](https://wordpress.com/) or [Micro.blog](https://micro.blog), a [crafted custom setup](https://chrismcleod.dev/blog/i-rebuilt-my-blog-and-didnt-write-about-it/), or something in-between.

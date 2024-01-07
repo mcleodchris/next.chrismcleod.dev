@@ -5,7 +5,7 @@ categories:
   - articles
 tags:
   - blogging
-  - blogs
+  - links
   - social-media
   - writing
 authors:

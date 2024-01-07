@@ -6,6 +6,7 @@ tags:
   - apple
   - windows
   - user-experience
+  - rant
 ---
 Hate is maybe too strong a word, but I can't think of a better one in the moment. I like to think it's not often I'll piss-and-moan about a bit of software (these days), but the iCloud app for Windows is just so, so, so bad I've finally lost my patience with it. All I wanted it to do was sync my photos to my laptop, and occasionally let me grab a file from iCloud Drive. But for something that should be so simple, it's caused nothing but trouble.
 

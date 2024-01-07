@@ -10,7 +10,7 @@ tags:
   - javascript
   - raspberry-pi
   - software
-  - guide
+  - how-to
 authors:
   - chris
 archived: true

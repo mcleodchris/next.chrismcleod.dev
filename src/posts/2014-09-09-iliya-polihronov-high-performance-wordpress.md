@@ -4,7 +4,7 @@ date: 2014-09-09
 categories:
   - code-development
 tags:
-  - guide
+  - how-to
   - servers
   - wordpress
 authors:
