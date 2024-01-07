@@ -1,4 +1,4 @@
-.pagefind-ui.svelte-e9gkc3{
+.pagefind-ui{
     margin-block-start: var(--flow-space,1em);
     --pagefind-ui-scale: 1.2;
     --pagefind-ui-primary: var(--color-fg);
@@ -12,19 +12,19 @@
     --pagefind-ui-image-box-ratio: 3 / 2;
     --pagefind-ui-font: var(--font-base);
 }
-.pagefind-ui__result.svelte-j9e30.svelte-j9e30 {
+.pagefind-ui__result {
     --pagefind-ui-border: #eeeeee;
   }
-.pagefind-ui__button.svelte-e9gkc3 {
+.pagefind-ui__button {
     --pagefind-ui-primary: var(--color-fg);
     --pagefind-ui-background: var(--color-bg);
     margin-block-start: var(--space-s-m);
 }
-.pagefind-ui__button.svelte-e9gkc3:hover {
+.pagefind-ui__button:hover {
     --pagefind-ui-primary: var(--color-bg);
     --pagefind-ui-background: var(--color-fg);
 }
 
-.pagefind-ui--reset .pagefind-ui__search-input.svelte-e9gkc3:focus-visible {
+.pagefind-ui__search-input:focus-visible {
   outline: 2px solid var(--color-primary);
 }

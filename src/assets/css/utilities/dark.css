@@ -7,16 +7,10 @@
     --color-secondary: var(--color-inverse-secondary);
     --color-primary-glare: var(--color-inverse-primary-glare);
     --color-secondary-glare: var(--color-inverse-secondary-glare);
-    --spot-color: var(--color-inverse-primary);
-    /* search */
-    --pagefind-ui-primary: var(--color-light);
-    --pagefind-ui-text: var(--color-light);
-    --pagefind-ui-background:var(--color-inverse-dark);
-    --pagefind-ui-border: #eeeeee;
-    --pagefind-ui-tag: #eeeeee;
+    --spot-color: var(--color-inverse-primary);    
   }
   
-  .pagefind-ui.svelte-e9gkc3 {
+  .pagefind-ui__result {
     --pagefind-ui-border: var(--color-inverse-dark-glare);
   }
   img {
