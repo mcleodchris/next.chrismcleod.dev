@@ -1,5 +1,5 @@
 ---
-title: 'Adding Site Search to Eleventy with pagefind-search'
+title: 'Adding Site Search to Eleventy with <pagefind-search>'
 date: 2024-01-07T15:27Z
 tags:
   - site-meta
@@ -7,7 +7,7 @@ tags:
   - blogging-tools
   - how-to
   - eleventy
-permalink: '/blog/adding-site-search-eleventy-pagefind-web-component'
+permalink: '/blog/adding-site-search-eleventy-pagefind-web-component/index.html'
 gradient: true
 ---
 
