@@ -1,8 +1,13 @@
 [
   {
     "platform": "github",
-    "url": "https://github.com/mcleodchris/next.chrismcleod.dev",
+    "url": "https://github.com/mcleodchris/",
     "icon": "github.svg"
+  },
+  {
+    "platform": "mastodon",
+    "url": "https://mastodon.online/@mstrkapowski",
+    "icon": "mastodon.svg"
   },
   {
     "platform": "rss",

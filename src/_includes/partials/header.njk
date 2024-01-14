@@ -1,6 +1,6 @@
 <a href="#main" class="skip-link">{{ meta.skipContent }}</a>
 <header class="wrapper | relative" role="banner">
-  <div class="site-head | ontop spot-color-primary">
+  <div class="site-head | ontop spot-color-primary{% if hcard != true %} | h-card{% endif %}">
     {% set activePage = page.url | url %}
     <a href="/" class="logo site-head__brand | no-underline | u-url" {% if activePage === '/' %} aria-current="page" {% endif %}>
       <svg

@@ -11,6 +11,10 @@ module.exports = {
     {
       text: 'Elsewhere',
       url: 'https://links.chrism.cloud/'
+    },
+    {
+      text: 'Feed',
+      url: '/feed.xml'
     }
   ],
   bottom: [
