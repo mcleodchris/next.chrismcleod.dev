@@ -14,3 +14,11 @@
   max-inline-size: var(--max-img-width, 100%);
   block-size: auto;
 }
+
+.blog .post-meta {
+  font-size: var(--size-step-0);
+}
+
+.blog .post-meta a.u-url {
+  text-decoration: none;
+}

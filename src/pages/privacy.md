@@ -10,7 +10,11 @@ layout: page
 I respect the EU General Data Protection Regulation (GDPR) and this policy document explains how I collect and handle any information you provide to me.
 
 **What background data is collected?**
-This site does not use any third party tracking scripts.
+~~This site does not use any third party tracking scripts.~~
+
+Recently I added [Tinylytics](https://tinylytics.app/) to the site, so I can have a rough understanding of reader numbers. Tinylytics bill themselves as a GDPR-compliant, "privacy first" solution. You can review the [Tinylytics privacy policy here](https://tinylytics.app/privacy).
+
+In terms of what this actually means: when you visit a page on this site, I see a number linked to that page increase by 1. I do not see who you are or where you came from, though Tinylytics may register which country your IP address is associated with.
 
 **How do I use the data you provide?**
 This website does not collect any data.
