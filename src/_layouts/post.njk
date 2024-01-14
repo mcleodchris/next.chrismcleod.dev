@@ -20,8 +20,8 @@ preloads:
     {% endif %}
     <h1 class="p-name{% if gradient === true %} | gradient-text{% endif %}" >{{ title }}</h1>
     {% set definedDate = date %}
-    {% include "partials/date.njk" -%}, by <a class="p-author h-card" href="{{ meta.authorWebsite }}">{{ meta.author }}</a>
-    <div class="e-content">
+    <div class="post-meta"><a href="{{url | url}}" class="u-url">🔗</a> | {% include "partials/date.njk" -%} | by <a class="p-author h-card" href="{{ meta.authorWebsite }}">{{ meta.author }}</a></div>
+    <div class="e-content | flow prose">
       {{ content | safe }}
     </div>
   </div>
