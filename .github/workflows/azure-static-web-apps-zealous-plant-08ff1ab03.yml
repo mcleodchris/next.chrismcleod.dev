@@ -35,7 +35,7 @@ jobs:
           ###### End of Repository/Build Configurations ######
       - name: Webmentions
         run: |
-          npx webmention /dist/feed.xml --limit 1
+          npx -y @remy/webmention dist/feed.xml --limit 5
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
