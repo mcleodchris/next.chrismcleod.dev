@@ -15,8 +15,8 @@
       "statusCode": 302
     },
     {
-      "route": "/.well-known/webfinger*",
-      "redirect": "https://fed.brid.gy/.well-known/webfinger",
+      "route": "/.well-known/webfinger?resource=acct:chrismcleod.dev@chrismcleod.dev",
+      "redirect": "https://fed.brid.gy/.well-known/webfinger?resource=acct:chrismcleod.dev@chrismcleod.dev",
       "statusCode": 302
     }
   ]
