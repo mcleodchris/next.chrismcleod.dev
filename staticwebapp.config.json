@@ -10,8 +10,13 @@
   },
   "routes": [
     {
-      "route": "/.well-known/host-meta*",
-      "redirect": "https://fed.brid.gy/.well-known/host-meta:splat",
+      "route": "/.well-known/host-meta",
+      "redirect": "https://fed.brid.gy/.well-known/host-meta",
+      "statusCode": 302
+    },
+    {
+      "route": "/.well-known/host-meta.xrds",
+      "redirect": "https://fed.brid.gy/.well-known/host-meta",
       "statusCode": 302
     },
     {
