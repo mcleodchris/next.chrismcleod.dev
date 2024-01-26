@@ -7,6 +7,10 @@ tags:
   - site-meta
   - AI
 ---
+**Editor's Note, 26th January 2024** - This post was part of an experiment in using "generative AI" in my blogging process, and as such is at least in part written by one or more generative AI tools. [I am no longer using these tools](/blog/generative-ai-for-blogging-revisited) and felt it important to come back and and apply this label to posts where such tools were used.
+
+---
+
 The rise of large language models (LLMs) like [ChatGPT](https://openai.com/blog/chatgpt/), [Anthropic's Claude](https://www.anthropic.com), [Google Bard](https://blog.google/products/search/bard-google-ai/), and [Bing Chat](https://www.microsoft.com/en-us/bing/bing-chat)with GPT-4 has opened up exciting new possibilities for augmenting creativity. Recently I started using generative AI tools to help me draft my blog posts. I find that AI can be a great way to generate ideas, outlines, and even full drafts of my posts. Coming up with the initial draft is often the hardest and most time consuming part of the blogging process, and using generative tools can be a big win. So how do I do use these tools?
 
 ## The process:

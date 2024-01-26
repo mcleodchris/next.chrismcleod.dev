@@ -13,8 +13,11 @@ authors:
   - chris
 redirectFrom: ['/2023/07/21/azure-static-web-apps-are-awesome/']
 ---
+**Editor's Note, 26th January 2024** - This post was part of an experiment in using "generative AI" in my blogging process, and as such is at least in part written by one or more generative AI tools. [I am no longer using these tools](/blog/generative-ai-for-blogging-revisited) and felt it important to come back and apply this label to posts where such tools were used.
 
- Azure Static Web Apps has become one of my new favourite tools for web development lately, so I wanted to do a quick write-up.
+---
+
+Azure Static Web Apps has become one of my new favourite tools for web development lately, so I wanted to do a quick write-up.
 
 ## What is Azure Static Web Apps?
 

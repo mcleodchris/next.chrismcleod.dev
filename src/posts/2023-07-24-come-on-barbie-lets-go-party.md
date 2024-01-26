@@ -13,6 +13,10 @@ gradient: true
 redirectFrom: ['/2023/07/24/come-on-barbie-lets-go-party/']
 ---
 
+**Editor's Note, 26th January 2024** - This post was part of an experiment in using "generative AI" in my blogging process, and as such is at least in part written by one or more generative AI tools. [I am no longer using these tools](/blog/generative-ai-for-blogging-revisited) and felt it important to come back and and apply this label to posts where such tools were used.
+
+---
+
 We went to the cinema recently, to watch Barbie, and I must say, it was an absolute blast! Going in, I had mixed expectations - essentially expecting something similar to The Lego Movie (funny, a few touching moments, but ultimately empty), but what I got was so much more.
 
 From the very start, I was hooked. I was pretty much smiling or laughing the whole way through. It weaved heartwarming moments throughout, making it a well-rounded and engaging experience. Margot Robbie and Ryan Gosling were undoubtedly the stars of the show, and they played their roles to perfection, adding an extra layer of charm to the movie.
