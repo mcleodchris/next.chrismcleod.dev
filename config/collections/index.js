@@ -1,3 +1,5 @@
+const {get} = require('lodash');
+
 /** Returns all blog posts as a collection. */
 const getAllPosts = collection => {
   const posts = collection.getFilteredByGlob('./src/posts/*.md');
@@ -23,14 +25,40 @@ const tagList = collection => {
       .forEach(tag => tagsSet.add(tag));
   });
   return Array.from(tagsSet).sort((tag1, tag2) => {
-    if(collection.getFilteredByTag(tag1).length > collection.getFilteredByTag(tag2).length) return -1;
-    if(collection.getFilteredByTag(tag1).length < collection.getFilteredByTag(tag2).length) return 1;
+    if (
+      collection.getFilteredByTag(tag1).length > collection.getFilteredByTag(tag2).length
+    )
+      return -1;
+    if (
+      collection.getFilteredByTag(tag1).length < collection.getFilteredByTag(tag2).length
+    )
+      return 1;
     return 0;
+  });
+};
+
+const getAllBookmarks = collection => {
+  const posts = collection.getFilteredByGlob('./src/bookmarks/*.md');
+  return posts.reverse();
+};
+
+const getBookmarksFeed = collection => {
+  const bookmarks = getAllBookmarks(collection);
+  return bookmarks.map(bookmark => {
+    return {
+      title: bookmark.data.title,
+      permalink: bookmark.url,
+      tags: bookmark.data.tags,
+      url: bookmark.data['bookmark-of'],
+      date: bookmark.data.date
+    };
   });
 };
 
 module.exports = {
   getAllPosts,
   getAllSubscriptions,
-  tagList
+  tagList,
+  getAllBookmarks,
+  getBookmarksFeed
 };

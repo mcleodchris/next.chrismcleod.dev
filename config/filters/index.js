@@ -129,6 +129,8 @@ const splitlines = (input, maxCharLength) => {
 
 const jsonToString = json => JSON.stringify(json, null, 2);
 
+const excludeTag = (array, tag) => array.filter(item => item !== tag);
+
 module.exports = {
   limit,
   toHtml,
@@ -143,5 +145,6 @@ module.exports = {
   splitlines,
   jsonToString,
   longAgo,
-  dateDiff
+  dateDiff,
+  excludeTag
 };

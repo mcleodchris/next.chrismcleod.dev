@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+permalink: /bookmarks/data.json
+excludeFromSitemap: true
+layout: null
+---
+{
+    "bookmarks": [
+        {% for bookmark in collections.bookmarks -%}
+        {
+            "title": "{{ bookmark.data.title }}",
+            "url": "{{ bookmark.data["bookmark-of"] }}",
+            "tags": [ {% set tags = bookmark.data.tags | excludeTag("bookmark") %}
+                {% for tag in tags -%}
+                "{{ tag }}"{% if not loop.last %},{% endif %}
+                {% endfor -%}
+            ],
+            "date": "{{ bookmark.date | toIsoString }}",
+            "permalink": "{{ bookmark.url | absoluteUrl(meta.url) }}"
+        }{% if not loop.last %},{% endif -%}
+        {% endfor -%}
+    ]
+}

@@ -42,7 +42,7 @@ const markdownLib = markdownIt({
       }
     }
   ])
-  .use(markdownItEmoji)
+  // .use(markdownItEmoji)
   .use(markdownItFootnote)
   .use(markdownitMark)
   .use(markdownitAbbr);
