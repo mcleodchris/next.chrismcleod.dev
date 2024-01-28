@@ -21,7 +21,7 @@ layout: null
   %}
   <entry>
     <title>{{ post.data.title }}</title>
-    <link href="{{ post.data['bookmark-of'] | url }}" />
+    <link href="{{ absolutePostUrl }}" />
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
     <content xml:lang="{{ locale }}" type="html">
