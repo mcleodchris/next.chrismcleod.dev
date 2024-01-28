@@ -28,6 +28,15 @@
       "route": "/feed/",
       "redirect": "/feed.xml",
       "statusCode": 301
+    },
+    {
+      "route": "/bookmarks/",
+      "rewrite": "/bookmarks/0/"
+    },
+    {
+      "route": "/bookmarks/0/",
+      "redirect": "/bookmarks/",
+      "statusCode": 302
     }
   ]
 }

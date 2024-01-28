@@ -1,0 +1,33 @@
+---
+permalink: /bookmarks/feed.xml
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ meta.url }}/">
+  <title>{{ meta.bookmarks.name }}</title>
+  <subtitle>{{ meta.bookmarks.description }}</subtitle>
+  <link href="{{ meta.url }}/bookmarks/feed.xml" rel="self" />
+  <link href="{{ meta.url }}/" />
+  {% set postslist = collections.bookmarks %}
+  <updated>{{ postslist | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ meta.url }}/</id>
+  <author>
+    <name>{{ meta.author }}</name>
+    <email>{{ meta.authorEmail }}</email>
+  </author>
+  {%- for post in postslist.slice(0,24) %} {%- set absolutePostUrl = post.url | absoluteUrl(meta.url)
+  %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{{ absolutePostUrl }}" />
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ post.data["bookmark-of"] }}</id>
+    <content
+      xml:lang="{{ locale }}"
+      type="html"
+      >{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content
+    >
+  </entry>
+  {%- endfor %}
+</feed>

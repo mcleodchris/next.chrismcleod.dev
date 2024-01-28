@@ -1,0 +1,5 @@
+{
+  "layout": "bookmark",
+  "tags": "bookmark",
+  "permalink": "/bookmarks/{{ title | slugify }}/index.html"
+}

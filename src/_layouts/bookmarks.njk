@@ -1,0 +1,60 @@
+---
+layout: base
+---
+
+<header class="section spot-color-primary">
+  {% include 'svg/divider-waves-inverse.svg' %}
+  <div class="section__inner region">
+    <div class="wrapper flow">
+      <section class="prose text-center">
+        <h1 class="fade-in">{{ title }}</h1>
+      </section>
+    </div>
+  </div>
+  {% include 'svg/divider-waves.svg' %}
+</header>
+<article class="region">
+  <div class="wrapper flow prose">  {{ content | safe }}</div>
+
+  <div class="wrapper flow prose mt-l-xl">
+    <ul class="bookmarks | h-feed">
+        {%- for item in pagination.items -%}
+
+        <li class="h-entry">
+            <a class="u-bookmark-of" href="{{ item.data['bookmark-of'] | url }}">
+                <span class="h-cite">{{item.data.title}}</span>
+            </a>
+            {%- set definedDate = item.date -%}
+                <span class="post-meta"><a href="{{item.url | url}}" class="u-url">#</a> | {% include "partials/date.njk" -%}</span>
+            
+        </li>
+        {% endfor -%}
+    </ul>
+  </div>
+{% if pagination.pages.length > 1 %}
+
+  <section class="wrapper  region">
+    <nav role="navigation" aria-label="Pagination">
+      <ul class="pagination">
+        <li>
+          {% if pagination.href.previous %}
+            <a href="{{ pagination.href.previous }}">Previous</a>
+          {% else %}Previous{% endif %}
+        </li>
+        {%- for pageEntry in pagination.pages %}
+          <li>
+            <a href="{{ pagination.hrefs[ loop.index0 ] }}" {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page" {% endif %}>
+              {{ loop.index }}</a>
+          </li>
+        {%- endfor %}
+        <li>
+          {% if pagination.href.next %}
+            <a href="{{ pagination.href.next }}">Next</a>
+          {% else %}Next{% endif %}
+        </li>
+      </ul>
+    </nav>
+    </section>
+
+  {% endif %}
+</article>

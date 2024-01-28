@@ -1,0 +1,21 @@
+.bookmarks {
+  list-style-type: none;
+}
+.bookmarks a {
+  text-decoration: none;
+}
+.bookmarks li.h-entry {
+  font-size: var(--size-step-1);
+  max-inline-size: var(--wrapper-max-width, 85rem);
+}
+.bookmarks li.h-entry::before {
+  content: '🔖 ';
+}
+.bookmarks a.u-bookmark-of {
+  text-decoration: underline;
+}
+.bookmarks .post-meta {
+  font-size: var(--size-step-min-1);
+  display: block;
+  text-opacity: 0.5;
+}

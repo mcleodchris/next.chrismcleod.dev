@@ -1,0 +1,24 @@
+---
+layout: base
+schema: blog
+preloads:
+  href: '/assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff2'
+  as: 'font'
+  type: 'font/woff2'
+  crossorigin: true
+---
+
+<article class="region blog h-entry" data-pagefind-body>
+  <div class="wrapper flow prose">
+    <a class="u-bookmark-of h-cite" href="{{ 'bookmark-of' | getKeyedData | url }}" rel="external">
+        <span class="h-cite">{{title}}</span>
+    </a>
+    {% set definedDate = date %}
+    <div class="post-meta"><a href="{{url | url}}" class="u-url">🔗</a> | {% include "partials/date.njk" -%} | by <a class="p-author h-card" href="{{ meta.authorWebsite }}">{{ meta.author }}</a></div>
+    {% if content -%}
+    <div class="e-content | flow prose">
+      {{ content | safe }}
+    </div>
+    {% endif -%}
+  </div>
+</article>

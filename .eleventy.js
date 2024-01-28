@@ -32,7 +32,8 @@ const {
   splitlines,
   jsonToString,
   longAgo,
-  dateDiff
+  dateDiff,
+  excludeTag
 } = require('./config/filters/index.js');
 
 // module import shortcodes
@@ -43,7 +44,13 @@ const {
 } = require('./config/shortcodes/index.js');
 
 // module import collections
-const {getAllPosts, getAllSubscriptions, tagList} = require('./config/collections/index.js');
+const {
+  getAllPosts,
+  getAllSubscriptions,
+  tagList,
+  getAllBookmarks,
+  getBookmarksFeed
+} = require('./config/collections/index.js');
 
 // module import events
 const {svgToJpeg} = require('./config/events/index.js');
@@ -71,6 +78,8 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('blog', 'blog.njk');
   eleventyConfig.addLayoutAlias('post', 'post.njk');
   eleventyConfig.addLayoutAlias('archive', 'archive.njk');
+  eleventyConfig.addLayoutAlias('bookmark', 'bookmark.njk');
+  eleventyConfig.addLayoutAlias('bookmarks', 'bookmarks.njk');
 
   // 	---------------------  Custom filters -----------------------
   eleventyConfig.addFilter('limit', limit);
@@ -94,6 +103,10 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('jsonToString', jsonToString);
   eleventyConfig.addFilter('longAgo', longAgo);
   eleventyConfig.addFilter('dateDiff', dateDiff);
+  eleventyConfig.addFilter('excludeTag', excludeTag);
+  eleventyConfig.addNunjucksFilter('getKeyedData', function (varName) {
+    return this.getVariables()[varName];
+  });
 
   // 	--------------------- Custom shortcodes ---------------------
   eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcodePlaceholder);
@@ -113,6 +126,8 @@ module.exports = eleventyConfig => {
   eleventyConfig.addCollection('posts', getAllPosts);
   eleventyConfig.addCollection('subscriptions', getAllSubscriptions);
   eleventyConfig.addCollection('tagList', tagList);
+  eleventyConfig.addCollection('bookmarks', getAllBookmarks);
+  eleventyConfig.addCollection('bookmarksFeed', getBookmarksFeed);
 
   // 	--------------------- Events ---------------------
   eleventyConfig.on('afterBuild', svgToJpeg);
