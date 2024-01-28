@@ -32,5 +32,17 @@ module.exports = {
   menu: {
     closedText: 'Menu'
   },
-  indieauth: 'https://github.com/mcleodchris'
+  indieauth: 'https://github.com/mcleodchris',
+  feeds: [
+    {
+      title: 'chrismcleod.dev: main blog feed',
+      url: 'https://chrismcleod.dev/feed.xml',
+      type: 'atom+xml'
+    },
+    {
+      title: 'chrismcleod.dev: bookmarks feed',
+      url: 'https://chrismcleod.dev/bookmarks/feed.xml',
+      type: 'atom+xml'
+    }
+  ]
 };

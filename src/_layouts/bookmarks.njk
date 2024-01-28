@@ -15,7 +15,14 @@ layout: base
 </header>
 <article class="region">
   <div class="wrapper flow prose">  {{ content | safe }}</div>
-
+   <div class="wrapper flow prose">  
+    <p class="text-center">
+      <a href="/bookmarks/feed.xml" class="button">
+      {% include 'icons/social-rss.svg' %}
+        RSS
+      </a>
+    </p>
+   </div>
   <div class="wrapper flow prose mt-l-xl">
     <ul class="bookmarks | h-feed">
         {%- for item in pagination.items -%}
@@ -25,8 +32,7 @@ layout: base
                 <span class="h-cite">{{item.data.title}}</span>
             </a>
             {%- set definedDate = item.date -%}
-                <span class="post-meta"><a href="{{item.url | url}}" class="u-url">#</a> | {% include "partials/date.njk" -%}</span>
-            
+            <span class="post-meta"><a href="{{item.url | url}}" class="u-url">{% include "partials/date.njk" -%}</a></span>
         </li>
         {% endfor -%}
     </ul>

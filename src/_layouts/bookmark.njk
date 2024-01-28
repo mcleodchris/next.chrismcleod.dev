@@ -14,7 +14,7 @@ preloads:
         <span class="h-cite">{{title}}</span>
     </a>
     {% set definedDate = date %}
-    <div class="post-meta"><a href="{{url | url}}" class="u-url">🔗</a> | {% include "partials/date.njk" -%} | by <a class="p-author h-card" href="{{ meta.authorWebsite }}">{{ meta.author }}</a></div>
+    <div class="post-meta"><a href="{{url | url}}" class="u-url">🔗</a> | {% include "partials/date.njk" -%}</div>
     {% if content -%}
     <div class="e-content | flow prose">
       {{ content | safe }}

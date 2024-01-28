@@ -9,6 +9,10 @@ module.exports = {
       url: '/links/'
     },
     {
+      text: 'Bookmarks',
+      url: '/bookmarks/'
+    },
+    {
       text: 'Elsewhere',
       url: 'https://links.chrism.cloud/'
     },

@@ -2,6 +2,7 @@
 permalink: /bookmarks/feed.xml
 eleventyExcludeFromCollections: true
 excludeFromSitemap: true
+layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ meta.url }}/">
@@ -20,14 +21,16 @@ excludeFromSitemap: true
   %}
   <entry>
     <title>{{ post.data.title }}</title>
-    <link href="{{ absolutePostUrl }}" />
+    <link href="{{ post.data['bookmark-of'] | url }}" />
     <updated>{{ post.date | dateToRfc3339 }}</updated>
-    <id>{{ post.data["bookmark-of"] }}</id>
-    <content
-      xml:lang="{{ locale }}"
-      type="html"
-      >{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content
-    >
+    <id>{{ absolutePostUrl }}</id>
+    <content xml:lang="{{ locale }}" type="html">
+      {%- if post.templateContent -%}
+        {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+        &lt;hr&gt;
+      {% endif -%}
+        &lt;p&gt;{{ post.data.feedFooter | md | htmlToAbsoluteUrls(absolutePostUrl) }}&lt;/p&gt;
+    </content>
   </entry>
   {%- endfor %}
 </feed>

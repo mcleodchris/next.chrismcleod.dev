@@ -18,7 +18,7 @@ const getAllSubscriptions = collection => {
 
 const tagList = collection => {
   const tagsSet = new Set();
-  collection.getAll().forEach(item => {
+  getAllPosts(collection).forEach(item => {
     if (!item.data.tags) return;
     item.data.tags
       .filter(tag => !['posts', 'all'].includes(tag))
