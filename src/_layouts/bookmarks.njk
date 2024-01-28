@@ -28,7 +28,7 @@ layout: base
         {%- for item in pagination.items -%}
 
         <li class="h-entry">
-            <a class="u-bookmark-of" href="{{ item.data['bookmark-of'] | url }}">
+            <a class="u-bookmark-of" href="{{ item.data['bookmark-of'] | url }}" rel="external">
                 <span class="h-cite">{{item.data.title}}</span>
             </a>
             {%- set definedDate = item.date -%}
