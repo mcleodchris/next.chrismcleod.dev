@@ -21,7 +21,7 @@
     border: 4px solid var(--color-inverse-dark-glare);
     color: var(--color-fg);
   }
-  .site-foot {
+  .site-foot, .blog footer {
     background: var(--color-inverse-dark-glare);
     color: var(--color-fg);
   }

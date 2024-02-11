@@ -10,6 +10,11 @@
     "icon": "mastodon.svg"
   },
   {
+    "platform": "buymeacoffee",
+    "url": "https://www.buymeacoffee.com/mrkapowski",
+    "icon": "kofi.svg"
+  },
+  {
     "platform": "rss",
     "url": "/feed.xml",
     "icon": "rss.svg"

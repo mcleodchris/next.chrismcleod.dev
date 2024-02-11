@@ -12,7 +12,7 @@
     "start": "run-p dev:*",
     "clean": "rimraf dist",
     "build": "ELEVENTY_PRODUCTION=true run-s clean build:*",
-    "dev:11ty": "eleventy --serve --watch",
+    "dev:11ty": "eleventy --serve --watch --port=3000",
     "build:11ty": "eleventy",
     "build:index": "npx -y pagefind --site dist",
     "index:serve": "npx -y pagefind --site dist --serve",
