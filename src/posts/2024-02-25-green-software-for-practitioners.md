@@ -32,7 +32,7 @@ Would I recommend this course? Yes, if you have a couple of spare hours. I think
 
 If nothing else, [you'll get a badge out of it](https://www.credly.com/badges/246e081f-2c9e-4d94-b174-7b4692bbf0f6/public_url)!
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/lfc131-green-software-for-practitioners.png" "LFC131: Green Software for Practitioners badge image. Learning. Foundational level. Issued by The Linux Foundation" %}
+{% image "https://assets.chrism.cloud/chrismcleod.dev/lfc131-green-software-for-practitioners.png", "LFC131: Green Software for Practitioners badge image. Learning. Foundational level. Issued by The Linux Foundation" %}
 
 [^1]: I actually thought I had already published at least one, if not more, blog posts about this… but it turns out they're still in drafts. Oops.
 [^2]: This link takes you to the same training material as the course that you can read at your leisure. You only have to go to the Linux Foundation site if you want to do the final exam.
