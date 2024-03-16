@@ -1,6 +1,20 @@
 const Image = require('@11ty/eleventy-img');
 const path = require('path');
 const htmlmin = require('html-minifier-terser');
+const { stat } = require('fs');
+
+function getFileName(id, src, width, format, options) {
+  // id: hash of the original image
+  // src: original image path
+  // width: current width in px
+  // format: current file format
+  // options: set of options passed to the Image call
+  const path = src.split('/');
+  const filename = path.pop().split('.');
+  const name = filename[0];
+
+  return `${name}-${width}.${format}`;
+}
 
 const imageShortcodePlaceholder = async (
   src,
@@ -14,11 +28,32 @@ const imageShortcodePlaceholder = async (
     throw new Error(`Missing \`alt\` on myImage from: ${src}`);
   }
 
-  let metadata = await Image(src, {
-    widths: [320, 570, 820],
-    formats: ['avif', 'webp', 'jpeg'],
+  let staticData = {};
+  let widths = [320, 570, 820];
+  let formats = ['avif', 'webp', 'jpeg'];
+
+  const basePath = 'https://assets.chrism.cloud/chrismcleod.dev/assets/resized';
+
+  formats.forEach((format) => {
+    staticData[format] = [];
+    widths.forEach((width) => {
+      const fileName = getFileName(null, src, width, format, {});
+      staticData[format].push({
+        src: `${basePath}/${fileName}`,
+        width,
+        format,
+        sourceType: `image/${format}`,
+        srcset: `${basePath}/${fileName} ${width}w`,
+      });
+    });
+  });
+
+  let metadata = process.env.ELEVENTY_PRODUCTION ? staticData : await Image(src, {
+    widths,
+    formats,
     urlPath: '/assets/images/',
-    outputDir: './dist/assets/images/'
+    outputDir: './dist/assets/images/',
+    filenameFormat: getFileName,
   });
 
   let lowsrc = metadata.jpeg[metadata.jpeg.length - 1];
@@ -51,14 +86,13 @@ const imageShortcodePlaceholder = async (
         decoding="async"
         class="${classes}">
     </picture>
-    ${
-      caption
-        ? `<figcaption class="cluster font-display"><p>${caption}</p>
+    ${caption
+      ? `<figcaption class="cluster font-display"><p>${caption}</p>
 	</figcaption>`
-        : ``
+      : ``
     }
 </figure>`,
-    {collapseWhitespace: true}
+    { collapseWhitespace: true }
   );
 };
 
