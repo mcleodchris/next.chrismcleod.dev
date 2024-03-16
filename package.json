@@ -12,12 +12,14 @@
     "start": "run-p dev:*",
     "clean": "rimraf dist",
     "build": "ELEVENTY_PRODUCTION=true run-s clean build:*",
+    "generate-images": "run-s clean build:*",
     "dev:11ty": "eleventy --serve --watch --port=3000",
     "build:11ty": "eleventy",
     "build:index": "npx -y pagefind --site dist",
     "index:serve": "npx -y pagefind --site dist --serve",
     "start-search": "run-s build:11ty index:local",
-    "start-quick": "eleventy --serve --incremental --ignore-initial"
+    "start-quick": "eleventy --serve --incremental --ignore-initial",
+    "start-prod": "ELEVENTY_PRODUCTION=true run-s clean build:* start-quick"
   },
   "keywords": [],
   "repository": {
