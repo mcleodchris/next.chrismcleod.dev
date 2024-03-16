@@ -32,6 +32,7 @@ const imageShortcodePlaceholder = async (
   let widths = [320, 570, 820];
   let formats = ['avif', 'webp', 'jpeg'];
 
+  // TODO: This should be a configuration variable somewhere
   const basePath = 'https://assets.chrism.cloud/chrismcleod.dev/assets/resized';
 
   formats.forEach((format) => {
