@@ -36,7 +36,7 @@
       }
     },
     {
-      "route": "/**/feed.xml",
+      "route": "/*/feed.xml",
       "headers": {
         "cache-control": "must-revalidate, max-age=43200"
       }
