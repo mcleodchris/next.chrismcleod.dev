@@ -107,6 +107,9 @@ module.exports = eleventyConfig => {
   eleventyConfig.addNunjucksFilter('getKeyedData', function (varName) {
     return this.getVariables()[varName];
   });
+  eleventyConfig.addNunjucksFilter('getKeyedPostData', function (varName, post) {
+    return post.data[varName];
+  });
 
   // 	--------------------- Custom shortcodes ---------------------
   eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcodePlaceholder);
