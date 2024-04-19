@@ -30,13 +30,7 @@
       "statusCode": 301
     },
     {
-      "route": "/feed.xml",
-      "headers": {
-        "cache-control": "must-revalidate, max-age=43200"
-      }
-    },
-    {
-      "route": "/*/feed.xml",
+      "route": "feed.xml",
       "headers": {
         "cache-control": "must-revalidate, max-age=43200"
       }
