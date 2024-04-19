@@ -36,6 +36,12 @@
       }
     },
     {
+      "route": "/**/feed.xml",
+      "headers": {
+        "cache-control": "must-revalidate, max-age=43200"
+      }
+    },
+    {
       "route": "/bookmarks/",
       "rewrite": "/bookmarks/0/"
     },
