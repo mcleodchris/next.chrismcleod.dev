@@ -37,10 +37,6 @@ jobs:
         id: blogwebmentions
         run: |
           npx -y @remy/webmention dist/feed.xml --limit 1 --send
-      - name: Bookmark Webmentions
-        id: bookmarkwebmentions
-        run: |
-          npx -y @remy/webmention dist/bookmarks/feed.xml --limit 10 --send
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'

@@ -21,7 +21,7 @@ layout: null
   %}
   <entry>
     <title>{{ post.data.title }}</title>
-    <link href="{{ absolutePostUrl }}" />
+    <link href="{{ 'bookmark-of' | getKeyedPostData(post) | url }}" />
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
     <content xml:lang="{{ locale }}" type="html">
