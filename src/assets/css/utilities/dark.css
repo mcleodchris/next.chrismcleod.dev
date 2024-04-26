@@ -7,7 +7,8 @@
     --color-secondary: var(--color-inverse-secondary);
     --color-primary-glare: var(--color-inverse-primary-glare);
     --color-secondary-glare: var(--color-inverse-secondary-glare);
-    --spot-color: var(--color-inverse-primary);    
+    --spot-color: var(--color-inverse-primary);
+    --table-bg: var(--color-inverse-dark-glare); 
   }
   
   .pagefind-ui__result {

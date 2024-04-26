@@ -1,0 +1,64 @@
+---
+pagination:
+  data: hobby
+  size: 1
+  alias: theYear
+permalink: "/paintslam/{{ theYear }}/index.html"
+layout: base
+---
+
+<header class="section spot-color-primary">
+  {% include 'svg/divider-waves-inverse.svg' %}
+  <div class="section__inner region">
+    <div class="wrapper flow">
+      <section class="prose text-center">
+        <h1 class="fade-in">Paintslam Tracker {{ theYear }}</h1>
+      </section>
+    </div>
+  </div>
+  {% include 'svg/divider-waves.svg' %}
+</header>
+
+<article class="region">
+  <div class="wrapper prose flow">
+    <h2>What is this?</h2>
+    <p><a href="https://www.paintslam.com/" rel="external">Paintslam</a> is a yearly community event where participants track and share their progress on painting miniatures using a “hobby log”. This page is my log for Paintslam {{ theYear }}.</p>
+  </div>
+
+  <div class="wrapper">
+    <nav id="paintslam-navigation" class="text-center">
+      {%- for pageKey in pagination.pages %}
+        <a class="button" href="{{ pagination.hrefs[loop.index0] }}" {% if page.url == pagination.hrefs[loop.index0] %}aria-current="page"{% endif %}>
+          {{ pageKey }}
+        </a>
+      {%- endfor %}
+    </nav>
+
+    <table>
+      <thead>
+        <tr>
+          <th class="text-left">Game</th>
+          <th class="text-left">Item</th>
+          <th class="text-center">Model Count</th>
+          <th class="text-center">Cumulative</th>
+          <th class="text-center">Completed Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% set cumulative = 0 %}
+        {% for item in hobby[theYear] %}
+          {% set cumulative = cumulative + item.modelCount %}
+          <tr>
+            <td>{{ item.game }}</td>
+            <td>{{ item.item }}</td>
+            <td class="text-center">{{ item.modelCount }}</td>
+            <td class="text-center">
+                {{ cumulative }}
+            </td>
+            <td class="text-center">{{ item.completedDate | formatDate('Do MMM') }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</article>

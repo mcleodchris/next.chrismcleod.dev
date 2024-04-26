@@ -14,7 +14,7 @@
   text-decoration: none;
 }
 
-.button:hover {
+.button:hover, .button[aria-current="page"] {
   --button-text: var(--color-bg);
   --button-bg: var(--color-fg);
   --button-border: var(--color-fg);
