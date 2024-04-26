@@ -13,8 +13,8 @@ module.exports = {
       url: '/bookmarks/'
     },
     {
-      text: 'Elsewhere',
-      url: 'https://links.chrism.cloud/'
+      text: 'Paintslam',
+      url: 'paintslam/2024/'
     },
     {
       text: 'Feed',

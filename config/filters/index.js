@@ -1,11 +1,13 @@
 const lodash = require('lodash');
 const dayjs = require('dayjs');
-var relativeTime = require('dayjs/plugin/relativeTime');
+const relativeTime = require('dayjs/plugin/relativeTime');
+const advancedFormat = require('dayjs/plugin/advancedFormat');
+dayjs.extend(advancedFormat);
 dayjs.extend(relativeTime);
 const CleanCSS = require('clean-css');
 const markdownLib = require('../plugins/markdown');
 const site = require('../../src/_data/meta');
-const {throwIfNotType} = require('../utils');
+const { throwIfNotType } = require('../utils');
 const md = require('markdown-it')();
 
 /** Returns the first `limit` elements of the the given array. */

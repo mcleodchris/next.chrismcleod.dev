@@ -1,0 +1,22 @@
+table {
+  border: 1px solid rgb(from var(--color-fg) r g b / 0.2);
+  font-size: var(--size-step-1);
+  margin-top: var(--space-2xl);
+  max-inline-size: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 0.5rem;
+}
+thead tr {
+  background: rgb(from var(--color-fg) r g b / 0.07);
+  border-bottom: 1px solid rgb(from var(--color-fg) r g b / 0.2);
+}
+td, th {
+  padding: 0.2rem 0.5rem;
+}
+tr:nth-child(even) {
+  background: rgb(from var(--color-fg) r g b / 0.03);
+}
+td:nth-child(2) {
+  font-weight: 700;
+}
