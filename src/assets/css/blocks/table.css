@@ -1,7 +1,7 @@
 table {
   border: 1px solid rgb(from var(--color-fg) r g b / 0.2);
   font-size: var(--size-step-1);
-  margin-top: var(--space-2xl);
+  margin-top: var(--space-xl);
   max-inline-size: 100%;
   border-collapse: separate;
   border-spacing: 0;

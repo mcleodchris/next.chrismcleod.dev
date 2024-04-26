@@ -12,7 +12,7 @@ layout: base
   <div class="section__inner region">
     <div class="wrapper flow">
       <section class="prose text-center">
-        <h1 class="fade-in">Paintslam Tracker for {{ theYear }}</h1>
+        <h1 class="fade-in">Paintslam Tracker {{ theYear }}</h1>
       </section>
     </div>
   </div>
@@ -20,8 +20,13 @@ layout: base
 </header>
 
 <article class="region">
+  <div class="wrapper prose flow">
+    <h2>What is this?</h2>
+    <p><a href="https://www.paintslam.com/" rel="external">Paintslam</a> is a yearly community event where participants track and share their progress on painting miniatures using a “hobby log”. This page is my log for Paintslam {{ theYear }}.</p>
+  </div>
+
   <div class="wrapper">
-    <nav class="text-center">
+    <nav id="paintslam-navigation" class="text-center">
       {%- for pageKey in pagination.pages %}
         <a class="button" href="{{ pagination.hrefs[loop.index0] }}" {% if page.url == pagination.hrefs[loop.index0] %}aria-current="page"{% endif %}>
           {{ pageKey }}
