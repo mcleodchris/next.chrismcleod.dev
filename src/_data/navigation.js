@@ -14,7 +14,7 @@ module.exports = {
     },
     {
       text: 'Paintslam',
-      url: 'paintslam/2024/'
+      url: '/paintslam/2024/'
     },
     {
       text: 'Feed',
