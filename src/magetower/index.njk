@@ -22,13 +22,36 @@ title: Mage Tower
         return data;
     };
 
-    // add document load listener
-    document.addEventListener('DOMContentLoaded', async () => {
+    const saveImage = async (token, apiUrl, file) => {
+        const formData = new FormData();
+        formData.append('file', file);
+        try {
+            const response = await fetch(`${apiUrl}/micropub/media`, {
+                method: 'POST',
+                headers: {
+                    Authorization: `Bearer ${token}`,
+                },
+                body: formData,
+            });
+            if (response.status === 201) {
+                console.log('Image uploaded successfully');
+                renderImageList();
+            } else {
+                console.error('Failed to upload image:', response.status);
+            }
+        } catch (error) {
+            console.error('Failed to upload image:', error);
+        }
+    };
+
+    const renderImageList = async () => {
         // fetch images
         const imageList = await fetchImages("{{meta.magetower.token}}", "{{meta.magetower.api_base}}");
         console.log(imageList);
         // get the image list element
         const imageListElement = document.getElementById('image-list');
+        // clear the image list element
+        imageListElement.innerHTML = '';
         // for each image in the list, output the following
         imageList.forEach((item, index) => {
             // create a dialog element
@@ -111,6 +134,24 @@ title: Mage Tower
             modals[index].close();
             });
         });
+    };
+
+    // add document load listener
+    document.addEventListener('DOMContentLoaded', async () => {
+        // call the renderImageList function
+        renderImageList();
+
+        // handle form submission
+        const form = document.querySelector('form');
+        form.addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const fileInput = document.querySelector('input[type="file"]');
+            const file = fileInput.files[0];
+            if (!file) {
+                return;
+            }
+            await saveImage("{{meta.magetower.token}}", "{{meta.magetower.api_base}}", file);
+        });
 
     });
 </script>
@@ -124,6 +165,10 @@ title: Mage Tower
   {% include 'svg/divider-waves.svg' %}
 </header>
 <div class="e-content | flow prose">
+    <form class="wrapper">
+        <input type="file" name="file" accept="image/*">
+        <button type="submit">Upload</button>
+    </form>
     <article class="region">
         <div id="image-list" class="wrapper grid mt-l-xl"
         role="list"
