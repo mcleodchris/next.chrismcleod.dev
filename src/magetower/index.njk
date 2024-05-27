@@ -1,0 +1,134 @@
+---
+layout: base
+title: Mage Tower
+---
+<script>
+    /**
+    * Fetches images from the API.
+    * @param {string} token - The authorization token.
+    * @param {string} apiUrl - The API URL.
+    * @returns {Promise<Array<Object>>} - A promise that resolves to an array of image objects.
+    */
+    const fetchImages = async (token, apiUrl) => {
+        // fetch the images
+        const response = await fetch(`${apiUrl}/images/list`, {
+            headers: {
+                Authorization: `Bearer ${token}`,
+            },
+        });
+        // parse the response as JSON
+        const data = await response.json();
+        // return the data
+        return data;
+    };
+
+    // add document load listener
+    document.addEventListener('DOMContentLoaded', async () => {
+        // fetch images
+        const imageList = await fetchImages("{{meta.magetower.token}}", "{{meta.magetower.api_base}}");
+        console.log(imageList);
+        // get the image list element
+        const imageListElement = document.getElementById('image-list');
+        // for each image in the list, output the following
+        imageList.forEach((item, index) => {
+            // create a dialog element
+            const dialog = document.createElement('dialog');
+            dialog.classList.add('flow', `modal${index}`);
+            // create a button element
+            const button = document.createElement('button');
+            button.classList.add('button');
+            button.setAttribute('autofocus', '');
+            button.textContent = 'Close';
+            // add an event listener to the button
+            button.addEventListener('click', () => {
+                dialog.close();
+            });
+            // create an image element
+            const image = document.createElement('img');
+            image.src = item.metadata.jpeg[item.metadata.jpeg.length - 1].url;
+            // append the image to the dialog
+            dialog.appendChild(image);
+            // create a textbox element
+            const textbox = document.createElement('input');
+            const textboxDiv = document.createElement('div');
+            textboxDiv.appendChild(textbox);
+            textbox.type = 'text';
+            textbox.value = item.original;
+            // append the textbox to the dialog
+            dialog.appendChild(textboxDiv);
+            // add an event listener to the textbox
+            textbox.addEventListener('click', async () => {
+                try {
+                    await navigator.clipboard.writeText(textbox.value);
+                    console.log('Text copied to clipboard');
+                } catch (error) {
+                    console.error('Failed to copy text to clipboard:', error);
+                }
+            });
+            // append the button to the dialog
+            dialog.appendChild(button);
+            // append the dialog to the image list element
+            imageListElement.appendChild(dialog);
+            // create a button element
+            const imageButton = document.createElement('button');
+            imageButton.setAttribute('data-index', index);
+            // add an event listener to the button
+            imageButton.addEventListener('click', () => {
+                dialog.showModal();
+            });
+            // create an image element
+            const figure = document.createElement('figure');
+            const picture = document.createElement('picture');
+            //for each key in the metadata object, create a source element with the following attributes:
+            // <source type="image/${key}" srcset="${ all srcset values from the metadata[key] array}" sizes="(min-width: 55rem) 820px, 100vw">
+            Object.keys(item.metadata).forEach((key) => {
+                const source = document.createElement('source');
+                source.type = `image/${key}`;
+                source.srcset = item.metadata[key].map((image) => `${image.url} ${image.width}w`).join(', ');
+                source.sizes = '(min-width: 55rem) 820px, 100vw';
+                picture.appendChild(source);
+            });
+            const imageElement = document.createElement('img');
+            imageElement.src = item.metadata.jpeg[0].url;
+            picture.appendChild(imageElement);
+            figure.appendChild(picture);
+            imageButton.appendChild(figure);
+            // append the button to the image list element
+            imageListElement.appendChild(imageButton);
+        });
+        const buttons = document.querySelectorAll('button[data-index]');
+        const modals = document.querySelectorAll('dialog');
+        const closeButtons = document.querySelectorAll('dialog button');
+
+        buttons.forEach((button, index) => {
+            button.addEventListener('click', () => {
+            modals[index].showModal();
+            });
+        });
+
+        closeButtons.forEach((button, index) => {
+            button.addEventListener('click', () => {
+            modals[index].close();
+            });
+        });
+
+    });
+</script>
+<header class="section spot-color-primary">
+  {% include 'svg/divider-waves-inverse.svg' %}
+  <div class="section__inner">
+    <div class="wrapper flow region">
+      <h1 class="text-center">{{ title }}</h1>
+    </div>
+  </div>
+  {% include 'svg/divider-waves.svg' %}
+</header>
+<div class="e-content | flow prose">
+    <article class="region">
+        <div id="image-list" class="wrapper grid mt-l-xl"
+        role="list"
+        data-rows="masonry"
+        data-layout="50-50"
+        style="--grid-min-item-size: clamp(16rem, 50vw, 20rem)"></div>
+    </article>
+</div>
