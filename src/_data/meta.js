@@ -44,5 +44,9 @@ module.exports = {
       url: 'https://chrismcleod.dev/bookmarks/feed.xml',
       type: 'atom+xml'
     }
-  ]
+  ],
+  magetower: {
+    api_base: 'https://mage.chrismcleod.dev',
+    token: process.env.MAGE_API_TOKEN
+  }
 };
