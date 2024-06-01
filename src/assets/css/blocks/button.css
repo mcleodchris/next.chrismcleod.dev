@@ -19,3 +19,11 @@
   --button-bg: var(--color-fg);
   --button-border: var(--color-fg);
 }
+
+/* Gallery images are wrapped in a button */
+button:has(picture) {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
