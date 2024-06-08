@@ -45,6 +45,11 @@
       "statusCode": 302
     },
     {
+      "route": "/gatekeeper",
+      "redirect": "/.auth/login/aad",
+      "statusCode": 301
+    },
+    {
       "route": "/magetower/*",
       "allowedRoles": ["admin"]
     },

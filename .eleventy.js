@@ -49,7 +49,8 @@ const {
   getAllSubscriptions,
   tagList,
   getAllBookmarks,
-  getBookmarksFeed
+  getBookmarksFeed,
+  getGraph
 } = require('./config/collections/index.js');
 
 // module import events
@@ -131,6 +132,8 @@ module.exports = eleventyConfig => {
   eleventyConfig.addCollection('tagList', tagList);
   eleventyConfig.addCollection('bookmarks', getAllBookmarks);
   eleventyConfig.addCollection('bookmarksFeed', getBookmarksFeed);
+  eleventyConfig.addCollection('graph', getGraph);
+
 
   // 	--------------------- Events ---------------------
   eleventyConfig.on('afterBuild', svgToJpeg);

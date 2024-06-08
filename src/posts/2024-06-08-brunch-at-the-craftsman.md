@@ -1,6 +1,6 @@
 ---
 title: Brunch at The Craftsman
-date: 2024-06-08T15:36+01
+date: 2024-06-08T15:36Z
 tags:
   - personal
   - food

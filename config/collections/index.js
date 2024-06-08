@@ -55,10 +55,23 @@ const getBookmarksFeed = collection => {
   });
 };
 
+// a new collection named graph, which combines posts and bookmarks
+const getGraph = collection => {
+  const posts = getAllPosts(collection);
+  const bookmarks = getAllBookmarks(collection);
+  return posts.concat(bookmarks).sort((a, b) => {
+    if (a.date > b.date) return -1;
+    if (a.date < b.date) return 1;
+    return 0;
+  });
+};
+
+
 module.exports = {
   getAllPosts,
   getAllSubscriptions,
   tagList,
   getAllBookmarks,
-  getBookmarksFeed
+  getBookmarksFeed,
+  getGraph
 };
