@@ -16,7 +16,7 @@ gallery:
 
 [The Craftsman is a Coffee and Alehouse in Aberdeen](https://thecraftsmancompany.com/). Wanting to visit somewhere outwith the quarter of the city we normally stick to, it's located just next to the harbour, and in my youth used to be the Schooner Bar - famed for its 7am opening times and being one of the roughest pubs in Aberdeen. Times have changed though, and The Craftsman is much more welcoming and modern. It was much more lively than [Second Home](https://chrismcleod.dev/blog/brunch-at-second-home/), in part due to the location near the travel hubs and major shopping centre, and also because it's been around longer is better established. The music was eclectic, seemingly jumping around eras and genres. It had that slightly hipster-ish feeling I get with a lot of the new places springing up around Aberdeen. Not in a pretentious way, more in the "hand-crafted" vibe and use of reclaimed/recycled fixtures and fittings.
 
-I had a coffee and waffles with bacon and maple syrup again. I'm trying to establish a baseline to compare places against, you see!
+I had a coffee and pancakes with bacon and maple syrup again. I'm trying to establish a baseline to compare places against, you see!
 
 The food, and drinks, were all pretty good. Again, I think it's somewhere we'll try to revisit - even if it is a little out of our way.
 
