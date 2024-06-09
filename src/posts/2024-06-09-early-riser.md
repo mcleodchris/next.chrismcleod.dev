@@ -1,6 +1,6 @@
 ---
 title: Early Riser
-date: 2024-06-09T14:40Z
+date: 2024-06-09T14:20Z
 tags:
   - personal
   - habits
