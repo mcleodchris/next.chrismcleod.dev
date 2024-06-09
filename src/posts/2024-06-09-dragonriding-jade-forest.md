@@ -12,4 +12,4 @@ I mentioned in the last post I was really enjoying dragonriding in the Pandaria:
 
 In the meantime, here's a capture I made of a couple of loops around the forest:
 
-{% youtube "https://youtu.be/72NuXapPDn0", "Dragonriding and Chill: Jade Forest" %}
+{% youtube "72NuXapPDn0", "Dragonriding and Chill: Jade Forest" %}
