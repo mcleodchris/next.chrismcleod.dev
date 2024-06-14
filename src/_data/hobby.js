@@ -17,46 +17,27 @@ const { AssetCache } = require("@11ty/eleventy-fetch");
 module.exports = async function () {
     // The GraphQL endpoint to query
     let asset = new AssetCache("paintslam_data");
-    const endpoint = 'https://tracker.chrism.cloud/data-api/graphql';
+    const endpoint = 'https://mage.chrismcleod.dev/hobby';
 
-    // The GraphQL query string
-    const query = `query Entries {
-                    entries(orderBy: {completedDate: DESC}) {
-                        endCursor
-                        hasNextPage
-                        items {
-                            id
-                            item
-                            game
-                            modelCount
-                            completedDate
-                            createdAt
-                        }
-                    }
-                }`;
-    if (asset.isCacheValid("1d")) {
-        // return cached data.
-        return asset.getCachedValue(); // a promise
-    }
-
-    // Send a POST request to the GraphQL endpoint
+    // Send a GET request to the REST endpoint
     const response = await fetch(endpoint, {
-        method: 'POST',
+        method: 'GET',
         headers: {
-            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${process.env.MAGE_API_TOKEN}`,
         },
-        body: JSON.stringify({ query }),
     });
 
-    // Parse the JSON response
-    const { data } = await response.json();
+    // Parse the JSON response (an array of items)
+    const data  = await response.json();
 
     // Reduce the array of items into an object where each key is a year and the value is an array of items completed in that year
-    const items = data.entries.items.reduce((acc, item) => {
+    const items = data.reduce((acc, item) => {
         const year = new Date(item.completedDate).getFullYear();
         if (!acc[year]) {
             acc[year] = [];
         }
+        // convert the modelCount to an Integer
+        item.modelCount = parseInt(item.modelCount, 10);
         acc[year].push(item);
         return acc;
     }, {});
