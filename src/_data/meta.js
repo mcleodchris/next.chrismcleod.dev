@@ -19,7 +19,7 @@ module.exports = {
     twitterSite: '', // i.e. @site - twitter profile of the site
     twitterCreator: '', // i.e. @author -  twitter profile of the site
     mastodonProfile: 'https://social.lol/@chrisplusplus', // i.e. https://front-end.social/@lene - url to your mastodon instance/profile
-    fediverseCreator: 'chrisplusplus@social.lol', // i.e. username@instance - fediverse profile of the author
+    fediverseCreator: 'chrisplusplus@social.lol' // i.e. username@instance - fediverse profile of the author
   },
   blog: {
     // this is for the rss feed
@@ -49,5 +49,39 @@ module.exports = {
   magetower: {
     api_base: 'https://mage.chrismcleod.dev',
     token: process.env.MAGE_API_TOKEN
+  },
+  warcraft: {
+    api_base: 'https://eu.api.blizzard.com',
+    region: 'eu',
+    namespace: 'profile-eu',
+    locale: 'en_GB',
+    clientId: process.env.BLIZZARD_CLIENT_ID,
+    clientSecret: process.env.BLIZZARD_CLIENT_SECRET,
+    characters: [
+      {
+        name: 'reinias',
+        realm: 'dragonblight'
+      },
+      {
+        name: 'faerlune',
+        realm: 'dragonblight'
+      },
+      {
+        name: 'shaasvre',
+        realm: 'dragonblight'
+      },
+      {
+        name: 'faerilina',
+        realm: 'dragonblight'
+      },
+      {
+        name: 'faerlorna',
+        realm: 'dragonblight'
+      },
+      // {
+      //   name: 'faerelune',
+      //   realm: 'dragonblight'
+      // }
+    ]
   }
 };
