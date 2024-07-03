@@ -38,7 +38,9 @@ property="article:author" content="{{ meta.author }}"> <!-- Twitter meta -->
 {% endif %}
 <meta
 name="twitter:dnt" content="on"> <!-- Favicon -->
+{% if meta.meta_data.fediverseCreator %}
 <meta name="fediverse:creator" content="{{ meta.meta_data.fediverseCreator }}" />
+{% endif %}
 <link rel="icon" href="{{ '/favicon.ico' | url }}" sizes="any">
 <link rel="icon" href="{{ '/favicon.svg' | url }}" type="image/svg+xml">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | url }}">
