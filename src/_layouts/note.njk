@@ -6,6 +6,7 @@ preloads:
   as: 'font'
   type: 'font/woff2'
   crossorigin: true
+
 ---
 
 <article class="region blog h-entry" data-pagefind-body>
@@ -18,8 +19,6 @@ preloads:
         <p>A lot can happen in that time; any information given may no longer be accurate, links to original sources may not work, and the the original context may not exist any more. And, most importantly, any views or opinions presented may not match those currently held by the author. All this is to say &mdash; take anything below with a pinch of salt.</p>
       </aside>
     {% endif %}
-    <h1 class="p-name{% if gradient === true %} | gradient-text{% endif %}" >{{ title }}</h1>
-    {% set definedDate = date %}
     <div class="post-meta"><a href="{{url | url}}" class="u-url">🔗</a> {% include "partials/date.njk" -%} | by <a class="p-author h-card" href="{{ meta.authorWebsite }}">{{ meta.author }}</a></div>
     <div class="e-content | flow prose">
       {{ content | safe }}
