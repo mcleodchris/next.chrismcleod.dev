@@ -31,8 +31,13 @@ layout: base
             <a class="u-bookmark-of" href="{{ item.data['bookmark-of'] | url }}" rel="external">
                 <span class="h-cite">{{item.data.title}}</span>
             </a>
+            {% if item.content -%}
+            <div class="e-content | flow prose">
+              {{ item.content | safe }}
+            </div>
+            {% endif -%}
             {%- set definedDate = item.date -%}
-            <span class="post-meta"><a href="{{item.url | url}}" class="u-url">{% include "partials/date.njk" -%}</a></span>
+            <div class="post-meta"><a href="{{item.url | url}}" class="u-url">{% include "partials/date.njk" -%}</a></iv>
         </li>
         {% endfor -%}
     </ul>

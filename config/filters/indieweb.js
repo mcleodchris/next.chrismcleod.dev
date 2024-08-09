@@ -7,9 +7,9 @@ const meta = require('../../src/_data/meta')
 module.exports = {
     makeTootText: (post) => {
         let content = ''
-        const permalink = `https://chrismcleod.dev${post.permalink}`
+        const permalink = `${meta.url}${post.permalink}`
 
-        if (!['link', 'note'].includes(post.layout))
+        if (!['bookmark', 'note'].includes(post.layout))
         {
             content = `${decode(post.title)} ${permalink}`
 
@@ -37,9 +37,9 @@ module.exports = {
         }
 
         let mastoUsername = null
-        if (post.author.mastodon ?? meta.meta_data.mastodonProfile)
+        if (post.author?.mastodon)
         {
-            const url = new URL(post.author.mastodon ?? meta.meta_data.mastodonProfile)
+            const url = new URL(post.author.mastodon)
             mastoUsername = `${url.pathname.replace('/', '')}@${url.host}`
         }
 
@@ -81,7 +81,7 @@ module.exports = {
         if (path.startsWith('/notes/') && path !== '/notes/') {
             path = '/notes/single/'
         }
-        const url = encodeURIComponent(`https://rknight.me/opengraph${path}`)
+        const url = encodeURIComponent(`${meta.url}opengraph${path}`)
         return `https://v1.screenshot.11ty.dev/${url}/opengraph/_123`
     },
     getOpengraphUrl: (inputPath) => {
@@ -90,7 +90,7 @@ module.exports = {
             path = '/notes/single/'
         }
 
-        const url = encodeURIComponent(`https://rknight.me/opengraph${path}`)
+        const url = encodeURIComponent(`${meta.url}opengraph${path}`)
         return `https://v1.screenshot.11ty.dev/${url}/opengraph/_123`
     }
 }

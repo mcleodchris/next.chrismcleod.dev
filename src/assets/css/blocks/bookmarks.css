@@ -7,15 +7,25 @@
 .bookmarks li.h-entry {
   font-size: var(--size-step-1);
   max-inline-size: var(--wrapper-max-width, 85rem);
+  margin-bottom: var(--space-l-xl);
 }
 .bookmarks li.h-entry::before {
   content: '🔖 ';
 }
 .bookmarks a.u-bookmark-of {
   text-decoration: underline;
+  text-wrap: balance;
+  display: block;
 }
 .bookmarks .post-meta {
   font-size: var(--size-step-min-1);
   display: block;
   text-opacity: 0.5;
+  margin-left: 2.8rem;
+}
+li.h-entry .e-content {
+  font-size: var(--size-step-0);
+  margin-left: 2.8rem;
+  margin-block-start: var(--space-s-m);
+  margin-block-end: var(--space-s-m);
 }
