@@ -19,7 +19,11 @@ module.exports = {
     twitterSite: '', // i.e. @site - twitter profile of the site
     twitterCreator: '', // i.e. @author -  twitter profile of the site
     mastodonProfile: 'https://social.lol/@chrisplusplus', // i.e. https://front-end.social/@lene - url to your mastodon instance/profile
-    fediverseCreator: '@chrisplusplus@social.lol' // i.e. username@instance - fediverse profile of the author
+    fediverseCreator: '@chrisplusplus@social.lol', // i.e. username@instance - fediverse profile of the author
+    blueskyCreator: '@chrismcleod.dev',
+    blueskyProfile: 'https://bsky.app/profile/chrismcleod.dev',
+    githubCreator: 'mcleodchris',
+    githubProfile: 'https://github.com/mcleodchris'
   },
   blog: {
     // this is for the rss feed

@@ -24,11 +24,6 @@ preloads:
     <div class="e-content | flow prose">
       {{ content | safe }}
     </div>
-    <footer class="prose flow">
-      {% if tags %}
-        <p>Filed under: {% for tag in tags %}<a class="p-category tag" href="/tags/{{ tag | url }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>
-      {% endif %}
-      <p>☕ This author runs on caffeine (I’m not convinced the servers don’t, either). If you’ve found any of my posts useful or informative, maybe you’d consider <a href="https://www.buymeacoffee.com/mrkapowski" rel="external">buying me a coffee</a>?</p>
-    </footer>
+    {% include '../_layouts/footer.njk' %}
   </div>
 </article>

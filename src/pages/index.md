@@ -13,12 +13,4 @@ hcard: true
 
 <p class="p-note">I’m a software developer with over 20 years of work experience, but I’ve been experimenting with technology and programming since I received my very first Commodore 64 in 1989. I’ve done everything from front-line IT support in small companies, through to leading development teams on key projects for industry and government.</p>
 
-Outside of work I’m a keen learner, having studied for – and earned – several certifications. I enjoy spending the rest of my free time immersed in one of my hobbies – more often than not miniature painting and tabletop wargaming.
-
-## What I can do
-
-- **Frontend Web development**, including React, Bootstrap, Angular, Tailwind, Eleventy.
-- **Microsoft Azure certified**, DevOps experience, Containerisation, virtualisation, and system administration.
-- **Databases** – RDBMS and NoSQL, Data Warehousing and Business Intelligence.
-- **Backend systems**, including .NET, Node.JS, PHP, REST and GraphQL.
-- **Experienced team lead**, mentor, and people manager.
+You can find out a bit more on the [/about](/about/) page.

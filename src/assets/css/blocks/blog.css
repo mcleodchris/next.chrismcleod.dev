@@ -23,7 +23,7 @@
   text-decoration: none;
 }
 
-.blog footer {
+footer.coffee {
   --flow-space: var(--space-s-m);
   font-size: var(--size-step-1);
   background-color: var(--color-fg);

@@ -21,3 +21,8 @@ I've been thoughts, projects, and experiments across various iterations of a per
 - **Backend systems**, including .NET, Node.JS, PHP, REST and GraphQL.
 - **Experienced team lead**, mentor, and people manager.
 
+## Where else can I find you?
+
+Various ways to follow me can be found on the [/follow](/follow/) page.
+
+{% include '../_layouts/footer.njk' %}

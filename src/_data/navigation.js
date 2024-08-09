@@ -5,10 +5,6 @@ module.exports = {
       url: '/blog/'
     },
     {
-      text: 'Blogroll',
-      url: '/links/'
-    },
-    {
       text: 'Bookmarks',
       url: '/bookmarks/'
     },
@@ -17,8 +13,12 @@ module.exports = {
       url: '/paintslam/2024/'
     },
     {
-      text: 'Feed',
-      url: '/feed.xml'
+      text: 'Follow',
+      url: '/follow/'
+    },
+    {
+      text: 'About',
+      url: '/about/'
     }
   ],
   bottom: [
