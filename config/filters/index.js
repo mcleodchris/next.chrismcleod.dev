@@ -7,7 +7,7 @@ dayjs.extend(relativeTime);
 const CleanCSS = require('clean-css');
 const markdownLib = require('../plugins/markdown');
 const site = require('../../src/_data/meta');
-const { throwIfNotType } = require('../utils');
+const {throwIfNotType} = require('../utils');
 const md = require('markdown-it')();
 
 /** Returns the first `limit` elements of the the given array. */
@@ -133,6 +133,15 @@ const jsonToString = json => JSON.stringify(json, null, 2);
 
 const excludeTag = (array, tag) => array.filter(item => item !== tag);
 
+const dateForFeed = date => {
+  // thanks Robb
+  return date.toISOString();
+};
+const stripIndex = path => {
+  if (!path) return '';
+  return path.replace('/index.html', '/');
+};
+
 module.exports = {
   limit,
   toHtml,
@@ -148,5 +157,7 @@ module.exports = {
   jsonToString,
   longAgo,
   dateDiff,
-  excludeTag
+  excludeTag,
+  dateForFeed,
+  stripIndex
 };

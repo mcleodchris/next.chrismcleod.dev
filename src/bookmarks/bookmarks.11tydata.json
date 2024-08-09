@@ -1,8 +1,9 @@
 {
   "layout": "bookmark",
-  "tags": "bookmark",
-  "permalink": "/bookmarks/{{ title | slugify }}/index.html",
+  "tags": ["bookmark", "timeline"],
   "eleventyComputed": {
     "feedFooter": "[{{ title }}]({{ 'bookmark-of' | getKeyedData | url }}), bookmarked {{ date | formatDate('MMMM D, YYYY') }} on [Chris McLeod's bookmark page](/bookmarks)."
-  }
+  },
+  "collectionName": "bookmarksForFeed",
+  "name": "Bookmarks"
 }

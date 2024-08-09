@@ -21,7 +21,7 @@ const tagList = collection => {
   getAllPosts(collection).forEach(item => {
     if (!item.data.tags) return;
     item.data.tags
-      .filter(tag => !['posts', 'all'].includes(tag))
+      .filter(tag => !['posts', 'all', 'notes', 'timeline'].includes(tag))
       .forEach(tag => tagsSet.add(tag));
   });
   return Array.from(tagsSet).sort((tag1, tag2) => {
@@ -59,12 +59,27 @@ const getBookmarksFeed = collection => {
 const getGraph = collection => {
   const posts = getAllPosts(collection);
   const bookmarks = getAllBookmarks(collection);
-  return posts.concat(bookmarks).sort((a, b) => {
+  const notes = notesForFeed(collection);
+  return posts.concat(bookmarks).concat(notes).sort((a, b) => {
     if (a.date > b.date) return -1;
     if (a.date < b.date) return 1;
     return 0;
   });
 };
+
+const getAllNotes = collection => {
+  const posts = collection.getFilteredByGlob('./src/notes/*.md');
+  return posts.reverse();
+};
+const notesForFeed = collection => {
+  const posts = getAllNotes(collection);
+  return posts.slice(0, 50);
+};
+const bookmarksForFeed = collection => {
+  const bookmarks = getAllBookmarks(collection);
+  return bookmarks.slice(0, 50);
+};
+
 
 
 module.exports = {
@@ -73,5 +88,7 @@ module.exports = {
   tagList,
   getAllBookmarks,
   getBookmarksFeed,
-  getGraph
+  getGraph,
+  notesForFeed,
+  bookmarksForFeed
 };

@@ -78,10 +78,17 @@ module.exports = {
         name: 'faerlorna',
         realm: 'dragonblight'
       },
-      // {
-      //   name: 'faerelune',
-      //   realm: 'dragonblight'
-      // }
+      {
+        name: 'faerelune',
+        realm: 'dragonblight'
+      },
+      {
+        name: 'faerefel',
+        realm: 'dragonblight'
+      }
     ]
+  },
+  indieweb: {
+    avatar: "https://assets.chrism.cloud/chrismcleod.dev/assets/resized/06_1280-320.jpeg"
   }
 };

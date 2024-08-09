@@ -33,8 +33,12 @@ const {
   jsonToString,
   longAgo,
   dateDiff,
-  excludeTag
+  excludeTag,
+  dateForFeed,
+  stripIndex
 } = require('./config/filters/index.js');
+
+const indiewebFilters = require('./config/filters/indieweb.js');
 
 // module import shortcodes
 const {
@@ -50,7 +54,9 @@ const {
   tagList,
   getAllBookmarks,
   getBookmarksFeed,
-  getGraph
+  getGraph,
+  notesForFeed,
+  bookmarksForFeed
 } = require('./config/collections/index.js');
 
 // module import events
@@ -81,6 +87,8 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('archive', 'archive.njk');
   eleventyConfig.addLayoutAlias('bookmark', 'bookmark.njk');
   eleventyConfig.addLayoutAlias('bookmarks', 'bookmarks.njk');
+  eleventyConfig.addLayoutAlias('feed-json', 'feed-json.njk');
+  eleventyConfig.addLayoutAlias('note', 'note.njk');
 
   // 	---------------------  Custom filters -----------------------
   eleventyConfig.addFilter('limit', limit);
@@ -105,11 +113,16 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('longAgo', longAgo);
   eleventyConfig.addFilter('dateDiff', dateDiff);
   eleventyConfig.addFilter('excludeTag', excludeTag);
+  eleventyConfig.addFilter('dateForFeed', dateForFeed);
+  eleventyConfig.addFilter('stripIndex', stripIndex);
   eleventyConfig.addNunjucksFilter('getKeyedData', function (varName) {
     return this.getVariables()[varName];
   });
   eleventyConfig.addNunjucksFilter('getKeyedPostData', function (varName, post) {
     return post.data[varName];
+  });
+  Object.keys(indiewebFilters).forEach(filterName => {
+    eleventyConfig.addFilter(filterName, indiewebFilters[filterName]);
   });
 
   // 	--------------------- Custom shortcodes ---------------------
@@ -133,7 +146,8 @@ module.exports = eleventyConfig => {
   eleventyConfig.addCollection('bookmarks', getAllBookmarks);
   eleventyConfig.addCollection('bookmarksFeed', getBookmarksFeed);
   eleventyConfig.addCollection('graph', getGraph);
-
+  eleventyConfig.addCollection('notesForFeed', notesForFeed);
+  eleventyConfig.addCollection('bookmarksForFeed', bookmarksForFeed);
 
   // 	--------------------- Events ---------------------
   eleventyConfig.on('afterBuild', svgToJpeg);

@@ -1,0 +1,43 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "user_comment": "This is a JSON feed. Subscribe by copying the URL from the address bar into your newsreader.",
+    "title": "{{ meta.author }} ⁞ {{ name }} ⁞ JSON Feed",
+    "description": "{{ meta.description }}",
+    "home_page_url": "{{ meta.url}}",
+    "feed_url": "{{ meta.url}}{{ permalink }}",
+    "authors": [
+        {
+            "name": "{{ meta.author }}",
+            "url": "{{ meta.url }}",
+            "avatar": "{{ meta.indieweb.avatar }}"
+        }
+    ],
+    "items" : [
+    {%- for post in collections[collectionName] %}
+    {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+    {
+        "id" : "{{ post.url }}",
+        "title": "{{ post.data.title }}",
+        "url": "{{ meta.url}}{{ post.url | stripIndex }}",
+        "content_html": {{ post.templateContent | dump | safe }},
+        "summary": "{{ post.data.excerpt }}",
+        {% if post.data.layout === 'bookmark' %}
+        "external_url": "{{ 'bookmark-of' | getKeyedPostData(post) | url }}",
+        "authors": [
+            {
+                "name": {% if post.data.author.name %}"{{ post.data.author.name }}",{% else %}null,{% endif %}
+                "url": {% if post.data.author.web %}"{{ post.data.author.web }}",{% else %}null,{% endif %}
+                "mastodon": {% if post.data.author.mastodon %}"{{ post.data.author.mastodon }}",{% else %}null,{% endif %}
+                "rss": {% if post.data.author.feed %}"{{ post.data.author.feed }}"{% else %}null{% endif %}
+            }
+        ],{% endif %}
+        "_posse": {
+            "text": {{ { "externalLink": post.data.layout === 'bookmark', "season": post.data.season, "platform": post.data.platform, "layout": post.data.layout, "type": post.data.type, "title": post.data.title, "author": post.data.author, "link": post.data['bookmark-of'], "content": post.data.content, "permalink": post.url | stripIndex } | makeTootText | dump | safe }},
+            "tags": {% if post.data.tags %}{{ post.data.tags | dump | safe }}{% else %}[]{% endif %},
+            "opengraph": "{{ post.url | getOpengraphUrl }}"
+        },
+        "date_published": "{{ post.data.date | dateForFeed }}",
+        "tags": {% if post.data.tags %}{{ post.data.tags | dump | safe }}{% else %}[]{% endif %}
+    }{% if not loop.last %},{% else %}{%- endif -%}
+    {%- endfor -%}
+]}
