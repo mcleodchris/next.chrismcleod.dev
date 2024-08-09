@@ -15,7 +15,7 @@
 .bookmarks a.u-bookmark-of {
   text-decoration: underline;
   text-wrap: balance;
-  display: block;
+  display: inline;
 }
 .bookmarks .post-meta {
   font-size: var(--size-step-min-1);
