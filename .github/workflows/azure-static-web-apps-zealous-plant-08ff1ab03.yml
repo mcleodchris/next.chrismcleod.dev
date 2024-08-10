@@ -39,10 +39,6 @@ jobs:
           output_location: "/dist" # Built app content directory - optional
           build_timeout_in_minutes: 25 # Maximum allowed time for build in minutes - optional
           ###### End of Repository/Build Configurations ######
-      - name: Blog Webmentions
-        id: blogwebmentions
-        run: |
-          npx -y @remy/webmention dist/feed.xml --limit 1 --send
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
