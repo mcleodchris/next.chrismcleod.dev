@@ -79,6 +79,10 @@ const bookmarksForFeed = collection => {
   const bookmarks = getAllBookmarks(collection);
   return bookmarks.slice(0, 50);
 };
+const postsForFeed = collection => {
+  const posts = getAllPosts(collection);
+  return posts.slice(0, 24);
+};
 
 
 
@@ -90,5 +94,6 @@ module.exports = {
   getBookmarksFeed,
   getGraph,
   notesForFeed,
-  bookmarksForFeed
+  bookmarksForFeed,
+  postsForFeed
 };

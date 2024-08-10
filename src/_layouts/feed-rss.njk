@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="{{ meta.url }}" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ meta.blog.name }} — {{ name }} — RSS Feed</title>
+    <link>{{ meta.url }}</link>
+    <atom:link href="{{ permalink | absoluteUrl(meta.url) }}" rel="self" type="application/rss+xml" />
+    <description>{{meta.blog.description}}</description>
+    <language>{{ meta.lang }}</language>
+    {%- for post in collections[collectionName] %}
+    {%- set absolutePostUrl = post.url | absoluteUrl(meta.url) %}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <link>{{ absolutePostUrl }}</link>
+      <description>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</description>
+      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+      <dc:creator>{{ meta.author }}</dc:creator>
+      <guid>{{ absolutePostUrl }}</guid>
+    </item>
+    {%- endfor %}
+  </channel>
+</rss>

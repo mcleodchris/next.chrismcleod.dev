@@ -56,7 +56,8 @@ const {
   getBookmarksFeed,
   getGraph,
   notesForFeed,
-  bookmarksForFeed
+  bookmarksForFeed,
+  postsForFeed
 } = require('./config/collections/index.js');
 
 // module import events
@@ -148,6 +149,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addCollection('graph', getGraph);
   eleventyConfig.addCollection('notesForFeed', notesForFeed);
   eleventyConfig.addCollection('bookmarksForFeed', bookmarksForFeed);
+  eleventyConfig.addCollection('postsForFeed', postsForFeed);
 
   // 	--------------------- Events ---------------------
   eleventyConfig.on('afterBuild', svgToJpeg);

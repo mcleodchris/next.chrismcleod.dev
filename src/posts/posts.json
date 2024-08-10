@@ -1,5 +1,7 @@
 {
   "layout": "post",
-  "tags": "posts",
-  "permalink": "/blog/{{ title | slugify }}/index.html"
+  "tags": ["posts", "timeline"],
+  "permalink": "/blog/{{ title | slugify }}/index.html",
+  "collectionName": "postsForFeed",
+  "name": "Blog Posts"
 }

@@ -40,14 +40,49 @@ module.exports = {
   indieauth: 'https://github.com/mcleodchris',
   feeds: [
     {
-      title: 'chrismcleod.dev: main blog feed',
-      url: 'https://chrismcleod.dev/feed.xml',
+      title: 'chrismcleod.dev: main blog feed (Atom)',
+      url: 'https://chrismcleod.dev/follow/blog/feed.atom',
       type: 'atom+xml'
     },
     {
-      title: 'chrismcleod.dev: bookmarks feed',
-      url: 'https://chrismcleod.dev/bookmarks/feed.xml',
+      title: 'chrismcleod.dev: main blog feed (RSS)',
+      url: 'https://chrismcleod.dev/follow/blog/feed.rss',
+      type: 'rss+xml'
+    },
+    {
+      title: 'chrismcleod.dev: main blog feed (JSOM)',
+      url: 'https://chrismcleod.dev/follow/blog/feed.json',
+      type: 'json'
+    },
+    {
+      title: 'chrismcleod.dev: bookmarks feed (Atom)',
+      url: 'https://chrismcleod.dev/follow/bookmarks/feed.atom',
       type: 'atom+xml'
+    },
+    {
+      title: 'chrismcleod.dev: bookmarks feed (RSS)',
+      url: 'https://chrismcleod.dev/follow/bookmarks/feed.rss',
+      type: 'rss+xml'
+    },
+    {
+      title: 'chrismcleod.dev: bookmarks feed (JSON)',
+      url: 'https://chrismcleod.dev/follow/bookmarks/feed.json',
+      type: 'json'
+    },
+    {
+      title: 'chrismcleod.dev: notes feed (Atom)',
+      url: 'https://chrismcleod.dev/follow/notes/feed.atom',
+      type: 'atom+xml'
+    },
+    {
+      title: 'chrismcleod.dev: notes feed (RSS)',
+      url: 'https://chrismcleod.dev/follow/notes/feed.rss',
+      type: 'rss+xml'
+    },
+    {
+      title: 'chrismcleod.dev: notes feed (JSON)',
+      url: 'https://chrismcleod.dev/follow/notes/feed.json',
+      type: 'json'
     }
   ],
   magetower: {
@@ -93,6 +128,6 @@ module.exports = {
     ]
   },
   indieweb: {
-    avatar: "https://assets.chrism.cloud/chrismcleod.dev/assets/resized/06_1280-320.jpeg"
+    avatar: 'https://assets.chrism.cloud/chrismcleod.dev/assets/resized/06_1280-320.jpeg'
   }
 };
