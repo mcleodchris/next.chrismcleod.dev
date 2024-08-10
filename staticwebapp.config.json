@@ -26,11 +26,21 @@
     },
     {
       "route": "/feed/",
-      "redirect": "/feed.xml",
+      "redirect": "/follow/blog/feed.atom",
       "statusCode": 301
     },
     {
-      "route": "feed.xml",
+      "route": "/feed.xml",
+      "redirect": "/follow/blog/feed.atom",
+      "statusCode": 301
+    },
+    {
+      "route": "/bookmarks/feed.xml",
+      "redirect": "/follow/bookmarks/feed.atom",
+      "statusCode": 301
+    },
+    {
+      "route": "feed.{atom,rss,json}",
       "headers": {
         "cache-control": "must-revalidate, max-age=43200"
       }
