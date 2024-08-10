@@ -25,6 +25,10 @@ module.exports = {
     {
       text: 'Privacy',
       url: '/privacy/'
+    },
+    {
+      text: 'Roadmap',
+      url: '/roadmap/'
     }
   ]
 };
