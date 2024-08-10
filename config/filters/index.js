@@ -141,6 +141,10 @@ const stripIndex = path => {
   if (!path) return '';
   return path.replace('/index.html', '/');
 };
+const tagsToFilterFromFeeds = ['posts', 'all', 'notes', 'timeline', 'bookmarks', 'feed', 'personal', 'site-meta'];
+const filterTagsFromFeeds = (array) => {
+  return array.filter(item => !tagsToFilterFromFeeds.includes(item));
+};
 
 module.exports = {
   limit,
@@ -159,5 +163,6 @@ module.exports = {
   dateDiff,
   excludeTag,
   dateForFeed,
-  stripIndex
+  stripIndex,
+  filterTagsFromFeeds
 };

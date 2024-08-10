@@ -35,7 +35,8 @@ const {
   dateDiff,
   excludeTag,
   dateForFeed,
-  stripIndex
+  stripIndex,
+  filterTagsFromFeeds
 } = require('./config/filters/index.js');
 
 const indiewebFilters = require('./config/filters/indieweb.js');
@@ -116,6 +117,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('excludeTag', excludeTag);
   eleventyConfig.addFilter('dateForFeed', dateForFeed);
   eleventyConfig.addFilter('stripIndex', stripIndex);
+  eleventyConfig.addFilter('filterTagsFromFeeds', filterTagsFromFeeds);
   eleventyConfig.addNunjucksFilter('getKeyedData', function (varName) {
     return this.getVariables()[varName];
   });
