@@ -15,8 +15,8 @@
     "icon": "kofi.svg"
   },
   {
-    "platform": "rss",
-    "url": "/feed.xml",
+    "platform": "Follow",
+    "url": "/follow/",
     "icon": "rss.svg"
   }
 ]

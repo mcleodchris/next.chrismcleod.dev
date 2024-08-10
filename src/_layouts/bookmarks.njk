@@ -17,9 +17,17 @@ layout: base
   <div class="wrapper flow prose">  {{ content | safe }}</div>
    <div class="wrapper flow prose">  
     <p class="text-center">
-      <a href="/bookmarks/feed.xml" class="button">
+      <a href="/follow/bookmarks/feed.atom" class="button">
+      {% include 'icons/social-rss.svg' %}
+        Atom
+      </a>
+      <a href="/follow/bookmarks/feed.rss" class="button">
       {% include 'icons/social-rss.svg' %}
         RSS
+      </a>
+      <a href="/follow/bookmarks/feed.json" class="button">
+      {% include 'icons/social-rss.svg' %}
+        JSON
       </a>
     </p>
    </div>

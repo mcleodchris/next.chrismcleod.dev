@@ -22,7 +22,7 @@ module.exports = {
     fediverseCreator: '@chrisplusplus@social.lol', // i.e. username@instance - fediverse profile of the author
     blueskyCreator: '@chrismcleod.dev',
     blueskyProfile: 'https://bsky.app/profile/chrismcleod.dev',
-    githubCreator: 'mcleodchris',
+    githubCreator: '@mcleodchris',
     githubProfile: 'https://github.com/mcleodchris'
   },
   blog: {

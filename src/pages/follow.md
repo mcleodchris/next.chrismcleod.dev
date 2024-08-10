@@ -29,15 +29,15 @@ I'm not a big social media guy these days, but I do keep a couple of accounts ac
 - [{{meta.meta_data.blueskyCreator}}][bsky] (BlueSky)
 
 
-[blogatom]: {{meta.url}}/follow/blog/feed.atom
-[blogrss]: {{meta.url}}/follow/blog/feed.rss
-[blogjson]: {{meta.url}}/follow/blog/feed.json
-[bookmarksjson]: {{meta.url}}/follow/bookmarks/feed.json
-[bookmarksatom]: {{meta.url}}/follow/bookmarks/feed.atom
-[bookmarksrss]: {{meta.url}}/follow/bookmarks/feed.rss
-[notesjson]: {{meta.url}}/follow/notes/feed.json
-[notesatom]: {{meta.url}}/follow/notes/feed.atom
-[notesrss]: {{meta.url}}/follow/notes/feed.rss
+[blogatom]: /follow/blog/feed.atom
+[blogrss]: /follow/blog/feed.rss
+[blogjson]: /follow/blog/feed.json
+[bookmarksjson]: /follow/bookmarks/feed.json
+[bookmarksatom]: /follow/bookmarks/feed.atom
+[bookmarksrss]: /follow/bookmarks/feed.rss
+[notesjson]: /follow/notes/feed.json
+[notesatom]: /follow/notes/feed.atom
+[notesrss]: /follow/notes/feed.rss
 [masto]: {{meta.meta_data.mastodonProfile}}
 [gh]: {{meta.meta_data.githubProfile}}
 [bsky]: {{meta.meta_data.blueskyProfile}}
