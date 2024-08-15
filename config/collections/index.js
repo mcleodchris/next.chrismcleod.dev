@@ -1,4 +1,4 @@
-const {get} = require('lodash');
+const { get } = require('lodash');
 
 /** Returns all blog posts as a collection. */
 const getAllPosts = collection => {
@@ -49,7 +49,7 @@ const getBookmarksFeed = collection => {
       title: bookmark.data.title,
       permalink: bookmark.url,
       tags: bookmark.data.tags,
-      url: bookmark.data['bookmark-of'],
+      url: bookmark.data.bookmarkOf,
       date: bookmark.data.date
     };
   });

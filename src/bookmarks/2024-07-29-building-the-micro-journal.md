@@ -1,7 +1,7 @@
 ---
 date: 2024-07-29T09:53:22.564Z
 title: Building the Micro Journal
-bookmark-of: https://cassidoo.co/post/micro-journal/
+bookmarkOf: https://cassidoo.co/post/micro-journal/
 visibility: public
 ---
 

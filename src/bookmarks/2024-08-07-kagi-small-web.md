@@ -1,7 +1,7 @@
 ---
 date: 2024-08-07T11:18:52.894Z
 title: Kagi Small Web
-bookmark-of: https://kagi.com/smallweb/
+bookmarkOf: https://kagi.com/smallweb/
 visibility: public
 ---
 

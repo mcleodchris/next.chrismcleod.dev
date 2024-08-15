@@ -9,7 +9,7 @@ layout: null
         {% for bookmark in collections.bookmarks -%}
         {
             "title": "{{ bookmark.data.title }}",
-            "url": "{{ bookmark.data["bookmark-of"] }}",
+            "url": "{{ bookmark.data["bookmarkOf"] }}",
             "tags": [ {% set tags = bookmark.data.tags | excludeTag("bookmark") %}
                 {% for tag in tags -%}
                 "{{ tag }}"{% if not loop.last %},{% endif %}

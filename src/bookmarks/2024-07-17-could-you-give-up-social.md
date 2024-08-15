@@ -1,7 +1,7 @@
 ---
 date: 2024-07-17T09:34:46.665Z
 title: Could You Give Up Social Media?
-bookmark-of: https://kevquirk.com/blog/could-you-give-up-social-media
+bookmarkOf: https://kevquirk.com/blog/could-you-give-up-social-media
 visibility: public
 ---
 

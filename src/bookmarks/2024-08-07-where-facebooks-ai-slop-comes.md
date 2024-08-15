@@ -1,7 +1,7 @@
 ---
 date: 2024-08-07T11:07:25.193Z
 title: Where Facebook's AI Slop Comes From
-bookmark-of: https://www.404media.co/where-facebooks-ai-slop-comes-from/
+bookmarkOf: https://www.404media.co/where-facebooks-ai-slop-comes-from/
 visibility: public
 ---
 

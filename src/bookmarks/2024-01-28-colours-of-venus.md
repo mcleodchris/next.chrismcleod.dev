@@ -1,7 +1,7 @@
 ---
 date: 2024-01-28T21:40:14.499Z
 title: + Colours of Venus +
-bookmark-of: https://ironsleet.com/2024/01/15/colours-of-venus/
+bookmarkOf: https://ironsleet.com/2024/01/15/colours-of-venus/
 visibility: public
 ---
 

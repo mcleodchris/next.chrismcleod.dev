@@ -1,7 +1,7 @@
 ---
 date: 2024-08-09T19:28:28.332Z
 title: Bookmarks — Chris McLeod
-bookmark-of: https://chrismcleod.dev/bookmarks/
+bookmarkOf: https://chrismcleod.dev/bookmarks/
 visibility: public
 ---
 

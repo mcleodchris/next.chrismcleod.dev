@@ -11,7 +11,7 @@ preloads:
 
 <article class="region blog h-entry" data-pagefind-body>
   <div class="wrapper flow prose">
-    <a class="u-bookmark-of" href="{{ 'bookmark-of' | getKeyedData | url }}" rel="external">
+    <a class="u-bookmark-of" href="{{ page.data.bookmarkOf | url }}" rel="external">
         🔖 <span class="h-cite">{{title}}</span>
     </a>
     {% set definedDate = date %}

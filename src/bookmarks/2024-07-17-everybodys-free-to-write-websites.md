@@ -1,7 +1,7 @@
 ---
 date: 2024-07-17T08:15:32.443Z
 title: Everybody's Free (To Write Websites)
-bookmark-of: https://sarajoy.dev/blog/write-websites/
+bookmarkOf: https://sarajoy.dev/blog/write-websites/
 visibility: public
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2024-08-13T10:30:13.632Z
 title: The Hollow Outrage of the Moral Panic Influencers
-bookmark-of: https://paragraph.xyz/@Westenberg/the-hollow-outrage-of-the-moral-panic-influencers
+bookmarkOf: https://paragraph.xyz/@Westenberg/the-hollow-outrage-of-the-moral-panic-influencers
 visibility: public
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2024-03-19T14:07:49.654Z
 title: Celebrating Six Years of Sister Augusta
-bookmark-of: https://danacea.substack.com/p/celebrating-six-years-of-sister-augusta
+bookmarkOf: https://danacea.substack.com/p/celebrating-six-years-of-sister-augusta
 visibility: public
 ---
 

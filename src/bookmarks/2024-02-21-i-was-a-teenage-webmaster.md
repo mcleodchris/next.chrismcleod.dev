@@ -1,7 +1,7 @@
 ---
 date: 2024-02-21T22:09:28.016Z
 title: I Was a Teenage Webmaster
-bookmark-of: https://mikegrindle.com/posts/web-master
+bookmarkOf: https://mikegrindle.com/posts/web-master
 visibility: public
 ---
 

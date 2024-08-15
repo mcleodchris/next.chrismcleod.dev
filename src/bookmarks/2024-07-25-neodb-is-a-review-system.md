@@ -1,7 +1,7 @@
 ---
 date: 2024-07-25T10:44:54.365Z
 title: NeoDB is a Review System for Culture
-bookmark-of: https://wedistribute.org/2024/07/neodb-review-culture/
+bookmarkOf: https://wedistribute.org/2024/07/neodb-review-culture/
 visibility: public
 ---
 

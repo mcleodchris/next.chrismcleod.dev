@@ -1,7 +1,7 @@
 ---
 date: 2024-02-21T09:37:02.213Z
 title: Let's Talk About Stochastic Terrorism
-bookmark-of: https://www.readtpa.com/p/lets-talk-about-stochastic-terrorism
+bookmarkOf: https://www.readtpa.com/p/lets-talk-about-stochastic-terrorism
 visibility: public
 ---
 

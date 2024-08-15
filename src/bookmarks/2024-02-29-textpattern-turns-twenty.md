@@ -1,7 +1,7 @@
 ---
 date: 2024-02-29T21:05:37.138Z
 title: Textpattern turns twenty
-bookmark-of: https://textpattern.com/weblog/textpattern-turns-twenty
+bookmarkOf: https://textpattern.com/weblog/textpattern-turns-twenty
 visibility: public
 ---
 

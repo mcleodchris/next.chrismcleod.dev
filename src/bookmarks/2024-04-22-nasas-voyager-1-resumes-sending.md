@@ -1,7 +1,7 @@
 ---
 date: 2024-04-22T20:14:05.222Z
 title: NASA’s Voyager 1 Resumes Sending Engineering Updates to Earth
-bookmark-of: https://blogs.nasa.gov/voyager/2024/04/22/nasas-voyager-1-resumes-sending-engineering-updates-to-earth/
+bookmarkOf: https://blogs.nasa.gov/voyager/2024/04/22/nasas-voyager-1-resumes-sending-engineering-updates-to-earth/
 visibility: public
 ---
 

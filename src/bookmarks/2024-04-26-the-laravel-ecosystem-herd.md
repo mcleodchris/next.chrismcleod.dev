@@ -1,7 +1,7 @@
 ---
 date: 2024-04-26T06:02:11.502Z
 title: The Laravel Ecosystem - Herd
-bookmark-of: https://www.youtube.com/watch?v=lu7oFYVc5p4
+bookmarkOf: https://www.youtube.com/watch?v=lu7oFYVc5p4
 visibility: public
 ---
 
