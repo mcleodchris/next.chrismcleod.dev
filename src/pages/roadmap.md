@@ -17,7 +17,7 @@ This page is an aspirational list of all the things I want to do to improve this
 - ✅ Expand bookmarks into a link blog
 - ✅ Add dedicated [/about](/about/) page
 - ✅ Migrate Webmentions to EchoFeed
-- 🔲 Update Indiekit configuration to match site
+- ✅ Update Indiekit configuration to match site
 - 🔲 Self-host book/reading data (migrate from Micro.blog)
 - 🔲 Improve miniature painting data (pictures, feeds)
 - 🔲 Migrate to Eleventy v3
