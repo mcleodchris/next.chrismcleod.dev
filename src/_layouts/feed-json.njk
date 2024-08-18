@@ -21,6 +21,7 @@
         "url": "{{ post.url | stripIndex | absoluteUrl(meta.url)}}",
         "content_html": {{ post.templateContent | dump | safe }},
         "summary": "{{ post.data.excerpt }}",
+        "image": {% if post.data.image %}"{{ post.data.image | url }}"{% else %}null{% endif %}
         {% if post.data.layout === 'bookmark' %}
         "external_url": "{{ post.data.bookmarkOf | url }}",
         "authors": [
@@ -35,8 +36,7 @@
             "text": {{ { "externalLink": post.data.layout === 'bookmark', "season": post.data.season, "platform": post.data.platform, "layout": post.data.layout, "type": post.data.type, "title": post.data.title, "author": post.data.author, "link": post.data['bookmarkOf'], "content": post.data.content, "permalink": post.url | stripIndex } | makeTootText | dump | safe }},
             
             "tags": {% if filteredTags %}{{ filteredTags | dump | safe }}{% else %}[]{% endif %},
-            "opengraph": "{{ post.url | getOpengraphUrl }}",
-            "image": {% if post.data.image %}"{{ post.data.image | url }}"{% else %}null{% endif %}
+            "opengraph": "{{ post.url | getOpengraphUrl }}"
         },
         "date_published": "{{ post.date | dateForFeed }}",
         "tags": {% if filteredTags %}{{ filteredTags | dump | safe }}{% else %}[]{% endif %}
