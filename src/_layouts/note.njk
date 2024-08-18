@@ -22,6 +22,11 @@ permalink: "/notes/{{date | formatDate('YYYYMMDDHHmm')}}/index.html"
       </aside>
     {% endif %}
     <div class="post-meta"><a href="{{url | url}}" class="u-url">🔗</a> {% include "partials/date.njk" -%} by <a class="p-author h-card" href="{{ meta.authorWebsite }}">{{ meta.author }}</a></div>
+    {% if page.data.image %}
+    <div class="flow prose">
+      {% image page.data.image, image.data.imageAlt, "(min-width: 55rem) 820px, 100vw", "u-photo" %}
+    </div>
+    {% endif %}
     <div class="e-content | flow prose">
       {{ content | safe }}
     </div>
