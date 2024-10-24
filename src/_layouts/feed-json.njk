@@ -21,7 +21,7 @@
         "url": "{{ post.url | stripIndex | absoluteUrl(meta.url)}}",
         "content_html": {{ post.templateContent | dump | safe }},
         "summary": "{{ post.data.excerpt }}",
-        "image": {% if post.data.image %}"{{ post.data.image | url }}"{% else %}null{% endif %},
+        "image": {% if post.data.image %}"{{ post.data.image | url }}"{% else %}""{% endif %},
         {% if post.data.layout === 'bookmark' %}
         "external_url": "{{ post.data.bookmarkOf | url }}",
         "authors": [
