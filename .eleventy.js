@@ -39,7 +39,7 @@ const {
   filterTagsFromFeeds
 } = require('./config/filters/index.js');
 
-const indiewebFilters = require('./config/filters/indieweb.js');
+const posseFilters = require('./config/filters/posse.js');
 
 // module import shortcodes
 const {
@@ -124,8 +124,8 @@ module.exports = eleventyConfig => {
   eleventyConfig.addNunjucksFilter('getKeyedPostData', function (varName, post) {
     return post.data[varName];
   });
-  Object.keys(indiewebFilters).forEach(filterName => {
-    eleventyConfig.addFilter(filterName, indiewebFilters[filterName]);
+  Object.keys(posseFilters).forEach(filterName => {
+    eleventyConfig.addFilter(filterName, posseFilters[filterName]);
   });
 
   // 	--------------------- Custom shortcodes ---------------------
