@@ -28,7 +28,10 @@ module.exports = async function () {
     });
 
     // Parse the JSON response (an array of items)
-    const data  = await response.json();
+    const data = await response.json();
+    if (!Array.isArray(data)) {
+        return [];
+    }
 
     // Reduce the array of items into an object where each key is a year and the value is an array of items completed in that year
     const items = data.reduce((acc, item) => {

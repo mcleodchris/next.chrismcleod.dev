@@ -49,6 +49,11 @@ module.exports = async function () {
 
   console.info('Fetching character data');
 
+  if (!warcraft.clientId || !warcraft.clientSecret) {
+    console.error('Environment variables for clientId or clientSecret are not set');
+    return [];
+  }
+
   const token = await getToken();
 
   for (const character of characters) {
