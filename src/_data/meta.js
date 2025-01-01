@@ -89,44 +89,44 @@ module.exports = {
     api_base: 'https://mage.chrismcleod.dev',
     token: process.env.MAGE_API_TOKEN
   },
-  warcraft: {
-    api_base: 'https://eu.api.blizzard.com',
-    region: 'eu',
-    namespace: 'profile-eu',
-    locale: 'en_GB',
-    clientId: process.env.BLIZZARD_CLIENT_ID,
-    clientSecret: process.env.BLIZZARD_CLIENT_SECRET,
-    characters: [
-      {
-        name: 'reinias',
-        realm: 'dragonblight'
-      },
-      {
-        name: 'faerlune',
-        realm: 'dragonblight'
-      },
-      {
-        name: 'shaasvre',
-        realm: 'dragonblight'
-      },
-      {
-        name: 'faerilina',
-        realm: 'dragonblight'
-      },
-      {
-        name: 'faerlorna',
-        realm: 'dragonblight'
-      },
-      {
-        name: 'faerelune',
-        realm: 'dragonblight'
-      },
-      {
-        name: 'faerefel',
-        realm: 'dragonblight'
-      }
-    ]
-  },
+  // warcraft: {
+  //   api_base: 'https://eu.api.blizzard.com',
+  //   region: 'eu',
+  //   namespace: 'profile-eu',
+  //   locale: 'en_GB',
+  //   clientId: process.env.BLIZZARD_CLIENT_ID,
+  //   clientSecret: process.env.BLIZZARD_CLIENT_SECRET,
+  //   characters: [
+  //     {
+  //       name: 'reinias',
+  //       realm: 'dragonblight'
+  //     },
+  //     {
+  //       name: 'faerlune',
+  //       realm: 'dragonblight'
+  //     },
+  //     {
+  //       name: 'shaasvre',
+  //       realm: 'dragonblight'
+  //     },
+  //     {
+  //       name: 'faerilina',
+  //       realm: 'dragonblight'
+  //     },
+  //     {
+  //       name: 'faerlorna',
+  //       realm: 'dragonblight'
+  //     },
+  //     {
+  //       name: 'faerelune',
+  //       realm: 'dragonblight'
+  //     },
+  //     {
+  //       name: 'faerefel',
+  //       realm: 'dragonblight'
+  //     }
+  //   ]
+  // },
   indieweb: {
     avatar: 'https://assets.chrism.cloud/chrismcleod.dev/assets/resized/06_1280-320.jpeg'
   }
