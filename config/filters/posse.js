@@ -33,7 +33,7 @@ module.exports = {
             if (getLength(allText) <= maxLength - permalink.length - 1) {
                 return `${allText}`;
             }
-            return `${allText.slice(0, maxLength - permalink.length - 6)}…\n\n📌 ${permalink}`;
+            return `${allText.slice(0, maxLength - permalink.length - 13)}…\n\n📌 ${permalink}`;
         }
 
         const mastoUsername = author?.mastodon ? `${new URL(author.mastodon).pathname.replace('/', '')}@${new URL(author.mastodon).host}` : null;
@@ -48,7 +48,7 @@ module.exports = {
         } else if (getLength(contentWithFirstQuote) <= maxLength) {
             return contentWithFirstQuote;
         } else {
-            const trimmedQuote = firstQuote.slice(0, maxLength - baseContent.length - permalink.length - 7);
+            const trimmedQuote = firstQuote.slice(0, maxLength - baseContent.length - permalink.length - 14);
             return `${baseContent}\n\n${trimmedQuote}…"\n\n📌 ${permalink}`;
         }
     },
