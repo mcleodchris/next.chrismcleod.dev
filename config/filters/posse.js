@@ -7,7 +7,7 @@ const meta = require('../../src/_data/meta');
 
 module.exports = {
     // Function to generate text for a Mastodon toot based on a post
-    makeTootText: (post) => {
+    makeTootText: (post, maxLength = 500) => {
         const permalink = `${meta.url}${post.permalink}`;
         const { layout, title, content: postContent, author, link } = post;
 
@@ -26,12 +26,14 @@ module.exports = {
             allText = allText.replace(text, `> "${text}"`);
         });
 
+        const getLength = (text) => maxLength === 500 ? mastodonCount.getMastodonLength(text).length : text.length;
+
         // If the layout is 'note', check the length and truncate if necessary
         if (layout === 'note') {
-            if (mastodonCount.getMastodonLength(allText).length <= 476) {
-                return allText;
+            if (getLength(allText) <= maxLength - permalink.length - 1) {
+                return `${allText}`;
             }
-            return `${allText.slice(0, 476)}... ${permalink}`;
+            return `${allText.slice(0, maxLength - permalink.length - 6)}…\n\n📌 ${permalink}`;
         }
 
         const mastoUsername = author?.mastodon ? `${new URL(author.mastodon).pathname.replace('/', '')}@${new URL(author.mastodon).host}` : null;
@@ -41,12 +43,14 @@ module.exports = {
         const contentWithFirstQuote = `${baseContent}\n\n${firstQuote}`;
 
         // Return the appropriate content based on length constraints
-        if (mastodonCount.getMastodonLength(contentWithAllText).length <= 500) {
+        if (getLength(contentWithAllText) <= maxLength) {
             return contentWithAllText;
-        } else if (mastodonCount.getMastodonLength(contentWithFirstQuote).length <= 500) {
+        } else if (getLength(contentWithFirstQuote) <= maxLength) {
             return contentWithFirstQuote;
+        } else {
+            const trimmedQuote = firstQuote.slice(0, maxLength - baseContent.length - permalink.length - 7);
+            return `${baseContent}\n\n${trimmedQuote}…"\n\n📌 ${permalink}`;
         }
-        return baseContent;
     },
 
     // Function to get the title for Open Graph metadata
