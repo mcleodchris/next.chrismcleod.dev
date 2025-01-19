@@ -44,12 +44,12 @@ async function fetchAndMergeData(key, data, token) {
 }
 
 module.exports = async function () {
-  const characters = warcraft.characters;
+  const characters = warcraft?.characters;
   const characterData = [];
 
   console.info('Fetching character data');
 
-  if (!warcraft.clientId || !warcraft.clientSecret) {
+  if (!warcraft?.clientId || !warcraft?.clientSecret) {
     console.error('Environment variables for clientId or clientSecret are not set');
     return [];
   }
