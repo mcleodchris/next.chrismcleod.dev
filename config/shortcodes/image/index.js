@@ -22,14 +22,15 @@ const imageShortcodePlaceholder = async (
   caption,
   sizes = '(min-width: 55rem) 820px, 100vw',
   classes = '',
-  lazy = true
+  lazy = true,
+  imgWidths = "320,570,820"
 ) => {
   if (!alt) {
     throw new Error(`Missing \`alt\` on myImage from: ${src}`);
   }
 
   let staticData = {};
-  let widths = [320, 570, 820];
+  let widths = imgWidths.split(',').map((width) => parseInt(width));
   let formats = ['avif', 'webp', 'jpeg'];
 
   // TODO: This should be a configuration variable somewhere

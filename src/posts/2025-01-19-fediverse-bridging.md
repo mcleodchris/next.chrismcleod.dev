@@ -25,7 +25,7 @@ Things you'll need, if you want to do this for your own accounts:
 
 This is the really easy bit: follow the account `@bsky.brid.gy@bsky.brid.gy` from the fediverse account you want to bridge. After a few seconds you should receive a private mention/DM from the account letting you know the bridge account has been created on Bluesky.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/71432c05-ff6b-4bbe-bcfb-e5cc4d0410fc.png", "This image is a screenshot of a private mention from “Bridgy Fed for Bluesky,” informing the user that their account will soon be bridged to Bluesky. It includes a URL to the bridged profile and links to documentation and the user page for more information. The message also explains how to disable the bridge by blocking the account." %}
+{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/71432c05-ff6b-4bbe-bcfb-e5cc4d0410fc.png", "This image is a screenshot of a private mention from “Bridgy Fed for Bluesky,” informing the user that their account will soon be bridged to Bluesky. It includes a URL to the bridged profile and links to documentation and the user page for more information. The message also explains how to disable the bridge by blocking the account.", "", "(min-width: 55rem) 820px, 100vw", true, "320,570" %}
 
 You'll see by default the account handle is something like `your-username.your-fedi-server.com.ap.brid.gy`, which is a bit long-winded! Don't worry, in the following steps we'll fix that.
 
@@ -74,8 +74,10 @@ username masto.chrismcleod.social
 
 That's it! After a few seconds, Bridgy will reply to let you know it's been a success.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/6234d3af-ae6c-470b-a19d-c716eb71adfb.png", "This image is a screenshot of a private mention conversation between Chris M. (@chrisplusplus) and “Bridgy Fed for Bluesky.” Chris M. requests to set their username to “masto.chrismcleod.social.” Bridgy Fed responds confirming that the username in Bluesky has been set to “masto.chrismcleod.social” and notes that it should appear soon." %}
+{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/6234d3af-ae6c-470b-a19d-c716eb71adfb.png", "This image is a screenshot of a private mention conversation between Chris M. (@chrisplusplus) and “Bridgy Fed for Bluesky.” Chris M. requests to set their username to “masto.chrismcleod.social.” Bridgy Fed responds confirming that the username in Bluesky has been set to “masto.chrismcleod.social” and notes that it should appear soon.", "", "(min-width: 55rem) 820px, 100vw", true, "320,570" %}
 
 And sure enough, after a few moments you should be able to see the update reflected on the Bluesky interface:
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/07328152-d534-4ba3-85b8-2f1b93a06e28.png", "This image is a screenshot of a user profile for “Chris M.” on Bluesky. The username “@masto.chrismcleod.social” is highlighted. The profile includes a description: “Online since before some of you were born. Tired. Lead Software Developer, but I’m not allowed to talk about it. He/him/his. Scotland.” It also mentions that the account is bridged from “social.lol/@chrisplusplus” on the Fediverse by “fed.brid.gy.” The profile shows 1 follower, 0 following, and 5 posts. A “Bridgy User” badge is visible." %}
+{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/07328152-d534-4ba3-85b8-2f1b93a06e28.png", "This image is a screenshot of a user profile for “Chris M.” on Bluesky. The username “@masto.chrismcleod.social” is highlighted. The profile includes a description: “Online since before some of you were born. Tired. Lead Software Developer, but I’m not allowed to talk about it. He/him/his. Scotland.” It also mentions that the account is bridged from “social.lol/@chrisplusplus” on the Fediverse by “fed.brid.gy.” The profile shows 1 follower, 0 following, and 5 posts. A “Bridgy User” badge is visible.", "", "(min-width: 55rem) 820px, 100vw", true, "320,570" %}
+
+Hopefully this short guide helps you get your own bridged accounts setup with easier to use custom handles.
