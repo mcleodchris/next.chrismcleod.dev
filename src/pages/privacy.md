@@ -12,9 +12,15 @@ I respect the EU General Data Protection Regulation (GDPR) and this policy docum
 **What background data is collected?**
 ~~This site does not use any third party tracking scripts.~~
 
-Recently I added [Tinylytics](https://tinylytics.app/) to the site, so I can have a rough understanding of reader numbers. Tinylytics bill themselves as a GDPR-compliant, "privacy first" solution. You can review the [Tinylytics privacy policy here](https://tinylytics.app/privacy).
+Recently I added self-hosted [Umami](https://umami.is/) stats to the site, so I can have a rough understanding of reader numbers and where traffic is being referred from. You can [read the Umami FAQ here](https://umami.is/docs#frequently-asked-questions).
 
-In terms of what this actually means: when you visit a page on this site, I see a number linked to that page increase by 1. I do not see who you are or where you came from, though Tinylytics may register which country your IP address is associated with.
+In terms of what this actually means: when you visit a page on this site, I see a number linked to that page increase by 1. I do not see who you are or any personally identifiable information about you, though I can see:
+
+- what country + city your IP is associated with. This is linked more to your ISP (which I cannot see details of) than to you.
+- what browser/OS/class of device you used. e.g., Chrome on an Android mobile device.
+- when you visited (date and time)
+
+Cookies are not used, and I absolutely cannot track you across the internet.
 
 **How do I use the data you provide?**
 This website does not collect any data.
