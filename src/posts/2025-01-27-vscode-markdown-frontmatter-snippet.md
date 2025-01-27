@@ -8,7 +8,7 @@ tags:
   - eleventy
 ---
 
-I can't believe it's taken me this long to setup, but I _finally_ added a snippet to VSCode for inserting Frontmatter into a Markdown file - handy for e.g, adding a new post to an [Eleventy(https://11ty.dev)]-powered blog.
+I can't believe it's taken me this long to setup, but I _finally_ added a snippet to VSCode for inserting Frontmatter into a Markdown file - handy for e.g, adding a new post to an [Eleventy](https://11ty.dev)-powered blog.
 
 To add a snippet, press `Ctrl-Shift-P` or `F1`, then select "Configure Snippetts". Decide where you want to create the snippit - it can be at the project-level, language-level, or global. I chose language, so selected Markdown. Next, define your snippet in the JSON file. For me, this was:
 
