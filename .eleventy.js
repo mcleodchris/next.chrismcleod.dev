@@ -72,7 +72,6 @@ const {slugifyString} = require('./config/utils');
 const {escape} = require('lodash');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const inclusiveLangPlugin = require('@11ty/eleventy-plugin-inclusive-language');
-const bundlerPlugin = require('@11ty/eleventy-plugin-bundle');
 const postGraph = require('@rknightuk/eleventy-plugin-post-graph');
 
 module.exports = eleventyConfig => {
@@ -164,7 +163,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(inclusiveLangPlugin, {
     words: 'simply,obviously,basically,of course,clearly,everyone knows'
   });
-  eleventyConfig.addPlugin(bundlerPlugin);
+//  eleventyConfig.addPlugin(bundlerPlugin);
   eleventyConfig.addPlugin(postGraph);
 
   // 	--------------------- Passthrough File Copy -----------------------
