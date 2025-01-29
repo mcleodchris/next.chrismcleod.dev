@@ -24,18 +24,11 @@
         "image": {% if post.data.image %}"{{ post.data.image | url }}"{% else %}""{% endif %},
         {% if post.data.layout === 'bookmark' %}
         "external_url": "{{ post.data.bookmarkOf | url }}",
-        "authors": [
-            {
-                "name": {% if post.data.author.name %}"{{ post.data.author.name }}",{% else %}null,{% endif %}
-                "url": {% if post.data.author.web %}"{{ post.data.author.web }}",{% else %}null,{% endif %}
-                "mastodon": {% if post.data.author.mastodon %}"{{ post.data.author.mastodon }}",{% else %}null,{% endif %}
-                "rss": {% if post.data.author.feed %}"{{ post.data.author.feed }}"{% else %}null{% endif %}
-            }
-        ],{% endif %}
+        {% endif %}
         "_posse": {
-            "masto_text": {{ { "externalLink": post.data.layout === 'bookmark', "season": post.data.season, "platform": post.data.platform, "layout": post.data.layout, "type": post.data.type, "title": post.data.title, "author": post.data.author, "link": post.data['bookmarkOf'], "content": post.data.content, "permalink": post.url | stripIndex } | makeTootText | dump | safe }},
+            "masto_text": {{ { "externalLink": post.data.layout === 'bookmark', "layout": post.data.layout, "type": post.data.type, "title": post.data.title, "author": post.data.author, "bookmark": post.data.bookmarkOf, "content": post.templateContent, "permalink": post.url | stripIndex } | makeTootText | dump | safe }},
 
-            "bsky_text": {{ { "externalLink": post.data.layout === 'bookmark', "season": post.data.season, "platform": post.data.platform, "layout": post.data.layout, "type": post.data.type, "title": post.data.title, "author": post.data.author, "link": post.data['bookmarkOf'], "content": post.data.content, "permalink": post.url | stripIndex } | makeTootText(295) | dump | safe }},
+            "bsky_text": {{ { "externalLink": post.data.layout === 'bookmark', "layout": post.data.layout, "type": post.data.type, "title": post.data.title, "author": post.data.author, "bookmark": post.data.bookmarkOf, "content": post.templateContent, "permalink": post.url | stripIndex } | makeBlueskyText | dump | safe }},
             
             "tags": {% if filteredTags %}{{ filteredTags | dump | safe }}{% else %}[]{% endif %},
             "opengraph": "{{ post.url | getOpengraphUrl }}"

@@ -66,7 +66,6 @@ const {svgToJpeg} = require('./config/events/index.js');
 
 // plugins
 const markdownLib = require('./config/plugins/markdown.js');
-const {EleventyRenderPlugin} = require('@11ty/eleventy');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const {slugifyString} = require('./config/utils');
 const {escape} = require('lodash');
@@ -74,7 +73,8 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 const inclusiveLangPlugin = require('@11ty/eleventy-plugin-inclusive-language');
 const postGraph = require('@rknightuk/eleventy-plugin-post-graph');
 
-module.exports = eleventyConfig => {
+module.exports = async eleventyConfig => {
+  const { RenderPlugin } = await import("@11ty/eleventy");
   // 	--------------------- Custom Watch Targets -----------------------
   eleventyConfig.addWatchTarget('./src/assets');
   eleventyConfig.addWatchTarget('./utils/*.js');
@@ -156,7 +156,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.on('afterBuild', svgToJpeg);
 
   // 	--------------------- Plugins ---------------------
-  eleventyConfig.addPlugin(EleventyRenderPlugin);
+  eleventyConfig.addPlugin(RenderPlugin);
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.setLibrary('md', markdownLib);
   eleventyConfig.addPlugin(pluginRss);
