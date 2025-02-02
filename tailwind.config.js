@@ -4,6 +4,8 @@ const plugin = require('tailwindcss/plugin');
 const postcss = require('postcss');
 const postcssJs = require('postcss-js');
 
+const catppuccin = require("@catppuccin/tailwindcss")
+
 const clampGenerator = require('./src/assets/css-utils/clamp-generator.js');
 const tokensToTailwind = require('./src/assets/css-utils/tokens-to-tailwind.js');
 
@@ -68,6 +70,10 @@ module.exports = {
     preflight: false
   },
   plugins: [
+    catppuccin({
+      prefix: "cat",
+      defaultFlavour: "latte"
+    }),
     // Generates custom property values from tailwind config
     plugin(function ({addComponents, config}) {
       let result = '';
@@ -121,6 +127,6 @@ module.exports = {
           });
         });
       });
-    })
+    }),
   ]
 };

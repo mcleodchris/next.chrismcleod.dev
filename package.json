@@ -34,6 +34,7 @@
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
     "@11ty/eleventy-plugin-rss": "^2.0.3",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@catppuccin/tailwindcss": "^0.1.6",
     "@rknightuk/eleventy-plugin-post-graph": "^1.0.8",
     "@toycode/markdown-it-class": "^1.2.4",
     "autoprefixer": "^10.4.20",

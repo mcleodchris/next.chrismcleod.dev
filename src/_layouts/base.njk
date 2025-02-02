@@ -39,7 +39,7 @@
     {% include "partials/meta-info.njk" %}
 		<script defer src="https://ping.chrismcleod.dev/script.js" data-website-id="0bdce112-ba27-405d-b227-627311328c20"></script>
   </head>
-  <body {%if hcard -%} class="h-card"{% endif %}>
+  <body class="dark:macchiato latte {%if hcard -%} h-card{% endif %} bg-base text-text antialiased">
     <!-- header -->
     {% include "partials/header.njk" %}
     <!-- content slot -->

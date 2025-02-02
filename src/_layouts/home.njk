@@ -2,14 +2,10 @@
 layout: base
 ---
 
-<header class="section spot-color-primary">
-  {% include 'svg/divider-waves-inverse.svg' %}
-  <div class="section__inner">
+<header class="section">
     <div class="wrapper flow region">
       <h1 class="text-center">{{ title }}</h1>
     </div>
-  </div>
-  {% include 'svg/divider-waves.svg' %}
 </header>
 <article class="region page">
   <div class="wrapper flow prose">
@@ -25,10 +21,10 @@ layout: base
     {% endif %}
   </div>
   <!-- TODO: duplicate of partials/blog.njk -->
-  <ul class="wrapper grid mt-l-xl h-feed" role="list" data-rows="masonry" data-layout="50-50">
+  <ul class="wrapper flow prose mt-l-xl h-feed" role="list" >
     {% set postslist = collections.posts %}
     {% for post in postslist.slice(0, 4) %}
-      <li class="card flow overflow-hidden h-entry">
+      <li class="overflow-hidden h-entry">
         <h3>
           <a href="{{ post.url | url }}" class="u-url u-title">{{ post.data.title }}</a>
         </h3>

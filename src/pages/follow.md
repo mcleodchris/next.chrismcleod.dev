@@ -1,13 +1,11 @@
 ---
-title: Follow
+title: Follow this Blog
 permalink: /follow/index.html
 description: All the ways you can follow me online
 layout: page
 ---
 
-## Follow this Blog
-
-I post a growing range of differnt "things" on this site. While there is no "all in one" feed (yet), you can follow each of the differnt post types through one of these feeds:
+I post a growing range of different "things" on this site. While there is no "all in one" feed (yet), you can follow each of the differnt post types through one of these feeds:
 
 | Post Type         | RSS feed            | JSON feed             | Atom feed             |
 |-------------------|---------------------|-----------------------|-----------------------|

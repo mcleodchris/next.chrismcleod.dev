@@ -9,8 +9,8 @@ blog:
 hcard: true
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/2023/07/06_1280.png", "a computer-generated illustration of Chris McLeod", "","(min-width: 55rem) 820px, 100vw","rounded-full u-photo", 0 %}
-
-<p class="p-note">I’m a software developer with over 20 years of work experience, but I’ve been experimenting with technology and programming since I received my very first Commodore 64 in 1989. I’ve done everything from front-line IT support in small companies, through to leading development teams on key projects for industry and government.</p>
-
-You can find out a bit more on the [/about](/about/) page.
+<div class="grid grid--image-text">
+      {% image "https://assets.chrism.cloud/chrismcleod.dev/2023/07/06_1280.png", "a computer-generated illustration of Chris McLeod", "","","rounded-full u-photo", 0 %}
+    <p class="p-note text">I’m a software developer with over 20 years of work experience, but I’ve been experimenting with technology and programming since I received my very first Commodore 64 in 1989. I’ve done everything from front-line IT support in small companies, through to leading development teams on key projects for industry and government.</p>
+    <p class="text">You can find out a bit more on the <a href="/about/">/about</a> page.</p>
+</div>

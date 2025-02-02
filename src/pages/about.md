@@ -1,11 +1,9 @@
 ---
-title: About
+title: Just what the Dickens is this all about?
 permalink: /about/index.html
 description: About this starter
 layout: page
 ---
-
-## Just what the Dickens is this all about?
 
 <p class="p-note">I’m a software developer with over 20 years of work experience, but I’ve been experimenting with technology and programming since I received my very first Commodore 64 in 1989. I’ve done everything from front-line IT support in small companies, through to leading development teams on key projects for industry and government.</p>
 
