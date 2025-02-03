@@ -1,5 +1,38 @@
 /* Global variables */
 :root {
+
+  /* Colours */
+  --color-base: var(--color-latte-base);
+  --color-text: var(--color-latte-text);
+  --color-pink: var(--color-latte-pink);
+  --color-teal: var(--color-latte-teal);
+  --color-lavender: var(--color-latte-lavender);
+  --color-blue: var(--color-latte-blue);
+  --color-green: var(--color-latte-green);
+  --color-sky: var(--color-latte-sky);
+  --color-red: var(--color-latte-red);
+  --color-yellow: var(--color-latte-yellow);
+  --color-overlay0: var(--color-latte-overlay0);
+  --color-overlay1: var(--color-latte-overlay1);
+  --color-overlay2: var(--color-latte-overlay2);
+  --color-surface0: var(--color-latte-surface0);
+  --color-surface1: var(--color-latte-surface1);
+  --color-surface2: var(--color-latte-surface2);
+  --color-crust: var(--color-latte-crust);
+  --color-mantle: var(--color-latte-mantle);
+  --color-subtext1: var(--color-latte-subtext1);
+  --color-subtext2: var(--color-latte-subtext2);
+  --color-peach: var(--color-latte-peach);
+  --color-mauve: var(--color-latte-mauve);
+  --color-flamingo: var(--color-latte-flamingo);
+  --color-rosewater: var(--color-latte-rosewater);
+  --color-maroon: var(--color-latte-maroon);
+  --color-sapphire: var(--color-latte-sapphire);
+
+  --epg-box: var(--color-surface0);
+  --epg-box-highlight: var(--color-green);
+
+
   --gutter: var(--space-s-m);
   --border-radius: 0.5rem;
   --transition-base: 250ms ease;
@@ -8,13 +41,13 @@
   --transition-bounce: 500ms cubic-bezier(0.5, 0.05, 0.2, 1.5);
   --tracking: -0.05ch;
   --tracking-s: -0.075ch;
-  --color-bg: var(--color-light);
-  --color-fg: var(--color-dark);
+  --color-bg: var(--color-base);
+  --color-fg: var(--color-text);
   --sparkle: conic-gradient(
-    var(--color-primary) 0 33%,
-    var(--color-secondary) 0 55%,
-    var(--color-inverse-primary) 0 70%,
-    var(--color-inverse-secondary) 0 87%,
-    var(--color-secondary-glare) 0 100%
+    var(--color-pink) 0 33%,
+    var(--color-teal) 0 55%,
+    var(--color-lavender) 0 70%,
+    var(--color-blue) 0 87%,
+    var(--color-green) 0 100%
   );
 }

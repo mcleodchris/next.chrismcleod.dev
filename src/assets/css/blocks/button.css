@@ -1,8 +1,11 @@
 /* A blank block because there is *always* a button */
 .button {
-  color: var(--button-text, var(--color-fg));
-  background-color: var(--button-bg, var(--color-bg));
-  border: 2px solid var(--button-border, var(--color-fg));
+  --button-text: var(--button-text, var(--color-pink));
+  --button-bg: var(--button-bg, var(--color-bg));
+  --button-border: var(--button-border, var(--color-pink));
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border: 2px solid var(--button-border);
   border-radius: var(--border-radius);
   display: inline-block;
   font: inherit;
@@ -15,9 +18,78 @@
 }
 
 .button:hover, .button[aria-current="page"] {
+  --button-text: var(--button-bg, var(--color-bg));
+  --button-bg: var(--button-text, var(--color-pink));
+  --button-border: var(--button-border, var(--color-pink));
+}
+.button:nth-of-type(7n+1) {
+  --button-text: var(--color-red);
+  --button-border: var(--color-red);
+}
+
+.button:nth-of-type(7n+1):hover {
   --button-text: var(--color-bg);
-  --button-bg: var(--color-fg);
-  --button-border: var(--color-fg);
+  --button-bg: var(--color-red);
+}
+
+.button:nth-of-type(7n+2) {
+  --button-text: var(--color-peach);
+  --button-border: var(--color-peach);
+}
+
+.button:nth-of-type(7n+2):hover {
+  --button-text: var(--color-bg);
+  --button-bg: var(--color-peach);
+}
+
+.button:nth-of-type(7n+3) {
+  --button-text: var(--color-yellow);
+  --button-border: var(--color-yellow);
+}
+
+.button:nth-of-type(7n+3):hover {
+  --button-text: var(--color-bg);
+  --button-bg: var(--color-yellow);
+}
+
+.button:nth-of-type(7n+4) {
+  --button-border: var(--color-green);
+  --button-text: var(--color-green);
+}
+
+.button:nth-of-type(7n+4):hover {
+  --button-text: var(--color-bg);
+  --button-bg: var(--color-green);
+}
+
+.button:nth-of-type(7n+5) {
+  --button-text: var(--color-sky);
+  --button-border: var(--color-sky);
+}
+
+.button:nth-of-type(7n+5):hover {
+  --button-text: var(--color-bg);
+  --button-bg: var(--color-sky);
+}
+
+.button:nth-of-type(7n+6) {
+  --button-text: var(--color-lavender);
+  --button-border: var(--color-lavender);
+}
+
+.button:nth-of-type(7n+6):hover {
+  --button-text: var(--color-bg);
+  --button-bg: var(--color-lavender);
+}
+
+.button:nth-of-type(7n+7) {
+  --button-text: var(--color-mauve);
+  --button-border: var(--color-mauve);
+}
+
+.button:nth-of-type(7n+7):hover {
+  --button-text: var(--color-bg);
+  --button-bg: var(--color-mauve);
 }
 
 /* Gallery images are wrapped in a button */

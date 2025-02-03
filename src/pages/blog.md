@@ -1,6 +1,6 @@
 ---
-title: Blog
-description: 'All blog posts can be found here'
+title: Blog Posts
+description: 'The reverse-chronological list of all blog posts'
 layout: blog
 pagination:
   data: collections.posts

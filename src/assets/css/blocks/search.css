@@ -5,7 +5,7 @@
     --pagefind-ui-text: var(--color-fg);
     --pagefind-ui-background: var(--color-bg);
     --pagefind-ui-border: var(--color-fg);
-    --pagefind-ui-tag: var(--color-primary);
+    --pagefind-ui-tag: var(--color-pink);
     --pagefind-ui-border-width: 2px;
     --pagefind-ui-border-radius: var(--border-radius);
     --pagefind-ui-image-border-radius: var(--border-radius);
@@ -13,7 +13,7 @@
     --pagefind-ui-font: var(--font-base);
 }
 .pagefind-ui__result {
-    --pagefind-ui-border: #eeeeee;
+    --pagefind-ui-border: var(--color-overlay1);
   }
 .pagefind-ui__button {
     --pagefind-ui-primary: var(--color-fg);
@@ -26,5 +26,11 @@
 }
 
 .pagefind-ui__search-input:focus-visible {
-  outline: 2px solid var(--color-primary);
+  outline: 2px solid var(--color-pink);
+}
+
+.pagefind-ui--reset .pagefind-ui__result-excerpt mark {
+  background-color: transparent;
+  color: var(--color-red);
+  font-weight: 700;
 }

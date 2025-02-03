@@ -12,10 +12,11 @@
 }
 .prose .heading-anchor {
   text-decoration: none;
+  color: var(--color-mauve)
 }
 
 .prose mark {
-  background: var(--color-primary-glare);
+  background: var(--color-yellow);
 }
 
 .prose :not(.grid) li + li {

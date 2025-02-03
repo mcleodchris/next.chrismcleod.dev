@@ -7,8 +7,9 @@
   letter-spacing: var(--tracking-s);
   padding: var(--space-xs) 0;
   font-size: var(--size-step-1);
+  color: var(--color-text)
 }
 .logo svg {
-  fill: var(--color-primary);
+  fill: var(--color-red);
   block-size: var(--size-step-0);
 }

@@ -70,10 +70,6 @@ module.exports = {
     preflight: false
   },
   plugins: [
-    catppuccin({
-      prefix: "cat",
-      defaultFlavour: "latte"
-    }),
     // Generates custom property values from tailwind config
     plugin(function ({addComponents, config}) {
       let result = '';

@@ -26,8 +26,8 @@
 footer.coffee {
   --flow-space: var(--space-s-m);
   font-size: var(--size-step-1);
-  background-color: var(--color-fg);
-  color: var(--color-bg);
+  background-color: var(--color-surface2);
+  color: var(--color-text);
   padding: var(--space-m-l);
   border-radius: var(--border-radius);
   max-inline-size: unset;

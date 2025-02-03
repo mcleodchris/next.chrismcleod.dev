@@ -1,0 +1,10 @@
+.h-feed h2 {
+  font-size: var(--size-step-3);
+}
+.h-feed h2 a {
+  text-decoration: none;
+}
+.h-feed time {
+    font-size: var(--size-step-0);
+    color: var(--color-subtext1)
+}

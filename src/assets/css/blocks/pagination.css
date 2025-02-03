@@ -7,7 +7,7 @@
 }
 
 .pagination li {
-  border: 3px solid var(--color-dark);
+  border: 3px solid var(--color-pink);
   border-radius: var(--border-radius);
 }
 
@@ -17,13 +17,17 @@
 }
 
 .pagination a {
-  text-decoration: none;
-}
-
-.pagination a {
   padding: var(--space-xs) var(--space-s-m);
   text-decoration: none;
   display: block;
+  color: var(--color-pink);
+}
+.pagination a:is(:hover, :focus) {
+  border-color: var(--color-red);
+  color: var(--color-red);
+}
+.pagination a[aria-current='page'] {
+  color: var(--color-mantle);
 }
 
 .pagination li:not(:has(a)) {
@@ -32,6 +36,6 @@
 }
 
 .pagination li:has(a[aria-current='page']) {
-  background-color: #333;
-  color: #fff;
+  background-color: var(--color-pink);
+  color: var(--color-mantle);
 }

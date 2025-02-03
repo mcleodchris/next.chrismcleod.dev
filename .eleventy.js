@@ -74,7 +74,7 @@ const inclusiveLangPlugin = require('@11ty/eleventy-plugin-inclusive-language');
 const postGraph = require('@rknightuk/eleventy-plugin-post-graph');
 
 module.exports = async eleventyConfig => {
-  const { RenderPlugin } = await import("@11ty/eleventy");
+  const {RenderPlugin} = await import('@11ty/eleventy');
   // 	--------------------- Custom Watch Targets -----------------------
   eleventyConfig.addWatchTarget('./src/assets');
   eleventyConfig.addWatchTarget('./utils/*.js');
@@ -163,8 +163,10 @@ module.exports = async eleventyConfig => {
   eleventyConfig.addPlugin(inclusiveLangPlugin, {
     words: 'simply,obviously,basically,of course,clearly,everyone knows'
   });
-//  eleventyConfig.addPlugin(bundlerPlugin);
-  eleventyConfig.addPlugin(postGraph);
+  //  eleventyConfig.addPlugin(bundlerPlugin);
+  eleventyConfig.addPlugin(postGraph, {
+    noStyles: true
+  });
 
   // 	--------------------- Passthrough File Copy -----------------------
   // same path

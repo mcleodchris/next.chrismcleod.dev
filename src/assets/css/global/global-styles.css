@@ -48,7 +48,7 @@ h3 {
 }
 
 blockquote {
-  border-inline-start: 0.8rem solid var(--color-primary);
+  border-inline-start: 0.8rem solid var(--color-pink);
   padding: var(--space-m-l);
   font-size: var(--size-step-2);
 }
@@ -76,7 +76,7 @@ svg {
 /* Base interactive elements */
 
 a {
-  color: currentcolor;
+  color: var(--color-blue);
 }
 
 a:hover {
@@ -113,8 +113,8 @@ article [href^='http']:not([href*='chrismcleod.dev'])::after {
 
 /* Base selection styles that invert whatever colours are rendered */
 ::selection {
-  background: var(--color-primary);
-  color: var(--color-bg);
+  background: var(--color-overlay0);
+  /* color: var(--color-bg); */
 }
 
 .preload-transitions * {

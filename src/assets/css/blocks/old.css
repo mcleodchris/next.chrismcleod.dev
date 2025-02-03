@@ -1,6 +1,6 @@
 .old{
-    background: var(--color-fg);
-    color: var(--color-bg);
+    background: var(--color-surface1);
+    color: var(--color-text);
     padding: var(--space-m-l);
     border-radius: var(--border-radius);
 }
