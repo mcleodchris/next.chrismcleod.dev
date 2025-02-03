@@ -61,6 +61,214 @@
     {
       "name": "Inverse Secondary Glare",
       "value": "#8a25ff"
+    },
+    {
+        "name": "latte-rosewater",
+        "value": "#dc8a78"
+    },
+    {
+        "name": "latte-flamingo",
+        "value": "#dd7878"
+    },
+    {
+        "name": "latte-pink",
+        "value": "#ea76cb"
+    },
+    {
+        "name": "latte-mauve",
+        "value": "#8839ef"
+    },
+    {
+        "name": "latte-red",
+        "value": "#d20f39"
+    },
+    {
+        "name": "latte-maroon",
+        "value": "#e64553"
+    },
+    {
+        "name": "latte-peach",
+        "value": "#fe640b"
+    },
+    {
+        "name": "latte-yellow",
+        "value": "#df8e1d"
+    },
+    {
+        "name": "latte-green",
+        "value": "#40a02b"
+    },
+    {
+        "name": "latte-teal",
+        "value": "#179299"
+    },
+    {
+        "name": "latte-sky",
+        "value": "#04a5e5"
+    },
+    {
+        "name": "latte-sapphire",
+        "value": "#209fb5"
+    },
+    {
+        "name": "latte-blue",
+        "value": "#1e66f5"
+    },
+    {
+        "name": "latte-lavender",
+        "value": "#7287fd"
+    },
+    {
+        "name": "latte-text",
+        "value": "#4c4f69"
+    },
+    {
+        "name": "latte-subtext1",
+        "value": "#5c5f77"
+    },
+    {
+        "name": "latte-subtext0",
+        "value": "#6c6f85"
+    },
+    {
+        "name": "latte-overlay2",
+        "value": "#7c7f93"
+    },
+    {
+        "name": "latte-overlay1",
+        "value": "#8c8fa1"
+    },
+    {
+        "name": "latte-overlay0",
+        "value": "#9ca0b0"
+    },
+    {
+        "name": "latte-surface2",
+        "value": "#acb0be"
+    },
+    {
+        "name": "latte-surface1",
+        "value": "#bcc0cc"
+    },
+    {
+        "name": "latte-surface0",
+        "value": "#ccd0da"
+    },
+    {
+        "name": "latte-base",
+        "value": "#eff1f5"
+    },
+    {
+        "name": "latte-mantle",
+        "value": "#e6e9ef"
+    },
+    {
+        "name": "latte-crust",
+        "value": "#dce0e8"
+    },
+    {
+        "name": "machiatto-rosewater",
+        "value": "#f4dbd6"
+    },
+    {
+        "name": "machiatto-flamingo",
+        "value": "#f0c6c6"
+    },
+    {
+        "name": "machiatto-pink",
+        "value": "#f5bde6"
+    },
+    {
+        "name": "machiatto-mauve",
+        "value": "#c6a0f6"
+    },
+    {
+        "name": "machiatto-red",
+        "value": "#ed8796"
+    },
+    {
+        "name": "machiatto-maroon",
+        "value": "#ee99a0"
+    },
+    {
+        "name": "machiatto-peach",
+        "value": "#f5a97f"
+    },
+    {
+        "name": "machiatto-yellow",
+        "value": "#eed49f"
+    },
+    {
+        "name": "machiatto-green",
+        "value": "#a6da95"
+    },
+    {
+        "name": "machiatto-teal",
+        "value": "#8bd5ca"
+    },
+    {
+        "name": "machiatto-sky",
+        "value": "#91d7e3"
+    },
+    {
+        "name": "machiatto-sapphire",
+        "value": "#7dc4e4"
+    },
+    {
+        "name": "machiatto-blue",
+        "value": "#8aadf4"
+    },
+    {
+        "name": "machiatto-lavender",
+        "value": "#b7bdf8"
+    },
+    {
+        "name": "machiatto-text",
+        "value": "#cad3f5"
+    },
+    {
+        "name": "machiatto-subtext1",
+        "value": "#b8c0e0"
+    },
+    {
+        "name": "machiatto-subtext0",
+        "value": "#a5adcb"
+    },
+    {
+        "name": "machiatto-overlay2",
+        "value": "#939ab7"
+    },
+    {
+        "name": "machiatto-overlay1",
+        "value": "#8087a2"
+    },
+    {
+        "name": "machiatto-overlay0",
+        "value": "#6e738d"
+    },
+    {
+        "name": "machiatto-surface2",
+        "value": "#5b6078"
+    },
+    {
+        "name": "machiatto-surface1",
+        "value": "#494d64"
+    },
+    {
+        "name": "machiatto-surface0",
+        "value": "#363a4f"
+    },
+    {
+        "name": "machiatto-base",
+        "value": "#24273a"
+    },
+    {
+        "name": "machiatto-mantle",
+        "value": "#1e2030"
+    },
+    {
+        "name": "machiatto-crust",
+        "value": "#181926"
     }
   ]
 }
