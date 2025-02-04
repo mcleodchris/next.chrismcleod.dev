@@ -27,12 +27,28 @@ layout: base
     <h2>Tags <small>({{collections.tagList.length}} unique tags)</small></h2>
     <p>Tags are used to label posts and group them together. Click on a tag to see all posts with that tag.</p>
     {% for tag in collections.tagList %}
+      {% if loop.index <= 10 %}
         {% if collections[tag].length > 0 %}
         <a href="/tags/{{ tag }}" class="button">
         {{ tag }} 
         ({{ collections[tag].length }} post{% if collections[tag].length > 1 %}s{% endif %})
         </a>
         {% endif %}
+      {% else %}
+        {% if loop.index == 11 %}
+        <details class="prose flow">
+          <summary>More Tags</summary>
+        {% endif %}
+        {% if collections[tag].length > 0 %}
+        <a href="/tags/{{ tag }}" class="button">
+        {{ tag }} 
+        ({{ collections[tag].length }} post{% if collections[tag].length > 1 %}s{% endif %})
+        </a>
+        {% endif %}
+        {% if loop.index == collections.tagList.length %}
+        </details>
+        {% endif %}
+      {% endif %}
     {% endfor %}
     <h2>Post Graphs</h2>
     {% postGraph collections.graph %}

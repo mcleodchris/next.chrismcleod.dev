@@ -10,9 +10,9 @@
 .prose .heading-anchor:is(:hover, :focus) {
   text-decoration: underline;
 }
-.prose .heading-anchor {
+.prose .heading-anchor, .prose .heading-anchor:visited {
   text-decoration: none;
-  color: var(--color-mauve)
+  color: var(--color-green)
 }
 
 .prose mark {

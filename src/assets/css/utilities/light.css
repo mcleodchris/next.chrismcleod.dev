@@ -1,0 +1,32 @@
+/* Light mode overrides to colours as required  */
+@media (prefers-color-scheme: light) {
+    :root {
+     /* Colours */
+     --color-base: var(--color-machiatto-base);
+     --color-text: var(--color-machiatto-text);
+     --color-pink: var(--color-machiatto-pink);
+     --color-teal: var(--color-machiatto-teal);
+     --color-lavender: var(--color-machiatto-lavender);
+     --color-blue: var(--color-machiatto-blue);
+     --color-green: var(--color-machiatto-green);
+     --color-sky: var(--color-machiatto-sky);
+     --color-red: var(--color-machiatto-red);
+     --color-yellow: var(--color-machiatto-yellow);
+     --color-overlay0: var(--color-machiatto-overlay0);
+     --color-overlay1: var(--color-machiatto-overlay1);
+     --color-overlay2: var(--color-machiatto-overlay2);
+     --color-surface0: var(--color-machiatto-surface0);
+     --color-surface1: var(--color-machiatto-surface1);
+     --color-surface2: var(--color-machiatto-surface2);
+     --color-crust: var(--color-machiatto-crust);
+     --color-mantle: var(--color-machiatto-mantle);
+     --color-subtext1: var(--color-machiatto-subtext1);
+     --color-subtext2: var(--color-machiatto-subtext2);
+     --color-peach: var(--color-machiatto-peach);
+     --color-mauve: var(--color-machiatto-mauve);
+     --color-flamingo: var(--color-machiatto-flamingo);
+     --color-rosewater: var(--color-machiatto-rosewater);
+     --color-maroon: var(--color-machiatto-maroon);
+     --color-sapphire: var(--color-machiatto-sapphire);
+   }
+}

@@ -165,7 +165,8 @@ module.exports = async eleventyConfig => {
   });
   //  eleventyConfig.addPlugin(bundlerPlugin);
   eleventyConfig.addPlugin(postGraph, {
-    noStyles: true
+    noStyles: true,
+    sort: 'desc'
   });
 
   // 	--------------------- Passthrough File Copy -----------------------

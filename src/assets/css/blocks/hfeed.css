@@ -1,7 +1,7 @@
 .h-feed h2 {
   font-size: var(--size-step-3);
 }
-.h-feed h2 a {
+.h-feed h2 a, .h-feed h3 a {
   text-decoration: none;
 }
 .h-feed time {

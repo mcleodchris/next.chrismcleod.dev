@@ -17,10 +17,12 @@
 
 .blog .post-meta {
   font-size: var(--size-step-0);
+  color: var(--color-subtext2);
 }
 
-.blog .post-meta a.u-url {
+.blog .post-meta a, .blog .post-meta a:visited {
   text-decoration: none;
+  color: var(--color-subtext2);
 }
 
 footer.coffee {
