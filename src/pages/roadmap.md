@@ -20,9 +20,9 @@ This page is an aspirational list of all the things I want to do to improve this
 - ✅ Update Indiekit configuration to match site
 - 🔲 Self-host book/reading data (migrate from Micro.blog)
 - 🔲 Improve miniature painting data (pictures, feeds)
-- 🔲 Migrate to Eleventy v3
+- ✅ Migrate to Eleventy v3
 - 🔲 Add "Universal Timeline" of all site content on one page (a la social media feed)
-- 🔲 NEW DESIGN
+- ✅ NEW DESIGN
 - 🔲 Display World of Warcraft character profiles
 - 🔲 Add Blogroll page
 - 🔲 Add blogroll OPML
