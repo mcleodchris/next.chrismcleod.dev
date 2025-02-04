@@ -3,7 +3,18 @@
   name="description"
   content=" {% if seo.description %} {{ seo.description }} {% elif description %} {{ description }} {% else %} {{
     meta.siteDescription }} {% endif %} ">
-<meta name="theme-color" content="{{ meta.themeColor }}">
+    {% set darkTheme = designTokens.colors.items | where('name', 'machiatto-base') %}
+<meta
+  name="theme-color"
+  content="{{ darkTheme[0].value }}"
+  media="(prefers-color-scheme: dark)"
+/>
+{% set lightTheme = designTokens.colors.items | where('name', 'latte-base') %}
+<meta
+  name="theme-color"
+  content="{{ lightTheme[0].value }}"
+  media="(prefers-color-scheme: light)"
+/>
 <meta
 name="robots" content="index,follow"> <!-- All Search Engines -->
 <meta name="color-scheme" content="dark light">

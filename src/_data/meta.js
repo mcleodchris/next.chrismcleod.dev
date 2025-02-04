@@ -132,7 +132,7 @@ module.exports = {
   },
   themeSwitch: {
     title: 'Theme',
-    light: 'light',
-    dark: 'dark'
+    light: 'latte',
+    dark: 'machiatto'
   }
 };

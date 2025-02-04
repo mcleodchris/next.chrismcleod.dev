@@ -2,11 +2,25 @@
     font-size: var(--size-step-min-1);
     font-family: var(--font-base);
   }
+
+  .theme-switch .button {
+    font-size: var(--size-step-min-1);
+    --button-bg: var(--color-base);
+    --button-text: var(--color-text);
+    --button-border: var(--color-text);
+  }
+  .theme-switch .button:hover {
+    --_color-contrast: var(--color-pink);
+    --button-bg: var(--_color-contrast);
+    --button-text: var(--color-mantle);
+    --button-border: var(--_color-contrast);
+    outline-color: transparent;
+  }
   
   .theme-switch .button[aria-pressed='true'] {
-    --_color-contrast: var(--color-tertiary);
+    --_color-contrast: var(--color-pink);
     --button-bg: var(--_color-contrast);
-    --button-color: var(--color-dark);
-    --button-border-color: var(--_color-contrast);
-    outline-color: var(--_color-contrast);
+    --button-text: var(--color-mantle);
+    --button-border: var(--_color-contrast);
+    outline-color: transparent;
   }

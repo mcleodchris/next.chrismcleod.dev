@@ -1,6 +1,8 @@
 /* Global variables */
 :root {
 
+  color-scheme: dark light;
+
   /* Colours */
   --color-base: var(--color-machiatto-base);
   --color-text: var(--color-machiatto-text);
