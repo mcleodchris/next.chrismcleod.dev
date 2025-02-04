@@ -38,7 +38,7 @@ Apart from travelling to an island for the first time so you can unlock a synchr
 
 One other, minor, gripe is the resource cost of upgrading gear between levels, particularly if you focus on a particular "build". Right now I have focussed heavily on Assassination damage, with additional fast adrenaline build-up/regeneration. This has been super fun to play, as it fits my usual RPG play style… but I'm stuck with several pieces of equipment that are several levels below me, as I haven't been lucky enough to come across anything at my current level that isn't a relatively big stats downgrade for this build, or would force me into a different build.
 
-So far I haven't obviously suffered in game because of this, but I suspect at some point I will hit a wall where progression will slow and I'm forced to hunt out new gear or grind for materials to upgrade. You can dismantle unwanted gear for some resources, but it's rarely enough, and having some spare specialised gear for certain tasks can be useful - the best example I can think of is "X% damage bonus against <faction>" gear for when going into a conquest battle.
+So far I haven't obviously suffered in game because of this, but I suspect at some point I will hit a wall where progression will slow and I'm forced to hunt out new gear or grind for materials to upgrade. You can dismantle unwanted gear for some resources, but it's rarely enough, and having some spare specialised gear for certain tasks can be useful - the best example I can think of is "X% damage bonus against {faction}" gear for when going into a conquest battle.
 
 {% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/img_0972.jpg", "img_0972" %}
 

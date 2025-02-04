@@ -18,16 +18,18 @@ layout: base
 </article>
 <article class="wrapper region">
     {% set category = "" %}
+    {% set outputList = false %}
     {% for feed in collections.subscriptions %}
         {% if feed.data.category != category %}
             {% set category = feed.data.category %}
             {% if category != "" %}</ul>{% endif %}
             <h2>{{ category }}</h2>
             <ul>
+            {% set outputList = true %}
         {% endif %}
         <li><a href="{{ feed.data.site_url | url }}">{{ feed.data.title }}</a> ({{ feed.data.domain}})
             {%if feed.content %}<p>{{ feed.content | safe }}</p>{% endif %}
         </li>
     {% endfor %}
-    </ul>
+    {% if category == true %}</ul>{% endif %}
 </article>

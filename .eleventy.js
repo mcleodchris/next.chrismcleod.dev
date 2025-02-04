@@ -13,6 +13,7 @@
  *  @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig
  */
 require('dotenv').config();
+const prettier = require('prettier');
 
 // get package.json
 const packageVersion = require('./package.json').version;
@@ -178,6 +179,22 @@ module.exports = async eleventyConfig => {
   // social icons to root directory
   eleventyConfig.addPassthroughCopy({
     'src/assets/images/favicon/*': '/'
+  });
+
+  //  --------------------- transform -----------------------
+  eleventyConfig.addTransform('prettier', function (content) {
+    if ((this.page.outputPath || '').endsWith('.html')) {
+      let prettified = prettier.format(content, {
+        bracketSameLine: false,
+        printWidth: 100,
+        parser: 'html',
+        tabWidth: 2
+      });
+      return prettified;
+    }
+
+    // If not an HTML output, return content as-is
+    return content;
   });
 
   // 	--------------------- general config -----------------------

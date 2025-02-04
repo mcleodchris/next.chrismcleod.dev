@@ -19,10 +19,10 @@
     </title>
 
     <link
-    rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}"> <!-- preloads -->
-    <link rel="preload" href="/assets/fonts/duo/iAWriterDuoS-Regular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/assets/fonts/duo/iAWriterDuoS-Bold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/assets/fonts/quattro/iAWriterQuattroS-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" > <!-- preloads -->
+    <link rel="preload" href="/assets/fonts/duo/iAWriterDuoS-Regular.woff2" as="font" type="font/woff2" crossorigin >
+    <link rel="preload" href="/assets/fonts/duo/iAWriterDuoS-Bold.woff2" as="font" type="font/woff2" crossorigin >
+    <link rel="preload" href="/assets/fonts/quattro/iAWriterQuattroS-Bold.woff2" as="font" type="font/woff2" crossorigin >
     {# <link rel="preload" href="/assets/fonts/inter/inter-v7-latin-500.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/inter/inter-v7-latin-700.woff2" as="font" type="font/woff2" crossorigin>
     <link
@@ -34,7 +34,7 @@
     <!-- preloads in page data -->
     {% if preloads -%}
       <!-- prettier-ignore -->
-      <link rel="preload" href="{{ preloads.href }}" as="{{ preloads.as }}" {% if preloads.type %} type={{ preloads.type }} {% endif %} {% if preloads.imagesrcset %} imagesrcset="{{ preloads.imagesrcset }}" {% endif %} {% if preloads.crossorigin %} crossorigin {% endif %}>
+      <link rel="preload" href="{{ preloads.href }}" as="{{ preloads.as }}" {% if preloads.type %} type="{{ preloads.type }}" {% endif %} {% if preloads.imagesrcset %} imagesrcset="{{ preloads.imagesrcset }}" {% endif %} {% if preloads.crossorigin %} crossorigin {% endif %} >
     {% endif %}
     <!-- defered js  -->
     <script type="module" src="/assets/scripts/app.js?{{ assetHash }}" defer></script>

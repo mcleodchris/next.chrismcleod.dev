@@ -60,6 +60,7 @@
     "postcss-import": "^16.1.0",
     "postcss-import-ext-glob": "^2.1.1",
     "postcss-js": "^4.0.1",
+    "prettier": "^3.4.2",
     "rimraf": "^6.0.1",
     "sanitize-html": "^2.14.0",
     "slugify": "^1.6.6",

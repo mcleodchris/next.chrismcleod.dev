@@ -40,4 +40,3 @@ I'm not a big social media guy these days, but I do keep a couple of accounts ac
 [gh]: {{meta.meta_data.githubProfile}}
 [bsky]: {{meta.meta_data.blueskyProfile}}
 
-{% include '../_layouts/footer.njk' %}
