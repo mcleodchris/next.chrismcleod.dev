@@ -1,6 +1,12 @@
-.old{
-    background: var(--color-surface1);
-    color: var(--color-text);
+.old {
+    background: var(--color-yellow);
+    color: var(--color-base);
     padding: var(--space-m-l);
     border-radius: var(--border-radius);
+    font-size: var(--size-step-0);
+}
+
+.old > * {
+    margin-left: auto;
+    margin-right: auto;
 }
