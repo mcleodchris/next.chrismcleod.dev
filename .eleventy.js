@@ -197,6 +197,8 @@ module.exports = async eleventyConfig => {
     return content;
   });
 
+  eleventyConfig.addBundle("js");
+
   // 	--------------------- general config -----------------------
   return {
     // Pre-process *.md, *.html and global data files files with: (default: `liquid`)

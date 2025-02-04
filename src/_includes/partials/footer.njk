@@ -11,6 +11,9 @@
           <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
         {% endfor %}
       </nav>
+
+      
+
       <nav id="social" class="site-foot__inner" aria-label="Social links">
         {% for item in social %}
           {% if item.platform == "rss" %}
@@ -23,7 +26,9 @@
             </a>
           {% endfor %}
         </nav>
+
       </div>
+      {% include 'partials/theme-switch.njk' %}
     </div>
     <!-- lang menu -->
   </footer>
