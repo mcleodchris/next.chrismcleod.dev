@@ -1,9 +1,10 @@
 .grid--image-text {
   display: grid;
   gap: var(--gutter, var(--space-s-l));
-  background: var(--color-surface0);
+  background: var(--color-crust);
   padding: var(--gutter, var(--space-s-l));
   border-radius: var(--border-radius);
+  border: 2px solid var(--color-text);
 }
 
 @media (min-width: 768px) {

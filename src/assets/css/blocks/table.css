@@ -1,22 +1,36 @@
 table {
-  border: 1px solid rgb(from var(--color-fg) r g b / 0.2);
+  border: 1px solid var(--color-surface1);
   font-size: var(--size-step-1);
   margin-top: var(--space-xl);
   max-inline-size: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  border-radius: 0.5rem;
+  border-radius: var(--border-radius);
+  margin-left: auto;
+  margin-right: auto;
 }
 thead tr {
-  background: rgb(from var(--color-fg) r g b / 0.07);
-  border-bottom: 1px solid rgb(from var(--color-fg) r g b / 0.2);
+  background: var(--color-surface0);
+  border-bottom: var(--color-surface1);
 }
 td, th {
   padding: 0.2rem 0.5rem;
 }
 tr:nth-child(even) {
-  background: rgb(from var(--color-fg) r g b / 0.03);
+  background: var(--color-surface0);
 }
 td:nth-child(2) {
   font-weight: 700;
+}
+thead tr th:first-child {
+  border-top-left-radius: var(--border-radius);
+}
+thead tr th:last-child {
+  border-top-right-radius: var(--border-radius);
+}
+tbody tr:last-child td:first-child {
+  border-bottom-left-radius: var(--border-radius);
+}
+tbody tr:last-child td:last-child {
+  border-bottom-right-radius: var(--border-radius);
 }

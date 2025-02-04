@@ -73,16 +73,47 @@ nav.navbar a {
   text-decoration-thickness: 3px;
   text-underline-offset: 0.3em;
 }
+/* Ignore visited styling for navbar links */
+nav.navbar a:visited {
+  color: var(--text-color);
+  text-decoration-color: var(--border-color, transparent);
+}
 
 /* Change the border-color on :hover and :focus */
 nav.navbar a:where(:hover, :focus) {
   --border-color: var(--text-color);
 }
 
-/* Change border-color and color for the active page */
+/* Change border-color for the active page */
 nav.navbar [aria-current='page'], nav.navbar [data-state='active'] {
-  --border-color: var(--color-pink);
-  --text-color: var(--color-pink);
+  --border-color: var(--text-color);
+}
+nav.navbar li:nth-of-type(7n+1) a {
+  --text-color: var(--color-red);
+}
+
+nav.navbar li:nth-of-type(7n+2) a {
+  --text-color: var(--color-peach);
+}
+
+nav.navbar li:nth-of-type(7n+3) a {
+  --text-color: var(--color-yellow);
+}
+
+nav.navbar li:nth-of-type(7n+4) a {
+  --text-color: var(--color-green);
+}
+
+nav.navbar li:nth-of-type(7n+5) a {
+  --text-color: var(--color-sky);
+}
+
+nav.navbar li:nth-of-type(7n+6) a {
+  --text-color: var(--color-lavender);
+}
+
+nav.navbar li:nth-of-type(7n+7) a {
+  --text-color: var(--color-mauve);
 }
 
 /* Reset button styling */

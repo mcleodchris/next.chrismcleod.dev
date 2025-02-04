@@ -7,12 +7,12 @@ layout: base
       <h1 class="text-center">{{ title }}</h1>
     </div>
 </header>
-<article class="region page">
+<article class="region page" style="--region-space-top: var(--space-m)">
   <div class="wrapper flow prose">
     {{ content | safe }}
   </div>
 </article>
-<article class="region" style="--region-space-top: var(--space-s)">
+<article class="region" style="--region-space-top: var(--space-m)">
   <div class="wrapper flow prose">
     <h2>{{ blog.title }}</h2>
     <!-- blog intro text is optional. -->

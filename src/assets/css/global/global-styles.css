@@ -75,15 +75,15 @@ svg {
 
 /* Base interactive elements */
 
-a {
+a:not(.button) {
   color: var(--color-blue);
 }
 
-a:visited {
+a:visited:not(.button) {
   color: var(--color-lavender);
 }
 
-a:hover {
+a:hover:not(.button) {
   text-decoration: none;
 }
 

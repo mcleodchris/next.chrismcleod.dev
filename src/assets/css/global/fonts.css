@@ -36,3 +36,91 @@
       format('woff2'),
     url(/assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff) format('woff');
 }
+
+@font-face {
+  font-family: 'Quattro';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(''), url(/assets/fonts/quattro/iAWriterQuattroS-Regular.woff2) format('woff2'),
+    url(/assets/fonts/quattro/iAWriterQuattroS-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Quattro';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local(''), url(/assets/fonts/quattro/iAWriterQuattroS-Italic.woff2) format('woff2'),
+    url(/assets/fonts/quattro/iAWriterQuattroS-Italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Quattro';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local(''), url(/assets/fonts/quattro/iAWriterQuattroS-Bold.woff2) format('woff2'),
+    url(/assets/fonts/quattro/iAWriterQuattroS-Bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Quattro';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local(''), url(/assets/fonts/quattro/iAWriterQuattroS-BoldItalic.woff2) format('woff2'),
+    url(/assets/fonts/quattro/iAWriterQuattroS-BoldItalic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'CascadiaCode';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(''), url(/assets/fonts/cascadia/CascadiaCode.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'CascadiaCode';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local(''), url(/assets/fonts/cascadia/CascadiaCodeItalic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Duo';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(''), url(/assets/fonts/duo/iAWriterDuoS-Regular.woff2) format('woff2'),
+    url(/assets/fonts/duo/iAWriterDuoS-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Duo';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local(''), url(/assets/fonts/duo/iAWriterDuoS-Italic.woff2) format('woff2'),
+    url(/assets/fonts/duo/iAWriterDuoS-Italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Duo';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local(''), url(/assets/fonts/duo/iAWriterDuoS-Bold.woff2) format('woff2'),
+    url(/assets/fonts/duo/iAWriterDuoS-Bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Duo';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local(''), url(/assets/fonts/duo/iAWriterDuoS-BoldItalic.woff2) format('woff2'),
+    url(/assets/fonts/duo/iAWriterDuoS-BoldItalic.woff) format('woff');
+}

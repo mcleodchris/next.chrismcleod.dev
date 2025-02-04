@@ -5,17 +5,17 @@
     {
       "name": "Display",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["Redhat", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"]
+      "value": ["Quattro", "Redhat", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"]
     },
     {
       "name": "Base",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["Inter", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"]
+      "value": ["Duo","Inter", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"]
     },
     {
       "name": "Mono",
       "description": "Expressive sections, like quotes",
-      "value": ["RobotoMono", "monospace"]
+      "value": ["CascadiaCode", "RobotoMono", "monospace"]
     }
   ]
 }
