@@ -2,31 +2,31 @@
 @media (prefers-color-scheme: light) {
     :root {
      /* Colours */
-     --color-base: var(--color-machiatto-base);
-     --color-text: var(--color-machiatto-text);
-     --color-pink: var(--color-machiatto-pink);
-     --color-teal: var(--color-machiatto-teal);
-     --color-lavender: var(--color-machiatto-lavender);
-     --color-blue: var(--color-machiatto-blue);
-     --color-green: var(--color-machiatto-green);
-     --color-sky: var(--color-machiatto-sky);
-     --color-red: var(--color-machiatto-red);
-     --color-yellow: var(--color-machiatto-yellow);
-     --color-overlay0: var(--color-machiatto-overlay0);
-     --color-overlay1: var(--color-machiatto-overlay1);
-     --color-overlay2: var(--color-machiatto-overlay2);
-     --color-surface0: var(--color-machiatto-surface0);
-     --color-surface1: var(--color-machiatto-surface1);
-     --color-surface2: var(--color-machiatto-surface2);
-     --color-crust: var(--color-machiatto-crust);
-     --color-mantle: var(--color-machiatto-mantle);
-     --color-subtext1: var(--color-machiatto-subtext1);
-     --color-subtext2: var(--color-machiatto-subtext2);
-     --color-peach: var(--color-machiatto-peach);
-     --color-mauve: var(--color-machiatto-mauve);
-     --color-flamingo: var(--color-machiatto-flamingo);
-     --color-rosewater: var(--color-machiatto-rosewater);
-     --color-maroon: var(--color-machiatto-maroon);
-     --color-sapphire: var(--color-machiatto-sapphire);
+     --color-base: var(--color-latte-base);
+     --color-text: var(--color-latte-text);
+     --color-pink: var(--color-latte-pink);
+     --color-teal: var(--color-latte-teal);
+     --color-lavender: var(--color-latte-lavender);
+     --color-blue: var(--color-latte-blue);
+     --color-green: var(--color-latte-green);
+     --color-sky: var(--color-latte-sky);
+     --color-red: var(--color-latte-red);
+     --color-yellow: var(--color-latte-yellow);
+     --color-overlay0: var(--color-latte-overlay0);
+     --color-overlay1: var(--color-latte-overlay1);
+     --color-overlay2: var(--color-latte-overlay2);
+     --color-surface0: var(--color-latte-surface0);
+     --color-surface1: var(--color-latte-surface1);
+     --color-surface2: var(--color-latte-surface2);
+     --color-crust: var(--color-latte-crust);
+     --color-mantle: var(--color-latte-mantle);
+     --color-subtext1: var(--color-latte-subtext1);
+     --color-subtext2: var(--color-latte-subtext2);
+     --color-peach: var(--color-latte-peach);
+     --color-mauve: var(--color-latte-mauve);
+     --color-flamingo: var(--color-latte-flamingo);
+     --color-rosewater: var(--color-latte-rosewater);
+     --color-maroon: var(--color-latte-maroon);
+     --color-sapphire: var(--color-latte-sapphire);
    }
 }
