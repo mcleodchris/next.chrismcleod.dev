@@ -160,7 +160,7 @@ title: Mage Tower
       <h1 class="text-center">{{ title }}</h1>
     </div>
 </header>
-<div class="e-content | flow prose">
+<div class="e-content | flow prose" style="--wrapper-max-width: 80rem">
     <form class="wrapper">
         <input type="file" name="file" accept="image/*">
         <button type="submit">Upload</button>
@@ -169,7 +169,7 @@ title: Mage Tower
         <div id="image-list" class="wrapper grid mt-l-xl"
         role="list"
         data-rows="masonry"
-        data-layout="50-50"
-        style="--grid-min-item-size: clamp(16rem, 50vw, 20rem)"></div>
+        data-layout="thirds"
+        ></div>
     </article>
 </div>
