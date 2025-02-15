@@ -21,6 +21,13 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - name: Restore Cache
+        uses: actions/cache@v3
+        with:
+          path: .cache
+          key: ${{ runner.os }}-cache-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-cache-
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
@@ -39,6 +46,11 @@ jobs:
           output_location: "/dist" # Built app content directory - optional
           build_timeout_in_minutes: 25 # Maximum allowed time for build in minutes - optional
           ###### End of Repository/Build Configurations ######
+      - name: Save Cache
+        uses: actions/cache@v2
+        with:
+          path: .cache
+          key: ${{ runner.os }}-cache-${{ hashFiles('**/package-lock.json') }}
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
