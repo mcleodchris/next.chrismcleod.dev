@@ -13,6 +13,10 @@ module.exports = {
       url: '/paintslam/2025/'
     },
     {
+      text: 'Photos',
+      url: 'https://chrismcleod.photos/'
+    },
+    {
       text: 'Follow',
       url: '/follow/'
     },
