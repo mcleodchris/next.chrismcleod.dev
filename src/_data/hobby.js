@@ -36,11 +36,8 @@ module.exports = async function () {
         }
     } catch (error) {
         // Try to return cached data if available, otherwise return empty array
-        if (await asset.isCacheValid("json")) {
-            data = await asset.getCachedValue("json");
-        } else {
-            data = [];
-        }
+        console.error("Error fetching data from the endpoint:", error);
+        data = [];
     }
 
     // Reduce the array of items into an object where each key is a year and the value is an array of items completed in that year
