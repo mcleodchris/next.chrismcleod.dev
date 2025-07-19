@@ -21,7 +21,7 @@ Rumours have been swirling for a few days now, and this morning Games Workshop p
 
 It's the standard, ropey, low-budget GW affair, simply panning across a piece of artwork depicting a Space Marine being fitted into Terminator armour. But at roughly 31 seconds in, for a few fractions of a second, another picture flashes up, showing a Terminator fighting a Genestealer - the classic badguys in Space Hulk.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2014/09/space_hulk.png", "space_hulk" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/09/space_hulk.png", "space_hulk" %}
 
 So it looks like Space Hulk is on its way back. While I'm very happy, my wallet is off crying in the corner!
 
@@ -29,4 +29,4 @@ So it looks like Space Hulk is on its way back. While I'm very happy, my wallet 
 
 Thanks to [Matt on Twitter](https://twitter.com/thefirstautarch) for sending me this other still from ~14 seconds in, which I initially missed:
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2014/09/space_hulk2.jpg", "space_hulk2" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/09/space_hulk2.jpg", "space_hulk2" %}

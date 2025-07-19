@@ -55,7 +55,7 @@ I followed some of the suggestions from [this video](https://www.youtube.com/wat
 
 This was my first time using KDE as my desktop environment, so I was keen to spend some time customising it to my liking. So far I've settled on the "Adapta Breeze Nokto" theme, some additional icons, and played around with the panel + widget setup. It's not fancy, but my desktop currently looks like this:
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/04/Screenshot_20190426_160751.jpg", "Manjaro linux desktop showing the file explorer and terminal applications" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/04/Screenshot_20190426_160751.jpg", "Manjaro linux desktop showing the file explorer and terminal applications" %}
 
 I'm generally a fan of darker themes, as they're less of a strain on my eyes.
 

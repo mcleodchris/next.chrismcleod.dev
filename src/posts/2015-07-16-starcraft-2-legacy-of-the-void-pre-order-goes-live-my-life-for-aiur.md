@@ -11,7 +11,7 @@ authors:
 archived: true
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2015/07/lotv-screenshot-04.jpg", "LotV-Screenshot-04" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/07/lotv-screenshot-04.jpg", "LotV-Screenshot-04" %}
 
 Never, ever pre-order games. That's the general rule, especially given such recent debacles as the PC version of Arkham Knight.
 

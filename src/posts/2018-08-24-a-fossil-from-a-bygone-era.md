@@ -8,7 +8,7 @@ authors:
 archived: true
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/img_0815.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0815.jpg", "alt temporarily text not available" %}
 
 Mum and Dad were having a clear out, and came across this miniature, which is now the only known surviving model I painted back when I was a kid. I _vaguely_ remember painting this, probably some time around 1996/97 as I appear to have base-coated it using the old Ultramarines Blue spray, likely to help Young Me with the white. I must have run out of Chainmail Silver, as all the metals are painted gold, except the sword, which is still blue!
 

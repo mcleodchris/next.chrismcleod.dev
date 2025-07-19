@@ -34,7 +34,7 @@ const imageShortcodePlaceholder = async (
   let formats = ['avif', 'webp', 'jpeg'];
 
   // TODO: This should be a configuration variable somewhere
-  const basePath = 'https://assets.chrism.cloud/chrismcleod.dev/assets/resized';
+  const basePath = 'https://assets.chrismcleod.dev/chrismcleod.dev/assets/resized';
 
   formats.forEach((format) => {
     staticData[format] = [];

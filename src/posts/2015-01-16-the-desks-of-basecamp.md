@@ -15,10 +15,10 @@ I love this [look at the desks/working environments](https://signalvnoise.com/po
 
 Personally, my favourites are Jason Z's (above) and Tom's (below) - they're both just the right mix of modern and clean, but with enough fun and clutter to give some personality. That said, I'm re-evaluating my own work-from-home setup at the moment, so I'll be pinching ideas from all of them!
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2015/01/1757-tom.jpg", "Tom @ Basecamp's Desk" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/01/1757-tom.jpg", "Tom @ Basecamp's Desk" %}
 
 For comparison, here's my current desk setup:
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2015/01/2015-01-16-09-02-15.jpg", "My Desk" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/01/2015-01-16-09-02-15.jpg", "My Desk" %}
 
 [^1]: I still think of them as 37Signals, because it's ingrained in my mind from years of following their growth.

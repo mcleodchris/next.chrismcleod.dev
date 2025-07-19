@@ -17,4 +17,4 @@ The exam itself was fairly standard for this level of certification - 40 multipl
 
 Overall, I'd recommend the exam and learning experience, for no other reason than simply having a verified understanding of the core concepts of SRE. Though obviously, it's far from essential. I'm not sure if SRE is a topic I'm going to go deeper into, but we'll see what next year holds!
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/2023/12/sre_foundation_badge.png", "DevOps Institute Site Reliability Engineering Fundamentals achievement badge" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/2023/12/sre_foundation_badge.png", "DevOps Institute Site Reliability Engineering Fundamentals achievement badge" %}

@@ -11,7 +11,7 @@ tags:
   - miscellaneous
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2015/02/phishing.png", "phishing attempt screenshot" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/02/phishing.png", "phishing attempt screenshot" %}
 
 From the misspelt "From", to the poor grammar and different typography of the phishing "hook" (the "please confirm your account" bit)… it's like they're not even trying anymore. I did notice it's only the sign-in button which is a phishing link; all the others are legitimate Amazon URLs - which is probably how it got past the spam filter.
 

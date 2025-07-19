@@ -19,7 +19,7 @@ I work in the tech industry, I'm fairly conscious about this stuff, and understa
 
 **Upfront**: I fully recognise that if the police/MI5/NSA/FSB/whoever _really_ wanted my data, nothing I could do would be able to stop them.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/security.png", "https://xkcd.com/538/" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/security.png", "https://xkcd.com/538/" %}
 
 **Also upfront**: even with that in mind, whatever I put in place won't be considered "perfect." What I'm looking to do is balance convenience, practicality, and security. If something is too difficult or fiddly to use, it will end up not being used.
 

@@ -16,7 +16,7 @@ archived: true
 
 I have been out of the hobby for a long time. This was made clear to me when I realised the majority of the regular players at the local Games Workshop store weren't even born (or were still in nappies) when I last rolled the dice in anger.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2nd-ed-books-e1356819381603.jpg", "2nd Edition Books" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2nd-ed-books-e1356819381603.jpg", "2nd Edition Books" %}
 
 When I last played properly, Warhammer 40,000: 2nd edition was still the dominant ruleset (3rd had *just* come out when I put down my heavy flamer template). Dark Eldar were brand new. Necrons only had about 3 models in the entire line. Space Marines consisted of: Ultramarines, Blood/Dark Angels, Space Wolves, and _miscellaneous_. Sisters of Battle had their own codex, and it was *good*. Templates were bigger. Wargear came as cards. We needed dice with more than 6 sides. The world - and the game - was a very different place.
 

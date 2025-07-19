@@ -29,7 +29,7 @@ There might come a day when users expect their details, words, and actions could
 
 By all means send and receive webmentions. Even backfeed interactions onto your site. Just be mindful of how you do it and whether displaying all the data you receive is the best thing to do.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/can_vs_should.jpg", "Dr Ian Malcolm in Jurassic park: You were so preoccupied with whether or not you could, you didn’t stop to think if you should" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/can_vs_should.jpg", "Dr Ian Malcolm in Jurassic park: You were so preoccupied with whether or not you could, you didn’t stop to think if you should" %}
 
 ## A quick clarification: I ❤️ Brid.gy
 I wrote my last post pretty quickly and late at night, immediately before going to bed. After a re-read this morning I felt that it occasionally came across as me having a go at Brid.gy. That wasn't my intent; I admire the technical feat of what Brid.gy achieves and could achieve in the future, and I respect that it is an open service helping to link disparate parts of the internet together, for free. My issues really lie with the *consumption* of what Brid.gy provides, rather than Brid.gy itself.

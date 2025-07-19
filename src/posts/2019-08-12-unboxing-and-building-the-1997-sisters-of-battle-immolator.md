@@ -12,76 +12,76 @@ authors:
   - chris
 archived: true
 gallery:
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/950D49FA-82BB-42BF-8932-10195C5DE734.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/950D49FA-82BB-42BF-8932-10195C5DE734.jpeg
     alt: 'Outer box sleeve, featuring product image, branding, and product name in Italian'
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_1993.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_1993.jpeg
     alt: 'Inner box lid featuring imagery off knights fighting lizardmen'
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_1998.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_1998.jpeg
     alt: "A page from the black and white instruction book"
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_1999.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_1999.jpeg
     alt: "A page from the black and white instruction book"
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2001.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2001.jpeg
     alt: "A page from the black and white instruction book"
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2002.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2002.jpeg
     alt: "A page from the black and white instruction book"
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2003.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2003.jpeg
     alt: "A page from the black and white instruction book"
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2004.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2004.jpeg
     alt: "A page from the black and white instruction book"
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2005.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2005.jpeg
     alt: "A page from the black and white instruction book"
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2006.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2006.jpeg
     alt: "A page from the black and white instruction book"
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_1994-e1565554517917.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_1994-e1565554517917.jpeg
     alt: 'plastic sprues inside the box'
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_1995-e1565554527866.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_1995-e1565554527866.jpeg
     alt: 'plastic sprues laid out on a cutting mat'
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_1997.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_1997.jpeg
     alt: 'a blister pack of metal parts'
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2008.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2008.jpeg
     alt: 'a small sheet of waterslide transfer decals'
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2007.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2007.jpeg
     alt: 'a marketing leaflet with information about Games Workshop, other products, and stockists'
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2009.jpg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2009.jpg
     alt: 'Work in progress shot of the main hull glued together'
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2011.jpg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2011.jpg
     alt: 'Work in progress shot of the main hull glued together, from a wider angle'
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2012.jpg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2012.jpg
     alt: 'Work in progress shot of the main hull attached to the 2 track units, and with the handrails attached'
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2016.jpg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2016.jpg
     alt: 'Work in progress shot of the metal parts glued to the plastic hull. The turret assembly is shown with magnets added'
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2017.jpg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2017.jpg
     alt: 'The underside of the model, showing 4 magnets glued into the tank tracks - 2 on each side'
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2014.jpg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2014.jpg
     alt: 'The fully assembled model'
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2020.jpg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2020.jpg
     alt: 'The assembled model, on a wooden board and sprayed with gold primer'
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2023.jpg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2023.jpg
     alt: 'the assembled model next to a more modern Rhino-based model, showing a significant size disparity, with the older model being roughly 30% smaller'
     caption: ''
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/08/IMG_2024.jpeg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2024.jpeg
     alt: 'The model arranged in 3 sub assemblies - hull, turret, and gunner - ready for painting'
     caption: ''
 ---

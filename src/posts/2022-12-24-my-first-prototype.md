@@ -10,11 +10,11 @@ tags:
   - projects
 authors:
   - chris
-image: https://assets.chrism.cloud/chrismcleod.dev/2022/12/img_1488-2.jpg
+image: https://assets.chrismcleod.dev/chrismcleod.dev/2022/12/img_1488-2.jpg
 redirectFrom: ['/2022/12/24/my-first-prototype/']
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/2022/12/img_1488-1.jpg", "A 3D printed prototype of my 'MagPuck' jig for adding magnets beneath wargaming bases. It is a grey plastic block with a recess for a base. At the bottom of the recess is a further recess which holds a 6mm x 2mm magnet. A small area has been carved away at the edge of the base recess to allow for levering the base out" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/2022/12/img_1488-1.jpg", "A 3D printed prototype of my 'MagPuck' jig for adding magnets beneath wargaming bases. It is a grey plastic block with a recess for a base. At the bottom of the recess is a further recess which holds a 6mm x 2mm magnet. A small area has been carved away at the edge of the base recess to allow for levering the base out" %}
 
 One of the things I hoped to do when I bought my FDM 3D printer was to use it to solve small problems I was having. Today I designed and printed my first prototype. It’s not much to look at, but it is just the first iteration!
 

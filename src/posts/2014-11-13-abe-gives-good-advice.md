@@ -11,6 +11,6 @@ authors:
 archived: true
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2014/11/rl9gatt.jpg", "Ask Her Out" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/11/rl9gatt.jpg", "Ask Her Out" %}
 
 I'm glad I did.

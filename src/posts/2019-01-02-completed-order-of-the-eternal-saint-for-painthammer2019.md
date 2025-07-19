@@ -18,10 +18,10 @@ As always, there's loads I'd like to be done better on these (the white robes ma
 
 The Imagifier will be getting her banner as soon as I find the copper foil I bought to make it.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/01/img_1508.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1508.jpg", "alt temporarily text not available" %}
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/01/img_1507.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1507.jpg", "alt temporarily text not available" %}
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/01/img_1506.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1506.jpg", "alt temporarily text not available" %}
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/01/img_1509.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1509.jpg", "alt temporarily text not available" %}

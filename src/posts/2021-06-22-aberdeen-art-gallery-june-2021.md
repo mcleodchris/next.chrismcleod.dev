@@ -8,7 +8,7 @@ tags:
   - gallery
 authors:
   - chris
-image: https://assets.chrism.cloud/chrismcleod.dev/images/img_0509-scaled.jpg
+image: https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0509-scaled.jpg
 redirectFrom: ['/2021/06/22/aberdeen-art-gallery-june-2021/']
 ---
 
@@ -24,24 +24,24 @@ Overall, I was impressed, and I'm sure we'll be scheduling more regular visits i
 
 To the side you'll see a selection of the photos I took throughout our visit. I was consciously trying to avoid experiencing the visit just through the viewfinder, so there's not a huge number of photos, but even though, this is only a small selection of what I could have shared.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0507.jpg", "error: description unavailable" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0507.jpg", "error: description unavailable" %}
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0501.jpg", "error: description unavailable" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0501.jpg", "error: description unavailable" %}
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0509.jpg", "error: description unavailable" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0509.jpg", "error: description unavailable" %}
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0500.jpg", "error: description unavailable" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0500.jpg", "error: description unavailable" %}
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0486.jpg", "error: description unavailable" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0486.jpg", "error: description unavailable" %}
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0510.jpg", "error: description unavailable" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0510.jpg", "error: description unavailable" %}
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0506.jpg", "error: description unavailable" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0506.jpg", "error: description unavailable" %}
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0505.jpg", "error: description unavailable" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0505.jpg", "error: description unavailable" %}
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0508.jpg", "error: description unavailable" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0508.jpg", "error: description unavailable" %}
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0498.jpg", "error: description unavailable" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0498.jpg", "error: description unavailable" %}
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0511.jpg", "error: description unavailable" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0511.jpg", "error: description unavailable" %}

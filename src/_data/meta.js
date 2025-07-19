@@ -128,7 +128,7 @@ module.exports = {
   //   ]
   // },
   indieweb: {
-    avatar: 'https://assets.chrism.cloud/chrismcleod.dev/assets/resized/06_1280-320.jpeg'
+    avatar: 'https://assets.chrismcleod.dev/chrismcleod.dev/assets/resized/06_1280-320.jpeg'
   },
   themeSwitch: {
     title: 'Theme',

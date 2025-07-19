@@ -11,11 +11,11 @@ tags:
   - microsoft
 authors:
   - chris
-image: https://assets.chrism.cloud/chrismcleod.dev/images/microsoft-certified-azure-ai-fundamentals1-1.png
+image: https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-certified-azure-ai-fundamentals1-1.png
 redirectFrom: ['/2021/06/26/microsoft-certified-azure-ai-fundamentals/']
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/images/microsoft-certified-azure-ai-fundamentals1-1.png", "Microsoft Azure AI Fundamentals achievement badge" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-certified-azure-ai-fundamentals1-1.png", "Microsoft Azure AI Fundamentals achievement badge" %}
 
 Now that I'd completed the [data](https://chrismcleod.dev/2021/06/01/microsoft-certified-azure-data-fundamentals/) [side](https://chrismcleod.dev/2021/06/13/microsoft-certified-power-platform-fundamentals/) of Azure, I wanted to try out something I was a little less familiar with; I've not gone near anything Machine Learning or AI-related in my work so far, so I felt getting at least some exposure to these topics wouldn't go amiss. I'm glad I opted to add [Microsoft Certified: Azure AI Fundamentals \[AI-900\]](https://www.credly.com/badges/a4dd4daa-9cb8-4706-bbba-924de3e8eff4/public_url) into the mix of what I'm studying this summer. It was a fun course, and one I fully recommend.
 

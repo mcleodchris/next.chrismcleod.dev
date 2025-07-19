@@ -15,7 +15,7 @@ A friend, who writes the blog "[Being Female…](http://beingfemale34.wordpress.
 
 These are just the straight answers to her questions. I've started writing up a wider PoV post, but it's taking a while, so keep an eye out for it in the future.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2014/05/dating_header.png", "Online Dating. Not for the faint of heart." %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/05/dating_header.png", "Online Dating. Not for the faint of heart." %}
 
 ### 1\. Why did you decide to go with on-line dating as opposed to 'regular' dating?
 

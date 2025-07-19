@@ -12,7 +12,7 @@ authors:
 archived: true
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2012/01/screen-shot-2012-01-15-at-21-49-39.png",  "Screen Shot of my Hosts File" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2012/01/screen-shot-2012-01-15-at-21-49-39.png",  "Screen Shot of my Hosts File" %}
 
 After getting fed-up of not being able to read sites in Reeder on my Mac without getting bombarded with ads I looked around for a good [hosts file](http://en.wikipedia.org/wiki/Hosts_%28file%29) I could use to block the buggers at the network level, rather than rely on plugins such as [AdBlock](http://adblockplus.org/ "Adblock Plus") at the application level.
 

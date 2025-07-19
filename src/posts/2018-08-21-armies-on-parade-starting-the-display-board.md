@@ -22,17 +22,17 @@ I'm not 100% set on which army I'll be taking. Most likely it'll be Space Marine
 
 I ordered 2 custom cut pieces of plywood to serve as my base board. This saved me the hard part of betting my edges straight. I'm only using 1 for now, so the other is on standby, just in case.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/IMG_0805.jpeg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/IMG_0805.jpeg", "alt temporarily text not available" %}
 
 With my base sorted, I needed to figure out a theme, and how I was going to build it. Kill Team is providing the inspiration this year, so I figured the Sector Imperialis look is the perfect place to start. I could also cheat a little bit here. I had a solitary tile from the Sector Imperialis Realm of Battle board lurking at the back of a cupboard, from a previous planned entry. Obviously, it's too big for my diminutive board, but that's why Man invented power tools! I laid the board on top of the tile, where I thought I'd get a good mixtue of details, traced around it with a sharpie, and then set about it with a jigsaw. 5 minutes of cutting with a blade rated for aluminium, and I had a section of the tile roughly cut to size.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/IMG_0803.jpeg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/IMG_0803.jpeg", "alt temporarily text not available" %}
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/IMG_0804-Copy.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/IMG_0804-Copy.jpg", "alt temporarily text not available" %}
 
 Which when laid over the board looks something like this:
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/IMG_0806.jpeg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/IMG_0806.jpeg", "alt temporarily text not available" %}
 
 You might have noticed one of the corners is bare, due to where I cut the tile. That's fine - I'm going to fill it with rubble or something similar, so it won't be noticed once everything is complete.
 

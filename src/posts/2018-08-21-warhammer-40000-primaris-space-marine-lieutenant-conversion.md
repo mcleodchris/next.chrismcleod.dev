@@ -13,7 +13,7 @@ tags:
   - armies-on-parade
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/img_0811.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0811.jpg", "alt temporarily text not available" %}
 
 Continuing from [yesterday's Ancient](/blog/warhammer-40000-primaris-space-marine-ancient-conversion/), I figured that if this ends up becoming my Armies on Parade entry, I'll need an HQ, to give the force a sense of purpose.
 

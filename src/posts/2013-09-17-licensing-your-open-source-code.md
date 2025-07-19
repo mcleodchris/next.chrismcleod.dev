@@ -20,8 +20,8 @@ Unfortunately, this creates a grey-area, which some are naturally uncomfortable 
 
 But licensing is hard, isn't it? All the different types, with different caveats, liabilities, and legal mumbo-jumbo… well, yes, it can be hard. The good folks at GitHub have a solution: [ChooseALicense.com](http://choosealicense.com/) is attempting to demystify open source licenses so you can pick the right one for your project. More than this, when you create a new repository on GitHub, the site will ask if you want to add a template license during the initialisation process:
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2013/09/repo_licenses.png", "repo_licenses" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/09/repo_licenses.png", "repo_licenses" %}
 
 Coming back to the developer who emailed me - I mailed him back to let him know that IIS Express Here is now licensed under [the MIT license](http://choosealicense.com/licenses/mit/). This fits best with how I see the code and projects I share on this blog (unless noted otherwise) - free for anyone else to use, but with no warranty, so if something goes wrong then I'm not liable and it's not my responsibility to fix it. I haven't got around to updating all of my repos with licenses, as I'm evaluating each one in turn, based on my goals and even whether the project is going to archived.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2013/09/choosealicense-com.png", "ChooseALicense.com" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/09/choosealicense-com.png", "ChooseALicense.com" %}

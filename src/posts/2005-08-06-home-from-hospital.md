@@ -29,6 +29,6 @@ I have a heap of other exercises to do at home that the physios gave me. So by t
 
 for those with a morbid fascination for such things, I present the lovely scar that now adorns the side of my head:
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/292_25746608059_3425_n.jpg", "292_25746608059_3425_n" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/292_25746608059_3425_n.jpg", "292_25746608059_3425_n" %}
 
 It gets a bit itchy and uncomfortble at times, but I guess I’m glad it’s there at the end of the day!

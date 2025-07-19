@@ -20,7 +20,7 @@ Obviously, this is the Internet, and specifically, this is the online 40K commun
 
 Sometimes you just can't make this stuff up. Ask for a new edition; get a new edition; complain there's a new edition.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2014/05/2013-10-31-02-41-29-wine-and-cheese.jpg", "Some cheese with your whine?" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/05/2013-10-31-02-41-29-wine-and-cheese.jpg", "Some cheese with your whine?" %}
 
 So what do we know about what's coming? Two main things:
 
@@ -51,7 +51,7 @@ As for tournaments, I imagine they'll be Bound-List-only, perhaps without the bo
 
 In a nutshell, I like this change because it brings so much freedom to the game. I can have a load of fun playing more-or-less what I want, without having to tick boxes on an FOC that's grown to sprawl over an A3 page when printed… if I want to. Or I can have fun playing with a "cohesive" army and reap some in-game benefits for doing so. The choice will be mine to play the game how I want. GW have actually written into the rules what they've been trying to tell us for years: *have fun, playing the game your way.* We won't know for sure until the rulebook hits the shelves, but as I said on twitter yesterday, 7th Edition sounds like it's going to be a hoot to play.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2014/05/bloodspire_2560x1440.jpg", "Bloodspire Cover Art" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/05/bloodspire_2560x1440.jpg", "Bloodspire Cover Art" %}
 
 ### Addendum: My Wishlist for 7th Edition
 

@@ -11,7 +11,7 @@ authors:
 archived: true
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/battery_usage-scaled500.png", "Battery_usage" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/battery_usage-scaled500.png", "Battery_usage" %}
 
 Android phones generally don't get a lot of battery life. Judging by some of the forum threads and blog posts I've read, 20 hours or so is about the average. With the stock I've occaisionally had it scrape past that, but not by much. Using a lighter-weight Sense-based ROM I was able to get around 36 hours of charge
 

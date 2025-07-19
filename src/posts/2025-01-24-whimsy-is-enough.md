@@ -51,7 +51,7 @@ grim() {
 }
 ```
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/2b64730a-ee77-4d2b-8c3e-d238d047a0f7.png", "a screenshot of a terminal window on macOS using the Zsh shell. The user “chris@Chriss-Mac-mini” is in the ~/bin directory and has executed the command 'grim'. The output displays some status information, including “0 064 025.M3//14:12 local,” followed by a command prompt ready for the next input. The terminal has a blurred background, likely showing part of the desktop or an open application." %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/2b64730a-ee77-4d2b-8c3e-d238d047a0f7.png", "a screenshot of a terminal window on macOS using the Zsh shell. The user “chris@Chriss-Mac-mini” is in the ~/bin directory and has executed the command 'grim'. The output displays some status information, including “0 064 025.M3//14:12 local,” followed by a command prompt ready for the next input. The terminal has a blurred background, likely showing part of the desktop or an open application." %}
 
 Maybe I’ll add this to my prompt somewhere, or maybe I’ll forget about it in a few days. But that’s besides the (lack of) point.
 

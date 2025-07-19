@@ -24,4 +24,4 @@ While I was researching the article I discovered that [IndieLogin](https://indie
 
 If you're interested, here's the current content plan for the site, although I'll be adding more articles as I re-familiarise myself with developing Textpattern plugins, and open up more integrations.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/02/2019-02-26-10_07_55-Articles-IndieWeb-Textpattern-_-Textpattern-CMS.png", "a table of draft articles in the Textpattern CMS admin panel" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/02/2019-02-26-10_07_55-Articles-IndieWeb-Textpattern-_-Textpattern-CMS.png", "a table of draft articles in the Textpattern CMS admin panel" %}

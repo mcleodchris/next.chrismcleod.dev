@@ -20,19 +20,19 @@ I finally managed to get hold of a can of Zandri Dust spray, so I was able to fi
 
 As luck would have it, the sun was setting as I took a picture of my progress, giving me this shot of the building glowing in the sunlight:
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2018/09/img_0863.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0863.jpg", "alt temporarily text not available" %}
 
 From the other side, things looked a lot more washed out:
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2018/09/img_0862.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0862.jpg", "alt temporarily text not available" %}
 
 The marines started to get their base coats and initial airbrush highlights.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2018/09/img_0856.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0856.jpg", "alt temporarily text not available" %}
 
 At first I wasn't too happy with how things were looking, but after sleeping on things, and adding in a few more highlights to the characters, and spots of other colours, I've come around to how they look.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2018/09/img_0865.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0865.jpg", "alt temporarily text not available" %}
 
 I'll be giving them an all over wash of black ink, to give more shading, contrast, and richness to the colour. That should help a lot, even before I add the remaining "main" colours.
 

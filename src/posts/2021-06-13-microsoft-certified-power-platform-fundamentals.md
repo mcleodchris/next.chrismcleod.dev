@@ -11,11 +11,11 @@ tags:
   - microsoft
 authors:
   - chris
-image: https://assets.chrism.cloud/chrismcleod.dev/images/microsoft-certified-power-platform-fundamentals.png
+image: https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-certified-power-platform-fundamentals.png
 redirectFrom: ['/2021/06/13/microsoft-certified-power-platform-fundamentals/']
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/images/microsoft-certified-power-platform-fundamentals.png", "Microsoft Power Platform Fundamentals achievement badge" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-certified-power-platform-fundamentals.png", "Microsoft Power Platform Fundamentals achievement badge" %}
 
 This afternoon I passed the [Microsoft PL-900 exam](https://docs.microsoft.com/en-gb/learn/certifications/exams/pl-900), earning my second certification this year - [Microsoft Certified: Power Platform Fundamentals](https://www.credly.com/earner/earned/badge/687bac44-4af0-4519-849b-3f869c68db2a).
 

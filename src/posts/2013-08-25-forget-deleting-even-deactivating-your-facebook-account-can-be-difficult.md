@@ -13,7 +13,7 @@ authors:
 archived: true
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2013/08/screenshot-250813-181546.png", "My Deactivated Facebook Profile" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/08/screenshot-250813-181546.png", "My Deactivated Facebook Profile" %}
 
 On Thursday night I deactivated my Facebook account. It's something I'd been considering for a while, as I've found using Facebook lately to be less a useful "checking up on friends and family" thing, and more something slightly depressingly monotonous which I continue to do out of sheer force of habit. It just so happened on Thursday there was a trigger which finally led me to push the button.
 

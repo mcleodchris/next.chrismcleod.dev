@@ -14,7 +14,7 @@ archived: true
 
 If you were a good boy or girl this year (like me), you may have been lucky enough to get a [Raspberry Pi](http://www.raspberrypi.org "Raspberry Pi") under the Christmas tree. Which is awesome, but (like me) you may be wondering what on earth you're going to do with it!
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/20121228-111005.jpg", "Raspberry Pi in a PiBow case" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/20121228-111005.jpg", "Raspberry Pi in a PiBow case" %}
 
 The choices are limited only by your imagination, but as per usual - the more choice you have, the harder it is to choose! I'm still deciding what to do with mine, but here are a few links which might inspire you:
 

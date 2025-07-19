@@ -13,7 +13,7 @@ authors:
 archived: true
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/12/img_2432-1-scaled.jpg", "A cardboard box, with the Black Library logo on it, underneath a Christmas Tree" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/img_2432-1-scaled.jpg", "A cardboard box, with the Black Library logo on it, underneath a Christmas Tree" %}
 
 This year's "Mega Edition" release from [Black Library](https://www.blacklibrary.com/) is the new Blood Angels novel from Guy Haley, _Darkness in the Blood_. I don't know much about the plot yet (the book flew under my radar until very recently), other than it follows on from [_Dante_](https://www.blacklibrary.com/warhammer-40000/novels/dante-ebook.html) and the events of [_Devastation of Baal_](https://www.blacklibrary.com/warhammer-40000/novels/the-devastation-of-baal-ebook.html), and features both Dante and Mephiston - two of my all-time favourite Warhammer 40,000 characters.
 
@@ -33,17 +33,17 @@ Like in [all of my recent book unboxings](/tag/book-unboxing), I'm impressed wit
 
 I can't wait to dive into the story now!
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/12/img_2435.jpg", "alt temporarily text not available" %}
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/12/img_2437.jpg", "alt temporarily text not available" %}
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/12/img_2438.jpg", "alt temporarily text not available" %}
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/12/img_2439.jpg", "alt temporarily text not available" %}
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/12/img_2440.jpg", "alt temporarily text not available" %}
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/12/87429183-F72A-44B2-BB2A-5422599362E2.jpeg", "alt temporarily text not available" %}
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/12/A5CE0D98-6583-4182-94D5-373773144D51.jpeg", "alt temporarily text not available" %}
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/12/8B5477A7-F406-4D2D-8948-9C6777A9553D.jpeg", "alt temporarily text not available" %}
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/12/41807203-4A55-4403-8E9A-C52CE4E47027.jpeg", "alt temporarily text not available" %}
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/12/DFF927B5-0958-4811-847B-EA6AB2EF6E44.jpeg", "alt temporarily text not available" %}
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/12/F052B1DD-EA09-4128-9B2A-12A83BF97663.jpeg", "alt temporarily text not available" %}
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/12/AF7B2996-D38E-41BB-B054-0B1387671DCE.jpeg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/img_2435.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/img_2437.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/img_2438.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/img_2439.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/img_2440.jpg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/87429183-F72A-44B2-BB2A-5422599362E2.jpeg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/A5CE0D98-6583-4182-94D5-373773144D51.jpeg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/8B5477A7-F406-4D2D-8948-9C6777A9553D.jpeg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/41807203-4A55-4403-8E9A-C52CE4E47027.jpeg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/DFF927B5-0958-4811-847B-EA6AB2EF6E44.jpeg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/F052B1DD-EA09-4128-9B2A-12A83BF97663.jpeg", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/AF7B2996-D38E-41BB-B054-0B1387671DCE.jpeg", "alt temporarily text not available" %}
 
 [^1]: It appears I haven't uploaded the photos from that particular unboxing. I should fix that - it was lovely.

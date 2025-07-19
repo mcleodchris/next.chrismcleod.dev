@@ -11,6 +11,6 @@ authors:
 redirectFrom: ['/2021/04/26/vaccination-jab-228/']
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/images/img_0388-scaled.jpg", "signage outside the vaccination centre", "Outside the vaccination centre. Again" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0388-scaled.jpg", "signage outside the vaccination centre", "Outside the vaccination centre. Again" %}
 
 Jab 2 is in the arm. Hopefully the side effects are as mild as last time!

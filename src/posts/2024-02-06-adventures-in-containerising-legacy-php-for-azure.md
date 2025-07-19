@@ -19,7 +19,7 @@ On top of this was a need to setup a proper local development environment that w
 
 So, what's a aging, put-upon, web developer to do with a legacy application needing modernised, and little to no budget or time to do it in? Well, this sounds exactly like a scenario straight out of a "why you should use containers" sales pitch.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/docker-meme.png", "It works on my machine / Then we'll ship your machine / And that is how Docker was born" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/docker-meme.png", "It works on my machine / Then we'll ship your machine / And that is how Docker was born" %}
 
 [^1]: Look, I'm not proud of how much I've been winging it with this app for the last couple of years.
 ## Act 1: Running Locally
@@ -118,7 +118,7 @@ The problem was thus: the application was seemingly opening 2 database connectio
 ## Act 6: Deployment, But For Real This Time?
 With the necessary code changes made, and the container rebuilt, it was time to try deployment again. A new Container Apps instance was setup, all the secrets and other configuration entered, and the image deployed. After a moment for everything to spin up I checked the auto-generated URL to see if it worked - SUCCESS!
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/boris.jpg", " A meme based on a scene from the 1995 James Bond movie GoldenEye. The person in the image is Boris Grishenko, a Russian hacker and one of the villains in the movie. He is played by actor Alan Cumming. He is standing in triumph, fists raised, and shouting 'Yes! I am invincible!'" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/boris.jpg", " A meme based on a scene from the 1995 James Bond movie GoldenEye. The person in the image is Boris Grishenko, a Russian hacker and one of the villains in the movie. He is played by actor Alan Cumming. He is standing in triumph, fists raised, and shouting 'Yes! I am invincible!'" %}
 
 I'm not going to lie, I punched the air at this point, it had been such a slog. Cautiously I added the custom domain to ensure it all still worked under a new URL. Thankfully it did, and finally the app was containerised and fully switched over to its new cloud-based home.
 

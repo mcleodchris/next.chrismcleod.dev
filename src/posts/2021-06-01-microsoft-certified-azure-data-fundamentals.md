@@ -11,11 +11,11 @@ tags:
   - microsoft
 authors:
   - chris
-image: https://assets.chrism.cloud/chrismcleod.dev/images/microsoft-certified-azure-data-fundamentals.png
+image: https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-certified-azure-data-fundamentals.png
 redirectFrom: ['/2021/06/01/microsoft-certified-azure-data-fundamentals/']
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/images/microsoft-certified-azure-data-fundamentals.png", "Microsoft Azure Data Fundamentals achievement badge" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-certified-azure-data-fundamentals.png", "Microsoft Azure Data Fundamentals achievement badge" %}
 
 This evening I completed (and passed) the [Microsoft DP-900 exam](https://docs.microsoft.com/en-gb/learn/certifications/exams/dp-900), which makes - [Microsoft Certified: Microsoft Azure Data Fundamentals](https://www.credly.com/earner/earned/badge/ea868257-c9f9-448a-a0b0-bc486ebefbf6) the first certification I can cross off my [Summer of Certifications](https://chrismcleoddev.wordpress.com/2021/05/21/summer-of-certifications/) list.
 

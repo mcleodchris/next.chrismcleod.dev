@@ -6,9 +6,9 @@ tags:
   - food
   - coffee
 gallery:
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/7dc966bb-cf79-462f-9e4f-53153df1a5a9.jpg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/7dc966bb-cf79-462f-9e4f-53153df1a5a9.jpg
     alt: A oat-milk latte in an orange stoneware cup, on a matching saucer, placed on a rustic wooden table. The foamed milk has been poured in such a way as to resemble a heart.
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/3df9da62-41ba-4873-8e0e-5925a851527d.jpg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/3df9da62-41ba-4873-8e0e-5925a851527d.jpg
     alt: A pile of pancake halves and bacon, layered alternately, on a beige stoneware plate. Maple syrup has been poured on top of the food and then swirled around the plate to appear artful. 
 ---
 

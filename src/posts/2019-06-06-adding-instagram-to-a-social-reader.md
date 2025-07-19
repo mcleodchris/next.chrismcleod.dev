@@ -12,7 +12,7 @@ authors:
 archived: true
 ---
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/06/B8D9D1F5-A102-4FAA-A8DE-66C12BCC96F3-e1559823306749.png", "Screenshot of my Instagram feed, showing a model lounging under the sun on some rainbow-painted stairs; Photo by Donna Murray Photography" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/06/B8D9D1F5-A102-4FAA-A8DE-66C12BCC96F3-e1559823306749.png", "Screenshot of my Instagram feed, showing a model lounging under the sun on some rainbow-painted stairs; Photo by Donna Murray Photography" %}
 
 [I mentioned yesterday](https://mrkapowski.com/2019/06/bollocks-to-this-instagram-ad-hellhole) my frustrations with Instagram were at an all-time high, and I wanted to "soft quit" the app by adding my follows as a source in Monocle. I didn't find any existing guide on how to do this (sorry if I missed yours!), but I did get two [useful](https://doubleloop.net/2019/06/05/5725/) [suggestions](https://stephenpieper.net/monocle-instagram/) about tools to enable this: [Instagram Atom](https://instagram-atom.appspot.com/), and [Granary](https://granary.io).
 
@@ -25,7 +25,7 @@ Instagram doesn't offer much of an API anymore, so to let Granary do the magic, 
 - Login to Instagram through a desktop web browser
 - Use the developer tools to inspect the cookies set by Instagram. Look for a cookie called "sessionid" and copy the value of it:
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/06/2019-06-06-09_06_19-Window.png", "screenshot of DevTools showing the UI after following the above 2 steps" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/06/2019-06-06-09_06_19-Window.png", "screenshot of DevTools showing the UI after following the above 2 steps" %}
 
 ## Step 2. Link up Granary
 
@@ -38,7 +38,7 @@ Head over to [Granary](https://granary.io). Click on the Instagram login button,
 
 Click "GET", and Granary will generate a preview of your feed and give you a link:
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/06/2019-06-06-09_07_14-Window.png", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/06/2019-06-06-09_07_14-Window.png", "alt temporarily text not available" %}
 
 Copy that link.
 
@@ -50,11 +50,11 @@ You need to add the URL you've copied from Granary as a source in whatever Micro
 
 All being well, you should now have an Instagram feed in Monocle/your chosen social reader.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/06/2019-06-06-08_42_17-Window.png", "alt temporarily text not available" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/06/2019-06-06-08_42_17-Window.png", "alt temporarily text not available" %}
 
 With all this set up, I can now add the Instagram app to the "To Quit" folder on my iPhone.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2019/06/4D659326-056C-4612-897B-F282A8EF3D51.jpeg", "Screenshot of my iOS “to quit” folder, containing a handful of silo apps" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/06/4D659326-056C-4612-897B-F282A8EF3D51.jpeg", "Screenshot of my iOS “to quit” folder, containing a handful of silo apps" %}
 
 ## Caveats
 

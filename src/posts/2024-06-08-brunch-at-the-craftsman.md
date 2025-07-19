@@ -6,11 +6,11 @@ tags:
   - food
   - coffee
 gallery:
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/a39c6940-1107-4b2e-ba67-25c3c7d92aaa.jpg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/a39c6940-1107-4b2e-ba67-25c3c7d92aaa.jpg
     alt: A oat-milk latte in an enamelled tin cup, placed on a rustic wooden table. The foamed milk has been poured in such a way as to resemble a heart. The blue enamelling around the rim has been chipped through frequent use, as has the handle.
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/88935a0d-af49-4210-acb4-293b3fc06d14.jpg
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/88935a0d-af49-4210-acb4-293b3fc06d14.jpg
     alt: The image features a plate with three pancakes topped with bacon and powdered sugar, accompanied by a container of syrup. The plate has a blue floral design and rests on a rustic wooden table.
-  - image: https://assets.chrism.cloud/chrismcleod.dev/assets/2fdbb63b-689e-45bd-b188-f3c4545280a5.JPG
+  - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/2fdbb63b-689e-45bd-b188-f3c4545280a5.JPG
     alt: The interior of The Craftsman, taken from the corner of the room; with a bar area showcasing a variety of bottles, bar stools, and wooden dining tables with patrons. The ceiling has exposed ductwork, and there are blackboard menus with specials. A pink purse is on a table, and a “DOGS WELCOME” sign indicates a pet-friendly policy
 ---
 

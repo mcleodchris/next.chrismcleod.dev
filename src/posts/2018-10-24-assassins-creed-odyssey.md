@@ -14,7 +14,7 @@ tags:
 
 There's a point, approximately five hours or so into _Assassin's Creed: Odyssey_, where you realise "this game is _vast_." By then, you'll probably have followed through the introductory quests on Kephallonia, got a handle on the basics of combat, levelled up a bit, and unlocked a couple of abilities; the title screen is finally shown, and suddenly the world _really_ opens up.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/img_0946.jpg", "img_0946" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0946.jpg", "img_0946" %}
 
 I should note right up front that I've not finished Odyssey yet. In fact, I have the feeling I'm about half-way through the main story (maybe two-thirds, at a push), and even less through the supporting and side quests -- even though I've invested around 67 hours into the game at this point. The rest of this post will be as spoiler-free as possible, but if you don't want to risk it, assume it contains light spoilers.
 
@@ -22,7 +22,7 @@ With the caveat that I haven't yet seen everything Odyssey has to offer, I feel 
 
 I'll mention Kassandra exclusively throughout this post, even though there is an option to play as Alexios. I tried a little bit of the game as Alexios, but just didn't connect with him anywhere near as much. As far as I'm concerned, Kassandra is the "canonical" way to play _Odyssey_, with Alexios providing a mirror universe "what-if?" imagining. I just can't imagine any of the emotional beats of the story I've experienced having anywhere near the same depth or impact when played as Alexios. Maybe I'll be proved wrong during a later play-through, but for now, my recommendation is to play _Odyssey_ for the first time as Kassandra. Much of the credit for this goes to the voice acting and scripting, which for Kassandra has been superb.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/img_0947.jpg", "img_0947" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0947.jpg", "img_0947" %}
 
 Part of that connection with Kassandra might also come from the addition of dialogue options, something I hadn't expected to make as much difference as they have to my enjoyment of the game. Earlier games in the series (with the possible exception of last year's _Origins_, which I haven't played yet) were fairly linear Action/Adventure games. For most of them the only choices you had were which secondary weapons to equip, and which side-quests or collectibles to complete.
 
@@ -40,6 +40,6 @@ One other, minor, gripe is the resource cost of upgrading gear between levels, p
 
 So far I haven't obviously suffered in game because of this, but I suspect at some point I will hit a wall where progression will slow and I'm forced to hunt out new gear or grind for materials to upgrade. You can dismantle unwanted gear for some resources, but it's rarely enough, and having some spare specialised gear for certain tasks can be useful - the best example I can think of is "X% damage bonus against {faction}" gear for when going into a conquest battle.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/img_0972.jpg", "img_0972" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0972.jpg", "img_0972" %}
 
 But both of these are so minor in the grand scheme that is _Assassin's Creed: Odyssey_, I really am reaching to find things to "balance" against the glowing praise I have for the rest of the game. If you were on the fence about _Odyssey_ because it's such a departure from the formula which has defined the rest of the series, then I really do recommend you give it a try. I had thought _God of War_ was a certainty for my "Game of the Year," but I'm **far** less certain now.

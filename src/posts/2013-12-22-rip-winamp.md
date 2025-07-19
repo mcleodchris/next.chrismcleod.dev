@@ -14,7 +14,7 @@ archived: true
 
 [Winamp](http://www.winamp.com/) shutdown yesterday. Even though I hadn't used it in years, this makes me a little sad, as Winamp was iconic. It was a hero of the early world-wide web, helping to kick-start the internet music age for a great many people like myself.
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2013/12/winamp1-006.png", "Winamp1.006" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/12/winamp1-006.png", "Winamp1.006" %}
 
 I first discovered Winamp around 14 years ago, during my first year at university. Back then, you could run Winamp from any old folder without installing it, so everyone used to have a copy in their network profile. This was the early days… MP3s were still a rarity here in the UK, so you would listen mainly to CDs (Windows Media Player was a world of suck on Windows NT), or the 2-3 MP3s you had downloaded from Napster.
 
@@ -24,7 +24,7 @@ Then the iPod happened, and with it, iTunes. Once iTunes for Windows hit, that w
 
 By that time, we had all moved to streaming music services. Why store gigabytes of music files on your computer, when someone else can do it for you, and high-speed access is increasingly common? The need for an application like Winamp was increasingly shrinking. At least Spotify has honoured your legacy by releasing [Spotiamp](http://spotiamp.com/).
 
-{% image "https://assets.chrism.cloud/chrismcleod.dev/assets/images/2013/12/spotiamp.png", "spotiamp" %}
+{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/12/spotiamp.png", "spotiamp" %}
 
 And so yesterday, Winamp ceased to be. The site is still there, and for now at least, it seems you can still [download v5.666](http://www.winamp.com/media-player/en)… but that will be turned off soon.
 
