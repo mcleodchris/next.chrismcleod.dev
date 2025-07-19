@@ -20,17 +20,27 @@ module.exports = async function () {
     const endpoint = 'https://mage.chrismcleod.dev/hobby';
 
     // Send a GET request to the REST endpoint
-    const response = await fetch(endpoint, {
-        method: 'GET',
-        headers: {
-            'Authorization': `Bearer ${process.env.MAGE_API_TOKEN}`,
-        },
-    });
+    let data;
+    try {
+        const response = await fetch(endpoint, {
+            method: 'GET',
+            headers: {
+                'Authorization': `Bearer ${process.env.MAGE_API_TOKEN}`,
+            },
+        });
 
-    // Parse the JSON response (an array of items)
-    const data = await response.json();
-    if (!Array.isArray(data)) {
-        return [];
+        // Parse the JSON response (an array of items)
+        data = await response.json();
+        if (!Array.isArray(data)) {
+            data = [];
+        }
+    } catch (error) {
+        // Try to return cached data if available, otherwise return empty array
+        if (await asset.isCacheValid("json")) {
+            data = await asset.getCachedValue("json");
+        } else {
+            data = [];
+        }
     }
 
     // Reduce the array of items into an object where each key is a year and the value is an array of items completed in that year
