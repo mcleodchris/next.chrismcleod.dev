@@ -85,10 +85,6 @@ module.exports = {
       type: 'json'
     }
   ],
-  magetower: {
-    api_base: 'https://mage.chrismcleod.dev',
-    token: process.env.MAGE_API_TOKEN
-  },
   // warcraft: {
   //   api_base: 'https://eu.api.blizzard.com',
   //   region: 'eu',
