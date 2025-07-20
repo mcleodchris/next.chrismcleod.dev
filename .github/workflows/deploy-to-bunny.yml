@@ -1,0 +1,53 @@
+name: Bunny.Net Deployment CI/CD
+
+on:
+  push:
+    branches:
+      - develop
+  repository_dispatch:
+    types: [function_trigger]
+
+jobs:
+  build_and_deploy_job:
+    if: github.event_name == 'push' || github.event_name == 'repository_dispatch'
+    runs-on: ubuntu-latest
+    name: Build and Deploy Job
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          lfs: false
+      - name: Restore Cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: ${{ runner.os }}-cache-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-cache-
+      - name: Build
+        run: |
+          npm install
+          npm run build
+      - name: Save Cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: ${{ runner.os }}-cache-${{ hashFiles('**/package-lock.json') }}
+      - name: Deploy to BunnyCDN
+        uses: ayeressian/bunnycdn-storage-deploy@v2.3.0
+        with:
+          source: "dist"
+          destination: ""
+          storageZoneName: "${{ secrets.STORAGE_NAME }}"
+          storagePassword: "${{ secrets.STORAGE_PASSWORD }}"
+          accessKey: "${{ secrets.ACCESS_KEY }}"
+          pullZoneId: "${{ secrets.ZONE_ID }}"
+          upload: "true"
+          remove: "true"
+          purgePullZone: "true"
+          purgePullZoneDelay: "15"
+      # - name: send webhook
+      #   run: |
+      #     curl -X POST -H "Content-Type: application/json" -d '{"message": "Deployment to BunnyCDN completed successfully."}' "${{ secrets.WEBHOOK_URL }}"
+      #   env:
+      #     WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
