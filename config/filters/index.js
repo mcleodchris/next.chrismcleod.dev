@@ -131,7 +131,11 @@ const splitlines = (input, maxCharLength) => {
 
 const jsonToString = json => JSON.stringify(json, null, 2);
 
-const excludeTag = (array, tag) => array.filter(item => item !== tag);
+// const excludeTag = (array, tag) => array.filter(item => item !== tag);
+const excludeTag = (tags, tagToExclude) => {
+  if (!Array.isArray(tags)) return [];
+  return tags.filter(tag => tag !== tagToExclude);
+};
 
 const dateForFeed = date => {
   // thanks Robb
