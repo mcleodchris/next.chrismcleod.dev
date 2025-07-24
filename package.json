@@ -10,6 +10,7 @@
   },
   "scripts": {
     "start": "run-p dev:*",
+    "new:note": "node helpers/newNote.js",
     "clean": "rimraf dist",
     "build": "ELEVENTY_PRODUCTION=true run-s clean build:*",
     "generate-images": "run-s clean build:*",
