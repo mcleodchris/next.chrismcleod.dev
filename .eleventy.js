@@ -12,14 +12,15 @@
 /**
  *  @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig
  */
-require('dotenv').config();
-const prettier = require('prettier');
+import 'dotenv/config';
+import prettier from 'prettier';
+import packageJson from './package.json' with { type: 'json' };
 
 // get package.json
-const packageVersion = require('./package.json').version;
+const packageVersion = packageJson.version;
 
 // module import filters
-const {
+import {
   limit,
   toHtml,
   where,
@@ -38,19 +39,19 @@ const {
   dateForFeed,
   stripIndex,
   filterTagsFromFeeds
-} = require('./config/filters/index.js');
+} from './config/filters/index.js';
 
-const posseFilters = require('./config/filters/posse.js');
+import posseFilters from './config/filters/posse.js';
 
 // module import shortcodes
-const {
+import {
   imageShortcodePlaceholder,
   includeRaw,
   liteYoutube
-} = require('./config/shortcodes/index.js');
+} from './config/shortcodes/index.js';
 
 // module import collections
-const {
+import {
   getAllPosts,
   getAllSubscriptions,
   tagList,
@@ -60,21 +61,21 @@ const {
   notesForFeed,
   bookmarksForFeed,
   postsForFeed
-} = require('./config/collections/index.js');
+} from './config/collections/index.js';
 
 // module import events
-const {svgToJpeg} = require('./config/events/index.js');
+import {svgToJpeg} from './config/events/index.js';
 
 // plugins
-const markdownLib = require('./config/plugins/markdown.js');
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const {slugifyString} = require('./config/utils');
-const {escape} = require('lodash');
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const inclusiveLangPlugin = require('@11ty/eleventy-plugin-inclusive-language');
-const postGraph = require('@rknightuk/eleventy-plugin-post-graph');
+import {markdownLib} from './config/plugins/markdown.js';
+import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+import {slugifyString} from './config/utils/index.js';
+import _ from 'lodash';
+import pluginRss from '@11ty/eleventy-plugin-rss';
+import inclusiveLangPlugin from '@11ty/eleventy-plugin-inclusive-language';
+import postGraph from '@rknightuk/eleventy-plugin-post-graph';
 
-module.exports = async eleventyConfig => {
+export default async function(eleventyConfig) {
   const {RenderPlugin} = await import('@11ty/eleventy');
   // 	--------------------- Custom Watch Targets -----------------------
   eleventyConfig.addWatchTarget('./src/assets');
@@ -95,7 +96,7 @@ module.exports = async eleventyConfig => {
   // 	---------------------  Custom filters -----------------------
   eleventyConfig.addFilter('limit', limit);
   eleventyConfig.addFilter('where', where);
-  eleventyConfig.addFilter('escape', escape);
+  eleventyConfig.addFilter('escape', _.escape);
   eleventyConfig.addFilter('toHtml', toHtml);
   eleventyConfig.addFilter('toIsoString', toISOString);
   eleventyConfig.addFilter('formatDate', formatDate);
@@ -136,11 +137,11 @@ module.exports = async eleventyConfig => {
   eleventyConfig.addShortcode('packageVersion', () => `v${packageVersion}`);
 
   // 	--------------------- Custom transforms ---------------------
-  eleventyConfig.addPlugin(require('./config/transforms/html-config.js'));
+  eleventyConfig.addPlugin((await import('./config/transforms/html-config.js')).default);
 
   // 	--------------------- Custom Template Languages ---------------------
-  eleventyConfig.addPlugin(require('./config/template-languages/css-config.js'));
-  eleventyConfig.addPlugin(require('./config/template-languages/js-config.js'));
+  eleventyConfig.addPlugin((await import('./config/template-languages/css-config.js')).default);
+  eleventyConfig.addPlugin((await import('./config/template-languages/js-config.js')).default);
 
   // 	--------------------- Custom collections -----------------------
   eleventyConfig.addCollection('posts', getAllPosts);
@@ -216,4 +217,4 @@ module.exports = async eleventyConfig => {
       layouts: '_layouts'
     }
   };
-};
+}

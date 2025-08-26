@@ -1,7 +1,7 @@
-const Image = require('@11ty/eleventy-img');
-const path = require('path');
-const htmlmin = require('html-minifier-terser');
-const { stat } = require('fs');
+import Image from '@11ty/eleventy-img';
+import path from 'path';
+import htmlmin from 'html-minifier-terser';
+import { stat } from 'fs';
 
 function getFileName(id, src, width, format, options) {
   // id: hash of the original image
@@ -98,4 +98,4 @@ const imageShortcodePlaceholder = async (
   );
 };
 
-module.exports = imageShortcodePlaceholder;
+export default imageShortcodePlaceholder;

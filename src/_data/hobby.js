@@ -1,4 +1,5 @@
-const { AssetCache } = require("@11ty/eleventy-fetch");
+import { AssetCache } from "@11ty/eleventy-fetch";
+
 /**
  * This module exports an asynchronous function that queries a GraphQL endpoint for
  * a list of miniatures I've finished painting. It then groups the items by year and sorts
@@ -9,12 +10,13 @@ const { AssetCache } = require("@11ty/eleventy-fetch");
  * @returns {Object} An object where each key is a year and the value is an array of items completed in that year.
  * 
  * @example
- * const getCompletedItems = require('./hobby.js');
- * getCompletedItems().then(items => console.log(items));
+ * import getCompletedItems from './hobby.js';
+ * const items = await getCompletedItems();
+ * console.log(items);
  * 
  * @throws {Error} If the fetch request fails, an error will be thrown.
  */
-module.exports = async function () {
+export default async function () {
     // The GraphQL endpoint to query
     let asset = new AssetCache("paintslam_data");
     const endpoint = 'https://mage.chrismcleod.dev/hobby';

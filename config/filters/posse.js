@@ -1,9 +1,8 @@
-const utils = require('./utils');
-const cheerio = require('cheerio');
-const { decode } = require('html-entities');
-const mastodonCount = require('./mastodonCounter');
-const TurndownService = require('turndown')
-const meta = require('../../src/_data/meta');
+import * as utils from './utils.js';
+import { decode } from 'html-entities';
+import { getMastodonLength } from './mastodonCounter.js';
+import TurndownService from 'turndown';
+import meta from '../../src/_data/meta.js';
 /* original implementation by Robb Knight https://github.com/rknightuk/rknight.me/blob/master/config/filters/indieweb.js */
 
 const posseText = (post, postLength = 500) => {
@@ -59,7 +58,7 @@ const posseText = (post, postLength = 500) => {
 const formatNote = (content, permalink, postLength) => {
     const combined = `${content}\n\n📌 ${permalink}`
 
-    if (mastodonCount.getMastodonLength(content).length <= (postLength - permalink.length) - 1)
+    if (getMastodonLength(content).length <= (postLength - permalink.length) - 1)
     {
         return combined
     }
@@ -68,7 +67,7 @@ const formatNote = (content, permalink, postLength) => {
 }
 
 const formatLink = (post, content, permalink, postLength) => {
-    const getLength = (text) => postLength === 500 ? mastodonCount.getMastodonLength(text).length : text.length;
+    const getLength = (text) => postLength === 500 ? getMastodonLength(text).length : text.length;
 
     let formatted = ''
 
@@ -90,37 +89,41 @@ const formatLink = (post, content, permalink, postLength) => {
 }
 
 
-const posse = {
-    // Function to generate text for a Mastodon toot based on a post
-    makeTootText: (post) => posseText(post, 500),
+export const makeTootText = (post) => posseText(post, 500);
 
-    makeBlueskyText: (post) => posseText(post, 295),
+export const makeBlueskyText = (post) => posseText(post, 295);
 
-    // Function to get the title for Open Graph metadata
-    getTitleForOg: (post) => decode(post.data.title),
+// Function to get the title for Open Graph metadata
+export const getTitleForOg = (post) => decode(post.data.title);
 
-    // Function to get the URL of the Open Graph image
-    getOgImageUrl: (page) => {
-        if (page.attachments?.length > 0) {
-            return page.attachments[0].url ?? page.attachments[0];
-        }
-
-        let path = page.url;
-        if (page.permalink === '404.html') path = '/404/';
-        if (path.startsWith('/notes/') && path !== '/notes/') path = '/notes/single/';
-
-        const url = encodeURIComponent(`${meta.url}opengraph${path}`);
-        return `https://v1.screenshot.11ty.dev/${url}/opengraph/_123`;
-    },
-
-    // Function to get the Open Graph URL
-    getOpengraphUrl: (inputPath) => {
-        let path = inputPath;
-        if (path.startsWith('/notes/') && path !== '/notes/') path = '/notes/single/';
-
-        const url = encodeURIComponent(`${meta.url}opengraph${path}`);
-        return `https://v1.screenshot.11ty.dev/${url}/opengraph/_123`;
+// Function to get the URL of the Open Graph image
+export const getOgImageUrl = (page) => {
+    if (page.attachments?.length > 0) {
+        return page.attachments[0].url ?? page.attachments[0];
     }
-}
 
-module.exports = posse;
+    let path = page.url;
+    if (page.permalink === '404.html') path = '/404/';
+    if (path.startsWith('/notes/') && path !== '/notes/') path = '/notes/single/';
+
+    const url = encodeURIComponent(`${meta.url}opengraph${path}`);
+    return `https://v1.screenshot.11ty.dev/${url}/opengraph/_123`;
+};
+
+// Function to get the Open Graph URL
+export const getOpengraphUrl = (inputPath) => {
+    let path = inputPath;
+    if (path.startsWith('/notes/') && path !== '/notes/') path = '/notes/single/';
+
+    const url = encodeURIComponent(`${meta.url}opengraph${path}`);
+    return `https://v1.screenshot.11ty.dev/${url}/opengraph/_123`;
+};
+
+// Default export for backward compatibility
+export default {
+    makeTootText,
+    makeBlueskyText,
+    getTitleForOg,
+    getOgImageUrl,
+    getOpengraphUrl
+};

@@ -1,6 +1,6 @@
 /** © Andy Bell - https://buildexcellentwebsit.es/ */
 
-module.exports = {
+export default {
   /**
    * Returns back some attributes based on wether the
    * link is active or a parent of an active item

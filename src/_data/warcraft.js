@@ -2,8 +2,8 @@
  * Fetches character data from the Battle.NET API for a predefined list of characters
  * specified in meta.js.
  */
-const FETCH = require('@11ty/eleventy-fetch');
-const {warcraft} = require('./meta');
+import FETCH from '@11ty/eleventy-fetch';
+import warcraft from './meta.js';
 
 const getData = async (href, token) => {
   return await FETCH(href, {
@@ -43,7 +43,7 @@ async function fetchAndMergeData(key, data, token) {
   }
 }
 
-module.exports = async function () {
+export default async function () {
   const characters = warcraft?.characters;
   const characterData = [];
 

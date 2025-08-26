@@ -1,5 +1,3 @@
-const { get } = require('lodash');
-
 /** Returns all blog posts as a collection. */
 const getAllPosts = collection => {
   const posts = collection.getFilteredByGlob('./src/posts/*.md');
@@ -86,7 +84,7 @@ const postsForFeed = collection => {
 
 
 
-module.exports = {
+export {
   getAllPosts,
   getAllSubscriptions,
   tagList,

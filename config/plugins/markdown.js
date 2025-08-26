@@ -1,15 +1,15 @@
-const markdownIt = require('markdown-it');
-const markdownItPrism = require('markdown-it-prism');
-const markdownItAnchor = require('markdown-it-anchor');
-const markdownItClass = require('@toycode/markdown-it-class');
-const markdownItLinkAttributes = require('markdown-it-link-attributes');
-const markdownItEmoji = require('markdown-it-emoji');
-const markdownItFootnote = require('markdown-it-footnote');
-const markdownitMark = require('markdown-it-mark');
-const markdownitAbbr = require('markdown-it-abbr');
-const {slugifyString} = require('../utils');
+import markdownIt from 'markdown-it';
+import markdownItPrism from 'markdown-it-prism';
+import markdownItAnchor from 'markdown-it-anchor';
+import markdownItClass from '@toycode/markdown-it-class';
+import markdownItLinkAttributes from 'markdown-it-link-attributes';
+import markdownItFootnote from 'markdown-it-footnote';
+import markdownitMark from 'markdown-it-mark';
+import markdownitAbbr from 'markdown-it-abbr';
+import markdownItGithubAlerts from 'markdown-it-github-alerts';
+import { slugifyString } from '../utils/index.js';
 
-const markdownLib = markdownIt({
+export const markdownLib = markdownIt({
   html: true,
   breaks: true,
   linkify: true,
@@ -42,9 +42,9 @@ const markdownLib = markdownIt({
       }
     }
   ])
-  // .use(markdownItEmoji)
   .use(markdownItFootnote)
   .use(markdownitMark)
-  .use(markdownitAbbr);
+  .use(markdownitAbbr)
+  .use(markdownItGithubAlerts);
 
-module.exports = markdownLib;
+export default markdownLib;

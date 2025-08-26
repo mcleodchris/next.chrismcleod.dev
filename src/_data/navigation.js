@@ -1,6 +1,6 @@
-const getHobbyData = require('./hobby.js');
+import getHobbyData from './hobby.js';
 
-module.exports = async function() {
+export default async function() {
   const hobby = await getHobbyData();
   const years = Object.keys(hobby).map(Number);
   const latestYear = years.length ? Math.max(...years) : new Date().getFullYear();

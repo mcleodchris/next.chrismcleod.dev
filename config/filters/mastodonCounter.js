@@ -197,12 +197,10 @@ const urlRegex = () => {
   return regexen.validUrl;
 };
 
-module.exports = {
-    getMastodonLength: (string) => {
-        const urlPlaceholder = 'xxxxxxxxxxxxxxxxxxxxxxx'
+export const getMastodonLength = (string) => {
+    const urlPlaceholder = 'xxxxxxxxxxxxxxxxxxxxxxx'
 
-        return string
-            .replace(/(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/igm, urlPlaceholder)
-            .replace(/(^|[^\/\w])@(([a-z0-9_]+)@[a-z0-9\.\-]+[a-z0-9]+)/ig, '$1@$3')
-    }
+    return string
+        .replace(/(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/igm, urlPlaceholder)
+        .replace(/(^|[^\/\w])@(([a-z0-9_]+)@[a-z0-9\.\-]+[a-z0-9]+)/ig, '$1@$3')
 }

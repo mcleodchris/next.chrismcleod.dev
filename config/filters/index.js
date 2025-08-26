@@ -1,14 +1,20 @@
-const lodash = require('lodash');
-const dayjs = require('dayjs');
-const relativeTime = require('dayjs/plugin/relativeTime');
-const advancedFormat = require('dayjs/plugin/advancedFormat');
+import lodash from 'lodash';
+import dayjs from 'dayjs';
+import relativeTime from 'dayjs/plugin/relativeTime.js';
+import advancedFormat from 'dayjs/plugin/advancedFormat.js';
 dayjs.extend(advancedFormat);
 dayjs.extend(relativeTime);
-const CleanCSS = require('clean-css');
-const markdownLib = require('../plugins/markdown');
-const site = require('../../src/_data/meta');
-const {throwIfNotType} = require('../utils');
-const md = require('markdown-it')();
+import CleanCSS from 'clean-css';
+import markdownLib from '../plugins/markdown.js';
+import site from '../../src/_data/meta.js';
+import { throwIfNotType } from '../utils/index.js';
+import MarkdownIt from 'markdown-it';
+import * as esbuild from 'esbuild';
+
+const md = new MarkdownIt();
+
+// Cache for minified JS
+const jsminCache = {};
 
 /** Returns the first `limit` elements of the the given array. */
 const limit = (array, limit) => {
@@ -150,7 +156,7 @@ const filterTagsFromFeeds = (array) => {
   return array.filter(item => !tagsToFilterFromFeeds.includes(item));
 };
 
-module.exports = {
+export {
   limit,
   toHtml,
   where,
