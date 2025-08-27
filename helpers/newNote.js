@@ -1,9 +1,7 @@
 #!/usr/bin/env node
 
-import fs from 'fs';
-import path from 'path';
-import { randomUUID } from 'crypto';
-import { fileURLToPath } from 'url';
+import { ContentGenerator } from './content-generator.js';
+import { generateFrontmatter } from './shared-utils.js';
 
 // Helper to generate random 5-character string
 function randomString(length = 5) {
@@ -15,29 +13,10 @@ function randomString(length = 5) {
   return result;
 }
 
-// Get today's date in YYYY-MM-DD
-function getDateString() {
-  const now = new Date();
-  const yyyy = now.getFullYear();
-  const mm = String(now.getMonth() + 1).padStart(2, '0');
-  const dd = String(now.getDate()).padStart(2, '0');
-  return `${yyyy}-${mm}-${dd}`;
-}
-
-const dateStr = getDateString();
+const generator = new ContentGenerator(import.meta.url, 'notes');
+const dateStr = generator.getDateString();
 const randStr = randomString();
 const filename = `${dateStr}-${randStr}.md`;
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const notesDir = path.join(__dirname, '../src/notes');
-const filePath = path.join(notesDir, filename);
+const content = generateFrontmatter();
 
-// Default content (can be customized)
-const content = `---\nid: ${randomUUID()}\ndate: ${new Date().toISOString()}\n---\n\n`;
-
-if (!fs.existsSync(notesDir)) {
-  fs.mkdirSync(notesDir, { recursive: true });
-}
-
-fs.writeFileSync(filePath, content, { flag: 'wx' });
-console.log(`Created: ${filePath}`);
+generator.createContent(filename, content);
