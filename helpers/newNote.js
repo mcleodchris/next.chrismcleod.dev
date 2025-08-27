@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
-const fs = require('fs');
-const path = require('path');
-const { randomUUID } = require('crypto');
+import fs from 'fs';
+import path from 'path';
+import { randomUUID } from 'crypto';
+import { fileURLToPath } from 'url';
 
 // Helper to generate random 5-character string
 function randomString(length = 5) {
@@ -26,6 +27,8 @@ function getDateString() {
 const dateStr = getDateString();
 const randStr = randomString();
 const filename = `${dateStr}-${randStr}.md`;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 const notesDir = path.join(__dirname, '../src/notes');
 const filePath = path.join(notesDir, filename);
 
