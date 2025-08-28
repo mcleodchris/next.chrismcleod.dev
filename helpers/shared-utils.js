@@ -12,6 +12,15 @@ export function getDateString() {
   return `${yyyy}-${mm}-${dd}`;
 }
 
+export function randomString(length = 5) {
+  const chars = 'abcdefghijklmnopqrstuvwxyz0123456789';
+  let result = '';
+  for (let i = 0; i < length; i++) {
+    result += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return result;
+}
+
 export function getDirname(importMetaUrl) {
   const __filename = fileURLToPath(importMetaUrl);
   return path.dirname(__filename);
