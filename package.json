@@ -13,6 +13,7 @@
     "start": "run-p dev:*",
     "new:note": "node helpers/newNote.js",
     "new:post": "node helpers/newPost.js",
+    "new:bookmark": "node helpers/newBookmark.js",
     "clean": "rimraf dist",
     "build": "ELEVENTY_PRODUCTION=true run-s clean build:*",
     "generate-images": "run-s clean build:*",
