@@ -10,7 +10,7 @@ tags:
   - laptop
 ---
 > [!IMPORTANT]
-> This post originally mentioned another linux installation that is based on Arch. I've removed references to it from the instructions because [I should have known better](https://jakelazaroff.com/words/dhh-is-way-worse-than-i-thought/). Thankfully it was one very optional, and the remaining guide holds up with base Arch. My Surface is now on a vanilla Arch install.
+> This post originally mentioned another linux installation that is based on Arch. I've removed references to it from the instructions because [I should have known better](https://jakelazaroff.com/words/dhh-is-way-worse-than-i-thought/). Thankfully it was one very optional step, and the remaining guide holds up with base Arch. My Surface is now on a vanilla Arch install.
 
 My three year-old Surface Laptop Studio (first generation) has been starting to feel a bit long in the tooth as Windows 11 has continued to grow fatter. It's that slow, creeping, feeling you get when a device isn't quite "good enough" anymore. You probably know what I mean; things take longer to open than you remember, and there's just a little bit more "friction" using the device than you'd like. It's small things - a few extra seconds here, a loading spinner there.
 
