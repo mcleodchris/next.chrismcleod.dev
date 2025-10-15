@@ -1,27 +1,22 @@
 ---
 id: 0f5c874c-d63b-43dc-b44f-b10b9340cd45
 date: 2025-08-26T19:28:13.309Z
-title: Installing Arch and Omarchy on a Microsoft Surface Laptop Studio
+title: Installing Arch Linux with Secure Boot on a Microsoft Surface Laptop Studio
 tags:
   - linux
   - arch-linux
-  - omarchy
   - guide
   - surface
   - laptop
 ---
-
+> [!IMPORTANT]
+> This post originally mentioned another linux installation that is based on Arch. I've removed references to it from the instructions because [I should have known better](https://jakelazaroff.com/words/dhh-is-way-worse-than-i-thought/). Thankfully it was one very optional, and the remaining guide holds up with base Arch. My Surface is now on a vanilla Arch install.
 
 My three year-old Surface Laptop Studio (first generation) has been starting to feel a bit long in the tooth as Windows 11 has continued to grow fatter. It's that slow, creeping, feeling you get when a device isn't quite "good enough" anymore. You probably know what I mean; things take longer to open than you remember, and there's just a little bit more "friction" using the device than you'd like. It's small things - a few extra seconds here, a loading spinner there.
 
 Even though I don't use the Surface all that much now, I didn't want to leave it in it's current state. In my experience, there's few more frustrating computing experiences than coming back to a Windows laptop after you've not used it for several weeks/months... only to have it grind to a complete halt when you eventually do power it on as it spends the next hour or more trying to catch-up on updates on the system and applications. So, a switch to Linux was on the cards - ideally lightweight and ready to go for any light dev work I pick it up for.
 
-For approximately the last 3(?) weeks, my YouTube recommendations have been filled with videos talking about Omarchy as the best developer Linux experience on the go. I was skeptical, but I figured I'd try it out, see if it lived up to the hype. Because we're talking about Microsoft hardware, it wasn't the super-simple installation it _could_ have been, but it wasn't too bad. Fiddly enough I figured I'd write it up below.
-
-This blog post won't be a review of Omarchy, or otherwise give my thoughts and feelings - that might come later, once I've had more time with it - it's just documentation in case I need to run through the installation again.
-
-## A Quick Note Up-front
-I did this installation over the weekend of 23rd/24th August 2025. Then, on Tuesday - after I'd written 95% of the guide - I discovered the Omarchy project released their own custom ISO which greatly simplifies a few things. I haven't tried out their new installer, but steps 2 & 3 would still be required to get Surface hardware working properly, so I reckon most of this guide holds up. The only real difference is in which installer image you download and replacing Step 1 with their new guided installation.
+I love using Arch Linux. I use a flavour of it on my main desktop PC. It can be time-consuming to install, but it's (relatively) straightforward, especially if you [follow the Wiki](https://wiki.archlinux.org/title/Installation_guide). But, because we're talking about Microsoft hardware, it wasn't the super-simple installation it _could_ have been, but it wasn't _too_ bad. Fiddly enough I figured I'd write it up below.
 
 ## Step 0: Preparation
 First thing's first, you'll need the latest [Arch Linux installation medium](https://archlinux.org/download/) burned to a USB stick. I used [Rufus](https://rufus.ie/en/) to create the installer USB on [a Sandisk Type-C drive](https://amzn.to/45NiUkv).
@@ -41,9 +36,14 @@ With your installation medium inserted into the laptop, click on Exit, then Rest
 > We're going to enable LUKS disk encryption. The built-in keyboard **will not work for entering the encryption key at boot** until after [Step 3](#step-3-surface-hardware). You should keep a wired keyboard handy and plugged in to the laptop.
 
 ## Step 1: Minimal Arch Install
-Honestly, [the Manual Installation section of the Omarchy manual](https://learn.omacom.io/2/the-omarchy-manual/96/manual-installation) is nice and clear, and covers the most important parts. The main differences to note are:
+For the most part you can choose what you want. This is the important stuff I chose:
 
-- For bootloader I "chose" systemd-boot (the default). I say "chose", but really it's I glossed over this entry in the table and didn't realise it recommended Limine instead. You can pick Limine if you want, but I can't help you configure it.
+- For bootloader I "chose" systemd-boot (the default).
+- Disk:	Use the Default partitioning layout, selecting your SSD
+- Disk: Choose btrfs with the default structure and compression
+- Disk: Use LUKS disk encryption with a password, selecting the partition created earlier
+- Network: Copy ISO network config
+- Authentication: Create your account, then set yourself as a Super User
 - Additional packages - I added `nano` and `sbctl` (see Step 2).
 
 
@@ -208,16 +208,7 @@ mkinitcpio -P
 
 This will churn away for quite some time, but eventually you'll be returned to the prompt. You can restart now, and _should_ be able to type the LUKS decryption password with the built-in keyboard.
 
-Login as your regular user (e.g. `chris`, or whatever) for the remaining steps.
-
-## Step 4: Omarchy
-This is the hardest part of the whole setup process. Only kidding, it's one line:
-
-```bash
-curl -fsSL https://omarchy.org/install | bash
-```
-
-Follow the prompts and by the end of it you should be loaded into the default Omarchy experience. Refer to the [Omarchy Manual](https://learn.omacom.io/2/the-omarchy-manual) to see what customisations you might want to do. For example, I uninstalled Spotify, swapped the email and calendar shortcuts to Fastmail, passwords to Bitwarden, etc.
+Login as your regular user (e.g. `chris`, or whatever) and continue on installing and configuring Arch to your desired state.
 
 [^1]: No, seriously. I first encountered GRUB in circa 1997.
 [^2]: The datetime file name prefix probably isn't required, but it had taken so long to get to this point I didn't even think about using the basic `linux-surface.conf`.
