@@ -17,6 +17,13 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - name: Tailscale
+        uses: tailscale/github-action@v3
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:cicd
+          use-cache: true
       - name: Load cache
         uses: actions/cache@v4
         with:
