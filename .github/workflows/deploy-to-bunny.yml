@@ -60,7 +60,7 @@ jobs:
           upload: "true"
           remove: "true"
           purgePullZone: "true"
-          purgePullZoneDelay: "15"
+          purgePullZoneDelay: "45"
       # - name: send webhook
       #   run: |
       #     curl -X POST -H "Content-Type: application/json" -d '{"message": "Deployment to BunnyCDN completed successfully."}' "${{ secrets.WEBHOOK_URL }}"
