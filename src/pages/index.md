@@ -10,7 +10,7 @@ hcard: true
 ---
 
 <div class="grid grid--image-text">
-      {% image "https://assets.chrismcleod.dev/chrismcleod.dev/2023/07/06_1280.png", "a computer-generated illustration of Chris McLeod", "","","rounded-full u-photo", 0 %}
+      {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets//9d049e30-cdc7-4a26-9bdb-db34bb57b867.png", "a computer-generated illustration of Chris McLeod", "","","rounded-full u-photo", 0 %}
     <p class="p-note text">I’m a software developer with over 20 years of work experience, but I’ve been experimenting with technology and programming since I received my very first Commodore 64 in 1989. I’ve done everything from front-line IT support in small companies, through to leading development teams on key projects for industry and government.</p>
     <p class="text offset">You can find out a bit more on the <a href="/about/">/about</a> page.</p>
 </div>
