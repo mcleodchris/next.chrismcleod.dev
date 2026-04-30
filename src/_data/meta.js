@@ -86,7 +86,7 @@ export default {
     }
   ],
   indieweb: {
-    avatar: 'https://assets.chrismcleod.dev/chrismcleod.dev/assets/resized/06_1280-320.jpeg'
+    avatar: 'https://assets.chrismcleod.dev/chrismcleod.dev/assets/resized/9d049e30-cdc7-4a26-9bdb-db34bb57b867-320.jpeg'
   },
   themeSwitch: {
     title: 'Theme',
