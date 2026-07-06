@@ -33,6 +33,14 @@ jobs:
           key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-build-
+      - name: Install Sequoia
+        run: |
+          npm install -g sequoia-cli
+      - name: Publish to ATProto
+        env:
+          ATP_IDENTIFIER: ${{ secrets.ATP_IDENTIFIER }}
+          ATP_APP_PASSWORD: ${{ secrets.ATP_APP_PASSWORD }}
+        run: sequoia publish
       - name: Build
         run: |
           npm install
