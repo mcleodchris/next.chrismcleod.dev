@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbwz622p"
 ---
 
 A piece of internet history has been discovered - the first known use of a smiley (emoticon) has been found.

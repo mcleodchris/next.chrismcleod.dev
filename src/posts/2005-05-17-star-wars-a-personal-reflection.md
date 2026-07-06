@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6qnrk2p"
 ---
 
 Star Wars was an integral part of my childhood. I was too young to see the films when they first came out (I wasn’t even born when A New Hope was first released), but my love of sci-fi from an early age pulled me towards them. Unfortunately, in my formative years it proved near impossible to get to see any of the original trilogy from start to finish, for one reason or another. Instead, I had to wait for the “Special Edition” re-release to the cinemas. Even if it wasn’t the true Original Trilogy, it was still a special moment for me. After that, school finally got in the way and the only real contact I had with Star Wars was at my friends’ house. His mother’s boyfriend was _fanatical_about Star Wars – he had so much merchandise you couldn’t see the walls. I used to sneak a read of his comics if he was at work.

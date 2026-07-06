@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 redirectFrom: ['/2021/05/22/alpharius-head-of-the-hydra-by-mike-brooks/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqjfan22p"
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/img_0442.jpg", "A photo of the front cover of the book Alpharius: Head of the Hydra, by Mike Brooks, taken shortly after I had finished reading it." %}

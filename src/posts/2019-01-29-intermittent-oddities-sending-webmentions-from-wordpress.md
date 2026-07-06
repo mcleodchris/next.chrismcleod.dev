@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqob7ts2p"
 ---
 
 I'm having a weird time with the [WordPress Webmentions plugin](https://github.com/pfefferle/wordpress-webmention) right now, where it only seems to send a webmention when I update a post after the initial inclusion of the mention. So: add mention (a href link) to the post > update/publish > update a second time.

@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5goys2p"
 ---
 
 There’s been a few things going on this last week which I wanted to talk about, but it’s been a hassle finding the time. Excuses, excuses, yadda yadda. Just shut up and get on with it…

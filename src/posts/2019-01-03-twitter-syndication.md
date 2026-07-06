@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqovees2p"
 ---
 
 I'm still geting used to the ins-and-outs of writing and syndicating content. So far it seems that:

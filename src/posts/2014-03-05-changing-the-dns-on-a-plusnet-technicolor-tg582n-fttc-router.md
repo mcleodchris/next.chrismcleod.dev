@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzkcjs2p"
 ---
 
 I recently had fiber broadband installed at the house. This meant switching provider, and getting a whole new router. ISP routers, by-and-large are terrible, and this one was the type which only allows changing a limited set of options through the web-based admin page.

@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqo5oks2p"
 ---
 
 I implemented proper pagination between archive pages last night, which should help making getting around the site slightly easier. I still need to implement pagination for pages/posts that are split into distinct pages. I'm not going to implement comment pagination, because I don't like it.

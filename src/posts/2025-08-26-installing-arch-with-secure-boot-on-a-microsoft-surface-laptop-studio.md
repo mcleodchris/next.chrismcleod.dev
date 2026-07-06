@@ -8,6 +8,7 @@ tags:
   - guide
   - surface
   - laptop
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqdnqks2p"
 ---
 > [!IMPORTANT]
 > This post originally mentioned another linux installation that is based on Arch. I've removed references to it from the instructions because [I should have known better](https://jakelazaroff.com/words/dhh-is-way-worse-than-i-thought/). Thankfully it was one very optional step, and the remaining guide holds up with base Arch. My Surface is now on a vanilla Arch install.

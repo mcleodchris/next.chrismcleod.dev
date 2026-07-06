@@ -6,6 +6,7 @@ tags:
   - social-media
   - apis
   - self-hosting
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqe4yts2p"
 ---
 
 It's been a while since I wrote about Bluesky. My previous ["Hello World" for Bluesky][hw] was a quick overview of using the APIs to authenticate and post to Bluesky. It remains a popular post all these months later, and several people have let me know it helped get up and running with integrating with the AT protocol (ATproto) network[^1], which includes the Bluesky service.

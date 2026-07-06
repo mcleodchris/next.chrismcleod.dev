@@ -6,6 +6,7 @@ categories:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqvpx22p"
 ---
 
 I've been trying not to get sucked in to the latest World of Warcraft expansion, [Battle for Azeroth](https://worldofwarcraft.com/en-us/battle-for-azeroth), after getting bored of solo _Legion_ content after just a few months. But the more I see of [the cinematics and in-game cutscenes](https://www.youtube.com/playlist?list=PLfFwF6O3EhQ8fgUTTkDCF6GAV9Snfkj3Q), especially on the Alliance side, the more I'm tempted to get started again.

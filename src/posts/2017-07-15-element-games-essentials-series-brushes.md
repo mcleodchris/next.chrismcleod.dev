@@ -10,6 +10,7 @@ tags:
   - miniatures
   - tip
   - miscellaneous
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqtnjjc2p"
 ---
 
 I've been using the own-brand Element Games Kolinsky Sable brushes for a while now, and I have nothing but really good things to say about them. For the money they are **fantastic**. [Winsor and Newton Series 7's](http://www.winsornewton.com/uk/shop/brushes/water-colour/series-7-kolinsky-sable-brushes) are usually seen as the "gold standard" brushes for miniature painting (obviously it's one of those subjective things) -- I think the Element Games brushes are easily as good as the W&N's I've used over the years. At £19 for the set of 3, it's hard to argue against the value, either.

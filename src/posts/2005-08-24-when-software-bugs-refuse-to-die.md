@@ -9,6 +9,7 @@ archived: true
 tags:
   - programming
   - bugs
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6ao2k2p"
 ---
 
 I’ve spent the last two days looking at the same line of code, trying to work out why the fuck it’s not working right.

@@ -8,6 +8,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5eycs2p"
 ---
 
 Hello again, you crusty inhabitants of the Interwebs. It’s been too long – far too long. But, like The Good Ship [Galactica](https://web.archive.org/web/20061105184107/http://www.scifi.com/battlestar/), I’m back.

@@ -10,6 +10,7 @@ tags:
   - personal
   - software
   - user-experience
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqlp3w22p"
 ---
 
 As a temporary measure, to take advantage of a too-good-to-miss “switching incentive” offer, I'm moving my current account to a legacy high street bank.

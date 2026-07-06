@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqz3ltc2p"
 ---
 
 > My blog’s older than Twitter and Facebook, and it will outlive them. It has seen Flickr explode and then fade. It’s seen Google Wave and Google Reader come and go, and it’ll still be here as Google Plus fades. When Medium and Tumblr are gone, my blog will be here.

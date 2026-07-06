@@ -40,6 +40,7 @@ gallery:
   - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/03/IMG_1710-1650x2200.jpeg
     alt: 'The rear cover of a red leatherbound hardback book. It features embossing and text picked out in gold'
     caption: 'I can’t wait to dive in to this book!'
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnfzq22p"
 ---
 
 {% include "components/gallery.njk" %}

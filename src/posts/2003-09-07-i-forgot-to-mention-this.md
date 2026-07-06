@@ -9,6 +9,7 @@ archived: true
 tags:
   - mozilla
   - email
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbau6k2p"
 ---
 
 A few days ago, version 0.2 of Mozilla Thunderbird (http://www.mozilla.org/products/thunderbird/) was released to the public.

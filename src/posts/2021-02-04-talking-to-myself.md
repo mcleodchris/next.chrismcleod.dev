@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 redirectFrom: ['/2021/02/04/talking-to-myself/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqkcqxs2p"
 ---
 
 I have a love-hate relationship with presenting. I feel I'm fair-to-decent at delivering an ad-libbed presentation backed up by a loosely structured slide deck. I can project a decent amount of confidence even though I'm nervous and hate being the centre of attention, and can talk at length if I can control the timing of the presentation.

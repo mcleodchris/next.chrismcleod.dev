@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4276c2p"
 ---
 
 Did you know you can use custom PHP extensions on Heroku? Neither did I, cos I can't find it in [the documentation](http://devcenter.heroku.com/ "Heroku Dev Center"). But you can:

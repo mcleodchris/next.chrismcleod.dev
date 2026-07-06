@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2v5ms2p"
 ---
 
 [Crappy Computers](http://ignorethecode.net/blog/2012/11/04/crappy_computers/ "ignore the code: Crappy Computers")

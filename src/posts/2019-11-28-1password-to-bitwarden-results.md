@@ -11,6 +11,7 @@ tags:
   - security
   - software
   - user-experience
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqle4e22p"
 ---
 
 So… [that](/blog/1password-to-bitwarden-migration-preparation/) didn't go so well. All the login items were there after the import, but easily 60% plus of the data was parsed incorrectly - usually one or both of username and password were imported as "custom fields" instead of actual login details. There was no pattern I could discern about why some logins imported successfully and the rest didn't.

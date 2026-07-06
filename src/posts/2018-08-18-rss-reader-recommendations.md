@@ -11,6 +11,7 @@ tags:
   - blogging
   - feeds
   - software
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqscre22p"
 ---
 
 I'm one of those people who still cling to their RSS Reader as a way to aggregate and read interesting things and news. Even though half the feeds in my blog folder are dead, I keep them around in the hope they one day spring to life again as we all get tired of the social media walled gardens, and start publishing on our own sites again. I'm sure it's part habit, part convenience, part nostalgia.

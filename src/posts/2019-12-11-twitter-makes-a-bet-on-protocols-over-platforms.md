@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyql2rjk2p"
 ---
 
 [Twitter Makes A Bet On Protocols Over Platforms](https://www.techdirt.com/articles/20191210/21054943552/twitter-makes-bet-protocols-over-platforms.shtml)

@@ -9,6 +9,7 @@ tags:
   - movies
   - tv
   - books
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqdh3oc2p"
 ---
 
 I cancelled Disney Plus in September (though my annual sub runs until March). A year ago, I downloaded my entire Kindle library and stopped buying from their store. Netflix was cancelled in December. Audible went bye-bye sometime last summer. None of this was planned, exactly - more like a series of small decisions that eventually accumulated into something larger.

@@ -6,6 +6,7 @@ tags:
   - feeds
   - websites
   - web-design
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqfrlhk2p"
 ---
 I love my RSS reader and the mountain of feeds it lets me read/skim on a daily basis. But some recent discussion gave me pause on how I use RSS, and made me reflect on whether it strips something fundamental from the web: visiting cool websites.
 

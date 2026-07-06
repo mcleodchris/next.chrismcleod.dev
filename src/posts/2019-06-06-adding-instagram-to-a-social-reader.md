@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqmtmuc2p"
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/06/B8D9D1F5-A102-4FAA-A8DE-66C12BCC96F3-e1559823306749.png", "Screenshot of my Instagram feed, showing a model lounging under the sun on some rainbow-painted stairs; Photo by Donna Murray Photography" %}

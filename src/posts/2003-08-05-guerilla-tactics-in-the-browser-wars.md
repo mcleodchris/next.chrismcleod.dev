@@ -8,6 +8,7 @@ authors:
 tags:
   - browsers
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbfkl22p"
 ---
 
 [This brought a smile to my face.](https://web.archive.org/web/20040906135843/http://www.mozillazine.org/talkback.html?article=3522 "Taking the fight to the streets!") The "Browser Wars" take an interesting turn as some Mozilla users resort to guerilla tactics to spread the word.

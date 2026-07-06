@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr24re22p"
 ---
 
 I've spent some time this weekend making doing some much-needed housekeeping here, in order to keep it tidy and in a healthy state.

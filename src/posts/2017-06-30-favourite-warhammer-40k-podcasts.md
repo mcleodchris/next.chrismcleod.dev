@@ -11,6 +11,7 @@ tags:
   - warhammer-40000
   - warhammer
   - podcasts
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqu6v6k2p"
 ---
 
 I've listened to a lot of 40K podcasts over the last couple of years. Over that time I've slowly winnowed my subscriptions down to just a handful.

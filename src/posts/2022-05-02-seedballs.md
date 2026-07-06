@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 redirectFrom: ['/2022/05/02/seedballs/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqi5pyc2p"
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/2022/04/img_1117.jpg", "a pack of 'garden meadow' Seedballs, alongside a pack of 'poppy' Seedballs, and the back of the plantable thank you note." %}

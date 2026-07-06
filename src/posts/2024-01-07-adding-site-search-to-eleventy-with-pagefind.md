@@ -9,6 +9,7 @@ tags:
   - eleventy
 permalink: '/blog/adding-site-search-eleventy-pagefind-web-component/index.html'
 gradient: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqg3smc2p"
 ---
 
 I recently added some new ways to dig through the [archives of this site](/blog/), and chief among them was search. Search is something I've wanted to add for ages, and thankfully it was pretty straightforward, thanks to [Pagefind](https://pagefind.app/) and the [\<pagefind-search\> web component by Zach Leatherman](https://www.zachleat.com/web/pagefind-search/).

@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnhohk2p"
 ---
 
 I've been doing this for nearly 20 years (documenting stuff on my blog), in various capacities and with mixed regularity, and this is the first time I've heard of this term. Every day is a learning day ?

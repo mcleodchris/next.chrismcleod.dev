@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 redirectFrom: ['/2022/12/02/how-to-host-mastodon-on-a-cloud-raspberry-pi/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhxftk2p"
 ---
 
 _Bookmarked [https://www.raspberrypi.com/news/host-your-own-mastodon-instance-on-a-raspberry-pi/](https://www.raspberrypi.com/news/host-your-own-mastodon-instance-on-a-raspberry-pi/)._

@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqlhyes2p"
 ---
 
 My employer has started blocking [1Password.com](https://1password.com/) recently, breaking my ability to access my passwords and Two-Factor Authentication (2FA) details using the browser extension. I can still get these details on my phone, but typing a completely random 22-character password by hand is far from ideal, and a bit of a pain in the rump, to be honest. This isn't their most egregious "security theatre" policy, but it is one of the most impactful (to me).

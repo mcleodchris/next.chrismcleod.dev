@@ -11,6 +11,7 @@ tags:
   - movies
   - books
   - meme
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6lsis2p"
 ---
 
 [John](https://web.archive.org/web/20060422031025/http://www.joshuaink.com/) has just passed me the new _meme_ that’s doing the rounds. This one’s something to do with a literary stick. Is that a book club? (ok, ok, that was a _really bad joke_!)

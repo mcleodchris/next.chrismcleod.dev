@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 redirectFrom: ['/2022/12/02/micro-blog-adds-tentative-support-for-moving-from-mastodon/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhvjc22p"
 ---
 
 _Bookmarked [https://www.manton.org/2022/12/02/moving-from-mastodon.html](https://www.manton.org/2022/12/02/moving-from-mastodon.html)._

@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4ncis2p"
 ---
 
 I’m pretty OS agnostic. I’ll use the best tool for whatever the job is at the time. For my main computer I’ve switched between Windows and Linux, replaced the PC with various Macs for a time… just whatever is needed.

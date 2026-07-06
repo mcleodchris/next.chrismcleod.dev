@@ -8,6 +8,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbtpp22p"
 ---
 
 Heard the new Metallica single, “St Anger”, last night. Loads of people had told me that it was crap, prior to me hearing, but I actually quite like it. It's different, for Metallica.

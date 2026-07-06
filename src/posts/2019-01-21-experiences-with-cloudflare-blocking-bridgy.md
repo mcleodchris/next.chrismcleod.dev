@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqohzmk2p"
 ---
 
 I just had a weird issue where Cloudflare was blocking [Bridgy](https://brid.gy/) from syndicating posts from my site.

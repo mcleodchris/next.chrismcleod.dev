@@ -4,6 +4,7 @@ date: 2024-06-09T14:20Z
 tags:
   - personal
   - habits
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqeiwok2p"
 ---
 
 I was planning to write a blog post about getting up early in the near future, but [Johnny Decimal went and beat me to it](https://johnnydecimal.com/22.00.0058/), so that spurred me to write it sooner.

@@ -9,6 +9,7 @@ archived: true
 tags:
   - web-design
   - links
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqxxrds2p"
 ---
 
 [Brent Simmons writes](http://inessential.com/2014/11/25/web_performance):

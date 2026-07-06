@@ -6,6 +6,7 @@ categories:
 tags:
   - programming
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3s4f22p"
 ---
 
 Back in the mists of time, when I was in University[^1], one of the very first principles we were taught was writing [pseudo-code][pc].

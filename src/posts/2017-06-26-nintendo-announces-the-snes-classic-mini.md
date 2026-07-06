@@ -11,6 +11,7 @@ tags:
   - nostalgia
   - nintendo
   - gaming
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyquq2yc2p"
 ---
 
 Nintendo have announced the (predicted) SNES version of their Classic Mini. I’ve already registered to be notified of the preorder. The list of 20 games included on the system has some of my facourite games of _all time_. There’s a [previously unreleased](https://en.wikipedia.org/wiki/Star_Fox_2) _Star Fox 2_ too. Even if it hadn’t had 7 games I absolutely **love**, I’d have preordered based on how much fun we’ve had with last year’s NES version.

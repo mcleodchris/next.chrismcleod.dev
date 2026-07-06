@@ -12,6 +12,7 @@ tags:
   - warhammer
   - warhammer-40000
   - armies-on-parade
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqrvhl22p"
 ---
 
 I've wanted to enter [Armies on Parade](https://armiesonparade.com/) for several years now, but I've never managed to get myself organised in time. This year might go the same way, but I've at least started on the display board, which is further than previous years!

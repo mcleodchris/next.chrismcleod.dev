@@ -10,6 +10,7 @@ archived: true
 tags:
   - security
   - link
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqptzt22p"
 ---
 
 [Krebs on Security recently wrote about investigations into the wave of extortion spam](https://krebsonsecurity.com/2018/08/whos-behind-the-screencam-extortion-scam/) doing the rounds. As chance would have it, I recently started receiving these emails myself. I've had three, so far, over the last week or so. All from the same _@yahoo.jp_ email address (obviously not the real origin), and all with slight variations on the same message, and a unique Bitcoin wallet each time. For example:

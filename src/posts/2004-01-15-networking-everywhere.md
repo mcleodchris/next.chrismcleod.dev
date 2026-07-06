@@ -9,6 +9,7 @@ archived: true
 tags:
   - technology
   - networking
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyra2inc2p"
 ---
 
 From [The Register](https://web.archive.org/web/20050414024039/http://www.theregister.co.uk/content/69/34894.html "The Register")

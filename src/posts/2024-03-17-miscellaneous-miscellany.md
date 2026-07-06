@@ -4,6 +4,7 @@ date: 2024-03-17T20:26Z
 tags:
   - site-meta
   - miscellaneous
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqew2m22p"
 ---
 There's a lot going on, and my brain is a noisy place at the moment, so I thought I've got a lot of small updates in one post today, rather than a more focussed single-topic post.
 

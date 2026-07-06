@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3v6222p"
 ---
 
 I'm not gonna lie - Android 4.1 (Jelly Bean) looks pretty nice.

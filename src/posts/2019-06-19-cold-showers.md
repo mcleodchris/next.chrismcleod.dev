@@ -11,6 +11,7 @@ tags:
   - link
   - miscellaneous
   - mental-health
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqmo34s2p"
 ---
 
 > [I Took A Freezing-Cold Shower Every Morning For A Month & This Is What Happened - Refinery29 UK](https://apple.news/A90rz9h9KSYCd330RYqpOsw)

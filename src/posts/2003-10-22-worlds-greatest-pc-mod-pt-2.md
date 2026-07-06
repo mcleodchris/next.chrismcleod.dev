@@ -8,6 +8,7 @@ authors:
 archived: true
 tags:
   - pc-building
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrarxmk2p"
 ---
 
 [Bit-Tech](http://www.bit-tech.net/ "Bit-Tech") have just posted [the second article following the Orac3 Mod.](http://bit-tech.net/article/116/ "Part 2 of the Orac3 Mod article")

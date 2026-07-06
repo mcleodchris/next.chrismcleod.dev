@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 youtube: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqyrpgc2p"
 ---
 
 Amazon's take on a Siri-like service is [a dedicated device called Echo](http://www.amazon.com/oc/echo), which sits in your home *always listening*. It's a could service connected microphone and speaker which will answer questions, give you the news, and play music from a handful of services.

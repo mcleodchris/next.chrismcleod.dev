@@ -9,6 +9,7 @@ authors:
 archived: true
 tags:
   - social-media
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqt4pgk2p"
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/9c4c1e9c-794e-4ce7-b617-ed4882c98160.jpg", "August 17th I am out #deactiday" %}

@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyquv72c2p"
 ---
 
 The algorithm-driven [Instagram](https://www.instagram.com/misterkapowski/) feed was rolled out a while ago, but it's only recently I've noticed much of a difference. Unfortunately the difference, particularly in the last couple of weeks, has been increasingly negative. So much so I _really_ wish there was a way to opt-out!

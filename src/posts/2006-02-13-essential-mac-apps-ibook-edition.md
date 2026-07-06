@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5lwxs2p"
 ---
 
 Something I like to do for each of my Macs, is keep a backed-up folder containing all the “essential” apps for both machines (along with all registration codes for easy reinstallation). I was updating my iBook copy this evening and thought I’d share. Some of these are generic apps that I’d use on either machine, while others are iBook specific.

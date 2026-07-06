@@ -31,6 +31,7 @@ gallery:
   - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/B7254103-F566-4BE4-99A1-AFB9FCE97DCC.jpeg
     alt: 'A orthographic map of the Imperial Palace, in a hand-drawn style. It shows the general layout of the surrounding area. There is a callout which shows the Helios Gate area in more detail'
     caption: ''
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqmbrl22p"
 ---
 
 {% include "components/gallery.njk" %}

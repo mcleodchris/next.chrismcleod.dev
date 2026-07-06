@@ -12,6 +12,7 @@ tags:
   - indieweb
   - open-source
   - wordpress
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqotvis2p"
 ---
 
 I've been [chipping away at K](/blog/the-road-to-open-sourcing-k-for-wordpress/) as time allows over the last week. It's still a long way from where I'd like it to be, but it's getting there...

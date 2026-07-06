@@ -9,6 +9,7 @@ archived: true
 tags:
   - blogging
   - social-media
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqq5lic2p"
 ---
 
 > Your "thread" should have been a blog post…

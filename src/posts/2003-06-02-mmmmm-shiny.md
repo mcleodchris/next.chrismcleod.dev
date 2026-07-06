@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbrw3c2p"
 ---
 
 My GeForce 4 Ti 4800 also arrived today. Unreal Tournament never looked so good! 1280\*1024, with all detail levels set to highest... and it never once dropped below 38fps during an intense 12 bot deathmatch.

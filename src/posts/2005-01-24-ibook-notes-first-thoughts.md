@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr76fa22p"
 ---
 
 I’ve had my iBook for about 48 hours now, and I’m beginning to find my way. OS X (or is it OSX?) is a completely new experience to me, but I think I’m taking to it rather well. I’m still getting used to the difference between *shutting* an application and *quitting* an application, but that’ll come in time! For what it’s worth, I wanted to jot down my initial experiences and reactions with the switch. I won’t go into too much detail just yet – I’ll save that for later articles.

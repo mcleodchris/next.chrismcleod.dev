@@ -8,6 +8,7 @@ authors:
 archived: true
 tags:
   - mozilla
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyravb3k2p"
 ---
 
 A few days late with this one, but hey-ho…

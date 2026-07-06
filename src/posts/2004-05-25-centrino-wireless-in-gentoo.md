@@ -11,6 +11,7 @@ tags:
   - linux
   - laptops
   - how-to
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr7ul6s2p"
 ---
 
 Centrino is the big thing in laptops at the moment. Longer battery times despite more powerful processors and inbuilt 802.11b wireless. Unfortunately, Intel have yet to provide Linux support for the wireless component of Centrino and are a little cagey as to when it will be available.

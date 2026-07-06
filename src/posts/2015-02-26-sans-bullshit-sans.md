@@ -8,6 +8,7 @@ authors:
 archived: true
 tags:
   - typography
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwg6gk2p"
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/02/sansbullshitsans.png", "sans bullshit sans type sample" %}

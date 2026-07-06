@@ -7,6 +7,7 @@ tags:
   - pixelfed
   - fediverse
   - bluesky
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqdxmxs2p"
 ---
 
 A few days ago I came across [a blog post that reminded me that I had intended to bridge my fediverse accounts](https://solarbird.net/blog/2025/01/09/lets-all-go-to-the-exit/) to Bluesky using Bridgy Fed. I tend to cross-post most "micro blog" text posts to both Mastodon and Bluesky anyway, but occaisionally I post something to one place or the other. Plus, I've just setup a Pixelfed account for photo sharing and it turns out you can bridge that in the exact same way.

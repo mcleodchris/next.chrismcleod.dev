@@ -10,6 +10,7 @@ authors:
   - chris
 image: https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0509-scaled.jpg
 redirectFrom: ['/2021/06/22/aberdeen-art-gallery-june-2021/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqj5mik2p"
 ---
 
 It's been a very long time since I visited the art gallery. Almost a decade, in fact. When the refurbishment was completed in late 2019 I heard a lot of good things, but before I could get around to paying a visit, COVID hit and we were all locked indoors.

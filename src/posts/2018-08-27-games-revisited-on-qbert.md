@@ -6,6 +6,7 @@ categories:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqp7ws2p"
 ---
 
 [Games Revisited on Q\*Bert](https://gamesrevisited.com/2018/08/27/qbert-gottlieb-1982-arcade/):

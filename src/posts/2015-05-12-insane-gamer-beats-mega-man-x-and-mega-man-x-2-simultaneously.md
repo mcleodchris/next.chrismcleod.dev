@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 youtube: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvxjok2p"
 ---
 
 And with only one input controller as well! Both games are setup next to each other, and are taking input simultaneously from the same controller.

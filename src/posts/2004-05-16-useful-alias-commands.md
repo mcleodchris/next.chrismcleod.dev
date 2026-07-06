@@ -10,6 +10,7 @@ tags:
   - linux
   - tips
   - bash
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr7y3ik2p"
 ---
 
 If – like me – you do a lot of “tinkering” with your Gentoo installation, you’ll invariably end up typing a lot of commands over and over again.

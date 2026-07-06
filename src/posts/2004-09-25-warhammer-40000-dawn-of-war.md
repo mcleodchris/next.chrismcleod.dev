@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr7esck2p"
 ---
 
 > What’s that? A *bloody good* game based on Warhammer 40,000? Are you sure? Well, wonders never cease…

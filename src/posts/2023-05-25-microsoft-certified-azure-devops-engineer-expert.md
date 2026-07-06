@@ -13,6 +13,7 @@ authors:
   - chris
 image: https://assets.chrismcleod.dev/chrismcleod.dev/2023/05/microsoft-certified-devops-engineer-expert.png
 redirectFrom: ['/2023/05/25/microsoft-certified-azure-devops-engineer-expert/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqgw3gk2p"
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/2023/05/microsoft-certified-devops-engineer-expert.png", "Microsoft Certified: DevOps Engineer Expert" %}

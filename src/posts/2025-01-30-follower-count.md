@@ -7,6 +7,7 @@ tags:
   - mastodon
   - fediverse
   - bluesky
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqdsrp22p"
 ---
 
 For the last 2-3 months I've been running an experiment on my use of social media. I wanted to see what works best for me now, compared to assumptions I've carried for the last few years. For the last several years (since around 2017 or so…) I've been conservative on the number of accounts I follow on any given platform. "Carefully curated", you might say. Mainly this was so I didn't feel overwhelmed trying to keep up with every update in a busy feed. As the social media landscape got progressively worse, it seemed a prescient choice. It's worked well for me, but it's always good to see if another way could be better. The rise of Bluesky gave me the opportunity to try something different.

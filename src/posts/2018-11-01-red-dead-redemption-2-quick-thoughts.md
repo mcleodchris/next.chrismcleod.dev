@@ -9,6 +9,7 @@ archived: true
 tags:
   - gaming
   - red-dead-redemption
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqpazgc2p"
 ---
 
 A few summary thoughts, now I've managed to play Red Dead Redemption 2 for a few hours

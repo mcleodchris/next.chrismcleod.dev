@@ -12,6 +12,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzsxus2p"
 ---
 
 For someone who's primarily a developer/support person, I spend a lot of time setting up and configuring - [or fixing](http://chrismcleod.me/2013/09/04/developers-and-ring-rust/) - servers. I guess this came from an eagerness to learn and I got tarred with the "Linux/Server" Guy brushes at some point!

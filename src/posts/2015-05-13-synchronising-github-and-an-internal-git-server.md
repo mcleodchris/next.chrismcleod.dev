@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvvxus2p"
 ---
 
 **Note:** I found this mini How-To while having a clean-up of [my GitHub repositories](https://github.com/chrismcabz/). I figured it would be worth sharing on my blog. Hopefully it is of use to someone. Warning: bad ASCII art ahead!

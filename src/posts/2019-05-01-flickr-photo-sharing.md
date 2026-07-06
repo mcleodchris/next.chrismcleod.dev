@@ -10,6 +10,7 @@ tags:
   - social-media
   - photos
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnamus2p"
 ---
 
 With the recent change in ownership, I’ve been wondering if Flickr could become a viable alternative to Instagram for photo sharing (again)? I have a nostalgic view of Flickr, even though I haven’t used it in years. I closed my account, but I’d like to see them do well, and could be convinced to sign up.

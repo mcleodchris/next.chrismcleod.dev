@@ -12,6 +12,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyquzmnk2p"
 ---
 
 So after the preamble, which should give you a frame of reference to what I'm aiming to do in this mini-series of posts about improving my online privacy and security, this short post will talk about the first steps I'm taking to tighten everything up. As this is all at the very beginning of my learning journey, all of these might change in the future. If they do, I will update the post and add a comment below.

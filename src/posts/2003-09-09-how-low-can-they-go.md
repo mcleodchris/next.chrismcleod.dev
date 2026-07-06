@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrb2bak2p"
 ---
 
 [The RIAA is sueing a 12 year old girl, for "massive copyright infringements through file-swapping".](https://web.archive.org/web/20040921212914/http://www.theregister.co.uk/content/6/32731.html "RIAA suing 12 year old girl") Under legislation, this could mean her paying "damages" of upto $150,000 *per song*.

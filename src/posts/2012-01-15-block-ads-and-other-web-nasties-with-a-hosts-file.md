@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3wuq22p"
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2012/01/screen-shot-2012-01-15-at-21-49-39.png",  "Screen Shot of my Hosts File" %}

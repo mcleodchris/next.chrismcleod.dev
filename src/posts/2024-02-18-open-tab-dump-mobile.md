@@ -5,6 +5,7 @@ tags:
   - link-list
   - blogging
   - blogging-tools
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqfglvk2p"
 ---
 I had a *lot* of tabs open in Mobile Safari. It was kinda getting a bit overwhelming to have to scroll through them all to find a particular one, or if I already had something I was about to search for open.
 

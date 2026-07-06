@@ -9,6 +9,7 @@ authors:
   - chris
 archived: true
 youtube: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2eqac2p"
 ---
 
 Wireless charging is one of those things I really, _really_ want to succeed. I hate plugging stuff in; I hate having wires trailing all over the place, and I hate having to fiddle with connectors. Eight times out of ten I will try to plug in a micro-USB any cable upside down on the first attempt.

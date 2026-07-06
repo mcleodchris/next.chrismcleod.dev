@@ -5,6 +5,7 @@ tags:
   - link-list
   - blogging
   - blogging-tools
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqezlv22p"
 ---
 
 Second in [an irregular series](https://chrismcleod.dev/blog/open-tab-dump-mobile-edition-2024-02-18/) where I dump all the open tabs I have open in Mobile Safari.

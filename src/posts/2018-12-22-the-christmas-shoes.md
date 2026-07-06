@@ -8,6 +8,7 @@ authors:
 archived: true
 tags:
   - personal
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqp2s7c2p"
 ---
 
 I took a trip with the family to the Christmas village today; before we left, one of the girls insisted, almost to the point of tears, that she wear her little sparkly shoes with a heel, rather than the warmer and more sensible boots. Eventually I gave in, as it wasn’t that big a deal.

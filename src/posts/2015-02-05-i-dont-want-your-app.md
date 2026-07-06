@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwsjws2p"
 ---
 
 Ads and websites which automatically redirect your iPhone to the App Store[^1] need to stop being a thing.

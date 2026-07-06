@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 redirectFrom: ['/2023/05/11/a-hello-world-for-bluesky-the-at-protocol/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqgxs4k2p"
 ---
 
 ## Preamble

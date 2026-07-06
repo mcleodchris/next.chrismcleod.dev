@@ -13,6 +13,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzzhv22p"
 ---
 
 Skills are much like muscles: if you don't use them for a while they start to atrophy. They say you never forget how to ride a bike, but there are many skills where you *will* forget things if you don't do them frequently. The collection of skills needed to be a developer are no exception to the rule.

@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr53z7c2p"
 ---
 
 I loves me some [jQuery](http://www.jquery.com/) – without it I probably wouldn’t write any JavaScript at all (seriously, I *hate* the stuff). Anyway, today I needed to add some “open in new window” links to an internal application using jQuery. Being the Standardista I am, I wanted to make it **a)**Accessible, and **b)** [Unobtrusive](http://onlinetools.org/articles/unobtrusivejavascript/) . If the user has JavaScript disabled (it happens, even on “controlled”, intranet environments), the link should just go to the new page anyway — new window be damned.

@@ -10,6 +10,7 @@ tags:
   - software
   - microsoft
   - rant
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwxmzk2p"
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/01/silverlight-upgrade-warning.png", "Silverlight Upgrade Warning" %}

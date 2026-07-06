@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvr5lc2p"
 ---
 
 So after the saga which was getting rid of a legacy Google Apps service on my "main" Google Account, I had to create a new one. I thought it worth sharing the experience of this, to round out the story.

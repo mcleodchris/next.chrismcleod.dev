@@ -10,6 +10,7 @@ tags:
   - writing
   - links
   - tip
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqxseik2p"
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/11/b3ikisriyaae9ps.png", "B3iKIsRIYAAE9ps" %}

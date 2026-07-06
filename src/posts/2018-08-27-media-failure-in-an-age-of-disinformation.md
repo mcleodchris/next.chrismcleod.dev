@@ -6,6 +6,7 @@ categories:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqnr2s2p"
 ---
 
 > What we are witnessing is not just a collapse of media standards, mutating by a combination of churnalism, heightened political tribalism, diminishing budgets and advanced tabloidisation, but a cycle of 24 Hour News and ‘new’ social media competition.

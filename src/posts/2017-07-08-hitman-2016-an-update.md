@@ -10,6 +10,7 @@ archived: true
 tags:
   - gaming
   - hitman
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqtqsyc2p"
 ---
 
 I'm having a \_lot\_ of fun in Hitman. I'd go so far to say it's surpassed \_Hitman 2\_ as my favourite entry in the series.

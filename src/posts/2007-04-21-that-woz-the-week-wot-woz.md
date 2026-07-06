@@ -9,6 +9,7 @@ archived: true
 tags:
   - miscellaneous
   - personal
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4u3cc2p"
 ---
 
 If you thought I’d maybe given up on this blog _already_ (what is it? A week?), I’m sorry to disappoint you. Truth is, I’ve been quite busy this week, with **lots** going on, here there and everywhere. Instead of splitting things into multiple posts for more page views, I’m going to run through everything in one go:

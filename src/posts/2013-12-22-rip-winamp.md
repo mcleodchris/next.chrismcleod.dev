@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzm36c2p"
 ---
 
 [Winamp](http://www.winamp.com/) shutdown yesterday. Even though I hadn't used it in years, this makes me a little sad, as Winamp was iconic. It was a hero of the early world-wide web, helping to kick-start the internet music age for a great many people like myself.

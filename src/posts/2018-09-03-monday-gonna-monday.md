@@ -8,6 +8,7 @@ authors:
 archived: true
 tags:
   - personal
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqq7e4s2p"
 ---
 
 5:06am -- wake up because I had a panic attack _in a dream_. As in, I dreamt I had a panic attack, without actually having a panic attack.

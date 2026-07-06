@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4hwms2p"
 ---
 
 [I previously wrote](/blog/in-search-of-the-electronic-book/ "In Search of the Electronic Book") about my search for the “promised land” of the electronic book. In that article I wrote about what I was looking for, why, and finished off looking at the top three contenders for my cash.

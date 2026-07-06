@@ -4,6 +4,7 @@ date: 2023-11-28T17:21Z
 tags:
     - software
     - default-apps
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqgh7ts2p"
 ---
 
 I came across this collection of "what apps am I using?" posts via [Manton](https://www.manton.org/2023/11/28/default-apps-for.html), and thought it would be fun take part. If you want to see what others have posted, [Robb Knight is compiling a list](https://defaults.rknight.me/).

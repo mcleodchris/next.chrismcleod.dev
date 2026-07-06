@@ -11,6 +11,7 @@ authors:
   - chris
 redirectFrom: ['/2023/01/07/the-little-library/']
 youtube: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhat6k2p"
 ---
 
 We found a cute, but unused “little library” while out on a walk. As she’s always got some to hand, [Caley](https://youtube.com/@KapowskiReads) left a couple of books to get it started.

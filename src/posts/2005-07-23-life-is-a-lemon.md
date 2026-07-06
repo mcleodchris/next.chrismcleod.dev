@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6i3ec2p"
 ---
 
 4 weeks without an update? Dear me, that won’t do! No, I didn’t disappear because I became an online gambling addict. Instead, I’ve been spending time in **hospital** 4 weeks ago, I suffered a **stroke** that lead to a **brain haemorrhage** (Now there’s a fucker of a word to spell!) which required surgery. The upshot being that I’m OK (now, though I’m now sporting a lot less hair on my head and a lot more facial hair), though I have to go back to hospital tomorrow evening to complete my physiotherapy (I’m out for today and tomorrow morning on “weekend pass”) as the stroke let me temporarily paralysed on my left side – I’ve got most motion back, though my left limbs are pretty weak at the moment. typing is a fucker – this entry was almost done as a podcast from my hospital bed, but I couldn’t get peace on the ward to record it.

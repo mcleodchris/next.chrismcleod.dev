@@ -5,6 +5,7 @@ title: Default Apps for 2025
 tags:
   - software
   - default-apps
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqdivc22p"
 ---
 
 It's that time of [year](https://chrismcleod.dev/blog/default-apps-for-2024/) [again](https://chrismcleod.dev/blog/default-apps-for-2023/). I've been seeing people's update posts pop up in my feed reader this morning, so it's time to look at my default apps for this year. There are a few changes this year, as I've started a long plan of detangling from major centralised services and moving to more self-hosting and smaller platforms. As before I've marked updates with a ✨ emoji.

@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 redirectFrom: ['/2021/08/19/varying-degrees-of-depth/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqirdw22p"
 ---
 
 I'm studying for the MS-900 exam (yes, yes, I know [I said I was going to take a break from exams](/2021/07/29/microsoft-certified-security-compliance-and-identity-fundamentals/)…), and one thing I'm really struggling to reconcile in my head is that all of the security-related questions are **much** more technically in-depth than any of the questions I remember getting in the security-focussed SC-900 exam or its preparation material. In fact, a lot of the questions seem to be more in-depth than the equivilent tests for most of the other Fundamentals-level exams I've studied for.

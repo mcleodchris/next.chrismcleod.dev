@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6kboc2p"
 ---
 
 I’ve been “on holiday” this week. With everything that I’ve got going on at the moment, that simply means I’m not working the day job for a week. It’s given me a chance to sample **working from home**, which has been a good – if somewhat strange – experience.

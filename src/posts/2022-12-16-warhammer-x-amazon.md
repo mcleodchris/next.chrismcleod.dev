@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 redirectFrom: ['/2022/12/16/warhammer-x-amazon/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhs5uk2p"
 ---
 
 With the news that Amazon Studios, in partnership with Henry Cavill and Vertigo Pictures, are [buying the film and TV rights to the Warhammer 40,000 IP](https://www.warhammer-community.com/2022/12/16/warhammer-starring-henry-cavill/), I have a couple of initial thoughts:

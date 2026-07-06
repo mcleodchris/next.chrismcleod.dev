@@ -11,6 +11,7 @@ tags:
   - jekyll
   - blogging
   - how-to
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqtkhuc2p"
 ---
 
 ### 1\. Sublime Text (Portable) + Plugins

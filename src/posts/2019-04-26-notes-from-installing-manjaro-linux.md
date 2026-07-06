@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnct6s2p"
 ---
 
 [I mentioned](/blog/i-miss-linux/) that I was thinking about installing [Manjaro Linux](https://manjaro.org/)... well I went ahead and did it. Not even just a little, by dual-booting with Windows 10. No, I wiped everything and just went for it as my one and only operating system. What follows is my notes from the install, so if I want to get back to where I was at some point in the future, I can retrace my steps.

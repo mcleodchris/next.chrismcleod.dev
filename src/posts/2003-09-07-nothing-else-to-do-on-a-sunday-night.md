@@ -9,6 +9,7 @@ archived: true
 tags:
   - personal
   - linux
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrb76hs2p"
 ---
 
 Then build your own Linux distro! Fun for all the family!

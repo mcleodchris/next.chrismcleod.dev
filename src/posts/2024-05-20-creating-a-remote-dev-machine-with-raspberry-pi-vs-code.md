@@ -5,6 +5,7 @@ tags:
   - software-engineering
   - raspberry-pi
   - vs-code
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqep6us2p"
 ---
 I recently came into possession of a Raspberry Pi 5B, and was trying to figure out what to do with it. I came across this article by Jim Bennett on [setting up a headless Raspberry Pi 4 as a headless development machine](https://www.raspberrypi.com/news/coding-on-raspberry-pi-remotely-with-visual-studio-code/), and it got the cogs turning.
 

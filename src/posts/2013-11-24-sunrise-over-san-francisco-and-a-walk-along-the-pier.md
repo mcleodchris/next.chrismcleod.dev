@@ -44,6 +44,7 @@ gallery:
   - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/11/image13.jpg
     alt: 'A large sculpture of a bow-and-arrow, sunk into the grassy ground, with the tip of arrow and some of the bow obscured by the ground. The fletchings of the arrow are bright red, and its shaft is painted white. The bow is a golden yellow colour. In the background are palm trees, some buildings of the San Francisco skyline, and a bright blue sky'
     caption: ''
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqznstk2p"
 ---
 
 {% include "components/gallery.njk" %}

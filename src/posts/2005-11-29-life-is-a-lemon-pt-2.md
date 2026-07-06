@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5qqc22p"
 ---
 
 Sometimes, Life really does turn around and bite you on the ass. Regular readers will know that [back in the summer I had a stroke](/blog/life-is-a-lemon/ "Life is a Lemon"). Since I was released from Hospital care things had been going a lot smoother. I got married, I went back to work, and life in general was getting back to normality. Until yesterday morning, that is.

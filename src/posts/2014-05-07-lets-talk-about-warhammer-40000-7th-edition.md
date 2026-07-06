@@ -12,6 +12,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzfces2p"
 ---
 
 The Rumour Mill has been [frothing for months](http://natfka.blogspot.com/2013/12/7th-edition-40k-not-65.html) about a "revised" version of 40K 6th Edition. In the last couple of days there have been [leaks from White Dwarf Weekly](http://natfka.blogspot.com/2014/05/leaks-for-7th-edition-and-valhalla.html) confirming it was happening - and it appears to be a whole new edition.

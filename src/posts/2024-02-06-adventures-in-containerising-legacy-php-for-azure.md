@@ -7,6 +7,7 @@ tags:
   - containers
   - azure
   - developer
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqfpzns2p"
 ---
 ## Context
 For the last 18 years or so I've been looking after a small, bespoke, PHP application for a small local business. It started off as a "hey, can you help someone I know with a problem? There might be something in it for you…" at my then-employer and all these years later it's still going.

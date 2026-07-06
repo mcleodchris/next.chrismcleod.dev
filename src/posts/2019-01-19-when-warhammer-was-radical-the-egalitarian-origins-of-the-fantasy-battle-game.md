@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqojnes2p"
 ---
 
 There’s some seriously cool and interesting deep cuts of [Games Workshop and Warhammer history in this article](https://wearethemutants.com/2019/01/14/when-warhammer-was-radical-the-egalitarian-origins-of-the-fantasy-battle-game/).

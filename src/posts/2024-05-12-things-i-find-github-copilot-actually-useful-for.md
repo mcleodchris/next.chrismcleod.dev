@@ -6,6 +6,7 @@ tags:
   - AI
   - github
   - copilot
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqesmas2p"
 ---
 
 I've been lightly using Github Copilot in a personal capacity for almost a year, and I'm probably going to get to use it on work projects in the near future. I thought I'd take a moment to collect my thoughts on where I've found any value in using it, as well as acknowledge some of the shortcomings I've experienced.

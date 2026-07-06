@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqw4kss2p"
 ---
 
 Great research from Ara Labs into [how scammy advertisers are working around the restrictions](http://aralabs.com/blog/2015/03/12/safari-to-app-store-redirect-from-ad-on-ios-8-2/) Apple put in place to stop the super annoying ["redirect to the App Store"](http://chrismcleod.me/2015/02/05/i-dont-want-your-app/ "I Don’t Want Your App") behaviour.

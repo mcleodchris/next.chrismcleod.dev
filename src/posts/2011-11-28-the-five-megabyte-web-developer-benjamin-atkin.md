@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr44ig22p"
 ---
 
 [The Five Megabyte Web Developer | Benjamin Atkin](http://benatkin.com/2011/11/27/the-five-megabyte-web-developer/).

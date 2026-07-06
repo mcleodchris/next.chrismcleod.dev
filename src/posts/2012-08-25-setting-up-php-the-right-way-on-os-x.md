@@ -12,6 +12,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3gdgk2p"
 ---
 
 _\* By "The Right Way", I mean following the guidance and practices at the [PHP: the Right Way website](http://www.phptherightway.com/ "PHP: The Right Way"). I make no claims this is the "best" way :-)_

@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4l74k2p"
 ---
 
 Thursday saw the public release of [Windows 7](http://www.microsoft.com/windows/windows-7/ "Windows 7 - Microsoft.com"), and as with any OS upgrade, it’s a chance for a fresh start, a chance to pair our software installs back to the minimum we need. It’s all with the good intention to keep our computer leaner and faster than before.

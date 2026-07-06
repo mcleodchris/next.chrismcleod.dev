@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqno2ks2p"
 ---
 
 [Autonomie WordPress Theme](https://github.com/pfefferle/Autonomie)

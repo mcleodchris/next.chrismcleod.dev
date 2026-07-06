@@ -8,6 +8,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyralkk22p"
 ---
 
 A few articles I've found interesting, on this dull Monday morning, collected by [FeedDemon](https://web.archive.org/web/20041124024147/http://www.feeddemon.com/feeddemon/ "FeedDemon - RSS News Aggregator"):

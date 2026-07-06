@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4qyo22p"
 ---
 
 With all this [iPhone hoo-ha](http://www.apple.com/iphone/) happening of late, I’ve finally started thinking about this [“mobile web” thing](http://mobilewebbook.com/). It’s been hard not to, with all [the noise about iPhone SDKs](http://web.archive.org/web/20070830154832/http://developer.apple.com/iphone/designingcontent.html) - or [lack thereof](http://daringfireball.net/2007/06/wwdc_2007_keynote). Personally, I’m all for the whole web app thing when it comes to phones. Maybe it’s just me, but it makes sense. Obviously there’s the local data storage issue, but I’m sure some bright spark will figure out a solution some day.

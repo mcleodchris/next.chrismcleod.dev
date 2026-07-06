@@ -10,6 +10,7 @@ archived: true
 tags:
   - security
   - personal
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqpqsck2p"
 ---
 
 I got an email from BA about this, first thing this morning, but per [The Guardian](https://www.theguardian.com/business/2018/sep/06/british-airways-customer-data-stolen-from-its-website):

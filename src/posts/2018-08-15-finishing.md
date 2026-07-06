@@ -10,6 +10,7 @@ archived: true
 tags:
   - personal
   - projects
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqsptd22p"
 ---
 
 [This post, by Steve Smith](https://orderedlist.com/blog/finishing/), speaks to me and my constant struggles to finish projects:

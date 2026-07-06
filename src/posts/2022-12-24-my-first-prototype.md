@@ -12,6 +12,7 @@ authors:
   - chris
 image: https://assets.chrismcleod.dev/chrismcleod.dev/2022/12/img_1488-2.jpg
 redirectFrom: ['/2022/12/24/my-first-prototype/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhmytc2p"
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/2022/12/img_1488-1.jpg", "A 3D printed prototype of my 'MagPuck' jig for adding magnets beneath wargaming bases. It is a grey plastic block with a recess for a base. At the bottom of the recess is a further recess which holds a 6mm x 2mm magnet. A small area has been carved away at the edge of the base recess to allow for levering the base out" %}

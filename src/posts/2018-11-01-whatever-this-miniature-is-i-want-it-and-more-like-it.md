@@ -11,6 +11,7 @@ tags:
   - warhammer
   - warhammer-40000
   - miniatures
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqp7hmk2p"
 ---
 
 I don't know what this is, beyond a "[Spindle Drone](https://www.warhammer-community.com/2018/10/31/31st-oct-the-hunt-for-the-blackstone-fortress-3-the-fortressgw-homepage-post-1/)" from the upcoming [Warhammer Quest: Blackstone Fortress game](https://www.warhammer-community.com/2018/10/29/29th-oct-the-hunt-for-the-blackstone-fortress-1-the-precipicegw-homepage-post-1/), but it sure has got me interested and excited to find out more! In 25 years, I can't recall ever before seeing or reading about anything like it in the _Warhammer 40,000_ lore.

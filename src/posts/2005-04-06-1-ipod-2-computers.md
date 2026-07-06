@@ -11,6 +11,7 @@ tags:
   - apple
   - music
   - ipod
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6vvqk2p"
 ---
 
 I’ve googled and I’ve browsed various forums and haven’t found the answer, so I’ll put my plea here. Is there an easy way to share one iPod between 2 computers? Normally, I just sync my 20GB iPod at home and leave it at that. However, the full-sized iPod started to feel a bit bulky to be carrying around all the time – so I’ve just bought myself a 1GB iPod Shuffle for the daily commute. Now I’d like to be able to sync it at home _and_ at work.

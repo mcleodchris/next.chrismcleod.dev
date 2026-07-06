@@ -8,6 +8,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3cr6c2p"
 ---
 
 [Understanding Ego Depletion](http://danariely.com/2012/08/15/understanding-ego-depletion/).

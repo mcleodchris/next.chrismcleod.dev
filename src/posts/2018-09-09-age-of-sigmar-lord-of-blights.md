@@ -11,6 +11,7 @@ tags:
   - warhammer
   - miniatures
   - age-of-sigmar
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqpnlrc2p"
 ---
 
 Earlier this year I painted up a Lord of Blights, from Warhammer: Age of Sigmar, for a local painting competition. I posted it all over social media at the time, but never got around to posting it here. So consider that oversight corrected!

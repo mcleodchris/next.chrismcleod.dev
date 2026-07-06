@@ -12,6 +12,7 @@ authors:
   - chris
 youtube: true
 redirectFrom: ['/2023/01/05/magpuck-prototype-v2/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhelcc2p"
 ---
 
 I posted a short while ago about [my first prototype "MagPuck" base magnetising jig](https://chrismcleod.dev/2022/12/24/my-first-prototype/), and how I had some ideas to improve it. Well, I have v2 completed, and have been testing it out over the last week or so, and I love it (mostly - there are some bits that need refined still)

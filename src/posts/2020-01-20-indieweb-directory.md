@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqkz6qk2p"
 ---
 
 This post has two main purposes in my mind: write an idea down, in case I find myself able to return to it; put the idea “out there,” in case anyone else wants to pick it up and run with it.

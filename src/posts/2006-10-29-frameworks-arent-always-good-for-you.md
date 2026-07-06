@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr55mxk2p"
 ---
 
 So I’m writing my first serious bit of PHP in *aaaages*. This last few months, I’ve either been adapting [existing](http://www.wordpress.org/) [systems](http://www.textpattern.com/) to fit the bill, or I’ve been writing ASP (all while learnng [Ruby on Rails](http://www.rubyonrails.com/)).

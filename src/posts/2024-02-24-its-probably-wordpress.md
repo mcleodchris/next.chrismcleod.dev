@@ -4,6 +4,7 @@ date: 2024-02-24T23:46:00
 tags:
   - blogging
   - tip
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqfcaas2p"
 ---
 
 I can't remember when exactly I started doing this, but if I come across a website that doesn't [explicitly advertise an RSS feed](https://rknight.me/blog/please-expose-your-rss/), I try appending `/feed/` to the domain[^1]. For example https://example.com/feed/. A lot of the time - possibly the majority in the last few years - this returns an RSS feed. This has been particularly handy for sites like local or industry-specific news sites that would prefer me to sign up to a subscription or account I just don't want.

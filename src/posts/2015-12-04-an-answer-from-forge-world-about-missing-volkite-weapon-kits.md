@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqve7jc2p"
 ---
 
 If - like me - you were eying up the Volkite Weapon Kits from Forge World as a means of expanding the Betrayal At Calth box set, but we're dismayed to find them sold out and "no longer available" (as opposed to "Temporarily out of stock"), then fear not!

@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqiny22p"
 ---
 
 I've been granted some WoW in-game time as a resolution to an old support ticket, so I'm able to jump onto my higher-level characters again. I'm comparing the experience to the one I had with [the new character I started earlier](/blog/hello-again-elwynn-forest/), and… hooo-boy the experience on my 110 Paladin was confusing. I stopped playing pretty early in Legion's lifecycle, so when I logged in I was prompted to do the Legionfall scenario straight away, then after 1 quest or so, I was immediately whisked off to start Argus. While I'm on my way to Argus, I'm prompted to start the Siege of Lordaeron, leaving me wondering what content is actually worth playing through. Playing the Siege would net me a shiny new weapon, but no way to follow up on that storyline until I drop £40-£53 on Battle for Azeroth.

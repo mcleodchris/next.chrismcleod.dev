@@ -9,6 +9,7 @@ archived: true
 tags:
   - link
   - management
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqso4n22p"
 ---
 
 A great article by Rands on managing the communication of changes to groups of people - [Kobayashi Maru Management](http://randsinrepose.com/archives/kobayashi-maru-management/):

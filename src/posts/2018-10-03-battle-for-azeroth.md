@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqpe2422p"
 ---
 
 A few weeks back I caved and bought the _Battle for Azeroth_ expansion for _World of Warcraft_. No, that's not why I didn't blog much in the last 2 weeks of September. Anyway, I played it heavily for the first few days I had it; I leveled my "main" (a Human Protection Paladin) to level 120 _very_ quickly. Surprisingly quickly in fact. I just followed the quest chains, and by the end of my first session I was already at 116 or so. By the end of the weekend I was at 118, and with a couple of hours mid-week, I was at max level. In Legion, using similar play patterns, it took me a couple of weeks to reach 110.

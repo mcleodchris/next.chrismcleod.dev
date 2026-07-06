@@ -12,6 +12,7 @@ tags:
   - blogging
   - how-to
   - feeds
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqtwuds2p"
 ---
 
 I can’t take credit for this – I found the code below ([from vallieres](https://github.com/vallieres/jekyll-json-feed)) after a quick search for adding [feed.json](https://jsonfeed.org/) to Jekyll without plugins. The only thing I’ve added is the `sitemap` front-matter which will exclude the output file from our [sitemap.xml](/blog/add-a-sitemap-to-your-jekyll-site/)

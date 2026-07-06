@@ -11,6 +11,7 @@ tags:
   - networking
   - servers
   - how-to
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqui62k2p"
 ---
 
 It's super simple. Just include a `push` directive in your site definition. You can leave it as just that, and Caddy will use any [Link HTTP headers](https://www.w3.org/wiki/LinkHeader) to figure it out.

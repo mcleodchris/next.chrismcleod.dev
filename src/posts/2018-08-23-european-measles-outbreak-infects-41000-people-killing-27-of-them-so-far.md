@@ -6,6 +6,7 @@ categories:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqrcwsc2p"
 ---
 
 [European measles outbreak infects 41,000 people, killing 27 of them (so far)](https://boingboing.net/2018/08/21/europe-has-got-the-measles.html). Vaccinate your kids, for goodness' sake.

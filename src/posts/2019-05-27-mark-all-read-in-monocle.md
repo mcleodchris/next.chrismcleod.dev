@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqmx46s2p"
 ---
 
 If you're a [Monocle](https://monocle.p3k.io) user, you might have noticed a new feature in your UI today. If you self-host, you'll want to update your installation to the [latest version](https://github.com/aaronpk/Monocle). Two nice "quality of life" features have gone live, and I'm a little excited, because I [helped build](https://github.com/aaronpk/Monocle/pull/38) one of them 😁

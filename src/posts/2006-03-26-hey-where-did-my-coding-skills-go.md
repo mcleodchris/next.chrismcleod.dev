@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5icr22p"
 ---
 
 Today I fired up TextMate to do my first bit of serious PHP coding since [my stroke](/blog/home-from-hospital/ "Home from Hospital"). I’ve been almost entirely XHTML/CSS since getting out of hospital last August, with a *little* light coding (ASP mostly) since then.

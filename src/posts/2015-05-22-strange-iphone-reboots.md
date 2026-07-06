@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvppok2p"
 ---
 
 Over the last couple of weeks, my iPhone 5S has been rebooting itself during the night. Once (last Saturday) it got stuck in a reboot loop on the Apple logo screen. Strangely, it seemed to be emitting some kind of tone every time it restarted… maybe that was my woken-at-3am brain imagining things, but I'm sure it also made a noise in the early hours of this morning when it rebooted.

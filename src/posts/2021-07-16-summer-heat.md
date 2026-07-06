@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 redirectFrom: ['/2021/07/16/summer-heat/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqiypbc2p"
 ---
 
 Sortly after this screenshot was taken, my office hit 31.5°C, which is about the time I decided it was time to stop for the day.

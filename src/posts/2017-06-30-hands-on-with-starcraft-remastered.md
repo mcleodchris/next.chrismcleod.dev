@@ -11,6 +11,7 @@ tags:
   - gaming
   - starcraft
   - programming
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqu5ah22p"
 ---
 
 > “We had no code and no art assets,” Blizzard 3D Art Director Brian Sousa confirmed to Ars Technica. The 2017 project’s entire art pipeline was “eyeballed,” Sousa said, with recovered concept artwork, sketches, and original boxes and manuals used as reference materials. Not all code was missing, as Blizzard has been issuing patches to the original game’s code base for nearly 20 years. Also, a member of the sound team thankfully had backups of the original sound and voice recordings, which are now reprocessed in higher-fidelity 44,100Hz format.

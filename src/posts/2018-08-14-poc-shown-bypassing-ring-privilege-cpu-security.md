@@ -9,6 +9,7 @@ archived: true
 tags:
   - security
   - link
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqsu5yk2p"
 ---
 
 [Dark Reading|Hacker Unlocks 'God Mode' and Shares the 'Key':](https://www.darkreading.com/vulnerabilities---threats/hacker-unlocks-god-mode-and-shares-the-key/d/d-id/1332543)

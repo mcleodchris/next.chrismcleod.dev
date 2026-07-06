@@ -9,6 +9,7 @@ archived: true
 tags:
   - tip
   - work-from-home
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqks46k2p"
 ---
 
 My news reader is filled with [people](https://www.hanselman.com/blog/LoveInATimeOfCoronaVirusTipsTricksAndBestPracticesForWorkingRemotely.aspx) [posting](https://ma.tt/2020/03/coronavirus-remote-work/) [their](https://haacked.com/archive/2020/03/05/how-to-lead-from-home/) [tips](https://haacked.com/archive/2020/03/03/how-to-work-from-home/) for [working](https://markboulton.co.uk/journal/found-yourself-leading-a-remote-design-team/) remotely in this time of [COVID-19](https://www.gov.uk/guidance/coronavirus-covid-19-information-for-the-public) and "[social distancing](https://en.wikipedia.org/wiki/Social_distancing)." I wrote my own [six tips for working from home](/blog/six-tips-for-working-from-home/) _fifteen years ago_(!!! - yay for blog archives!), and they largely still hold up, mostly because they aren't tips around what no-longer existing technologies to use or anything like that. They're focussed on what _you_ can do to make _your_ working from home experience better for _you_.

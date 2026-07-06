@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 redirectFrom: ['/2021/08/17/results-may-vary/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqit2m22p"
 ---
 
 We got our fully fibre-optic internet connection fitted and activated today. The engineer arrived promptly, just after 8am, and despite the previous engineers making his job more difficult by fitting the connection point in an awkward spot he managed to finish everything within an hour and a half.

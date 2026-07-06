@@ -9,6 +9,7 @@ archived: true
 tags:
   - browsers
   - web-standards
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrab7ic2p"
 ---
 
 Internet Explorer is not known for it's strict adherence to [web standards](https://web.archive.org/web/20041111031319/http://webstandards.org/ "Web Standards"). However, recently it's been acting even stranger than normal.

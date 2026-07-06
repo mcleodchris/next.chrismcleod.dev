@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqktsuk2p"
 ---
 
 Last night, Mrs K. and I were at a loss for anything new to watch, and not in the mood to read or do anything hobbywise, we ended up rewatching several episodes of [Tabletop](https://www.youtube.com/playlist?list=PL7atuZxmT956cWFGxqSyRdn6GWhBxiAwE).

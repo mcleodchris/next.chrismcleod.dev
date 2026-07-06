@@ -5,6 +5,7 @@ tags:
   - site-meta
   - mastodon
   - fediverse
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqeflb22p"
 ---
 
 I just added[^1] the [new Mastodon/Fediverse link attribution meta tag](https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/) to this site, partly because I think it's a neat idea, but also because it took ~2 minutes to do and I'm all for quick wins at the moment.

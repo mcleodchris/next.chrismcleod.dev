@@ -14,6 +14,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzuipc2p"
 ---
 
 That cool little "[Coder for Raspberry Pi](http://googlecreativelab.github.io/coder/)" project from Google [which I linked to earlier](/blog/coder-a-simple-way-to-make-web-stuff-on-raspberry-pi/ "Coder: A simple way to make web stuff on Raspberry Pi.") doesn't just run on Raspberry Pi. You can run it on any old Linux PC (Mac works too, but the instructions are slightly different).

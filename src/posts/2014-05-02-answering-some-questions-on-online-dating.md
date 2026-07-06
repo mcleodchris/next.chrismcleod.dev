@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzgt7c2p"
 ---
 
 A friend, who writes the blog "[Being Female…](http://beingfemale34.wordpress.com/)" recently wrote about [her experiences on dating in her 30's, with a focus on online dating](http://beingfemale34.wordpress.com/2014/04/24/being-female-is/). As part of her write-up, she wanted a male point of view as a counter-balance, so she sent me a dozen questions to answer. I didn't manage to get my answers written up in time for her publishing the original article, but a promise is a promise, so presented below are the answers I sent through to her, plus a couple of anecdotes, which should be appearing as another blog post on her site in the near future.

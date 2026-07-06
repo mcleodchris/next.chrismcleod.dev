@@ -11,6 +11,7 @@ tags:
   - email
   - tip
   - personal
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqtga4k2p"
 ---
 
 I recently decided it was time to consolidate several email accounts, spread across multiple services, to one easily managed account. Some of these have been in use for over a decade. Some are "custom" domains, some are Gmail and other hosted services.

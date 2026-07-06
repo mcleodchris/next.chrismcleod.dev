@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqt7wx22p"
 ---
 
 I’m trying to wrap my head around the [#indieweb approach](https://indieweb.org/why), and thinking about how it could be applied to my site, and more importantly, I’m trying to figure out how _I_ would want it to work for me:

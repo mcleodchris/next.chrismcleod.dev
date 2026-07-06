@@ -10,6 +10,7 @@ archived: true
 tags:
   - github
   - dark-side-of-tech
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqttsos2p"
 ---
 
 A powerful recount of [Coraline Ada Ehmke's terrible treatment at GitHub](https://where.coraline.codes/writing/my-year-at-github/). Please take some time to read it.

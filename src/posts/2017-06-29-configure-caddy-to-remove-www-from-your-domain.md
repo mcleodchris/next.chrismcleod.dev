@@ -10,6 +10,7 @@ archived: true
 tags:
   - servers
   - how-to
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqubwtk2p"
 ---
 
 For various reasons I prefer to remove the www part from my personal-use domains. Setting up [Caddy](https://caddyserver.com/) to serve the site from just `domain.com` is as simple as:

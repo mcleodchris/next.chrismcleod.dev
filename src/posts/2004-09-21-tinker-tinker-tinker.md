@@ -10,6 +10,7 @@ tags:
   - personal
   - site-meta
   - blogging
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr7giyk2p"
 ---
 
 Sometimes you just can’t ignore the temptation to tweak and tinker with your work, especially when it’s a personal site…

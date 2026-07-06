@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4vl5k2p"
 ---
 
 On Saturday, I blogged about [my experiences of buying Photoshop Lightroom the Adobe.com store](/blog/id-be-a-lightroom-buyer-if-adobe-would-let-me/ "I’d Be A Lightroom Buyer If Adobe Would Let Me"). Tonight I came home to an email from Tom Hogarty, Product Manager of the Lightroom team.

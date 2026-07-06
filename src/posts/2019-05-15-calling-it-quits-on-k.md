@@ -9,6 +9,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqn6rck2p"
 ---
 
 I've taken the decision to switch my site away from [the custom theme called "K"](/blog/open-sourcing-my-indieweb-wordpress-theme/) I was building, and for now I'm using the excellent [Autonomie](https://github.com/pfefferle/Autonomie) by [Matthias Pfefferle](https://notiz.blog/) instead[1](#footnote "go to footnote"). Development of K had already slowed to a standstill, and realistically, I’m not going to go back to it anytime soon. It feels a little like a failure, a little like giving up, but I think it's ultimately the right thing to do.

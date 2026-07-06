@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4jjfs2p"
 ---
 
 This entry has been in development for a couple of weeks. If you’ve been following [my Twitter stream](https://twitter.com/#!/__chrismc), you’ll probably know why it’s relevant I mention this. I have a follow-up entry in the works which will provide a better conclusion, but for now I think the bulk of the entry still stands.

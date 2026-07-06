@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqytc7c2p"
 ---
 
 Last year I backed the [Games and Gears Battle Board Kickstarter](https://www.kickstarter.com/projects/554355176/games-and-gears-battle-boards). At the time, the estimated turnaround to get backers their boards was expected to be around May (so I figured it would be summer, at the latest). I was looking forward to getting a detailed gaming surface which I could use for playing Warhammer/Warhammer 40,000 on, much cheaper than the comparatively bland [Realm of Battle board by Games Workshop](http://www.games-workshop.com/en-GB/Citadel-Realm-of-Battle-Gameboard).

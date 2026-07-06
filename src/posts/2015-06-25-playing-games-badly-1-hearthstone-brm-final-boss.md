@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 youtube: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvmpy22p"
 ---
 
 In which I play the final boss fight of Hearthstone's Black Rock Mountain expansion. Badly.

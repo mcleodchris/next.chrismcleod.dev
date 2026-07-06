@@ -8,6 +8,7 @@ tags:
 authors:
   - chris
 redirectFrom: ['/2021/02/26/side-effects/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqk2jcc2p"
 ---
 
 I got my first COVID vaccination jab a couple of days ago, so for the benefit of others I thought I'd share my experience.

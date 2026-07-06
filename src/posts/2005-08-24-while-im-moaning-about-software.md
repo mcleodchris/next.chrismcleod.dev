@@ -10,6 +10,7 @@ tags:
   - rant
   - programming
   - APIs
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6767c2p"
 ---
 
 Related to my [previous entry](/2005/08/24/when-software-bugs-refuse-to-die/ "When Software Bugs Refuse to Die"), is a little peeve about the MovableType API, or perhaps it’s just its implementation in Marsedit. Who in their right mind decided that the process for creating a new post via XML-RPC in this API should involve the following steps from the client software?

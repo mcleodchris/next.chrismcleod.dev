@@ -10,6 +10,7 @@ tags:
 authors:
   - chris
 redirectFrom: ['/2021/02/09/first-snow/']
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqkb2bs2p"
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/img_0228.jpg", "heavy snowfall on bare tree branches, with snow-covered rooftops in the background"%}

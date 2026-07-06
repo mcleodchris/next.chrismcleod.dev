@@ -6,6 +6,7 @@ tags:
   - blogging-tools
   - tip
   - azure
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqfxxks2p"
 ---
 
 I recently switched this site from Netlify to [Azure Static Web Apps](https://azure.microsoft.com/en-gb/products/app-service/static/) (SWA). For the most part it just worked - setup the site in the Azure portal, switch the DNS… done. You probably didn't notice.

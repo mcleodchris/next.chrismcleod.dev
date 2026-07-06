@@ -12,6 +12,7 @@ tags:
 authors:
   - chris
 archived: true
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqx7ym22p"
 ---
 
 [Cory Doctorow on the scary rhetoric](http://boingboing.net/2015/01/13/what-david-cameron-just-propos.html) coming from the Conservative Prime Minister, just before the next General Election:

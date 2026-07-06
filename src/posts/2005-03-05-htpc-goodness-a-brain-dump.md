@@ -9,6 +9,7 @@ archived: true
 tags:
   - computing
   - media
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6z5b22p"
 ---
 
 Some pure geekery ahead – and possibly a lot of misinformed rambling. You have been warned! This is as much for me as it is for you guys… I had a load of this stuff going around in my head so much today that it was getting distracting.

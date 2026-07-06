@@ -72,3 +72,9 @@ name="twitter:dnt" content="on"> <!-- Favicon -->
 {% for feed in meta.feeds %}
   <link rel="alternate" type="application/{{ feed.type }}" title="{{ feed.title }}" href="{{ feed.url }}">
 {% endfor %}
+
+<!-- standard.site -->
+{%- if atUri %}
+<link rel="site.standard.document" href="{{ atUri }}" />
+{%- endif %}
+<link rel="site.standard.publication" href="at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.publication/3mpyvquhnw22p" />

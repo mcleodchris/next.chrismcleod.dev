@@ -8,6 +8,7 @@ authors:
 archived: true
 tags:
   - personal
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrahrh22p"
 ---
 
 Nearly a week without an update... well, you can blame my router for that one. Let me tell the story.
