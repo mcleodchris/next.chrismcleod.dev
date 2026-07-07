@@ -13,5 +13,3 @@ src/_includes/scripts
 .env
 
 .DS_Store
-
-.sequoia-state.json
