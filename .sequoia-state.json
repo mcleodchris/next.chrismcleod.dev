@@ -3377,6 +3377,16 @@
       "atUri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrc2fks2p",
       "lastPublished": "2026-07-06T21:08:53.208Z",
       "slug": "earliest-recoverable-blog-post"
+    },
+    "src/posts/2026-07-06-installing-the-ugreen-be6500-wifi-7-usb-dongle-on-arch-linux.md": {
+      "contentHash": "7dc2419c53aaa7e710e8575714faa0b784b987a29a84edb16cfa1ccc634526ef",
+      "atUri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mq24xnqymk2p",
+      "lastPublished": "2026-07-07T07:56:41.940Z",
+      "slug": "installing-the-ugreen-be6500-wifi-7-usb-dongle-on-arch-linux",
+      "bskyPostRef": {
+        "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3mq24xnv2is2p",
+        "cid": "bafyreicqubix663jk4z6zxpnilrowunq4nejxs5e74kzixwcm6qszk64oa"
+      }
     }
   },
   "publication": {

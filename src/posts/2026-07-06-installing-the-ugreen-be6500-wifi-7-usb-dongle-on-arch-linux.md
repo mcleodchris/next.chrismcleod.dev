@@ -7,6 +7,7 @@ tags:
   - arch
   - wifi
   - howto
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mq24xnqymk2p"
 ---
 
 I had a problem where the integrated WiFi 7 adapter on my MSI motherboard would randomly just... disappear... from the system. As in, completely drop off the PCI bus and not show up again until I'd completed a couple of rounds of clearing the CMOS, and even then, it was a bit temperamental as to how many times I'd need to go through the dance. Annoyingly there was no rhyme or reason as to when this would happen. Could be 6 days between episodes, could be 6 weeks or more. Thankfully there was a dedicated button on the back of the motherboard and I didn't have to open up the case and mess with jumpers every time, but it was still a faff.
