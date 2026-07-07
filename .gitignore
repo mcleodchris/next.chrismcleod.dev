@@ -14,4 +14,4 @@ src/_includes/scripts
 
 .DS_Store
 
-#.sequoia-state.json
+.sequoia-state.json
