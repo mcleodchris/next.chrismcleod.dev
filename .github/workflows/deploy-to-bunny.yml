@@ -38,6 +38,7 @@ jobs:
           npm install -g sequoia-cli
       - name: Publish to ATProto
         env:
+          PDS_URL: ${{ secrets.PDS_URL }}
           ATP_IDENTIFIER: ${{ secrets.ATP_IDENTIFIER }}
           ATP_APP_PASSWORD: ${{ secrets.ATP_APP_PASSWORD }}
         run: sequoia publish
