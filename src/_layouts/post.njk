@@ -23,6 +23,14 @@ preloads:
     <div class="e-content | flow prose">
       {{ content | safe }}
     </div>
+    <div class="flow prose">
+      <sequoia-recommend></sequoia-recommend>
+    </div>
     {% include '../_layouts/footer.njk' %}
   </div>
 </article>
+<section class="region">
+  <div class="wrapper flow prose">
+    <sequoia-comments></sequoia-comments>
+  </div>
+</section>

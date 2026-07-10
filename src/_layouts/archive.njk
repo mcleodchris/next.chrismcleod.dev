@@ -12,6 +12,8 @@ layout: base
 <article class="region">
   <div class="wrapper flow prose"> 
     {{ content | safe }}
+    <sequoia-subscribe button-type="atmosphere"></sequoia-subscribe>
+
     <h2>Search</h2>
     <pagefind-search pagefind-autofocus>
       <form action="https://duckduckgo.com/" method="get" style="min-height: 3.2em;"><!-- min-height to reduce CLS -->

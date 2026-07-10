@@ -15,5 +15,8 @@
   "bluesky": {
     "enabled": true,
     "maxAgeDays": 30
+  },
+  "ui": {
+    "components": "./src/assets/scripts"
   }
 }
