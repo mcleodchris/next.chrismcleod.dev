@@ -10,6 +10,7 @@ tags:
   - security
   - miscellaneous
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwnvis2p"
+ogImage: seems-legit-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/02/phishing.png", "phishing attempt screenshot" %}

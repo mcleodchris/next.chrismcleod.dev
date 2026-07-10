@@ -11,6 +11,7 @@ tags:
   - links
 redirectFrom: ['/2022/12/02/ooh-directory/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhtsm22p"
+ogImage: oohdirectory-preview.jpeg
 ---
 
 _Bookmarked [https://ooh.directory/](https://ooh.directory/)._

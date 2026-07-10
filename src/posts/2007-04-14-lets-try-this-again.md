@@ -11,6 +11,7 @@ tags:
   - site-meta
   - personal
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4xauc2p"
+ogImage: lets-try-this-again-preview.jpeg
 ---
 
 I’ll be honest - I suck at blogging. I’ve tried and I’ve tried, but I just can’t seem to get it right. Things will maybe start off OK for a little while, but then this usually happens:

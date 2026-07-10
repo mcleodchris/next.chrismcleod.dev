@@ -6,6 +6,7 @@ tags:
   - blogging
   - blogging-tools
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqfw5x22p"
+ogImage: generative-ai-for-blogging-revisited-preview.jpeg
 ---
 About 6 months ago I did an experiment with using generative AI tools to write blog posts. It was part of a wider "understand if this stuff is useful and what its limitations are" exercise I needed to go through for work; it's a hot topic and I needed to understand it - which involved using it, basically. I usually learn best by doing
 

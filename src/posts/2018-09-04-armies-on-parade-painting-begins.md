@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqq3wqs2p"
+ogImage: armies-on-parade-painting-begins!-preview.jpeg
 ---
 
 An important milestone has been reached in my Armies on Parade entry - the majority of board construction is finished, and painting has begun! It's still only a few layers of paint, but every bit counts when there's only 39 days to go!

@@ -11,6 +11,7 @@ authors:
   - chris
 redirectFrom: ['/2021/01/16/a-typical-day/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqkhp6c2p"
+ogImage: a-typical-day-preview.jpeg
 ---
 
 Inspired by [Jeremy](https://adactio.com/journal/17750), [Colin](http://cdevroe.com/2021/01/07/my-typical-day/), and [Cassie](https://www.cassie.codes/posts/my-typical-day/), I thought it might be instructive to myself and others to set out my "typical" day. I find writing about something helps focus my thoughts on the thing in question.

@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqv4me22p"
+ogImage: what-is-going-to-happen-in-2017-avc-preview.jpeg
 ---
 
 Fred Wilson on what he's predicting for 2017 (with a bend towards to tech industry)

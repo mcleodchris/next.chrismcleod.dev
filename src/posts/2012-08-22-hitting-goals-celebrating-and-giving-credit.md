@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3hy622p"
+ogImage: hitting-goals-celebrating-and-giving-credit-preview.jpeg
 ---
 
 Today was a good day - I managed to hit one of my work goals, and when I did I made sure I gave credit those that helped me.

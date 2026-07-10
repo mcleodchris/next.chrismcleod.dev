@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqmaac2p"
+ogImage: hello-again-elwynn-forest-preview.jpeg
 ---
 
 Ok, so I gave in and installed World of Warcraft last night, [after saying I was trying not to get sucked back into the game](/blog/battle-for-azeroth-cinematics/). I'm just playing the free-to-level-20 "Starter Edition" for now, using it as an opportunity to explore the [improved levelling experience](https://www.wowhead.com/news=275508/upcoming-zone-scaling-and-leveling-improvements-in-patch-7-3-5), and classes/races I've never played before.

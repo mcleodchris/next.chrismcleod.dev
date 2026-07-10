@@ -11,6 +11,7 @@ tags:
   - music
   - web-design
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr7rcp22p"
+ogImage: designing-the-band-preview.jpeg
 ---
 
 I just discovered this [wonderful series](https://web.archive.org/web/20040803000000/http://www.7nights.com/asterisk/dtb.php) from [Asterisk\*](https://web.archive.org/web/20040803000000/http://www.7nights.com/asterisk/index.php).

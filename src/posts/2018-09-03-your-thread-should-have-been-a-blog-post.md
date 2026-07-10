@@ -10,6 +10,7 @@ tags:
   - blogging
   - social-media
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqq5lic2p"
+ogImage: your-thread-should-have-been-a-blog-post-preview.jpeg
 ---
 
 > Your "thread" should have been a blog post…

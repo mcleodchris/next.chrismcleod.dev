@@ -6,6 +6,7 @@ tags:
   - nostalgia
   - websites
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqfzt522p"
+ogImage: doing-more-with-what-you-already-have-preview.jpeg
 ---
 I've just posted the first post on [The Underground](https://theunderground.blog/) for the New Year; you'll need to be subscribed to[ the RSS feed](https://theunderground.blog/feed.xml) to read the full thing, but I wanted to share my favourite part of the post here, for posterity:
 

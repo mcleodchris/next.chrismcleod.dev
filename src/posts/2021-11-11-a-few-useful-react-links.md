@@ -12,6 +12,7 @@ authors:
   - chris
 redirectFrom: ['/2021/11/11/a-few-useful-react-links/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqijc422p"
+ogImage: a-few-useful-react-links-preview.jpeg
 ---
 
 A few of us at work might be moving to a project that uses React more heavily than anything we've done before, so I wanted to make a list of any interesting links which might be useful to share with the group. Some might not be specifically about React, but were useful for me getting up and running on my home PC, or are worth storing for future reading:

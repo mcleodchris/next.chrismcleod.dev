@@ -11,6 +11,7 @@ tags:
   - security
   - privacy
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqsxy2s2p"
+ogImage: new-data-dump-powered-extortion-scams-popping-up-preview.jpeg
 ---
 
 Beware of [a new extortion scam doing the rounds](https://www.bleepingcomputer.com/news/security/new-hacked-phone-partial-number-extortion-emails-making-a-lot-of-money/):

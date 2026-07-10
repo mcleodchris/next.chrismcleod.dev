@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqowz4c2p"
+ogImage: the-road-to-open-sourcing-k-for-wordpress-preview.jpeg
 ---
 
 I mentioned before the festive break that I was thinking about [open-sourcing "K"](/blog/open-sourcing-my-indieweb-wordpress-theme/), the custom theme I've been developing for this site. Since then, I've decided I'm going to do it, but I'm going to work to tidy things up beforehand. Some of this has already happened, some of it is yet to be done. For a bit of fun, I'm going to \[try to\] blog about it whenever I make some progress ?. All-in-all, I've identified three main themes I want to focus on before the intial public commits.

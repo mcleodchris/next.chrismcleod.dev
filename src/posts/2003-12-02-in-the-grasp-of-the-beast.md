@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyra7bxk2p"
+ogImage: in-the-grasp-of-the-beast-preview.jpeg
 ---
 
 I’ve finally taken my first steps with ASP.NET. I’ve only done some basic research and examples and all I can say, is that it’s one f\*cking powerful choice for developing web applications… It’s so far ahead of vanilla ASP that it’s terrifying. It’s great being able to use another computationally complete language. ASP.NET is so much faster as well.

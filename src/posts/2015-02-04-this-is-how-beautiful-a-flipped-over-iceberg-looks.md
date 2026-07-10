@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwugic2p"
+ogImage: this-is-how-beautiful-a-flipped-over-iceberg-looks-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/02/alex_cornell_antarctica-3.jpg", "flipped over iceberg" %}

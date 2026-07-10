@@ -11,6 +11,7 @@ tags:
   - indieweb
   - wordpress
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqoqqw22p"
+ogImage: reactivating-the-wordpress-links-manager-preview.jpeg
 ---
 
 Following on from [my last bookmark](/blog/bookmarked-how-to-start-your-own-little-directory-on-wordpress-for-free/), it seems to be really simple to reactivate the built-in Links Manager for WordPress. Just add the following to your theme's `functions.php`:

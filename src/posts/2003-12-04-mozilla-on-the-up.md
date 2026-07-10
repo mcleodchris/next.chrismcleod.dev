@@ -10,6 +10,7 @@ tags:
   - mozilla
   - browsers
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyra5q5s2p"
+ogImage: mozilla-on-the-up-preview.jpeg
 ---
 
 Microsoft’s Internet Explorer is the dominant web browser out there. There’s no denying it. However, it would appear that its grip on the top spot is slowly – but surely – loosening.

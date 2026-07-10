@@ -11,6 +11,7 @@ authors:
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwqy522p"
+ogImage: all-of-snapes-scenes-in-the-harry-potter-films-in-chronological-order-preview.jpeg
 ---
 
 {% youtube "RhOQ4VW6xV8", "" %}

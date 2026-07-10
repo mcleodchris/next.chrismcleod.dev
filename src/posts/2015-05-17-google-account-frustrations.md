@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvuf3s2p"
+ogImage: google-account-frustrations-preview.jpeg
 ---
 
 I like to think of myself as generally a smart person. I have my weaknesses, but I'm usually pretty good at figuring something out - particularly if it's tech related. Problem solving is generally one of my strong points.

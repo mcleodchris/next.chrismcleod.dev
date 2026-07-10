@@ -11,6 +11,7 @@ gallery:
   - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/a2b4bc3b-f8fe-4ac7-bed3-2ed5670a2547.png
     alt: A screenshot of an iPhone lock screen.  It features a large digital clock in the upper center, and weather icons. The wallpaper is line art of a locked padlock in light grey centred on the screen, on a black background, as if to indicate the device is locked. The top of the screen displays signal, Wi-Fi, and battery icons, while the bottom has a prompt to swipe up to open.
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqeccrc2p"
+ogImage: new-home-screen-for-ios-18-beta-preview.jpeg
 ---
 
 I've been playing around with the new ios 18 beta, now it's available to the public. While I have found it a pretty dull update so far, I particularly wanted to try some some of the new customisation options. I haven't found a colourful tint that works for me, but I am loving this kinda Brutalist black-and-white scheme I stumbled into:

@@ -9,6 +9,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqv62as2p"
+ogImage: how-to-talk-yourself-out-of-your-new-years-blogging-resolution-one-day-at-a-time-preview.jpeg
 ---
 
 A nice, slightly tongue-in-cheek look at how easy it is to fall off the blogging wagon after making a resolution to "blog more" in the New Year. This rings true for me in 2016!

@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqxbihc2p"
+ogImage: until-politicians-make-the-effort-to-understand-the-internet-they-must-leave-it-alone-preview.jpeg
 ---
 
 [Alex Wickham's take](http://www.breitbart.com/london/2015/01/13/until-politicians-make-the-effort-to-understand-the-internet-they-must-leave-it-alone/) on the [recent comments from David Cameron](http://chrismcleod.me/2015/01/13/what-david-cameron-just-proposed-would-endanger-every-briton-and-destroy-the-it-industry/ "“What David Cameron just proposed would endanger every Briton and destroy the IT industry”"), and the general inability (unwillingness) of politicians to understand the Internet:

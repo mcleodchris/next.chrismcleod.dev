@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3ea2c2p"
+ogImage: review-fear-to-tread-james-swallow-preview.jpeg
 ---
 
 ### Foreword

@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqpiyck2p"
+ogImage: armies-on-parade-painting-update-2-preview.jpeg
 ---
 
 The first batch of Primaris Space Marines are just about finished, with just a few details and the decals to finish before basing.

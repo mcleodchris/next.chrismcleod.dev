@@ -9,6 +9,7 @@ archived: true
 tags:
   - personal
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr7bgv22p"
+ogImage: everyones-an-expert-preview.jpeg
 ---
 
 I witnessed something quite bizarre on the way home from work today. I’d popped into our nearest PC World store on the way, to pick up a USB hub for my parents (2x USB Ports + 8 USB devices = cable nightmare). While I was browsing around, edging closer to the Mac section as I usually do, I overheard another customer talking to a member of staff about antivirus/security software.

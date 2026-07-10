@@ -11,6 +11,7 @@ tags:
   - social-media
   - links
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqrjhrs2p"
+ogImage: the-mike-monteiro-on-twitter-collection-preview.jpeg
 ---
 
 [Mike Monteiro](https://medium.com/@monteiro/) has written some of my favourite articles on about Twitter, most written from a place of frustration, sadness, and anger at the avoidable decline and lack of leadership. I wanted to bookmark them here so I had one simple place to refer back to them from, and to share them with any readers who hadn't yet come across them.

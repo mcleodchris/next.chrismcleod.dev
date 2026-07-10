@@ -10,6 +10,7 @@ tags:
   - links
   - dark-side-of-tech
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqykqrc2p"
+ogImage: the-dark-side-of-io-how-the-uk-is-making-web-domain-profits-from-a-shady-cold-war-land-deal-preview.jpeg
 ---
 
 > The .io domain is a hit, but few startups using it appreciate the associations it carries — a mass expulsion that took place within living memory, and a crucial staging-post for the “War on Terror”.

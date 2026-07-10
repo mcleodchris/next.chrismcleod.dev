@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqx7ym22p"
+ogImage: what-david-cameron-just-proposed-would-endanger-every-briton-and-destroy-the-it-industry-preview.jpeg
 ---
 
 [Cory Doctorow on the scary rhetoric](http://boingboing.net/2015/01/13/what-david-cameron-just-propos.html) coming from the Conservative Prime Minister, just before the next General Election:

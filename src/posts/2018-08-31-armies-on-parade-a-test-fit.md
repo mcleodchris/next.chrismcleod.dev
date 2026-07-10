@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqclnc2p"
+ogImage: armies-on-parade-a-test-fit-preview.jpeg
 ---
 
 I laid out the rest of the scatter terrain I envisioned, and used some stand-in miniatures to approximate how I wanted the army itself to be displayed. All in all, I'm pretty pleased with how things are looking. Now I've just got to finish everything! But at least I have a plan to work to…

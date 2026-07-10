@@ -14,6 +14,7 @@ authors:
 image: https://assets.chrismcleod.dev/chrismcleod.dev/2022/04/microsoft-certified-azure-developer-associate.1.png
 redirectFrom: ['/2022/03/31/microsoft-certified-azure-developer-associate/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqiddoc2p"
+ogImage: microsoft-certified-azure-developer-associate-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/2022/04/microsoft-certified-azure-developer-associate.1.png", "Microsoft Azure Developer Associate achievement badge" %}

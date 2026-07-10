@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4slh22p"
+ogImage: safari-on-windows-a-long-way-to-go-preview.jpeg
 ---
 
 So a Windows version of Safari is finally here. Hurrah, another browser to support. Cynicism aside, is it any good?

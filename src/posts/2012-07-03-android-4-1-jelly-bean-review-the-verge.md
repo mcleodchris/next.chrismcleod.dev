@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3tmac2p"
+ogImage: android-41-jelly-bean-review-or-the-verge-preview.jpeg
 ---
 
 [Android 4.1 Jelly Bean review | The Verge](http://www.theverge.com/2012/7/3/3134347/android-4-1-jelly-bean-review#notifications).

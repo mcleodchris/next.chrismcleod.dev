@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqm4hnk2p"
+ogImage: time-for-an-upgrade-maybe-preview.jpeg
 ---
 
 It's been 4 years since I built my current PC. While it runs perfectly adequately, I'm starting to get the itch to build or upgrade again.

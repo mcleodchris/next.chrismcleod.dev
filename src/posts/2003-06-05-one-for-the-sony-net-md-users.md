@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbq4hk2p"
+ogImage: one-for-the-sony-net-md-users-preview.jpeg
 ---
 
 Got a Net MD? Sick and tired of OpenMG Jukebox? I know I am - it sucks... half my tracks don't convert properly, so are just however many minutes of silence. Plus, it doesn't properly support any form of MP3 and has that annoying “Check-In/Out” feature.

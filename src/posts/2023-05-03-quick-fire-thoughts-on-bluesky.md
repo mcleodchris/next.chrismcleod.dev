@@ -10,6 +10,7 @@ authors:
   - chris
 redirectFrom: ['/2023/05/03/quick-fire-thoughts-on-bluesky/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqgzlqc2p"
+ogImage: quick-fire-thoughts-on-bluesky-preview.jpeg
 ---
 
 I got a bluesky invite a couple of days ago, set up [my account](https://bsky.app/profile/chrismcleod.dev), and I've been trying to wrap my head around the new protocol-based "not-Twitter" service ever since. It's… an odd duck, to be sure.

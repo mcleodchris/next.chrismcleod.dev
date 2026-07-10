@@ -10,6 +10,7 @@ tags:
   - scotland
   - link
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqsku5c2p"
+ogImage: aberdeen-awpr-bypass-to-host-worst-cycling-event-ever-preview.jpeg
 ---
 
 > The new Aberdeen Western Peripheral Road (AWPR) is to host a “Go North East Road Festival” before it is opened to traffic in September. The event will offer cyclists an opportunity to “wobble or weave” on the road to promote active travel. However, people will not be allowed to bring their own bikes “for everyone’s safety” and cyclists will be banned from the road forever once the event is over.

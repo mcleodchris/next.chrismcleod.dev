@@ -8,6 +8,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqr2s2k2p"
+ogImage: wargaming-and-hobby-community-round-up-preview.jpeg
 ---
 
 [Warhammer Conquest](http://www.warhammer40000conquest.com/) was a big topic of conversation this week. Knotley has two excellent posts [breaking down the cost](https://vincentknotley.wordpress.com/2018/08/20/speculative-look-warhammer-40000-conquest/) and [value](https://vincentknotley.wordpress.com/2018/08/22/warhammer-40000-conquests-rumoured-value/). I've subscribed, at least for now. £32 per month, to have something delivered regularly might actually help me cut down on impulse purchases. Plus, more Marine bodies and paints are always welcome. And there's an exclusive Primaris Lieutenant/Sergeant with issue 5 that I really want to get.

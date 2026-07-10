@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4pays2p"
+ogImage: the-joy-of-html-preview.jpeg
 ---
 
 The beauty of web development is that, ultimately, the code behind it is simple. Yes, web apps have taken leaps and bounds over the last few years, and are capable of so much more than ever before, but lets face it – we’re not exactly writing DNA sequencers. Yet.

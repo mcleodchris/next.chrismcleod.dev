@@ -10,6 +10,7 @@ tags:
   - personal
   - computing
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr7i5q22p"
+ogImage: lots-of-upgrade-potential-preview.jpeg
 ---
 
 Every now and then, it’s good to re-evaluate your computing needs. Especially when you have as much spare hardware as me. I’m currently looking at what I’ve got and what I need. Unfortunately, I need help making my mind up. Help me!

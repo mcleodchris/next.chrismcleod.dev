@@ -6,6 +6,7 @@ tags:
     - programming
     - fun
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqdvyac2p"
+ogImage: sometimes-whimsy-is-enough-preview.jpeg
 ---
 
 I’ve been a bit in the doldrums this week. It’s never fun when your health suddenly changes, especially when it decides to do it in a terrifying  manner. But that’s for another day.

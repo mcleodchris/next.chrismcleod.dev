@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqv33jk2p"
+ogImage: getting-started-with-online-privacy-and-security-in-2017-preamble-preview.jpeg
 ---
 
 In 2017 I'm trying to be be a bit more privacy and security-minded when using the web (on all devices). I've been increasingly interested in these areas for a few years, and especially since the Snowden revelations, and recent events like the [IP Bill](https://boingboing.net/2016/11/23/uks-new-surveillance-law-cre.html), aka the "[Snoopers Charter](http://www.wired.co.uk/article/ip-bill-law-details-passed)," in the UK have pushed me further towards them. Over the next few weeks I'm going to look into (and try to document here) various things I can do to increase my security, decrease the amount of information applications and services can collect on me, and generally "take back control" of my online privacy.

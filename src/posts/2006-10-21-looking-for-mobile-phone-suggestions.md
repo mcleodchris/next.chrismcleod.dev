@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5b2dk2p"
+ogImage: looking-for-mobile-phone-suggestions-preview.jpeg
 ---
 
 I’m a bit of a phone addict. I tend to upgrade my handset every 6 months or so, whether my contract is due for renewal or not. Ebay is a wonderful thing. That said, I was hoping to put off upgrading for a while yet. I do like my [Motorola PEBL](http://web.archive.org/web/20061105184033/http://www.37signals.com/svn/archives2/less_phone_the_moto_pebl.php). It’s nice and simple, doing _only_what I wanted it to (phone/SMS/camera), wrapped in a nice design. Horrible, horrible, horrible, UI – solved by setting up a heap of shortcuts – but an otherwise nice phone.

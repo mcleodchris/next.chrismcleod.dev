@@ -13,6 +13,7 @@ authors:
   - chris
 redirectFrom: ['/2022/12/22/updating-apps-updating-skills/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhql3k2p"
+ogImage: updating-apps;-updating-skills-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/2022/12/image.png", "A screenshot of some Laravel user authentication boilerplate code" %}

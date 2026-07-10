@@ -9,6 +9,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrc2fks2p"
+ogImage: my-earliest-recoverable-blog-post-original-title-lost-preview.jpeg
 ---
 
 So what have I been up to? The usual really. Been to some absolutely fantastic gigs. Got some photo's of some of them too. I'll put them up soon(ish).

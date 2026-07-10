@@ -9,6 +9,7 @@ archived: true
 tags:
   - personal
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzc2uc2p"
+ogImage: thrupenny-bit-preview.jpeg
 ---
 
 When my ex-Mother-in-Law was young, she used to split her pocket money with her best friend; she would give her a "thrupenny bit" every week.

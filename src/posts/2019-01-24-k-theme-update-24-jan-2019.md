@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqogkqk2p"
+ogImage: k-theme-update-24-jan-2019-preview.jpeg
 ---
 
 I've been chipping away at several things over the last two weeks, mostly focussing on markup, presentation, and theme file organisation. I want to get these finalised before I look at theme customisation options. If you've visited the home page, you might have noticed the display of certain post types has been evolving, as I search for a pleasing balance of information, appearance, and not overwhelming a visitor with a wall of text. I don't think I'm quite there yet, so expect a few more iterations. My current thinking is to treat the home page a bit like an "activity feed," where action-type posts such as Likes are displayed in summary manner to give more emphasis to the written posts.

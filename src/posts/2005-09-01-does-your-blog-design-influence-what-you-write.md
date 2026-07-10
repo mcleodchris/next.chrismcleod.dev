@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr65oe22p"
+ogImage: does-your-blog-design-influence-what-you-write-preview.jpeg
 ---
 
 I’ll start this one by quoting [a comment I made over on Joshuaink](http://web.archive.org/web/20060223182915/http://joshuaink.com/blog/392/how-do-you-feel-about-your-blog#c005725) –

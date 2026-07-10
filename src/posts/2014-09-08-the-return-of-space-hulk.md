@@ -12,6 +12,7 @@ authors:
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqyzv5c2p"
+ogImage: the-return-of-space-hulk-preview.jpeg
 ---
 
 Space Hulk is one of my all-time favourite games. It's one of the best rule sets ever written by Games Workshop. It's been out of print for a few years now, but it looks like it's being brought back for a limited-run re-release.

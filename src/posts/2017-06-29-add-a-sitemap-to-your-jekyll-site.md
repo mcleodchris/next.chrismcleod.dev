@@ -13,6 +13,7 @@ tags:
   - jekyll
   - how-to
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqudgos2p"
+ogImage: add-a-sitemap-to-your-jekyll-site-preview.jpeg
 ---
 
 An XML Sitemap can be useful for optimising your site with Google, particularly if you make use of their Webmaster Tools. Jekyll doesn’t come with one out-of-the-box, but it is easy to add one. There’s probably a plugin out there which will automate things, but I just used a normal Jekyll-generated file for mine, based on code found on [Robert Birnie’s site](http://www.uberobert.com/generate-a-jekyll-sitemap/).

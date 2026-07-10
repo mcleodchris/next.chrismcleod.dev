@@ -7,6 +7,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqreohk2p"
+ogImage: copyright-filter-filters-warning-about-copyright-filters-preview.jpeg
 ---
 
 An automated copyright filter wrongly had Google de-index a blog post written by an EU parlimentarian, which warned against the use of automated copyright filters and the impending Article 13 copyright directive.

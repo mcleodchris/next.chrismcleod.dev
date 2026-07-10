@@ -12,6 +12,7 @@ tags:
   - email
   - how-to
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr7wbus2p"
+ogImage: control-spam-in-evolution-preview.jpeg
 ---
 
 _This post was originally inspired by [this thread](https://web.archive.org/web/20041214215106/http://forums.gentoo.org/viewtopic.php?t=26006) on the Gentoo Support Forums._

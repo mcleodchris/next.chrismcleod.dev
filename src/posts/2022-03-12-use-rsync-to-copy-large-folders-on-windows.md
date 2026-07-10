@@ -11,6 +11,7 @@ authors:
   - chris
 redirectFrom: ['/2022/03/12/use-rsync-to-copy-large-folders-on-windows/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqiflws2p"
+ogImage: use-rsync-to-copy-large-folders-on-windows-preview.jpeg
 ---
 
 This post will fall into the “well duh…” category for a lot of people, but sometimes we need a reminder.

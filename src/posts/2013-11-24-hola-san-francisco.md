@@ -9,6 +9,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzppf22p"
+ogImage: hola-san-francisco!-preview.jpeg
 ---
 
 As I'm writing this, I'm 36,000 feet over Canadian airspace, on my way to San Francisco (you may have guessed this already, from the title). By the time you're reading this, I should be safely on the ground again (no in-flight wifi to let me post from the air. It's a little bit of a impromptu visit; I certainly hadn't dreamed I'd be making this trip, even as recently as a couple of months ago. But that's by-the-by at this point - there's no turning back now!

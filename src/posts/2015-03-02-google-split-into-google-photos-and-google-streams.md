@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqweips2p"
+ogImage: google-split-into-google-photos-and-google-streams-preview.jpeg
 ---
 
 Via [The Verge](http://www.theverge.com/2015/3/2/8131639/google-officially-splits-into-photos-and-streams):

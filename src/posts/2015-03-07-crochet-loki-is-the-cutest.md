@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwctyc2p"
+ogImage: crochet-loki-is-the-cutest-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/03/img_2239.jpg", "Crochet Loki" %}

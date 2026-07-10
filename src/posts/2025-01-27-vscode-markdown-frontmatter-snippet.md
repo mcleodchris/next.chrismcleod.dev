@@ -7,6 +7,7 @@ tags:
   - vscode
   - eleventy
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqduei22p"
+ogImage: visual-studio-code-snippet-for-markdown-frontmatter-preview.jpeg
 ---
 
 I can't believe it's taken me this long to setup, but I _finally_ added a snippet to VSCode for inserting Frontmatter into a Markdown file - handy for e.g, adding a new post to an [Eleventy](https://11ty.dev)-powered blog.

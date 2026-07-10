@@ -10,6 +10,7 @@ tags:
   - personal
   - work-from-home
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6dvl22p"
+ogImage: the-home-office-preview.jpeg
 ---
 
 A lot of catching up to do, so I might go into post overdrive for a little bit.

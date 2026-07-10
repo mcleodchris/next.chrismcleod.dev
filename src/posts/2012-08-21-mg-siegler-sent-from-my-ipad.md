@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3l4qs2p"
+ogImage: mg-siegler-sent-from-my-ipad-preview.jpeg
 ---
 
 MG Siegler has - much like myself - [converted to using the iPad full time as his mobile workstation](http://massivegreatness.com/sent-from-my-ipad):

@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvsw7s2p"
+ogImage: mistakes-were-made-google-account-follow-up-preview.jpeg
 ---
 
 Earlier on I was [trying to find a way to "downgrade" a Google Apps account to a personal account](/blog/google-account-frustrations/). Well, I found a way. Kinda. Ok, not really - I slipped up and deleted my Google account.

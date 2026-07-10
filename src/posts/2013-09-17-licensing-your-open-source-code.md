@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzrc622p"
+ogImage: licensing-your-open-source-code-preview.jpeg
 ---
 
 I received an email from a developer the other day, who had forked the repository for my "IIS Express Here" shell extension on GitHub \[editors note - no longer available\]. He had noticed there was no license information available in the project, so asked if I could either add a license, or give him written permission to adapt my code and share it to others (as is the spirit of GitHub and OSS).

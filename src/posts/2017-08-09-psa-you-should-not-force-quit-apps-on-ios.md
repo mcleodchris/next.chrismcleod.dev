@@ -12,6 +12,7 @@ tags:
   - software
   - user-experience
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqtizxk2p"
+ogImage: psa-you-should-not-force-quit-apps-on-ios-preview.jpeg
 ---
 
 > The single biggest misconception about iOS is that it’s good digital hygiene to force quit apps that you aren’t using.

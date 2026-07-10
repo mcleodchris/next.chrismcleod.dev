@@ -6,6 +6,7 @@ tags:
   - webmentions
   - backfeed
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqfmhfk2p"
+ogImage: more-words-on-webmentions-and-backfeed-preview.jpeg
 ---
 ## Webmentions aren't actually the problem
 After my earlier[ post on webmentions](https://chrismcleod.dev/blog/some-words-on-webmentions/), <a href="https://campegg.com/2024/02/11/over-the-last.html" class="u-in-reply-to">Cam kindly reminded me that the bit I felt uneasy about is actually <em>backfeed</em></a>. To quote the IndieWeb wiki:

@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2thw22p"
+ogImage: starcraft-2-heart-of-the-swarm-release-date-and-digital-pre-purchase-preview.jpeg
 ---
 
 http://youtu.be/SG\_3R9BoVvg

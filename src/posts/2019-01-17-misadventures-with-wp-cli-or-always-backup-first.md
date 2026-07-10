@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqopc222p"
+ogImage: misadventures-with-wp-cli-or-always-backup-first-preview.jpeg
 ---
 
 I had the need to change the status on several hundred wordpress posts by a particular author, from "publish" to "pending" (more on this in a future post). This would have taken me hours to do through the frontend, so I figured I'd make my first serious use of [WP-CLI](https://wp-cli.org/), and script the job.

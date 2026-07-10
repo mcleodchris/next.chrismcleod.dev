@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqo2kxc2p"
+ogImage: textpattern-preview.jpeg
 ---
 
 Once upon a time I was heavily involved with the [Textpattern](https://textpattern.com/) community, but I haven't used or kept track of TXP for several years now. It randomly popped into my head over lunch that Textpattern originally had an ethos which aligned really well with IndieWeb ideals.

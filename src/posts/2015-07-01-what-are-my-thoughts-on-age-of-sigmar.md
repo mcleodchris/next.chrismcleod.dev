@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvkshc2p"
+ogImage: what-are-my-thoughts-on-age-of-sigmar-preview.jpeg
 ---
 
 **I have none, because we haven't seen enough full information - _in context_ - to make any informed opinions.**

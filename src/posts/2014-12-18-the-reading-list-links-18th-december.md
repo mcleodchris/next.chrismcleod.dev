@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqxkglk2p"
+ogImage: the-reading-list-links-18th-december-preview.jpeg
 ---
 
 _The Reading List is a round-up of interesting blog posts and articles I’ve recently read, curated and posted every couple of days._

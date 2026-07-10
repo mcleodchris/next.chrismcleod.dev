@@ -11,6 +11,7 @@ tags:
   - site-meta
   - blogging
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrag5os2p"
+ogImage: e107-blogging-continued-preview.jpeg
 ---
 
 Bit of a long one tonight...

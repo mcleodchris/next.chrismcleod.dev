@@ -10,6 +10,7 @@ tags:
   - personal
   - TV
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr57ijs2p"
+ogImage: battlestar-galactica-stole-my-heart-preview.jpeg
 ---
 
 Seriously.

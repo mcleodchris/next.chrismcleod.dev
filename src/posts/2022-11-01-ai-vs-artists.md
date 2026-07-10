@@ -11,6 +11,7 @@ tags:
   - link
 redirectFrom: ['/2022/11/01/ai-vs-artists/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqi3knk2p"
+ogImage: ai-vs-artists-preview.jpeg
 ---
 
 _Bookmarked [https://waxy.org/2022/11/invasive-diffusion-how-one-unwilling-illustrator-found-herself-turned-into-an-ai-model/](https://waxy.org/2022/11/invasive-diffusion-how-one-unwilling-illustrator-found-herself-turned-into-an-ai-model/)._

@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6fkck2p"
+ogImage: home-from-hospital-preview.jpeg
 ---
 
 I guess I should apologise – I was actually discharged a week ago (which was a week earlier than expected), but as I’m sure you can imagine, *everyone* has wanted to come by and see that I’m OK. This is the first time I’ve had a chance to sit at my iBook for longer than the time it takes to download (but not yet read!) mail.

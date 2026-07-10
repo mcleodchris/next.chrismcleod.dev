@@ -9,6 +9,7 @@ authors:
 youtube: true
 redirectFrom: ['/2021/03/29/emosnotdead/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqjuork2p"
+ogImage: emosnotdead-preview.jpeg
 ---
 
 It's just one of those days

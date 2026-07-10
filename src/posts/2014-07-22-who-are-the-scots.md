@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzakz22p"
+ogImage: who-are-the-scots-preview.jpeg
 ---
 
 A wonderful piece by Peter Arnott - [100 Days: Who Are The Scots?](http://peterarnott.blogspot.co.uk/2014/07/who-are-scots.html)

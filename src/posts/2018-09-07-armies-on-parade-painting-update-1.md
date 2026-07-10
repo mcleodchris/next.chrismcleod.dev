@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqpsg2s2p"
+ogImage: armies-on-parade-painting-update-1-preview.jpeg
 ---
 
 The first of many updates on the progress of [painting everything for Armies on Parade](/blog/armies-on-parade-painting-begins/).

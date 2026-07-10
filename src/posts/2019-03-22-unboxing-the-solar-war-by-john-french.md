@@ -41,6 +41,7 @@ gallery:
     alt: 'The rear cover of a red leatherbound hardback book. It features embossing and text picked out in gold'
     caption: 'I can’t wait to dive in to this book!'
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnfzq22p"
+ogImage: unboxing-the-solar-war-by-john-french-preview.jpeg
 ---
 
 {% include "components/gallery.njk" %}

@@ -5,6 +5,7 @@ id: 69f3c115-08a2-4e05-b34e-6bbaef0d4994
 tags:
   - site-meta
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqdr2z22p"
+ogImage: new-paint-same-blog-preview.jpeg
 ---
 
 I've been wanting to redo the theme of this site for a while. I had some specific ideas in mind, but no cohesive vision. Then I thought to myself - "why don't I base it on the editor theme I enjoy using so much and spend most of my day looking at?" Or something like that. And so, after a couple of evenings hacking away at the CSS, `https://chrismcleod.dev` has a new, fresh coat of paint.

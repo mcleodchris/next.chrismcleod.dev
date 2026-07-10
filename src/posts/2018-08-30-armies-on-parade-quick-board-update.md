@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqe3ik2p"
+ogImage: armies-on-parade-quick-board-update-preview.jpeg
 ---
 
 I've finally filled in the missing corner. Everything has been cut, glued, clamped, and filled… I've just got to sand everything down to size.

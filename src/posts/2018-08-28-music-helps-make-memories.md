@@ -10,6 +10,7 @@ tags:
   - link
   - music
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqkbqc2p"
+ogImage: music-helps-make-memories-preview.jpeg
 ---
 
 [Music helps make memories, by Om Malik](https://om.co/2018/08/26/music-helps-make-memories/). I've had some (minor) problems with long-term recall since having a brain haemorrhage in 2005, but if there's one thing which can help take me back, it's music, which I think is why I enjoyed Om's post so much.

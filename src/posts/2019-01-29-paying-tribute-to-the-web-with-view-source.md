@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqo7ga22p"
+ogImage: paying-tribute-to-the-web-with-view-source-preview.jpeg
 ---
 
 [Paying tribute to the web with View Source](https://m.signalvnoise.com/paying-tribute-to-the-web-with-view-source/).

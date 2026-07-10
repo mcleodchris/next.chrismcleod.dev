@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnm6yk2p"
+ogImage: regarding-the-thoughtful-cultivation-of-the-archived-internet-preview.jpeg
 ---
 [Regarding the Thoughtful Cultivation of the Archived Internet](https://kottke.org/19/03/regarding-the-thoughtful-cultivation-of-the-archived-internet)
 

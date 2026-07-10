@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2bnm22p"
+ogImage: random-thoughts-on-game-of-thrones-preview.jpeg
 ---
 
 I just caught up with Game of Thrones season 3 (because, y'know... *it* happened), so I decided to post up various thoughts about the the show.

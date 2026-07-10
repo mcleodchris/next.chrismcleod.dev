@@ -13,6 +13,7 @@ authors:
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwhle22p"
+ogImage: power-rangers-a-power-rangers-deboot-by-joseph-khan-preview.jpeg
 ---
 
 {% youtube "vw5vcUPyL90", "" %}

@@ -8,6 +8,7 @@ tags:
   - javascript
 
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqem6722p"
+ogImage: post-restoration-project-dealing-with-wordpress-post-kinds-data-preview.jpeg
 ---
 
 At the start of the year [I restored a lot of old posts](https://chrismcleod.dev/blog/new-year-old-posts/) to this site from a WordPress backup. While this worked great for posts that had "standard" content, I was missing hundreds of posts and even more metadata that relied on the [IndieWeb](https://indieweb.org/Post_Kinds_Plugin) Post-Kinds [plugin for WordPress](https://wordpress.org/plugins/indieweb-post-kinds/). In the export file this plugin data is largely stored as [serialised PHP data](https://www.php.net/manual/en/function.serialize.php) structures within the XML.

@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqyhr2s2p"
+ogImage: hell-froze-over-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/11/mslinux.png", "Microsoft <3 Linux" %}

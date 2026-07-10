@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqlcjl22p"
+ogImage: 👋-bye-facebook-preview.jpeg
 ---
 
 Inspired/spurred by [gRegor’s post](https://gregorlove.com/2019/11/a-2020-goal/), I finally posted on Facebook something that's been on my mind for a _long_ time. Like, **years** long:

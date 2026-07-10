@@ -10,6 +10,7 @@ tags:
   - links
   - miscellaneous
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqsaypk2p"
+ogImage: european-museums-may-loan-stolen-artifacts-back-to-african-countries-preview.jpeg
 ---
 
 > In recent months, museums in France, the United Kingdom, and Germany have begun to address the fact that large portions of their collections are, well, not theirs — and were stolen from other countries during the colonial era.

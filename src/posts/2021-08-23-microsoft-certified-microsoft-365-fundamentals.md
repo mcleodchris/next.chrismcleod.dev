@@ -14,6 +14,7 @@ authors:
 image: https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-365-certified-fundamentals1-1.png
 redirectFrom: ['/2021/08/23/microsoft-certified-microsoft-365-fundamentals/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqiosuc2p"
+ogImage: microsoft-certified-microsoft-365-fundamentals-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-365-certified-fundamentals1-1.png", "Microsoft 365 Fundamentals achievement badge" %}

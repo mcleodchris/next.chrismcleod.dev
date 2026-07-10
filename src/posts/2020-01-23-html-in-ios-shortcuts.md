@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqkx5cs2p"
+ogImage: html-in-ios-shortcuts-preview.jpeg
 ---
 
 An iOS Shortcuts tidbit I figured out yesterday: if you start with a piece of HTML as your input, it will be converted by Shortcuts to its internal “Rich Text” data type by default.

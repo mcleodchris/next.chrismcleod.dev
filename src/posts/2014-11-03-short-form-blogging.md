@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqyv7q22p"
+ogImage: short-form-blogging-preview.jpeg
 ---
 
 Gina Trapini gives [a few ideas about short-form blogging](http://scribbling.net/2014/10/16/short-form-blogging/), for when Twitter is too short, and a full article is too long (such as on Medium). Her new "rules" are all things I've mulled over. In particular, this item from her list is one resonates with me a lot:

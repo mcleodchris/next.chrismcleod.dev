@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqolvnc2p"
+ogImage: test-post-from-ulysses-preview.jpeg
 ---
 
 I'm experimenting with different iOS editing apps again, and [Ulysses](https://ulysses.app/) is first on the block. So far I like that:

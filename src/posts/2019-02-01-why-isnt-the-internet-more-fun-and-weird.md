@@ -14,6 +14,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqo46pk2p"
+ogImage: why-isnt-the-internet-more-fun-and-weird-preview.jpeg
 ---
 
 [Why isn't the internet more fun and weird?](https://jarredsumner.com/codeblog/) by [Jarred Sumner](https://jarredsumner.com/)

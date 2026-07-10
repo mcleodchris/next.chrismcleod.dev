@@ -15,6 +15,7 @@ image: https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/microsoft-certifie
 redirectFrom:
   ['/2021/07/29/microsoft-certified-security-compliance-and-identity-fundamentals/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqix4ic2p"
+ogImage: microsoft-certified-security-compliance-and-identity-fundamentals-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/microsoft-certified-security-compliance-and-identity-fundamentals.png", "Microsoft Certified: Security, Compliance, and Identity Fundamentals award badge" %}

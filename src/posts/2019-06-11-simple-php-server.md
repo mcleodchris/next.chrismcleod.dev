@@ -10,6 +10,7 @@ tags:
   - php
   - tip
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqmrz422p"
+ogImage: simple-php-server-preview.jpeg
 ---
 
 [Simple Python Server](https://andy-bell.design/notes/191/)

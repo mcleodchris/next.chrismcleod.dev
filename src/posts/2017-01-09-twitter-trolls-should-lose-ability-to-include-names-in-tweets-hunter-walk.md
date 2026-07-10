@@ -10,6 +10,7 @@ tags:
   - social-media
   - links
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyquwnwc2p"
+ogImage: twitter-trolls-should-lose-ability-to-include-@names-in-tweets-or-hunter-walk-preview.jpeg
 ---
 
 Hunter Walk with a neat idea for dealing with Twitter trolls I've not seen suggested anywhere else:

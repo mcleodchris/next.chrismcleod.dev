@@ -13,6 +13,7 @@ authors:
   - chris
 redirectFrom: ['/2021/12/17/fixing-create-react-app/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqihfkk2p"
+ogImage: fixing-create-react-app-preview.jpeg
 ---
 
 I ran into an issue last night where I couldn't generate a new React application template using `npx create-react-app my-app`. Annoyingly, this was only broken in the WSL environment of my personal PC, where it had been a while since I'd had to use the command. On Windows, where I'd never run the command before, it worked fine. The error I received was:

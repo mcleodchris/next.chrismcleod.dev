@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2x7zs2p"
+ogImage: review-angel-exterminatus-graham-mcneill-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/angel-exterminatus.jpg", "angel-exterminatus" %} Last weekend I read the latest Horus Heresy novel from [Graham McNeill](http://www.graham-mcneill.com "Graham McNeill") and Black Library: _Angel Exterminatus_. What follows is a quick review. I'm trying to avoid spoilers, so don't go into much depth about the plot.

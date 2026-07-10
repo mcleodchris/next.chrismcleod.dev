@@ -12,6 +12,7 @@ authors:
   - chris
 redirectFrom: ['/2022/04/28/going-independent-again/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqibh4s2p"
+ogImage: going-independent-again-preview.jpeg
 ---
 
 All going well - and DNS willing - this site has been migrated off of Wordpress.com and back to self-hosted. That's all well and good, but along the way, the site has picked up a couple of new tricks -

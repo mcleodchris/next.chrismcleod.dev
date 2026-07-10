@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvb4v22p"
+ogImage: professions-in-world-of-warcraft-legion-preview.jpeg
 ---
 
 _Preamble:_ I've jumped back into WoW over the last couple of months. I've had an on-mostly-off relationship with the game over the last few years (since the end of Wrath of the Liche King, really), but the early promise of Legion brought me back.

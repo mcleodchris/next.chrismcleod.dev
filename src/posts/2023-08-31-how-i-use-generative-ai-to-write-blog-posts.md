@@ -7,6 +7,7 @@ tags:
   - site-meta
   - AI
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqgj5ek2p"
+ogImage: how-i-use-generative-ai-to-help-write-blog-posts-preview.jpeg
 ---
 **Editor's Note, 26th January 2024** - This post was part of an experiment in using "generative AI" in my blogging process, and as such is at least in part written by one or more generative AI tools. [I am no longer using these tools](/blog/generative-ai-for-blogging-revisited) and felt it important to come back and and apply this label to posts where such tools were used.
 

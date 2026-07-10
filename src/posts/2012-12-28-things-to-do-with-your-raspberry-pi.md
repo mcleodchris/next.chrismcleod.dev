@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2qfbs2p"
+ogImage: things-to-do-with-your-raspberry-pi-preview.jpeg
 ---
 
 If you were a good boy or girl this year (like me), you may have been lucky enough to get a [Raspberry Pi](http://www.raspberrypi.org "Raspberry Pi") under the Christmas tree. Which is awesome, but (like me) you may be wondering what on earth you're going to do with it!

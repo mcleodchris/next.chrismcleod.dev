@@ -14,6 +14,7 @@ authors:
 image: https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-certified-azure-data-fundamentals.png
 redirectFrom: ['/2021/06/01/microsoft-certified-azure-data-fundamentals/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqjdnu22p"
+ogImage: microsoft-certified-azure-data-fundamentals-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-certified-azure-data-fundamentals.png", "Microsoft Azure Data Fundamentals achievement badge" %}

@@ -12,6 +12,7 @@ authors:
   - chris
 redirectFrom: ['/2021/09/01/some-development-environment-notes/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqimxc22p"
+ogImage: some-development-environment-notes-preview.jpeg
 ---
 
 Because Docker have changed their licensing and subscription TOS overnight, I've had to rebuild my development environment so it doesn't use Docker Desktop on Windows anymore. What follows are notes I've made along the way on how I got this working on my particular laptop. **This is not a tutorial!** While the notes below might help you, they're mostly a reminder to myself, in case I need to rebuild again, or adapt this into documentation for the rest of the team.

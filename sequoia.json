@@ -9,7 +9,8 @@
   "stripDatePrefix": true,
   "publicationUri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.publication/3mpyvquhnw22p",
   "frontmatter": {
-    "publishDate": "date"
+    "publishDate": "date",
+    "coverImage": "ogImage"
   },
   "publishContent": false,
   "bluesky": {
@@ -18,5 +19,6 @@
   },
   "ui": {
     "components": "./src/assets/scripts"
-  }
+  },
+  "imagesDir": "./src/assets/images/social-preview"
 }

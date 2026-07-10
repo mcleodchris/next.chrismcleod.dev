@@ -9,6 +9,7 @@ archived: true
 tags:
   - miscellaneous
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqumwfk2p"
+ogImage: games-workshops-rate-of-production-preview.jpeg
 ---
 
 If you step back and think about it, [Games Workshop](https://www.games-workshop.com/) produce a staggering amount of new products not only per year, but _per month_. It's something I don't think they get enough credit for.

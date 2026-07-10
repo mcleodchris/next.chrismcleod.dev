@@ -11,6 +11,7 @@ tags:
   - toys
   - nostalgia
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyratkfk2p"
+ogImage: whooo-new-toy!-preview.jpeg
 ---
 
 After a week and a half of waiting, my new Transformers Binaltech Smokescreen arrived in the post today :D

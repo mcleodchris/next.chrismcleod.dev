@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqw2s6c2p"
+ogImage: declaring-hobby-bankruptcy-and-maintaining-sanity-preview.jpeg
 ---
 
 With all the cool new stuff constantly being released by recently, it can be _very_ easy to end up with a large hobby backlog. When this happens it's possible to get overwhelmed by your "to do list," and it starts to become a mental drag; when this kicks in, your hobby no longer feels fun and instead feels like working a job you hate. Sometimes it's just best to declare something a lost cause and just start over afresh.

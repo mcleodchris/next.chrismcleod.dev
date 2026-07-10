@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5ttvk2p"
+ogImage: at-what-point-do-we-cut-off-support-for-a-browser-preview.jpeg
 ---
 
 I know, I know, in theory we should be developing sites that work in *every* browser and not just targeting specific applications. [However, the reality isn’t quite there yet](http://www.andybudd.com/archives/2005/01/most_common_browser_bugs/index.php). Support for the different [web standards](http://www.webstandards.org/) varies massively from vendor to vendor.

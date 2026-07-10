@@ -11,6 +11,8 @@
   "type": "module",
   "scripts": {
     "start": "run-p dev:*",
+    "og": "node helpers/generate-og-images.js",
+    "og:force": "node helpers/generate-og-images.js --force",
     "new:note": "node helpers/newNote.js",
     "new:post": "node helpers/newPost.js",
     "new:bookmark": "node helpers/newBookmark.js",

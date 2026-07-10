@@ -12,6 +12,7 @@ tags:
   - ruby
   - video
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqu3kqc2p"
+ogImage: railscast-pro-videos-are-now-free-preview.jpeg
 ---
 
 There’s some really good learning to be had here, even if the videos themselves are “old.”

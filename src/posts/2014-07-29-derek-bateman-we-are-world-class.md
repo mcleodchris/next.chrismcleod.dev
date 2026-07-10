@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqz735s2p"
+ogImage: derek-bateman-we-are-world-class-preview.jpeg
 ---
 
 Derek Bateman shines the spotlight on how good Commonwealth Games being held in Glasgow is for Scotland, and then closes out with an evisceration of Alistair Darling.

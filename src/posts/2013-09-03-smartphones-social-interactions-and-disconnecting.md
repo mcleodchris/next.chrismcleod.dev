@@ -13,6 +13,7 @@ authors:
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr23bis2p"
+ogImage: smartphones-social-interactions-and-disconnecting-preview.jpeg
 ---
 
 {% youtube "OINa46HeWg8", "" %}

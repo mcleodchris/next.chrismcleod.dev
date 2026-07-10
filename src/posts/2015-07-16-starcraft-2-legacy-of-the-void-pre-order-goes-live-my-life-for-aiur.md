@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvjbms2p"
+ogImage: starcraft-2-legacy-of-the-void-pre-order-goes-live-my-life-for-aiur!-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/07/lotv-screenshot-04.jpg", "LotV-Screenshot-04" %}

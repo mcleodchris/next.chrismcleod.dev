@@ -11,6 +11,7 @@ tags:
   - design
   - hacks
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwm3v22p"
+ogImage: typing-on-my-work-laptop-just-got-300percent-better-preview.jpeg
 ---
 
 Thanks to using 2 cork stoppers to elevate the back of the laptop up about an inch.

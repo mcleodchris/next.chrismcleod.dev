@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5p3kk2p"
+ogImage: is-it-wrong-to-submit-your-own-entries-to-delicious-preview.jpeg
 ---
 
 Side-stepping the [other del.icio.us items](http://blog.del.icio.us/blog/2005/12/yahoo.html) you will see today…

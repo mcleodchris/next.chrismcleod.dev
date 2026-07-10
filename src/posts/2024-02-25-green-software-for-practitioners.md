@@ -6,6 +6,7 @@ tags:
   - certifications
   - green-software
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqf3gi22p"
+ogImage: green-software-for-practitioners-lfc131-preview.jpeg
 ---
 
 Catching up posting about something that happened on on Friday: I completed the free [Green Software for Practitioners](https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/) course by the Linux Foundation.

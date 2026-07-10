@@ -14,6 +14,7 @@ authors:
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyquy5rk2p"
+ogImage: the-original-iphone-was-announced-10-years-ago-today-preview.jpeg
 ---
 
 {% youtube "vN4U5FqrOdQ", "Steve Jobs iPhone 2007 Presentation (HD)" %}

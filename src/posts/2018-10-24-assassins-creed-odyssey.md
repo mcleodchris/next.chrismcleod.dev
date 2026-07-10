@@ -11,6 +11,7 @@ tags:
   - gaming
   - assassins-creed
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqpcla22p"
+ogImage: assassins-creed-odyssey-preview.jpeg
 ---
 
 There's a point, approximately five hours or so into _Assassin's Creed: Odyssey_, where you realise "this game is _vast_." By then, you'll probably have followed through the introductory quests on Kephallonia, got a handle on the basics of combat, levelled up a bit, and unlocked a couple of abilities; the title screen is finally shown, and suddenly the world _really_ opens up.

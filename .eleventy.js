@@ -63,8 +63,7 @@ import {
   postsForFeed
 } from './config/collections/index.js';
 
-// module import events
-import {svgToJpeg} from './config/events/index.js';
+// OG image generation is handled by helpers/generate-og-images.js (run separately)
 
 // plugins
 import {markdownLib} from './config/plugins/markdown.js';
@@ -153,9 +152,6 @@ export default async function(eleventyConfig) {
   eleventyConfig.addCollection('notesForFeed', notesForFeed);
   eleventyConfig.addCollection('bookmarksForFeed', bookmarksForFeed);
   eleventyConfig.addCollection('postsForFeed', postsForFeed);
-
-  // 	--------------------- Events ---------------------
-  eleventyConfig.on('afterBuild', svgToJpeg);
 
   // 	--------------------- Plugins ---------------------
   eleventyConfig.addPlugin(RenderPlugin);

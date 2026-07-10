@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4yxkc2p"
+ogImage: id-be-a-lightroom-buyer-if-adobe-would-let-me-preview.jpeg
 ---
 
 I own a [Nikon D50 camera](http://web.archive.org/web/20070828213149/http://www.dcmag.co.uk/Nikon_D50.YRfSdhxoY7WsLA.html "Nikon D50"), which I’m *slowly* getting the hang of. One of the learning processes I’m going through at the moment is RAW workflow - taking the RAW files from the camera, processing them on the computer, then exporting them to whatever format/size/whatever I need.

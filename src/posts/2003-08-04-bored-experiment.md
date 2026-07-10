@@ -10,6 +10,7 @@ tags:
   - web-standards
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbj6rs2p"
+ogImage: bored-experiment!-preview.jpeg
 ---
 
 Just for the sake of it, I've started work on a semantically correct, CSS/XHTML strict compliant forum script.

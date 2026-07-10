@@ -5,6 +5,7 @@ tags:
   - personal
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqfkltc2p"
+ogImage: things-im-enjoying-lately-preview.jpeg
 ---
 I've been planning to write a general "stuff I'm enjoying recently" post for a while, and my birthday seemed as good a time as any to do it 🥳🎈
 

@@ -10,6 +10,7 @@ authors:
   - chris
 redirectFrom: ['/2021/04/26/an-endless-loop/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqjord22p"
+ogImage: an-endless-loop-preview.jpeg
 ---
 
 1. Write code

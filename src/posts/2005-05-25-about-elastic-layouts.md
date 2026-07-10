@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6neck2p"
+ogImage: about-elastic-layouts-preview.jpeg
 ---
 
 **Elastic layouts** have been getting a bit of talk over the last few months. [John](http://web.archive.org/web/20060223182850/http://joshuaink.com/blog/282/elastic-fantastic), [Roger](http://www.456bereastreet.com/archive/200504/fixed_or_fluid_width_elastic/) and [Patrick](http://www.alistapart.com/articles/elastic/) have all talked about them. I use an elastic layout in the new design.

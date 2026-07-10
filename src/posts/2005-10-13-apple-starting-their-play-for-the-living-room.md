@@ -12,6 +12,7 @@ tags:
   - media
   - iMac
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5yuzs2p"
+ogImage: apple-starting-their-play-for-the-living-room-preview.jpeg
 ---
 
 The iMac announcement yesterday has me intrigued (yes, the pissed-off feeling has abated). All of a sudden, it seems that the iMac is being positioned for a stab at the media centre market. There has been wild speculation about what Apple’s plans for the living room computer market might be. I think now we might be seeing the start of a push into that area.

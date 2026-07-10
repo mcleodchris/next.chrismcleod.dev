@@ -12,6 +12,7 @@ tags:
   - warhammer-40000
   - armies-on-parade
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqrx7ac2p"
+ogImage: warhammer-40000-primaris-space-marine-ancient-conversion-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0807-1.jpg", "Warhammer 40,000 Primaris Space Marine Ancient (conversion)" %}

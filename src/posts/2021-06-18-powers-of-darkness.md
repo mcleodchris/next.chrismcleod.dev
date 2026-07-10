@@ -9,6 +9,7 @@ authors:
   - chris
 redirectFrom: ['/2021/06/18/powers-of-darkness/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqj7f522p"
+ogImage: powers-of-darkness-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0513.jpg", "Powers of Darkness front cover" %}

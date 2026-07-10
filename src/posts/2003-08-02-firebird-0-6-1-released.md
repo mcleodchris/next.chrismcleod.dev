@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbkvhs2p"
+ogImage: firebird-061-released-preview.jpeg
 ---
 
 [Firebird](http://web.archive.org/web/20030801074300/http://www.mozilla.org/products/firebird/ "Firebird"), the excellent browser that is a spin off of the Mozilla Project has had a new milestone release.

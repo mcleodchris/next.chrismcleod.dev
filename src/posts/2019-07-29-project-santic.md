@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqm2vts2p"
+ogImage: ⚜️-project-sanctic-preview.jpeg
 ---
 
 For the last 24-18 months or so I've had a background project to recreate my original [Adepta Sororitas](https://mrkapowski.com/tag/adepta-sororitas) (nee: "[Sisters of Battle](https://mrkapowski.com/tag/sisters-of-battle)") army, in advance of the new codex and plastic release. With that release looking more and more [imminent](/blog/amalia-novena/), I really need to get my skates on! By my reckoning I've got roughly three months to finish up, maybe less!

@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4bqf22p"
+ogImage: a-little-more-for-you-to-read-preview.jpeg
 ---
 
 Yesterday morning I imported the best bits (plus a few other entries) from two of my old blogs

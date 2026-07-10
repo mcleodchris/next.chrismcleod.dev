@@ -10,6 +10,7 @@ tags:
   - security
   - link
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqsrc722p"
+ogImage: tls-13-approved-preview.jpeg
 ---
 
 [TLS 1.3 approved](https://www.theregister.co.uk/2018/08/13/tls_13_approved/). More, better, security is always good.

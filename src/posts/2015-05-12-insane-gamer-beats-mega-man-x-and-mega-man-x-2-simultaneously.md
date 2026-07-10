@@ -12,6 +12,7 @@ authors:
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvxjok2p"
+ogImage: insane-gamer-beats-mega-man-x-and-mega-man-x-2-simultaneously-preview.jpeg
 ---
 
 And with only one input controller as well! Both games are setup next to each other, and are taking input simultaneously from the same controller.

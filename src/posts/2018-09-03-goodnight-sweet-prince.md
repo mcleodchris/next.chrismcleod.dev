@@ -9,6 +9,7 @@ archived: true
 tags:
   - miscellaneous
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqb2ss2p"
+ogImage: goodnight-sweet-prince-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0836.jpg", "alt temporarily text not available" %}

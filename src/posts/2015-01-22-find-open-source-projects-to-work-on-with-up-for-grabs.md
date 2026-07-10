@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqx2uk22p"
+ogImage: find-open-source-projects-to-work-on-with-up-for-grabs-preview.jpeg
 ---
 
 Want to contribute to an Open-Source project? Not sure who needs your help? [Up for Grabs](http://up-for-grabs.net/) is a way for developers to find OSS projects they can help out with.

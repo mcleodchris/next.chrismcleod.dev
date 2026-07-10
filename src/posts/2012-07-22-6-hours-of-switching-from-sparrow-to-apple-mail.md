@@ -11,6 +11,7 @@ tags:
 authors:
   - chris
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3qjm22p"
+ogImage: 6-hours-of-switching-from-sparrow-to-apple-mail-preview.jpeg
 ---
 
 I bloody hate it. I’ve cut down the interface so it’s as “Sparrow-like” as I can make it, but there’s just something… wrong… about the whole thing.

@@ -9,6 +9,7 @@ archived: true
 tags:
   - software
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbcez22p"
+ogImage: 3rd-update-in-a-night-preview.jpeg
 ---
 
 What's up wit' dat? :)

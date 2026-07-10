@@ -14,6 +14,7 @@ authors:
 image: https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-certified-power-platform-fundamentals.png
 redirectFrom: ['/2021/06/13/microsoft-certified-power-platform-fundamentals/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqjbjik2p"
+ogImage: microsoft-certified-power-platform-fundamentals-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-certified-power-platform-fundamentals.png", "Microsoft Power Platform Fundamentals achievement badge" %}

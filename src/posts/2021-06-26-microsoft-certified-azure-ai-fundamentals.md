@@ -14,6 +14,7 @@ authors:
 image: https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-certified-azure-ai-fundamentals1-1.png
 redirectFrom: ['/2021/06/26/microsoft-certified-azure-ai-fundamentals/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqj34g22p"
+ogImage: microsoft-certified-azure-ai-fundamentals-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-certified-azure-ai-fundamentals1-1.png", "Microsoft Azure AI Fundamentals achievement badge" %}

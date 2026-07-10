@@ -32,6 +32,7 @@ gallery:
     alt: 'A orthographic map of the Imperial Palace, in a hand-drawn style. It shows the general layout of the surrounding area. There is a callout which shows the Helios Gate area in more detail'
     caption: ''
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqmbrl22p"
+ogImage: unboxing-the-lost-and-the-damned-by-guy-haley-preview.jpeg
 ---
 
 {% include "components/gallery.njk" %}

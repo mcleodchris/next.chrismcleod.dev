@@ -6,6 +6,7 @@ tags:
   - automation
   - blogging-tools
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqfemgc2p"
+ogImage: generate-a-markdown-list-of-open-safari-tabs-with-an-ios-shortcut-preview.jpeg
 ---
 I mentioned in [my last post](https://chrismcleod.dev/blog/open-tab-dump-mobile-edition-2024-02-18/) that I created an iOS Shortcut to automate turning the list of tabs I have open in Safari into a Markdown list. Ryan asked if I could share that shortcut. I was always intending to, so here it is for everyone to make use of:
 

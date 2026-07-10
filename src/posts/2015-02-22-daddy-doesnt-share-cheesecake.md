@@ -10,6 +10,7 @@ tags:
   - personal
   - miscellaneous
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwkmz22p"
+ogImage: daddy-doesnt-share-cheesecake-preview.jpeg
 ---
 
 > **Twin 1:** What are you eating?

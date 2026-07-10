@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwz6tc2p"
+ogImage: reclaiming-history-preview.jpeg
 ---
 
 I've [written](/blog/the-things-that-will-last-on-the-internet-are-not-owned/ "The Things That Will Last On The Internet Are Not Owned") [previously](/blog/a-blog-is-a-bonsai-it-needs-careful-pruning-and-feeding/ "A Blog is a Bonsai. It Needs Careful Pruning and Feeding.") about how the [archives](https://mrkapowski.com/sitemap "Archives") of my blog were less full than they should be - that, between domain changes, server/CMS moves, and times when I simply didn't care, there were potentially hundreds of posts missing from the early years in particular.

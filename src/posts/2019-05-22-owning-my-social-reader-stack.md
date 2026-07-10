@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqn26t22p"
+ogImage: owning-my-social-reader-stack-preview.jpeg
 ---
 
 I've been running my own instance of [Aaron](https://aaronparecki.com/)’s excellent [Monocle microsub client](https://github.com/aaronpk/Monocle) for a while now. I think it's time I take the leap and run my own instance of [Aperture microsub server](https://github.com/aaronpk/Aperture) as well (and its [associated](https://github.com/aaronpk/Watchtower) [services](https://github.com/atmos/camo)), just so I don't have to rely on any services hosted elsewhere.

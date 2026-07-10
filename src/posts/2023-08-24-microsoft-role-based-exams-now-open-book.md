@@ -6,6 +6,7 @@ tags:
   - certifications
   - learning
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqglens2p"
+ogImage: microsoft-role-based-exams-now-semi-open-book-preview.jpeg
 ---
 
 Microsoft's "role based" exams can be tough-going. There's a *lot* to learn, with a lot of questions where remembering the sometimes subtle nuances between things like different SKUs/pricing plans, or particular flags on a PowerShell command can make all of the difference. A lot of the time this is detail you wouldn't normally need to memorise, but would just look it up in normal day-to-day work.

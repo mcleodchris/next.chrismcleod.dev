@@ -6,6 +6,7 @@ tags:
   - blogging
   - mastodon
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqfikfk2p"
+ogImage: blogkeeping-preview.jpeg
 ---
 A list of the little online jobs I've been knocking off my to-do list this week:
 

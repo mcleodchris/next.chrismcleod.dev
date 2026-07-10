@@ -9,6 +9,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbyqtc2p"
+ogImage: pantellica-black-atom-gigs-and-the-radio-show-preview.jpeg
 ---
 
 I'm in quite a good mood today (0_0) despite having to get up horrendously early (well, 8:30am) to get to work...

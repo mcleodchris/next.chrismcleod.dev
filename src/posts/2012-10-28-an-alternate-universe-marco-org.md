@@ -9,6 +9,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr34f322p"
+ogImage: an-alternate-universe-marcoorg-preview.jpeg
 ---
 
 [An alternate universe – Marco.org](http://www.marco.org/2012/10/26/an-alternate-universe "An alternate universe – Marco.org")

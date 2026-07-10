@@ -10,6 +10,7 @@ tags:
   - jekyll
   - tip
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyquafz22p"
+ogImage: note-to-self-posting-liquid-code-blocks-preview.jpeg
 ---
 
 Having just spent faaaar too long to get a sample Liquid code block to not be parsed by Jekyll, I thought I better make note of this, for my own benefit:

@@ -13,6 +13,7 @@ gallery:
   - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/2fdbb63b-689e-45bd-b188-f3c4545280a5.JPG
     alt: The interior of The Craftsman, taken from the corner of the room; with a bar area showcasing a variety of bottles, bar stools, and wooden dining tables with patrons. The ceiling has exposed ductwork, and there are blackboard menus with specials. A pink purse is on a table, and a “DOGS WELCOME” sign indicates a pet-friendly policy
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqekkgs2p"
+ogImage: brunch-at-the-craftsman-preview.jpeg
 ---
 
 [The Craftsman is a Coffee and Alehouse in Aberdeen](https://thecraftsmancompany.com/). Wanting to visit somewhere outwith the quarter of the city we normally stick to, it's located just next to the harbour, and in my youth used to be the Schooner Bar - famed for its 7am opening times and being one of the roughest pubs in Aberdeen. Times have changed though, and The Craftsman is much more welcoming and modern. It was much more lively than [Second Home](https://chrismcleod.dev/blog/brunch-at-second-home/), in part due to the location near the travel hubs and major shopping centre, and also because it's been around longer is better established. The music was eclectic, seemingly jumping around eras and genres. It had that slightly hipster-ish feeling I get with a lot of the new places springing up around Aberdeen. Not in a pretentious way, more in the "hand-crafted" vibe and use of reclaimed/recycled fixtures and fittings.

@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvo6u22p"
+ogImage: so-im-building-a-new-pc-preview.jpeg
 ---
 
 I mentioned a few weeks back I was [considering my choices for how to upgrade](/blog/the-upgrade-conundrum/) my aging computer equipment, and of the choices, building my own custom PC would be the most rewarding path to take. I swithered a bit on whether I _really_ wanted to do this, but in the end I gave in to the temptation to build something entirely my own.

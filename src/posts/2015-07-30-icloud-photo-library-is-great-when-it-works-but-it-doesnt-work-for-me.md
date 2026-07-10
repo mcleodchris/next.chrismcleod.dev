@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvhots2p"
+ogImage: icloud-photo-library-is-great-when-it-works-but-it-doesnt-work-for-me-preview.jpeg
 ---
 
 I've been using iCloud Photo Library (iCPL) for the last few months, basically since the day it went to Public Beta. It was one of the features I was most excited about for iOS 8 and OS X Yosemite. The idea is fantastic - all your photos available on all your (Apple) devices, and it's integrated with what is probably your most frquently used camera, so new photos are automatically added.

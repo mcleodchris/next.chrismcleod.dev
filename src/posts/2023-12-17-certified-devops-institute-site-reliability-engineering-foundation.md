@@ -6,6 +6,7 @@ tags:
   - site-reliability-engineering
   - devops
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqgbja22p"
+ogImage: certified-devops-institute-site-reliability-engineering-fundamentals-preview.jpeg
 ---
 
 It's been a very busy week, so I'm only managing to blog about this now, even though it happened last weekend. Last Saturday (9th December) I sat and passed [the Foundation-level DevOps Institute certification for Site Reliability Engineering](https://www.devopsinstitute.com/certifications/sre-foundation/). This was a bit of a spur-of-the-moment certification to sit; it was instigated by a random conversation with a manager (not one of my own) who brought up Site Reliability Engineering, and the need to have more knowledge of it within our area of the organisation. It was a topic I was aware of through my various DevOps studies, but not as anything more than a passing mention. In order to be able to start fleshing out our internal wikis with at least some basic information (that other, more experienced colleagues could then bulk out further), I started looking at some of the internal training resources for more information. Fast forward another 2 weeks, and I had an unexpected opportunity to go on a 2-day external training course that included a voucher for sitting the certification exam. Wanting to strike while the iron was hot, I scheduled the exam for the day after the training, and that was that!

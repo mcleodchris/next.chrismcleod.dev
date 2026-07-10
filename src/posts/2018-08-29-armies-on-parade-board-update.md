@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqfncc2p"
+ogImage: armies-on-parade-board-update-preview.jpeg
 ---
 
 I've been slowly chipping away at [my Armies on Parade board](/blog/armies-on-parade-starting-the-display-board/) over the last few days (when I've resisted [the siren song of Warcraft](/blog/quick-thoughts-on-returning-character-experience-vs-new-in-world-of-warcraft/)…). The army itself is another matter, but that's for another day.

@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqz5je22p"
+ogImage: simple-things-we-can-all-do-to-win-a-yes-vote-preview.jpeg
 ---
 
 Yes. It's a tiny word with a lot of power; a word which hopefully will change the course of Scotland's future come September, when we answer the question "should Scotland be an independent country?"

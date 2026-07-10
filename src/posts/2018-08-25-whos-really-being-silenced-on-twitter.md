@@ -7,6 +7,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqxgn22p"
+ogImage: whos-really-being-silenced-on-twitter-preview.jpeg
 ---
 
 [Who’s really being silenced on Twitter?](https://www.theverge.com/2018/8/25/17779822/trump-twitter-silence-conservatives-shadow-ban) — The Verge:

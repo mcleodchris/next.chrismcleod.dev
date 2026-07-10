@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2yurc2p"
+ogImage: daring-fireball-the-ipad-mini-preview.jpeg
 ---
 
 [Daring Fireball: The iPad Mini](http://daringfireball.net/2012/10/ipad_mini "Daring Fireball: The iPad Mini")

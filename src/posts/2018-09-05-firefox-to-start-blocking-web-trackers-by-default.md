@@ -11,6 +11,7 @@ tags:
   - privacy
   - mozilla
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqpys622p"
+ogImage: firefox-to-start-blocking-web-trackers-by-default-preview.jpeg
 ---
 
 > Deceptive practices that invisibly collect identifiable user information or degrade user experience are becoming more common. For example, some trackers fingerprint users — a technique that allows them to invisibly identify users by their device properties, and which users are unable to control. Other sites have deployed cryptomining scripts that silently mine cryptocurrencies on the user’s device. Practices like these make the web a more hostile place to be. Future versions of Firefox will block these practices by default.

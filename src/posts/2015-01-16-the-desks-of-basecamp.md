@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqx6aws2p"
+ogImage: the-desks-of-basecamp-preview.jpeg
 ---
 
 I love this [look at the desks/working environments](https://signalvnoise.com/posts/3833-what-our-desks-look-like-2015-edition) of the Basecamp[^1] staff. It combines a couple of things I like to see - how people work, and home décor. I find both to be a source of inspiration.

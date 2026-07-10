@@ -13,6 +13,7 @@ authors:
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzwaek2p"
+ogImage: coder-a-simple-way-to-make-web-stuff-on-raspberry-pi-preview.jpeg
 ---
 
 {% youtube "wH24YwdayFg", "" %}

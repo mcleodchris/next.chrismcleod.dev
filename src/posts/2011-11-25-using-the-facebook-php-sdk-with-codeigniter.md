@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr47yps2p"
+ogImage: using-the-facebook-php-sdk-with-codeigniter-preview.jpeg
 ---
 
 Most of my small personal projects tend to get built with [CodeIgniter](http://codeigniter.com), which is a simple to use, fast, lightweight PHP5 MVC framework.

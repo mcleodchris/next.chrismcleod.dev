@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqovees2p"
+ogImage: twitter-syndication-preview.jpeg
 ---
 
 I'm still geting used to the ins-and-outs of writing and syndicating content. So far it seems that:

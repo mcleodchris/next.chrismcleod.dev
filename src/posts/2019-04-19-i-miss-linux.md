@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnedzc2p"
+ogImage: i-miss-linux-preview.jpeg
 ---
 
 I'm getting an urge to switch my main desktop PC back to some flavour of Linux. It's been a couple of years, and the Windows Subsystem for Linux has been adequate, but I've never been able to get it to work 100%. There's always something complaining, that should be working "cross-platform" out of the box.

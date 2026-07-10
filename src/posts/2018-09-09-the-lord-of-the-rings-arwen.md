@@ -11,6 +11,7 @@ tags:
   - tolkien
   - miniatures
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqpkj522p"
+ogImage: the-lord-of-the-rings-arwen-preview.jpeg
 ---
 
 Similar to my [Lord of Blights](/blog/age-of-sigmar-lord-of-blights/), this is a "catch-up post" for a model I painted earlier this year.

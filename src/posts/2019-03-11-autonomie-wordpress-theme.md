@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqno2ks2p"
+ogImage: autonomie-wordpress-theme-preview.jpeg
 ---
 
 [Autonomie WordPress Theme](https://github.com/pfefferle/Autonomie)

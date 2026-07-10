@@ -16,6 +16,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqyg3e22p"
+ogImage: net-officially-coming-to-mac-linux-in-2015-preview.jpeg
 ---
 
 Straight from the blog of [Scott Hanselman](http://www.hanselman.com/blog/AnnouncingNET2015NETAsOpenSourceNETOnMacAndLinuxAndVisualStudioCommunity.aspx):

@@ -7,6 +7,7 @@ tags:
   - webmentions
   - blogging-tools
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqfoa222p"
+ogImage: some-words-on-webmentions-preview.jpeg
 ---
 
 [Webmentions](https://indieweb.org/Webmention) are one of those things I like the _idea_ of, but not always the _practicalities_ of - particularly in the [extended IndieWeb sense of it](https://indieweb.org/responses). The idea of sending and receiving Likes and other interactions to/from other websites is pretty cool in theory, and helps bring that sense of community that is sometimes lacking in the modern version of the blogosphere. Time was you'd get a trackback/pingback from a response to a post you'd written, go check out the response post on the author's site, then continue the conversation on your own blog. This back-and-forth was key to building up ties within groups and sub-groups on different topics. Webmentions are, at their core, just an iteration on the core technology behind that.

@@ -13,6 +13,7 @@ tags:
   - privacy
   - accessibility
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqrledc2p"
+ogImage: securing-web-sites-made-them-less-accessible-preview.jpeg
 ---
 
 Eric Meyer: [Securing Web Sites Made Them Less Accessible](https://meyerweb.com/eric/thoughts/2018/08/07/securing-sites-made-them-less-accessible/)

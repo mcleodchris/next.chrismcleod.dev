@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr52ies2p"
+ogImage: textpattern-and-time-offsets-preview.jpeg
 ---
 
 There’s a bit of a long-standing bug in [Textpattern](https://web.archive.org/web/20061105184141/http://www.textpattern.com/), and its handling of time zones. It’s a bit of a head-scratcher to get your head around, so bear with me. It’s probably best described with a simple example, so here goes:

@@ -8,6 +8,7 @@ tags:
   - bunny-net
   - eleventy
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqdped22p"
+ogImage: migrating-an-eleventy-site-to-bunnynet-preview.jpeg
 ---
 
 I wrote a while back that [I was hosting the images for this blog on Azure](https://chrismcleod.dev/blog/i-rebuilt-my-blog-and-didnt-write-about-it/). After I wrote that post [I moved the site wholesale over to Azure Static Web Apps](https://chrismcleod.dev/blog/sending-webmentions-after-deploying-to-azure-static-web-apps/) (SWA), and the site has been running pretty smoothly since. Unfortunately, Azure are deprecating the particular CDN service I was using, and the alternatives looked Enterprise-grade expensive. The actual switch-off wasn't happening until 2027, but I know what I'm like: I'd forget and then have to rush to fix my broken site all of a sudden. So moving sooner rather than later seemed the best idea.

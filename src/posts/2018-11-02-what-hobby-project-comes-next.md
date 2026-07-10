@@ -13,6 +13,7 @@ tags:
   - warhammer-40000
   - miniatures
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqp5utk2p"
+ogImage: what-hobby-project-comes-next-preview.jpeg
 ---
 
 I've been thinking about what I'm going to work on, now I've got past Armies on Parade. The last few weeks have been a hobby holiday so I could recharge and avoid burnout, but I'm getting to a point where I can feel a pull towards my workspace again. I've had a few ideas kicking around my head, along with several projects I could revisit. In the "revisit" category, I've got:

@@ -1,10 +1,12 @@
 ---
 # https://github.com/bnijenhuis/bnijenhuis-nl/blob/main/social-preview.njk
+# OG image generation is now handled by helpers/generate-og-images.js
+# This template is kept as a design reference but excluded from the build.
 pagination:
   data: collections.posts
   size: 1
   alias: preview
-permalink: '/assets/images/social-preview/{{ preview.data.title | slugify }}-preview.svg'
+permalink: false
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>

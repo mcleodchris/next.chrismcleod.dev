@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr26lx22p"
+ogImage: forget-deleting-even-deactivating-your-facebook-account-can-be-difficult-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/08/screenshot-250813-181546.png", "My Deactivated Facebook Profile" %}

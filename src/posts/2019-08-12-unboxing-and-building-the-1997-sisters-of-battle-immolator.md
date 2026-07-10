@@ -85,6 +85,7 @@ gallery:
     alt: 'The model arranged in 3 sub assemblies - hull, turret, and gunner - ready for painting'
     caption: ''
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqlxfk22p"
+ogImage: unboxing-and-building-the-1997-sisters-of-battle-immolator-preview.jpeg
 ---
 
 _Editor's Note: All images have been moved to a single gallery at the end of the post_

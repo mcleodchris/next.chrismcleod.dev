@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqp4c2k2p"
+ogImage: open-sourcing-my-indieweb-wordpress-theme-preview.jpeg
 ---
 
 As I’ve been experimenting more with IndieWeb ideas on this site, I've been kicking around the idea of open sourcing the custom theme I use to power this site (currently called "K"). Part of this is from a desire to start sharing useful code again. I haven't really put anything out there in years now. Once upon a time, long before the rise of Github, any code I wrote for myself would at least have ended up as a downloadable .zip file.

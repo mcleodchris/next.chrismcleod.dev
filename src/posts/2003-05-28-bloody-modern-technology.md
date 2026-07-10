@@ -9,6 +9,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbvhec2p"
+ogImage: bloody-modern-technology-preview.jpeg
 ---
 
 I'm in mourning. My DVD player decided to blow itself up last night :( . One minute, my girlfriend is watching “Miss Congeniality”, the next minute there's a few funny noises, some popping, a bang and a burning smell. At first I thought it was the speaker system - I'd thought there was something wrong with them for months now and I was still recieving a picture, but upon noticing the garbage that the players LCD was spewing out and that the burnt smell was coming from the player, I had to conclude that something had blown inside the player unit itself. So it was a case of power off and unplug, before anything caught fire.

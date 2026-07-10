@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqmymzc2p"
+ogImage: categorical-preview.jpeg
 ---
 
 Between tags and [post kinds](https://indieweb.org/posts#Types_of_Posts)/formats, are "categories" considered redundant when organising a blog? I have a bunch of legacy posts which have some high-level categories assigned, but the vast majority of posts end up in the default category ([notes](https://mrkapowski.com/category/notes)), and I can't remember the last time I went out of my way to set the category on anything (other than this post) - because most of the time I'm quick-posting from a tool which doesn't even have the _option_ to set categories.

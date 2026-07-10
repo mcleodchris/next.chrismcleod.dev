@@ -7,6 +7,7 @@ tags:
   - feeds
 gradient: "true"
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqgdavc2p"
+ogImage: so-about-that-feed-reader-only-blog-idea-preview.jpeg
 ---
 In my last post I included a footnote about a RSS-only blog idea I’d had ages ago and not done anything with:
 

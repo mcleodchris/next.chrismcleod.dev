@@ -5,6 +5,7 @@ tags:
   - site-meta
   - eleventy
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqexrc22p"
+ogImage: i-have-a-problem-with-build-times-preview.jpeg
 ---
 At the moment, this site takes too damn long to build. Recent builds are nearly 20 minutes. The upper limit on the tooling I'm using is 25 minutes. So it's a problem I need to address. I've found myself reluctant to add some bits and bobs to the site recently because they just won't work in a world where builds take so long.
 

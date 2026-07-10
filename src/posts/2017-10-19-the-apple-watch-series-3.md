@@ -12,6 +12,7 @@ tags:
   - technology
   - watch
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqtcym22p"
+ogImage: the-apple-watch-series-3-preview.jpeg
 ---
 
 I've had my Series 3 since launch[^1]. At different points over the last several years, I've had many a wearable strapped to my wrist, and several times over my lifetime I've tried to get into the habit of wearing a watch. I'm pretty confident in saying that nothing has stayed on my wrist more than a few months. So why get a Series 3, and is it any better?

@@ -11,6 +11,7 @@ authors:
   - chris
 redirectFrom: ['/2021/04/30/hey-%f0%9f%91%8b%f0%9f%8f%bb-goodbye/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqjkpgs2p"
+ogImage: hey-👋🏻-goodbye-preview.jpeg
 ---
 
 I got rid of my Hey email address last night. I really liked the “mental model” of how the app organised email, but there was never enough there to push me to fully switch over from Proton Mail. I couldn’t justify paying for 2 email services over the long term, so one had to go eventually. The [furore](https://www.theverge.com/2021/4/27/22406673/basecamp-political-speech-policy-controversy) and [fallout](https://janeyang.org/2021/04/27/an-open-letter-to-jason-and-david/) of the last couple of days helped make the choice easier and sooner.

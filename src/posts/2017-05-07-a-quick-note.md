@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqurnrc2p"
+ogImage: a-quick-note-preview.jpeg
 ---
 
 I've not written much here since the start of the year. I'd started off with such good intentions. This isn't one of those "sorry I haven't been posting" blog posts, so don't worry. I don't apologise for it… it is what it is.

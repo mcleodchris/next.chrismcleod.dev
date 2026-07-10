@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3jkx22p"
+ogImage: when-you-were-young-preview.jpeg
 ---
 
 Over the weekend I started a fun little project. I'm tracking down and integrating as much of my old blog content as I can, across all of the sites I've written over the years.

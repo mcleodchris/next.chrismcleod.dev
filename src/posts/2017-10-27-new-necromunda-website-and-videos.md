@@ -11,6 +11,7 @@ tags:
   - nostalgia
   - warhammer
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqtbjq22p"
+ogImage: new-necromunda-website-info-and-videos-preview.jpeg
 ---
 
 Games Workshop have released [a new website for the upcoming new version of Necromunda](https://necromunda.com/). Digging through the website gives plenty of new information about the game:

@@ -5,6 +5,7 @@ tags:
   - site-meta
   - bookmarks
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqfu4jc2p"
+ogImage: adding-a-bookmarks-page-preview.jpeg
 ---
 
 I mentioned over on [The Underground](https://theunderground.blog/) that one thing I wanted to add to my site, to "do more" with it, was a space to collect bookmarks and fun links I com across. Well, I've added a quick and dirty "first draft" of the feature over on the new [/bookmarks](https://chrismcleod.dev/bookmarks/) page. It's even got its [own feed](https://chrismcleod.dev/bookmarks/feed.xml) you can use to follow along at home.

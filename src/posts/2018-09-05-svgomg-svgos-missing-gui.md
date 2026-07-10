@@ -11,6 +11,7 @@ tags:
   - software
   - link
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqpxccs2p"
+ogImage: svgomg-svgos-missing-gui-preview.jpeg
 ---
 
 I've been using [this great online tool for optimizing SVG files](https://svgomg.net/) recently, which vastly improves the file size and readability of the average Inkscape output.

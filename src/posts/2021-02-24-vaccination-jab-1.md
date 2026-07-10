@@ -10,6 +10,7 @@ authors:
   - chris
 redirectFrom: ['/2021/02/24/vaccination-jab-1/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqk52e22p"
+ogImage: vaccination-jab-1-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/3de29a18-0c00-4c2a-bd67-07d6548f0a5e-74351-00000e325e733375_file.jpg", "signage outside the vaccination centre", "Outside the vaccination centre" %}

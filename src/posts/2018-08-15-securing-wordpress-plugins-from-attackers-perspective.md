@@ -11,6 +11,7 @@ tags:
   - security
   - link
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqsmju22p"
+ogImage: securing-wordpress-plugins-from-attackers-perspective-preview.jpeg
 ---
 
 [Securing WordPress Plugins from Attacker’s Perspective](https://www.webarxsecurity.com/securing-wordpress-plugins/). Useful tips to bear in mind. As always, it seems to come down to:

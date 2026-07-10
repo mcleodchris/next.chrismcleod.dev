@@ -11,6 +11,7 @@ authors:
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwj46k2p"
+ogImage: community-is-the-best-thing-preview.jpeg
 ---
 
 {% youtube "skYis9qPgVE", "" %}

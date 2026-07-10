@@ -10,6 +10,7 @@ tags:
   - security
   - link
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqsu5yk2p"
+ogImage: poc-shown-bypassing-ring-privilege-cpu-security-preview.jpeg
 ---
 
 [Dark Reading|Hacker Unlocks 'God Mode' and Shares the 'Key':](https://www.darkreading.com/vulnerabilities---threats/hacker-unlocks-god-mode-and-shares-the-key/d/d-id/1332543)

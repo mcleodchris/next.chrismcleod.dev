@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2lovc2p"
+ogImage: management-material-preview.jpeg
 ---
 
 I'm officially *management* now. Whether that's a good or bad thing only time will tell!

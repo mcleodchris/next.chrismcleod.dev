@@ -10,6 +10,7 @@ tags:
   - browsers
   - web-design
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6xgl22p"
+ogImage: file-form-inputs-and-internet-explorer-preview.jpeg
 ---
 
 Since rolling out Windows XP SP2 around the office network, I’ve come across curious differences in the way Internet Explorer handles file form inputs (`input type="file"...`), before and after SP2 is applied. At least I think I have…

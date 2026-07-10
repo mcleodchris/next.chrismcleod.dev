@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqod3g22p"
+ogImage: how-millennials-became-the-burnout-generation-preview.jpeg
 ---
 
 [How Millennials Became The Burnout Generation by an author](https://www.buzzfeednews.com/article/annehelenpetersen/millennials-burnout-generation-debt-work)

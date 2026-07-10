@@ -7,6 +7,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqrg7c22p"
+ogImage: copyright-filter-fails-sends-bogus-dmca-notices-preview.jpeg
 ---
 
 [Here's some more background](https://www.techdirt.com/articles/20180814/11084440429/automated-content-protection-system-sends-wave-bogus-dmca-notice-targeting-legitimate-urls.shtml) on that would-be-ironic-if-it-wasn't-so-draconian "[automated filter removes article warning against automated filters](/blog/copyright-filter-filters-warning-about-copyright-filters/)" story from earlier.

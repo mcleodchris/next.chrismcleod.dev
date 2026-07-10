@@ -10,6 +10,7 @@ tags:
   - personal
   - gaming
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqryq2s2p"
+ogImage: video-game-prints-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0802.jpg", "alt temporarily text not available" %}

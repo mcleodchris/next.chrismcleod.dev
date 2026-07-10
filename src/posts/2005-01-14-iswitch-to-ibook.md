@@ -11,6 +11,7 @@ tags:
   - apple
   - laptops
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr77w2k2p"
+ogImage: iswitch-to-ibook-preview.jpeg
 ---
 
 Ok, so it’s official, I’m switching to Mac. The iBook is all but fully ordered – I’m just waiting on my next pay cheque to come in. It’s sitting there smugly in my saved basket on the Apple Store UK. I can virtually hear it saying “I _knew_ you couldn’t resist!”

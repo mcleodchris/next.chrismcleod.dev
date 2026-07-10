@@ -8,6 +8,7 @@ tags:
   - tech
   - hardware
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqeucws2p"
+ogImage: upgrading-apples-preview.jpeg
 ---
 I recently noticed the battery life of my Apple Watch Series 6 had taken a bit of a nosedive. Where once I could comfortably get nearly 2 full days out of a charge, now I'm finding myself having to "top up" regularly - sometimes within the same 24 hour period. Battery Health shows the battery at 86% capacity. This isn't a problem, yet, but it has made me consider upgrading to a newer model. My particular watch is about 6 months past it's 3rd birthday, and 3 years was the "minimum" lifespan I'd set myself for the watch when I bought it. My Series 3 lasted about the same length of time, though I don't remember the battery drop off being as bad. So if it comes to it, do I upgrade to the 9 (or more likely, the upcoming 10)? Honestly, I'm not sure, and I'll get to why shortly.
 

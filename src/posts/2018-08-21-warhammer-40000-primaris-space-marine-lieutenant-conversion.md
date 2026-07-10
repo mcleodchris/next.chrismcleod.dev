@@ -12,6 +12,7 @@ tags:
   - warhammer-40000
   - armies-on-parade
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqroyk22p"
+ogImage: warhammer-40000-primaris-space-marine-lieutenant-conversion-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0811.jpg", "alt temporarily text not available" %}

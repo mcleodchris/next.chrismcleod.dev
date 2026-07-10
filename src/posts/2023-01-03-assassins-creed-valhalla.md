@@ -10,6 +10,7 @@ authors:
   - chris
 redirectFrom: ['/2023/01/03/assassins-creed-valhalla/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhjnfs2p"
+ogImage: assassins-creed-valhalla-preview.jpeg
 ---
 
 **Warning:** May contain mild spoilers for Assassin's Creed: Valhalla.

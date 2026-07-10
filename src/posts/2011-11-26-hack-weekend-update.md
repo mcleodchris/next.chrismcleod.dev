@@ -11,6 +11,7 @@ tags:
   - facebook
   - personal
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr467422p"
+ogImage: hack-weekend-update-preview.jpeg
 ---
 
 I'm having heaps of fun experimenting with the Facebook APIs. It's definitely a learning experience, and it's something I've kind of missed - just playing around with a technology, with absolutely no expectation anything will come of it.

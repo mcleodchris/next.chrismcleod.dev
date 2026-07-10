@@ -11,6 +11,7 @@ tags:
   - linux
   - laptops
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr7swhc2p"
+ogImage: gentoo-on-a-samsung-x10-preview.jpeg
 ---
 
 _Last Updated: 27/May/2004_

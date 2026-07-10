@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyql4n3s2p"
+ogImage: 2019-uk-general-election-random-thoughts-preview.jpeg
 ---
 
 Random, unstructured, thoughts on the state of play on the last day of the election campaign:

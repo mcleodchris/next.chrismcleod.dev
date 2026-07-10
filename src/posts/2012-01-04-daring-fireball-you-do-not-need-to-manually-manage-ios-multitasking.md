@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3yjhk2p"
+ogImage: daring-fireball-you-do-not-need-to-manually-manage-ios-multitasking-preview.jpeg
 ---
 
 [Daring Fireball: You Do Not Need to Manually Manage iOS Multitasking](http://daringfireball.net/2012/01/ios_multitasking).

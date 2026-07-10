@@ -11,6 +11,7 @@ tags:
   - link
   - programming
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqszgws2p"
+ogImage: machine-learning-can-identify-the-authors-of-anonymous-code-preview.jpeg
 ---
 
 [Machine Learning Can Identify the Authors of Anonymous Code](https://www.wired.com/story/machine-learning-identify-anonymous-code/). Wow/cool/scary.

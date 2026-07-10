@@ -9,6 +9,7 @@ archived: true
 tags:
   - web-standards
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyractak2p"
+ogImage: hallelujah-preview.jpeg
 ---
 
 At last, [a Government Website that follows web standards](https://web.archive.org/web/20041111030118/http://www.businesslink.gov.uk/bdotg/action/home "DTI Business Link Website").

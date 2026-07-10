@@ -14,6 +14,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2k3522p"
+ogImage: a-long-rambling-post-on-switching-my-smartphone-preview.jpeg
 ---
 
 TLDR; I've switched from an [iPhone](http://www.apple.com/iphone "iPhone") 5 to a [Google Nexus 4](http://www.google.com/nexus/4/ "Nexus 4").

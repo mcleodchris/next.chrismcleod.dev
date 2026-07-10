@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2nap22p"
+ogImage: on-returning-to-warhammer-40000-the-game-preview.jpeg
 ---
 
 I have been out of the hobby for a long time. This was made clear to me when I realised the majority of the regular players at the local Games Workshop store weren't even born (or were still in nappies) when I last rolled the dice in anger.

@@ -12,6 +12,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyql6lls2p"
+ogImage: unboxing-darkness-in-the-blood-by-guy-haley-preview.jpeg
 ---
 
 {% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/img_2432-1-scaled.jpg", "A cardboard box, with the Black Library logo on it, underneath a Christmas Tree" %}

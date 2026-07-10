@@ -11,6 +11,7 @@ tags:
   - links
   - networking
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqx4kas2p"
+ogImage: what-happens-when-you-type-googlecom-into-your-browser-and-press-enter-preview.jpeg
 ---
 
 A fascinating (and very in-depth!) look at [what happens when you type google.com into a web browser and hit "enter"](https://github.com/alex/what-happens-when)?

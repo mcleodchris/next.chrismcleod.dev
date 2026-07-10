@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnuxbc2p"
+ogImage: the-return-of-the-personal-website-preview.jpeg
 ---
 
 [Let Sleeping Blogs Die (or) The Return of the Personal Website](https://joshuablankenship.com/2019/02/22/let-sleeping-blogs-die-or-the-return-of-the-personal-website/)

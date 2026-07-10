@@ -11,6 +11,7 @@ authors:
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvg5zc2p"
+ogImage: first-trailer-for-captain-america-civil-war-released-preview.jpeg
 ---
 
 It looks fantastic:

@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvz7fc2p"
+ogImage: the-upgrade-conundrum-preview.jpeg
 ---
 
 I'm in the market for a new computer[^1], but I have no idea what way to go. I've been making do with older kit for the last few years, but all of it is pretty much at the end of its usable life.

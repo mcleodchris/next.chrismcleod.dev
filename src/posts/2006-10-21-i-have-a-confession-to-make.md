@@ -9,6 +9,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5dbms2p"
+ogImage: i-have-a-confession-to-make-preview.jpeg
 ---
 
 ... I’ve never, ever, visited [YouTube](http://www.youtube.com/) and I think I’ve only played [one video I’ve found on a blog](https://web.archive.org/web/20061105184103/http://binarybonsai.com/archives/2006/10/05/the-terminator-vs-robocop-vs/).

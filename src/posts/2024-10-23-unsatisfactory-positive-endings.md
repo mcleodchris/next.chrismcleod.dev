@@ -5,6 +5,7 @@ tags:
   - personal
   - fraud
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqe6knk2p"
+ogImage: positive-but-unsatisfactory-resolutions-preview.jpeg
 ---
 
 [Yesterday was stressful](https://chrismcleod.dev/blog/well-fck/), not going to lie. I had a lot of questions about how I'd found myself in the predicament. I was being chased for a debt that wasn't mine, where I was specifically told someone had talked to a debt agency, given my details, and "passed security validation" with them. It was now on me to prove I wasn't related to the debt in question. As the facts I'd been given and questions started to roll around me head, it seemed more and more likely I was the victim of identity theft/fraud.

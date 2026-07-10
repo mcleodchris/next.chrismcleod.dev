@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnwj322p"
+ogImage: indieweb-textpattern-updated-with-a-guide-to-indieauth-preview.jpeg
 ---
 
 _Editors Note: The links to #Indieweb Textpattern do not work. I am working to port that content over to this site. This page will be updated when that work is complete._

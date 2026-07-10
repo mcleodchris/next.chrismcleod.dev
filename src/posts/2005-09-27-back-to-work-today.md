@@ -10,6 +10,7 @@ tags:
   - personal
   - cerebral-haemorrhage
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr62kqk2p"
+ogImage: back-to-work-today-preview.jpeg
 ---
 
 Today was a bit of a milestone in my recovery from [the stroke](/blog/life-is-a-lemon/) – I started back to work. Not full-time, mind you. On the advice of my Occupational Therapist, I’m starting back on reduced hours for a couple of weeks.

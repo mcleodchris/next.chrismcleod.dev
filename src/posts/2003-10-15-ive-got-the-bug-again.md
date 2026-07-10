@@ -10,6 +10,7 @@ tags:
   - personal
   - pc-building
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrawzq22p"
+ogImage: ive-got-the-bug-again-preview.jpeg
 ---
 
 [Worlds Best PC Mod.](http://bit-tech.net/article/114/ "Worlds Best Mod") This thing's given me the modding bug again. Gawd help us.

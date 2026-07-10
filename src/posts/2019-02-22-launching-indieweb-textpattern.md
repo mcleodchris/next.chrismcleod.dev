@@ -14,6 +14,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnycos2p"
+ogImage: launching-indieweb-textpattern-preview.jpeg
 ---
 
 _Editors Note: The links to #Indieweb Textpattern do not work. I am working to port that content over to this site. This page will be updated when that work is complete._

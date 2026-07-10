@@ -11,6 +11,7 @@ tags:
   - warhammer
   - media
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqlapxc2p"
+ogImage: warhammer-animations-teaser-preview.jpeg
 ---
 
 {% youtube "OT1ye8LabGs", "Warhammer Animations Teaser" %}

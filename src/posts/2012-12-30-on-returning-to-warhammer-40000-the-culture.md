@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2ouhc2p"
+ogImage: on-returning-to-warhammer-40000-the-culture-preview.jpeg
 ---
 
 _This is part 2 in a look at the changes to our hobby I have witnessed since my return at the start of the year. You can find part one, which looks at the changes in game-play here: [On Returning to Warhammer 40000 - The Game](/blog/returning-to-warhammer-40000-the-game/ "On Returning to Warhammer 40000: The Game"). This part is a bit more ranty._

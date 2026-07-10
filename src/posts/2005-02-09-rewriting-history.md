@@ -11,6 +11,7 @@ tags:
   - site-meta
   - blogging
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr72ytc2p"
+ogImage: rewriting-history-preview.jpeg
 ---
 
 Pixel Meadow has been online since September 2004. In that time, I’ve written (fairly) regularly and hopefully haven’t been too boring!

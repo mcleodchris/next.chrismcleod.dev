@@ -10,6 +10,7 @@ tags:
   - music
   - meme
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6smbk2p"
+ogImage: a-musical-baton-preview.jpeg
 ---
 
 We interrupt our scheduled Star Wars programming to bring you the latest _meme_ spreading through the blogosphere. [Pete](http://pixelicious.co.uk/) passed the baton to me, and before I pass it on, here’s the skinny on my music collection:

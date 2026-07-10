@@ -5,6 +5,7 @@ tags:
     - software
     - default-apps
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqdzcok2p"
+ogImage: default-apps-for-2024-preview.jpeg
 ---
 
 It's been [over a year](https://chrismcleod.dev/blog/default-apps-for-2023/) since I last wrote about what I use, and I've been seeing plenty people's update posts pop up in my feed reader this week, so it's time to look at my default apps again. There are quite a few changes this year, nothing terribly exciting - I've marked these updates with a ✨ emoji.

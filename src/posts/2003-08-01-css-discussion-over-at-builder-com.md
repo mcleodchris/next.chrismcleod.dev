@@ -10,6 +10,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbmm5s2p"
+ogImage: css-discussion-over-at-buildercom-preview.jpeg
 ---
 
 _**Editor's note** - the links below no longer work, despite the best efforts of the [Wayback Machine](https://web.archive.org/index.jsp)_

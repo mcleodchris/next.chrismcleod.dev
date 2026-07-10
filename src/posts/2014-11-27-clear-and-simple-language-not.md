@@ -11,6 +11,7 @@ tags:
   - work
   - software
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqxw5lk2p"
+ogImage: clear-and-simple-language-not-preview.jpeg
 ---
 
 I'm reading up on Oracle 12c for work, and my brain is melting from the Enterprise buzzword gobbledygook :/

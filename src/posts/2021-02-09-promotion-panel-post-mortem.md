@@ -10,6 +10,7 @@ authors:
   - chris
 redirectFrom: ['/2021/02/09/promotion-panel-post-mortem/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqk7gjk2p"
+ogImage: promotion-panel-post-mortem-preview.jpeg
 ---
 
 So it's done. I had my promotion panel interview yesterday. It went great, apart from one little tiny detail - I went over time. Pretty much [the one hard-and-fast rule](/2021/01/18/15-minutes/) you're given, and I broke it. Granted, it was _really_ close - I was partway through my final slide - but it leaves a bitter taste to have come so close to getting through the part I was most worried about.

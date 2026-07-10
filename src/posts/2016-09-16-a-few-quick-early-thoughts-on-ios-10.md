@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvclr22p"
+ogImage: a-few-quick-early-thoughts-on-ios-10-preview.jpeg
 ---
 
 ### Lock Screen

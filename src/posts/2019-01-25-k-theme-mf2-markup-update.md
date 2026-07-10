@@ -13,6 +13,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqoeo722p"
+ogImage: k-theme-mf2-markup-update-preview.jpeg
 ---
 
 (Skip to the end for the TL;DR summary)

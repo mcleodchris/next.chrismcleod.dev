@@ -12,6 +12,7 @@ tags:
   - blogging
   - how-to
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqtkhuc2p"
+ogImage: a-jekyll-workflow-preview.jpeg
 ---
 
 ### 1\. Sublime Text (Portable) + Plugins

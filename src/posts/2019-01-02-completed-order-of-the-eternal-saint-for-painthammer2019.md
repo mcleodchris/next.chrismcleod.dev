@@ -11,6 +11,7 @@ authors:
   - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqoz4ik2p"
+ogImage: completed-order-of-the-eternal-saint-for-painthammer2019-preview.jpeg
 ---
 
 The first units of my Sororitas are complete, taking me most of the way towards that part of my 2019 hobby goals, and marking my first entries on the PaintHammer 2019 form.
