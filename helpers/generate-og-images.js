@@ -19,6 +19,9 @@ import yaml from 'js-yaml';
 import slugify from 'slugify';
 import Image from '@11ty/eleventy-img';
 import dayjs from 'dayjs';
+import advancedFormat from 'dayjs/plugin/advancedFormat.js';
+dayjs.extend(advancedFormat);
+
 import { renderOgTemplate } from './og-template.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -138,7 +141,7 @@ const main = async () => {
     }
 
     // Render SVG from template
-    const formattedDate = data.date ? dayjs(data.date).format('DD / MM / YYYY') : '';
+    const formattedDate = data.date ? dayjs(data.date).format('MMMM Do, YYYY') : '';
     const svgContent = renderOgTemplate({
       title: data.title,
       date: formattedDate,

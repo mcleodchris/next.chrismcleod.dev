@@ -2,7 +2,7 @@
 
 Personal website of [Chris McLeod](https://chrismcleod.dev).
 
-Built with Eleventy. Deploys to Azure SWA.
+Built with Eleventy. Deploys to Bunny.
 
 ## Credits
 
