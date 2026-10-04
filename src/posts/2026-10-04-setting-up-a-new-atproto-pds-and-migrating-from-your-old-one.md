@@ -7,6 +7,7 @@ tags:
   - bluesky
   - social-media
 ogImage: setting-up-a-new-atproto-pds-and-migrating-from-your-old-one-preview.jpeg
+atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mx2kkvqmws2f"
 ---
 
 I've previously written about [setting up your own AtProto personal data server (PDS)](https://chrismcleod.dev/blog/next-steps-with-bluesky-hosting-your-own-data-and-more-on-the-api/), for hosting data for BlueSky, Standard.Site, and other AtProto applications. When I wrote that post 2 years ago I had used DigitalOcean as the host as they had a quick-deploy template to get things up and running very quickly. I'd always intended to move from DigitalOcean, but it ended up quite far down the priority list. Some recent events reminded me I did not want to give the company anymore of my money and spurred me to finally make the move. _This_ post serves as a high-level guide to the steps involved, highlighting some of the gotchas I ran into along the way.

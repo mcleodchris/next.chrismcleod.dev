@@ -3387,6 +3387,16 @@
         "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3mq24xnv2is2p",
         "cid": "bafyreicqubix663jk4z6zxpnilrowunq4nejxs5e74kzixwcm6qszk64oa"
       }
+    },
+    "src/posts/2026-10-04-setting-up-a-new-atproto-pds-and-migrating-from-your-old-one.md": {
+      "contentHash": "12aa4608b55d85c51be111dc93ba57c655c85a3728a850d31be42bbf7f2548da",
+      "atUri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mx2kkvqmws2f",
+      "lastPublished": "2026-10-04T13:56:28.031Z",
+      "slug": "setting-up-a-new-atproto-pds-and-migrating-from-your-old-one",
+      "bskyPostRef": {
+        "uri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/app.bsky.feed.post/3mx2kkvvzs22f",
+        "cid": "bafyreib4x5bg3dfo5qujqhebhycxfduyqk5adw2hnsgaohcrnrt35wjvqe"
+      }
     }
   },
   "publication": {
