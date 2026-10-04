@@ -12,7 +12,7 @@
     "publishDate": "date",
     "coverImage": "ogImage"
   },
-  "publishContent": false,
+  "publishContent": true,
   "bluesky": {
     "enabled": true,
     "maxAgeDays": 30

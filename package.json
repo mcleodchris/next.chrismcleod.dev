@@ -1,8 +1,8 @@
 {
-  "name": "eleventy-excellent",
-  "version": "1.7.1",
-  "description": "Eleventy starter based on the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
-  "author": "Lene Saile",
+  "name": "chrismcleod.dev",
+  "version": "26.10.1",
+  "description": "Personal website of Chris McLeod, based on the eleventy-excellent starter.",
+  "author": "Chris McLeod",
   "license": "ISC",
   "main": ".eleventy.js",
   "engines": {
