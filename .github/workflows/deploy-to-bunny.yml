@@ -59,6 +59,10 @@ jobs:
           else
             echo "::warning::Paintslam sync failed; using committed snapshot"
           fi
+      - name: Sync images
+        env:
+          MAGE_API_TOKEN: ${{ secrets.MAGE_API_TOKEN }}
+        run: npm run images:sync || echo "::warning::Image manifest sync failed; using committed manifest"
       - name: Generate OG images
         run: npm run og
       - name: Build

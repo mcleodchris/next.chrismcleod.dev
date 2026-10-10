@@ -26,7 +26,8 @@
     "start-quick": "eleventy --serve --incremental --ignore-initial",
     "start-prod": "ELEVENTY_PRODUCTION=true run-s clean build:* start-quick",
     "check": "node helpers/check-build.js dist",
-    "data:sync": "node helpers/sync-data.js"
+    "data:sync": "node helpers/sync-data.js",
+    "images:sync": "node helpers/sync-images.js"
   },
   "keywords": [],
   "repository": {
