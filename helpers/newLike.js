@@ -1,13 +1,10 @@
 #!/usr/bin/env node
 
-import { Command } from 'commander';
 import { input } from '@inquirer/prompts';
 import { ContentGenerator } from './content-generator.js';
 import { generateFrontmatter, fetchWebpageMetadata, isValidUrl, randomString } from './shared-utils.js';
 
 async function main() {
-  const program = new Command();
-  program.parse(process.argv);
 
   // Prompt for URL only
   let url;

@@ -1,7 +1,7 @@
 ---
 title: Blogroll
 description: 'A collection of blogs and personal sites I follow'
-layout: links
+layout: page
 permalink: /links/index.html
 ---
 

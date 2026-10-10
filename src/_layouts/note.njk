@@ -1,11 +1,5 @@
 ---
 layout: base
-schema: blog
-preloads:
-  href: '/assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff2'
-  as: 'font'
-  type: 'font/woff2'
-  crossorigin: true
 eleventyComputed:
   title: Short-form note @ {{ date | formatDate('Do MMMM YYYY, h:mma')}}
 permalink: "/notes/{{date | formatDate('YYYYMMDDHHmm')}}/index.html"

@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-import { Command } from 'commander';
 import { input } from '@inquirer/prompts';
 import { ContentGenerator } from './content-generator.js';
 import { generateFrontmatter } from './shared-utils.js';
@@ -15,8 +14,6 @@ function slugify(str) {
 }
 
 async function main() {
-  const program = new Command();
-  program.parse(process.argv);
 
   // Prompt for title and tags
   const title = await input({

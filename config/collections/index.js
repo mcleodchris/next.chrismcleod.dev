@@ -9,17 +9,6 @@ const getAllPosts = collection => {
   const posts = collection.getFilteredByGlob('./src/posts/*.md');
   return posts.reverse();
 };
-const getAllSubscriptions = collection => {
-  const subscriptions = collection.getFilteredByGlob('./src/subscriptions/*.md');
-  // sort subscriptions by category, alphabetically
-  subscriptions.sort((a, b) => {
-    if (a.data.category > b.data.category) return 1;
-    if (a.data.category < b.data.category) return -1;
-    return 0;
-  });
-  return subscriptions;
-};
-
 const tagList = collection => {
   const tagsSet = new Set();
   getAllPosts(collection).forEach(item => {
@@ -129,7 +118,6 @@ export {
   contentTags,
   redirects,
   getAllPosts,
-  getAllSubscriptions,
   tagList,
   getAllBookmarks,
   getBookmarksFeed,

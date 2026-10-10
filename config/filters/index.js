@@ -1,57 +1,19 @@
-import lodash from 'lodash';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime.js';
 import advancedFormat from 'dayjs/plugin/advancedFormat.js';
 dayjs.extend(advancedFormat);
 dayjs.extend(relativeTime);
-import CleanCSS from 'clean-css';
-import markdownLib from '../plugins/markdown.js';
 import site from '../../src/_data/meta.js';
-import { throwIfNotType } from '../utils/index.js';
 import MarkdownIt from 'markdown-it';
 import fs from 'fs';
 import { SYSTEM_TAGS } from '../collections/index.js';
 import { slugifyString } from '../utils/index.js';
-import * as esbuild from 'esbuild';
 
 const md = new MarkdownIt();
 
-// Cache for minified JS
-const jsminCache = {};
-
-/** Returns the first `limit` elements of the the given array. */
-const limit = (array, limit) => {
-  if (limit < 0) {
-    throw new Error(`Negative limits are not allowed: ${limit}.`);
-  }
-  return array.slice(0, limit);
-};
-
 /** Returns all entries from the given array that match the specified key:value pair. */
-const where = (arrayOfObjects, keyPath, value) =>
-  arrayOfObjects.filter(object => lodash.get(object, keyPath) === value);
-
-/** Converts the given markdown string to HTML, returning it as a string. */
-const toHtml = markdownString => {
-  return markdownLib.renderInline(markdownString);
-};
-
-/** Removes all tags from an HTML string. */
-const stripHtml = str => {
-  throwIfNotType(str, 'string');
-  return str.replace(/<[^>]+>/g, '');
-};
-
-/** Formats the given string as an absolute url. */
-const toAbsoluteUrl = url => {
-  throwIfNotType(url, 'string');
-  // Replace trailing slash, e.g., site.com/ => site.com
-  const siteUrl = site.url.replace(/\/$/, '');
-  // Replace starting slash, e.g., /path/ => path/
-  const relativeUrl = url.replace(/^\//, '');
-
-  return `${siteUrl}/${relativeUrl}`;
-};
+const where = (items, key, value) =>
+  items.filter(item => key.split('.').reduce((o, k) => o?.[k], item) === value);
 
 /** Converts the given date string to ISO8610 format. */
 const toISOString = dateString => dayjs(dateString).toISOString();
@@ -62,31 +24,6 @@ const formatDate = (date, format) => dayjs(date).format(format);
 const longAgo = date => dayjs(date).fromNow();
 
 const dateDiff = date => dayjs().diff(dayjs(date), 'year');
-
-const minifyCss = code => new CleanCSS({}).minify(code).styles;
-
-const minifyJs = async (code, ...rest) => {
-  const callback = rest.pop();
-  const cacheKey = rest.length > 0 ? rest[0] : null;
-
-  try {
-    if (cacheKey && jsminCache.hasOwnProperty(cacheKey)) {
-      const cacheValue = await Promise.resolve(jsminCache[cacheKey]); // Wait for the data, wrapped in a resolved promise in case the original value already was resolved
-      callback(null, cacheValue.code); // Access the code property of the cached value
-    } else {
-      const minified = esbuild.transform(code, {
-        minify: true
-      });
-      if (cacheKey) {
-        jsminCache[cacheKey] = minified; // Store the promise which has the minified output (an object with a code property)
-      }
-      callback(null, (await minified).code); // Await and use the return value in the callback
-    }
-  } catch (err) {
-    console.error('jsmin error: ', err);
-    callback(null, code); // Fail gracefully.
-  }
-};
 
 /**
  * Render content as inline markdown if single line, or full
@@ -115,30 +52,6 @@ const mdInline = (content, opts) => {
 
   return inline ? md.renderInline(content) : md.render(content);
 };
-
-// source: https://github.com/bnijenhuis/bnijenhuis-nl/blob/main/.eleventy.js
-const splitlines = (input, maxCharLength) => {
-  const parts = input.split(' ');
-  const lines = parts.reduce(function (acc, cur) {
-    if (!acc.length) {
-      return [cur];
-    }
-
-    let lastOne = acc[acc.length - 1];
-
-    if (lastOne.length + cur.length > maxCharLength) {
-      return [...acc, cur];
-    }
-
-    acc[acc.length - 1] = lastOne + ' ' + cur;
-
-    return acc;
-  }, []);
-
-  return lines;
-};
-
-const jsonToString = json => JSON.stringify(json, null, 2);
 
 // const excludeTag = (array, tag) => array.filter(item => item !== tag);
 const excludeTag = (tags, tagToExclude) => {
@@ -188,18 +101,10 @@ const socialImageUrl = data => {
 };
 
 export {
-  limit,
-  toHtml,
   where,
   toISOString,
   formatDate,
-  toAbsoluteUrl,
-  stripHtml,
-  minifyCss,
-  minifyJs,
   mdInline,
-  splitlines,
-  jsonToString,
   longAgo,
   dateDiff,
   excludeTag,

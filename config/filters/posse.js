@@ -1,4 +1,3 @@
-import * as utils from './utils.js';
 import { decode } from 'html-entities';
 import { getMastodonLength } from './mastodonCounter.js';
 import TurndownService from 'turndown';
@@ -93,37 +92,7 @@ export const makeTootText = (post) => posseText(post, 500);
 
 export const makeBlueskyText = (post) => posseText(post, 295);
 
-// Function to get the title for Open Graph metadata
-export const getTitleForOg = (post) => decode(post.data.title);
-
-// Function to get the URL of the Open Graph image
-export const getOgImageUrl = (page) => {
-    if (page.attachments?.length > 0) {
-        return page.attachments[0].url ?? page.attachments[0];
-    }
-
-    let path = page.url;
-    if (page.permalink === '404.html') path = '/404/';
-    if (path.startsWith('/notes/') && path !== '/notes/') path = '/notes/single/';
-
-    const url = encodeURIComponent(`${meta.url}opengraph${path}`);
-    return `https://v1.screenshot.11ty.dev/${url}/opengraph/_123`;
-};
-
-// Function to get the Open Graph URL
-export const getOpengraphUrl = (inputPath) => {
-    let path = inputPath;
-    if (path.startsWith('/notes/') && path !== '/notes/') path = '/notes/single/';
-
-    const url = encodeURIComponent(`${meta.url}opengraph${path}`);
-    return `https://v1.screenshot.11ty.dev/${url}/opengraph/_123`;
-};
-
-// Default export for backward compatibility
 export default {
     makeTootText,
-    makeBlueskyText,
-    getTitleForOg,
-    getOgImageUrl,
-    getOpengraphUrl
+    makeBlueskyText
 };
