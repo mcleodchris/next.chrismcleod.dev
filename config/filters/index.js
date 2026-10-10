@@ -9,6 +9,7 @@ import fs from 'fs';
 import { SYSTEM_TAGS } from '../collections/index.js';
 import { slugifyString } from '../utils/index.js';
 import { makeTootText, makeBlueskyText } from './posse.js';
+import { renderPicture } from '../images/picture.js';
 
 const md = new MarkdownIt();
 
@@ -101,6 +102,9 @@ const socialImageUrl = data => {
   return `${site.url}${site.meta_data.opengraph_default}`;
 };
 
+/** `{{ src | picture(alt, className) }}`: responsive markup from the image manifest. */
+const picture = (src, alt, className) => renderPicture({ src, alt, className });
+
 export { socialImageUrl };
 
 export default eleventyConfig => {
@@ -120,4 +124,5 @@ export default eleventyConfig => {
   eleventyConfig.addFilter('socialImageUrl', socialImageUrl);
   eleventyConfig.addFilter('makeTootText', makeTootText);
   eleventyConfig.addFilter('makeBlueskyText', makeBlueskyText);
+  eleventyConfig.addFilter('picture', picture);
 };

@@ -68,7 +68,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Check build before publishing
-        run: npm run check -- --allow picture-img-dimensions
+        run: npm run check
       - name: Publish to ATProto
         env:
           PDS_URL: ${{ secrets.PDS_URL }}
@@ -79,7 +79,7 @@ jobs:
       - name: Build with published state
         run: npm run build
       - name: Check final build
-        run: npm run check -- --allow picture-img-dimensions
+        run: npm run check
       # Recovery: if a run fails after "Publish to ATProto", re-run the
       # workflow. Posts already published are only recorded in
       # .sequoia-state.json if this step ran; if it did not, Sequoia will see

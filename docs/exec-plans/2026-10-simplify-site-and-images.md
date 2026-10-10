@@ -58,13 +58,13 @@ The work is delivered as three independently reviewable changes (pull requests):
 - [ ] Change C, Milestone 7: image manifest `data/images.json` and `npm run images:sync`; CI integration.
   - [x] (2026-10-10) `helpers/sync-images.js`, `npm run images:sync`, the CI "Sync images" step, and a first manifest committed: 270 entries, all probe-sourced (no token), in 3m33s. A second run changes nothing; a run with an invalid token reports `could not read mage (HTTP 401)` and changes nothing. All 13 colliding URLs are listed with empty variants. Every CDN URL in content has an entry except `…/chrismcleod.dev/images/970c78e0-a6bd-4c64-b434-699c3dc03a0c.jpg`, whose original returns 404 (reported as unreachable).
   - [ ] Run `npm run images:sync` once with the owner's `MAGE_API_TOKEN` so mage uploads become mage-sourced entries, and commit the result.
-- [ ] Change C, Milestone 8: Markdown image renderer, `picture` filter, shortcode on the same code path, manifest reload in the development server.
+- [x] (2026-10-10) Change C, Milestone 8: Markdown image renderer, `picture` filter, shortcode on the same code path, manifest reload in the development server. A production build passes `npm run check` with no allowances; the `--allow picture-img-dimensions` option is gone from both workflows. A cold development build (`rm -rf .cache dist`) takes 4.2 s and logs no "Processing". All 2,154 distinct CDN image URLs in the built site answer HTTP 200 (the baseline had 2,367, of which 177 did not). The development-server test passed: the scratch post's page and `/follow/blog/feed.json` both carry the `<picture>` with `<figcaption>Caption</figcaption>`, and deleting the entry's AVIF and then WebP widths in `data/images.json` was reflected on reload, as was restoring the file.
 - [ ] Change C, Milestone 9: content migration (shortcode to Markdown, tag case, legacy front matter) as one commit; old image code removed.
 - [ ] Change C, Milestone 10: documentation and retrospective.
 
 Temporary check allowances in CI (each must be removed by the milestone named):
 
-- `picture-img-dimensions`: allowed from Milestone 2; removed in Milestone 8.
+- `picture-img-dimensions`: allowed from Milestone 2; removed in Milestone 8 (done 2026-10-10).
 
 
 ## Surprises & Discoveries
@@ -166,6 +166,12 @@ These were found during the audit and the plan review. Add new entries as work p
 - Observation (Milestone 0): the `slug` in `.sequoia-state.json` is not a URL. Sequoia derives it from the file name (`2025-08-26-installing-arch-with-….md` gives `installing-arch-with-…`), while the URL each AT Protocol record advertises comes from `sequoia.json`'s `pathTemplate`, `/blog/{title}`, where Sequoia slugifies the title its own way: lower-case, whitespace to `-`, then delete every character outside `[A-Za-z0-9_-]`. Eleventy's `slugifyString` differs for titles with punctuation, so 60 of the 565 published records point at URLs that return 404, for example `/blog/armies-on-parade---painting-update-2` (Eleventy: `/blog/armies-on-parade-painting-update-2/`) and `/blog/onoff` (Eleventy: `/blog/on/off/`). The check now resolves Sequoia's path per post (`sequoiaPath` in `config/utils/index.js`, mirroring `resolvePathTemplate` in the sequoia-cli 0.5.7 bundle) instead of testing `blog/<slug>/`.
 
 - Observation (Milestone 1): the output file list differs from the baseline exactly as expected, plus two items the plan did not list: the two `likes/*/index.html` pages are gone (intended by the Likes fix), and 60 extra redirect stubs exist under `/blog/` for the Sequoia paths (see the Decision Log). Totals: 126 files added (66 `redirectFrom` stubs and 60 Sequoia stubs), 15 removed (12 system tag pages, `_redirects`, 2 likes). No old `redirectFrom` path collided with a real page.
+
+- Observation (Milestone 8): watching `./data/images.json` itself stops working after the first atomic replacement (`images:sync` writes a temporary file and renames it; `git checkout` also replaces the file): the server logged `File deleted: ./data/images.json` and never rebuilt again. The plugin watches the `./data/` folder instead, which follows replacements; the test above was repeated with rename-style writes and `git checkout`.
+
+- Observation (Milestone 8): no caption CSS was needed. On production, `<figcaption class="cluster font-display"><p>…</p></figcaption>` computes to the inherited body font (Duo; `font-display` generates nothing), and the new plain `<figcaption>` measured identically in the browser (same font, size, colour, 0px gap below the image, 39px height, same left edge) on `/blog/magpuck-prototype-v2/`.
+
+- Observation (Milestone 8): two `{% image %}` calls in `src/posts/2019-06-14-8475.md` use originals on the old domain `mrkapowski.com`, which still answers 200; they are not CDN images, so they render as plain `<img>` without a manifest entry, and the missing-entry warning is limited to CDN URLs. The same originals exist on the CDN under `assets/images/2019/06/`, so the owner could point the post there to get responsive variants.
 
 - Observation (Milestone 7): the first probe shows why variants must be recorded per format: of 270 entries, 202 have `320, 570, 820` in all three formats, 26 have `320, 570`, 13 have only `320`, 3 have all six mage widths, 3 have no variants at all, and several have different widths per format (for example AVIF `320, 820` but WebP and JPEG `320, 570, 820`). The content URL `…/chrismcleod.dev/images/970c78e0-a6bd-4c64-b434-699c3dc03a0c.jpg` is broken on the CDN (404), so its post already shows a broken image; the renderer keeps rendering it as a plain `<img>` and `images:sync` reports it each run.
 

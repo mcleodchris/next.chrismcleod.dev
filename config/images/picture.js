@@ -4,7 +4,7 @@
  */
 
 import Image from '@11ty/eleventy-img';
-import { FORMATS, lookup, variantUrl } from './manifest.js';
+import { FORMATS, isCdnImage, lookup, variantUrl } from './manifest.js';
 
 const missing = new Set();
 
@@ -32,7 +32,7 @@ export const renderPicture = ({
 }) => {
   const entry = lookup(src);
   if (!entry) {
-    missing.add(src);
+    if (isCdnImage(src)) missing.add(src);
     return plainImg({ src, alt, className, loading });
   }
 

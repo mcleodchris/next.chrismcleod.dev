@@ -19,4 +19,4 @@ jobs:
       - name: Build
         run: npm run build
       - name: Check build
-        run: npm run check -- --allow picture-img-dimensions
+        run: npm run check

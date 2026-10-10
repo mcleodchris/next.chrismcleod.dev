@@ -9,11 +9,11 @@
 
   <dialog class="flow modal{{ loop.index }}">
     <button class="button" autofocus>Close</button>
-    {% image item.image, item.alt, item.caption %}
+    <figure>{{ item.image | picture(item.alt) | safe }}{% if item.caption %}<figcaption>{{ item.caption }}</figcaption>{% endif %}</figure>
   </dialog>
 
   <button data-index="{{ loop.index }}">
-    {% image item.image, item.alt %}
+    {{ item.image | picture(item.alt) | safe }}
   </button>
 
   {% endfor %}
