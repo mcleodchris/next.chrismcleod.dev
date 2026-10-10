@@ -25,12 +25,16 @@ const fail = message => {
   process.exit(1);
 };
 
-/** Groups entries by completion year, each year sorted by completion date. */
+/**
+ * Groups entries by completion year, each year sorted by completion date.
+ * Keeps only the fields the Paintslam pages show, leaving out mage's
+ * database fields, which change on every save.
+ */
 const byYear = entries => {
   const years = {};
-  for (const entry of entries) {
-    const year = new Date(entry.completedDate).getFullYear();
-    (years[year] ??= []).push({ ...entry, modelCount: parseInt(entry.modelCount, 10) });
+  for (const { completedDate, game, item, modelCount } of entries) {
+    const year = new Date(completedDate).getFullYear();
+    (years[year] ??= []).push({ completedDate, game, item, modelCount: parseInt(modelCount, 10) });
   }
   for (const year in years) {
     years[year].sort((a, b) => new Date(a.completedDate) - new Date(b.completedDate));

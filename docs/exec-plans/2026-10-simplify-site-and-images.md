@@ -50,7 +50,7 @@ The work is delivered as three independently reviewable changes (pull requests):
 - [x] (2026-10-10) Change B, Milestone 4: configuration as plugins; merged partials; feeds consolidated with legacy contracts preserved. `.eleventy.js` is 50 lines. Output file list equals Milestone 3's; all checks pass as before. The feed comparison (Artifacts and Notes) shows the nine `/follow/` feeds identical to Milestone 1 and the two legacy feeds differing only as recorded in Surprises.
 - [ ] Change B, Milestone 5: committed data snapshots (Paintslam) with `npm run data:sync`; helper scripts fixed; single slugify.
   - [x] (2026-10-10) `helpers/sync-data.js`, snapshot-reading `hobby.js`/`navigation.js`, CI "Sync data" step, helper scripts (js-yaml front matter, one slugify, `createContentFile`, `promptForUrlWithMetadata`, `likeOf`, OG exit status). Verified: `data:sync` with no token and with a bad token exits 1 and writes nothing; a temporary fake `data/hobby.json` produces `/paintslam/2025/` and `/paintslam/2026/` and the menu links `/paintslam/2026/`; with no snapshot the build succeeds, publishes no Paintslam pages and the menu omits the link; `new:bookmark` against a local page titled `Testing: colons # and hashes` wrote front matter that `js-yaml` parses. Output otherwise equals Milestone 4's.
-  - [ ] Run `npm run data:sync` with the owner's `MAGE_API_TOKEN` and commit `data/hobby.json` (no token was available on this machine). If it is never run locally, the first deploy's "Sync data" step creates and commits it.
+  - [x] (2026-10-10) `data/hobby.json` synced with the owner's token and committed: 145 entries, 2018–2026. A second sync reports no change. The built `/paintslam/2026/` and `/paintslam/2019/` pages have the same text as the live site, and the menu links `/paintslam/2026/`. The sync keeps only `completedDate`, `game`, `item` and `modelCount` (see Decision Log).
   - [ ] After merge: the owner's Paintslam edit triggers a `repository_dispatch` deploy that commits `data/hobby.json`; record the run URL here.
 - [ ] Change C, Milestone 6 (prototype): manifest-driven `<picture>` rendering on representative images; verify mage's `/images/list` is complete.
 - [ ] Change C, Milestone 7: image manifest `data/images.json` and `npm run images:sync`; CI integration.
@@ -266,6 +266,10 @@ These were found during the audit and the plan review. Add new entries as work p
 - Decision: The `redirects` collection also emits a redirect stub at the URL Sequoia publishes for each post (`sequoiaPath(pathTemplate, title)`) whenever that differs from the post's Eleventy URL and is not already a real page. This makes all 565 AT Protocol records resolve without republishing anything. `sequoia-slugs-resolve` checks Sequoia's resolved path rather than the state file's `slug`.
   Rationale: the alternative, making Sequoia's path match Eleventy's (for example a `{field}` path template backed by a new front matter key), edits every affected post and republishes their records; stubs fix the dead links now and cost one tiny page each. The owner may still choose to correct the records later.
   Date/Author: 2026-10-10, Claude during Milestone 1.
+
+- Decision: `data:sync` stores only the four fields the Paintslam pages show (`completedDate`, `game`, `item`, `modelCount`), not every field mage returns.
+  Rationale: mage's response also carries Cosmos DB fields (`_rid`, `_self`, `_etag`, `_attachments`, `_ts`) and `userId`, `createdAt`, `id` and `year`. None is shown on the site; the database fields change on every save and would add noise to every snapshot diff, and there is no reason to publish a user id in the repository. This departs from the plan's "transform the data exactly as hobby.js does", which kept every field.
+  Date/Author: 2026-10-10, Claude after the owner's first sync.
 
 ## Outcomes & Retrospective
 
