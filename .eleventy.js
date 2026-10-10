@@ -1,4 +1,3 @@
-import 'dotenv/config';
 import { RenderPlugin } from '@11ty/eleventy';
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import pluginRss from '@11ty/eleventy-plugin-rss';

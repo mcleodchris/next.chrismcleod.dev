@@ -61,7 +61,9 @@ The work is delivered as three independently reviewable changes (pull requests):
 - [x] (2026-10-10) Change C, Milestone 8: Markdown image renderer, `picture` filter, shortcode on the same code path, manifest reload in the development server. A production build passes `npm run check` with no allowances; the `--allow picture-img-dimensions` option is gone from both workflows. A cold development build (`rm -rf .cache dist`) takes 4.2 s and logs no "Processing". All 2,154 distinct CDN image URLs in the built site answer HTTP 200 (the baseline had 2,367, of which 177 did not). The development-server test passed: the scratch post's page and `/follow/blog/feed.json` both carry the `<picture>` with `<figcaption>Caption</figcaption>`, and deleting the entry's AVIF and then WebP widths in `data/images.json` was reflected on reload, as was restoring the file.
 - [x] (2026-10-10) Change C, Milestone 9: content migration (shortcode to Markdown, tag case, legacy front matter) as one commit; old image code removed. The codemod rewrote 207 calls and skipped 6 (the home-page portrait and three Bridgy screenshots with six arguments, and two inline calls in `2012-11-03-review-angel-exterminatus-graham-mcneill.md` and `2019-01-21-experiences-with-cloudflare-blocking-bridgy.md`). 1,022 `categories:`/`authors:` keys were removed and 7 tags lowercased; a script confirmed every changed file's front matter is otherwise identical and its body differs only in image syntax and blank lines. `<picture>` and `<figure>` counts are identical to Milestone 8 on every page; the only file-list change is `/tags/APIs/` and `/tags/TV/`, now merged into `/tags/apis/` and `/tags/tv/`. The check passes with no allowances; a cold development build takes 4.1 s.
   - Sequoia dry run: not run, because it needs the AT Protocol credentials. Sequoia's change detection (SHA-256 of each file against `.sequoia-state.json`) was reproduced instead: 0 updates at the previous commit, 521 updates and 0 creates after, equal to the 521 changed post files. **The owner must review `npx sequoia publish --dry-run` before pushing Change C.**
-- [ ] Change C, Milestone 10: documentation and retrospective.
+- [x] (2026-10-10) Change C, Milestone 10: documentation and retrospective. `readme.md` rewritten; `.env-sample` now lists `MAGE_API_TOKEN`. Nothing reads `ELEVENTY_PRODUCTION` or `.env` during a build any more, so the flag was dropped from the `build` and `start-prod` scripts and `dotenv` from `.eleventy.js` (the sync scripts load `.env` themselves).
+
+Branches (none pushed): Change A is `fix/production-and-checks`, Change B is `chore/simplify-config` (based on A), Change C is `feat/image-manifest` (based on B); the mage change is `fix/camelcase-frontmatter-keys` in the mage repository. Still to do by the owner, in order: open and merge A, deploy, run the live checks in Concrete Steps; merge and deploy mage; run `npm run data:sync` and `npm run images:sync` with the token (or let the first deploy of B and C do it); merge B; review `npx sequoia publish --dry-run` for C, then merge C.
 
 Temporary check allowances in CI (each must be removed by the milestone named):
 
@@ -294,7 +296,19 @@ These were found during the audit and the plan review. Add new entries as work p
 
 ## Outcomes & Retrospective
 
-Nothing yet. Fill in at the end of each milestone.
+(2026-10-10, after Milestone 10.) Everything in the plan is implemented on three stacked branches, verified locally. What was achieved, against the purpose:
+
+- Production bugs: a production build passes all eleven checks with no allowances. The original output failed nine. Every one of the 2,154 distinct CDN image URLs in the built site answers HTTP 200 (the original output referenced 2,367, of which 177 did not, besides `src="undefined"` on 119 pages). The 66 old URLs and, newly found, 60 AT Protocol record URLs now have redirect pages.
+- Simplification: `.eleventy.js` went from 200 lines to 50; twelve dependencies were removed and five added (four of them pinned tools); duplicated layouts, feed templates and partials were merged; builds read committed snapshots and need no network or secret.
+- Images: content uses plain Markdown; `data/images.json` describes 270 images; a cold development build takes about 4 seconds, against 3m15s before. A production Eleventy run also fell from about 16 s to under 4 s, mostly because the Prettier transform was removed.
+
+Compared with the plan's expectations: the audit missed that Sequoia's record URLs differ from the site's for 60 posts, that every note showed the build date, and that a watch on a single file stops after an atomic write; all three are fixed and recorded in Surprises & Discoveries. Every recorded output difference is deliberate.
+
+What is not verified, because it needs the owner's credentials or a deploy: mage's `/images/list` completeness and record format (Milestone 6), the first committed Paintslam snapshot (Milestone 5), the Sequoia dry run for the content commit (Milestone 9), and every post-merge acceptance step (CI runs, live redirects, the Paintslam dispatch). Until `images:sync` runs with a token, all manifest entries are probe-sourced, which renders correctly but means a new upload needs one probe (about a second) on the next sync.
+
+Notes for the owner: `src/posts/2022-12-24-my-first-prototype.md` embeds `![](assets/images/Screenshot_20221224_200953-1024x585.png)`, a relative path that does not resolve; `src/posts/2019-06-14-8475.md` loads two images from `mrkapowski.com` whose originals also exist on the CDN; and the content URL `https://assets.chrismcleod.dev/chrismcleod.dev/images/970c78e0-a6bd-4c64-b434-699c3dc03a0c.jpg` returns 404.
+
+Lesson: building the check script first paid off. It turned each fix into a pass/fail line and caught the Sequoia URL problem the audit had missed.
 
 
 ## Context and Orientation
