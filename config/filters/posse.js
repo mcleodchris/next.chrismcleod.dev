@@ -91,8 +91,3 @@ const formatLink = (post, content, permalink, postLength) => {
 export const makeTootText = (post) => posseText(post, 500);
 
 export const makeBlueskyText = (post) => posseText(post, 295);
-
-export default {
-    makeTootText,
-    makeBlueskyText
-};

@@ -1,0 +1,22 @@
+---js
+{
+  pagination: {
+    data: 'feeds',
+    size: 1,
+    alias: 'feed',
+    before: feeds => feeds.filter(feed => feed.legacy)
+  },
+  permalink: data => data.feed.legacy.url,
+  eleventyExcludeFromCollections: true,
+  excludeFromSitemap: true
+}
+---
+{%- set selfUrl = meta.url + feed.legacy.url -%}
+{%- set feedTitle = feed.legacy.title -%}
+{%- set feedSubtitle = feed.legacy.subtitle -%}
+{%- set feedId = feed.legacy.id -%}
+{%- set homeUrl = meta.url + '/' -%}
+{%- set items = collections[feed.collection].slice(0, feed.legacy.limit) -%}
+{%- set entryLink = feed.legacy.entryLink -%}
+{%- set footer = feed.legacy.footer -%}
+{% include "feeds/atom-body.njk" %}

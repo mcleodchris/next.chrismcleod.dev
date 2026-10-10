@@ -7,23 +7,12 @@ permalink: "/notes/{{date | formatDate('YYYYMMDDHHmm')}}/index.html"
 
 <article class="region blog h-entry" data-pagefind-body>
   <div class="wrapper flow prose">
-    {% set diff = date | dateDiff %}
-    {% if diff >= 3 %}
-      <aside class="old" data-pagefind-ignore>
-        <p><strong>Proceed With Caution</strong></p>
-        <p>This post was written around {{ date | longAgo }}{% if archived === true %}, on an old blog that no longer exists, and is preserved for posterity only{% endif %}.</p>
-        <p>A lot can happen in that time; any information given may no longer be accurate, links to original sources may not work, and the the original context may not exist any more. And, most importantly, any views or opinions presented may not match those currently held by the author. All this is to say &mdash; take anything below with a pinch of salt.</p>
-      </aside>
-    {% endif %}
+    {% include "partials/old-post-warning.njk" %}
+    {% set definedDate = date %}
     <div class="post-meta"><a href="{{url | url}}" class="u-url">🔗</a> {% include "partials/date.njk" -%} by <a class="p-author h-card" href="{{ meta.authorWebsite }}">{{ meta.author }}</a></div>
     <div class="e-content | flow prose">
       {{ content | safe }}
     </div>
-    <footer class="prose flow">
-      {% if tags | topicTags | length %}
-        <p>Filed under: {% for tag in tags | topicTags %}<a class="p-category tag" href="/tags/{{ tag | url }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>
-      {% endif %}
-      <p>☕ This author runs on caffeine (I’m not convinced the servers don’t, either). If you’ve found any of my posts useful or informative, maybe you’d consider <a href="https://www.buymeacoffee.com/mrkapowski" rel="external">buying me a coffee</a>?</p>
-    </footer>
+    {% include "partials/post-footer.njk" %}
   </div>
 </article>

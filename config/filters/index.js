@@ -8,6 +8,7 @@ import MarkdownIt from 'markdown-it';
 import fs from 'fs';
 import { SYSTEM_TAGS } from '../collections/index.js';
 import { slugifyString } from '../utils/index.js';
+import { makeTootText, makeBlueskyText } from './posse.js';
 
 const md = new MarkdownIt();
 
@@ -100,18 +101,23 @@ const socialImageUrl = data => {
   return `${site.url}${site.meta_data.opengraph_default}`;
 };
 
-export {
-  where,
-  toISOString,
-  formatDate,
-  mdInline,
-  longAgo,
-  dateDiff,
-  excludeTag,
-  dateForFeed,
-  stripIndex,
-  filterTagsFromFeeds,
-  topicTags,
-  socialPreviewExists,
-  socialImageUrl
+export { socialImageUrl };
+
+export default eleventyConfig => {
+  eleventyConfig.addFilter('where', where);
+  eleventyConfig.addFilter('toIsoString', toISOString);
+  eleventyConfig.addFilter('formatDate', formatDate);
+  eleventyConfig.addFilter('slugify', slugifyString);
+  eleventyConfig.addFilter('md', mdInline);
+  eleventyConfig.addFilter('longAgo', longAgo);
+  eleventyConfig.addFilter('dateDiff', dateDiff);
+  eleventyConfig.addFilter('excludeTag', excludeTag);
+  eleventyConfig.addFilter('dateForFeed', dateForFeed);
+  eleventyConfig.addFilter('stripIndex', stripIndex);
+  eleventyConfig.addFilter('filterTagsFromFeeds', filterTagsFromFeeds);
+  eleventyConfig.addFilter('topicTags', topicTags);
+  eleventyConfig.addFilter('socialPreviewExists', socialPreviewExists);
+  eleventyConfig.addFilter('socialImageUrl', socialImageUrl);
+  eleventyConfig.addFilter('makeTootText', makeTootText);
+  eleventyConfig.addFilter('makeBlueskyText', makeBlueskyText);
 };

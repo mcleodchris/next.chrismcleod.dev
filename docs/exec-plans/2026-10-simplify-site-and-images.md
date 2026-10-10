@@ -47,7 +47,7 @@ The work is delivered as three independently reviewable changes (pull requests):
 - [x] (2026-10-10) Change A, Milestone 1b (mage repository): write `bookmarkOf`/`likeOf` front matter keys. Committed as `d66762b` on branch `fix/camelcase-frontmatter-keys` in `~/code/mage.chrismcleod.dev` (not pushed). Verified by calling `generateMicropubMarkdown` from a Node one-off: a bookmark yields `bookmarkOf: "https://example.com/"`, a like yields `likeOf: …`; Biome reports no issues. Remaining for the owner: push, open the pull request, deploy mage, and record the deployment here.
 - [x] (2026-10-10) Change A, Milestone 2: CI hardening; CI runs the checks before publishing and after the final build; pull-request validation. Verified locally: `npm ci`, `npm run build` (with the pinned Pagefind) and `npm run check -- --allow picture-img-dimensions` pass. Failure detection was proven by the local method: injecting `<img src="undefined">` into `dist/about/index.html` makes `npm run check` print `FAIL no-undefined-attributes: 1 problem(s): about/index.html` and exit 1. Remaining for the owner: the pull-request run, the post-merge deploy run and a manual "Run workflow".
 - [x] (2026-10-10) Change B, Milestone 3: delete dead code, templates, fonts and dependencies; one HTML transform policy. Every search confirmed the items unused. Output equals Milestone 1's minus `warcraft/warcraft.json`, the Inter/Red Hat/Roboto Mono files and the `.eot` files; feeds and `bookmarks/data.json` are byte-identical; the three sample pages differ only in whitespace, asset version and the Roboto Mono preload. A production Eleventy run fell from about 15 s to about 4 s, because the Prettier transform was most of the build time.
-- [ ] Change B, Milestone 4: configuration as plugins; merged partials; feeds consolidated with legacy contracts preserved.
+- [x] (2026-10-10) Change B, Milestone 4: configuration as plugins; merged partials; feeds consolidated with legacy contracts preserved. `.eleventy.js` is 50 lines. Output file list equals Milestone 3's; all checks pass as before. The feed comparison (Artifacts and Notes) shows the nine `/follow/` feeds identical to Milestone 1 and the two legacy feeds differing only as recorded in Surprises.
 - [ ] Change B, Milestone 5: committed data snapshots (Paintslam) with `npm run data:sync`; helper scripts fixed; single slugify.
 - [ ] Change C, Milestone 6 (prototype): manifest-driven `<picture>` rendering on representative images; verify mage's `/images/list` is complete.
 - [ ] Change C, Milestone 7: image manifest `data/images.json` and `npm run images:sync`; CI integration.
@@ -159,6 +159,12 @@ These were found during the audit and the plan review. Add new entries as work p
 - Observation (Milestone 0): the `slug` in `.sequoia-state.json` is not a URL. Sequoia derives it from the file name (`2025-08-26-installing-arch-with-….md` gives `installing-arch-with-…`), while the URL each AT Protocol record advertises comes from `sequoia.json`'s `pathTemplate`, `/blog/{title}`, where Sequoia slugifies the title its own way: lower-case, whitespace to `-`, then delete every character outside `[A-Za-z0-9_-]`. Eleventy's `slugifyString` differs for titles with punctuation, so 60 of the 565 published records point at URLs that return 404, for example `/blog/armies-on-parade---painting-update-2` (Eleventy: `/blog/armies-on-parade-painting-update-2/`) and `/blog/onoff` (Eleventy: `/blog/on/off/`). The check now resolves Sequoia's path per post (`sequoiaPath` in `config/utils/index.js`, mirroring `resolvePathTemplate` in the sequoia-cli 0.5.7 bundle) instead of testing `blog/<slug>/`.
 
 - Observation (Milestone 1): the output file list differs from the baseline exactly as expected, plus two items the plan did not list: the two `likes/*/index.html` pages are gone (intended by the Likes fix), and 60 extra redirect stubs exist under `/blog/` for the Sequoia paths (see the Decision Log). Totals: 126 files added (66 `redirectFrom` stubs and 60 Sequoia stubs), 15 removed (12 system tag pages, `_redirects`, 2 likes). No old `redirectFrom` path collided with a real page.
+
+- Observation (Milestone 4): the feed comparison against Milestone 1 (attributes included, text trimmed) found the nine `/follow/` feeds identical, including the JSON feeds now produced by `src/feeds/json.11ty.js`. The two legacy Atom feeds differ in two deliberate, harmless ways: each entry's `<content xml:lang>` is now `en` (it was empty, because the old templates read an undefined `locale` variable), and the bookmarks feed title is written `Chris McLeod&#39;s bookmarks`, the same character reference the other feed titles already use (Nunjucks autoescaping), which decodes to the same text.
+
+- Observation (Milestone 4): note pages never set `definedDate` before including the date partial, so every note displayed the build time as its date ("October 10, 2026"). `note.njk` now sets it. Also, merging the footers gives notes the same boxed `coffee` footer as posts, without the leading "☕"; the `TODO: duplicate` comment in `home.njk` is gone; list items now consistently use `h-entry` (the tag pages had the typo `h-entrry`) with `u-url p-name` on the title link (home used `u-url u-title`, which is not a microformats2 property). The feed `<link rel="alternate">` tags now use `application/feed+json` for JSON and the "JSOM" typo is fixed.
+
+- Observation (Milestone 4): two leftovers Milestone 3 should have removed were removed here: the commented `warcraft` block in `src/_data/meta.js` and the never-used `bookmarksFeed` collection (`getBookmarksFeed`). `src/_data/feeds.js` gained a `label` per feed, used to keep the existing `<link rel="alternate">` titles. The legacy template filters `feeds` with a `pagination.before` callback in JavaScript front matter rather than a new filter.
 
 - Observation (Milestone 3): `throwIfNotType` in `config/utils/index.js` was only used by the deleted `stripHtml` and `toAbsoluteUrl` filters, so it was deleted too. `sitemap.xml` changed order only (pages without a `date` take the file's modification time).
 
@@ -1143,6 +1149,23 @@ Eleventy Image behaviour that shaped the design (from `node_modules/@11ty/eleven
 - With `statsOnly`, a remote image is downloaded to read its size, unless `remoteImageMetadata: { width, height }` is passed in the options for that call.
 - `getValidWidths` replaces a too-large width with the original width only while `originalWidth > Math.floor(previousWidth * minimumThreshold)`.
 - `minimumThreshold` defaults to 1.25, in both the site (6.0.4) and mage (7.0.0).
+
+Milestone 4 feed comparison (`compare-feeds.mjs`, Milestone 1 output against Milestone 4 output):
+
+    DIFF feed.xml
+    DIFF bookmarks/feed.xml
+    SAME follow/blog/feed.atom
+    SAME follow/blog/feed.rss
+    SAME follow/blog/feed.json
+    SAME follow/bookmarks/feed.atom
+    SAME follow/bookmarks/feed.rss
+    SAME follow/bookmarks/feed.json
+    SAME follow/notes/feed.atom
+    SAME follow/notes/feed.rss
+    SAME follow/notes/feed.json
+    24x feed.xml.feed.entry.N.content.@_xml:lang: "" vs "en"
+    1x bookmarks/feed.xml.feed.title: "Chris McLeod's bookmarks" vs "Chris McLeod&#39;s bookmarks"
+    24x bookmarks/feed.xml.feed.entry.N.content.@_xml:lang: "" vs "en"
 
 Record the Milestone 6 prototype output here.
 

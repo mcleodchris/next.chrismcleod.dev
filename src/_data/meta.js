@@ -38,53 +38,6 @@ export default {
     closedText: 'Menu'
   },
   indieauth: 'https://github.com/mcleodchris',
-  feeds: [
-    {
-      title: 'chrismcleod.dev: main blog feed (Atom)',
-      url: 'https://chrismcleod.dev/follow/blog/feed.atom',
-      type: 'atom+xml'
-    },
-    {
-      title: 'chrismcleod.dev: main blog feed (RSS)',
-      url: 'https://chrismcleod.dev/follow/blog/feed.rss',
-      type: 'rss+xml'
-    },
-    {
-      title: 'chrismcleod.dev: main blog feed (JSOM)',
-      url: 'https://chrismcleod.dev/follow/blog/feed.json',
-      type: 'json'
-    },
-    {
-      title: 'chrismcleod.dev: bookmarks feed (Atom)',
-      url: 'https://chrismcleod.dev/follow/bookmarks/feed.atom',
-      type: 'atom+xml'
-    },
-    {
-      title: 'chrismcleod.dev: bookmarks feed (RSS)',
-      url: 'https://chrismcleod.dev/follow/bookmarks/feed.rss',
-      type: 'rss+xml'
-    },
-    {
-      title: 'chrismcleod.dev: bookmarks feed (JSON)',
-      url: 'https://chrismcleod.dev/follow/bookmarks/feed.json',
-      type: 'json'
-    },
-    {
-      title: 'chrismcleod.dev: notes feed (Atom)',
-      url: 'https://chrismcleod.dev/follow/notes/feed.atom',
-      type: 'atom+xml'
-    },
-    {
-      title: 'chrismcleod.dev: notes feed (RSS)',
-      url: 'https://chrismcleod.dev/follow/notes/feed.rss',
-      type: 'rss+xml'
-    },
-    {
-      title: 'chrismcleod.dev: notes feed (JSON)',
-      url: 'https://chrismcleod.dev/follow/notes/feed.json',
-      type: 'json'
-    }
-  ],
   indieweb: {
     avatar: 'https://assets.chrismcleod.dev/chrismcleod.dev/assets/resized/9d049e30-cdc7-4a26-9bdb-db34bb57b867-320.jpeg'
   },
@@ -92,44 +45,5 @@ export default {
     title: 'Theme',
     light: 'latte',
     dark: 'machiatto'
-  },
-  warcraft: {
-  // api_base: 'https://eu.api.blizzard.com',
-  // region: 'eu',
-  // namespace: 'profile-eu',
-  // locale: 'en_GB',
-  // clientId: process.env.BLIZZARD_CLIENT_ID,
-  // clientSecret: process.env.BLIZZARD_CLIENT_SECRET,
-  // characters: [
-  //   {
-  //     name: 'reinias',
-  //     realm: 'dragonblight'
-  //   },
-  //   {
-  //     name: 'faerlune',
-  //     realm: 'dragonblight'
-  //   },
-  //   {
-  //     name: 'shaasvre',
-  //     realm: 'dragonblight'
-  //   },
-  //   {
-  //     name: 'faerilina',
-  //     realm: 'dragonblight'
-  //   },
-  //   {
-  //     name: 'faerlorna',
-  //     realm: 'dragonblight'
-  //   },
-  //   {
-  //     name: 'faerelune',
-  //     realm: 'dragonblight'
-  //   },
-  //   {
-  //     name: 'faerefel',
-  //     realm: 'dragonblight'
-  //   }
-  // ]
-}
-
+  }
 };

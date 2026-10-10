@@ -1,9 +1,10 @@
 {
   "layout": "bookmark",
-  "tags": ["bookmark", "timeline"],
+  "tags": [
+    "bookmark",
+    "timeline"
+  ],
   "eleventyComputed": {
     "feedFooter": "[{{ title }}]({{ bookmarkOf | url }}), bookmarked {{ date | formatDate('MMMM D, YYYY') }} on [Chris McLeod's bookmark page](/bookmarks)."
-  },
-  "collectionName": "bookmarksForFeed",
-  "name": "Bookmarks"
+  }
 }

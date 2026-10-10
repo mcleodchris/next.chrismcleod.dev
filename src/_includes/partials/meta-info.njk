@@ -69,8 +69,15 @@ name="twitter:dnt" content="on"> <!-- Favicon -->
 <link rel="pingback" href="https://webmention.io/chrismcleod.dev/xmlrpc">
 
 <!-- Feeds -->
-{% for feed in meta.feeds %}
-  <link rel="alternate" type="application/{{ feed.type }}" title="{{ feed.title }}" href="{{ feed.url }}">
+{% set feedFormats = [
+  { ext: 'atom', label: 'Atom', type: 'application/atom+xml' },
+  { ext: 'rss', label: 'RSS', type: 'application/rss+xml' },
+  { ext: 'json', label: 'JSON', type: 'application/feed+json' }
+] %}
+{% for feed in feeds %}
+  {% for format in feedFormats %}
+  <link rel="alternate" type="{{ format.type }}" title="chrismcleod.dev: {{ feed.label }} ({{ format.label }})" href="{{ meta.url }}/follow/{{ feed.key }}/feed.{{ format.ext }}">
+  {% endfor %}
 {% endfor %}
 
 <!-- standard.site -->

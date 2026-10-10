@@ -35,20 +35,7 @@ const getAllBookmarks = collection => {
   return posts.reverse();
 };
 
-const getBookmarksFeed = collection => {
-  const bookmarks = getAllBookmarks(collection);
-  return bookmarks.map(bookmark => {
-    return {
-      title: bookmark.data.title,
-      permalink: bookmark.url,
-      tags: bookmark.data.tags,
-      url: bookmark.data.bookmarkOf,
-      date: bookmark.data.date
-    };
-  });
-};
-
-// a new collection named graph, which combines posts and bookmarks
+// Posts, bookmarks and notes, newest first, for the archive's activity graph.
 const getGraph = collection => {
   const posts = getAllPosts(collection);
   const bookmarks = getAllBookmarks(collection);
@@ -63,18 +50,6 @@ const getGraph = collection => {
 const getAllNotes = collection => {
   const posts = collection.getFilteredByGlob('./src/notes/*.md');
   return posts.reverse();
-};
-const notesForFeed = collection => {
-  const posts = getAllNotes(collection);
-  return posts.slice(0, 50);
-};
-const bookmarksForFeed = collection => {
-  const bookmarks = getAllBookmarks(collection);
-  return bookmarks.slice(0, 50);
-};
-const postsForFeed = collection => {
-  const posts = getAllPosts(collection);
-  return posts.slice(0, 24);
 };
 
 /** Every topic tag used by any item, alphabetically: one tag page each. */
@@ -113,16 +88,14 @@ const redirects = collection => {
 
 
 
-export {
-  SYSTEM_TAGS,
-  contentTags,
-  redirects,
-  getAllPosts,
-  tagList,
-  getAllBookmarks,
-  getBookmarksFeed,
-  getGraph,
-  notesForFeed,
-  bookmarksForFeed,
-  postsForFeed
+export { SYSTEM_TAGS };
+
+export default eleventyConfig => {
+  eleventyConfig.addCollection('posts', getAllPosts);
+  eleventyConfig.addCollection('allBookmarks', getAllBookmarks);
+  eleventyConfig.addCollection('allNotes', getAllNotes);
+  eleventyConfig.addCollection('tagList', tagList);
+  eleventyConfig.addCollection('contentTags', contentTags);
+  eleventyConfig.addCollection('graph', getGraph);
+  eleventyConfig.addCollection('redirects', redirects);
 };
