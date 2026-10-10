@@ -21,7 +21,7 @@ const imageShortcode = (
     src,
     alt,
     className: classes || undefined,
-    loading: lazy ? 'lazy' : undefined,
+    loading: lazy ? 'lazy' : 'eager',
     sizes: sizes || undefined
   });
   return `<figure>${picture}${caption ? `<figcaption>${caption}</figcaption>` : ''}</figure>`;

@@ -176,6 +176,8 @@ These were found during the audit and the plan review. Add new entries as work p
 
 - Observation (Milestone 9): with the image shortcode gone, nothing writes `.cache` any more and `@11ty/eleventy-fetch` (used only by the old `hobby.js`) is unused, so both were removed: the dependency, and the workflow's two `actions/cache` steps. The codemod was committed once and deleted in the following commit, so history keeps it; `helpers/prototype-picture.js` was deleted too.
 
+- Observation (Milestone 8, found in review): the reimplemented shortcode passed `loading: undefined` when `lazy` was falsy, so `renderPicture`'s default made the home-page portrait (`lazy` = `0`) `loading="lazy"`. The original shortcode omitted the attribute in that case. It now passes `loading: 'eager'`, which browsers treat the same as no attribute; the built home page's portrait has `loading="eager"` and is the only eager image on the site.
+
 - Observation (Milestone 8): watching `./data/images.json` itself stops working after the first atomic replacement (`images:sync` writes a temporary file and renames it; `git checkout` also replaces the file): the server logged `File deleted: ./data/images.json` and never rebuilt again. The plugin watches the `./data/` folder instead, which follows replacements; the test above was repeated with rename-style writes and `git checkout`.
 
 - Observation (Milestone 8): no caption CSS was needed. On production, `<figcaption class="cluster font-display"><p>…</p></figcaption>` computes to the inherited body font (Duo; `font-display` generates nothing), and the new plain `<figcaption>` measured identically in the browser (same font, size, colour, 0px gap below the image, 39px height, same left edge) on `/blog/magpuck-prototype-v2/`.
