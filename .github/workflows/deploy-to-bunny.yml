@@ -8,9 +8,14 @@ on:
     types: [function_trigger]
   workflow_dispatch:
 
+# Runs on develop queue rather than overlap, so two runs never publish or
+# commit generated state at the same time.
+concurrency:
+  group: deploy-develop
+  cancel-in-progress: false
+
 jobs:
   build_and_deploy_job:
-    if: github.event_name == 'push' || github.event_name == 'repository_dispatch'
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
@@ -33,26 +38,38 @@ jobs:
           key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-build-
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Generate OG images
         run: npm run og
-      - name: Install Sequoia
-        run: |
-          npm install -g sequoia-cli
+      - name: Build
+        run: npm run build
+        env:
+          MAGE_API_TOKEN: ${{ secrets.MAGE_API_TOKEN }}
+      - name: Check build before publishing
+        run: npm run check -- --allow picture-img-dimensions
       - name: Publish to ATProto
         env:
           PDS_URL: ${{ secrets.PDS_URL }}
           ATP_IDENTIFIER: ${{ secrets.ATP_IDENTIFIER }}
           ATP_APP_PASSWORD: ${{ secrets.ATP_APP_PASSWORD }}
-        run: sequoia publish
-      - name: Build
-        run: |
-          npm run build
+        run: npx sequoia publish
+      # Rebuild so pages include the atUri values Sequoia just wrote.
+      - name: Build with published state
+        run: npm run build
         env:
           MAGE_API_TOKEN: ${{ secrets.MAGE_API_TOKEN }}
-          BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
-          BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
+      - name: Check final build
+        run: npm run check -- --allow picture-img-dimensions
+      # Recovery: if a run fails after "Publish to ATProto", re-run the
+      # workflow. Posts already published are only recorded in
+      # .sequoia-state.json if this step ran; if it did not, Sequoia will see
+      # them as new again, so check the AT Protocol records before re-running
+      # and, if necessary, commit the state file by hand.
       - name: Commit Sequoia state
         run: |
           git config user.name "${{ github.actor }}"
