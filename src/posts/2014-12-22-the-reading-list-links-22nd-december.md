@@ -1,14 +1,10 @@
 ---
 title: "The Reading List Links, 22nd December"
 date: 2014-12-22
-categories:
-  - notes
 tags:
   - link-list
   - links
   - miscellaneous
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqxie6k2p"
 ogImage: the-reading-list-links-22nd-december-preview.jpeg

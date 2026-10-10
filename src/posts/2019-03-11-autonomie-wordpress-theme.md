@@ -1,14 +1,10 @@
 ---
 title: "Autonomie WordPress Theme"
 date: 2019-03-11
-categories:
-  - notes
 tags:
   - indieweb
   - themes
   - wordpress
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqno2ks2p"
 ogImage: autonomie-wordpress-theme-preview.jpeg

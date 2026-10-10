@@ -1,12 +1,8 @@
 ---
 title: "How to Talk Yourself out of your New Year’s Blogging Resolution… One Day At A Time"
 date: 2017-01-03
-categories:
-  - articles
 tags:
   - blogging
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqv62as2p"
 ogImage: how-to-talk-yourself-out-of-your-new-years-blogging-resolution-one-day-at-a-time-preview.jpeg

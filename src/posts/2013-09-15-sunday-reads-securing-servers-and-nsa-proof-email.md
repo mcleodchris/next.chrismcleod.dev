@@ -1,16 +1,12 @@
 ---
 title: "Sunday Reads: Securing Servers and NSA-proof Email"
 date: 2013-09-15
-categories:
-  - articles
 tags:
   - devops
   - linux
   - security
   - servers
   - software
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzsxus2p"
 ogImage: sunday-reads-securing-servers-and-nsa-proof-email-preview.jpeg

@@ -1,14 +1,10 @@
 ---
 title: "Test post from Ulysses"
 date: 2019-01-19
-categories:
-  - notes
 tags:
   - blogging
   - blogging-tools
   - writing
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqolvnc2p"
 ogImage: test-post-from-ulysses-preview.jpeg

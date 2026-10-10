@@ -1,15 +1,11 @@
 ---
 title: "The Unnoticed Silo"
 date: 2019-11-27
-categories:
-  - notes
 tags:
   - 1password
   - security
   - software
   - user-experience
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqlhyes2p"
 ogImage: the-unnoticed-silo-preview.jpeg

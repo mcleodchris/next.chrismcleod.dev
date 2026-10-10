@@ -1,14 +1,10 @@
 ---
 title: "Time for an Upgrade, Maybe?"
 date: 2019-07-26
-categories:
-  - notes
 tags:
   - computing
   - pc-building
   - personal
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqm4hnk2p"
 ogImage: time-for-an-upgrade-maybe-preview.jpeg

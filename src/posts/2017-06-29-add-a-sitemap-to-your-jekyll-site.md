@@ -1,11 +1,6 @@
 ---
 title: "Add a Sitemap to your Jekyll Site"
 date: 2017-06-29
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - blogging

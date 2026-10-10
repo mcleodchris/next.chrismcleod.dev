@@ -1,19 +1,15 @@
 ---
 title: "Improve Your HTC Desire HD Battery Life"
 date: 2011-03-13
-categories:
-  - articles
 tags:
   - android
   - mobile
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4dc6s2p"
 ogImage: improve-your-htc-desire-hd-battery-life-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/battery_usage-scaled500.png", "Battery_usage" %}
+![Battery\_usage](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/battery_usage-scaled500.png)
 
 Android phones generally don't get a lot of battery life. Judging by some of the forum threads and blog posts I've read, 20 hours or so is about the average. With the stock I've occaisionally had it scrape past that, but not by much. Using a lighter-weight Sense-based ROM I was able to get around 36 hours of charge
 

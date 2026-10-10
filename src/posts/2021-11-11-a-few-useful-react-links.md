@@ -1,15 +1,11 @@
 ---
 title: 'A Few Useful React Links'
 date: 2021-11-11
-categories:
-  - work
 tags:
   - learning
   - javascript
   - notes
   - react
-authors:
-  - chris
 redirectFrom: ['/2021/11/11/a-few-useful-react-links/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqijc422p"
 ogImage: a-few-useful-react-links-preview.jpeg

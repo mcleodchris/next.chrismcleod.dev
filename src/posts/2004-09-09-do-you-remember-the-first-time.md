@@ -1,10 +1,6 @@
 ---
 title: "Do You Remember the First Time?"
 date: 2004-09-09
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

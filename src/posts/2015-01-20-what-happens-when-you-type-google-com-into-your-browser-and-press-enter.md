@@ -1,10 +1,6 @@
 ---
 title: "What Happens When You Type Google.com into your Browser and Press Enter?"
 date: 2015-01-20
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - internet

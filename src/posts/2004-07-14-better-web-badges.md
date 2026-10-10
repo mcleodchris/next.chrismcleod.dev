@@ -1,10 +1,6 @@
 ---
 title: 'Better Web "Badges"'
 date: 2004-07-14
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - web-design

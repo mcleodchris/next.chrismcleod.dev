@@ -1,15 +1,10 @@
 ---
 title: '"K" Theme Update 24-Jan-2019'
 date: 2019-01-24
-categories:
-  - articles
-  - notes
 tags:
   - programming
   - indieweb
   - wordpress
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqogkqk2p"
 ogImage: k-theme-update-24-jan-2019-preview.jpeg

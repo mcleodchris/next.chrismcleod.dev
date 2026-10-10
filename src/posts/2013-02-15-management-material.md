@@ -1,13 +1,9 @@
 ---
 title: "Management Material"
 date: 2013-02-15
-categories:
-  - articles
 tags:
   - personal
   - work
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2lovc2p"
 ogImage: management-material-preview.jpeg

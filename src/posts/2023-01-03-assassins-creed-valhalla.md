@@ -1,13 +1,9 @@
 ---
 title: "Assassin's Creed: Valhalla"
 date: 2023-01-03
-categories:
-  - general-life
 tags:
   - assassins-creed
   - gaming
-authors:
-  - chris
 redirectFrom: ['/2023/01/03/assassins-creed-valhalla/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhjnfs2p"
 ogImage: assassins-creed-valhalla-preview.jpeg

@@ -1,14 +1,10 @@
 ---
 title: "Does Your Blog Design Influence What You Write?"
 date: 2005-09-01
-categories:
-  - articles
 tags:
   - blogging
   - web-design
   - writing
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr65oe22p"
 ogImage: does-your-blog-design-influence-what-you-write-preview.jpeg

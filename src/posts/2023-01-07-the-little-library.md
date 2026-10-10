@@ -1,14 +1,9 @@
 ---
 title: 'The Little Library'
 date: 2023-01-07
-categories:
-  - books
-  - general-life
 tags:
   - books
   - video
-authors:
-  - chris
 redirectFrom: ['/2023/01/07/the-little-library/']
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhat6k2p"

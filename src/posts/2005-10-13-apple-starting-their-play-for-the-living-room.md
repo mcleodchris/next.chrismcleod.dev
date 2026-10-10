@@ -1,10 +1,6 @@
 ---
 title: "Apple Starting their Play for the Living Room?"
 date: 2005-10-13
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - apple

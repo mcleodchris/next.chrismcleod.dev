@@ -1,10 +1,6 @@
 ---
 title: "The dark side of .io: How the U.K. is making web domain profits from a shady Cold War land deal"
 date: 2014-11-11
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - links

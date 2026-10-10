@@ -1,16 +1,11 @@
 ---
 title: "On Returning to Warhammer 40000: The Culture"
 date: 2012-12-30
-categories:
-  - articles
-  - hobby
 tags:
   - miniatures
   - tabletop-gaming
   - warhammer
   - warhammer-40000
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2ouhc2p"
 ogImage: on-returning-to-warhammer-40000-the-culture-preview.jpeg

@@ -1,12 +1,8 @@
 ---
 title: "Hola San Francisco!"
 date: 2013-11-24
-categories:
-  - articles
 tags:
   - san-francisco
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzppf22p"
 ogImage: hola-san-francisco!-preview.jpeg

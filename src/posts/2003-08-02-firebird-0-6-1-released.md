@@ -1,13 +1,9 @@
 ---
 title: "Firebird 0.6.1 Released"
 date: 2003-08-02
-categories:
-  - articles
 tags:
   - browsers
   - mozilla
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbkvhs2p"
 ogImage: firebird-061-released-preview.jpeg

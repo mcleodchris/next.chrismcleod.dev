@@ -1,10 +1,6 @@
 ---
 title: "Whizbang the Wonderful"
 date: 2018-08-13
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - gaming

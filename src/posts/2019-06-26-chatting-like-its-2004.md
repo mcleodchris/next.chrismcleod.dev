@@ -1,13 +1,9 @@
 ---
 title: "Chatting like it's 2004"
 date: 2019-06-26
-categories:
-  - notes
 tags:
   - indieweb
   - irc
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqmkjts2p"
 ogImage: chatting-like-its-2004-preview.jpeg

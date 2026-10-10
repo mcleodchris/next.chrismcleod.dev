@@ -1,14 +1,10 @@
 ---
 title: "Insane Gamer Beats Mega Man X and Mega Man X 2 Simultaneously"
 date: 2015-05-12
-categories:
-  - articles
 tags:
   - gaming
   - nostalgia
   - nintendo
-authors:
-  - chris
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvxjok2p"

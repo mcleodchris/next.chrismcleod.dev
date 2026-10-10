@@ -1,13 +1,9 @@
 ---
 title: "Android 4.1 Jelly Bean review | The Verge"
 date: 2012-07-03
-categories:
-  - articles
 tags:
   - android
   - google
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3tmac2p"
 ogImage: android-41-jelly-bean-review-or-the-verge-preview.jpeg

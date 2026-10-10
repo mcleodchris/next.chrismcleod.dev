@@ -1,10 +1,6 @@
 ---
 title: "Ars Technica turns 20 years old"
 date: 2019-01-15
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - internet

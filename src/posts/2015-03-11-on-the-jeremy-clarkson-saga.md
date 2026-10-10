@@ -1,15 +1,11 @@
 ---
 title: "On the Jeremy Clarkson Saga…"
 date: 2015-03-11
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - miscellaneous
   - rant
-  - TV
+  - tv
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqw7qes2p"
 ogImage: on-the-jeremy-clarkson-saga-preview.jpeg
 ---

@@ -1,10 +1,6 @@
 ---
 title: "Rewriting History"
 date: 2005-02-09
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

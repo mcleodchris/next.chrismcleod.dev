@@ -1,15 +1,10 @@
 ---
 title: "Open-Sourcing My IndieWeb Wordpress Theme?"
 date: 2018-12-20
-categories:
-  - articles
-  - notes
 tags:
   - indieweb
   - open-source
   - wordpress
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqp4c2k2p"
 ogImage: open-sourcing-my-indieweb-wordpress-theme-preview.jpeg

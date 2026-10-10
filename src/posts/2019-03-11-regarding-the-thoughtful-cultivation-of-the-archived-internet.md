@@ -1,14 +1,10 @@
 ---
 title: "Regarding the Thoughtful Cultivation of the Archived Internet"
 date: 2019-03-11
-categories:
-  - notes
 tags:
   - blogging
   - indieweb
   - internet-history
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnm6yk2p"
 ogImage: regarding-the-thoughtful-cultivation-of-the-archived-internet-preview.jpeg

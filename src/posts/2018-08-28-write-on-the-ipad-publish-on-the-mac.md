@@ -1,10 +1,6 @@
 ---
 title: "Write on the iPad, Publish on the Mac"
 date: 2018-08-28
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - apple

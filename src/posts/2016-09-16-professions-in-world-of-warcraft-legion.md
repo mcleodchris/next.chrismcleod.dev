@@ -1,13 +1,9 @@
 ---
 title: "Professions in World of Warcraft: Legion"
 date: 2016-09-16
-categories:
-  - articles
 tags:
   - gaming
   - warcraft
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvb4v22p"
 ogImage: professions-in-world-of-warcraft-legion-preview.jpeg

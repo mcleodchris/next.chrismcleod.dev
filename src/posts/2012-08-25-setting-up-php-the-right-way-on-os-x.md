@@ -1,16 +1,11 @@
 ---
 title: "Setting Up PHP (The Right Way*) on OS X"
 date: 2012-08-25
-categories:
-  - articles
-  - code-development
 tags:
   - how-to
   - php
   - ruby
   - software
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3gdgk2p"
 ogImage: setting-up-php-the-right-way-on-os-x-preview.jpeg

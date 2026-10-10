@@ -1,10 +1,6 @@
 ---
 title: "Even If You “Get Real”, You Still Have to Start With A Plan"
 date: 2005-08-11
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - agile

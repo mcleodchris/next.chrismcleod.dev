@@ -1,10 +1,6 @@
 ---
 title: "Video Playback on the New iPod _Not_ Restricted?"
 date: 2005-10-13
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - ipod

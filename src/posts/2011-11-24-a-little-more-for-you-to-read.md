@@ -1,13 +1,9 @@
 ---
 title: "A Little More for You to Read"
 date: 2011-11-24
-categories:
-  - articles
 tags:
   - site-meta
   - blogging
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4bqf22p"
 ogImage: a-little-more-for-you-to-read-preview.jpeg

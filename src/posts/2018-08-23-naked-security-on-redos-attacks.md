@@ -1,10 +1,6 @@
 ---
 title: "Naked Security on ReDoS Attacks"
 date: 2018-08-23
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqrbc2s2p"
 ogImage: naked-security-on-redos-attacks-preview.jpeg

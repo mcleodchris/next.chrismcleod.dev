@@ -1,10 +1,6 @@
 ---
 title: "Everyone's an Expert"
 date: 2005-01-07
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

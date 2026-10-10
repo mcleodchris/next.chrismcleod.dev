@@ -1,13 +1,9 @@
 ---
 title: "Find Open Source Projects to Work On with Up For Grabs"
 date: 2015-01-22
-categories:
-  - articles
 tags:
   - github
   - open-source
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqx2uk22p"
 ogImage: find-open-source-projects-to-work-on-with-up-for-grabs-preview.jpeg

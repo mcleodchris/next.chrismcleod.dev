@@ -1,15 +1,10 @@
 ---
 title: "An answer from Forge World about missing Volkite Weapon Kits"
 date: 2015-12-04
-categories:
-  - articles
-  - hobby
 tags:
   - miniatures
   - warhammer
   - warhammer-40000
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqve7jc2p"
 ogImage: an-answer-from-forge-world-about-missing-volkite-weapon-kits-preview.jpeg
@@ -19,7 +14,7 @@ If - like me - you were eying up the Volkite Weapon Kits from Forge World as a m
 
 Forge World have your back, according to a reply I got when I asked about the missing kits:
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/12/wp-1449251159453.png", "Hi There,
-Thanks for the email, fear not for the kits your after have been temporarily removed for remastering. We have decided to make a few improvements to a few of our kits and will be working on a good number weapon packs and Heresy era armour kits to bring them a little more up to date and allow for a more enjoyable hobby experience. Please keep and eye on the newsletters and keep coming back to our web store as once the work has been finished they will go back on sale. For now we don't know how long these projects will take but as we understand it they will be done in batches of products" %}
+![Hi There,
+Thanks for the email, fear not for the kits your after have been temporarily removed for remastering. We have decided to make a few improvements to a few of our kits and will be working on a good number weapon packs and Heresy era armour kits to bring them a little more up to date and allow for a more enjoyable hobby experience. Please keep and eye on the newsletters and keep coming back to our web store as once the work has been finished they will go back on sale. For now we don't know how long these projects will take but as we understand it they will be done in batches of products](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/12/wp-1449251159453.png)
 
 Not only will the weapons coming back in an improved form, but other kits will be getting a refresh, along with new accessory packs.

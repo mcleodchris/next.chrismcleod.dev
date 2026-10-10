@@ -1,10 +1,6 @@
 ---
 title: 'PoC Shown Bypassing "Ring Privilege" CPU Security'
 date: 2018-08-14
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - security

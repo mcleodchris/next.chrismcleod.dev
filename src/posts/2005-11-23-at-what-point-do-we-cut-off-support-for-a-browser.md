@@ -1,13 +1,9 @@
 ---
 title: "At What Point do We Cut off Support for a Browser?"
 date: 2005-11-23
-categories:
-  - articles
 tags:
   - web-design
   - browsers
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5ttvk2p"
 ogImage: at-what-point-do-we-cut-off-support-for-a-browser-preview.jpeg

@@ -1,15 +1,11 @@
 ---
 title: "Textpattern and Time Offsets"
 date: 2006-10-30
-categories:
-  - articles
 tags:
   - dates-are-hard
   - textpattern
   - blogging
   - blogging-tools
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr52ies2p"
 ogImage: textpattern-and-time-offsets-preview.jpeg

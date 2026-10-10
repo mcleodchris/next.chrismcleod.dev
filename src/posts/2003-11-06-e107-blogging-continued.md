@@ -1,10 +1,6 @@
 ---
 title: "e107 + Blogging Continued..."
 date: 2003-11-06
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

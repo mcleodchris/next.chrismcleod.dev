@@ -1,10 +1,6 @@
 ---
 title: "The Everywhereist – I Quit Twitter for a Month."
 date: 2018-09-05
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - social-media

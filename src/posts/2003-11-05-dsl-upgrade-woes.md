@@ -1,10 +1,6 @@
 ---
 title: "DSL Upgrade Woes"
 date: 2003-11-05
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

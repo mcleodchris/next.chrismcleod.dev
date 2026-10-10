@@ -1,16 +1,11 @@
 ---
 title: "On Returning to Warhammer 40000: The Game"
 date: 2012-12-30
-categories:
-  - articles
-  - hobby
 tags:
   - tabletop-gaming
   - miniatures
   - warhammer
   - warhammer-40000
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2nap22p"
 ogImage: on-returning-to-warhammer-40000-the-game-preview.jpeg
@@ -18,7 +13,7 @@ ogImage: on-returning-to-warhammer-40000-the-game-preview.jpeg
 
 I have been out of the hobby for a long time. This was made clear to me when I realised the majority of the regular players at the local Games Workshop store weren't even born (or were still in nappies) when I last rolled the dice in anger.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2nd-ed-books-e1356819381603.jpg", "2nd Edition Books" %}
+![2nd Edition Books](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2nd-ed-books-e1356819381603.jpg)
 
 When I last played properly, Warhammer 40,000: 2nd edition was still the dominant ruleset (3rd had *just* come out when I put down my heavy flamer template). Dark Eldar were brand new. Necrons only had about 3 models in the entire line. Space Marines consisted of: Ultramarines, Blood/Dark Angels, Space Wolves, and _miscellaneous_. Sisters of Battle had their own codex, and it was *good*. Templates were bigger. Wargear came as cards. We needed dice with more than 6 sides. The world - and the game - was a very different place.
 

@@ -1,10 +1,6 @@
 ---
 title: "Designing the Band"
 date: 2004-06-25
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

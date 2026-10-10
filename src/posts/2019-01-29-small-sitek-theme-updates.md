@@ -1,14 +1,10 @@
 ---
 title: "Small Site/K Theme Updates"
 date: 2019-01-29
-categories:
-  - notes
 tags:
   - programming
   - indieweb
   - wordpress
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqo5oks2p"
 ogImage: small-site-k-theme-updates-preview.jpeg

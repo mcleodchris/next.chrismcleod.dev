@@ -1,10 +1,6 @@
 ---
 title: "Improved Footnotes in Textpattern"
 date: 2005-09-01
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - programming

@@ -1,13 +1,9 @@
 ---
 title: "RIAA Settles Lawsuit with 12 Year-Old Girl"
 date: 2003-09-10
-categories:
-  - articles
 tags:
   - copyright
   - music
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyraynic2p"
 ogImage: riaa-settles-lawsuit-with-12-year-old-girl-preview.jpeg

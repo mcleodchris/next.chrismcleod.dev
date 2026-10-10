@@ -1,10 +1,6 @@
 ---
 title: "Be more kind."
 date: 2018-08-21
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - link

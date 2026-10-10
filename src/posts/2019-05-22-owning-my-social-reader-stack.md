@@ -1,15 +1,10 @@
 ---
 title: 'Owning My Social Reader "Stack"'
 date: 2019-05-22
-categories:
-  - articles
-  - notes
 tags:
   - indieweb
   - open-source
   - feeds
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqn26t22p"
 ogImage: owning-my-social-reader-stack-preview.jpeg

@@ -1,14 +1,10 @@
 ---
 title: "Categorical"
 date: 2019-05-26
-categories:
-  - notes
 tags:
   - blogging
   - blogging-tools
   - taxonomy
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqmymzc2p"
 ogImage: categorical-preview.jpeg

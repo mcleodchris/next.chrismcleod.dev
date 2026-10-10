@@ -26,7 +26,7 @@ I started with the DVD and Blu-rays we still owned, then gradually added more as
 
 The collection's grown quite a bit over the last few months, all sitting on the NAS, which is running [Jellyfin](https://jellyfin.org/) as a container. On Apple devices we use [Infuse](https://firecore.com/infuse) for playback - I tried [Swiftfin](https://github.com/jellyfin/Swiftfin) first but it was too buggy. The Jellyfin web UI works fine for everything else.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets//16e49e3f-eb7f-4d22-be41-9feb83953a6d.png", "Our Jellyfin dashboard displaying various media in rows such as Recently Added in Movies and Continue Watching" %}
+![Our Jellyfin dashboard displaying various media in rows such as Recently Added in Movies and Continue Watching](https://assets.chrismcleod.dev/chrismcleod.dev/assets//16e49e3f-eb7f-4d22-be41-9feb83953a6d.png)
 
 My partner loves it. She described it as "her own personal Netflix" - just the stuff she actually wants to watch, without algorithms trying to convince her she needs to see whatever's being promoted this week. That's become the recurring theme: intentionality over abundance.
 
@@ -49,7 +49,7 @@ On iOS I use [Finer](https://apps.apple.com/us/app/finer-player/id6738301953) fo
 
 [^2]: I have many long gaps in my scrobble history, as I've picked up and dropped Last.fm a lot over the years. Prior to December 2025, the last time I scobbled was October 2012.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets//81efb770-dec6-439c-86d2-82923cbb91be.png", "A dark music‑player interface (Tauon Music Box) showing a Hayley Williams artist playlist. The central column lists tracks grouped by album. Right panel shows a monochrome portrait of a woman boxed in orange along with track and album info: Mirtazapine; Ego Death At A Bachelorette Party (2025); In the left sidebar is a list of playlists: Jellyfin Collection; Rediscovered; Xmas Eve 2025; Artist: Hayley Williams. Playback controls are at bottom." %}
+![A dark music‑player interface (Tauon Music Box) showing a Hayley Williams artist playlist. The central column lists tracks grouped by album. Right panel shows a monochrome portrait of a woman boxed in orange along with track and album info: Mirtazapine; Ego Death At A Bachelorette Party (2025); In the left sidebar is a list of playlists: Jellyfin Collection; Rediscovered; Xmas Eve 2025; Artist: Hayley Williams. Playback controls are at bottom.](https://assets.chrismcleod.dev/chrismcleod.dev/assets//81efb770-dec6-439c-86d2-82923cbb91be.png)
 
 I have kept Apple Music. It's included in a bundle we all use for other things, and I still like it for mood playlists when I don't have something specific in mind - just a vibe I want that isn't in my collection. Soundtracks and Classical, mostly. [Marvis Pro](https://apps.apple.com/gb/app/marvis-pro/id1447768809) handles that nicely on iOS, as does [Cider](https://cider.sh) on Linux.
 

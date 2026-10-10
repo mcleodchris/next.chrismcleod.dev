@@ -1,15 +1,10 @@
 ---
 title: "Notes from installing Manjaro Linux"
 date: 2019-04-26
-categories:
-  - articles
-  - notes
 tags:
   - linux
   - manjaro
   - notes
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnct6s2p"
 ogImage: notes-from-installing-manjaro-linux-preview.jpeg
@@ -57,7 +52,7 @@ I followed some of the suggestions from [this video](https://www.youtube.com/wat
 
 This was my first time using KDE as my desktop environment, so I was keen to spend some time customising it to my liking. So far I've settled on the "Adapta Breeze Nokto" theme, some additional icons, and played around with the panel + widget setup. It's not fancy, but my desktop currently looks like this:
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/04/Screenshot_20190426_160751.jpg", "Manjaro linux desktop showing the file explorer and terminal applications" %}
+![Manjaro linux desktop showing the file explorer and terminal applications](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/04/Screenshot_20190426_160751.jpg)
 
 I'm generally a fan of darker themes, as they're less of a strain on my eyes.
 

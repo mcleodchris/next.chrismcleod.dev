@@ -1,13 +1,9 @@
 ---
 title: "How Low Can They Go?"
 date: 2003-09-09
-categories:
-  - articles
 tags:
   - copyright
   - music
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrb2bak2p"
 ogImage: how-low-can-they-go-preview.jpeg

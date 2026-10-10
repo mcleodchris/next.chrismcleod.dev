@@ -1,10 +1,6 @@
 ---
 title: "Facebook Fueled Anti-Refugee Attacks in Germany, New Research Suggests"
 date: 2018-08-22
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - social-media

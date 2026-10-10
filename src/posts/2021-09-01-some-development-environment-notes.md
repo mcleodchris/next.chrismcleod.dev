@@ -1,15 +1,11 @@
 ---
 title: 'Some Development Environment Notes'
 date: 2021-09-01
-categories:
-  - work
 tags:
   - personal
   - programming
   - notes
   - linux
-authors:
-  - chris
 redirectFrom: ['/2021/09/01/some-development-environment-notes/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqimxc22p"
 ogImage: some-development-environment-notes-preview.jpeg

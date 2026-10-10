@@ -1,10 +1,6 @@
 ---
 title: "Networking Everywhere?"
 date: 2004-01-15
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - technology

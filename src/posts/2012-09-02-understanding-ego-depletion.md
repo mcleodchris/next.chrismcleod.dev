@@ -1,12 +1,8 @@
 ---
 title: "Understanding Ego Depletion."
 date: 2012-09-02
-categories:
-  - articles
 tags:
   - mental-health
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3cr6c2p"
 ogImage: understanding-ego-depletion-preview.jpeg

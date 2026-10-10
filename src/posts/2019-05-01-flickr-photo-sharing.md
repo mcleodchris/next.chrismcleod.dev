@@ -1,11 +1,6 @@
 ---
 title: "Flickr/Photo Sharing"
 date: 2019-05-01
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 tags:
   - social-media
   - photos

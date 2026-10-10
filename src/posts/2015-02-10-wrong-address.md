@@ -1,10 +1,6 @@
 ---
 title: "Wrong Address"
 date: 2015-02-10
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - software

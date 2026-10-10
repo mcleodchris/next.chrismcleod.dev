@@ -1,10 +1,6 @@
 ---
 title: "On Working From Home"
 date: 2020-03-06
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - tip

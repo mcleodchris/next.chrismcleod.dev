@@ -1,14 +1,10 @@
 ---
 title: "The Last Broadcast from BBC Ceefax"
 date: 2012-10-23
-categories:
-  - articles
 tags:
   - bbc
   - nostalgia
   - technology
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr37lmc2p"
 ogImage: the-last-broadcast-from-bbc-ceefax-preview.jpeg

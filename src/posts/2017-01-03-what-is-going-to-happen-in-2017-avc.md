@@ -1,13 +1,9 @@
 ---
 title: "What Is Going To Happen In 2017 – AVC"
 date: 2017-01-03
-categories:
-  - articles
 tags:
   - security
   - techology
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqv4me22p"
 ogImage: what-is-going-to-happen-in-2017-avc-preview.jpeg

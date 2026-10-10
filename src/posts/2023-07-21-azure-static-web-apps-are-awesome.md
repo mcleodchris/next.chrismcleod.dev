@@ -1,16 +1,11 @@
 ---
 title: 'Azure Static Web Apps are Awesome!'
 date: 2023-07-21
-categories:
-  - general-life
-  - projects
 tags:
   - azure
   - microsoft
   - static-web-apps
   - cloud-computing
-authors:
-  - chris
 redirectFrom: ['/2023/07/21/azure-static-web-apps-are-awesome/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqgs7fs2p"
 ogImage: azure-static-web-apps-are-awesome!-preview.jpeg

@@ -1,10 +1,6 @@
 ---
 title: "Lets Try This Again"
 date: 2007-04-14
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - blogging

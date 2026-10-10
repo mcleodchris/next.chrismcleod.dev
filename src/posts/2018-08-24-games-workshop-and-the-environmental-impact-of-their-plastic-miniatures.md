@@ -1,10 +1,6 @@
 ---
 title: "Games Workshop and the Environmental Impact of their Plastic Miniatures"
 date: 2018-08-24
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqr4hrc2p"
 ogImage: games-workshop-and-the-environmental-impact-of-their-plastic-miniatures-preview.jpeg

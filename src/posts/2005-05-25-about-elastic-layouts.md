@@ -1,16 +1,11 @@
 ---
 title: "About Elastic Layouts"
 date: 2005-05-25
-categories:
-  - articles
-  - code-development
 tags:
   - css
   - browsers
   - web-design
   - how-to
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6neck2p"
 ogImage: about-elastic-layouts-preview.jpeg

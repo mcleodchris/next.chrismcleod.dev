@@ -1,10 +1,6 @@
 ---
 title: "Classic Games Workshop Game Necromunda is Coming Back"
 date: 2017-08-13
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - gaming

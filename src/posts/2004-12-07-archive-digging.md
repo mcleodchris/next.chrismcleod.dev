@@ -1,10 +1,6 @@
 ---
 title: "Archive Digging"
 date: 2004-12-07
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - site-meta

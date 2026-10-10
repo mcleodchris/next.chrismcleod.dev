@@ -1,10 +1,6 @@
 ---
 title: "Vodafone UK to Offer Apple Watch Tariffs from September 21st"
 date: 2018-09-19
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - apple

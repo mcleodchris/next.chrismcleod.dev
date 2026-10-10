@@ -1,16 +1,11 @@
 ---
 title: "Armies on Parade - Painting Update 1"
 date: 2018-09-07
-categories:
-  - hobby
-  - notes
 tags:
   - projects
   - warhammer
   - warhammer-40000
   - armies-on-parade
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqpsg2s2p"
 ogImage: armies-on-parade-painting-update-1-preview.jpeg
@@ -22,19 +17,19 @@ I finally managed to get hold of a can of Zandri Dust spray, so I was able to fi
 
 As luck would have it, the sun was setting as I took a picture of my progress, giving me this shot of the building glowing in the sunlight:
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0863.jpg", "alt temporarily text not available" %}
+![alt temporarily text not available](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0863.jpg)
 
 From the other side, things looked a lot more washed out:
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0862.jpg", "alt temporarily text not available" %}
+![alt temporarily text not available](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0862.jpg)
 
 The marines started to get their base coats and initial airbrush highlights.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0856.jpg", "alt temporarily text not available" %}
+![alt temporarily text not available](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0856.jpg)
 
 At first I wasn't too happy with how things were looking, but after sleeping on things, and adding in a few more highlights to the characters, and spots of other colours, I've come around to how they look.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0865.jpg", "alt temporarily text not available" %}
+![alt temporarily text not available](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0865.jpg)
 
 I'll be giving them an all over wash of black ink, to give more shading, contrast, and richness to the colour. That should help a lot, even before I add the remaining "main" colours.
 

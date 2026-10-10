@@ -1,11 +1,6 @@
 ---
 title: "A Jekyll Workflow"
 date: 2017-08-09
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - jekyll

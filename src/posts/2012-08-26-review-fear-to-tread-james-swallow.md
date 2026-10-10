@@ -1,15 +1,11 @@
 ---
 title: 'Review: "Fear To Tread" (James Swallow)'
 date: 2012-08-26
-categories:
-  - reviews
 tags:
   - books
   - warhammer
   - horus-heresy
   - warhammer-40000
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3ea2c2p"
 ogImage: review-fear-to-tread-james-swallow-preview.jpeg

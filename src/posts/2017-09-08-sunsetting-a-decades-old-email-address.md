@@ -1,11 +1,6 @@
 ---
 title: "Sunsetting a Decades-old Email Address"
 date: 2017-09-08
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - email

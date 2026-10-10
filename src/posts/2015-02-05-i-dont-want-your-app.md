@@ -1,15 +1,11 @@
 ---
 title: "I Don't Want Your App"
 date: 2015-02-05
-categories:
-  - articles
 tags:
   - software
   - user-experience
   - websites
   - rant
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwsjws2p"
 ogImage: i-dont-want-your-app-preview.jpeg

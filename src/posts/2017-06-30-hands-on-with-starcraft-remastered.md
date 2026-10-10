@@ -1,11 +1,6 @@
 ---
 title: "Hands on with Starcraft: Remastered"
 date: 2017-06-30
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - gaming

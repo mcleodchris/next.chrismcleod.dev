@@ -1,10 +1,6 @@
 ---
 title: "The Home Office"
 date: 2005-08-06
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

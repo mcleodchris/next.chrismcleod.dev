@@ -1,10 +1,6 @@
 ---
 title: "Links Page Improvements"
 date: 2019-11-21
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - site-meta

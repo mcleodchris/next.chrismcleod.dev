@@ -1,19 +1,15 @@
 ---
 title: "Starcraft 2: Legacy of the Void pre-order goes live - My Life for Aiur!"
 date: 2015-07-16
-categories:
-  - articles
 tags:
   - gaming
   - starcraft
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvjbms2p"
 ogImage: starcraft-2-legacy-of-the-void-pre-order-goes-live-my-life-for-aiur!-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/07/lotv-screenshot-04.jpg", "LotV-Screenshot-04" %}
+![LotV-Screenshot-04](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/07/lotv-screenshot-04.jpg)
 
 Never, ever pre-order games. That's the general rule, especially given such recent debacles as the PC version of Arkham Knight.
 

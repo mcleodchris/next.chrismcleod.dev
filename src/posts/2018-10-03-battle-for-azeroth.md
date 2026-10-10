@@ -1,14 +1,9 @@
 ---
 title: "Battle for Azeroth"
 date: 2018-10-03
-categories:
-  - articles
-  - notes
 tags:
   - gaming
   - world-of-warcraft
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqpe2422p"
 ogImage: battle-for-azeroth-preview.jpeg

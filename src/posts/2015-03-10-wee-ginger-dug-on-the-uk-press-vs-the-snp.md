@@ -1,10 +1,6 @@
 ---
 title: "Wee Ginger Dug on the UK Press Vs The SNP"
 date: 2015-03-10
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - scotland

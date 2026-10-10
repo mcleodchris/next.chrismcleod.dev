@@ -1,10 +1,6 @@
 ---
 title: "I Forgot to Mention This…"
 date: 2003-09-07
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - mozilla

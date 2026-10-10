@@ -1,10 +1,6 @@
 ---
 title: "Simple PHP Server"
 date: 2019-06-11
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - php

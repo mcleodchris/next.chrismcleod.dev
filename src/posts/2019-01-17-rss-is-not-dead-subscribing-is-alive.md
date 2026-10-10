@@ -1,10 +1,6 @@
 ---
 title: "RSS is not dead. Subscribing is alive."
 date: 2019-01-17
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - blogging

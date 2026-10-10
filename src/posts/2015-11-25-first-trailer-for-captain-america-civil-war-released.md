@@ -1,13 +1,9 @@
 ---
 title: "First Trailer for Captain America: Civil War Released"
 date: 2015-11-25
-categories:
-  - articles
 tags:
   - marvel
   - movies
-authors:
-  - chris
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvg5zc2p"
@@ -20,6 +16,6 @@ It looks fantastic:
 
 But it was too early in the morning to deal with this:
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/11/cuo34iywsaepiy3.jpg", "CUo34iYWsAEpiy3" %}
+![CUo34iYWsAEpiy3](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/11/cuo34iywsaepiy3.jpg)
 
 _The Feels_.

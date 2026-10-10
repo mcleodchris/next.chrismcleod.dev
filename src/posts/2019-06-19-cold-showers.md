@@ -1,10 +1,6 @@
 ---
 title: "Cold Showers"
 date: 2019-06-19
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - personal

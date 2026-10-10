@@ -1,10 +1,6 @@
 ---
 title: "Media Failure in an Age of Disinformation"
 date: 2018-08-27
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqnr2s2p"
 ogImage: media-failure-in-an-age-of-disinformation-preview.jpeg

@@ -1,15 +1,11 @@
 ---
 title: "Amazon Echo"
 date: 2014-11-07
-categories:
-  - articles
 tags:
   - amazon
   - internet-of-things
   - technology
   - privacy
-authors:
-  - chris
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqyrpgc2p"

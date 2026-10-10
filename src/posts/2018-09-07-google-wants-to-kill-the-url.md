@@ -1,10 +1,6 @@
 ---
 title: "Google Wants to Kill the URL"
 date: 2018-09-07
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - browsers

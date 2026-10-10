@@ -1,8 +1,6 @@
 ---
 title: "Does Anyone Write Pseudo-Code Any More?"
 date: 2012-07-19
-categories:
-  - articles
 tags:
   - programming
 archived: true

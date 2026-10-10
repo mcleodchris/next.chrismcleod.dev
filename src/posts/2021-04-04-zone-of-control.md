@@ -1,14 +1,10 @@
 ---
 title: 'Zone of Control'
 date: 2021-04-04
-categories:
-  - general-life
 tags:
   - smart-home
   - personal
   - tip
-authors:
-  - chris
 redirectFrom: ['/2021/04/04/zone-of-control/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqjsw522p"
 ogImage: zone-of-control-preview.jpeg

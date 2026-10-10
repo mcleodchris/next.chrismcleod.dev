@@ -1,13 +1,9 @@
 ---
 title: 'Appraisal'
 date: 2021-08-16
-categories:
-  - work
 tags:
   - work
   - personal
-authors:
-  - chris
 redirectFrom: ['/2021/08/16/appraisal/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqiux5k2p"
 ogImage: appraisal-preview.jpeg

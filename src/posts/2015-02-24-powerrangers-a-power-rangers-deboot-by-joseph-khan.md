@@ -1,15 +1,11 @@
 ---
 title: 'Power/Rangers - A Power Rangers "deboot" by Joseph Khan'
 date: 2015-02-24
-categories:
-  - articles
 tags:
   - nsfw
   - power-rangers
   - video
   - nostalgia
-authors:
-  - chris
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwhle22p"

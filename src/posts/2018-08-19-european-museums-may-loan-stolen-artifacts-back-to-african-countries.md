@@ -1,10 +1,6 @@
 ---
 title: "European museums may “loan” stolen artifacts back to African countries"
 date: 2018-08-19
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - links

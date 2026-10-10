@@ -1,14 +1,10 @@
 ---
 title: "iBook Notes: First Thoughts"
 date: 2005-01-24
-categories:
-  - articles
 tags:
   - apple
   - laptops
   - personal
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr76fa22p"
 ogImage: ibook-notes-first-thoughts-preview.jpeg

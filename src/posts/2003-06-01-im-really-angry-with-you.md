@@ -1,12 +1,8 @@
 ---
 title: "I'm Really Angry With You"
 date: 2003-06-01
-categories:
-  - articles
 tags:
   - music
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbtpp22p"
 ogImage: im-really-angry-with-you-preview.jpeg

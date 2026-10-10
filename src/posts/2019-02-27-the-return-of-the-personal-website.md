@@ -1,13 +1,9 @@
 ---
 title: "The Return of the Personal Website"
 date: 2019-02-27
-categories:
-  - notes
 tags:
   - blogging
   - writing
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnuxbc2p"
 ogImage: the-return-of-the-personal-website-preview.jpeg

@@ -1,14 +1,10 @@
 ---
 title: "When is an OS Not an OS? When it’s Jolicloud."
 date: 2009-09-22
-categories:
-  - articles
 tags:
   - cloud-computing
   - netbook
   - software
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4ncis2p"
 ogImage: when-is-an-os-not-an-os-when-its-jolicloud-preview.jpeg

@@ -1,13 +1,9 @@
 ---
 title: "Changing the DNS on a (PlusNet) Technicolor TG582n FTTC Router"
 date: 2014-03-05
-categories:
-  - articles
 tags:
   - networking
   - how-to
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzkcjs2p"
 ogImage: changing-the-dns-on-a-plusnet-technicolor-tg582n-fttc-router-preview.jpeg

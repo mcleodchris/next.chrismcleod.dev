@@ -1,15 +1,11 @@
 ---
 title: "The Joy of HTML"
 date: 2009-09-05
-categories:
-  - articles
 tags:
   - microformats
   - html
   - php
   - programming
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4pays2p"
 ogImage: the-joy-of-html-preview.jpeg

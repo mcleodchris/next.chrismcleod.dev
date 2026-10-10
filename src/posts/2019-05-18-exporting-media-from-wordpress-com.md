@@ -1,14 +1,10 @@
 ---
 title: "Exporting Media from WordPress.com"
 date: 2019-05-18
-categories:
-  - notes
 tags:
   - indieweb
   - media
   - wordpress
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqn56jk2p"
 ogImage: exporting-media-from-wordpresscom-preview.jpeg

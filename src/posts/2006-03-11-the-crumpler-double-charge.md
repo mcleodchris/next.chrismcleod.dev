@@ -1,13 +1,9 @@
 ---
 title: "The Crumpler Double Charge"
 date: 2006-03-11
-categories:
-  - articles
 tags:
   - laptop-bag
   - accessories
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5kg5c2p"
 ogImage: the-crumpler-double-charge-preview.jpeg

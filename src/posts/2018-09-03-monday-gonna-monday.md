@@ -1,10 +1,6 @@
 ---
 title: "Monday gonna Monday"
 date: 2018-09-03
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - personal

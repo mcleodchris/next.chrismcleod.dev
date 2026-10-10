@@ -1,15 +1,11 @@
 ---
 title: "Getting Started with Online Privacy and Security in 2017 - Preamble"
 date: 2017-01-04
-categories:
-  - articles
 tags:
   - privacy
   - security
   - politics
   - technology
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqv33jk2p"
 ogImage: getting-started-with-online-privacy-and-security-in-2017-preamble-preview.jpeg
@@ -21,7 +17,7 @@ I work in the tech industry, I'm fairly conscious about this stuff, and understa
 
 **Upfront**: I fully recognise that if the police/MI5/NSA/FSB/whoever _really_ wanted my data, nothing I could do would be able to stop them.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/security.png", "https://xkcd.com/538/" %}
+![https://xkcd.com/538/](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/security.png)
 
 **Also upfront**: even with that in mind, whatever I put in place won't be considered "perfect." What I'm looking to do is balance convenience, practicality, and security. If something is too difficult or fiddly to use, it will end up not being used.
 

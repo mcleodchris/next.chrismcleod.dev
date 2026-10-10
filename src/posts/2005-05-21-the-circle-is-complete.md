@@ -1,10 +1,6 @@
 ---
 title: "The Circle Is Complete"
 date: 2005-05-21
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

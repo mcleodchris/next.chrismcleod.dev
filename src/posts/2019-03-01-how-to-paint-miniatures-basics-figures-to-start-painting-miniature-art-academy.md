@@ -1,12 +1,8 @@
 ---
 title: "How to paint miniatures: Basics figures to start painting - Miniature Art Academy!"
 date: 2019-03-01
-categories:
-  - notes
 tags:
   - miniatures
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqntcjs2p"
 ogImage: how-to-paint-miniatures-basics-figures-to-start-painting-miniature-art-academy!-preview.jpeg

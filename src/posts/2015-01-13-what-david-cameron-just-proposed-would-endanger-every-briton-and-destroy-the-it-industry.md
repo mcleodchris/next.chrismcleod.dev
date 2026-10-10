@@ -1,16 +1,12 @@
 ---
 title: '"What David Cameron just proposed would endanger every Briton and destroy the IT industry"'
 date: 2015-01-13
-categories:
-  - articles
 tags:
   - politics
   - security
   - software
   - technology
   - privacy
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqx7ym22p"
 ogImage: what-david-cameron-just-proposed-would-endanger-every-briton-and-destroy-the-it-industry-preview.jpeg

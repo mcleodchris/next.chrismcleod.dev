@@ -1,10 +1,6 @@
 ---
 title: "Amateur for the People"
 date: 2003-10-27
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - blogging

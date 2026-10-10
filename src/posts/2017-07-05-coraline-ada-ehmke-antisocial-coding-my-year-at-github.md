@@ -1,11 +1,6 @@
 ---
 title: "Coraline Ada Ehmke - Antisocial Coding: My Year At GitHub"
 date: 2017-07-05
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - github

@@ -1,13 +1,9 @@
 ---
 title: "Looking for Mobile Phone Suggestions"
 date: 2006-10-21
-categories:
-  - articles
 tags:
   - iphone
   - mobile
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5b2dk2p"
 ogImage: looking-for-mobile-phone-suggestions-preview.jpeg

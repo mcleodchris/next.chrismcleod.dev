@@ -1,13 +1,9 @@
 ---
 title: "Life is a Lemon, pt 2"
 date: 2005-11-29
-categories:
-  - articles
 tags:
   - personal
   - cerebral-haemorrhage
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5qqc22p"
 ogImage: life-is-a-lemon-pt-2-preview.jpeg

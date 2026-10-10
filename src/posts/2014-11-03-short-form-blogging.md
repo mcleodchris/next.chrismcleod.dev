@@ -1,15 +1,11 @@
 ---
 title: "Short-Form Blogging"
 date: 2014-11-03
-categories:
-  - articles
 tags:
   - blogging
   - links
   - social-media
   - writing
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqyv7q22p"
 ogImage: short-form-blogging-preview.jpeg

@@ -1,10 +1,6 @@
 ---
 title: "Binx’s Hobby Blog: Age of Sigmar Champions – a Review"
 date: 2018-08-21
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - link

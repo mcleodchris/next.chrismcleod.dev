@@ -1,15 +1,11 @@
 ---
 title: "Three Months with the Amazon Kindle"
 date: 2010-10-19
-categories:
-  - articles
 tags:
   - amazon
   - kindle
   - books
   - e-books
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4hwms2p"
 ogImage: three-months-with-the-amazon-kindle-preview.jpeg

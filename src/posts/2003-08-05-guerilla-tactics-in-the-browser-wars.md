@@ -1,10 +1,6 @@
 ---
 title: "Guerilla Tactics in the Browser Wars"
 date: 2003-08-05
-categories:
-  - articles
-authors:
-  - chris
 tags:
   - browsers
 archived: true

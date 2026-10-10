@@ -1,14 +1,9 @@
 ---
 title: "Accessible, Unobtrusive New Windows with jQuery"
 date: 2006-10-30
-categories:
-  - articles
-  - code-development
 tags:
   - javascript
   - programming
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr53z7c2p"
 ogImage: accessible-unobtrusive-new-windows-with-jquery-preview.jpeg

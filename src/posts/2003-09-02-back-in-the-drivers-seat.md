@@ -1,12 +1,8 @@
 ---
 title: "Back in the Driver's Seat"
 date: 2003-09-02
-categories:
-  - articles
 tags:
   - personal
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbdxs22p"
 ogImage: back-in-the-drivers-seat-preview.jpeg

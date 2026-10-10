@@ -1,10 +1,6 @@
 ---
 title: "WarHammer World Europe – Culture and CultureShock."
 date: 2018-09-04
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - warhammer

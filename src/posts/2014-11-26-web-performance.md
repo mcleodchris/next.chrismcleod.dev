@@ -1,10 +1,6 @@
 ---
 title: "Web Performance"
 date: 2014-11-26
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - web-design

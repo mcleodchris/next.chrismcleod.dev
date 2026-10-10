@@ -1,10 +1,6 @@
 ---
 title: "Bored? Experiment!"
 date: 2003-08-04
-categories:
-  - articles
-authors:
-  - chris
 tags:
   - personal
   - web-standards

@@ -1,13 +1,9 @@
 ---
 title: 'Results May Vary'
 date: 2021-08-17
-categories:
-  - general-life
 tags:
   - personal
   - internet
-authors:
-  - chris
 redirectFrom: ['/2021/08/17/results-may-vary/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqit2m22p"
 ogImage: results-may-vary-preview.jpeg

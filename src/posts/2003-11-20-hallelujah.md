@@ -1,10 +1,6 @@
 ---
 title: "Hallelujah…"
 date: 2003-11-20
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - web-standards

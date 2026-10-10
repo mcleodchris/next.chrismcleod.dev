@@ -1,13 +1,9 @@
 ---
 title: "Six Tips for Working from Home"
 date: 2005-06-15
-categories:
-  - articles
 tags:
   - work-from-home
   - tips
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6kboc2p"
 ogImage: six-tips-for-working-from-home-preview.jpeg

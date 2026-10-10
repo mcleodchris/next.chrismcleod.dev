@@ -1,13 +1,9 @@
 ---
 title: '"Play More Games"'
 date: 2020-02-19
-categories:
-  - notes
 tags:
   - board-games
   - gaming
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqktsuk2p"
 ogImage: play-more-games-preview.jpeg

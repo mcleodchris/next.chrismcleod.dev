@@ -1,14 +1,10 @@
 ---
 title: "Twitter Makes A Bet On Protocols Over Platforms"
 date: 2019-12-11
-categories:
-  - notes
 tags:
   - activitypub
   - indieweb
   - social-media
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyql2rjk2p"
 ogImage: twitter-makes-a-bet-on-protocols-over-platforms-preview.jpeg

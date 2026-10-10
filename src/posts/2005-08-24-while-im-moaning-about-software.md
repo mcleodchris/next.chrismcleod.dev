@@ -1,15 +1,11 @@
 ---
 title: "While I’m Moaning About Software…"
 date: 2005-08-24
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - rant
   - programming
-  - APIs
+  - apis
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6767c2p"
 ogImage: while-im-moaning-about-software-preview.jpeg
 ---

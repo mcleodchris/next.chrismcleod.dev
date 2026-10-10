@@ -6,8 +6,6 @@ tags:
   - blogging
   - site-meta
   - eleventy
-authors:
-  - chris
 gradient: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqgnb7c2p"
 ogImage: i-rebuilt-my-blog-and-didnt-write-about-it-preview.jpeg

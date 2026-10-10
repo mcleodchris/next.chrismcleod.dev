@@ -1,11 +1,6 @@
 ---
 title: "Favourite Warhammer 40K Podcasts"
 date: 2017-06-30
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - warhammer-40000

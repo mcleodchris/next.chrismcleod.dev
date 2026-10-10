@@ -1,14 +1,10 @@
 ---
 title: "Paying tribute to the web with View Source"
 date: 2019-01-29
-categories:
-  - notes
 tags:
   - browsers
   - web-design
   - internet-history
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqo7ga22p"
 ogImage: paying-tribute-to-the-web-with-view-source-preview.jpeg

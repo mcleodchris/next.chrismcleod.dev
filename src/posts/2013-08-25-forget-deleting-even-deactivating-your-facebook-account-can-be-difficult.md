@@ -1,21 +1,17 @@
 ---
 title: "Forget Deleting: Even Deactivating Your Facebook Account Can Be Difficult"
 date: 2013-08-25
-categories:
-  - articles
 tags:
   - facebook
   - social-media
   - technology
   - privacy
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr26lx22p"
 ogImage: forget-deleting-even-deactivating-your-facebook-account-can-be-difficult-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/08/screenshot-250813-181546.png", "My Deactivated Facebook Profile" %}
+![My Deactivated Facebook Profile](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/08/screenshot-250813-181546.png)
 
 On Thursday night I deactivated my Facebook account. It's something I'd been considering for a while, as I've found using Facebook lately to be less a useful "checking up on friends and family" thing, and more something slightly depressingly monotonous which I continue to do out of sheer force of habit. It just so happened on Thursday there was a trigger which finally led me to push the button.
 

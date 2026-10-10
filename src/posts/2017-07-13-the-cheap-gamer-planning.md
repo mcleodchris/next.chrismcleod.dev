@@ -1,10 +1,6 @@
 ---
 title: "The Cheap Gamer: Planning Your Buying"
 date: 2017-07-13
-categories:
-  - hobby
-authors:
-  - chris
 archived: true
 tags:
   - gaming

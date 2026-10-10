@@ -1,15 +1,10 @@
 ---
 title: "Use Custom PHP Extensions on Heroku"
 date: 2011-11-30
-categories:
-  - articles
-  - code-development
 tags:
   - cloud-computing
   - php
   - programming
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4276c2p"
 ogImage: use-custom-php-extensions-on-heroku-preview.jpeg

@@ -1,13 +1,9 @@
 ---
 title: "2019 U.K. General Election Random Thoughts"
 date: 2019-12-11
-categories:
-  - notes
 tags:
   - scotland
   - politics
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyql4n3s2p"
 ogImage: 2019-uk-general-election-random-thoughts-preview.jpeg

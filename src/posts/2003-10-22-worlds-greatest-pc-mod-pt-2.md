@@ -1,10 +1,6 @@
 ---
 title: "Worlds Greatest PC Mod, pt. 2"
 date: 2003-10-22
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - pc-building

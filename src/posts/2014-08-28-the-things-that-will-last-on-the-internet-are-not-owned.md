@@ -1,14 +1,10 @@
 ---
 title: "The Things That Will Last On The Internet Are Not Owned"
 date: 2014-08-28
-categories:
-  - articles
 tags:
   - blogging
   - social-media
   - web
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqz3ltc2p"
 ogImage: the-things-that-will-last-on-the-internet-are-not-owned-preview.jpeg

@@ -1,11 +1,6 @@
 ---
 title: "Configure Caddy to Remove WWW from your Domain"
 date: 2017-06-29
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - servers

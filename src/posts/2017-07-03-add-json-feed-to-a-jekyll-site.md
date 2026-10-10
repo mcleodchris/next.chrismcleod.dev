@@ -1,11 +1,6 @@
 ---
 title: "Add JSON Feed to a Jekyll Site"
 date: 2017-07-03
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - jekyll

@@ -1,10 +1,6 @@
 ---
 title: "Mozilla on the Up"
 date: 2003-12-04
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - mozilla

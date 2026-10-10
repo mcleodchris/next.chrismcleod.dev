@@ -1,14 +1,10 @@
 ---
 title: "A Few Quick, Early Thoughts on iOS 10"
 date: 2016-09-16
-categories:
-  - articles
 tags:
   - apple
   - software
   - technology
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvclr22p"
 ogImage: a-few-quick-early-thoughts-on-ios-10-preview.jpeg

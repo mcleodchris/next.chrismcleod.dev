@@ -1,10 +1,6 @@
 ---
 title: "Games Revisited on Q*Bert"
 date: 2018-08-27
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqp7ws2p"
 ogImage: games-revisited-on-qbert-preview.jpeg

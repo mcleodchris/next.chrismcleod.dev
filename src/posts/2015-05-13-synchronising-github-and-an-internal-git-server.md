@@ -1,15 +1,10 @@
 ---
 title: "Synchronising GitHub and an Internal Git server"
 date: 2015-05-13
-categories:
-  - articles
-  - code-development
 tags:
   - how-to
   - programming
   - github
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvvxus2p"
 ogImage: synchronising-github-and-an-internal-git-server-preview.jpeg

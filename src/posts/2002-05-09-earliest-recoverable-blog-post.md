@@ -1,12 +1,8 @@
 ---
 title: "My Earliest Recoverable Blog Post (original title lost)"
 date: 2002-05-09
-categories:
-  - articles
 tags:
   - personal
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrc2fks2p"
 ogImage: my-earliest-recoverable-blog-post-original-title-lost-preview.jpeg

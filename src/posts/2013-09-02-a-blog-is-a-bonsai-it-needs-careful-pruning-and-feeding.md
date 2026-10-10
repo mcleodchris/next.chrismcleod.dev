@@ -1,14 +1,10 @@
 ---
 title: "A Blog is a Bonsai. It Needs Careful Pruning and Feeding."
 date: 2013-09-02
-categories:
-  - articles
 tags:
   - blogging
   - personal
   - site-meta
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr24re22p"
 ogImage: a-blog-is-a-bonsai-it-needs-careful-pruning-and-feeding-preview.jpeg

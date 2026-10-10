@@ -1,15 +1,11 @@
 ---
 title: "Coder: A simple way to make web stuff on Raspberry Pi."
 date: 2013-09-13
-categories:
-  - code-development
 tags:
   - programming
   - learning
   - opensource
   - raspberry-pi
-authors:
-  - chris
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzwaek2p"

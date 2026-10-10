@@ -1,14 +1,10 @@
 ---
 title: "So I'm Building a New PC"
 date: 2015-06-08
-categories:
-  - articles
 tags:
   - personal
   - pc-building
   - computing
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvo6u22p"
 ogImage: so-im-building-a-new-pc-preview.jpeg

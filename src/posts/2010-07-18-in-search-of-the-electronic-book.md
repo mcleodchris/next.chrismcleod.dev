@@ -1,15 +1,11 @@
 ---
 title: "In Search of the Electronic Book"
 date: 2010-07-18
-categories:
-  - articles
 tags:
   - amazon
   - kindle
   - books
   - e-books
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4jjfs2p"
 ogImage: in-search-of-the-electronic-book-preview.jpeg

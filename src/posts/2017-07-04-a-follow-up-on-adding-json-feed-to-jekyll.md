@@ -1,11 +1,6 @@
 ---
 title: "A Follow-Up on Adding JSON Feed to Jekyll"
 date: 2017-07-04
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - jekyll

@@ -1,10 +1,6 @@
 ---
 title: "Opinions on the Internet"
 date: 2014-11-16
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - miscellaneous

@@ -1,10 +1,6 @@
 ---
 title: "Securing Web Sites Made Them Less Accessible"
 date: 2018-08-22
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - blogging

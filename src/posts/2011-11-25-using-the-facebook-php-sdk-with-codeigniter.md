@@ -1,15 +1,10 @@
 ---
 title: "Using the Facebook PHP SDK with CodeIgniter"
 date: 2011-11-25
-categories:
-  - articles
-  - code-development
 tags:
   - facebook
   - php
   - programming
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr47yps2p"
 ogImage: using-the-facebook-php-sdk-with-codeigniter-preview.jpeg

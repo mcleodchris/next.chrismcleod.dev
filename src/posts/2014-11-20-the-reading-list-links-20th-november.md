@@ -1,14 +1,10 @@
 ---
 title: "The Reading List Links, 20th November"
 date: 2014-11-20
-categories:
-  - notes
 tags:
   - link-list
   - links
   - miscellaneous
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqxzg3c2p"
 ogImage: the-reading-list-links-20th-november-preview.jpeg

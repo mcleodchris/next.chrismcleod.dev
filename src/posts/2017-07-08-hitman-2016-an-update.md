@@ -1,11 +1,6 @@
 ---
 title: "Hitman (2016): An Update"
 date: 2017-07-08
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - gaming

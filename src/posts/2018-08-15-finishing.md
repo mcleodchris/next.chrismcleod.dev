@@ -1,11 +1,6 @@
 ---
 title: "Finishing"
 date: 2018-08-15
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - personal

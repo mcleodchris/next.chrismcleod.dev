@@ -1,14 +1,10 @@
 ---
 title: "Thoughts on the trailer for Marvel's Inhumans"
 date: 2017-07-01
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - marvel
-  - TV
+  - tv
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqtzwy22p"
 ogImage: thoughts-on-the-trailer-for-marvels-inhumans-preview.jpeg
 ---

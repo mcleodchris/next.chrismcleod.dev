@@ -1,10 +1,6 @@
 ---
 title: "Great Series on Building a Business on the Web from Nothing"
 date: 2005-12-11
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - business

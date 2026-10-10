@@ -1,10 +1,6 @@
 ---
 title: "“Warhammer Animations” teaser"
 date: 2019-11-30
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 youtube: true
 tags:

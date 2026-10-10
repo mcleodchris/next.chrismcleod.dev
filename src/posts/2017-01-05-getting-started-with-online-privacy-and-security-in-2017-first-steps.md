@@ -1,16 +1,12 @@
 ---
 title: "Getting Started with Online Privacy and Security in 2017 - First Steps"
 date: 2017-01-05
-categories:
-  - articles
 tags:
   - browsers
   - internet
   - privacy
   - technology
   - security
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyquzmnk2p"
 ogImage: getting-started-with-online-privacy-and-security-in-2017-first-steps-preview.jpeg

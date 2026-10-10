@@ -1,12 +1,8 @@
 ---
 title: "Recommended Reads"
 date: 2003-10-23
-categories:
-  - articles
 tags:
   - links
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyralkk22p"
 ogImage: recommended-reads-preview.jpeg

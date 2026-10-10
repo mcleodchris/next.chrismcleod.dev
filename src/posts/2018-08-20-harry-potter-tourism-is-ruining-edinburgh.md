@@ -1,10 +1,6 @@
 ---
 title: "Harry Potter Tourism Is Ruining Edinburgh"
 date: 2018-08-20
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - links

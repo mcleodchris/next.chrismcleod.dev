@@ -1,10 +1,6 @@
 ---
 title: 'AI vs Artists'
 date: 2022-11-01
-categories:
-  - uncategorised
-authors:
-  - chris
 tags:
   - AI
   - internet

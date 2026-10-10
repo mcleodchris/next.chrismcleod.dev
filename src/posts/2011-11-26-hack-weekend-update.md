@@ -1,10 +1,6 @@
 ---
 title: "Hack Weekend Update"
 date: 2011-11-26
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - programming

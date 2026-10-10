@@ -1,22 +1,17 @@
 ---
 title: 'Updating Apps; Updating Skills'
 date: 2022-12-22
-categories:
-  - general-life
-  - projects
 tags:
   - learning
   - php
   - react
   - programming
-authors:
-  - chris
 redirectFrom: ['/2022/12/22/updating-apps-updating-skills/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhql3k2p"
 ogImage: updating-apps;-updating-skills-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/2022/12/image.png", "A screenshot of some Laravel user authentication boilerplate code" %}
+![A screenshot of some Laravel user authentication boilerplate code](https://assets.chrismcleod.dev/chrismcleod.dev/2022/12/image.png)
 
 The festive break seems to be one of the times I manage to sit down and try something new. This year I'm taking the time to learn a little of the [PHP framework Laravel](https://laravel.com/), by way of re-writing [an app I made last year](https://ipaintedthis.app) with React and Firebase. That app always felt a little fragile to me, even though it succeeded at its basic functions - probably why I haven't gone back to update it at any point in the last year. In my defence, that app was a learning exercise too, as I wanted to brush up on React for my day job before starting on a project at the start of 2022.
 

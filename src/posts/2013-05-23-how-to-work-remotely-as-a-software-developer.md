@@ -1,15 +1,11 @@
 ---
 title: "How to Work Remotely as a Software Developer"
 date: 2013-05-23
-categories:
-  - articles
 tags:
   - programming
   - productivity
   - software
   - work-from-home
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2iie22p"
 ogImage: how-to-work-remotely-as-a-software-developer-preview.jpeg

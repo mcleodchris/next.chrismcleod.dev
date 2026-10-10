@@ -1,13 +1,9 @@
 ---
 title: '"Slow-cial Media"'
 date: 2022-11-08
-categories:
-  - general-life
 tags:
   - social-media
   - technology
-authors:
-  - chris
 redirectFrom: ['/2022/11/08/slow-cial-media/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhz6i22p"
 ogImage: slow-cial-media-preview.jpeg

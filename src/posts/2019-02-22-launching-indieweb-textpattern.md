@@ -1,17 +1,12 @@
 ---
 title: "Launching #IndieWeb Textpattern"
 date: 2019-02-22
-categories:
-  - articles
-  - notes
 tags:
   - blogging
   - blogging-tools
   - how-to
   - indieweb
   - textpattern
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnycos2p"
 ogImage: launching-indieweb-textpattern-preview.jpeg

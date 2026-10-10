@@ -1,14 +1,10 @@
 ---
 title: "Simple Things We can All do to Win a Yes Vote"
 date: 2014-08-04
-categories:
-  - articles
 tags:
   - politics
   - scotland
   - scottish-independence
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqz5je22p"
 ogImage: simple-things-we-can-all-do-to-win-a-yes-vote-preview.jpeg

@@ -1,10 +1,6 @@
 ---
 title: "Whooo... New Toy!"
 date: 2003-10-21
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - transformers

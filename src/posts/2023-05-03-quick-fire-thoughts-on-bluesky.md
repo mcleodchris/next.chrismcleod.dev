@@ -1,13 +1,9 @@
 ---
 title: 'Quick-fire Thoughts on Bluesky'
 date: 2023-05-03
-categories:
-  - general-life
 tags:
   - bluesky
   - social-media
-authors:
-  - chris
 redirectFrom: ['/2023/05/03/quick-fire-thoughts-on-bluesky/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqgzlqc2p"
 ogImage: quick-fire-thoughts-on-bluesky-preview.jpeg

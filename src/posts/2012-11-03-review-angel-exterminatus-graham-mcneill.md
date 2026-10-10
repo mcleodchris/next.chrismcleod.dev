@@ -1,15 +1,11 @@
 ---
 title: 'Review: "Angel Exterminatus" (Graham McNeill)'
 date: 2012-11-03
-categories:
-  - reviews
 tags:
   - books
   - review
   - warhammer
   - warhammer-40000
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2x7zs2p"
 ogImage: review-angel-exterminatus-graham-mcneill-preview.jpeg

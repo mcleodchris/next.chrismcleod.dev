@@ -1,13 +1,9 @@
 ---
 title: "Hello Again, Elwynn Forest…"
 date: 2018-08-28
-categories:
-  - notes
 tags:
   - world-of-warcraft
   - wow
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqmaac2p"
 ogImage: hello-again-elwynn-forest-preview.jpeg

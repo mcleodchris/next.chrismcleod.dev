@@ -1,15 +1,11 @@
 ---
 title: "Unboxing (and Building) the 1997 Sisters of Battle Immolator"
 date: 2019-08-12
-categories:
-  - articles
 tags:
   - miniatures
   - projects
   - warhammer
   - warhammer-40000
-authors:
-  - chris
 archived: true
 gallery:
   - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/950D49FA-82BB-42BF-8932-10195C5DE734.jpeg

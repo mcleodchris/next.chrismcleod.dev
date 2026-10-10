@@ -1,8 +1,6 @@
 ---
 title: ".NET Officially Coming to Mac + Linux in 2015"
 date: 2014-11-13
-categories:
-  - articles
 tags:
   - net
   - asp-net
@@ -12,8 +10,6 @@ tags:
   - mac
   - open-source
   - windows
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqyg3e22p"
 ogImage: net-officially-coming-to-mac-linux-in-2015-preview.jpeg

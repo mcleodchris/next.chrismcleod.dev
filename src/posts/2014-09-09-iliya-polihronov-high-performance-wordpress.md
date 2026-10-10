@@ -1,14 +1,10 @@
 ---
 title: "Iliya Polihronov: High-performance WordPress"
 date: 2014-09-09
-categories:
-  - code-development
 tags:
   - how-to
   - servers
   - wordpress
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqyyfc22p"
 ogImage: iliya-polihronov-high-performance-wordpress-preview.jpeg

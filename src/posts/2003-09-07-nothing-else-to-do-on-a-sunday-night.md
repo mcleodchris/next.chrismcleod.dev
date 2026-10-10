@@ -1,10 +1,6 @@
 ---
 title: "Nothing Else To Do on a Sunday Night?"
 date: 2003-09-07
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

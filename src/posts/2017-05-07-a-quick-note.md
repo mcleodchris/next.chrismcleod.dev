@@ -1,13 +1,9 @@
 ---
 title: "A Quick Note"
 date: 2017-05-07
-categories:
-  - articles
 tags:
   - blogging
   - site-meta
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqurnrc2p"
 ogImage: a-quick-note-preview.jpeg

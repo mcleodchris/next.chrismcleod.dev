@@ -1,10 +1,6 @@
 ---
 title: "Weblog Quirks #1 - The Recent Entries List"
 date: 2005-04-17
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - web-design

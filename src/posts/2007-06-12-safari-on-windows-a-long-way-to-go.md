@@ -1,15 +1,11 @@
 ---
 title: "Safari on Windows - A Long Way to Go"
 date: 2007-06-12
-categories:
-  - articles
 tags:
   - apple
   - browsers
   - software
   - microsoft
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4slh22p"
 ogImage: safari-on-windows-a-long-way-to-go-preview.jpeg
