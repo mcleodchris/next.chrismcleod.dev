@@ -53,6 +53,8 @@ The work is delivered as three independently reviewable changes (pull requests):
   - [x] (2026-10-10) `data/hobby.json` synced with the owner's token and committed: 145 entries, 2018–2026. A second sync reports no change. The built `/paintslam/2026/` and `/paintslam/2019/` pages have the same text as the live site, and the menu links `/paintslam/2026/`. The sync keeps only `completedDate`, `game`, `item` and `modelCount` (see Decision Log).
   - [ ] After merge: the owner's Paintslam edit triggers a `repository_dispatch` deploy that commits `data/hobby.json`; record the run URL here.
 - [ ] Change C, Milestone 6 (prototype): manifest-driven `<picture>` rendering on representative images; verify mage's `/images/list` is complete.
+  - [x] (2026-10-10) `config/images/manifest.js`, `config/images/picture.js`, the probe functions (`helpers/image-probe.js`, shared with Milestone 7) and `helpers/prototype-picture.js`. Every URL the prototype printed answered 200; the colliding image rendered as a plain `<img>` of its original; the small legacy image listed only its existing width (320). `markdown-it-image-figures` 2.1.1 behaves as assumed. Output in Artifacts and Notes.
+  - [ ] Answer the `/images/list` completeness question and compare a mage record's variant URLs with `variantUrl(...)`. Both need the owner's mage credentials (`MAGE_API_TOKEN`, and mage's `.env` for the Cosmos count), which were not available on this machine. Until then every manifest entry is probe-sourced, which is correct but slower to create for new uploads.
 - [ ] Change C, Milestone 7: image manifest `data/images.json` and `npm run images:sync`; CI integration.
 - [ ] Change C, Milestone 8: Markdown image renderer, `picture` filter, shortcode on the same code path, manifest reload in the development server.
 - [ ] Change C, Milestone 9: content migration (shortcode to Markdown, tag case, legacy front matter) as one commit; old image code removed.
@@ -162,6 +164,8 @@ These were found during the audit and the plan review. Add new entries as work p
 - Observation (Milestone 0): the `slug` in `.sequoia-state.json` is not a URL. Sequoia derives it from the file name (`2025-08-26-installing-arch-with-….md` gives `installing-arch-with-…`), while the URL each AT Protocol record advertises comes from `sequoia.json`'s `pathTemplate`, `/blog/{title}`, where Sequoia slugifies the title its own way: lower-case, whitespace to `-`, then delete every character outside `[A-Za-z0-9_-]`. Eleventy's `slugifyString` differs for titles with punctuation, so 60 of the 565 published records point at URLs that return 404, for example `/blog/armies-on-parade---painting-update-2` (Eleventy: `/blog/armies-on-parade-painting-update-2/`) and `/blog/onoff` (Eleventy: `/blog/on/off/`). The check now resolves Sequoia's path per post (`sequoiaPath` in `config/utils/index.js`, mirroring `resolvePathTemplate` in the sequoia-cli 0.5.7 bundle) instead of testing `blog/<slug>/`.
 
 - Observation (Milestone 1): the output file list differs from the baseline exactly as expected, plus two items the plan did not list: the two `likes/*/index.html` pages are gone (intended by the Likes fix), and 60 extra redirect stubs exist under `/blog/` for the Sequoia paths (see the Decision Log). Totals: 126 files added (66 `redirectFrom` stubs and 60 Sequoia stubs), 15 removed (12 system tag pages, `_redirects`, 2 likes). No old `redirectFrom` path collided with a real page.
+
+- Observation (Milestone 6): Eleventy Image's `generateHTML` uses the smallest fallback-format variant for `<img src>` and the largest for `width` and `height`, not the largest for both as the plan assumed; the markup is still correct. It escapes only `alt`, so the renderer's own plain `<img>` path escapes `src`, `alt` and `class` itself (with a local helper rather than importing the transitive `entities` package). Probing reads the EXIF orientation that `ImageSize` reports and swaps width and height for orientations 5 to 8, because variants are generated upright. The mage upload `71432c05-….png` is 611px wide yet has 820px variants (older uploads were resized to fixed widths, upscaling small images); the manifest simply records what exists. Both `assets//x.png` and `assets/x.png` answer 200 on the CDN, so collapsing slashes in manifest keys is safe.
 
 - Observation (Milestone 5, found in review): `slugifyString` keeps `/` and `\`, so with the single slugify a title such as `CI/CD on Azure` produced `src/posts/2026-10-10-ci/cd-on-azure.md`, a nested file that the flat `src/posts/*.md` collections, feeds and OG generation never read. The old helper slugify had turned every non-alphanumeric character into `-`. File names and tags from the helpers now go through `pathSafeSlug` (separators to `-`, then `slugifyString`) in `helpers/shared-utils.js`, which also gained the shared `parseTags`; permalinks still use `slugifyString` unchanged. Verified by creating a `CI/CD on Azure` post through `new:post`: the file was `2026-10-10-ci-cd-on-azure.md` and the post appeared in `/blog/page-0/` and `/follow/blog/feed.json`.
 
@@ -1178,7 +1182,31 @@ Milestone 4 feed comparison (`compare-feeds.mjs`, Milestone 1 output against Mil
     1x bookmarks/feed.xml.feed.title: "Chris McLeod's bookmarks" vs "Chris McLeod&#39;s bookmarks"
     24x bookmarks/feed.xml.feed.entry.N.content.@_xml:lang: "" vs "en"
 
-Record the Milestone 6 prototype output here.
+Milestone 6 prototype (`node helpers/prototype-picture.js`, abridged; every URL in each `src`/`srcset` was sent a HEAD request):
+
+    colliding URLs in content: 13
+    == mage upload: …/assets/71432c05-ff6b-4bbe-bcfb-e5cc4d0410fc.png
+    {"width":611,"height":373,"variants":{"avif":[320,570,820],"webp":[320,570,820],"jpeg":[320,570,820]},"source":"probe"}
+    <picture><source type="image/avif" srcset="…-320.avif 320w, …-570.avif 570w, …-820.avif 820w" sizes="(min-width: 55rem) 820px, 100vw"><source type="image/webp" …><img alt="mage upload" loading="lazy" decoding="async" src="…-320.jpeg" width="820" height="501" srcset="…-320.jpeg 320w, …-570.jpeg 570w, …-820.jpeg 820w" sizes="(min-width: 55rem) 820px, 100vw"></picture>
+      200 (all 9 URLs)
+    == large legacy: …/assets/images/2014/05/bloodspire_2560x1440.jpg
+    {"width":1600,"height":900,"variants":{"avif":[320,570,820],"webp":[320,570,820],"jpeg":[320,570,820]},"source":"probe"}
+      200 (all 9 URLs)
+    == small legacy: …/assets/images/2015/01/silverlight-upgrade-warning.png
+    {"width":482,"height":611,"variants":{"avif":[320],"webp":[320],"jpeg":[320]},"source":"probe"}
+    <picture><source type="image/avif" srcset="…-320.avif 320w" …><source type="image/webp" …><img alt="small legacy" loading="lazy" decoding="async" src="…-320.jpeg" width="320" height="406"></picture>
+      200 (all 3 URLs)
+    == colliding: …/2021/08/image.png
+    {"width":1113,"height":232,"variants":{},"source":"probe"}
+    <img src="…/2021/08/image.png" alt="colliding" width="1113" height="232" loading="lazy" decoding="async">
+      200
+
+markdown-it-image-figures 2.1.1 with `{ figcaption: 'title' }` (markdown-it with `typographer: true`):
+
+    ![alt *x*](https://e.com/a.png "Caption \"q\"")   ->  <figure><img src="https://e.com/a.png" alt="alt x"><figcaption>Caption “q”</figcaption></figure>
+    Text ![inline](https://e.com/b.png) more.         ->  <p>Text <img src="https://e.com/b.png" alt="inline"> more.</p>
+    ![no title](https://e.com/c.png)                  ->  <figure><img src="https://e.com/c.png" alt="no title"></figure>
+    with a custom md.renderer.rules.image:            ->  <figure><CUSTOM alt="alt x" src="https://e.com/a.png"><figcaption>Caption</figcaption></figure>
 
 
 ## Interfaces and Dependencies
