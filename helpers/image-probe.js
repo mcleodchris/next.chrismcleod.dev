@@ -87,7 +87,10 @@ export const mageEntry = record => {
     ? all.filter(item => item.format === 'jpeg')
     : all);
   const entry = { width: reference.width, height: reference.height, variants, source: 'mage' };
-  const odd = all.find(item => item.url !== variantUrl(record.original, item.width, item.format));
+  // mage's URLs sometimes contain `//resized`; the CDN treats that as `/resized`.
+  const odd = all
+    .map(item => ({ ...item, url: normaliseUrl(item.url) }))
+    .find(item => item.url !== variantUrl(record.original, item.width, item.format));
   if (odd) entry.resizedBase = odd.url.slice(0, odd.url.lastIndexOf('/'));
   return entry;
 };
