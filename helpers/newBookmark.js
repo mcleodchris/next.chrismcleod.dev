@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 
 import { input } from '@inquirer/prompts';
-import { slugifyString } from '../config/utils/index.js';
 import {
   createContentFile,
   generateFrontmatter,
   getDateString,
+  parseTags,
+  pathSafeSlug,
   promptForUrlWithMetadata,
   referenceKey
 } from './shared-utils.js';
@@ -23,10 +24,7 @@ async function main() {
     message: 'Enter comma-separated tags (optional):'
   });
 
-  const tagsArray = tags
-    .split(',')
-    .map(tag => slugifyString(tag.trim()))
-    .filter(tag => tag.length > 0);
+  const tagsArray = parseTags(tags);
 
   const frontmatterFields = { title, bookmarkOf: url };
   if (tagsArray.length > 0) {
@@ -36,7 +34,7 @@ async function main() {
     frontmatterFields.references = { [referenceKey(url)]: metadata.hEntry };
   }
 
-  const filename = `${getDateString()}-${slugifyString(title)}.md`;
+  const filename = `${getDateString()}-${pathSafeSlug(title)}.md`;
   createContentFile('bookmarks', filename, generateFrontmatter(undefined, undefined, frontmatterFields));
 }
 

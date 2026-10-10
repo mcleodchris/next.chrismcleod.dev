@@ -5,6 +5,7 @@ import { fileURLToPath } from 'url';
 import * as cheerio from 'cheerio';
 import yaml from 'js-yaml';
 import { input } from '@inquirer/prompts';
+import { slugifyString } from '../config/utils/index.js';
 
 export function getDateString() {
   const now = new Date();
@@ -39,6 +40,22 @@ export function createFileWithContent(filePath, content) {
 
 export function generateFrontmatter(id = randomUUID(), date = new Date().toISOString(), additionalFields = {}) {
   return `---\n${yaml.dump({ id, date, ...additionalFields })}---\n\n`;
+}
+
+/**
+ * The site's slug, safe as one path segment: slugifyString keeps `/` and `\`,
+ * which would put a file in a subfolder the collections never read.
+ */
+export function pathSafeSlug(text) {
+  return slugifyString(text.replace(/[/\\]+/g, '-'));
+}
+
+/** Comma-separated tags as slugs, empty ones dropped. */
+export function parseTags(text) {
+  return text
+    .split(',')
+    .map(tag => pathSafeSlug(tag.trim()))
+    .filter(tag => tag.length > 0);
 }
 
 /** Writes a new file under src/<type>/, refusing to overwrite an existing one. */
