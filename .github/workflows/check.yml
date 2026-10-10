@@ -15,9 +15,7 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
-      # No secrets here. Until the Paintslam data is read from a committed
-      # snapshot, the build's fetch from mage gets nothing and the Paintslam
-      # pages are missing; no check depends on them, so that is expected.
+      # No secrets here: the build reads the committed snapshots in data/.
       - name: Build
         run: npm run build
       - name: Check build
