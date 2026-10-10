@@ -6,11 +6,11 @@ layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ meta.url }}/">
-  <title>{{ meta.bookmarks.name }}</title>
-  <subtitle>{{ meta.bookmarks.description }}</subtitle>
+  <title>Chris McLeod's bookmarks</title>
+  <subtitle>Links saved by Chris McLeod</subtitle>
   <link href="{{ meta.url }}/bookmarks/feed.xml" rel="self" />
   <link href="{{ meta.url }}/" />
-  {% set postslist = collections.bookmarks %}
+  {% set postslist = collections.allBookmarks %}
   <updated>{{ postslist | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ meta.url }}/</id>
   <author>

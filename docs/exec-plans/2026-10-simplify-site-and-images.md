@@ -43,7 +43,7 @@ The work is delivered as three independently reviewable changes (pull requests):
 
 - [x] (2026-10-10) Plan written from the audit; revised after an independent review and comparison with a competing plan (see the revision notes at the bottom).
 - [x] (2026-10-10) Change A, Milestone 0: build-check script (`npm run check`) and baseline snapshot of the current output. Baseline built into the session scratchpad rather than `/tmp/site-baseline` (same layout); 1,837 output files.
-- [ ] Change A, Milestone 1: fix the production bugs in this repository.
+- [x] (2026-10-10) Change A, Milestone 1: fix the production bugs in this repository. Production build passes every check with `--allow picture-img-dimensions` (314 images, down from 327, because the colliding images now render without `<picture>`). The visual check was done by diffing the HTML of the home page, `/blog/appraisal/` and the archive (`/blog/`) against the baseline: apart from asset URLs, the removed `<base>`, `/humans.txt`, the theme colours and `og:image`, the only visible changes are the "Filed under" line without `posts`/`timeline`, the archive's activity graph counting every note, and the archive's `bookmarks` tag button now reading "2 posts".
 - [ ] Change A, Milestone 1b (mage repository): write `bookmarkOf`/`likeOf` front matter keys.
 - [ ] Change A, Milestone 2: CI hardening; CI runs the checks before publishing and after the final build; pull-request validation.
 - [ ] Change B, Milestone 3: delete dead code, templates, fonts and dependencies; one HTML transform policy.
@@ -158,6 +158,12 @@ These were found during the audit and the plan review. Add new entries as work p
 
 - Observation (Milestone 0): the `slug` in `.sequoia-state.json` is not a URL. Sequoia derives it from the file name (`2025-08-26-installing-arch-with-….md` gives `installing-arch-with-…`), while the URL each AT Protocol record advertises comes from `sequoia.json`'s `pathTemplate`, `/blog/{title}`, where Sequoia slugifies the title its own way: lower-case, whitespace to `-`, then delete every character outside `[A-Za-z0-9_-]`. Eleventy's `slugifyString` differs for titles with punctuation, so 60 of the 565 published records point at URLs that return 404, for example `/blog/armies-on-parade---painting-update-2` (Eleventy: `/blog/armies-on-parade-painting-update-2/`) and `/blog/onoff` (Eleventy: `/blog/on/off/`). The check now resolves Sequoia's path per post (`sequoiaPath` in `config/utils/index.js`, mirroring `resolvePathTemplate` in the sequoia-cli 0.5.7 bundle) instead of testing `blog/<slug>/`.
 
+- Observation (Milestone 1): the output file list differs from the baseline exactly as expected, plus two items the plan did not list: the two `likes/*/index.html` pages are gone (intended by the Likes fix), and 60 extra redirect stubs exist under `/blog/` for the Sequoia paths (see the Decision Log). Totals: 126 files added (66 `redirectFrom` stubs and 60 Sequoia stubs), 15 removed (12 system tag pages, `_redirects`, 2 likes). No old `redirectFrom` path collided with a real page.
+
+- Observation (Milestone 1): `filterTagsFromFeeds` never excluded the system tag `bookmark` (its list had `bookmarks`, the topic tag, instead), so bookmark items in the JSON feeds carry the tag `bookmark`. To keep its output identical as the plan requires, the new list is `SYSTEM_TAGS` minus `bookmark`, plus the feed-only exclusions.
+
+- Observation (Milestone 1): in the scratch "quote check" post, the JSON feed item came out valid, with `"title": "He said \"hello\" \\ goodbye # test: one"`, `"summary": ""` and `"image": ""`. The item's URL contains `&#92;` because Eleventy escapes the backslash when rendering the title-derived permalink; this is pre-existing, affects no real post, and is out of scope.
+
 ## Decision Log
 
 - Decision: Do not use Eleventy Image's built-in HTML transform plugin (`eleventyImageTransformPlugin`) or a final-HTML transform. Render `<picture>` markup with Eleventy Image's `generateHTML` helper from a committed manifest, called from a markdown-it image rule (markdown-it is the Markdown parser this site uses).
@@ -241,6 +247,10 @@ These were found during the audit and the plan review. Add new entries as work p
   Rationale: it has never produced anything but `[]`, because it reads its credentials from the wrong object. No consumer is known. The competing plan proposed keeping the empty output for compatibility; a permanently empty file has no contract worth keeping.
   Date/Author: 2026-10-10.
 
+
+- Decision: The `redirects` collection also emits a redirect stub at the URL Sequoia publishes for each post (`sequoiaPath(pathTemplate, title)`) whenever that differs from the post's Eleventy URL and is not already a real page. This makes all 565 AT Protocol records resolve without republishing anything. `sequoia-slugs-resolve` checks Sequoia's resolved path rather than the state file's `slug`.
+  Rationale: the alternative, making Sequoia's path match Eleventy's (for example a `{field}` path template backed by a new front matter key), edits every affected post and republishes their records; stubs fix the dead links now and cost one tiny page each. The owner may still choose to correct the records later.
+  Date/Author: 2026-10-10, Claude during Milestone 1.
 
 ## Outcomes & Retrospective
 

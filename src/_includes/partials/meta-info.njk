@@ -1,4 +1,3 @@
-<base href="{{ page.url }}">
 <meta
   name="description"
   content=" {% if seo.description %} {{ seo.description }} {% elif description %} {{ description }} {% else %} {{
@@ -25,7 +24,7 @@ name="googlebot" content="index,follow"> <!-- Google Specific -->
 name="format-detection" content="telephone=no"> <!-- Helps prevent duplicate content issues -->
 <link
 rel="canonical" href="{{ meta.url }}{{ page.url }}"> <!-- Links to information about the author(s) of the document -->
-<link rel="author" href="humans.txt">
+<link rel="author" href="/humans.txt">
 {% if meta.meta_data.mastodonProfile %}
   <!-- Mastodon verified site -->
   <link rel="me" href="{{ meta.meta_data.mastodonProfile }}">
@@ -34,8 +33,9 @@ rel="canonical" href="{{ meta.url }}{{ page.url }}"> <!-- Links to information a
 <meta property="og:url" content="{{ meta.url }}{{ page.url }}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ meta.siteName }}{% endif %}">
-<meta property="og:image" content="{{ meta.url }}{% if ogImage %}/assets/images/social-preview/{{ ogImage }}{% elif (layout == 'post') %}/assets/images/social-preview/{{ title | slugify }}-preview.jpeg{% endif %}">
-<meta property="og:image:alt" content="{% if (layout == 'post') %}{% else %}{{ meta.meta_data.opengraph_default_alt }} {% endif %}">
+{% set socialImage = { ogImage: ogImage, title: title, layout: layout } | socialImageUrl %}
+<meta property="og:image" content="{{ socialImage }}">
+<meta property="og:image:alt" content="{% if socialImage == meta.url + meta.meta_data.opengraph_default %}{{ meta.meta_data.opengraph_default_alt }}{% endif %}">
 <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ meta.siteDescription }}{% endif %}">
 <meta property="og:site_name" content="{{ meta.siteName }}">
 <meta property="og:locale" content="{{ meta.locale }}">

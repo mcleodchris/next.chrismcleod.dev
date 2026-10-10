@@ -38,7 +38,10 @@ import {
   excludeTag,
   dateForFeed,
   stripIndex,
-  filterTagsFromFeeds
+  filterTagsFromFeeds,
+  topicTags,
+  socialPreviewExists,
+  socialImageUrl
 } from './config/filters/index.js';
 
 import posseFilters from './config/filters/posse.js';
@@ -60,7 +63,9 @@ import {
   getGraph,
   notesForFeed,
   bookmarksForFeed,
-  postsForFeed
+  postsForFeed,
+  contentTags,
+  redirects
 } from './config/collections/index.js';
 
 // OG image generation is handled by helpers/generate-og-images.js (run separately)
@@ -118,6 +123,9 @@ export default async function(eleventyConfig) {
   eleventyConfig.addFilter('dateForFeed', dateForFeed);
   eleventyConfig.addFilter('stripIndex', stripIndex);
   eleventyConfig.addFilter('filterTagsFromFeeds', filterTagsFromFeeds);
+  eleventyConfig.addFilter('topicTags', topicTags);
+  eleventyConfig.addFilter('socialPreviewExists', socialPreviewExists);
+  eleventyConfig.addFilter('socialImageUrl', socialImageUrl);
   eleventyConfig.addNunjucksFilter('getKeyedData', function (varName) {
     return this.getVariables()[varName];
   });
@@ -146,12 +154,14 @@ export default async function(eleventyConfig) {
   eleventyConfig.addCollection('posts', getAllPosts);
   eleventyConfig.addCollection('subscriptions', getAllSubscriptions);
   eleventyConfig.addCollection('tagList', tagList);
-  eleventyConfig.addCollection('bookmarks', getAllBookmarks);
+  eleventyConfig.addCollection('allBookmarks', getAllBookmarks);
   eleventyConfig.addCollection('bookmarksFeed', getBookmarksFeed);
   eleventyConfig.addCollection('graph', getGraph);
   eleventyConfig.addCollection('notesForFeed', notesForFeed);
   eleventyConfig.addCollection('bookmarksForFeed', bookmarksForFeed);
   eleventyConfig.addCollection('postsForFeed', postsForFeed);
+  eleventyConfig.addCollection('contentTags', contentTags);
+  eleventyConfig.addCollection('redirects', redirects);
 
   // 	--------------------- Plugins ---------------------
   eleventyConfig.addPlugin(RenderPlugin);

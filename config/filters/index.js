@@ -9,6 +9,9 @@ import markdownLib from '../plugins/markdown.js';
 import site from '../../src/_data/meta.js';
 import { throwIfNotType } from '../utils/index.js';
 import MarkdownIt from 'markdown-it';
+import fs from 'fs';
+import { SYSTEM_TAGS } from '../collections/index.js';
+import { slugifyString } from '../utils/index.js';
 import * as esbuild from 'esbuild';
 
 const md = new MarkdownIt();
@@ -151,9 +154,37 @@ const stripIndex = path => {
   if (!path) return '';
   return path.replace('/index.html', '/');
 };
-const tagsToFilterFromFeeds = ['posts', 'all', 'notes', 'timeline', 'bookmarks', 'feed', 'personal', 'site-meta'];
+// 'bookmark' has always been kept in feed tags, so it stays.
+const tagsToFilterFromFeeds = [
+  ...SYSTEM_TAGS.filter(tag => tag !== 'bookmark'),
+  'bookmarks',
+  'feed',
+  'personal',
+  'site-meta'
+];
 const filterTagsFromFeeds = (array) => {
   return array.filter(item => !tagsToFilterFromFeeds.includes(item));
+};
+
+/** Removes the system tags, leaving the tags that describe a topic. */
+const topicTags = tags => [].concat(tags ?? []).filter(tag => !SYSTEM_TAGS.includes(tag));
+
+const SOCIAL_PREVIEW_DIR = 'src/assets/images/social-preview';
+let socialPreviewFiles;
+/** True when a generated social preview image with this file name exists. */
+const socialPreviewExists = name => {
+  socialPreviewFiles ??= new Set(fs.existsSync(SOCIAL_PREVIEW_DIR) ? fs.readdirSync(SOCIAL_PREVIEW_DIR) : []);
+  return socialPreviewFiles.has(name);
+};
+
+/** The absolute social preview image URL for a page's data. */
+const socialImageUrl = data => {
+  if (data.ogImage) return `${site.url}/assets/images/social-preview/${data.ogImage}`;
+  const fallback = `${slugifyString(String(data.title ?? ''))}-preview.jpeg`;
+  if (data.layout === 'post' && socialPreviewExists(fallback)) {
+    return `${site.url}/assets/images/social-preview/${fallback}`;
+  }
+  return `${site.url}${site.meta_data.opengraph_default}`;
 };
 
 export {
@@ -174,5 +205,8 @@ export {
   excludeTag,
   dateForFeed,
   stripIndex,
-  filterTagsFromFeeds
+  filterTagsFromFeeds,
+  topicTags,
+  socialPreviewExists,
+  socialImageUrl
 };

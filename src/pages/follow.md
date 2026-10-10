@@ -11,7 +11,7 @@ I post a growing range of different "things" on this site. While there is no "al
 |-------------------|---------------------|-----------------------|-----------------------|
 | Blog posts        | [Feed][blogrss]     | [Feed][blogjson]      | [Feed][blogatom]      |
 | Bookmarks         | [Feed][bookmarksrss]| [Feed][bookmarksjson] | [Feed][bookmarksatom] |
-| Short-form posts  | [Feed][notesrss]    | [Feed][notesjson]     | [Feed][notesjson]     |
+| Short-form posts  | [Feed][notesrss]    | [Feed][notesjson]     | [Feed][notesatom]     |
 |                   |                     |                       |                       |
 
 To follow one of these feeds, copy the address using your browser, and paste it into your feed reader of choice.
