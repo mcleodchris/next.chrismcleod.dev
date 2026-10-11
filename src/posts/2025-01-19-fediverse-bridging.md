@@ -35,7 +35,7 @@ You'll see by default the account handle is something like `your-username.your-f
 
 Click the link to your Bridgy Fed user page in the message you just received. On the page that loads, click the 🏷️ icon:
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/61bd81d7-f6ee-4e7c-98ba-4a45bbc32598.png", "This image is a screenshot of a user profile page on Bridgy Fed. It displays the user’s name, handle (@chrisplusplus@social.lol), and associated Bluesky handle. There are buttons for “Profile” and “Notifications,” as well as links showing activity, followers, and following counts. The image highlights a tag icon. Links to “Docs,” “News,” “Code,” and “Issues” are present at the top." %}
+![This image is a screenshot of a user profile page on Bridgy Fed. It displays the user’s name, handle (@chrisplusplus@social.lol), and associated Bluesky handle. There are buttons for “Profile” and “Notifications,” as well as links showing activity, followers, and following counts. The image highlights a tag icon. Links to “Docs,” “News,” “Code,” and “Issues” are present at the top.](<https://assets.chrismcleod.dev/chrismcleod.dev/assets/61bd81d7-f6ee-4e7c-98ba-4a45bbc32598.png>)
 
 This will copy the DID of the Bluesky account to the clipboard.
 
@@ -48,11 +48,11 @@ In my case, I wanted to use `masto.chrismcleod.social` as an account handle, so 
 
 The content of the TXT record is `did=<the did you copied from brid.gy>`
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/33cb2475-a12b-4554-930c-779f49ca3f3e.png", "This image is a screenshot of a DNS management interface showing the creation of a TXT record. The “VALUE” field contains a DID string (did=did:plc:x...), and the “HOSTNAME” field is set to _atproto.masto. The TTL (Time to Live) is set to 3600 seconds. The interface includes a button labeled “Create Record” for saving the entry." %}
+![This image is a screenshot of a DNS management interface showing the creation of a TXT record. The “VALUE” field contains a DID string (did=did:plc:x...), and the “HOSTNAME” field is set to &#95;atproto.masto. The TTL (Time to Live) is set to 3600 seconds. The interface includes a button labeled “Create Record” for saving the entry.](<https://assets.chrismcleod.dev/chrismcleod.dev/assets/33cb2475-a12b-4554-930c-779f49ca3f3e.png>)
 
 Save the record. Depending on the vagaries of DNS, this record might take anywhere from a few seconds to several hours to start working. You can check if you're ready to proceed by using [Bluesky Debug](https://bsky-debug.app/handle) and checking the handle:
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/38c03cd5-9790-4a88-8184-6a2c0925ef47.png", "This image is a screenshot of the Bluesky Debug Page under the “Handles” section. The user has entered “masto.chrismcleod.social” in the input field and clicked “Debug handle.” A green notification bar at the bottom confirms that “masto.chrismcleod.social” passed verification via DNS. Links to “How to set your domain as your handle” and “Handle resolution docs” are also visible." %}
+![This image is a screenshot of the Bluesky Debug Page under the “Handles” section. The user has entered “masto.chrismcleod.social” in the input field and clicked “Debug handle.” A green notification bar at the bottom confirms that “masto.chrismcleod.social” passed verification via DNS. Links to “How to set your domain as your handle” and “Handle resolution docs” are also visible.](<https://assets.chrismcleod.dev/chrismcleod.dev/assets/38c03cd5-9790-4a88-8184-6a2c0925ef47.png>)
 
 Once your handle is resolving, you can move on to the final step.
 
@@ -60,7 +60,7 @@ Once your handle is resolving, you can move on to the final step.
 
 Pixelfed DMs/private mentions don't seem to support links when I tested this out earlier. Once you've received the DM from Bridgy Fed, to get the DID to enter into the DNS record, you'll need to enter your Pixelfed account (e.g., `your-account@pixelfed.social`) on [this page](https://fed.brid.gy/user-page).
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/6d004745-d73b-489e-ac16-7b07b6300917.png", "This image is a screenshot of the Bridgy Fed interface. It prompts the user to “Enter your handle, user id, or website” in a text input field. The user has entered “chrismcleod.dev@pixelfed.social” in the field. There is an “OK” button next to the input field. Links to “Docs,” “News,” “Code,” and “Issues” are displayed at the top right." %}
+![This image is a screenshot of the Bridgy Fed interface. It prompts the user to “Enter your handle, user id, or website” in a text input field. The user has entered “chrismcleod.dev@pixelfed.social” in the field. There is an “OK” button next to the input field. Links to “Docs,” “News,” “Code,” and “Issues” are displayed at the top right.](<https://assets.chrismcleod.dev/chrismcleod.dev/assets/6d004745-d73b-489e-ac16-7b07b6300917.png>)
 
 This will load your user page and you can get your DID to proceed with creating your DNS record.
 

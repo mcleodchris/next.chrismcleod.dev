@@ -18,4 +18,4 @@ ogImage: armies-on-parade-a-test-fit-preview.jpeg
 
 I laid out the rest of the scatter terrain I envisioned, and used some stand-in miniatures to approximate how I wanted the army itself to be displayed. All in all, I'm pretty pleased with how things are looking. Now I've just got to finish everything! But at least I have a plan to work to…
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0829.jpg", "alt temporarily text not available" %}
+![alt temporarily text not available](<https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0829.jpg>)

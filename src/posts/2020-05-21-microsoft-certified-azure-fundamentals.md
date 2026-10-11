@@ -17,4 +17,4 @@ atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqkmtac
 ogImage: microsoft-certified-azure-fundamentals-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/2022/03/azure-fundamentals-1.png", "Microsoft Azure Fundamentals achievement badge" %}
+![Microsoft Azure Fundamentals achievement badge](<https://assets.chrismcleod.dev/chrismcleod.dev/2022/03/azure-fundamentals-1.png>)

@@ -14,7 +14,7 @@ atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3n3as
 ogImage: 10-years-of-daring-fireball-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/screen-shot-2012-08-14-at-20-12-02.png", "Daring Fireball 10 Year Visualisation" %}
+![Daring Fireball 10 Year Visualisation](<https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/screen-shot-2012-08-14-at-20-12-02.png>)
 
 There's a very nicely done visualisation over at Distant Shape, [charting 10 years of Daring Fireball](http://distantshape.com/df10/). As noted on the page, you can trace the evolution of Apple from computers to mobile.
 

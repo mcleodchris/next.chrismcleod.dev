@@ -16,7 +16,7 @@ ogImage: 6-hours-of-switching-from-sparrow-to-apple-mail-preview.jpeg
 
 I bloody hate it. I’ve cut down the interface so it’s as “Sparrow-like” as I can make it, but there’s just something… wrong… about the whole thing.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2012/07/screen-shot-2012-07-22-at-21-09-13.png", "Apple Mail with a tweaked UI" %}
+![Apple Mail with a tweaked UI](<https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2012/07/screen-shot-2012-07-22-at-21-09-13.png>)
 
 For me, Sparrow felt fresher; a good take on an email UI. There was nothing groundbreaking, but it worked very well. It was email given a much needed facelift. Mail, by contrast, feels essentially the same as the Pegasus mail client I used back at university. In 1999.
 

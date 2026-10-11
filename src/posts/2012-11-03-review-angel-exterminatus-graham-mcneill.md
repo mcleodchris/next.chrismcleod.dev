@@ -15,7 +15,7 @@ atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2x7zs
 ogImage: review-angel-exterminatus-graham-mcneill-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/angel-exterminatus.jpg", "angel-exterminatus" %} Last weekend I read the latest Horus Heresy novel from [Graham McNeill](http://www.graham-mcneill.com "Graham McNeill") and Black Library: _Angel Exterminatus_. What follows is a quick review. I'm trying to avoid spoilers, so don't go into much depth about the plot.
+![angel-exterminatus](<https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/angel-exterminatus.jpg>) Last weekend I read the latest Horus Heresy novel from [Graham McNeill](http://www.graham-mcneill.com "Graham McNeill") and Black Library: _Angel Exterminatus_. What follows is a quick review. I'm trying to avoid spoilers, so don't go into much depth about the plot.
 
 Angel Exterminatus focusses on the the Iron Warriors legion and their Primarch, Perturabo. Although they are the main protagonists, the plot is setup and driven by another Primarch, Fulgrim, and the Emperor's Children legion. Also making an appearance are 2 Eldar, and a few battered "loyalist" Space Marines.
 

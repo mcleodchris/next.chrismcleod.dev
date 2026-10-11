@@ -17,7 +17,7 @@ atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqgw3gk
 ogImage: microsoft-certified-azure-devops-engineer-expert-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/2023/05/microsoft-certified-devops-engineer-expert.png", "Microsoft Certified: DevOps Engineer Expert" %}
+![Microsoft Certified: DevOps Engineer Expert](<https://assets.chrismcleod.dev/chrismcleod.dev/2023/05/microsoft-certified-devops-engineer-expert.png>)
 
 It feels a little odd to be able to call myself an "expert" in anything, and truth be told, I don't think I would call myself an expert in Azure DevOps (yet), but that's the name of the certification, so here we are.
 

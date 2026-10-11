@@ -14,7 +14,7 @@ atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqjfan2
 ogImage: alpharius-head-of-the-hydra-by-mike-brooks-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/img_0442.jpg", "A photo of the front cover of the book Alpharius: Head of the Hydra, by Mike Brooks, taken shortly after I had finished reading it." %}
+![A photo of the front cover of the book Alpharius: Head of the Hydra, by Mike Brooks, taken shortly after I had finished reading it.](<https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/img_0442.jpg>)
 
 [Black Library](https://www.blacklibrary.com/new-titles/featured/alpharius-head-of-the-hydra-ebook-2021.html)
 

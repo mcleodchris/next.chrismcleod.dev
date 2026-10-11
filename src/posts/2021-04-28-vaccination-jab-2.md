@@ -13,6 +13,6 @@ atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqjmwq2
 ogImage: vaccination-jab-2-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0388-scaled.jpg", "signage outside the vaccination centre", "Outside the vaccination centre. Again" %}
+![signage outside the vaccination centre](<https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0388-scaled.jpg> "Outside the vaccination centre. Again")
 
 Jab 2 is in the arm. Hopefully the side effects are as mild as last time!

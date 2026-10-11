@@ -14,6 +14,6 @@ atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwxmzk
 ogImage: good-job-microsoft-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/01/silverlight-upgrade-warning.png", "Silverlight Upgrade Warning" %}
+![Silverlight Upgrade Warning](<https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/01/silverlight-upgrade-warning.png>)
 
 You ask me to upgrade Silverlight, for security purposes, then loudly warn me it might harm my computer. No, that's not confusing *at all*.

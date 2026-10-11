@@ -15,7 +15,7 @@ atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqroyk2
 ogImage: warhammer-40000-primaris-space-marine-lieutenant-conversion-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0811.jpg", "alt temporarily text not available" %}
+![alt temporarily text not available](<https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0811.jpg>)
 
 Continuing from [yesterday's Ancient](/blog/warhammer-40000-primaris-space-marine-ancient-conversion/), I figured that if this ends up becoming my Armies on Parade entry, I'll need an HQ, to give the force a sense of purpose.
 

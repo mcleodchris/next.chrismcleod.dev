@@ -14,6 +14,6 @@ atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqxseik
 ogImage: use-this-not-that-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/11/b3ikisriyaae9ps.png", "B3iKIsRIYAAE9ps" %}
+![B3iKIsRIYAAE9ps](<https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/11/b3ikisriyaae9ps.png>)
 
 Good advice, [courtesy of Buffer's Twitter account](https://twitter.com/buffer/status/538332037519003648).

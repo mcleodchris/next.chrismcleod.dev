@@ -15,7 +15,7 @@ atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqrx7ac
 ogImage: warhammer-40000-primaris-space-marine-ancient-conversion-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0807-1.jpg", "Warhammer 40,000 Primaris Space Marine Ancient (conversion)" %}
+![Warhammer 40,000 Primaris Space Marine Ancient (conversion)](<https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0807-1.jpg>)
 
 I've had this idea on the brain for several days, so I needed to get it out of my head and onto the workbench. Unfortunately for me, the Ancient from the Dark Imperium boxset didn't go together the way I remembered, so this took a lot more work than I'd originally planned for!
 

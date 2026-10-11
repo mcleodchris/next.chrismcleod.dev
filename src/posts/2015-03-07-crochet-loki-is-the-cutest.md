@@ -13,6 +13,6 @@ atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwctyc
 ogImage: crochet-loki-is-the-cutest-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/03/img_2239.jpg", "Crochet Loki" %}
+![Crochet Loki](<https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/03/img_2239.jpg>)
 
 As crafted by my girlfriend Caley for a friend. I might get her to make another for me, just so I can snap pictures of him on his adventures!

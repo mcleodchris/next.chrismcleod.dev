@@ -18,7 +18,7 @@ atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqix4ic
 ogImage: microsoft-certified-security-compliance-and-identity-fundamentals-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/microsoft-certified-security-compliance-and-identity-fundamentals.png", "Microsoft Certified: Security, Compliance, and Identity Fundamentals award badge" %}
+![Microsoft Certified: Security, Compliance, and Identity Fundamentals award badge](<https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/microsoft-certified-security-compliance-and-identity-fundamentals.png>)
 
 This evening I completed (and passed) the [Microsoft SC-900 exam](https://docs.microsoft.com/en-gb/learn/certifications/exams/sc-900), earning my fourth certification this year - [Microsoft Certified: Security, Compliance, and Identity Fundamentals](https://www.credly.com/earner/earned/badge/c20067ce-b4dd-4a34-92c6-4aad78a7a726).
 
