@@ -6,7 +6,7 @@ layout: null
 ---
 {
     "bookmarks": [
-        {% for bookmark in collections.bookmarks -%}
+        {% for bookmark in collections.allBookmarks -%}
         {
             "title": "{{ bookmark.data.title }}",
             "url": "{{ bookmark.data["bookmarkOf"] }}",

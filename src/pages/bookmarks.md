@@ -3,7 +3,7 @@ title: Bookmarks
 description: "A collection of bookmarks I've saved"
 layout: bookmarks
 pagination:
-  data: collections.bookmarks
+  data: collections.allBookmarks
   size: 120
 permalink: '/bookmarks/{{ pagination.pageNumber }}/index.html'
 ---

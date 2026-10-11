@@ -1,8 +1,4 @@
 export default {
-  random() {
-    const segment = () => {
-      return (((1 + Math.random()) * 0x10000) | 0).toString(16).substring(1);
-    };
-    return `${segment()}-${segment()}-${segment()}`;
-  }
+  // One identifier per build, used to version asset URLs.
+  buildId: Date.now().toString(36)
 };

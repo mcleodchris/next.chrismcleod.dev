@@ -1,7 +1,6 @@
 import Image from '@11ty/eleventy-img';
 import path from 'path';
 import htmlmin from 'html-minifier-terser';
-import { stat } from 'fs';
 
 function getFileName(id, src, width, format, options) {
   // id: hash of the original image
@@ -15,6 +14,17 @@ function getFileName(id, src, width, format, options) {
 
   return `${name}-${width}.${format}`;
 }
+
+// Legacy images whose basename is shared by another URL share one set of
+// resized variants on the CDN, so those variants may show the wrong picture.
+// Stopgap until the image manifest replaces this shortcode (exec plan M9).
+const COLLIDING_BASENAMES = new Set([
+  'image',
+  'image-1',
+  'image-2',
+  'image-3',
+  '970c78e0-a6bd-4c64-b434-699c3dc03a0c'
+]);
 
 const imageShortcodePlaceholder = async (
   src,
@@ -41,7 +51,7 @@ const imageShortcodePlaceholder = async (
     widths.forEach((width) => {
       const fileName = getFileName(null, src, width, format, {});
       staticData[format].push({
-        src: `${basePath}/${fileName}`,
+        url: `${basePath}/${fileName}`,
         width,
         format,
         sourceType: `image/${format}`,
@@ -49,6 +59,13 @@ const imageShortcodePlaceholder = async (
       });
     });
   });
+
+  const basename = path.basename(src, path.extname(src));
+  if (process.env.ELEVENTY_PRODUCTION && COLLIDING_BASENAMES.has(basename)) {
+    return `<figure><img src="${src}" alt="${alt}" loading="lazy" decoding="async">${
+      caption ? `<figcaption class="cluster font-display"><p>${caption}</p></figcaption>` : ''
+    }</figure>`;
+  }
 
   let metadata = process.env.ELEVENTY_PRODUCTION ? staticData : await Image(src, {
     widths,
@@ -59,15 +76,6 @@ const imageShortcodePlaceholder = async (
   });
 
   let lowsrc = metadata.jpeg[metadata.jpeg.length - 1];
-
-  // getting the url  to use
-  let imgSrc = src;
-  if (!imgSrc.startsWith('.') && !imgSrc.startsWith('http')) {
-    const image = this.page.image;
-    const pathParts = image.split('/');
-    pathParts.pop();
-    imgSrc = pathParts.join('/') + '/' + src;
-  }
 
   return htmlmin.minify(
     `<figure>
@@ -82,7 +90,7 @@ const imageShortcodePlaceholder = async (
       <img
         src="${lowsrc.url}"
         width="${lowsrc.width}"
-        height="${lowsrc.height}"
+        ${lowsrc.height ? `height="${lowsrc.height}"` : ''}
         alt="${alt}"
 				${lazy ? 'loading="lazy"' : ''}
         decoding="async"

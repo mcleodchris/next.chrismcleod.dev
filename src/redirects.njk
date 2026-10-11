@@ -1,0 +1,15 @@
+---
+pagination:
+  data: collections.redirects
+  size: 1
+  alias: redirect
+permalink: "{{ redirect.from }}{% if not redirect.from.endsWith('.html') %}index.html{% endif %}"
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+layout: null
+---
+<!doctype html><html lang="{{ meta.lang }}"><meta charset="utf-8"><title>Redirecting…</title>
+<link rel="canonical" href="{{ meta.url }}{{ redirect.to }}">
+<meta http-equiv="refresh" content="0; url={{ redirect.to }}">
+<meta name="robots" content="noindex">
+<p><a href="{{ redirect.to }}">This page has moved.</a></p>

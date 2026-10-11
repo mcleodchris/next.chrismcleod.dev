@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ metadata.url }}">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ meta.url }}">
   <title>{{ meta.blog.name }} — {{ name }} — Atom Feed</title>
   <subtitle>{{ meta.blog.description }}</subtitle>
   <link href="{{ permalink | absoluteUrl(meta.url) }}" rel="self" />
@@ -17,7 +17,7 @@
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <content xml:lang="{{ meta.lang }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
   {%- endfor %}
 </feed>

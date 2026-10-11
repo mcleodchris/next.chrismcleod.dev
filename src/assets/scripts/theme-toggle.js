@@ -1,9 +1,11 @@
+{% set darkBase = designTokens.colors.items | where('name', 'machiatto-base') %}
+{% set lightBase = designTokens.colors.items | where('name', 'latte-base') %}
 const storageKey = 'theme-preference';
 const lightLabel = '{{ meta.themeSwitch.light }}';
 const darkLabel = '{{ meta.themeSwitch.dark }}';
 const themeColors = {
-  dark: '{{ meta.themeLight }}',
-  light: '{{ meta.themeDark }}'
+  dark: '{{ darkBase[0].value }}',
+  light: '{{ lightBase[0].value }}'
 };
 
 const theme = {
