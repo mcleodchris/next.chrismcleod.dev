@@ -44,12 +44,25 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
+      # A repository_dispatch run exists to pick up a Paintslam change, so a
+      # failed sync must not deploy the stale snapshot; other runs build from
+      # the committed snapshot with a warning.
+      - name: Sync data
+        env:
+          MAGE_API_TOKEN: ${{ secrets.MAGE_API_TOKEN }}
+        run: |
+          if npm run data:sync; then
+            echo "Paintslam snapshot synced"
+          elif [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            echo "::error::Paintslam sync failed on a data-triggered run; not deploying stale data"
+            exit 1
+          else
+            echo "::warning::Paintslam sync failed; using committed snapshot"
+          fi
       - name: Generate OG images
         run: npm run og
       - name: Build
         run: npm run build
-        env:
-          MAGE_API_TOKEN: ${{ secrets.MAGE_API_TOKEN }}
       - name: Check build before publishing
         run: npm run check -- --allow picture-img-dimensions
       - name: Publish to ATProto
@@ -61,8 +74,6 @@ jobs:
       # Rebuild so pages include the atUri values Sequoia just wrote.
       - name: Build with published state
         run: npm run build
-        env:
-          MAGE_API_TOKEN: ${{ secrets.MAGE_API_TOKEN }}
       - name: Check final build
         run: npm run check -- --allow picture-img-dimensions
       # Recovery: if a run fails after "Publish to ATProto", re-run the
@@ -70,13 +81,13 @@ jobs:
       # .sequoia-state.json if this step ran; if it did not, Sequoia will see
       # them as new again, so check the AT Protocol records before re-running
       # and, if necessary, commit the state file by hand.
-      - name: Commit Sequoia state
+      - name: Commit generated state
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git add .sequoia-state.json src/posts/ src/assets/images/social-preview/ || true
+          git add .sequoia-state.json src/posts/ src/assets/images/social-preview/ data/ || true
           if ! git diff --cached --quiet; then
-            git commit -m "Update Sequoia state [skip ci]"
+            git commit -m "Update generated state [skip ci]"
             git push
           fi
       - name: Save cache

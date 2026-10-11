@@ -1,0 +1,6 @@
+{% if date | dateDiff >= 3 %}
+  <aside class="old" data-pagefind-ignore>
+    <p><strong>Proceed With Caution</strong></p>
+    <p>This post was written around {{ date | longAgo }}{% if archived === true %}, on an old blog that no longer exists, and is preserved for posterity only{% endif %}. The information or views presented may no longer be accurate.</p>
+  </aside>
+{% endif %}

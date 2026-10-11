@@ -24,17 +24,7 @@ const sequoiaPath = (template, title) => {
   return result.startsWith('/') ? result : `/${result}`;
 };
 
-/** throw an error if the provided argument is not of the expected. */
-const throwIfNotType = (arg, expectedType) => {
-  if (typeof arg !== expectedType) {
-    throw new Error(
-      `Expected argument of type ${expectedType} but instead got ${arg} (${typeof arg})`
-    );
-  }
-};
-
 export {
   slugifyString,
-  sequoiaPath,
-  throwIfNotType
+  sequoiaPath
 };

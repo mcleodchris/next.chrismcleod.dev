@@ -1,7 +1,8 @@
 {
   "layout": "post",
-  "tags": ["posts", "timeline"],
-  "permalink": "/blog/{{ title | slugify }}/index.html",
-  "collectionName": "postsForFeed",
-  "name": "Blog Posts"
+  "tags": [
+    "posts",
+    "timeline"
+  ],
+  "permalink": "/blog/{{ title | slugify }}/index.html"
 }

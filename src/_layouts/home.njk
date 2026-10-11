@@ -20,18 +20,11 @@ layout: base
       <p>{{ blog.intro }}</p>
     {% endif %}
   </div>
-  <!-- TODO: duplicate of partials/blog.njk -->
   <ul class="wrapper flow prose mt-l-xl h-feed" role="list" >
     {% set postslist = collections.posts %}
-    {% for post in postslist.slice(0, 4) %}
-      <li class="overflow-hidden h-entry">
-        <h3>
-          <a href="{{ post.url | url }}" class="u-url u-title">{{ post.data.title }}</a>
-        </h3>
-        {% set definedDate = post.date %}
-        {% include "partials/date.njk" %}
-        <p>{{ post.data.description }}</p>
-      </li>
+    {% for item in postslist.slice(0, 4) %}
+      {% set headingLevel = 3 %}{% set itemClass = 'overflow-hidden' %}
+      {% include "partials/post-list-item.njk" %}
     {% endfor %}
   </ul>
 </article>

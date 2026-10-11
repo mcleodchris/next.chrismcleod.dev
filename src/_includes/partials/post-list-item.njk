@@ -1,0 +1,10 @@
+{# One post in a list. Set `item`, and optionally `headingLevel` (default 2) and `itemClass`. #}
+{% set level = headingLevel or 2 %}
+<li class="h-entry{% if itemClass %} {{ itemClass }}{% endif %}">
+  <h{{ level }}>
+    <a href="{{ item.url | url }}" class="u-url p-name">{{ item.data.title }}</a>
+  </h{{ level }}>
+  {% set definedDate = item.date %}
+  {% include "partials/date.njk" %}
+  <p>{{ item.data.description }}</p>
+</li>

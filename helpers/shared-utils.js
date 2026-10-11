@@ -3,6 +3,9 @@ import path from 'path';
 import { randomUUID } from 'crypto';
 import { fileURLToPath } from 'url';
 import * as cheerio from 'cheerio';
+import yaml from 'js-yaml';
+import { input } from '@inquirer/prompts';
+import { slugifyString } from '../config/utils/index.js';
 
 export function getDateString() {
   const now = new Date();
@@ -36,29 +39,49 @@ export function createFileWithContent(filePath, content) {
 }
 
 export function generateFrontmatter(id = randomUUID(), date = new Date().toISOString(), additionalFields = {}) {
-  const baseFields = { id, date, ...additionalFields };
-  const yamlLines = Object.entries(baseFields).map(([key, value]) => {
-    if (Array.isArray(value)) {
-      return value.length > 0 
-        ? `${key}:\n${value.map(v => `  - ${v}`).join('\n')}`
-        : `${key}: []`;
+  return `---\n${yaml.dump({ id, date, ...additionalFields })}---\n\n`;
+}
+
+/**
+ * The site's slug, safe as one path segment: slugifyString keeps `/` and `\`,
+ * which would put a file in a subfolder the collections never read.
+ */
+export function pathSafeSlug(text) {
+  return slugifyString(text.replace(/[/\\]+/g, '-'));
+}
+
+/** Comma-separated tags as slugs, empty ones dropped. */
+export function parseTags(text) {
+  return text
+    .split(',')
+    .map(tag => pathSafeSlug(tag.trim()))
+    .filter(tag => tag.length > 0);
+}
+
+/** Writes a new file under src/<type>/, refusing to overwrite an existing one. */
+export function createContentFile(type, filename, content) {
+  const filePath = path.join(getDirname(import.meta.url), '../src', type, filename);
+  createFileWithContent(filePath, content);
+}
+
+/** Prompts for a URL, then fetches the page's metadata. */
+export async function promptForUrlWithMetadata(message) {
+  const url = (await input({
+    message,
+    validate: value => {
+      if (!value.trim()) return 'URL cannot be empty.';
+      if (!isValidUrl(value.trim())) return 'Please enter a valid URL.';
+      return true;
     }
-    if (typeof value === 'object' && value !== null) {
-      // Handle nested objects (like references)
-      const nestedYaml = Object.entries(value).map(([nestedKey, nestedValue]) => {
-        if (typeof nestedValue === 'object' && nestedValue !== null) {
-          const deepYaml = Object.entries(nestedValue).map(([deepKey, deepValue]) => 
-            `    ${deepKey}: ${deepValue}`
-          ).join('\n');
-          return `  ${nestedKey}:\n${deepYaml}`;
-        }
-        return `  ${nestedKey}: ${nestedValue}`;
-      }).join('\n');
-      return `${key}:\n${nestedYaml}`;
-    }
-    return `${key}: ${value}`;
-  });
-  return `---\n${yamlLines.join('\n')}\n---\n\n`;
+  })).trim();
+  console.log('Fetching page metadata...');
+  return { url, metadata: await fetchWebpageMetadata(url) };
+}
+
+/** A key for a page's microformat data in `references`, derived from its URL. */
+export function referenceKey(url) {
+  const { hostname, pathname } = new URL(url);
+  return hostname.replace(/[^a-zA-Z0-9]/g, '') + pathname.replace(/[^a-zA-Z0-9]/g, '');
 }
 
 export async function fetchWebpageMetadata(url) {

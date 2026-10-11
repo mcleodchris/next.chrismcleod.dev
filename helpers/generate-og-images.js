@@ -16,13 +16,13 @@ import { fileURLToPath } from 'url';
 import { execSync } from 'child_process';
 import os from 'os';
 import yaml from 'js-yaml';
-import slugify from 'slugify';
 import Image from '@11ty/eleventy-img';
 import dayjs from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat.js';
 dayjs.extend(advancedFormat);
 
 import { renderOgTemplate } from './og-template.js';
+import { slugifyString } from '../config/utils/index.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -60,10 +60,6 @@ const ensureFontsInstalled = () => {
   fs.writeFileSync(marker, '');
   console.log('✓ iA Writer fonts installed to ~/.local/share/fonts/ia-writer/');
 };
-
-// Must match the slugify config in config/utils/index.js
-const slugifyString = (str) =>
-  slugify(str, { replacement: '-', remove: /[#,&,+()$~%.'":*?<>{}]/g, lower: true });
 
 /**
  * Derive a flat image basename from a post title.
@@ -106,6 +102,7 @@ const main = async () => {
   let generated = 0;
   let skipped = 0;
   let frontmatterUpdated = 0;
+  let failed = 0;
 
   for (const file of postFiles) {
     const filePath = path.join(POSTS_DIR, file);
@@ -164,6 +161,7 @@ const main = async () => {
     } catch (err) {
       console.error(`✗ ${file}: ${err.message}`);
       if (fs.existsSync(svgPath)) fs.unlinkSync(svgPath);
+      failed++;
       continue;
     }
 
@@ -177,8 +175,12 @@ const main = async () => {
   }
 
   console.log(
-    `\nDone: ${generated} generated, ${skipped} skipped, ${frontmatterUpdated} frontmatter updated`
+    `\nDone: ${generated} generated, ${skipped} skipped, ${frontmatterUpdated} frontmatter updated, ${failed} failed`
   );
+  if (failed > 0) process.exitCode = 1;
 };
 
-main().catch(console.error);
+main().catch(error => {
+  console.error(error);
+  process.exitCode = 1;
+});

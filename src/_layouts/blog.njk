@@ -15,41 +15,8 @@ layout: base
 
   <ul class="wrapper flow prose mt-l-xl h-feed" role="list">
     {%- for item in pagination.items %}
-
-    <li class="h-entry">
-      <h2>
-        <a href="{{ item.url }}">{{ item.data.title }}</a>
-      </h2>
-      {% set definedDate = item.date %} {% include "partials/date.njk" %}
-      <p>{{ item.data.description }}</p>
-    </li>
-
+      {% include "partials/post-list-item.njk" %}
     {% endfor %}
   </ul>
-{% if pagination.pages.length > 1 %}
-
-  <section class="wrapper  region">
-    <nav role="navigation" aria-label="Pagination">
-      <ul class="pagination">
-        <li>
-          {% if pagination.href.previous %}
-            <a href="{{ pagination.href.previous }}">Previous</a>
-          {% else %}Previous{% endif %}
-        </li>
-        {%- for pageEntry in pagination.pages %}
-          <li>
-            <a href="{{ pagination.hrefs[ loop.index0 ] }}" {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page" {% endif %}>
-              {{ loop.index }}</a>
-          </li>
-        {%- endfor %}
-        <li>
-          {% if pagination.href.next %}
-            <a href="{{ pagination.href.next }}">Next</a>
-          {% else %}Next{% endif %}
-        </li>
-      </ul>
-    </nav>
-    </section>
-
-  {% endif %}
+{% include "partials/pagination.njk" %}
 </article>

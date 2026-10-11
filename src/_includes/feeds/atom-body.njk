@@ -1,0 +1,35 @@
+{#- An Atom feed. Set feedTitle, feedSubtitle, feedId, selfUrl, homeUrl,
+    items (already limited), entryLink ('permalink' or 'bookmarkOf') and footer. -#}
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ homeUrl }}">
+  <title>{{ feedTitle }}</title>
+  <subtitle>{{ feedSubtitle }}</subtitle>
+  <link href="{{ selfUrl }}" rel="self" />
+  <link href="{{ homeUrl }}" />
+  <updated>{{ items | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ feedId }}</id>
+  <author>
+    <name>{{ meta.author }}</name>
+    <email>{{ meta.authorEmail }}</email>
+  </author>
+  {%- for post in items %}
+  {%- set absolutePostUrl = post.url | absoluteUrl(meta.url) %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{% if entryLink == 'bookmarkOf' %}{{ post.data.bookmarkOf | url }}{% else %}{{ absolutePostUrl }}{% endif %}"/>
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content xml:lang="{{ meta.lang }}" type="html">
+      {%- if footer -%}
+      {%- if post.templateContent -%}
+        {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+        &lt;hr&gt;
+      {% endif -%}
+        &lt;p&gt;{{ post.data.feedFooter | md | htmlToAbsoluteUrls(absolutePostUrl) }}&lt;/p&gt;
+      {%- else -%}
+      {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+      {%- endif -%}
+    </content>
+  </entry>
+  {%- endfor %}
+</feed>

@@ -1,22 +1,10 @@
 ---
 layout: base
-schema: blog
-preloads:
-  href: '/assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff2'
-  as: 'font'
-  type: 'font/woff2'
-  crossorigin: true
 ---
 
 <article class="region blog h-entry" data-pagefind-body>
   <div class="wrapper flow prose">
-    {% set diff = date | dateDiff %}
-    {% if diff >= 3 %}
-      <aside class="old" data-pagefind-ignore>
-        <p><strong>Proceed With Caution</strong></p>
-        <p>This post was written around {{ date | longAgo }}{% if archived === true %}, on an old blog that no longer exists, and is preserved for posterity only{% endif %}. The information or views presented may no longer be accurate.</p>
-      </aside>
-    {% endif %}
+    {% include "partials/old-post-warning.njk" %}
     <h1 class="p-name{% if gradient === true %} | gradient-text{% endif %}" >{{ title }}</h1>
     {% set definedDate = date %}
     <div class="post-meta"><a href="{{url | url}}" class="u-url">🔗</a> {% include "partials/date.njk" -%} | by <a class="p-author h-card" href="{{ meta.authorWebsite }}">{{ meta.author }}</a></div>
@@ -26,7 +14,7 @@ preloads:
     <div class="flow prose">
       <sequoia-recommend></sequoia-recommend>
     </div>
-    {% include '../_layouts/footer.njk' %}
+    {% include "partials/post-footer.njk" %}
   </div>
 </article>
 <section class="region">

@@ -46,9 +46,12 @@ The work is delivered as three independently reviewable changes (pull requests):
 - [x] (2026-10-10) Change A, Milestone 1: fix the production bugs in this repository. Production build passes every check with `--allow picture-img-dimensions` (314 images, down from 327, because the colliding images now render without `<picture>`). The visual check was done by diffing the HTML of the home page, `/blog/appraisal/` and the archive (`/blog/`) against the baseline: apart from asset URLs, the removed `<base>`, `/humans.txt`, the theme colours and `og:image`, the only visible changes are the "Filed under" line without `posts`/`timeline`, the archive's activity graph counting every note, and the archive's `bookmarks` tag button now reading "2 posts".
 - [x] (2026-10-10) Change A, Milestone 1b (mage repository): write `bookmarkOf`/`likeOf` front matter keys. Committed as `d66762b` on branch `fix/camelcase-frontmatter-keys` in `~/code/mage.chrismcleod.dev` (not pushed). Verified by calling `generateMicropubMarkdown` from a Node one-off: a bookmark yields `bookmarkOf: "https://example.com/"`, a like yields `likeOf: …`; Biome reports no issues. Remaining for the owner: push, open the pull request, deploy mage, and record the deployment here.
 - [x] (2026-10-10) Change A, Milestone 2: CI hardening; CI runs the checks before publishing and after the final build; pull-request validation. Verified locally: `npm ci`, `npm run build` (with the pinned Pagefind) and `npm run check -- --allow picture-img-dimensions` pass. Failure detection was proven by the local method: injecting `<img src="undefined">` into `dist/about/index.html` makes `npm run check` print `FAIL no-undefined-attributes: 1 problem(s): about/index.html` and exit 1. Remaining for the owner: the pull-request run, the post-merge deploy run and a manual "Run workflow".
-- [ ] Change B, Milestone 3: delete dead code, templates, fonts and dependencies; one HTML transform policy.
-- [ ] Change B, Milestone 4: configuration as plugins; merged partials; feeds consolidated with legacy contracts preserved.
+- [x] (2026-10-10) Change B, Milestone 3: delete dead code, templates, fonts and dependencies; one HTML transform policy. Every search confirmed the items unused. Output equals Milestone 1's minus `warcraft/warcraft.json`, the Inter/Red Hat/Roboto Mono files and the `.eot` files; feeds and `bookmarks/data.json` are byte-identical; the three sample pages differ only in whitespace, asset version and the Roboto Mono preload. A production Eleventy run fell from about 15 s to about 4 s, because the Prettier transform was most of the build time.
+- [x] (2026-10-10) Change B, Milestone 4: configuration as plugins; merged partials; feeds consolidated with legacy contracts preserved. `.eleventy.js` is 50 lines. Output file list equals Milestone 3's; all checks pass as before. The feed comparison (Artifacts and Notes) shows the nine `/follow/` feeds identical to Milestone 1 and the two legacy feeds differing only as recorded in Surprises.
 - [ ] Change B, Milestone 5: committed data snapshots (Paintslam) with `npm run data:sync`; helper scripts fixed; single slugify.
+  - [x] (2026-10-10) `helpers/sync-data.js`, snapshot-reading `hobby.js`/`navigation.js`, CI "Sync data" step, helper scripts (js-yaml front matter, one slugify, `createContentFile`, `promptForUrlWithMetadata`, `likeOf`, OG exit status). Verified: `data:sync` with no token and with a bad token exits 1 and writes nothing; a temporary fake `data/hobby.json` produces `/paintslam/2025/` and `/paintslam/2026/` and the menu links `/paintslam/2026/`; with no snapshot the build succeeds, publishes no Paintslam pages and the menu omits the link; `new:bookmark` against a local page titled `Testing: colons # and hashes` wrote front matter that `js-yaml` parses. Output otherwise equals Milestone 4's.
+  - [x] (2026-10-10) `data/hobby.json` synced with the owner's token and committed: 145 entries, 2018–2026. A second sync reports no change. The built `/paintslam/2026/` and `/paintslam/2019/` pages have the same text as the live site, and the menu links `/paintslam/2026/`. The sync keeps only `completedDate`, `game`, `item` and `modelCount` (see Decision Log).
+  - [ ] After merge: the owner's Paintslam edit triggers a `repository_dispatch` deploy that commits `data/hobby.json`; record the run URL here.
 - [ ] Change C, Milestone 6 (prototype): manifest-driven `<picture>` rendering on representative images; verify mage's `/images/list` is complete.
 - [ ] Change C, Milestone 7: image manifest `data/images.json` and `npm run images:sync`; CI integration.
 - [ ] Change C, Milestone 8: Markdown image renderer, `picture` filter, shortcode on the same code path, manifest reload in the development server.
@@ -160,6 +163,18 @@ These were found during the audit and the plan review. Add new entries as work p
 
 - Observation (Milestone 1): the output file list differs from the baseline exactly as expected, plus two items the plan did not list: the two `likes/*/index.html` pages are gone (intended by the Likes fix), and 60 extra redirect stubs exist under `/blog/` for the Sequoia paths (see the Decision Log). Totals: 126 files added (66 `redirectFrom` stubs and 60 Sequoia stubs), 15 removed (12 system tag pages, `_redirects`, 2 likes). No old `redirectFrom` path collided with a real page.
 
+- Observation (Milestone 5, found in review): `slugifyString` keeps `/` and `\`, so with the single slugify a title such as `CI/CD on Azure` produced `src/posts/2026-10-10-ci/cd-on-azure.md`, a nested file that the flat `src/posts/*.md` collections, feeds and OG generation never read. The old helper slugify had turned every non-alphanumeric character into `-`. File names and tags from the helpers now go through `pathSafeSlug` (separators to `-`, then `slugifyString`) in `helpers/shared-utils.js`, which also gained the shared `parseTags`; permalinks still use `slugifyString` unchanged. Verified by creating a `CI/CD on Azure` post through `new:post`: the file was `2026-10-10-ci-cd-on-azure.md` and the post appeared in `/blog/page-0/` and `/follow/blog/feed.json`.
+
+- Observation (Milestone 5): the interactive `new:*` helpers can be driven non-interactively for testing with `script -qec "node helpers/newBookmark.js" /dev/null` and keystrokes piped in (`\r` to submit each prompt). The bookmark and like helpers now also share `referenceKey(url)`, the key for a page's microformat data in `references`, which both had copied.
+
+- Observation (Milestone 4): the feed comparison against Milestone 1 (attributes included, text trimmed) found the nine `/follow/` feeds identical, including the JSON feeds now produced by `src/feeds/json.11ty.js`. The two legacy Atom feeds differ in two deliberate, harmless ways: each entry's `<content xml:lang>` is now `en` (it was empty, because the old templates read an undefined `locale` variable), and the bookmarks feed title is written `Chris McLeod&#39;s bookmarks`, the same character reference the other feed titles already use (Nunjucks autoescaping), which decodes to the same text.
+
+- Observation (Milestone 4): note pages never set `definedDate` before including the date partial, so every note displayed the build time as its date ("October 10, 2026"). `note.njk` now sets it. Also, merging the footers gives notes the same boxed `coffee` footer as posts, without the leading "☕"; the `TODO: duplicate` comment in `home.njk` is gone; list items now consistently use `h-entry` (the tag pages had the typo `h-entrry`) with `u-url p-name` on the title link (home used `u-url u-title`, which is not a microformats2 property). The feed `<link rel="alternate">` tags now use `application/feed+json` for JSON and the "JSOM" typo is fixed.
+
+- Observation (Milestone 4): two leftovers Milestone 3 should have removed were removed here: the commented `warcraft` block in `src/_data/meta.js` and the never-used `bookmarksFeed` collection (`getBookmarksFeed`). `src/_data/feeds.js` gained a `label` per feed, used to keep the existing `<link rel="alternate">` titles. The legacy template filters `feeds` with a `pagination.before` callback in JavaScript front matter rather than a new filter.
+
+- Observation (Milestone 3): `throwIfNotType` in `config/utils/index.js` was only used by the deleted `stripHtml` and `toAbsoluteUrl` filters, so it was deleted too. `sitemap.xml` changed order only (pages without a `date` take the file's modification time).
+
 - Observation (Milestone 2): Pagefind warned "has no <html> element" for each redirect stub, so the stub template now opens with `<html lang="en">`; Pagefind then skips the stubs silently, as they have no `data-pagefind-body`.
 
 - Observation (Milestone 1): `filterTagsFromFeeds` never excluded the system tag `bookmark` (its list had `bookmarks`, the topic tag, instead), so bookmark items in the JSON feeds carry the tag `bookmark`. To keep its output identical as the plan requires, the new list is `SYSTEM_TAGS` minus `bookmark`, plus the feed-only exclusions.
@@ -253,6 +268,10 @@ These were found during the audit and the plan review. Add new entries as work p
 - Decision: The `redirects` collection also emits a redirect stub at the URL Sequoia publishes for each post (`sequoiaPath(pathTemplate, title)`) whenever that differs from the post's Eleventy URL and is not already a real page. This makes all 565 AT Protocol records resolve without republishing anything. `sequoia-slugs-resolve` checks Sequoia's resolved path rather than the state file's `slug`.
   Rationale: the alternative, making Sequoia's path match Eleventy's (for example a `{field}` path template backed by a new front matter key), edits every affected post and republishes their records; stubs fix the dead links now and cost one tiny page each. The owner may still choose to correct the records later.
   Date/Author: 2026-10-10, Claude during Milestone 1.
+
+- Decision: `data:sync` stores only the four fields the Paintslam pages show (`completedDate`, `game`, `item`, `modelCount`), not every field mage returns.
+  Rationale: mage's response also carries Cosmos DB fields (`_rid`, `_self`, `_etag`, `_attachments`, `_ts`) and `userId`, `createdAt`, `id` and `year`. None is shown on the site; the database fields change on every save and would add noise to every snapshot diff, and there is no reason to publish a user id in the repository. This departs from the plan's "transform the data exactly as hobby.js does", which kept every field.
+  Date/Author: 2026-10-10, Claude after the owner's first sync.
 
 ## Outcomes & Retrospective
 
@@ -1141,6 +1160,23 @@ Eleventy Image behaviour that shaped the design (from `node_modules/@11ty/eleven
 - With `statsOnly`, a remote image is downloaded to read its size, unless `remoteImageMetadata: { width, height }` is passed in the options for that call.
 - `getValidWidths` replaces a too-large width with the original width only while `originalWidth > Math.floor(previousWidth * minimumThreshold)`.
 - `minimumThreshold` defaults to 1.25, in both the site (6.0.4) and mage (7.0.0).
+
+Milestone 4 feed comparison (`compare-feeds.mjs`, Milestone 1 output against Milestone 4 output):
+
+    DIFF feed.xml
+    DIFF bookmarks/feed.xml
+    SAME follow/blog/feed.atom
+    SAME follow/blog/feed.rss
+    SAME follow/blog/feed.json
+    SAME follow/bookmarks/feed.atom
+    SAME follow/bookmarks/feed.rss
+    SAME follow/bookmarks/feed.json
+    SAME follow/notes/feed.atom
+    SAME follow/notes/feed.rss
+    SAME follow/notes/feed.json
+    24x feed.xml.feed.entry.N.content.@_xml:lang: "" vs "en"
+    1x bookmarks/feed.xml.feed.title: "Chris McLeod's bookmarks" vs "Chris McLeod&#39;s bookmarks"
+    24x bookmarks/feed.xml.feed.entry.N.content.@_xml:lang: "" vs "en"
 
 Record the Milestone 6 prototype output here.
 

@@ -1,0 +1,18 @@
+---
+pagination:
+  data: feeds
+  size: 1
+  alias: feed
+permalink: /follow/{{ feed.key }}/feed.atom
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+---
+{%- set selfUrl = page.url | absoluteUrl(meta.url) -%}
+{%- set feedTitle = meta.blog.name + ' — ' + feed.name + ' — Atom Feed' -%}
+{%- set feedSubtitle = meta.blog.description -%}
+{%- set feedId = selfUrl -%}
+{%- set homeUrl = meta.url -%}
+{%- set items = collections[feed.collection].slice(0, feed.limit) -%}
+{%- set entryLink = 'permalink' -%}
+{%- set footer = false -%}
+{% include "feeds/atom-body.njk" %}

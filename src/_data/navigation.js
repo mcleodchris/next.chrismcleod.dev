@@ -1,9 +1,10 @@
 import getHobbyData from './hobby.js';
 
-export default async function() {
-  const hobby = await getHobbyData();
-  const years = Object.keys(hobby).map(Number);
-  const latestYear = years.length ? Math.max(...years) : new Date().getFullYear();
+export default function() {
+  const years = Object.keys(getHobbyData()).map(Number);
+  const paintslam = years.length
+    ? [{ text: 'Paintslam', url: `/paintslam/${Math.max(...years)}/` }]
+    : [];
 
   return {
     top: [
@@ -15,10 +16,7 @@ export default async function() {
         text: 'Bookmarks',
         url: '/bookmarks/0/'
       },
-      {
-        text: 'Paintslam',
-        url: `/paintslam/${latestYear}/`
-      },
+      ...paintslam,
       {
         text: 'Photos',
         url: 'https://chrismcleod.photos/'
