@@ -1,4 +1,3 @@
-{% set assetHash = global.random() %}
 <!DOCTYPE html>
 <html lang="{{ meta.lang }}">
   <head>
@@ -19,7 +18,7 @@
     </title>
 
     <link
-    rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" > <!-- preloads -->
+    rel="stylesheet" href="{{ assetUrl('/assets/css/global.css') }}" > <!-- preloads -->
     <link rel="preload" href="/assets/fonts/duo/iAWriterDuoS-Regular.woff2" as="font" type="font/woff2" crossorigin >
     <link rel="preload" href="/assets/fonts/duo/iAWriterDuoS-Bold.woff2" as="font" type="font/woff2" crossorigin >
     <link rel="preload" href="/assets/fonts/quattro/iAWriterQuattroS-Bold.woff2" as="font" type="font/woff2" crossorigin >
@@ -40,7 +39,7 @@
     {% include "partials/js-inline.njk" %}
 
     <!-- defered js  -->
-    <script type="module" src="/assets/scripts/app.js?{{ assetHash }}" defer></script>
+    <script type="module" src="{{ assetUrl('/assets/scripts/app.js') }}" defer></script>
     <!-- everything else: meta tags, icons, open graph etc.  -->
     {% include "partials/meta-info.njk" %}
 		<script defer src="https://ping.chrismcleod.dev/script.js" data-website-id="0bdce112-ba27-405d-b227-627311328c20"></script>

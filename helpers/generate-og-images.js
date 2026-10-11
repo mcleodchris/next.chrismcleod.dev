@@ -12,17 +12,17 @@
 
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
-import { execSync } from 'child_process';
+import {fileURLToPath} from 'url';
+import {execSync} from 'child_process';
 import os from 'os';
-import yaml from 'js-yaml';
-import slugify from 'slugify';
+import {frontmatter} from '../config/utils/frontmatter.js';
+import {slugifyString} from '../config/utils/index.js';
 import Image from '@11ty/eleventy-img';
 import dayjs from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat.js';
 dayjs.extend(advancedFormat);
 
-import { renderOgTemplate } from './og-template.js';
+import {renderOgTemplate} from './og-template.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -30,7 +30,7 @@ const force = process.argv.includes('--force');
 
 const POSTS_DIR = path.join(ROOT, 'src/posts');
 const OUTPUT_DIR = path.join(ROOT, 'src/assets/images/social-preview');
-const FONTS_DIR  = path.join(ROOT, 'src/assets/fonts');
+const FONTS_DIR = path.join(ROOT, 'src/assets/fonts');
 
 /**
  * Install the iA Writer fonts to the user's font directory so librsvg/Sharp
@@ -41,12 +41,12 @@ const ensureFontsInstalled = () => {
   const targetDir = path.join(os.homedir(), '.local/share/fonts/ia-writer');
   const marker = path.join(targetDir, '.installed');
   if (fs.existsSync(marker)) return;
-  fs.mkdirSync(targetDir, { recursive: true });
+  fs.mkdirSync(targetDir, {recursive: true});
   const fonts = [
     'quattro/iAWriterQuattroS-Bold.woff',
     'quattro/iAWriterQuattroS-Regular.woff',
     'duo/iAWriterDuoS-Bold.woff',
-    'duo/iAWriterDuoS-Regular.woff',
+    'duo/iAWriterDuoS-Regular.woff'
   ];
   for (const f of fonts) {
     const src = path.join(FONTS_DIR, f);
@@ -55,31 +55,28 @@ const ensureFontsInstalled = () => {
     }
   }
   try {
-    execSync('fc-cache -f', { stdio: 'pipe' });
-  } catch { /* fc-cache unavailable — fonts may still work */ }
+    execSync('fc-cache -f', {stdio: 'pipe'});
+  } catch {
+    /* fc-cache unavailable — fonts may still work */
+  }
   fs.writeFileSync(marker, '');
   console.log('✓ iA Writer fonts installed to ~/.local/share/fonts/ia-writer/');
 };
-
-// Must match the slugify config in config/utils/index.js
-const slugifyString = (str) =>
-  slugify(str, { replacement: '-', remove: /[#,&,+()$~%.'":*?<>{}]/g, lower: true });
 
 /**
  * Derive a flat image basename from a post title.
  * Replaces `/` with `-` before slugifying to prevent nested directory creation.
  */
-const getImageBasename = (title) => {
+const getImageBasename = title => {
   const safeTitle = title.replace(/\//g, '-');
   return `${slugifyString(safeTitle)}-preview`;
 };
 
 /** Parse YAML frontmatter from markdown content, returning the data object or null. */
-const parseFrontmatter = (content) => {
-  const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
-  if (!match) return null;
+const parseFrontmatter = content => {
+  if (!content.startsWith('---')) return null;
   try {
-    return yaml.load(match[1]) || {};
+    return frontmatter(content).data;
   } catch {
     return null;
   }
@@ -94,14 +91,17 @@ const writeOgImageFrontmatter = (content, jpegFilename, replaceExisting) => {
     return content.replace(/^ogImage:.*$/m, `ogImage: ${jpegFilename}`);
   }
   // Insert before the closing `---`
-  return content.replace(/^(---\r?\n[\s\S]*?)\r?\n---/m, `$1\nogImage: ${jpegFilename}\n---`);
+  return content.replace(
+    /^(---\r?\n[\s\S]*?)\r?\n---/m,
+    `$1\nogImage: ${jpegFilename}\n---`
+  );
 };
 
 const main = async () => {
   ensureFontsInstalled();
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  fs.mkdirSync(OUTPUT_DIR, {recursive: true});
 
-  const postFiles = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith('.md'));
+  const postFiles = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.md'));
 
   let generated = 0;
   let skipped = 0;
@@ -146,7 +146,7 @@ const main = async () => {
       title: data.title,
       date: formattedDate,
       siteName: 'Chris McLeod',
-      siteUrl: 'chrismcleod.dev',
+      siteUrl: 'chrismcleod.dev'
     });
 
     fs.writeFileSync(svgPath, svgContent);
@@ -156,7 +156,7 @@ const main = async () => {
       await Image(svgPath, {
         formats: ['jpeg'],
         outputDir: OUTPUT_DIR,
-        filenameFormat: (_id, _src, _width, format) => `${basename}.${format}`,
+        filenameFormat: (_id, _src, _width, format) => `${basename}.${format}`
       });
       fs.unlinkSync(svgPath);
       generated++;
@@ -164,7 +164,7 @@ const main = async () => {
     } catch (err) {
       console.error(`✗ ${file}: ${err.message}`);
       if (fs.existsSync(svgPath)) fs.unlinkSync(svgPath);
-      continue;
+      throw err;
     }
 
     // Write ogImage to frontmatter
@@ -181,4 +181,7 @@ const main = async () => {
   );
 };
 
-main().catch(console.error);
+main().catch(error => {
+  console.error(error);
+  process.exitCode = 1;
+});

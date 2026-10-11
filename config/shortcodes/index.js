@@ -1,9 +1,7 @@
 import imageShortcodePlaceholder from './image/index.js';
-import includeRaw from './includeRaw/index.js';
 import liteYoutube from './youtube-lite/index.js';
-
-export {
-  imageShortcodePlaceholder,
-  includeRaw,
-  liteYoutube
-};
+export {imageShortcodePlaceholder, liteYoutube};
+export default function shortcodesPlugin(config) {
+  config.addNunjucksAsyncShortcode('image', imageShortcodePlaceholder);
+  config.addShortcode('youtube', liteYoutube);
+}

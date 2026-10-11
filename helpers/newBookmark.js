@@ -1,18 +1,12 @@
 #!/usr/bin/env node
+import {slugifyString} from '../config/utils/index.js';
 
-import { Command } from 'commander';
-import { input } from '@inquirer/prompts';
-import { ContentGenerator } from './content-generator.js';
-import { generateFrontmatter, fetchWebpageMetadata, isValidUrl } from './shared-utils.js';
+import {Command} from 'commander';
+import {input} from '@inquirer/prompts';
+import {ContentGenerator} from './content-generator.js';
+import {generateFrontmatter, fetchWebpageMetadata, isValidUrl} from './shared-utils.js';
 
-// Helper to slugify a string
-function slugify(str) {
-  return str
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .replace(/--+/g, '-');
-}
+const slugify = slugifyString;
 
 async function main() {
   const program = new Command();
@@ -32,17 +26,17 @@ async function main() {
   } while (!isValidUrl(url));
 
   console.log('Fetching page metadata...');
-  
+
   // Fetch webpage metadata
   const metadata = await fetchWebpageMetadata(url);
-  
+
   // Prompt for title with extracted title as default
   const title = await input({
     message: 'Enter the bookmark title:',
     default: metadata.title,
-    validate: input => input.trim() ? true : 'Title cannot be empty.'
+    validate: input => (input.trim() ? true : 'Title cannot be empty.')
   });
-  
+
   // Prompt for optional tags
   const tags = await input({
     message: 'Enter comma-separated tags (optional):'
@@ -56,7 +50,8 @@ async function main() {
   // Parse and slugify tags
   let tagsArray = [];
   if (tags) {
-    tagsArray = tags.split(',')
+    tagsArray = tags
+      .split(',')
       .map(tag => slugify(tag.trim()))
       .filter(tag => tag.length > 0);
   }
@@ -75,8 +70,9 @@ async function main() {
   // Add references if microformat data was found
   if (metadata.hEntry) {
     // Create a clean key from the URL
-    const urlKey = new URL(url).hostname.replace(/[^a-zA-Z0-9]/g, '') + 
-                  new URL(url).pathname.replace(/[^a-zA-Z0-9]/g, '');
+    const urlKey =
+      new URL(url).hostname.replace(/[^a-zA-Z0-9]/g, '') +
+      new URL(url).pathname.replace(/[^a-zA-Z0-9]/g, '');
     frontmatterFields.references = {
       [urlKey]: metadata.hEntry
     };

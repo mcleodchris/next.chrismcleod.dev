@@ -1,20 +1,20 @@
-import lodash from 'lodash';
 import dayjs from 'dayjs';
+import {SYSTEM_TAGS} from '../collections/index.js';
 import relativeTime from 'dayjs/plugin/relativeTime.js';
 import advancedFormat from 'dayjs/plugin/advancedFormat.js';
+import utc from 'dayjs/plugin/utc.js';
+import timezone from 'dayjs/plugin/timezone.js';
 dayjs.extend(advancedFormat);
 dayjs.extend(relativeTime);
-import CleanCSS from 'clean-css';
+dayjs.extend(utc);
+dayjs.extend(timezone);
 import markdownLib from '../plugins/markdown.js';
 import site from '../../src/_data/meta.js';
-import { throwIfNotType } from '../utils/index.js';
+import {slugifyString, throwIfNotType} from '../utils/index.js';
 import MarkdownIt from 'markdown-it';
-import * as esbuild from 'esbuild';
+import {bookmarkUrl} from '../utils/content.js';
 
 const md = new MarkdownIt();
-
-// Cache for minified JS
-const jsminCache = {};
 
 /** Returns the first `limit` elements of the the given array. */
 const limit = (array, limit) => {
@@ -26,7 +26,13 @@ const limit = (array, limit) => {
 
 /** Returns all entries from the given array that match the specified key:value pair. */
 const where = (arrayOfObjects, keyPath, value) =>
-  arrayOfObjects.filter(object => lodash.get(object, keyPath) === value);
+  arrayOfObjects.filter(
+    object =>
+      keyPath
+        .replace(/\[(\w+)\]/g, '.$1')
+        .split('.')
+        .reduce((value, key) => value?.[key], object) === value
+  );
 
 /** Converts the given markdown string to HTML, returning it as a string. */
 const toHtml = markdownString => {
@@ -54,36 +60,11 @@ const toAbsoluteUrl = url => {
 const toISOString = dateString => dayjs(dateString).toISOString();
 
 /** Formats a date using dayjs's conventions: https://day.js.org/docs/en/display/format */
-const formatDate = (date, format) => dayjs(date).format(format);
+const formatDate = (date, format) => dayjs(date).tz(site.timezone).format(format);
 
 const longAgo = date => dayjs(date).fromNow();
 
 const dateDiff = date => dayjs().diff(dayjs(date), 'year');
-
-const minifyCss = code => new CleanCSS({}).minify(code).styles;
-
-const minifyJs = async (code, ...rest) => {
-  const callback = rest.pop();
-  const cacheKey = rest.length > 0 ? rest[0] : null;
-
-  try {
-    if (cacheKey && jsminCache.hasOwnProperty(cacheKey)) {
-      const cacheValue = await Promise.resolve(jsminCache[cacheKey]); // Wait for the data, wrapped in a resolved promise in case the original value already was resolved
-      callback(null, cacheValue.code); // Access the code property of the cached value
-    } else {
-      const minified = esbuild.transform(code, {
-        minify: true
-      });
-      if (cacheKey) {
-        jsminCache[cacheKey] = minified; // Store the promise which has the minified output (an object with a code property)
-      }
-      callback(null, (await minified).code); // Await and use the return value in the callback
-    }
-  } catch (err) {
-    console.error('jsmin error: ', err);
-    callback(null, code); // Fail gracefully.
-  }
-};
 
 /**
  * Render content as inline markdown if single line, or full
@@ -147,12 +128,27 @@ const dateForFeed = date => {
   // thanks Robb
   return date.toISOString();
 };
+export const dateToRfc822 = date => new Date(date).toUTCString();
 const stripIndex = path => {
   if (!path) return '';
   return path.replace('/index.html', '/');
 };
-const tagsToFilterFromFeeds = ['posts', 'all', 'notes', 'timeline', 'bookmarks', 'feed', 'personal', 'site-meta'];
-const filterTagsFromFeeds = (array) => {
+export const publicTags = tags =>
+  Array.isArray(tags) ? tags.filter(tag => !SYSTEM_TAGS.has(tag)) : [];
+
+// Feed categories retain their historical editorial policy. Public topic pages instead
+// exclude collection names via SYSTEM_TAGS; personal/site-meta remain genuine topics.
+const tagsToFilterFromFeeds = [
+  'posts',
+  'all',
+  'notes',
+  'timeline',
+  'bookmarks',
+  'feed',
+  'personal',
+  'site-meta'
+];
+const filterTagsFromFeeds = array => {
   return array.filter(item => !tagsToFilterFromFeeds.includes(item));
 };
 
@@ -164,8 +160,6 @@ export {
   formatDate,
   toAbsoluteUrl,
   stripHtml,
-  minifyCss,
-  minifyJs,
   mdInline,
   splitlines,
   jsonToString,
@@ -176,3 +170,33 @@ export {
   stripIndex,
   filterTagsFromFeeds
 };
+
+export default function filtersPlugin(config) {
+  for (const [name, fn] of Object.entries({
+    publicTags,
+    bookmarkUrl,
+    limit,
+    toHtml,
+    where,
+    toIsoString: toISOString,
+    formatDate,
+    toAbsoluteUrl,
+    stripHtml,
+    slugify: slugifyString,
+    toJson: JSON.stringify,
+    fromJson: JSON.parse,
+    md: mdInline,
+    splitlines,
+    keys: Object.keys,
+    values: Object.values,
+    entries: Object.entries,
+    jsonToString,
+    longAgo,
+    dateDiff,
+    excludeTag,
+    dateForFeed,
+    stripIndex,
+    filterTagsFromFeeds
+  }))
+    if (fn) config.addFilter(name, fn);
+}

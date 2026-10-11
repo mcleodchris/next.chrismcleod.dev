@@ -1,9 +1,4 @@
-[[plugins]]
-package = "netlify-plugin-cache"
-  [plugins.inputs]
-  paths = [ ".cache" ]
-
-
+# Historical hosting rules retained until the Bunny dashboard audit is complete.
 [[headers]]
     for = "/*"
     [headers.values]

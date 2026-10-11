@@ -1,18 +1,12 @@
 #!/usr/bin/env node
+import {slugifyString} from '../config/utils/index.js';
 
-import { Command } from 'commander';
-import { input } from '@inquirer/prompts';
-import { ContentGenerator } from './content-generator.js';
-import { generateFrontmatter } from './shared-utils.js';
+import {Command} from 'commander';
+import {input} from '@inquirer/prompts';
+import {ContentGenerator} from './content-generator.js';
+import {generateFrontmatter} from './shared-utils.js';
 
-// Helper to slugify a string
-function slugify(str) {
-  return str
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .replace(/--+/g, '-');
-}
+const slugify = slugifyString;
 
 async function main() {
   const program = new Command();
@@ -21,10 +15,10 @@ async function main() {
   // Prompt for title and tags
   const title = await input({
     message: 'Enter the post title:',
-    validate: input => input.trim() ? true : 'Title cannot be empty.',
+    validate: input => (input.trim() ? true : 'Title cannot be empty.'),
     required: true
   });
-  
+
   const tags = await input({
     message: 'Enter comma-separated tags (optional):'
   });
@@ -37,14 +31,15 @@ async function main() {
   // Parse and slugify tags
   let tagsArray = [];
   if (tags) {
-    tagsArray = tags.split(',')
+    tagsArray = tags
+      .split(',')
       .map(tag => slugify(tag.trim()))
       .filter(tag => tag.length > 0);
   }
 
-  const content = generateFrontmatter(undefined, undefined, { 
-    title, 
-    tags: tagsArray 
+  const content = generateFrontmatter(undefined, undefined, {
+    title,
+    tags: tagsArray
   });
 
   generator.createContent(filename, content);

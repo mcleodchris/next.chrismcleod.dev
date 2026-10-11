@@ -1,0 +1,739 @@
+{
+  "reviewStatus": "pending-owner-review",
+  "reviewDigest": "61f179e8c79d4eb22471f8c68e41ba2a5ca5e3ecb4c2bb48446fdefbf2bdcbf4",
+  "files": [
+    {
+      "file": "src/posts/2005-08-06-home-from-hospital.md",
+      "hash": "47930c2192b2f4c56b984e703b6e246d41f3cfa66e40ca2387165923b9162167",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2011-02-14-i-used-to-be-punk-rock.md",
+      "hash": "600c04c113b9462e987b573b908d69f54ee781e90301b797a9c20b7117749d5f",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2011-03-13-improve-your-htc-desire-hd-battery-life.md",
+      "hash": "617969f615f0baa167130e19708dbff718baa823a4b794bf4a28723cc80079ca",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2012-01-15-block-ads-and-other-web-nasties-with-a-hosts-file.md",
+      "hash": "6e4eec17137ccb69f4f44fb9a6d8a150d4a2825bebc710e175277de4c718c8f8",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2012-07-22-6-hours-of-switching-from-sparrow-to-apple-mail.md",
+      "hash": "c50e014ad9c5224cb9032866e7d9a7ae9ed3308de1982509af7de45e75010cca",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2012-08-12-the-gospel-of-the-flying-spaghetti-monster.md",
+      "hash": "3faab1f1a6974a5ea7f4f0739b43509ed29067b6551a84783c24ce0fd19b0825",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2012-08-14-10-years-of-daring-fireball.md",
+      "hash": "0b3e7d853cda1a98a05514a03d038078f6b05370caa3d9563e7a44ecb7b089b5",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2012-11-03-review-angel-exterminatus-graham-mcneill.md",
+      "hash": "8c66b655931b80e188513719a10cacf3b7b764b6e19c29dbc29441421aa49b97",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2012-12-28-things-to-do-with-your-raspberry-pi.md",
+      "hash": "2ccb3649f8b6369561caa7f55f660565d555a224ff8bf4d76048735332e008d5",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2012-12-30-returning-to-warhammer-40000-the-game.md",
+      "hash": "14945d170e68a7c51d63023897a46b67fd869e130b8a0b685c8b05f957231e1f",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2013-08-25-forget-deleting-even-deactivating-your-facebook-account-can-be-difficult.md",
+      "hash": "4c705f32714cb0f1978b1329efa8f7f26701732ad739745d82fdf02da77b9832",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2013-09-03-smartphones-social-interactions-and-disconnecting.md",
+      "hash": "7c1976b12d9440107b82b1b66b92db3af7598018e8322b83501f1f5875beb3d3",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2013-09-17-licensing-your-open-source-code.md",
+      "hash": "ee336e7f4ad6007672c6cc6b167dfa4e61ec745403dc23c8bde393b9c52a30f7",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2013-12-22-rip-winamp.md",
+      "hash": "183dbc1e3a986f57e53ca1d716c99f8b719b646a1ba95322c86e72b4530b93fd",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2014-05-02-answering-some-questions-on-online-dating.md",
+      "hash": "7edb2bfd401d4a93931e33b87d9293bf29c353604e953f74b3ec4bf8ef4ac577",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2014-05-07-lets-talk-about-warhammer-40000-7th-edition.md",
+      "hash": "d877623124414bf8565663ca87f68efe9f1a15e8eb9aed1a7e0a3cdf981e3422",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2014-09-08-the-return-of-space-hulk.md",
+      "hash": "bb0707f986c06a0593e7cbec9b04118353557a18697d59e436042065fa0129a8",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2014-11-13-abe-gives-good-advice.md",
+      "hash": "258c2b697f21d0d42d6dfadb24d39d8438d4eff58a509fd54659682a362f241a",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2014-11-13-hell-froze-over.md",
+      "hash": "9f1601372c937bf01bd1c7fd332e1d27f9a2e09ff8bfec31df44ff4d7be04eaf",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2014-11-14-tokaido.md",
+      "hash": "1331afdaca38bd2048e9dc5ddc1b20e0a75de7fbd3ed064f80e184fff1f46cfc",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2014-11-28-use-this-not-that.md",
+      "hash": "28783abcab075728d918a9636106dcffb8b46503fb203c26fcfff5a58486fbc8",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2015-01-16-the-desks-of-basecamp.md",
+      "hash": "8a4f8caf6d38d18a86fb927bb270919c4ab9b8315fd33ccf7b7d115ba6ec2129",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2015-01-28-good-job-microsoft.md",
+      "hash": "1009153557663ecf2fa5de0ab3c1a1663e9de2d5c2265cb1a26cb6e331e51bc4",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2015-02-04-this-is-how-beautiful-a-flipped-over-iceberg-looks.md",
+      "hash": "242e70b8140970bd63856dcc07bbdaa56f8a7f647232ca881e74ed1a23e7eb78",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2015-02-12-seems-legit.md",
+      "hash": "be36b67f2be07a9feab753911f63222bd8766e7c18eb6140e398430527842731",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2015-02-20-typing-on-my-work-laptop-just-got-300-better.md",
+      "hash": "56dd810d51b90956932c8f4f83814d113ea1adfe74373039d7b09134969baad7",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2015-02-26-sans-bullshit-sans.md",
+      "hash": "d98c8ac1ac83c5e16d6e194bb2212e53503fcfa4ef7bb10b3404ab8e734aee57",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2015-03-07-crochet-loki-is-the-cutest.md",
+      "hash": "cb4101ea9ea81d5a95ee23fd4404f084e22d5580ce1af5d42951f0713e4d523f",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2015-03-16-broadband-usage.md",
+      "hash": "e774a5ec06284d61cd1f191743b9f0eadd42ca0437cc42a097a526f6de6ee518",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2015-07-16-starcraft-2-legacy-of-the-void-pre-order-goes-live-my-life-for-aiur.md",
+      "hash": "0ce60542d072faf2fd50262d0d3d02649d081e020c91544ab44ce2f7f885b35f",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2015-07-30-icloud-photo-library-is-great-when-it-works-but-it-doesnt-work-for-me.md",
+      "hash": "815eb80d22a6369b474f65f0a2e0f037fea1eb357e16efc960996cd89a5b2cbd",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2015-11-25-first-trailer-for-captain-america-civil-war-released.md",
+      "hash": "5028e9e98a4fae497a7b29e20f3eee3b1b7d14ff3a321e2cd79feee00aa142d1",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2015-12-04-an-answer-from-forge-world-about-missing-volkite-weapon-kits.md",
+      "hash": "18cd3f9a45770e20661eaebc450429f2ab5a6950781520542c139cb4ae0d64c3",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2017-01-04-getting-started-with-online-privacy-and-security-in-2017-introduction.md",
+      "hash": "989d2a63cc2f1dfc9a8e2ecf562e5a2107cefa7b5c3ccfd0ca460afe6514a4dd",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-08-13-august-17th-is-twitter-deactiday.md",
+      "hash": "0090f19002818d0ff9c851d09f586923e267089ce041f3d74a3e6657e591d777",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-08-20-video-game-prints.md",
+      "hash": "342c79e2d655e1feeba6780e3accaa9685036569a19da31b60e5e306f0c36589",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-08-20-warhammer-40000-primaris-space-marine-ancient-conversion.md",
+      "hash": "a74b1b3aea42aff426c8342085fc240b2127a21f6a38e578a3075ca77f93f0f1",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-08-21-armies-on-parade-starting-the-display-board.md",
+      "hash": "50441ec11fcea125240e60b9ae7ad21dc2bdbab2244bc13785a7d4d17ace3823",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-08-21-warhammer-40000-primaris-space-marine-lieutenant-conversion.md",
+      "hash": "0063b5f1c886868654610100d2f4760c3e47225a9b526c096a57df52672d938c",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-08-24-a-fossil-from-a-bygone-era.md",
+      "hash": "f496d0c427027fc9e97c9904b42a1fd24f5ad424013263f686905905c1220830",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-08-29-armies-on-parade-board-update.md",
+      "hash": "55737ba7623a7285a6408f65b93bd1838455aeb4094bf1af15cc5248e1823371",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-08-30-armies-on-parade-quick-board-update.md",
+      "hash": "143dced48615ee659d48c9623308889c94466909b4f6477c31acfef7bec45696",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-08-31-armies-on-parade-a-test-fit.md",
+      "hash": "7666d95d4b0d3e11ea90ac98e21bd05d82d0e70825ea7f52dfbeebbf1b59250a",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-09-03-goodnight-sweet-prince.md",
+      "hash": "75548557c2be3f031927004f721019f02bb0b9cfb9e411823022c776224724a4",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-09-04-armies-on-parade-painting-begins.md",
+      "hash": "ea30939ae12c6a395a9f8d631a09c19bc70f919c8ab29a2ea502de572248f62b",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-09-06-when-scammers-come-knocking.md",
+      "hash": "78ee4d0e99cbaafe00cbb58f64ee9ff3b194d5414ac25c0422371667003964a3",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-09-07-armies-on-parade-painting-update-1.md",
+      "hash": "9b73a0d97d0555399181641c995eb5565f5337e82e07669b43a22e9421a92331",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-09-09-age-of-sigmar-lord-of-blights.md",
+      "hash": "c04dd00690cf48fb5acd66a1fb4c1702530f64a3f91aba2e627c8c2464ea0487",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-09-09-mark-gibbons-90s-warhammer-artwork.md",
+      "hash": "42c0b6a9c912463f468890956890e41d2915b9eb4286f5dccc92bb2667c13e5b",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-09-09-the-lord-of-the-rings-arwen.md",
+      "hash": "e6d800ee1f89573fcffd54dab59a8249da01473ca55acdcb09fe929dd2751e06",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-09-10-armies-on-parade-painting-update-2.md",
+      "hash": "aebce4e51d5c335ac7fb21627d9021453abb6cf272eea642174fb90a287b8666",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-10-24-assassins-creed-odyssey.md",
+      "hash": "aa0bbdd3c48ce515a062a33c9c9ed0a6fe3a322b6f178fd5309c4ed4227d7d5b",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2018-11-01-whatever-this-miniature-is-i-want-it-and-more-like-it.md",
+      "hash": "8b8f14fcc36cf8899dc9d1ed28869f91fddc36a157965a6a6784cf35932aca1a",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-01-02-completed-order-of-the-eternal-saint-for-painthammer2019.md",
+      "hash": "c0df3d1518213a8ac9f2d3358389ae3382b32fe3458563f82626bb78e39ba69f",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-01-21-experiences-with-cloudflare-blocking-bridgy.md",
+      "hash": "c40355e4b2f79d36002daf70492f1f95e00f55e0d2da64ecfea2f701f1be5a32",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-02-26-indieweb-textpattern-updated-with-a-guide-to-indieauth.md",
+      "hash": "bc06dce94836b0642583498aac677e3848095cfae43bcd9d3ff85ef90679b983",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-04-26-notes-from-installing-manjaro-linux.md",
+      "hash": "a73c244bdb7036c9991b1214ebf6a11631ba6f52bc3f1f1fd9866d60fb33b265",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-05-27-mark-all-read-in-monocle.md",
+      "hash": "96dd5147b4819650ef45838f1671a946b8c934ca9332fd2654e88e44a0f407b2",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-06-06-adding-instagram-to-a-social-reader.md",
+      "hash": "137cc61067e76c0494f532a27e4986c9e9ba24e7df0a1be3713d91d92a3a22b7",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-06-14-8475.md",
+      "hash": "1eea28455c77599268077379a059a4454914c8467d51d0d4e32d225126bf89f6",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-06-29-8675.md",
+      "hash": "2c26d8dbeca9df5ae0d96c33cacbbeade9510ee32d56e6133522b7b9874eaf9f",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-06-30-8716.md",
+      "hash": "39cab2a40fc4a63bbab820a59b7581701a8d4cb8632e2b5243a06ac95d956071",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-07-08-indieweb-sharing-with-ios-shortcuts.md",
+      "hash": "310c685f89681c0f5ef852e005b7c3679454f5fe54bcdd8870162b8883e6d57f",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-07-22-watched-john-wick-chapter-2-2017.md",
+      "hash": "97d98268635dd8ef292f826903c84a58ac41150300498a252a498114bd8897f4",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-07-29-project-santic.md",
+      "hash": "f02fdfe436c4a54aad19620c9ef151ab1e006884acb01cb8a84f5d6a76ca9948",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-08-10-9212.md",
+      "hash": "5e98b7c8509202779f798ca060a5c5ab38a7b08e04d5a23268c2c0304fba1e05",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-10-07-dark-mode.md",
+      "hash": "0bd55f316eefed57a0980a4d0642bff292dae1c7183c984fb017760fd89b702e",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-11-27-movember.md",
+      "hash": "a8028c0e62a03aba2229f2c691ac12653668a032d152c02c65276292995f84d8",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2019-12-07-unboxing-darkness-in-the-blood-by-guy-haley.md",
+      "hash": "f8e581ada027127ae1ec5001144520c483cd56c34d3981fdb35a2b6ae5a9fd6a",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2020-02-15-10736.md",
+      "hash": "f310f6f8d4a852e0b29b820cad936ac79ef7ff195ec48ebb4afbc57dcb6f4c4a",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2020-05-21-microsoft-certified-azure-fundamentals.md",
+      "hash": "f6b7bec5e072db0fcc8f63e731e029ecfd8f86f202b6c932e7d20d93b1cc8511",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-02-04-talking-to-myself.md",
+      "hash": "4350dbc3c34c8a3e99d9b70afe3c37ec642a774dcbcd9f9525cabf768b6bba84",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-02-09-first-snow.md",
+      "hash": "8212a91788f9bdafce2923d9c16e3a91278714e74b69aaf37d4daaedcc997bd7",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-02-24-vaccination-jab-1.md",
+      "hash": "67c0b060350b8ce224c5aa27e5d1efc5b10b67e2bda75df5a43c3ac1c367dd73",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-03-02-el-gato.md",
+      "hash": "8a7e533bfd3e520e4ecfed65ea0dc44fb7a2ed4759cc954b7214bb21cc2288f3",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-03-04-world-book-day-2021.md",
+      "hash": "5c95de3e513534466b99512ff6fc44bea0a58fab388a03b169242711446ad301",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-04-28-vaccination-jab-2.md",
+      "hash": "8f1387d7ec336e60222b8440e19b921c437e5d099ca679e0f276da0fe214f427",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-05-05-mesh.md",
+      "hash": "f88410b9abb42222165d554dcd555856d874e9a1ee9efafadb9019db51f5516c",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-05-22-alpharius-head-of-the-hydra-by-mike-brooks.md",
+      "hash": "07159ab4ba076c56879297a0141aaef4ccbd0f9f011ffb4e0c03392751902226",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-06-01-microsoft-certified-azure-data-fundamentals.md",
+      "hash": "c9622f5869afb05bb359f264c2d6a59d42e05fdfd514db7c6f7571fc1e8c541f",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-06-13-microsoft-certified-power-platform-fundamentals.md",
+      "hash": "a956bfbecc5c22fd6fa63e6e8e7b2d82f2fc713e43b52c2554e14b72e22ad6e9",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-06-18-powers-of-darkness.md",
+      "hash": "4d92fdd6c44f9e3be7597ea97535bfd7f1950ac42d7f9f9367b643f0ab6dda7f",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-06-22-aberdeen-art-gallery-june-2021.md",
+      "hash": "51e7be58f4812c79c5b8d952d7990c19b13a183c4aca52da3d666b3c5518ab18",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-06-26-microsoft-certified-azure-ai-fundamentals.md",
+      "hash": "d035806a309cb9251a78fa43072c1000fa44201b95f617250afcdec7709c29e4",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-07-16-summer-heat.md",
+      "hash": "8a3cb5dff033c7a0345f8d8703d072ab21ce1d0f7b1855851b22d9d81606e42c",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-07-29-microsoft-certified-security-compliance-and-identity-fundamentals.md",
+      "hash": "c86f1af02cfa1f8aec6ce8f2bc23ae560e40d8486ea2debf955f745a9452b36f",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2021-08-23-microsoft-certified-microsoft-365-fundamentals.md",
+      "hash": "b0f2ff04e37f74952f6aa50b9b283fc30bd68eca89c8bbee9351eeb540f75fc7",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2022-03-12-use-rsync-to-copy-large-folders-on-windows.md",
+      "hash": "1ba843358e3a862178fc91772abdbffca6a1e7c60ee88314c3de0db226d9a62c",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2022-03-31-microsoft-certified-azure-developer-associate.md",
+      "hash": "b8e95962ea89612f755d67334c38bc25833bed7c4290b4458f6ca3a2da53a84c",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2022-04-29-microsoft-surface-studio-laptop.md",
+      "hash": "b356f65ac0c28d4aa2d47de5890d5098123d5b671c47f8109371323b66fa70b7",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2022-05-02-seedballs.md",
+      "hash": "76e6b6791c240f8085666ee7dfd2b8f5dd518da32bc062c8c22f96a7adbff694",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2022-12-22-updating-apps-updating-skills.md",
+      "hash": "56fbc18b993831eb5445a918cf65eb0b839307e3feeb19ddea1b7eb938a5dd2d",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2022-12-24-my-first-prototype.md",
+      "hash": "f8562703136b6edbb304b7942928e4070c07a413614aa374c736d1325ac82777",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2022-12-31-to-be-read.md",
+      "hash": "4a5c8d345ac4665730e45fbc7426773855a7ea5820b3cfd017aee0187cc5c9d1",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2023-01-04-activitypub-vs-jetpack-boost.md",
+      "hash": "143c6e40b11c3f05e447832cd393624f714acf9555f15bdd1e94afd3eb1b81d4",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2023-01-05-magpuck-prototype-v2.md",
+      "hash": "0a6ade174b18ed0b5c8a00fb9655cdf936dd445cbf6c4301a4feb3affa67bc58",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2023-01-11-oh-lychee-you-tried.md",
+      "hash": "2c478dcc5de2274b9385c086c6aa6a02151c4e97e34357c2f8b56f989ed341c4",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2023-01-12-supports.md",
+      "hash": "50709f948ad9cbdc11ede43bc96061a28deea8835bf4fd5acfa01c0f4945abd0",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2023-05-25-microsoft-certified-azure-devops-engineer-expert.md",
+      "hash": "1028db88bb05ecd137e216b14c81d9dbe9e41c369c6ea3fc63968a9ccc27cdc4",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2023-07-10-installing-threads-on-windows-11.md",
+      "hash": "545a1bac5daa9a7c2cdfea838ce5e95992b7b14e130e82a34c84287f546a8530",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2023-12-17-certified-devops-institute-site-reliability-engineering-foundation.md",
+      "hash": "c77b5318f6037ecbe3909d90bb5b09fc809530874798103d98dcdc4ce12fb986",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2024-02-06-adventures-in-containerising-legacy-php-for-azure.md",
+      "hash": "5b26410494764449096d03df0ad7c8e7382096944dfd221fabf93f856d2bca45",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2024-02-11-more-words-on-webmentions-and-backfeed.md",
+      "hash": "7eb2960a314b1bec9a2cb4f0fcc0a113b35a8b21b1c6c83b76f9536bb1878483",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2024-02-25-green-software-for-practitioners.md",
+      "hash": "54e7fafbad293cc2ad69dda8cba7c46341ad0c49a9a8a9f0ac633360d79db085",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2024-06-07-restoring-more-old-posts.md",
+      "hash": "9d2c60a339aff82be1eb20cc2b749a30ed3fe2bb48524d36c4d9d09d9792fa00",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2025-01-19-fediverse-bridging.md",
+      "hash": "2796b254806ba57cdede96f0b02df39ed44fdca14279846c91c8cd3c80c53813",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2025-01-24-whimsy-is-enough.md",
+      "hash": "0ab5c6aec5adff8c866625c1ed813f8b0cd42edfa7abd8375c1c04a1514041fe",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2025-02-04-new-paint-same-blog.md",
+      "hash": "845413d36cf5b51ca6b311350223227b21da69284a2221be5d248b1a7055e640",
+      "action": "update",
+      "announcement": false
+    },
+    {
+      "file": "src/posts/2026-02-01-my-changing-media-landscape.md",
+      "hash": "9456ba2720858d71bc0e43c3d7d5d1734ccaa3c1342cd4272f0f330f5d3b5e49",
+      "action": "update",
+      "announcement": false
+    }
+  ],
+  "exceptions": [
+    {
+      "file": "src/pages/index.md",
+      "line": 13,
+      "reason": "presentation options",
+      "args": [
+        "\"https://assets.chrismcleod.dev/chrismcleod.dev/assets//9d049e30-cdc7-4a26-9bdb-db34bb57b867.png\"",
+        "\"a computer-generated illustration of Chris McLeod\"",
+        "\"\"",
+        "\"\"",
+        "\"rounded-full u-photo\"",
+        "0"
+      ]
+    },
+    {
+      "file": "src/posts/2025-01-19-fediverse-bridging.md",
+      "line": 30,
+      "reason": "presentation options",
+      "args": [
+        "\"https://assets.chrismcleod.dev/chrismcleod.dev/assets/71432c05-ff6b-4bbe-bcfb-e5cc4d0410fc.png\"",
+        "\"This image is a screenshot of a private mention from “Bridgy Fed for Bluesky,” informing the user that their account will soon be bridged to Bluesky. It includes a URL to the bridged profile and links to documentation and the user page for more information. The message also explains how to disable the bridge by blocking the account.\"",
+        "\"\"",
+        "\"(min-width: 55rem) 820px, 100vw\"",
+        "true",
+        "\"320,570\""
+      ]
+    },
+    {
+      "file": "src/posts/2025-01-19-fediverse-bridging.md",
+      "line": 79,
+      "reason": "presentation options",
+      "args": [
+        "\"https://assets.chrismcleod.dev/chrismcleod.dev/assets/6234d3af-ae6c-470b-a19d-c716eb71adfb.png\"",
+        "\"This image is a screenshot of a private mention conversation between Chris M. (@chrisplusplus) and “Bridgy Fed for Bluesky.” Chris M. requests to set their username to “masto.chrismcleod.social.” Bridgy Fed responds confirming that the username in Bluesky has been set to “masto.chrismcleod.social” and notes that it should appear soon.\"",
+        "\"\"",
+        "\"(min-width: 55rem) 820px, 100vw\"",
+        "true",
+        "\"320,570\""
+      ]
+    },
+    {
+      "file": "src/posts/2025-01-19-fediverse-bridging.md",
+      "line": 83,
+      "reason": "presentation options",
+      "args": [
+        "\"https://assets.chrismcleod.dev/chrismcleod.dev/assets/07328152-d534-4ba3-85b8-2f1b93a06e28.png\"",
+        "\"This image is a screenshot of a user profile for “Chris M.” on Bluesky. The username “@masto.chrismcleod.social” is highlighted. The profile includes a description: “Online since before some of you were born. Tired. Lead Software Developer, but I’m not allowed to talk about it. He/him/his. Scotland.” It also mentions that the account is bridged from “social.lol/@chrisplusplus” on the Fediverse by “fed.brid.gy.” The profile shows 1 follower, 0 following, and 5 posts. A “Bridgy User” badge is visible.\"",
+        "\"\"",
+        "\"(min-width: 55rem) 820px, 100vw\"",
+        "true",
+        "\"320,570\""
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "file": "src/posts/2023-01-12-supports.md",
+      "reason": "Unused front matter image URL returned 404; use the verified original already referenced by the post body."
+    }
+  ],
+  "verification": {
+    "date": "2026-10-10",
+    "cliVersion": "0.5.7",
+    "credentialSource": "existing Sequoia login",
+    "baseline": {
+      "updates": 0,
+      "creates": 0,
+      "announcements": 0,
+      "result": "up-to-date"
+    },
+    "migration": {
+      "updates": 109,
+      "creates": 0,
+      "announcements": 0,
+      "validation": "complete"
+    },
+    "publicationStateUnchanged": true,
+    "published": false
+  }
+}

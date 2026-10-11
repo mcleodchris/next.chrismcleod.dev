@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ meta.url }}{% if feed.legacy %}/{% endif %}">
+  <title>{% if feed.legacy and feed.kind == 'bookmarks' %}{{ meta.bookmarks.name }}{% else %}{{ meta.blog.name }}{% if not feed.legacy %} — {{ feed.name }} — Atom Feed{% endif %}{% endif %}</title>
+  <subtitle>{% if feed.legacy and feed.kind == 'bookmarks' %}{{ meta.bookmarks.description }}{% else %}{{ meta.blog.description }}{% endif %}</subtitle>
+  <link href="{{ feed.permalink | absoluteUrl(meta.url) }}" rel="self" />
+  <link href="{{ meta.url }}{% if feed.legacy %}/{% endif %}" />
+  <updated>{{ collections[feed.collectionName] | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{% if feed.legacy %}{{ meta.url }}/{% else %}{{ feed.permalink | absoluteUrl(meta.url) }}{% endif %}</id>
+  <author><name>{{ meta.author }}</name><email>{{ meta.authorEmail }}</email></author>
+  {%- for post in collections[feed.collectionName].slice(0,feed.limit) %}
+  {%- set absolutePostUrl = post.url | absoluteUrl(meta.url) %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{% if feed.legacy and feed.kind == 'bookmarks' %}{{ post.data | bookmarkUrl }}{% else %}{{ absolutePostUrl }}{% endif %}" />
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content xml:lang="{{ meta.lang }}" type="html">{{ post.templateContent | enrichImages | htmlToAbsoluteUrls(absolutePostUrl) }}{% if feed.legacy and feed.kind == 'bookmarks' %}{% if post.templateContent %}&lt;hr&gt;{% endif %}&lt;p&gt;{{ post.data.feedFooter | md | htmlToAbsoluteUrls(absolutePostUrl) }}&lt;/p&gt;{% endif %}</content>
+  </entry>
+  {%- endfor %}
+</feed>

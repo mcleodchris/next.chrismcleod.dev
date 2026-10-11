@@ -1,0 +1,1217 @@
+{
+  "removedRoutes": {
+    "/tags/all/": "Internal collection name is not an authored public topic.",
+    "/tags/bookmark/": "Internal collection name is not an authored public topic.",
+    "/tags/bookmarks/": "Internal collection name is not an authored public topic.",
+    "/tags/bookmarksFeed/": "Internal collection name is not an authored public topic.",
+    "/tags/bookmarksForFeed/": "Internal collection name is not an authored public topic.",
+    "/tags/graph/": "Internal collection name is not an authored public topic.",
+    "/tags/notes/": "Internal collection name is not an authored public topic.",
+    "/tags/notesForFeed/": "Internal collection name is not an authored public topic.",
+    "/tags/posts/": "Internal collection name is not an authored public topic.",
+    "/tags/postsForFeed/": "Internal collection name is not an authored public topic.",
+    "/tags/subscriptions/": "Internal collection name is not an authored public topic.",
+    "/tags/tagList/": "Internal collection name is not an authored public topic.",
+    "/tags/timeline/": "Internal collection name is not an authored public topic.",
+    "/warcraft/warcraft.json": "Disabled Warcraft integration always emitted an empty array; no active consumers."
+  },
+  "addedRoutes": {
+    "/2020/05/21/microsoft-certified-azure-fundamentals/": "Compatibility redirect to https://chrismcleod.dev/blog/microsoft-certified-azure-fundamentals/.",
+    "/2021/01/01/objectives-for-2021/": "Compatibility redirect to https://chrismcleod.dev/blog/objectives-for-2021/.",
+    "/2021/01/14/keybow/": "Compatibility redirect to https://chrismcleod.dev/blog/keybow/.",
+    "/2021/01/16/a-typical-day/": "Compatibility redirect to https://chrismcleod.dev/blog/a-typical-day/.",
+    "/2021/01/18/15-minutes/": "Compatibility redirect to https://chrismcleod.dev/blog/15-minutes/.",
+    "/2021/01/26/8-minutes/": "Compatibility redirect to https://chrismcleod.dev/blog/8-minutes/.",
+    "/2021/02/04/talking-to-myself/": "Compatibility redirect to https://chrismcleod.dev/blog/talking-to-myself/.",
+    "/2021/02/09/first-snow/": "Compatibility redirect to https://chrismcleod.dev/blog/first-snow/.",
+    "/2021/02/09/promotion-panel-post-mortem/": "Compatibility redirect to https://chrismcleod.dev/blog/promotion-panel-post-mortem/.",
+    "/2021/02/24/vaccination-jab-1/": "Compatibility redirect to https://chrismcleod.dev/blog/vaccination-jab-1/.",
+    "/2021/02/26/side-effects/": "Compatibility redirect to https://chrismcleod.dev/blog/side-effects/.",
+    "/2021/03/02/el-gato/": "Compatibility redirect to https://chrismcleod.dev/blog/el-gato/.",
+    "/2021/03/04/world-book-day-2021/": "Compatibility redirect to https://chrismcleod.dev/blog/world-book-day-2021/.",
+    "/2021/03/29/emosnotdead/": "Compatibility redirect to https://chrismcleod.dev/blog/emosnotdead/.",
+    "/2021/04/04/zone-of-control/": "Compatibility redirect to https://chrismcleod.dev/blog/zone-of-control/.",
+    "/2021/04/10/on-off/": "Compatibility redirect to https://chrismcleod.dev/blog/on/off/.",
+    "/2021/04/26/an-endless-loop/": "Compatibility redirect to https://chrismcleod.dev/blog/an-endless-loop/.",
+    "/2021/04/26/vaccination-jab-228/": "Compatibility redirect to https://chrismcleod.dev/blog/vaccination-jab-2/.",
+    "/2021/04/30/hey-%f0%9f%91%8b%f0%9f%8f%bb-goodbye/": "Compatibility redirect to https://chrismcleod.dev/blog/hey-👋🏻-goodbye/.",
+    "/2021/05/05/mesh/": "Compatibility redirect to https://chrismcleod.dev/blog/mesh/.",
+    "/2021/05/21/summer-of-certification/": "Compatibility redirect to https://chrismcleod.dev/blog/summer-of-certifications/.",
+    "/2021/05/22/alpharius-head-of-the-hydra-by-mike-brooks/": "Compatibility redirect to https://chrismcleod.dev/blog/alpharius-head-of-the-hydra-by-mike-brooks/.",
+    "/2021/06/01/microsoft-certified-azure-data-fundamentals/": "Compatibility redirect to https://chrismcleod.dev/blog/microsoft-certified-azure-data-fundamentals/.",
+    "/2021/06/13/microsoft-certified-power-platform-fundamentals/": "Compatibility redirect to https://chrismcleod.dev/blog/microsoft-certified-power-platform-fundamentals/.",
+    "/2021/06/18/powers-of-darkness/": "Compatibility redirect to https://chrismcleod.dev/blog/powers-of-darkness/.",
+    "/2021/06/22/aberdeen-art-gallery-june-2021/": "Compatibility redirect to https://chrismcleod.dev/blog/aberdeen-art-gallery-june-2021/.",
+    "/2021/06/26/microsoft-certified-azure-ai-fundamentals/": "Compatibility redirect to https://chrismcleod.dev/blog/microsoft-certified-azure-ai-fundamentals/.",
+    "/2021/07/16/summer-heat/": "Compatibility redirect to https://chrismcleod.dev/blog/summer-heat/.",
+    "/2021/07/29/microsoft-certified-security-compliance-and-identity-fundamentals/": "Compatibility redirect to https://chrismcleod.dev/blog/microsoft-certified-security-compliance-and-identity-fundamentals/.",
+    "/2021/08/16/appraisal/": "Compatibility redirect to https://chrismcleod.dev/blog/appraisal/.",
+    "/2021/08/17/results-may-vary/": "Compatibility redirect to https://chrismcleod.dev/blog/results-may-vary/.",
+    "/2021/08/19/varying-degrees-of-depth/": "Compatibility redirect to https://chrismcleod.dev/blog/varying-degrees-of-depth/.",
+    "/2021/08/23/microsoft-certified-microsoft-365-fundamentals/": "Compatibility redirect to https://chrismcleod.dev/blog/microsoft-certified-microsoft-365-fundamentals/.",
+    "/2021/09/01/some-development-environment-notes/": "Compatibility redirect to https://chrismcleod.dev/blog/some-development-environment-notes/.",
+    "/2021/10/27/a-belated-check-in/": "Compatibility redirect to https://chrismcleod.dev/blog/a-belated-check-in/.",
+    "/2021/11/11/a-few-useful-react-links/": "Compatibility redirect to https://chrismcleod.dev/blog/a-few-useful-react-links/.",
+    "/2021/12/17/fixing-create-react-app/": "Compatibility redirect to https://chrismcleod.dev/blog/fixing-create-react-app/.",
+    "/2022/03/12/use-rsync-to-copy-large-folders-on-windows/": "Compatibility redirect to https://chrismcleod.dev/blog/use-rsync-to-copy-large-folders-on-windows/.",
+    "/2022/03/31/microsoft-certified-azure-developer-associate/": "Compatibility redirect to https://chrismcleod.dev/blog/microsoft-certified-azure-developer-associate/.",
+    "/2022/04/28/going-independent-again/": "Compatibility redirect to https://chrismcleod.dev/blog/going-independent-again/.",
+    "/2022/04/29/microsoft-surface-studio-laptop/": "Compatibility redirect to https://chrismcleod.dev/blog/microsoft-surface-studio-laptop/.",
+    "/2022/05/02/seedballs/": "Compatibility redirect to https://chrismcleod.dev/blog/seedballs/.",
+    "/2022/11/01/ai-vs-artists/": "Compatibility redirect to https://chrismcleod.dev/blog/ai-vs-artists/.",
+    "/2022/11/08/slow-cial-media/": "Compatibility redirect to https://chrismcleod.dev/blog/slow-cial-media/.",
+    "/2022/12/02/how-to-host-mastodon-on-a-cloud-raspberry-pi/": "Compatibility redirect to https://chrismcleod.dev/blog/how-to-host-mastodon-on-a-cloud-raspberry-pi/.",
+    "/2022/12/02/micro-blog-adds-tentative-support-for-moving-from-mastodon/": "Compatibility redirect to https://chrismcleod.dev/blog/microblog-adds-tentative-support-for-moving-from-mastodon/.",
+    "/2022/12/02/ooh-directory/": "Compatibility redirect to https://chrismcleod.dev/blog/oohdirectory/.",
+    "/2022/12/16/warhammer-x-amazon/": "Compatibility redirect to https://chrismcleod.dev/blog/warhammer-x-amazon/.",
+    "/2022/12/22/updating-apps-updating-skills/": "Compatibility redirect to https://chrismcleod.dev/blog/updating-apps;-updating-skills/.",
+    "/2022/12/23/adventures-in-the-third-dimension/": "Compatibility redirect to https://chrismcleod.dev/blog/adventures-in-the-third-dimension/.",
+    "/2022/12/24/my-first-prototype/": "Compatibility redirect to https://chrismcleod.dev/blog/my-first-prototype/.",
+    "/2022/12/31/to-be-read/": "Compatibility redirect to https://chrismcleod.dev/blog/to-be-read/.",
+    "/2023/01/03/assassins-creed-valhalla/": "Compatibility redirect to https://chrismcleod.dev/blog/assassins-creed-valhalla/.",
+    "/2023/01/04/activitypub-vs-jetpack-boost/": "Compatibility redirect to https://chrismcleod.dev/blog/activitypub-vs-jetpack-boost/.",
+    "/2023/01/05/magpuck-prototype-v2/": "Compatibility redirect to https://chrismcleod.dev/blog/magpuck-prototype-v2/.",
+    "/2023/01/07/blogging-in-2023/": "Compatibility redirect to https://chrismcleod.dev/blog/blogging-in-2023/.",
+    "/2023/01/07/the-little-library/": "Compatibility redirect to https://chrismcleod.dev/blog/the-little-library/.",
+    "/2023/01/11/oh-lychee-you-tried/": "Compatibility redirect to https://chrismcleod.dev/blog/oh-lychee-you-tried/.",
+    "/2023/01/12/supports/": "Compatibility redirect to https://chrismcleod.dev/blog/supports/.",
+    "/2023/04/15/resource-notes-gpg-commit-signing-and-more/": "Compatibility redirect to https://chrismcleod.dev/blog/resource-notes-gpg-commit-signing-and-more/.",
+    "/2023/05/03/quick-fire-thoughts-on-bluesky/": "Compatibility redirect to https://chrismcleod.dev/blog/quick-fire-thoughts-on-bluesky/.",
+    "/2023/05/11/a-hello-world-for-bluesky-the-at-protocol/": "Compatibility redirect to https://chrismcleod.dev/blog/a-hello-world-for-bluesky/the-at-protocol/.",
+    "/2023/05/25/microsoft-certified-azure-devops-engineer-expert/": "Compatibility redirect to https://chrismcleod.dev/blog/microsoft-certified-azure-devops-engineer-expert/.",
+    "/2023/07/10/installing-threads-on-windows-11/": "Compatibility redirect to https://chrismcleod.dev/blog/installing-threads-on-windows-11/.",
+    "/2023/07/21/azure-static-web-apps-are-awesome/": "Compatibility redirect to https://chrismcleod.dev/blog/azure-static-web-apps-are-awesome!/.",
+    "/2023/07/24/come-on-barbie-lets-go-party/": "Compatibility redirect to https://chrismcleod.dev/blog/come-on-barbie-lets-go-party/.",
+    "/blog/1-paragraph-review-1-harry-potter-the-goblet-of-fire/": "Compatibility redirect to https://chrismcleod.dev/blog/1-paragraph-review-1-harry-potter-and-the-goblet-of-fire/.",
+    "/blog/10736/": "Compatibility redirect to https://chrismcleod.dev/blog/munchkin/.",
+    "/blog/10901/": "Compatibility redirect to https://chrismcleod.dev/blog/brushing-up-on-dotnet/.",
+    "/blog/10942/": "Compatibility redirect to https://chrismcleod.dev/blog/getting-dotnet-core-31-working-in-a-azure-devops-pipeline/.",
+    "/blog/1password-to-bitwarden-results/": "Compatibility redirect to https://chrismcleod.dev/blog/1password-to-bitwarden-migration-results/.",
+    "/blog/2019-u-k-general-election-random-thoughts/": "Compatibility redirect to https://chrismcleod.dev/blog/2019-uk-general-election-random-thoughts/.",
+    "/blog/7051/": "Compatibility redirect to https://chrismcleod.dev/blog/silo-quit-gmail/.",
+    "/blog/8475/": "Compatibility redirect to https://chrismcleod.dev/blog/genestealer-cults/.",
+    "/blog/8675/": "Compatibility redirect to https://chrismcleod.dev/blog/amalia-novena/.",
+    "/blog/8716/": "Compatibility redirect to https://chrismcleod.dev/blog/indieweb-ios-shortcuts/.",
+    "/blog/8832/": "Compatibility redirect to https://chrismcleod.dev/blog/assessing-web-page-weight/.",
+    "/blog/9212/": "Compatibility redirect to https://chrismcleod.dev/blog/mk1-imperial-rhino-restoration/.",
+    "/blog/9331/": "Compatibility redirect to https://chrismcleod.dev/blog/python/.",
+    "/blog/9354/": "Compatibility redirect to https://chrismcleod.dev/blog/post-processing-large-csv-files-using-the-cli/.",
+    "/blog/9764/": "Compatibility redirect to https://chrismcleod.dev/blog/inoreader/.",
+    "/blog/a-hello-world-for-bluesky-the-at-protocol/": "Compatibility redirect to https://chrismcleod.dev/blog/a-hello-world-for-bluesky/the-at-protocol/.",
+    "/blog/a-problem-with-build-times/": "Compatibility redirect to https://chrismcleod.dev/blog/i-have-a-problem-with-build-times/.",
+    "/blog/adding-bookmarks/": "Compatibility redirect to https://chrismcleod.dev/blog/adding-a-bookmarks-page/.",
+    "/blog/adding-mastodon-fediverse-creator-meta-tag/": "Compatibility redirect to https://chrismcleod.dev/blog/adding-the-new-mastodon-link-attribution-meta-tag/.",
+    "/blog/adding-site-search-to-eleventy-with-pagefind/": "Compatibility redirect to https://chrismcleod.dev/blog/adding-site-search-eleventy-pagefind-web-component/.",
+    "/blog/adventofcode-2024/": "Compatibility redirect to https://chrismcleod.dev/blog/how-im-doing-advent-of-code-in-2024/.",
+    "/blog/adventures-in-containerising-legacy-php-for-azure/": "Compatibility redirect to https://chrismcleod.dev/blog/adventures-in-containerising-a-legacy-php-app-for-azure/.",
+    "/blog/all-of-snapes-scenes-in-the-harry-potter-films-chronological-order/": "Compatibility redirect to https://chrismcleod.dev/blog/all-of-snapes-scenes-in-the-harry-potter-films-in-chronological-order/.",
+    "/blog/an-alternate-universe-marco-org/": "Compatibility redirect to https://chrismcleod.dev/blog/an-alternate-universe-marcoorg/.",
+    "/blog/android-4-1-jelly-bean-review-the-verge/": "Compatibility redirect to https://chrismcleod.dev/blog/android-41-jelly-bean-review-or-the-verge/.",
+    "/blog/armies-on-parade-painting-begins/": "Compatibility redirect to https://chrismcleod.dev/blog/armies-on-parade-painting-begins!/.",
+    "/blog/azure-static-web-apps-are-awesome/": "Compatibility redirect to https://chrismcleod.dev/blog/azure-static-web-apps-are-awesome!/.",
+    "/blog/bored-experiment/": "Compatibility redirect to https://chrismcleod.dev/blog/bored-experiment!/.",
+    "/blog/bye-facebook/": "Compatibility redirect to https://chrismcleod.dev/blog/👋-bye-facebook/.",
+    "/blog/certified-devops-institute-site-reliability-engineering-foundation/": "Compatibility redirect to https://chrismcleod.dev/blog/certified-devops-institute-site-reliability-engineering-fundamentals/.",
+    "/blog/creating-a-remote-dev-machine-with-raspberry-pi-vs-code/": "Compatibility redirect to https://chrismcleod.dev/blog/creating-a-remote-dev-machine-with-raspberry-pi-and-vs-code/.",
+    "/blog/css-discussion-over-at-builder-com/": "Compatibility redirect to https://chrismcleod.dev/blog/css-discussion-over-at-buildercom/.",
+    "/blog/does-anyone-write-pseudocode-anymore/": "Compatibility redirect to https://chrismcleod.dev/blog/does-anyone-write-pseudo-code-any-more/.",
+    "/blog/dragonriding-jade-forest/": "Compatibility redirect to https://chrismcleod.dev/blog/dragonriding-in-jade-forest/.",
+    "/blog/earliest-recoverable-blog-post/": "Compatibility redirect to https://chrismcleod.dev/blog/my-earliest-recoverable-blog-post-original-title-lost/.",
+    "/blog/enable-http2-push-in-caddy/": "Compatibility redirect to https://chrismcleod.dev/blog/enable-http/2-push-in-caddy/.",
+    "/blog/exporting-media-from-wordpress-com/": "Compatibility redirect to https://chrismcleod.dev/blog/exporting-media-from-wordpresscom/.",
+    "/blog/fediverse-bridging/": "Compatibility redirect to https://chrismcleod.dev/blog/bridge-your-fediverse-accounts-to-bluesky-with-a-custom-domain-handle/.",
+    "/blog/file-form-inputs-internet-explorer/": "Compatibility redirect to https://chrismcleod.dev/blog/file-form-inputs-and-internet-explorer/.",
+    "/blog/firebird-0-6-1-released/": "Compatibility redirect to https://chrismcleod.dev/blog/firebird-061-released/.",
+    "/blog/first-ever-smiley-found/": "Compatibility redirect to https://chrismcleod.dev/blog/first-ever-smiley-found!/.",
+    "/blog/flickr-photo-sharing/": "Compatibility redirect to https://chrismcleod.dev/blog/flickr/photo-sharing/.",
+    "/blog/getting-started-with-online-privacy-and-security-in-2017-introduction/": "Compatibility redirect to https://chrismcleod.dev/blog/getting-started-with-online-privacy-and-security-in-2017-preamble/.",
+    "/blog/god-of-war/": "Compatibility redirect to https://chrismcleod.dev/blog/god-of-war-2018/.",
+    "/blog/green-software-for-practitioners/": "Compatibility redirect to https://chrismcleod.dev/blog/green-software-for-practitioners-lfc131/.",
+    "/blog/hitman-2016/": "Compatibility redirect to https://chrismcleod.dev/blog/hitman-2016-initial-impressions/.",
+    "/blog/hola-san-francisco/": "Compatibility redirect to https://chrismcleod.dev/blog/hola-san-francisco!/.",
+    "/blog/honey-im-home/": "Compatibility redirect to https://chrismcleod.dev/blog/honey-im-home!/.",
+    "/blog/how-i-use-generative-ai-to-write-blog-posts/": "Compatibility redirect to https://chrismcleod.dev/blog/how-i-use-generative-ai-to-help-write-blog-posts/.",
+    "/blog/how-to-paint-miniatures-basics-figures-to-start-painting-miniature-art-academy/": "Compatibility redirect to https://chrismcleod.dev/blog/how-to-paint-miniatures-basics-figures-to-start-painting-miniature-art-academy!/.",
+    "/blog/i-have-to-admit-im-warning-up-to/": "Compatibility redirect to https://chrismcleod.dev/blog/i-have-to-admit/.",
+    "/blog/i-rewrote-my-blog-and-didnt-talk-about-it/": "Compatibility redirect to https://chrismcleod.dev/blog/i-rebuilt-my-blog-and-didnt-write-about-it/.",
+    "/blog/installing-arch-with-secure-boot-on-a-microsoft-surface-laptop-studio/": "Compatibility redirect to https://chrismcleod.dev/blog/installing-arch-linux-with-secure-boot-on-a-microsoft-surface-laptop-studio/.",
+    "/blog/ios18-beta-lockscreen/": "Compatibility redirect to https://chrismcleod.dev/blog/new-home-screen-for-ios-18-beta/.",
+    "/blog/is-it-wrong-to-submit-your-own-entries-to-del-icio-us/": "Compatibility redirect to https://chrismcleod.dev/blog/is-it-wrong-to-submit-your-own-entries-to-delicious/.",
+    "/blog/ive-managed-to-cobble-together-a/": "Compatibility redirect to https://chrismcleod.dev/blog/1password-to-bitwarden-migration-preparation/.",
+    "/blog/ive-updated-my-links-page/": "Compatibility redirect to https://chrismcleod.dev/blog/links-page-improvements/.",
+    "/blog/machine-learning-can-deanonymise-code/": "Compatibility redirect to https://chrismcleod.dev/blog/machine-learning-can-identify-the-authors-of-anonymous-code/.",
+    "/blog/micro-blog-adds-tentative-support-for-moving-from-mastodon/": "Compatibility redirect to https://chrismcleod.dev/blog/microblog-adds-tentative-support-for-moving-from-mastodon/.",
+    "/blog/microsoft-role-based-exams-now-open-book/": "Compatibility redirect to https://chrismcleod.dev/blog/microsoft-role-based-exams-now-semi-open-book/.",
+    "/blog/migrating-an-eleventy-site-to-bunny-net/": "Compatibility redirect to https://chrismcleod.dev/blog/migrating-an-eleventy-site-to-bunnynet/.",
+    "/blog/new-necromunda-website-and-videos/": "Compatibility redirect to https://chrismcleod.dev/blog/new-necromunda-website-info-and-videos/.",
+    "/blog/next-steps-with-bluesky/": "Compatibility redirect to https://chrismcleod.dev/blog/next-steps-with-bluesky-hosting-your-own-data-and-more-on-the-api/.",
+    "/blog/on-off/": "Compatibility redirect to https://chrismcleod.dev/blog/on/off/.",
+    "/blog/ooh-directory/": "Compatibility redirect to https://chrismcleod.dev/blog/oohdirectory/.",
+    "/blog/open-tab-dump-mobile/": "Compatibility redirect to https://chrismcleod.dev/blog/open-tab-dump-mobile-edition-2024-02-18/.",
+    "/blog/open-tab-dump/": "Compatibility redirect to https://chrismcleod.dev/blog/open-tab-dump-mobile-edition-2024-03-03/.",
+    "/blog/pantellicablack-atom-gigs-and-the-radio-show/": "Compatibility redirect to https://chrismcleod.dev/blog/pantellica/black-atom-gigs-and-the-radio-show/.",
+    "/blog/powerrangers-a-power-rangers-deboot-by-joseph-khan/": "Compatibility redirect to https://chrismcleod.dev/blog/power/rangers-a-power-rangers-deboot-by-joseph-khan/.",
+    "/blog/project-santic/": "Compatibility redirect to https://chrismcleod.dev/blog/⚜️-project-sanctic/.",
+    "/blog/restoring-more-old-posts/": "Compatibility redirect to https://chrismcleod.dev/blog/post-restoration-project-dealing-with-wordpress-post-kinds-data/.",
+    "/blog/returning-to-warhammer-40000-the-game/": "Compatibility redirect to https://chrismcleod.dev/blog/on-returning-to-warhammer-40000-the-game/.",
+    "/blog/safari-tabs-markdown-list-ios-shortcut/": "Compatibility redirect to https://chrismcleod.dev/blog/generate-a-markdown-list-of-open-safari-tabs-with-an-ios-shortcut/.",
+    "/blog/sending-webmentions-after-deploying-azure-static-web-apps/": "Compatibility redirect to https://chrismcleod.dev/blog/sending-webmentions-after-deploying-to-azure-static-web-apps/.",
+    "/blog/sending-webmentions-using-webmention-app-and-ifttt/": "Compatibility redirect to https://chrismcleod.dev/blog/sending-webmentions-using-webmentionapp-and-ifttt/.",
+    "/blog/small-sitek-theme-updates/": "Compatibility redirect to https://chrismcleod.dev/blog/small-site/k-theme-updates/.",
+    "/blog/snes-classic-mini-successfully-preordered/": "Compatibility redirect to https://chrismcleod.dev/blog/snes-classic-mini-preorders-open-almost-immediately-sell-out/.",
+    "/blog/starcraft-2-legacy-of-the-void-pre-order-goes-live-my-life-for-aiur/": "Compatibility redirect to https://chrismcleod.dev/blog/starcraft-2-legacy-of-the-void-pre-order-goes-live-my-life-for-aiur!/.",
+    "/blog/step-3-add-support-for-receiving-webmentions-indieweb-textpattern/": "Compatibility redirect to https://chrismcleod.dev/blog/step-3-add-support-for-receiving-webmentions-or-indieweb-textpattern/.",
+    "/blog/the-cheap-gamer-planning/": "Compatibility redirect to https://chrismcleod.dev/blog/the-cheap-gamer-planning-your-buying/.",
+    "/blog/the-dark-side-of-io-how-the-u-k-is-making-web-domain-profits-from-a-shady-cold-war-land-deal/": "Compatibility redirect to https://chrismcleod.dev/blog/the-dark-side-of-io-how-the-uk-is-making-web-domain-profits-from-a-shady-cold-war-land-deal/.",
+    "/blog/the-five-megabyte-web-developer-benjamin-atkin/": "Compatibility redirect to https://chrismcleod.dev/blog/the-five-megabyte-web-developer-or-benjamin-atkin/.",
+    "/blog/things-going-on-podcasts-servers-and-more-oh-my/": "Compatibility redirect to https://chrismcleod.dev/blog/things-going-on-podcasts-servers-and-more-oh-my!/.",
+    "/blog/thoughts-on-marvels-inhumans/": "Compatibility redirect to https://chrismcleod.dev/blog/thoughts-on-the-trailer-for-marvels-inhumans/.",
+    "/blog/time-for-an-uprgade-maybe/": "Compatibility redirect to https://chrismcleod.dev/blog/time-for-an-upgrade-maybe/.",
+    "/blog/tls-1-3-approved/": "Compatibility redirect to https://chrismcleod.dev/blog/tls-13-approved/.",
+    "/blog/twitter-trolls-should-lose-ability-to-include-names-in-tweets-hunter-walk/": "Compatibility redirect to https://chrismcleod.dev/blog/twitter-trolls-should-lose-ability-to-include-@names-in-tweets-or-hunter-walk/.",
+    "/blog/typing-on-my-work-laptop-just-got-300-better/": "Compatibility redirect to https://chrismcleod.dev/blog/typing-on-my-work-laptop-just-got-300percent-better/.",
+    "/blog/unsatisfactory-positive-endings/": "Compatibility redirect to https://chrismcleod.dev/blog/positive-but-unsatisfactory-resolutions/.",
+    "/blog/updating-apps-updating-skills/": "Compatibility redirect to https://chrismcleod.dev/blog/updating-apps;-updating-skills/.",
+    "/blog/vscode-markdown-frontmatter-snippet/": "Compatibility redirect to https://chrismcleod.dev/blog/visual-studio-code-snippet-for-markdown-frontmatter/.",
+    "/blog/vulnerability-in-openssh-for-two-decades-no-the-sky-isnt-falling/": "Compatibility redirect to https://chrismcleod.dev/blog/vulnerability-in-openssh-for-two-decades-no-the-sky-isnt-falling!/.",
+    "/blog/wargaming-hobby-community-round-up/": "Compatibility redirect to https://chrismcleod.dev/blog/wargaming-and-hobby-community-round-up/.",
+    "/blog/watched-john-wick-chapter-2-2017/": "Compatibility redirect to https://chrismcleod.dev/blog/📺-watched-john-wick-chapter-2-2017/.",
+    "/blog/well-fuck/": "Compatibility redirect to https://chrismcleod.dev/blog/well-fck/.",
+    "/blog/what-happens-when-you-type-google-com-into-your-browser-and-press-enter/": "Compatibility redirect to https://chrismcleod.dev/blog/what-happens-when-you-type-googlecom-into-your-browser-and-press-enter/.",
+    "/blog/whimsy-is-enough/": "Compatibility redirect to https://chrismcleod.dev/blog/sometimes-whimsy-is-enough/.",
+    "/blog/whooo-new-toy/": "Compatibility redirect to https://chrismcleod.dev/blog/whooo-new-toy!/.",
+    "/paintslam/2018/": "Real public Paintslam snapshot; baseline had no authenticated hobby data.",
+    "/paintslam/2019/": "Real public Paintslam snapshot; baseline had no authenticated hobby data.",
+    "/paintslam/2020/": "Real public Paintslam snapshot; baseline had no authenticated hobby data.",
+    "/paintslam/2021/": "Real public Paintslam snapshot; baseline had no authenticated hobby data.",
+    "/paintslam/2022/": "Real public Paintslam snapshot; baseline had no authenticated hobby data.",
+    "/paintslam/2023/": "Real public Paintslam snapshot; baseline had no authenticated hobby data.",
+    "/paintslam/2024/": "Real public Paintslam snapshot; baseline had no authenticated hobby data.",
+    "/paintslam/2025/": "Real public Paintslam snapshot; baseline had no authenticated hobby data.",
+    "/paintslam/2026/": "Real public Paintslam snapshot; baseline had no authenticated hobby data."
+  },
+  "feedFields": {
+    "/follow/blog/feed.json:_posse.opengraph": {
+      "reason": "Use verified shared committed/default social images instead of retired screenshot routes.",
+      "items": [
+        {
+          "id": "/blog/setting-up-a-new-atproto-pds-and-migrating-from-your-old-one/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fsetting-up-a-new-atproto-pds-and-migrating-from-your-old-one%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/setting-up-a-new-atproto-pds-and-migrating-from-your-old-one-preview.jpeg"
+        },
+        {
+          "id": "/blog/installing-the-ugreen-be6500-wifi-7-usb-dongle-on-arch-linux/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Finstalling-the-ugreen-be6500-wifi-7-usb-dongle-on-arch-linux%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/installing-the-ugreen-be6500-wifi-7-usb-dongle-on-arch-linux-preview.jpeg"
+        },
+        {
+          "id": "/blog/my-changing-media-landscape/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fmy-changing-media-landscape%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/my-changing-media-landscape-preview.jpeg"
+        },
+        {
+          "id": "/blog/default-apps-for-2025/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fdefault-apps-for-2025%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/default-apps-for-2025-preview.jpeg"
+        },
+        {
+          "id": "/blog/installing-arch-linux-with-secure-boot-on-a-microsoft-surface-laptop-studio/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Finstalling-arch-linux-with-secure-boot-on-a-microsoft-surface-laptop-studio%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/installing-arch-linux-with-secure-boot-on-a-microsoft-surface-laptop-studio-preview.jpeg"
+        },
+        {
+          "id": "/blog/migrating-an-eleventy-site-to-bunnynet/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fmigrating-an-eleventy-site-to-bunnynet%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/migrating-an-eleventy-site-to-bunnynet-preview.jpeg"
+        },
+        {
+          "id": "/blog/new-paint-same-blog/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fnew-paint-same-blog%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/new-paint-same-blog-preview.jpeg"
+        },
+        {
+          "id": "/blog/follower-count/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Ffollower-count%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/follower-count-preview.jpeg"
+        },
+        {
+          "id": "/blog/visual-studio-code-snippet-for-markdown-frontmatter/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fvisual-studio-code-snippet-for-markdown-frontmatter%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/visual-studio-code-snippet-for-markdown-frontmatter-preview.jpeg"
+        },
+        {
+          "id": "/blog/sometimes-whimsy-is-enough/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fsometimes-whimsy-is-enough%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/sometimes-whimsy-is-enough-preview.jpeg"
+        },
+        {
+          "id": "/blog/bridge-your-fediverse-accounts-to-bluesky-with-a-custom-domain-handle/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fbridge-your-fediverse-accounts-to-bluesky-with-a-custom-domain-handle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/bridge-your-fediverse-accounts-to-bluesky-with-a-custom-domain-handle-preview.jpeg"
+        },
+        {
+          "id": "/blog/default-apps-for-2024/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fdefault-apps-for-2024%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/default-apps-for-2024-preview.jpeg"
+        },
+        {
+          "id": "/blog/how-im-doing-advent-of-code-in-2024/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fhow-im-doing-advent-of-code-in-2024%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/how-im-doing-advent-of-code-in-2024-preview.jpeg"
+        },
+        {
+          "id": "/blog/next-steps-with-bluesky-hosting-your-own-data-and-more-on-the-api/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fnext-steps-with-bluesky-hosting-your-own-data-and-more-on-the-api%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/next-steps-with-bluesky-hosting-your-own-data-and-more-on-the-api-preview.jpeg"
+        },
+        {
+          "id": "/blog/positive-but-unsatisfactory-resolutions/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fpositive-but-unsatisfactory-resolutions%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/positive-but-unsatisfactory-resolutions-preview.jpeg"
+        },
+        {
+          "id": "/blog/well-fck/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fwell-fck%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/well-fck-preview.jpeg"
+        },
+        {
+          "id": "/blog/new-home-screen-for-ios-18-beta/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fnew-home-screen-for-ios-18-beta%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/new-home-screen-for-ios-18-beta-preview.jpeg"
+        },
+        {
+          "id": "/blog/adding-the-new-mastodon-link-attribution-meta-tag/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fadding-the-new-mastodon-link-attribution-meta-tag%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/adding-the-new-mastodon-link-attribution-meta-tag-preview.jpeg"
+        },
+        {
+          "id": "/blog/dragonriding-in-jade-forest/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fdragonriding-in-jade-forest%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/dragonriding-in-jade-forest-preview.jpeg"
+        },
+        {
+          "id": "/blog/early-riser/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fearly-riser%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/early-riser-preview.jpeg"
+        },
+        {
+          "id": "/blog/brunch-at-the-craftsman/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fbrunch-at-the-craftsman%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/brunch-at-the-craftsman-preview.jpeg"
+        },
+        {
+          "id": "/blog/post-restoration-project-dealing-with-wordpress-post-kinds-data/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fpost-restoration-project-dealing-with-wordpress-post-kinds-data%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/post-restoration-project-dealing-with-wordpress-post-kinds-data-preview.jpeg"
+        },
+        {
+          "id": "/blog/brunch-at-second-home/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fbrunch-at-second-home%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/brunch-at-second-home-preview.jpeg"
+        },
+        {
+          "id": "/blog/creating-a-remote-dev-machine-with-raspberry-pi-and-vs-code/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fblog%2Fcreating-a-remote-dev-machine-with-raspberry-pi-and-vs-code%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/social-preview/creating-a-remote-dev-machine-with-raspberry-pi-and-vs-code-preview.jpeg"
+        }
+      ]
+    },
+    "/follow/blog/feed.json:title": {
+      "reason": "JSON serialization preserves authored text instead of Nunjucks HTML entities.",
+      "items": [
+        {
+          "id": "/blog/how-im-doing-advent-of-code-in-2024/",
+          "before": "How I&#39;m Doing Advent Of Code in 2024",
+          "after": "How I'm Doing Advent Of Code in 2024"
+        }
+      ]
+    },
+    "/follow/bookmarks/feed.json:title": {
+      "reason": "JSON serialization preserves authored text instead of Nunjucks HTML entities.",
+      "items": [
+        {
+          "id": "/bookmarks/throwing-the-flying-spaghetti-monster-at-the-wall-hi-im-heather-burns/",
+          "before": "Throwing the Flying Spaghetti Monster at the Wall – Hi, I&#39;m Heather Burns",
+          "after": "Throwing the Flying Spaghetti Monster at the Wall – Hi, I'm Heather Burns"
+        },
+        {
+          "id": "/bookmarks/worlds-first-body-in-a-box-biological-computer-uses-human-brain-cells-with-silicon-based-computing/",
+          "before": "World&#39;s first &#39;body in a box&#39; biological computer uses human brain cells with silicon-based computing",
+          "after": "World's first 'body in a box' biological computer uses human brain cells with silicon-based computing"
+        },
+        {
+          "id": "/bookmarks/why-some-dvla-digital-services-dont-work-at-night/",
+          "before": "Why some DVLA digital services don&#39;t work at night",
+          "after": "Why some DVLA digital services don't work at night"
+        },
+        {
+          "id": "/bookmarks/the-″im-not-a-computer-person‶-people/",
+          "before": "The ″I&#39;m Not a Computer Person‶ People",
+          "after": "The ″I'm Not a Computer Person‶ People"
+        },
+        {
+          "id": "/bookmarks/dont-call-it-a-substack/",
+          "before": "Don&#39;t call it a Substack.",
+          "after": "Don't call it a Substack."
+        },
+        {
+          "id": "/bookmarks/the-war-within-music/",
+          "before": "&quot;The War Within&quot; Music",
+          "after": "\"The War Within\" Music"
+        },
+        {
+          "id": "/bookmarks/sprokets-small-world-aeldari-voidscarred-corsairs-part-1/",
+          "before": "Sproket&#39;s Small World: Aeldari Voidscarred Corsairs. Part 1.",
+          "after": "Sproket's Small World: Aeldari Voidscarred Corsairs. Part 1."
+        },
+        {
+          "id": "/bookmarks/where-facebooks-ai-slop-comes-from/",
+          "before": "Where Facebook&#39;s AI Slop Comes From",
+          "after": "Where Facebook's AI Slop Comes From"
+        }
+      ]
+    },
+    "/follow/bookmarks/feed.json:_posse.opengraph": {
+      "reason": "Use verified shared committed/default social images instead of retired screenshot routes.",
+      "items": [
+        {
+          "id": "/bookmarks/throwing-the-flying-spaghetti-monster-at-the-wall-hi-im-heather-burns/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fthrowing-the-flying-spaghetti-monster-at-the-wall-hi-im-heather-burns%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/heres-how-i-use-llms-to-help-me-write-code/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fheres-how-i-use-llms-to-help-me-write-code%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/worlds-first-body-in-a-box-biological-computer-uses-human-brain-cells-with-silicon-based-computing/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fworlds-first-body-in-a-box-biological-computer-uses-human-brain-cells-with-silicon-based-computing%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/atkinson-hyperlegible-font-by-the-braille-institute/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fatkinson-hyperlegible-font-by-the-braille-institute%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/building-personal-software-with-claude/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fbuilding-personal-software-with-claude%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/the-counterforce-guide-to-mastodon-and-the-fediverse-for-punks!/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fthe-counterforce-guide-to-mastodon-and-the-fediverse-for-punks!%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/uk-confronts-apple-with-demand-for-cloud-backdoor-to-users-encrypted-data/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fuk-confronts-apple-with-demand-for-cloud-backdoor-to-users-encrypted-data%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/o3-mini-is-really-good-at-writing-internal-documentation/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fo3-mini-is-really-good-at-writing-internal-documentation%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/the-fantastic-four-teaser-trailer/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fthe-fantastic-four-teaser-trailer%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/good-internet-magazine/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fgood-internet-magazine%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/relatively-new-things-you-should-know-about-html-heading-into-2025/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Frelatively-new-things-you-should-know-about-html-heading-into-2025%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/learning-html-is-the-best-investment-i-ever-did/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Flearning-html-is-the-best-investment-i-ever-did%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/is-microsoft-excel-the-next-big-e-sport/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fis-microsoft-excel-the-next-big-e-sport%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/oh-shit-git!!/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Foh-shit-git!!%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/how-not-to-learn-rust/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fhow-not-to-learn-rust%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/why-some-dvla-digital-services-dont-work-at-night/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fwhy-some-dvla-digital-services-dont-work-at-night%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/the-″im-not-a-computer-person‶-people/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fthe-%E2%80%B3im-not-a-computer-person%E2%80%B6-people%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/what-the-zuck/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fwhat-the-zuck%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/faking-william-morris-generative-forgery-and-the-erosion-of-art-history/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Ffaking-william-morris-generative-forgery-and-the-erosion-of-art-history%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/note-to-no-10-one-speed-doesnt-fit-all-when-it-comes-to-online-safety/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fnote-to-no-10-one-speed-doesnt-fit-all-when-it-comes-to-online-safety%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/falsehoods-programmers-believe-about-names/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Ffalsehoods-programmers-believe-about-names%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/falsehoods-programmers-believe-about-time/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Ffalsehoods-programmers-believe-about-time%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/falsehoods-programmers-believe-about-addresses/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Ffalsehoods-programmers-believe-about-addresses%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/the-useless-web/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fthe-useless-web%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/grifters-believers-grinders-and-coasters/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fgrifters-believers-grinders-and-coasters%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/the-future-of-htmx/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fthe-future-of-htmx%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/the-day-i-taught-ai-to-read-code-like-a-senior-developer/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fthe-day-i-taught-ai-to-read-code-like-a-senior-developer%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/principles-of-web-accessibility/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fprinciples-of-web-accessibility%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/never-forgive-them/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fnever-forgive-them%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/you-aint-seen-all-of-these-right/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fyou-aint-seen-all-of-these-right%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/dont-call-it-a-substack/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fdont-call-it-a-substack%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/html-is-for-people/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fhtml-is-for-people%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/the-static-site-paradox/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fthe-static-site-paradox%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/oh-you-make-websites/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Foh-you-make-websites%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/migrating-pds-account-with-`goat`/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fmigrating-pds-account-with-%60goat%60%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/self-hosting-a-bluesky-pds-and-using-your-domain-as-your-handle/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fself-hosting-a-bluesky-pds-and-using-your-domain-as-your-handle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/the-cult-of-microsoft/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fthe-cult-of-microsoft%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/come-to-the-light-dark-side/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fcome-to-the-light-dark-side%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/record-labels-forgot-these-songs-existed-one-man-rescued-them/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Frecord-labels-forgot-these-songs-existed-one-man-rescued-them%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/a24s-y2k-looks-like-an-apocalyptic-rager-in-first-trailer/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fa24s-y2k-looks-like-an-apocalyptic-rager-in-first-trailer%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/the-hollow-outrage-of-the-moral-panic-influencers/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fthe-hollow-outrage-of-the-moral-panic-influencers%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/the-war-within-music/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fthe-war-within-music%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/sprokets-small-world-aeldari-voidscarred-corsairs-part-1/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fsprokets-small-world-aeldari-voidscarred-corsairs-part-1%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/bookmarks-—-chris-mcleod/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fbookmarks-%E2%80%94-chris-mcleod%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/kagi-small-web/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fkagi-small-web%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/where-facebooks-ai-slop-comes-from/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fwhere-facebooks-ai-slop-comes-from%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/css-one-liners-to-improve-almost-every-project/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fcss-one-liners-to-improve-almost-every-project%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/building-the-micro-journal/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fbuilding-the-micro-journal%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/neodb-is-a-review-system-for-culture/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Fneodb-is-a-review-system-for-culture%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/bookmarks/filling-in-the-gaps-the-case-for-public-backlogs-roadmaps/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fbookmarks%2Ffilling-in-the-gaps-the-case-for-public-backlogs-roadmaps%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        }
+      ]
+    },
+    "/follow/notes/feed.json:_posse.opengraph": {
+      "reason": "Use verified shared committed/default social images instead of retired screenshot routes.",
+      "items": [
+        {
+          "id": "/notes/202603211949/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202603112148/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202602230818/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202602211657/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202602181620/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202602171922/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202602130927/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202602011724/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202601301857/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202601300910/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202601281606/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202601241447/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202601162258/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202601122218/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202601122207/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202601050833/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202601041358/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202601022020/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202512311708/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202512292004/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202512282247/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202512281435/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202512241549/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202512141429/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202512132026/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202512062031/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202512020636/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202509032034/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202509022131/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202509012212/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202509012138/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202508312206/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202508272110/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202508061318/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202508031536/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202508031527/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202508020954/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202507271311/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202507271237/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202507252058/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202507251151/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202507242151/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202507222124/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202507211358/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202507202113/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202507191644/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202507191244/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202505252210/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202505251710/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        },
+        {
+          "id": "/notes/202505242122/",
+          "before": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fchrismcleod.devopengraph%2Fnotes%2Fsingle%2F/opengraph/_123",
+          "after": "https://chrismcleod.dev/assets/images/opengraph-default.jpg"
+        }
+      ]
+    },
+    "/follow/blog/feed.rss:date": {
+      "reason": "Correct RSS summer timestamps: the old local-time formatter discarded the GMT+1 offset. Use source instants formatted consistently in UTC.",
+      "items": [
+        {
+          "id": "https://chrismcleod.dev/blog/setting-up-a-new-atproto-pds-and-migrating-from-your-old-one/",
+          "before": "Sun, 04 Oct 2026 15:21:52 GMT",
+          "after": "Sun, 04 Oct 2026 14:21:52 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/blog/installing-the-ugreen-be6500-wifi-7-usb-dongle-on-arch-linux/",
+          "before": "Mon, 06 Jul 2026 20:53:47 GMT",
+          "after": "Mon, 06 Jul 2026 19:53:47 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/blog/installing-arch-linux-with-secure-boot-on-a-microsoft-surface-laptop-studio/",
+          "before": "Tue, 26 Aug 2025 20:28:13 GMT",
+          "after": "Tue, 26 Aug 2025 19:28:13 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/blog/migrating-an-eleventy-site-to-bunnynet/",
+          "before": "Fri, 25 Jul 2025 16:46:08 GMT",
+          "after": "Fri, 25 Jul 2025 15:46:08 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/blog/positive-but-unsatisfactory-resolutions/",
+          "before": "Wed, 23 Oct 2024 18:12:00 GMT",
+          "after": "Wed, 23 Oct 2024 17:12:00 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/blog/well-fck/",
+          "before": "Tue, 22 Oct 2024 19:00:00 GMT",
+          "after": "Tue, 22 Oct 2024 18:00:00 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/blog/new-home-screen-for-ios-18-beta/",
+          "before": "Sat, 20 Jul 2024 22:29:00 GMT",
+          "after": "Sat, 20 Jul 2024 21:29:00 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/blog/adding-the-new-mastodon-link-attribution-meta-tag/",
+          "before": "Wed, 03 Jul 2024 13:04:00 GMT",
+          "after": "Wed, 03 Jul 2024 12:04:00 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/blog/dragonriding-in-jade-forest/",
+          "before": "Sun, 09 Jun 2024 15:22:00 GMT",
+          "after": "Sun, 09 Jun 2024 14:22:00 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/blog/early-riser/",
+          "before": "Sun, 09 Jun 2024 15:20:00 GMT",
+          "after": "Sun, 09 Jun 2024 14:20:00 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/blog/brunch-at-the-craftsman/",
+          "before": "Sat, 08 Jun 2024 16:36:00 GMT",
+          "after": "Sat, 08 Jun 2024 15:36:00 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/blog/post-restoration-project-dealing-with-wordpress-post-kinds-data/",
+          "before": "Fri, 07 Jun 2024 13:10:00 GMT",
+          "after": "Fri, 07 Jun 2024 12:10:00 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/blog/brunch-at-second-home/",
+          "before": "Tue, 28 May 2024 09:40:00 GMT",
+          "after": "Tue, 28 May 2024 08:40:00 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/blog/creating-a-remote-dev-machine-with-raspberry-pi-and-vs-code/",
+          "before": "Mon, 20 May 2024 09:47:00 GMT",
+          "after": "Mon, 20 May 2024 08:47:00 GMT"
+        }
+      ]
+    },
+    "/follow/bookmarks/feed.rss:date": {
+      "reason": "Correct RSS summer timestamps: the old local-time formatter discarded the GMT+1 offset. Use source instants formatted consistently in UTC.",
+      "items": [
+        {
+          "id": "https://chrismcleod.dev/bookmarks/come-to-the-light-dark-side/",
+          "before": "Fri, 25 Oct 2024 17:02:05 GMT",
+          "after": "Fri, 25 Oct 2024 16:02:05 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/bookmarks/record-labels-forgot-these-songs-existed-one-man-rescued-them/",
+          "before": "Sun, 25 Aug 2024 18:56:02 GMT",
+          "after": "Sun, 25 Aug 2024 17:56:02 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/bookmarks/a24s-y2k-looks-like-an-apocalyptic-rager-in-first-trailer/",
+          "before": "Wed, 21 Aug 2024 17:28:53 GMT",
+          "after": "Wed, 21 Aug 2024 16:28:53 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/bookmarks/the-hollow-outrage-of-the-moral-panic-influencers/",
+          "before": "Tue, 13 Aug 2024 11:30:13 GMT",
+          "after": "Tue, 13 Aug 2024 10:30:13 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/bookmarks/the-war-within-music/",
+          "before": "Mon, 12 Aug 2024 11:05:36 GMT",
+          "after": "Mon, 12 Aug 2024 10:05:36 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/bookmarks/sprokets-small-world-aeldari-voidscarred-corsairs-part-1/",
+          "before": "Fri, 09 Aug 2024 20:50:44 GMT",
+          "after": "Fri, 09 Aug 2024 19:50:44 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/bookmarks/bookmarks-%E2%80%94-chris-mcleod/",
+          "before": "Fri, 09 Aug 2024 20:28:28 GMT",
+          "after": "Fri, 09 Aug 2024 19:28:28 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/bookmarks/kagi-small-web/",
+          "before": "Wed, 07 Aug 2024 12:18:52 GMT",
+          "after": "Wed, 07 Aug 2024 11:18:52 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/bookmarks/where-facebooks-ai-slop-comes-from/",
+          "before": "Wed, 07 Aug 2024 12:07:25 GMT",
+          "after": "Wed, 07 Aug 2024 11:07:25 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/bookmarks/css-one-liners-to-improve-almost-every-project/",
+          "before": "Mon, 05 Aug 2024 13:49:40 GMT",
+          "after": "Mon, 05 Aug 2024 12:49:40 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/bookmarks/building-the-micro-journal/",
+          "before": "Mon, 29 Jul 2024 10:53:22 GMT",
+          "after": "Mon, 29 Jul 2024 09:53:22 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/bookmarks/neodb-is-a-review-system-for-culture/",
+          "before": "Thu, 25 Jul 2024 11:44:54 GMT",
+          "after": "Thu, 25 Jul 2024 10:44:54 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/bookmarks/filling-in-the-gaps-the-case-for-public-backlogs-roadmaps/",
+          "before": "Fri, 19 Jul 2024 09:36:30 GMT",
+          "after": "Fri, 19 Jul 2024 08:36:30 GMT"
+        }
+      ]
+    },
+    "/follow/notes/feed.rss:date": {
+      "reason": "Correct RSS summer timestamps: the old local-time formatter discarded the GMT+1 offset. Use source instants formatted consistently in UTC.",
+      "items": [
+        {
+          "id": "https://chrismcleod.dev/notes/202509032034/",
+          "before": "Wed, 03 Sep 2025 20:34:15 GMT",
+          "after": "Wed, 03 Sep 2025 19:34:15 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202509022131/",
+          "before": "Tue, 02 Sep 2025 21:31:48 GMT",
+          "after": "Tue, 02 Sep 2025 20:31:48 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202509012212/",
+          "before": "Mon, 01 Sep 2025 22:12:48 GMT",
+          "after": "Mon, 01 Sep 2025 21:12:48 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202509012138/",
+          "before": "Mon, 01 Sep 2025 21:38:16 GMT",
+          "after": "Mon, 01 Sep 2025 20:38:16 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202508312206/",
+          "before": "Sun, 31 Aug 2025 22:06:07 GMT",
+          "after": "Sun, 31 Aug 2025 21:06:07 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202508272110/",
+          "before": "Wed, 27 Aug 2025 21:10:33 GMT",
+          "after": "Wed, 27 Aug 2025 20:10:33 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202508061318/",
+          "before": "Wed, 06 Aug 2025 13:18:34 GMT",
+          "after": "Wed, 06 Aug 2025 12:18:34 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202508031536/",
+          "before": "Sun, 03 Aug 2025 15:36:22 GMT",
+          "after": "Sun, 03 Aug 2025 14:36:22 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202508031527/",
+          "before": "Sun, 03 Aug 2025 15:27:53 GMT",
+          "after": "Sun, 03 Aug 2025 14:27:53 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202508020954/",
+          "before": "Sat, 02 Aug 2025 09:54:51 GMT",
+          "after": "Sat, 02 Aug 2025 08:54:51 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202507271311/",
+          "before": "Sun, 27 Jul 2025 13:11:13 GMT",
+          "after": "Sun, 27 Jul 2025 12:11:13 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202507271237/",
+          "before": "Sun, 27 Jul 2025 12:37:44 GMT",
+          "after": "Sun, 27 Jul 2025 11:37:44 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202507252058/",
+          "before": "Fri, 25 Jul 2025 20:58:06 GMT",
+          "after": "Fri, 25 Jul 2025 19:58:06 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202507251151/",
+          "before": "Fri, 25 Jul 2025 11:51:36 GMT",
+          "after": "Fri, 25 Jul 2025 10:51:36 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202507242151/",
+          "before": "Thu, 24 Jul 2025 21:51:18 GMT",
+          "after": "Thu, 24 Jul 2025 20:51:18 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202507222124/",
+          "before": "Tue, 22 Jul 2025 21:24:01 GMT",
+          "after": "Tue, 22 Jul 2025 20:24:01 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202507211358/",
+          "before": "Mon, 21 Jul 2025 13:58:19 GMT",
+          "after": "Mon, 21 Jul 2025 12:58:19 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202507202113/",
+          "before": "Sun, 20 Jul 2025 21:13:26 GMT",
+          "after": "Sun, 20 Jul 2025 20:13:26 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202507191644/",
+          "before": "Sat, 19 Jul 2025 16:44:31 GMT",
+          "after": "Sat, 19 Jul 2025 15:44:31 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202507191244/",
+          "before": "Sat, 19 Jul 2025 12:44:47 GMT",
+          "after": "Sat, 19 Jul 2025 11:44:47 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202505252210/",
+          "before": "Sun, 25 May 2025 22:10:43 GMT",
+          "after": "Sun, 25 May 2025 21:10:43 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202505251710/",
+          "before": "Sun, 25 May 2025 17:10:31 GMT",
+          "after": "Sun, 25 May 2025 16:10:31 GMT"
+        },
+        {
+          "id": "https://chrismcleod.dev/notes/202505242122/",
+          "before": "Sat, 24 May 2025 21:22:24 GMT",
+          "after": "Sat, 24 May 2025 20:22:24 GMT"
+        }
+      ]
+    }
+  },
+  "corrections": [
+    {
+      "file": "src/posts/2023-01-12-supports.md",
+      "reason": "Replace 404 image front matter URL with the verified original in the same post."
+    },
+    {
+      "route": "/blog/review-angel-exterminatus-graham-mcneill/",
+      "reason": "Markdown now renders the introductory links and emphasis previously left literal by inline shortcode HTML."
+    },
+    {
+      "files": ["src/_layouts/note.njk", "src/_layouts/like.njk"],
+      "reason": "Render authored publication dates instead of falling back to the build date; preserve captured date-based note routes across runner timezones."
+    },
+    {
+      "files": [
+        "src/assets/css/blocks/code.css",
+        "src/assets/css/global/global-styles.css",
+        "src/pages/paintslam-year.njk"
+      ],
+      "reason": "Keep long inline code/URLs and the painting-log table within mobile page width without changing desktop design."
+    },
+    {
+      "files": ["src/_includes/partials/post-footer.njk", "src/_layouts/note.njk"],
+      "reason": "Exclude internal collection tags from footer topic links when their accidental routes are removed."
+    }
+  ],
+  "discoveryLinks": [
+    {
+      "before": {
+        "title": "chrismcleod.dev: main blog feed (JSOM)",
+        "type": "application/json",
+        "href": "https://chrismcleod.dev/follow/blog/feed.json"
+      },
+      "after": {
+        "title": "chrismcleod.dev: main blog feed (JSON)",
+        "type": "application/feed+json",
+        "href": "https://chrismcleod.dev/follow/blog/feed.json"
+      },
+      "reason": "Use the JSON Feed media type; correct the main-blog JSOM label typo. Preserve all discovery URLs, other titles and ordering."
+    },
+    {
+      "before": {
+        "title": "chrismcleod.dev: bookmarks feed (JSON)",
+        "type": "application/json",
+        "href": "https://chrismcleod.dev/follow/bookmarks/feed.json"
+      },
+      "after": {
+        "title": "chrismcleod.dev: bookmarks feed (JSON)",
+        "type": "application/feed+json",
+        "href": "https://chrismcleod.dev/follow/bookmarks/feed.json"
+      },
+      "reason": "Use the JSON Feed media type; correct the main-blog JSOM label typo. Preserve all discovery URLs, other titles and ordering."
+    },
+    {
+      "before": {
+        "title": "chrismcleod.dev: notes feed (JSON)",
+        "type": "application/json",
+        "href": "https://chrismcleod.dev/follow/notes/feed.json"
+      },
+      "after": {
+        "title": "chrismcleod.dev: notes feed (JSON)",
+        "type": "application/feed+json",
+        "href": "https://chrismcleod.dev/follow/notes/feed.json"
+      },
+      "reason": "Use the JSON Feed media type; correct the main-blog JSOM label typo. Preserve all discovery URLs, other titles and ordering."
+    }
+  ]
+}

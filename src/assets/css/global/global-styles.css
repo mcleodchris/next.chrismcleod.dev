@@ -79,6 +79,10 @@ a:not(.button, .logo) {
   color: var(--color-blue);
 }
 
+.prose a {
+  overflow-wrap: anywhere;
+}
+
 a:visited:not(.button, .logo) {
   color: var(--color-lavender);
 }

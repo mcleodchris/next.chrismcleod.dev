@@ -1,27 +1,36 @@
+import {bookmarkUrl} from '../utils/content.js';
+
+export const SYSTEM_TAGS = new Set([
+  'all',
+  'posts',
+  'notes',
+  'timeline',
+  'bookmark',
+  'bookmarks',
+  'subscriptions',
+  'tagList',
+  'bookmarksFeed',
+  'graph',
+  'notesForFeed',
+  'bookmarksForFeed',
+  'postsForFeed',
+  'likes'
+]);
 /** Returns all blog posts as a collection. */
 const getAllPosts = collection => {
   const posts = collection.getFilteredByGlob('./src/posts/*.md');
   return posts.reverse();
 };
-const getAllSubscriptions = collection => {
-  const subscriptions = collection.getFilteredByGlob('./src/subscriptions/*.md');
-  // sort subscriptions by category, alphabetically
-  subscriptions.sort((a, b) => {
-    if (a.data.category > b.data.category) return 1;
-    if (a.data.category < b.data.category) return -1;
-    return 0;
-  });
-  return subscriptions;
-};
-
 const tagList = collection => {
   const tagsSet = new Set();
-  getAllPosts(collection).forEach(item => {
-    if (!item.data.tags) return;
-    item.data.tags
-      .filter(tag => !['posts', 'all', 'notes', 'timeline'].includes(tag))
-      .forEach(tag => tagsSet.add(tag));
-  });
+  getAllPosts(collection)
+    .concat(getAllNotes(collection), getAllBookmarks(collection))
+    .forEach(item => {
+      if (!item.data.tags) return;
+      item.data.tags
+        .filter(tag => !SYSTEM_TAGS.has(tag))
+        .forEach(tag => tagsSet.add(tag));
+    });
   return Array.from(tagsSet).sort((tag1, tag2) => {
     if (
       collection.getFilteredByTag(tag1).length > collection.getFilteredByTag(tag2).length
@@ -47,7 +56,7 @@ const getBookmarksFeed = collection => {
       title: bookmark.data.title,
       permalink: bookmark.url,
       tags: bookmark.data.tags,
-      url: bookmark.data.bookmarkOf,
+      url: bookmarkUrl(bookmark.data),
       date: bookmark.data.date
     };
   });
@@ -57,12 +66,15 @@ const getBookmarksFeed = collection => {
 const getGraph = collection => {
   const posts = getAllPosts(collection);
   const bookmarks = getAllBookmarks(collection);
-  const notes = notesForFeed(collection);
-  return posts.concat(bookmarks).concat(notes).sort((a, b) => {
-    if (a.date > b.date) return -1;
-    if (a.date < b.date) return 1;
-    return 0;
-  });
+  const notes = getAllNotes(collection);
+  return posts
+    .concat(bookmarks)
+    .concat(notes)
+    .sort((a, b) => {
+      if (a.date > b.date) return -1;
+      if (a.date < b.date) return 1;
+      return 0;
+    });
 };
 
 const getAllNotes = collection => {
@@ -82,11 +94,9 @@ const postsForFeed = collection => {
   return posts.slice(0, 24);
 };
 
-
-
 export {
+  getAllNotes,
   getAllPosts,
-  getAllSubscriptions,
   tagList,
   getAllBookmarks,
   getBookmarksFeed,
@@ -95,3 +105,17 @@ export {
   bookmarksForFeed,
   postsForFeed
 };
+
+export default function collectionsPlugin(config) {
+  for (const [name, fn] of Object.entries({
+    posts: getAllPosts,
+    tagList,
+    bookmarks: getAllBookmarks,
+    bookmarksFeed: getBookmarksFeed,
+    graph: getGraph,
+    notesForFeed,
+    bookmarksForFeed,
+    postsForFeed
+  }))
+    config.addCollection(name, fn);
+}

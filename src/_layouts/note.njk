@@ -21,20 +21,13 @@ permalink: "/notes/{{date | formatDate('YYYYMMDDHHmm')}}/index.html"
         <p>A lot can happen in that time; any information given may no longer be accurate, links to original sources may not work, and the the original context may not exist any more. And, most importantly, any views or opinions presented may not match those currently held by the author. All this is to say &mdash; take anything below with a pinch of salt.</p>
       </aside>
     {% endif %}
+    {% set definedDate = date %}
     <div class="post-meta"><a href="{{url | url}}" class="u-url">🔗</a> {% include "partials/date.njk" -%} by <a class="p-author h-card" href="{{ meta.authorWebsite }}">{{ meta.author }}</a></div>
-    {% if page.data.image %}
-    <div class="flow prose">
-      {% image page.data.image, image.data.imageAlt, "(min-width: 55rem) 820px, 100vw", "u-photo" %}
-    </div>
-    {% endif %}
     <div class="e-content | flow prose">
       {{ content | safe }}
     </div>
-    <footer class="prose flow">
-      {% if tags %}
-        <p>Filed under: {% for tag in tags %}<a class="p-category tag" href="/tags/{{ tag | url }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>
-      {% endif %}
-      <p>☕ This author runs on caffeine (I’m not convinced the servers don’t, either). If you’ve found any of my posts useful or informative, maybe you’d consider <a href="https://www.buymeacoffee.com/mrkapowski" rel="external">buying me a coffee</a>?</p>
-    </footer>
+    {% set footerClass = 'prose flow' %}
+    {% set coffeePrefix = '☕ ' %}
+    {% include "partials/post-footer.njk" %}
   </div>
 </article>

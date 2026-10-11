@@ -2,7 +2,7 @@
   "layout": "bookmark",
   "tags": ["bookmark", "timeline"],
   "eleventyComputed": {
-    "feedFooter": "[{{ title }}]({{ bookmarkOf | url }}), bookmarked {{ date | formatDate('MMMM D, YYYY') }} on [Chris McLeod's bookmark page](/bookmarks)."
+    "feedFooter": "[{{ title }}]({{ bookmarkOf or bookmark_of }}), bookmarked {{ date | formatDate('MMMM D, YYYY') }} on [Chris McLeod's bookmark page](/bookmarks)."
   },
   "collectionName": "bookmarksForFeed",
   "name": "Bookmarks"

@@ -38,8 +38,9 @@ pre[class*='language-'] {
   hyphens: none;
 }
 
-:not(pre) > code[class*='language-'] {
+:not(pre) > code {
   white-space: normal;
+  overflow-wrap: anywhere;
   border-radius: var(--border-radius);
   padding: 0.1em;
 }

@@ -1,23 +1,28 @@
 name: Bunny.Net Deployment CI/CD
-
 on:
   push:
-    branches:
-      - develop
+    branches: [develop]
   repository_dispatch:
     types: [function_trigger]
   workflow_dispatch:
-
+concurrency:
+  group: site-production
+  cancel-in-progress: false
+permissions:
+  contents: write
 jobs:
   build_and_deploy_job:
-    if: github.event_name == 'push' || github.event_name == 'repository_dispatch'
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true
-          lfs: false
+          ref: develop
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
       - name: Tailscale
         uses: tailscale/github-action@v3
         with:
@@ -25,65 +30,58 @@ jobs:
           oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
           tags: tag:cicd
           use-cache: true
-      - name: Load cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            .cache
-          key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-
-      - name: Install dependencies
-        run: npm install
-      - name: Generate OG images
-        run: npm run og
-      - name: Install Sequoia
+      - name: Refresh image catalogue
+        env:
+          MAGE_API_TOKEN: ${{ secrets.MAGE_API_TOKEN }}
         run: |
-          npm install -g sequoia-cli
-      - name: Publish to ATProto
+          if ! npm run images:sync; then
+            echo '::warning::Image refresh failed; checking strict coverage of last-good catalogue'
+            node --input-type=module -e 'import {inventorySources} from "./helpers/site-sources.js"; import {loadManifest,buildImageIndex,isCdnImage,normaliseUrl} from "./config/images/manifest.js"; const index=buildImageIndex(await loadManifest()); for(const src of (await inventorySources()).originals.filter(isCdnImage)) if(!index.has(normaliseUrl(src))) throw Error(`Unresolved image: ${src}`);'
+          fi
+      - name: Refresh Paintslam snapshot
+        env:
+          MAGE_API_TOKEN: ${{ secrets.MAGE_API_TOKEN }}
+        run: |
+          if ! npm run data:sync; then
+            echo '::warning::Hobby refresh failed; validating last-good snapshot'
+            node --input-type=module -e 'import {readFile} from "node:fs/promises"; import {validateHobby} from "./config/data/hobby.js"; const snapshot=validateHobby(JSON.parse(await readFile("data/hobby.json","utf8"))); if(!snapshot.items.length)throw Error("No last-good hobby data");'
+          fi
+      - name: Prepare OG images
+        run: npm run og
+      - name: Configure state persistence
+        run: |
+          git config user.name '${{ github.actor }}'
+          git config user.email '${{ github.actor }}@users.noreply.github.com'
+      # The pipeline awaits preflight -> inspected dry run -> publish -> durable state -> final validation.
+      # Migration approval is an owner-reviewed digest recorded in publication-migration.json.
+      - name: Validate, publish, persist and render
         env:
           PDS_URL: ${{ secrets.PDS_URL }}
           ATP_IDENTIFIER: ${{ secrets.ATP_IDENTIFIER }}
           ATP_APP_PASSWORD: ${{ secrets.ATP_APP_PASSWORD }}
-        run: sequoia publish
-      - name: Build
-        run: |
-          npm run build
-        env:
-          MAGE_API_TOKEN: ${{ secrets.MAGE_API_TOKEN }}
-          BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
-          BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
-      - name: Commit Sequoia state
-        run: |
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git add .sequoia-state.json src/posts/ src/assets/images/social-preview/ || true
-          if ! git diff --cached --quiet; then
-            git commit -m "Update Sequoia state [skip ci]"
-            git push
-          fi
-      - name: Save cache
-        uses: actions/cache@v4
+          IMAGE_MIGRATION_APPROVED: ${{ vars.IMAGE_MIGRATION_APPROVED }}
+        run: node helpers/release-pipeline.js
+      - name: Preserve publication recovery state on failure
+        # Repository-readable artifact containing only whitelisted public source/state bytes.
+        if: failure()
+        uses: actions/upload-artifact@v4
         with:
-          path: |
-            .cache
-          key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
-      - name: Deploy to BunnyCDN
+          name: publication-recovery-${{ github.run_id }}
+          path: /tmp/site-publication-recovery/
+          if-no-files-found: ignore
+          retention-days: 7
+          include-hidden-files: true
+      - name: Deploy validated site to BunnyCDN
         uses: ayeressian/bunnycdn-storage-deploy@v2.3.0
         with:
-          source: "dist"
-          destination: ""
-          storageZoneName: "${{ secrets.STORAGE_NAME }}"
-          storagePassword: "${{ secrets.STORAGE_PASSWORD }}"
-          storageEndpoint: "uk.storage.bunnycdn.com"
-          accessKey: "${{ secrets.ACCESS_KEY }}"
-          pullZoneId: "${{ secrets.ZONE_ID }}"
-          upload: "true"
-          remove: "true"
-          purgePullZone: "true"
-          purgePullZoneDelay: "45"
-      # - name: send webhook
-      #   run: |
-      #     curl -X POST -H "Content-Type: application/json" -d '{"message": "Deployment to BunnyCDN completed successfully."}' "${{ secrets.WEBHOOK_URL }}"
-      #   env:
-      #     WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          source: dist
+          destination: ''
+          storageZoneName: ${{ secrets.STORAGE_NAME }}
+          storagePassword: ${{ secrets.STORAGE_PASSWORD }}
+          storageEndpoint: uk.storage.bunnycdn.com
+          accessKey: ${{ secrets.ACCESS_KEY }}
+          pullZoneId: ${{ secrets.ZONE_ID }}
+          upload: 'true'
+          remove: 'true'
+          purgePullZone: 'true'
+          purgePullZoneDelay: '45'
