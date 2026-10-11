@@ -1,4 +1,3 @@
-import 'dotenv/config';
 import { RenderPlugin } from '@11ty/eleventy';
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import pluginRss from '@11ty/eleventy-plugin-rss';
@@ -8,6 +7,7 @@ import postGraph from '@rknightuk/eleventy-plugin-post-graph';
 import collections from './config/collections/index.js';
 import filters from './config/filters/index.js';
 import shortcodes from './config/shortcodes/index.js';
+import images from './config/images/index.js';
 import cssLanguage from './config/template-languages/css-config.js';
 import jsLanguage from './config/template-languages/js-config.js';
 import { markdownLib } from './config/plugins/markdown.js';
@@ -19,6 +19,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(collections);
   eleventyConfig.addPlugin(filters);
   eleventyConfig.addPlugin(shortcodes);
+  eleventyConfig.addPlugin(images);
   eleventyConfig.addPlugin(cssLanguage);
   eleventyConfig.addPlugin(jsLanguage);
 

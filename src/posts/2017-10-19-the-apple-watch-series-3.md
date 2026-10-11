@@ -1,11 +1,6 @@
 ---
 title: "The Apple Watch Series 3"
 date: 2017-10-19
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - apple

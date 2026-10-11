@@ -1,13 +1,9 @@
 ---
 title: "Life is a Lemon"
 date: 2005-07-23
-categories:
-  - articles
 tags:
   - personal
   - cerebral-haemorrhage
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6i3ec2p"
 ogImage: life-is-a-lemon-preview.jpeg

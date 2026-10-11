@@ -1,12 +1,8 @@
 ---
 title: "An alternate universe – Marco.org"
 date: 2012-10-28
-categories:
-  - articles
 tags:
   - miscellaneous
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr34f322p"
 ogImage: an-alternate-universe-marcoorg-preview.jpeg

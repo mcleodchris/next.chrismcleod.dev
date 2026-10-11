@@ -1,10 +1,6 @@
 ---
 title: "TLS 1.3 approved"
 date: 2018-08-14
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - security

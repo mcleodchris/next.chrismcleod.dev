@@ -1,10 +1,6 @@
 ---
 title: "1Password to Bitwarden Migration Preparation"
 date: 2019-11-28T11:08:00Z
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - 1password

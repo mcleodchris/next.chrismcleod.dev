@@ -1,15 +1,11 @@
 ---
 title: "Reclaiming History"
 date: 2015-01-27
-categories:
-  - articles
 tags:
   - personal
   - site-meta
   - wordpress
   - writing
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwz6tc2p"
 ogImage: reclaiming-history-preview.jpeg

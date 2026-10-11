@@ -1,16 +1,12 @@
 ---
 title: "I’d Be A Lightroom Buyer If Adobe Would Let Me"
 date: 2007-04-14
-categories:
-  - articles
 tags:
   - adobe
   - lightroom
   - aperture
   - apple
   - software
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4yxkc2p"
 ogImage: id-be-a-lightroom-buyer-if-adobe-would-let-me-preview.jpeg

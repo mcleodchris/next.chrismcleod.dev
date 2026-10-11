@@ -1,14 +1,10 @@
 ---
 title: "The Reading List Links, 10th December"
 date: 2014-12-10
-categories:
-  - articles
 tags:
   - link-list
   - links
   - miscellaneous
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqxnhbc2p"
 ogImage: the-reading-list-links-10th-december-preview.jpeg

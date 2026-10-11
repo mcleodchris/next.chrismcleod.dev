@@ -1,14 +1,10 @@
 ---
 title: "Hey, Where Did My Coding Skills Go?"
 date: 2006-03-26
-categories:
-  - articles
 tags:
   - personal
   - wordpress
   - programming
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5icr22p"
 ogImage: hey-where-did-my-coding-skills-go-preview.jpeg

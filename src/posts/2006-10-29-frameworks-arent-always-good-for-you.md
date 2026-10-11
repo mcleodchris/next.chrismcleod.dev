@@ -1,15 +1,11 @@
 ---
 title: "Frameworks Aren't Always Good for You"
 date: 2006-10-29
-categories:
-  - articles
 tags:
   - frameworks
   - php
   - programming
   - ruby
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr55mxk2p"
 ogImage: frameworks-arent-always-good-for-you-preview.jpeg

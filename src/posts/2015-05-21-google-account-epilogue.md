@@ -1,13 +1,9 @@
 ---
 title: "Google Account Epilogue"
 date: 2015-05-21
-categories:
-  - articles
 tags:
   - google
   - software
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvr5lc2p"
 ogImage: google-account-epilogue-preview.jpeg

@@ -1,14 +1,10 @@
 ---
 title: "Intermittent Oddities Sending Webmentions from WordPress"
 date: 2019-01-29
-categories:
-  - notes
 tags:
   - site-meta
   - webmentions
   - wordpress
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqob7ts2p"
 ogImage: intermittent-oddities-sending-webmentions-from-wordpress-preview.jpeg

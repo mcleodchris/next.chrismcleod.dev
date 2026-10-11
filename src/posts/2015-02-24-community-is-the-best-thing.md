@@ -1,13 +1,9 @@
 ---
 title: "Community is The Best Thing"
 date: 2015-02-24
-categories:
-  - articles
 tags:
   - netflix
   - tv
-authors:
-  - chris
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwj46k2p"

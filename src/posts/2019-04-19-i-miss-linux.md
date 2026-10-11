@@ -1,13 +1,9 @@
 ---
 title: "I Miss Linux"
 date: 2019-04-19
-categories:
-  - notes
 tags:
   - linux
   - personal
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnedzc2p"
 ogImage: i-miss-linux-preview.jpeg

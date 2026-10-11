@@ -1,10 +1,6 @@
 ---
 title: "New Necromunda Website, Info, and Videos"
 date: 2017-10-27
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - gaming

@@ -1,11 +1,6 @@
 ---
 title: "Start a Blog with Caddy and Jekyll"
 date: 2017-06-26
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - blogging

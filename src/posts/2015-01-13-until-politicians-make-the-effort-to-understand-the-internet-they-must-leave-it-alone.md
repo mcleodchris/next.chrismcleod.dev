@@ -1,16 +1,12 @@
 ---
 title: '"Until Politicians Make the Effort to Understand the Internet, They Must Leave it Alone"'
 date: 2015-01-13
-categories:
-  - articles
 tags:
   - politics
   - security
   - software
   - technology
   - privacy
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqxbihc2p"
 ogImage: until-politicians-make-the-effort-to-understand-the-internet-they-must-leave-it-alone-preview.jpeg

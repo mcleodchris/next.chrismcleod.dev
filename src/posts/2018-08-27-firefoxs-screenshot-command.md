@@ -1,10 +1,6 @@
 ---
 title: "Firefox’s :screenshot command"
 date: 2018-08-27
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqqtp22p"
 ogImage: firefoxs-screenshot-command-preview.jpeg

@@ -1,10 +1,6 @@
 ---
 title: "A Musical Baton"
 date: 2005-05-17
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - music

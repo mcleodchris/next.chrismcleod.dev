@@ -1,11 +1,6 @@
 ---
 title: "When Scammers Come Knocking…"
 date: 2018-09-06
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - security
@@ -16,11 +11,11 @@ ogImage: when-scammers-come-knocking-preview.jpeg
 
 [Krebs on Security recently wrote about investigations into the wave of extortion spam](https://krebsonsecurity.com/2018/08/whos-behind-the-screencam-extortion-scam/) doing the rounds. As chance would have it, I recently started receiving these emails myself. I've had three, so far, over the last week or so. All from the same _@yahoo.jp_ email address (obviously not the real origin), and all with slight variations on the same message, and a unique Bitcoin wallet each time. For example:
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018-09-03-09_14_5-Gmail.png", "A screenshot of a lengthy scam email attempting to extort me for Bitcoin through social engineering" %}
+![A screenshot of a lengthy scam email attempting to extort me for Bitcoin through social engineering](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018-09-03-09_14_5-Gmail.png)
 
 These are the first few mail systems used by the most recent message, before the message reaches my own setup:
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/2018-09-06-09_24_32-Original-Message.png", "screenshot of some email headers" %}
+![screenshot of some email headers](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/2018-09-06-09_24_32-Original-Message.png)
 
 Interesting things to note:
 

@@ -1,13 +1,9 @@
 ---
 title: "Answering Some Questions on Online Dating"
 date: 2014-05-02
-categories:
-  - articles
 tags:
   - dating
   - correspondence
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzgt7c2p"
 ogImage: answering-some-questions-on-online-dating-preview.jpeg
@@ -17,7 +13,7 @@ A friend, who writes the blog "[Being Female…](http://beingfemale34.wordpress.
 
 These are just the straight answers to her questions. I've started writing up a wider PoV post, but it's taking a while, so keep an eye out for it in the future.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/05/dating_header.png", "Online Dating. Not for the faint of heart." %}
+![Online Dating. Not for the faint of heart.](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/05/dating_header.png)
 
 ### 1\. Why did you decide to go with on-line dating as opposed to 'regular' dating?
 

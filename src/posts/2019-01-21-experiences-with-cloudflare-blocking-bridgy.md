@@ -1,15 +1,10 @@
 ---
 title: "Experiences with Cloudflare blocking Bridgy"
 date: 2019-01-21
-categories:
-  - articles
-  - notes
 tags:
   - brid-gy
   - indieweb
   - syndication
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqohzmk2p"
 ogImage: experiences-with-cloudflare-blocking-bridgy-preview.jpeg
@@ -25,7 +20,7 @@ Now, I’ve never consciously set anything to say “don’t let Bridgy access m
 
 But, I’m nothing if not persistent… after a bit of trial and error - switching things off and testing again with Bridgy - and I was able to track down the culprit setting, in the “Scrape Shield” section of the control panel, labelled “Server-side Excludes”:
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/03/23580C6D-110F-4B15-945C-11F233A12CC8.png", "Screenshot of the server-side excludes toggle" %}
+![Screenshot of the server-side excludes toggle](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/03/23580C6D-110F-4B15-945C-11F233A12CC8.png)
 
 With this turned off, Bridgy could syndicate my posts again.
 

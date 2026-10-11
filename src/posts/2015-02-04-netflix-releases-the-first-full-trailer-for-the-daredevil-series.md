@@ -1,14 +1,10 @@
 ---
 title: "Netflix releases the first full trailer for the Daredevil series"
 date: 2015-02-04
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - netflix
-  - TV
+  - tv
   - marvel
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqww4722p"

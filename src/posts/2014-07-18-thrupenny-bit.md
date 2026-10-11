@@ -1,10 +1,6 @@
 ---
 title: "Thrupenny Bit"
 date: 2014-07-18
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

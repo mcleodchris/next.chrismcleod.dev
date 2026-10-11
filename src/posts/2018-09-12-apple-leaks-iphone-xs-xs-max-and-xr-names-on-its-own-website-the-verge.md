@@ -1,10 +1,6 @@
 ---
 title: "Apple leaks iPhone XS, XS Max, and XR names on its own website - The Verge"
 date: 2018-09-12
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - apple

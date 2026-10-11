@@ -1,16 +1,11 @@
 ---
 title: "What are My Thoughts on Age of Sigmar?"
 date: 2015-07-01
-categories:
-  - articles
-  - hobby
 tags:
   - age-of-sigmar
   - tabletop-gaming
   - warhammer
   - miniatures
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvkshc2p"
 ogImage: what-are-my-thoughts-on-age-of-sigmar-preview.jpeg

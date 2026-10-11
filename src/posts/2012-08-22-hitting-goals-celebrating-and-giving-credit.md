@@ -1,13 +1,9 @@
 ---
 title: "Hitting Goals, Celebrating, and Giving Credit"
 date: 2012-08-22
-categories:
-  - articles
 tags:
   - personal
   - work
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3hy622p"
 ogImage: hitting-goals-celebrating-and-giving-credit-preview.jpeg

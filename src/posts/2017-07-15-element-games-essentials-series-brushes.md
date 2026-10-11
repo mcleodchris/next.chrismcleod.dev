@@ -1,10 +1,6 @@
 ---
 title: "Element Games Essentials series Brushes"
 date: 2017-07-15
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - miniatures

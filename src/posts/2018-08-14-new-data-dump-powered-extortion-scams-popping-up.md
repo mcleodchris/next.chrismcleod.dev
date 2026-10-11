@@ -1,10 +1,6 @@
 ---
 title: "New Data-Dump Powered Extortion Scams Popping Up"
 date: 2018-08-14
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - dark-side-of-tech

@@ -1,10 +1,6 @@
 ---
 title: "My Journey from Developer to Customer Service"
 date: 2014-12-08
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

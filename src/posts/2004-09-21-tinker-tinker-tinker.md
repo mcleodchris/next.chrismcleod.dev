@@ -1,10 +1,6 @@
 ---
 title: "Tinker Tinker Tinker"
 date: 2004-09-21
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

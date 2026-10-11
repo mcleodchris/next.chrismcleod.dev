@@ -1,11 +1,6 @@
 ---
 title: "Using Cloudflare and Mailgun to Forward Email"
 date: 2017-09-24
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - personal

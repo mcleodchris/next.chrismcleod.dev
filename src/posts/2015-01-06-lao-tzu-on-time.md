@@ -1,13 +1,9 @@
 ---
 title: "Lao Tzu, on time:"
 date: 2015-01-06
-categories:
-  - articles
 tags:
   - miscellaneous
   - quote
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqxepxs2p"
 ogImage: lao-tzu-on-time-preview.jpeg

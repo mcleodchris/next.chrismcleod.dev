@@ -1,10 +1,6 @@
 ---
 title: 'Ooh.directory'
 date: 2022-12-02
-categories:
-  - uncategorised
-authors:
-  - chris
 tags:
   - internet
   - indieweb

@@ -1,11 +1,6 @@
 ---
 title: "Time to Revisit An Old Hobby Project"
 date: 2017-06-28
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - warhammer-40000

@@ -1,12 +1,8 @@
 ---
 title: "Wireless Charging: Awesome Concept, Crappy Reality"
 date: 2013-05-23
-categories:
-  - articles
 tags:
   - technology
-authors:
-  - chris
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2eqac2p"

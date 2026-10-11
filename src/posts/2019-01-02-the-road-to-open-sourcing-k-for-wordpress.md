@@ -1,16 +1,11 @@
 ---
 title: 'The Road to Open-Sourcing "K" for WordPress'
 date: 2019-01-02
-categories:
-  - articles
-  - notes
 tags:
   - blogging
   - indieweb
   - open-source
   - wordpress
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqowz4c2p"
 ogImage: the-road-to-open-sourcing-k-for-wordpress-preview.jpeg

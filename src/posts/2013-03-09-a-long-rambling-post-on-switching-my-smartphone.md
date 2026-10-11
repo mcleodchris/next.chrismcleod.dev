@@ -1,8 +1,6 @@
 ---
 title: "A Long, Rambling, Post on Switching My Smartphone"
 date: 2013-03-09
-categories:
-  - articles
 tags:
   - android
   - google
@@ -10,8 +8,6 @@ tags:
   - apple
   - mobile
   - technology
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2k3522p"
 ogImage: a-long-rambling-post-on-switching-my-smartphone-preview.jpeg

@@ -1,10 +1,6 @@
 ---
 title: "Red Dead Redemption 2 Quick Thoughts"
 date: 2018-11-01
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - gaming

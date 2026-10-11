@@ -1,15 +1,10 @@
 ---
 title: "Misadventures with WP-CLI (or: Always Backup First)"
 date: 2019-01-17
-categories:
-  - articles
-  - notes
 tags:
   - mistakes-were-made
   - wordpress
   - wp-cli
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqopc222p"
 ogImage: misadventures-with-wp-cli-or-always-backup-first-preview.jpeg

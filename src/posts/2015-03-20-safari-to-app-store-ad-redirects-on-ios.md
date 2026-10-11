@@ -1,15 +1,11 @@
 ---
 title: "Safari to App Store Ad Redirects on iOS"
 date: 2015-03-20
-categories:
-  - notes
 tags:
   - software
   - apple
   - user-experience
   - dark-side-of-tech
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqw4kss2p"
 ogImage: safari-to-app-store-ad-redirects-on-ios-preview.jpeg

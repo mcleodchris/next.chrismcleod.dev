@@ -1,11 +1,6 @@
 ---
 title: "British Airways customer data stolen from its website"
 date: 2018-09-07
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - security

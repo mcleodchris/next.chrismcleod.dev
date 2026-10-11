@@ -1,10 +1,6 @@
 ---
 title: "I've Got the Bug Again"
 date: 2003-10-15
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

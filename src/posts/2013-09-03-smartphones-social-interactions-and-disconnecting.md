@@ -1,15 +1,11 @@
 ---
 title: "Smartphones, Social Interactions, and Disconnecting"
 date: 2013-09-03
-categories:
-  - articles
 tags:
   - mobile
   - social-media
   - human-interaction
   - video
-authors:
-  - chris
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr23bis2p"
@@ -32,4 +28,4 @@ Another thing you can try with friends as a means to reclaim your time together 
 
 These days I'm checking/using my phone during the times I'm commuting, while heading to the shop on my lunch break, or otherwise as and when I feel like it while I'm on my own. It's quite nice to own my smartphone again, rather than it owning me.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/09/smartphone_stack.jpg", "smartphone stack" %}
+![smartphone stack](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/09/smartphone_stack.jpg)

@@ -1,10 +1,6 @@
 ---
 title: "Clear and Simple Language. Not."
 date: 2014-11-27
-categories:
-  - status
-authors:
-  - chris
 archived: true
 tags:
   - personal

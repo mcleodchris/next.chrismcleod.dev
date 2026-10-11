@@ -1,15 +1,10 @@
 ---
 title: 'Objectives for 2021'
 date: 2021-01-01
-categories:
-  - general-life
-  - work
 tags:
   - certifications
   - personal
   - work
-authors:
-  - chris
 redirectFrom: ['/2021/01/01/objectives-for-2021/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqkl7i22p"
 ogImage: objectives-for-2021-preview.jpeg

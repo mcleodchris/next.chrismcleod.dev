@@ -1,10 +1,6 @@
 ---
 title: "How God of War's Opening Boss Battle was Designed"
 date: 2018-08-17
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - gaming

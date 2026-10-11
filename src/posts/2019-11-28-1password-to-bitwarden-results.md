@@ -1,10 +1,6 @@
 ---
 title: "1Password to Bitwarden Migration Results"
 date: 2019-11-28T21:42:00Z
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - 1password

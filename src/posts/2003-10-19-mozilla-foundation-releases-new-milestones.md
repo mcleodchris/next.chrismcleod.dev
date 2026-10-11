@@ -1,10 +1,6 @@
 ---
 title: "Mozilla Foundation Releases New Milestones"
 date: 2003-10-19
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - mozilla

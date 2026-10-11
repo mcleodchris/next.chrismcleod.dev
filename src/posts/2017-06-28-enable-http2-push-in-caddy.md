@@ -1,11 +1,6 @@
 ---
 title: "Enable HTTP/2 Push in Caddy"
 date: 2017-06-28
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - networking

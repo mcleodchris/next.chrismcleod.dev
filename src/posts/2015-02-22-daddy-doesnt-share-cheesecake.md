@@ -1,10 +1,6 @@
 ---
 title: "Daddy Doesn't Share Cheesecake"
 date: 2015-02-22
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

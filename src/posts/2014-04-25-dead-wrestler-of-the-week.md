@@ -1,12 +1,8 @@
 ---
 title: "Dead Wrestler of the Week"
 date: 2014-04-25
-categories: 
-  - articles
 tags: 
   - wrestling
-authors: 
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzifyc2p"
 ogImage: dead-wrestler-of-the-week-preview.jpeg

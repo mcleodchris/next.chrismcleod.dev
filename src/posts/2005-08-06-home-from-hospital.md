@@ -1,13 +1,9 @@
 ---
 title: "Home from Hospital"
 date: 2005-08-06
-categories:
-  - articles
 tags:
   - personal
   - cerebral-haemorrhage
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6fkck2p"
 ogImage: home-from-hospital-preview.jpeg
@@ -31,6 +27,6 @@ I have a heap of other exercises to do at home that the physios gave me. So by t
 
 for those with a morbid fascination for such things, I present the lovely scar that now adorns the side of my head:
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/292_25746608059_3425_n.jpg", "292_25746608059_3425_n" %}
+![292\_25746608059\_3425\_n](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/292_25746608059_3425_n.jpg)
 
 It gets a bit itchy and uncomfortble at times, but I guess I’m glad it’s there at the end of the day!

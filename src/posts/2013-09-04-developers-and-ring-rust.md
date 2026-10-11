@@ -1,8 +1,6 @@
 ---
 title: 'Developers and "Ring Rust"'
 date: 2013-09-04
-categories:
-  - code-development
 tags:
   - programming
   - github
@@ -10,8 +8,6 @@ tags:
   - software
   - blogging-tools
   - advice
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzzhv22p"
 ogImage: developers-and-ring-rust-preview.jpeg

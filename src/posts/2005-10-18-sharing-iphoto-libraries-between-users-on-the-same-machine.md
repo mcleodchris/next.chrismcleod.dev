@@ -1,10 +1,6 @@
 ---
 title: "Sharing iPhoto Libraries Between Users on the Same Machine?"
 date: 2005-10-18
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - apple

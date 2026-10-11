@@ -1,13 +1,9 @@
 ---
 title: "When Warhammer Was Radical: The Egalitarian Origins of the Fantasy Battle Game"
 date: 2019-01-19
-categories:
-  - notes
 tags:
   - tabletop-gaming
   - warhammer
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqojnes2p"
 ogImage: when-warhammer-was-radical-the-egalitarian-origins-of-the-fantasy-battle-game-preview.jpeg

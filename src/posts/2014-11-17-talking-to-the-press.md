@@ -1,10 +1,6 @@
 ---
 title: "Talking to the Press"
 date: 2014-11-17
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - links

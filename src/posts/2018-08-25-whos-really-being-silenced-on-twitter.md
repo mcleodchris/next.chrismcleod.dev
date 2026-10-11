@@ -1,10 +1,6 @@
 ---
 title: "Who’s really being silenced on Twitter?"
 date: 2018-08-25
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqxgn22p"
 ogImage: whos-really-being-silenced-on-twitter-preview.jpeg

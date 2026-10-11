@@ -1,15 +1,11 @@
 ---
 title: "Software, The Model T, and Taylor Swift"
 date: 2014-11-20
-categories:
-  - articles
 tags:
   - economics
   - internet
   - software
   - taylor-swift
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqy32ss2p"
 ogImage: software-the-model-t-and-taylor-swift-preview.jpeg

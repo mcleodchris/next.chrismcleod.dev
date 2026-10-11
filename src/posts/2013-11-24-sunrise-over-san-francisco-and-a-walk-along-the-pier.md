@@ -1,14 +1,10 @@
 ---
 title: "Sunrise over San Francisco, and a Walk Along the Pier"
 date: 2013-11-24
-categories:
-  - articles
 tags:
   - gallery
   - photos
   - san-francisco
-authors:
-  - chris
 archived: true
 gallery:
   - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/11/image.jpg

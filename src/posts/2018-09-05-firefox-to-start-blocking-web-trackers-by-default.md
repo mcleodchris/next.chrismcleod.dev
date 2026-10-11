@@ -1,10 +1,6 @@
 ---
 title: "Firefox to Start Blocking Web Trackers by Default"
 date: 2018-09-05
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - browsers

@@ -1,14 +1,10 @@
 ---
 title: "Reading List Links, 13th November"
 date: 2014-11-13
-categories:
-  - articles
 tags:
   - link-list
   - links
   - miscellaneous
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqyegmk2p"
 ogImage: reading-list-links-13th-november-preview.jpeg

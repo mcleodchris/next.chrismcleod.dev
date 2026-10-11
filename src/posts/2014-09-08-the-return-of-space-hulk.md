@@ -1,14 +1,10 @@
 ---
 title: "The Return of Space Hulk"
 date: 2014-09-08
-categories:
-  - articles
 tags:
   - board-games
   - warhammer
   - warhammer-40000
-authors:
-  - chris
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqyzv5c2p"
@@ -23,7 +19,7 @@ Rumours have been swirling for a few days now, and this morning Games Workshop p
 
 It's the standard, ropey, low-budget GW affair, simply panning across a piece of artwork depicting a Space Marine being fitted into Terminator armour. But at roughly 31 seconds in, for a few fractions of a second, another picture flashes up, showing a Terminator fighting a Genestealer - the classic badguys in Space Hulk.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/09/space_hulk.png", "space_hulk" %}
+![space\_hulk](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/09/space_hulk.png)
 
 So it looks like Space Hulk is on its way back. While I'm very happy, my wallet is off crying in the corner!
 
@@ -31,4 +27,4 @@ So it looks like Space Hulk is on its way back. While I'm very happy, my wallet 
 
 Thanks to [Matt on Twitter](https://twitter.com/thefirstautarch) for sending me this other still from ~14 seconds in, which I initially missed:
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/09/space_hulk2.jpg", "space_hulk2" %}
+![space\_hulk2](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/09/space_hulk2.jpg)

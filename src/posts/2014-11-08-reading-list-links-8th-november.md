@@ -1,14 +1,10 @@
 ---
 title: "Reading List Links, 8th November"
 date: 2014-11-08
-categories:
-  - articles
 tags:
   - link-list
   - links
   - miscellaneous
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqynybs2p"
 ogImage: reading-list-links-8th-november-preview.jpeg

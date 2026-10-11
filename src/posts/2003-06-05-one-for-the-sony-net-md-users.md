@@ -1,14 +1,10 @@
 ---
 title: "One for the Sony Net MD Users"
 date: 2003-06-05
-categories:
-  - articles
 tags:
   - music
   - minidisc
   - tip
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbq4hk2p"
 ogImage: one-for-the-sony-net-md-users-preview.jpeg

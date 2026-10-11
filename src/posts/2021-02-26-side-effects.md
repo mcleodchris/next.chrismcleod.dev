@@ -1,12 +1,8 @@
 ---
 title: 'Side Effects'
 date: 2021-02-26
-categories:
-  - general-life
 tags:
   - personal
-authors:
-  - chris
 redirectFrom: ['/2021/02/26/side-effects/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqk2jcc2p"
 ogImage: side-effects-preview.jpeg

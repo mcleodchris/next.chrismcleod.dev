@@ -1,14 +1,10 @@
 ---
 title: "MG Siegler: Sent From My iPad"
 date: 2012-08-21
-categories:
-  - articles
 tags:
   - computing
   - ipad
   - apple
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3l4qs2p"
 ogImage: mg-siegler-sent-from-my-ipad-preview.jpeg

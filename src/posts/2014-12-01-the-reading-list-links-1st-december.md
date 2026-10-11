@@ -1,14 +1,10 @@
 ---
 title: "The Reading List Links, 1st December"
 date: 2014-12-01
-categories:
-  - articles
 tags:
   - link-list
   - links
   - miscellaneous
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqxqnsk2p"
 ogImage: the-reading-list-links-1st-december-preview.jpeg

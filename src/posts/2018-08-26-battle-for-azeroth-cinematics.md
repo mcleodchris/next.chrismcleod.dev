@@ -1,10 +1,6 @@
 ---
 title: "Battle For Azeroth cinematics"
 date: 2018-08-26
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqvpx22p"
 ogImage: battle-for-azeroth-cinematics-preview.jpeg

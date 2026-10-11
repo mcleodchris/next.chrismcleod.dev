@@ -1,14 +1,10 @@
 ---
 title: "Warhammer 40,000 - Dawn of War"
 date: 2004-09-25
-categories:
-  - articles
 tags:
   - gaming
   - warhammer
   - warhammer-40000
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr7esck2p"
 ogImage: warhammer-40000-dawn-of-war-preview.jpeg

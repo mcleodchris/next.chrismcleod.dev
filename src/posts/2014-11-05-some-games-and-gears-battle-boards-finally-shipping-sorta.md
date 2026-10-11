@@ -1,14 +1,10 @@
 ---
 title: "(Some) Games and Gears Battle Boards Finally Shipping (Sorta)"
 date: 2014-11-05
-categories:
-  - articles
 tags:
   - tabletop-gaming
   - warhammer
   - warhammer-40000
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqytc7c2p"
 ogImage: some-games-and-gears-battle-boards-finally-shipping-sorta-preview.jpeg

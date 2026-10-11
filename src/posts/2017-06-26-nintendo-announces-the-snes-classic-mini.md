@@ -1,11 +1,6 @@
 ---
 title: "Nintendo announces the SNES Classic Mini"
 date: 2017-06-26
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - nostalgia

@@ -1,10 +1,6 @@
 ---
 title: "that woz the week wot woz"
 date: 2007-04-21
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - miscellaneous

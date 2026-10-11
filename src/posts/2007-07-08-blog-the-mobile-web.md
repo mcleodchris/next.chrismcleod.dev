@@ -1,14 +1,10 @@
 ---
 title: "Blog the Mobile Web?"
 date: 2007-07-08
-categories:
-  - articles
 tags:
   - blogging
   - blogging-tools
   - mobile-web
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4qyo22p"
 ogImage: blog-the-mobile-web-preview.jpeg

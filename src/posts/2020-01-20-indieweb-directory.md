@@ -1,13 +1,9 @@
 ---
 title: "Indieweb Directory"
 date: 2020-01-20
-categories:
-  - notes
 tags:
   - indieweb
   - project
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqkz6qk2p"
 ogImage: indieweb-directory-preview.jpeg

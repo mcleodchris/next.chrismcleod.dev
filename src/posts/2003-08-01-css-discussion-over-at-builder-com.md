@@ -1,13 +1,9 @@
 ---
 title: "CSS Discussion Over at Builder.com"
 date: 2003-08-01
-categories:
-  - articles
 tags:
   - web-standards
   - css
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbmm5s2p"
 ogImage: css-discussion-over-at-buildercom-preview.jpeg

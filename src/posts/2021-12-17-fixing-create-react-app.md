@@ -1,16 +1,11 @@
 ---
 title: 'Fixing create-react-app'
 date: 2021-12-17
-categories:
-  - projects
-  - work
 tags:
   - tip
   - react
   - programming
   - linux
-authors:
-  - chris
 redirectFrom: ['/2021/12/17/fixing-create-react-app/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqihfkk2p"
 ogImage: fixing-create-react-app-preview.jpeg

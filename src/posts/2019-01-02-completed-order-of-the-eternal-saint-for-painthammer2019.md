@@ -1,14 +1,10 @@
 ---
 title: "Completed: Order of the Eternal Saint, for #PaintHammer2019"
 date: 2019-01-02
-categories:
-  - notes
 tags:
   - warhammer-40000
   - warhammer
   - miniatures
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqoz4ik2p"
 ogImage: completed-order-of-the-eternal-saint-for-painthammer2019-preview.jpeg
@@ -20,10 +16,10 @@ As always, there's loads I'd like to be done better on these (the white robes ma
 
 The Imagifier will be getting her banner as soon as I find the copper foil I bought to make it.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1508.jpg", "alt temporarily text not available" %}
+![alt temporarily text not available](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1508.jpg)
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1507.jpg", "alt temporarily text not available" %}
+![alt temporarily text not available](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1507.jpg)
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1506.jpg", "alt temporarily text not available" %}
+![alt temporarily text not available](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1506.jpg)
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1509.jpg", "alt temporarily text not available" %}
+![alt temporarily text not available](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1509.jpg)

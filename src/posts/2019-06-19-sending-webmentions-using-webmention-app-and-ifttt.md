@@ -1,16 +1,12 @@
 ---
 title: "Sending Webmentions using Webmention.app and IFTTT"
 date: 2019-06-19
-categories:
-  - notes
 tags:
   - indieweb
   - textpattern
   - blogging-tools
   - webmentions
   - how-to
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqmm5m22p"
 ogImage: sending-webmentions-using-webmentionapp-and-ifttt-preview.jpeg

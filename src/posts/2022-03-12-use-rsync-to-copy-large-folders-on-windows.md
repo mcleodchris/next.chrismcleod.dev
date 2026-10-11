@@ -1,14 +1,10 @@
 ---
 title: 'Use Rsync to copy large folders on Windows'
 date: 2022-03-12
-categories:
-  - general-life
 tags:
   - software
   - tip
   - linux
-authors:
-  - chris
 redirectFrom: ['/2022/03/12/use-rsync-to-copy-large-folders-on-windows/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqiflws2p"
 ogImage: use-rsync-to-copy-large-folders-on-windows-preview.jpeg
@@ -16,7 +12,7 @@ ogImage: use-rsync-to-copy-large-folders-on-windows-preview.jpeg
 
 This post will fall into the “well duh…” category for a lot of people, but sometimes we need a reminder.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/2022/03/image.png", "a screenshot of file names scrolling past in a terminal window", "rsync in action"%}
+![a screenshot of file names scrolling past in a terminal window](https://assets.chrismcleod.dev/chrismcleod.dev/2022/03/image.png "rsync in action")
 
 I got myself a new laptop recently (more on that another day), and wanted to back up files from my old desktop to a portable drive, potentially for loading onto the new device. The main thing I wanted to back up was my photo library; most of the rest of my files are in the cloud/git repos, but I have a large “pre-cloud” library of family photos and consolidated backups from old computers that I’ve not managed to sort through and upload anywhere yet, so I wanted to make sure I had a copy of it. The library is hundreds of GB of various file types, from media to all sorts of metadata files used by the likes of iPhoto.
 

@@ -1,15 +1,11 @@
 ---
 title: 'A Belated Check-in'
 date: 2021-10-27
-categories:
-  - general-life
 tags:
   - personal
   - projects
   - work
   - blogging
-authors:
-  - chris
 redirectFrom: ['/2021/10/27/a-belated-check-in/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqil2qk2p"
 ogImage: a-belated-check-in-preview.jpeg

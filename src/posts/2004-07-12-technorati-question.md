@@ -1,10 +1,6 @@
 ---
 title: "Technorati Question"
 date: 2004-07-12
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - site-meta

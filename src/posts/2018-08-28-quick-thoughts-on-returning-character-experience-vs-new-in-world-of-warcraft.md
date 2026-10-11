@@ -1,14 +1,9 @@
 ---
 title: "Quick Thoughts on Returning Character Experience Vs. New, in World of Warcraft"
 date: 2018-08-28
-categories:
-  - articles
-  - notes
 tags:
   - world-of-warcraft
   - gaming
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqiny22p"
 ogImage: quick-thoughts-on-returning-character-experience-vs-new-in-world-of-warcraft-preview.jpeg

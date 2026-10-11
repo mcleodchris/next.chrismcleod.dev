@@ -1,10 +1,6 @@
 ---
 title: 'The Outline: "Let''s all go back to Tumblr"'
 date: 2018-08-20
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - links

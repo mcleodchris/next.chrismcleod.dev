@@ -1,10 +1,6 @@
 ---
 title: "Useful Alias Commands"
 date: 2004-05-16
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - linux

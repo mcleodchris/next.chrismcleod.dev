@@ -1,14 +1,10 @@
 ---
 title: "The Reading List Links, 18th December"
 date: 2014-12-18
-categories:
-  - notes
 tags:
   - link-list
   - links
   - miscellaneous
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqxkglk2p"
 ogImage: the-reading-list-links-18th-december-preview.jpeg

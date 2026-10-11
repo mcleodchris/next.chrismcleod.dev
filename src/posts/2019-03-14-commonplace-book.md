@@ -1,14 +1,10 @@
 ---
 title: "Commonplace Book"
 date: 2019-03-14
-categories:
-  - notes
 tags:
   - commonplace-book
   - indieweb
   - blogging
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnhohk2p"
 ogImage: commonplace-book-preview.jpeg

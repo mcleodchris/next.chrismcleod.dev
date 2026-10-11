@@ -1,8 +1,6 @@
 ---
 title: "Run Coder for Raspberry Pi on Your Linux PC"
 date: 2013-09-13
-categories:
-  - code-development
 tags:
   - coder
   - linux
@@ -11,8 +9,6 @@ tags:
   - raspberry-pi
   - software
   - how-to
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzuipc2p"
 ogImage: run-coder-for-raspberry-pi-on-your-linux-pc-preview.jpeg

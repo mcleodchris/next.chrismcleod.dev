@@ -1,16 +1,12 @@
 ---
 title: "Step 3 - Add Support for Receiving Webmentions | #IndieWeb Textpattern"
 date: 2019-03-08
-categories:
-  - notes
 tags:
   - indieweb
   - textpattern
   - webmentions
   - blogging
   - blogging-tools
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnpqbk2p"
 ogImage: step-3-add-support-for-receiving-webmentions-or-indieweb-textpattern-preview.jpeg

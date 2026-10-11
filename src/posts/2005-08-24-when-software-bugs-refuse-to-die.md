@@ -1,10 +1,6 @@
 ---
 title: "When Software Bugs Refuse to Die"
 date: 2005-08-24
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - programming

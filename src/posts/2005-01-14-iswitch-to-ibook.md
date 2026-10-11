@@ -1,10 +1,6 @@
 ---
 title: "iSwitch to iBook"
 date: 2005-01-14
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

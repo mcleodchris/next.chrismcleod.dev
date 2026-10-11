@@ -1,10 +1,6 @@
 ---
 title: "Twitter Trolls Should Lose Ability To Include @Names in Tweets | Hunter Walk"
 date: 2017-01-09
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - social-media

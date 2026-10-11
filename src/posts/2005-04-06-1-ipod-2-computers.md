@@ -1,10 +1,6 @@
 ---
 title: "1 iPod, 2 Computers?"
 date: 2005-04-06
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

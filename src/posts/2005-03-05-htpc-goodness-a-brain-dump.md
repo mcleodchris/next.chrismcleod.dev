@@ -1,10 +1,6 @@
 ---
 title: "HTPC Goodness - A Brain Dump"
 date: 2005-03-05
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - computing

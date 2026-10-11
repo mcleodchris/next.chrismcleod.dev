@@ -1,14 +1,9 @@
 ---
 title: 'Adventures in the Third Dimension'
 date: 2022-12-23
-categories:
-  - general-life
-  - hobby
 tags:
   - 3d-printing
   - technology
-authors:
-  - chris
 redirectFrom: ['/2022/12/23/adventures-in-the-third-dimension/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhonks2p"
 ogImage: adventures-in-the-third-dimension-preview.jpeg

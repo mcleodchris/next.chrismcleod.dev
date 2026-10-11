@@ -1,14 +1,10 @@
 ---
 title: 'How to host Mastodon on a Cloud Raspberry Pi'
 date: 2022-12-02
-categories:
-  - uncategorised
 tags:
   - raspberry-pi
   - servers
   - social-media
-authors:
-  - chris
 redirectFrom: ['/2022/12/02/how-to-host-mastodon-on-a-cloud-raspberry-pi/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhxftk2p"
 ogImage: how-to-host-mastodon-on-a-cloud-raspberry-pi-preview.jpeg

@@ -1,10 +1,6 @@
 ---
 title: "Reactivating the Wordpress Links Manager"
 date: 2019-01-16
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - blogging

@@ -1,11 +1,6 @@
 ---
 title: "SNES Classic Mini Preorders Open, Almost Immediately Sell Out"
 date: 2017-06-27
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - nintendo

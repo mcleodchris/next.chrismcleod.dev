@@ -1,14 +1,10 @@
 ---
 title: "Who Are The Scots?"
 date: 2014-07-22
-categories:
-  - articles
 tags:
   - politics
   - scotland
   - scottish-independence
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqzakz22p"
 ogImage: who-are-the-scots-preview.jpeg

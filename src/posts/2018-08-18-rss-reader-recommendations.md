@@ -1,11 +1,6 @@
 ---
 title: "RSS Reader Recommendations"
 date: 2018-08-18
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - blogging

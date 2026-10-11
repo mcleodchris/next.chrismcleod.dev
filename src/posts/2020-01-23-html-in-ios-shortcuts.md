@@ -1,14 +1,10 @@
 ---
 title: "HTML in iOS Shortcuts"
 date: 2020-01-23
-categories:
-  - notes
 tags:
   - indieweb
   - software
   - tip
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqkx5cs2p"
 ogImage: html-in-ios-shortcuts-preview.jpeg

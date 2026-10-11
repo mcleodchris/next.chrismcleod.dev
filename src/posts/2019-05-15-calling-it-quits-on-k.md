@@ -1,13 +1,9 @@
 ---
 title: 'Calling it Quits on "K"'
 date: 2019-05-15
-categories:
-  - code-development
 tags:
   - programming
   - wordpress
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqn6rck2p"
 ogImage: calling-it-quits-on-k-preview.jpeg

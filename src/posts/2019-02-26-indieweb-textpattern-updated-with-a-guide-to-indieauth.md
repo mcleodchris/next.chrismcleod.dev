@@ -1,16 +1,12 @@
 ---
 title: "#IndieWeb Textpattern Updated with a Guide to IndieAuth"
 date: 2019-02-26
-categories:
-  - notes
 tags:
   - how-to
   - blogging
   - blogging-tools
   - indieweb
   - textpattern
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnwj322p"
 ogImage: indieweb-textpattern-updated-with-a-guide-to-indieauth-preview.jpeg
@@ -26,4 +22,4 @@ While I was researching the article I discovered that [IndieLogin](https://indie
 
 If you're interested, here's the current content plan for the site, although I'll be adding more articles as I re-familiarise myself with developing Textpattern plugins, and open up more integrations.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/02/2019-02-26-10_07_55-Articles-IndieWeb-Textpattern-_-Textpattern-CMS.png", "a table of draft articles in the Textpattern CMS admin panel" %}
+![a table of draft articles in the Textpattern CMS admin panel](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/02/2019-02-26-10_07_55-Articles-IndieWeb-Textpattern-_-Textpattern-CMS.png)

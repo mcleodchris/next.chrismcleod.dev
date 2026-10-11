@@ -1,10 +1,6 @@
 ---
 title: "3rd Update in a Night?"
 date: 2003-09-07
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - software

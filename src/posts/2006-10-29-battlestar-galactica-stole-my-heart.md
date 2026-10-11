@@ -1,14 +1,10 @@
 ---
 title: "Battlestar Galactica Stole My Heart"
 date: 2006-10-29
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal
-  - TV
+  - tv
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr57ijs2p"
 ogImage: battlestar-galactica-stole-my-heart-preview.jpeg
 ---

@@ -1,11 +1,6 @@
 ---
 title: "Wargaming & Hobby Community Round-up"
 date: 2018-08-24
-categories:
-  - hobby
-  - notes
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqr2s2k2p"
 ogImage: wargaming-and-hobby-community-round-up-preview.jpeg

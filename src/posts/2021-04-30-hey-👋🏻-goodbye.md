@@ -1,14 +1,10 @@
 ---
 title: 'Hey 👋🏻 Goodbye'
 date: 2021-04-30
-categories:
-  - general-life
 tags:
   - email
   - privacy
   - dark-side-of-tech
-authors:
-  - chris
 redirectFrom: ['/2021/04/30/hey-%f0%9f%91%8b%f0%9f%8f%bb-goodbye/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqjkpgs2p"
 ogImage: hey-👋🏻-goodbye-preview.jpeg

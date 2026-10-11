@@ -1,10 +1,6 @@
 ---
 title: "Note to Self - Posting Liquid Code Blocks"
 date: 2017-06-29
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - jekyll

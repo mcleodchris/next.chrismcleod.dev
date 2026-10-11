@@ -1,10 +1,6 @@
 ---
 title: "The Christmas Shoes"
 date: 2018-12-22
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - personal

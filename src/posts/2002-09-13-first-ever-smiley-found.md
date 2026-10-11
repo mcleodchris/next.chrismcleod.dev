@@ -1,13 +1,9 @@
 ---
 title: "First Ever Smiley Found!"
 date: 2002-09-13
-categories:
-  - articles
 tags:
   - microsoft
   - internet-history
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbwz622p"
 ogImage: first-ever-smiley-found!-preview.jpeg

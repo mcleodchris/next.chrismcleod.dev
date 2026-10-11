@@ -1,10 +1,6 @@
 ---
 title: "Stop calling teenagers millennials"
 date: 2018-08-19
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - links

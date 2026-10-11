@@ -1,10 +1,6 @@
 ---
 title: "A Whole Lotta Links"
 date: 2004-06-28
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - web-standards

@@ -1,14 +1,10 @@
 ---
 title: "Strange iPhone Reboots"
 date: 2015-05-22
-categories:
-  - articles
 tags:
   - apple
   - mobile
   - software
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvppok2p"
 ogImage: strange-iphone-reboots-preview.jpeg

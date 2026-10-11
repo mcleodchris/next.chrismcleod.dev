@@ -1,14 +1,10 @@
 ---
 title: "Google Account Frustrations"
 date: 2015-05-17
-categories:
-  - articles
 tags:
   - google
   - software
   - user-experience
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvuf3s2p"
 ogImage: google-account-frustrations-preview.jpeg

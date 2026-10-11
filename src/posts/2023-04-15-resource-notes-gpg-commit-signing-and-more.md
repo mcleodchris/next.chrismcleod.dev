@@ -1,14 +1,10 @@
 ---
 title: 'Resource Notes: GPG, commit signing and more'
 date: 2023-04-15
-categories:
-  - uncategorised
 tags:
   - programming
   - notes
   - links
-authors:
-  - chris
 redirectFrom: ['/2023/04/15/resource-notes-gpg-commit-signing-and-more/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqh3hck2p"
 ogImage: resource-notes-gpg-commit-signing-and-more-preview.jpeg

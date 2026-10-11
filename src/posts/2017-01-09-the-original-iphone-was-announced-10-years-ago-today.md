@@ -1,16 +1,12 @@
 ---
 title: "The Original iPhone Was Announced 10 Years Ago Today"
 date: 2017-01-09
-categories:
-  - articles
 tags:
   - apple
   - internet
   - iphone
   - mobile
   - technology
-authors:
-  - chris
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyquy5rk2p"

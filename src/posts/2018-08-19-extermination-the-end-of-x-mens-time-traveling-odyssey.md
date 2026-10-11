@@ -1,10 +1,6 @@
 ---
 title: "Extermination, the end of X-Men’s time-traveling odyssey"
 date: 2018-08-19
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - comics

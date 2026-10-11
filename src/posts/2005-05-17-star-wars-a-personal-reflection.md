@@ -1,13 +1,9 @@
 ---
 title: "Star Wars: A Personal Reflection"
 date: 2005-05-17
-categories:
-  - articles
 tags:
   - movies
   - star-wars
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr6qnrk2p"
 ogImage: star-wars-a-personal-reflection-preview.jpeg

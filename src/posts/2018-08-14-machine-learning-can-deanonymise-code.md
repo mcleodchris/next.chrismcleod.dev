@@ -1,10 +1,6 @@
 ---
 title: "Machine Learning Can Identify the Authors of Anonymous Code"
 date: 2018-08-14
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - machine-learning

@@ -1,11 +1,6 @@
 ---
 title: "iOS 11 Public Beta Now Available"
 date: 2017-06-28
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - apple

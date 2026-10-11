@@ -1,11 +1,6 @@
 ---
 title: "What Hobby Project Comes Next?"
 date: 2018-11-02
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - projects

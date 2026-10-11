@@ -1,16 +1,11 @@
 ---
 title: 'Summer of Certifications'
 date: 2021-05-21
-categories:
-  - general-life
-  - work
 tags:
   - microsoft
   - azure
   - certifications
   - learning
-authors:
-  - chris
 redirectFrom: ['/2021/05/21/summer-of-certification/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqjgufc2p"
 ogImage: summer-of-certifications-preview.jpeg

@@ -1,15 +1,11 @@
 ---
 title: "👋 Bye, Facebook."
 date: 2019-11-30
-categories:
-  - notes
 tags:
   - facebook
   - indieweb
   - social-media
   - personal
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqlcjl22p"
 ogImage: 👋-bye-facebook-preview.jpeg

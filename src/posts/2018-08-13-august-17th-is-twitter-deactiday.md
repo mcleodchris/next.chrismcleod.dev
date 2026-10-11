@@ -1,11 +1,6 @@
 ---
 title: "August 17th is Twitter #DeactiDay"
 date: 2018-08-13
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - social-media
@@ -13,7 +8,7 @@ atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqt4pgk
 ogImage: august-17th-is-twitter-deactiday-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/9c4c1e9c-794e-4ce7-b617-ed4882c98160.jpg", "August 17th I am out #deactiday" %}
+![August 17th I am out #deactiday](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/9c4c1e9c-794e-4ce7-b617-ed4882c98160.jpg)
 
 Enough users are fed-up with Twitter and the cess-pool it's becoming, that they have declared Friday 17th August to be [#DeactiDay](https://twitter.com/hashtag/DeactiDay?src=hash "#DeactiDay"). The hope is a short, sharp, shock of mass account deactivations will make those in charge sit up and [listen](https://www.nytimes.com/2018/08/08/opinion/twitter-alex-jones-jack-dorsey.html). I've no hope left that it will, but it's worth a shot.
 

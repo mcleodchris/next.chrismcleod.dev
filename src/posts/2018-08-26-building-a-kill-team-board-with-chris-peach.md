@@ -1,10 +1,6 @@
 ---
 title: "Building a Kill Team Board with Chris Peach"
 date: 2018-08-26
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqqu37k2p"
 ogImage: building-a-kill-team-board-with-chris-peach-preview.jpeg

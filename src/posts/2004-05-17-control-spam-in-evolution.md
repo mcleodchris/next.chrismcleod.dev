@@ -1,10 +1,6 @@
 ---
 title: "Control Spam in Evolution"
 date: 2004-05-17
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - linux

@@ -1,12 +1,8 @@
 ---
 title: "Honey... I'm Home!"
 date: 2006-10-18
-categories:
-  - articles
 tags:
   - personal
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5eycs2p"
 ogImage: honey-im-home!-preview.jpeg

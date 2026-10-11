@@ -1,16 +1,12 @@
 ---
 title: "Unboxing “The Lost and the Damned,” by Guy Haley"
 date: 2019-07-13
-categories:
-  - notes
 tags:
   - books
   - gallery
   - horus-heresy
   - warhammer
   - warhammer-40000
-authors:
-  - chris
 archived: true
 gallery:
   - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/E5597AA9-7F1E-48B5-82B5-4915ECCF404D.jpeg

@@ -1,13 +1,9 @@
 ---
 title: 'Talking to Myself'
 date: 2021-02-04
-categories:
-  - work
 tags:
   - personal
   - work
-authors:
-  - chris
 redirectFrom: ['/2021/02/04/talking-to-myself/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqkcqxs2p"
 ogImage: talking-to-myself-preview.jpeg
@@ -21,6 +17,6 @@ As well as having multiple review + feedback sessions with colleagues, I've spen
 
 As far as the slides go, these are now set. I've had some great feedback on the visuals, which is a nice boost. The deck needs to be sent off to the panel by the end of today, so there's no more time to make any substantive changes - probably for the best! I won't be able to post the full deck, but I will leave you with a small extract from the "about me" slide:
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/image.png", "a screenshot from my presentation, showing white, bullet-pointed text, on a red gradient background. Point one reads 'Brain haemorrhage + stroke survivor', point two reads 'Interested in the intersections of privacy, ethics, and technology', point three reads 'Unrepentant Warhammer nerd'." %}
+![a screenshot from my presentation, showing white, bullet-pointed text, on a red gradient background. Point one reads 'Brain haemorrhage + stroke survivor', point two reads 'Interested in the intersections of privacy, ethics, and technology', point three reads 'Unrepentant Warhammer nerd'.](https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/image.png)
 
 A snippet from my draft presentation

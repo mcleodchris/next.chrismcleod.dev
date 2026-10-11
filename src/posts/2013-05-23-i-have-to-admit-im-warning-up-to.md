@@ -1,14 +1,10 @@
 ---
 title: "I have to Admit…"
 date: 2013-05-23
-categories:
-  - articles
 tags:
   - computing
   - google
   - technology
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2ghvk2p"
 ogImage: i-have-to-admit-preview.jpeg

@@ -1,15 +1,11 @@
 ---
 title: "Gripes About the Instagram Algorithmic Feed"
 date: 2017-01-10
-categories:
-  - articles
 tags:
   - rant
   - social-media
   - user-experience
   - technology
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyquv72c2p"
 ogImage: gripes-about-the-instagram-algorithmic-feed-preview.jpeg

@@ -1,14 +1,10 @@
 ---
 title: "An IndieWeb Itch"
 date: 2018-04-15
-categories:
-  - notes
 tags:
   - blogging
   - indieweb
   - social-media
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqt7wx22p"
 ogImage: an-indieweb-itch-preview.jpeg

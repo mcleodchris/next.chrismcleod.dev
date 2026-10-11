@@ -1,11 +1,6 @@
 ---
 title: "1Password No Longer Selling Standalone Licenses"
 date: 2017-07-06
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - 1password

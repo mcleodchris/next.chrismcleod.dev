@@ -1,10 +1,6 @@
 ---
 title: "Back to Work Today"
 date: 2005-09-27
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

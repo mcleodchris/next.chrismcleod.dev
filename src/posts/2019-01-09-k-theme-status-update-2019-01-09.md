@@ -1,11 +1,6 @@
 ---
 title: "K Theme Status Update 2019-01-09"
 date: 2019-01-09
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - blogging

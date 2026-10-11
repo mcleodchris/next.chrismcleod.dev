@@ -1,14 +1,10 @@
 ---
 title: "Playing Games Badly #1: Hearthstone BRM Final Boss"
 date: 2015-06-25
-categories:
-  - articles
 tags:
   - hearthstone
   - gaming
   - video
-authors:
-  - chris
 archived: true
 youtube: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvmpy22p"

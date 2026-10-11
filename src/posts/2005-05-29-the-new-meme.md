@@ -1,10 +1,6 @@
 ---
 title: "The New Meme"
 date: 2005-05-29
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - music

@@ -1,0 +1,8244 @@
+{
+  "version": 1,
+  "images": {
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/3de29a18-0c00-4c2a-bd67-07d6548f0a5e-74351-00000e325e733375_file.jpg": {
+      "width": 1024,
+      "height": 768,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/image.png": {
+      "width": 1113,
+      "height": 232,
+      "variants": {},
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/img_0228.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/img_0400.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/img_0442.jpg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/microsoft-certified-security-compliance-and-identity-fundamentals.png": {
+      "width": 600,
+      "height": 600,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2022/03/azure-fundamentals-1.png": {
+      "width": 600,
+      "height": 600,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2022/03/image.png": {
+      "width": 848,
+      "height": 502,
+      "variants": {},
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2022/04/57C99C4A-0B89-4F4A-98F7-35972C5787CE.jpeg": {
+      "width": 1280,
+      "height": 960,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2022/04/img_1117.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2022/04/microsoft-certified-azure-developer-associate.1.png": {
+      "width": 600,
+      "height": 600,
+      "variants": {
+        "avif": [],
+        "webp": [],
+        "jpeg": []
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2022/12/image.png": {
+      "width": 1133,
+      "height": 554,
+      "variants": {},
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2022/12/img_1488-1.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2022/12/img_1488-2.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [],
+        "webp": [],
+        "jpeg": []
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2022/12/img_1491.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/01/20221226_133308014_iOS.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/01/20230104_114314255_iOS.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/01/20230104_114357604_iOS.jpg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/01/970c78e0-a6bd-4c64-b434-699c3dc03a0c.jpg": {
+      "width": 2414,
+      "height": 2411,
+      "variants": {},
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/01/Screenshot_20230111_163923.png": {
+      "width": 1393,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/01/image-1.png": {
+      "width": 1232,
+      "height": 383,
+      "variants": {},
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/01/image-2.png": {
+      "width": 1093,
+      "height": 669,
+      "variants": {},
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/01/image-3.png": {
+      "width": 1531,
+      "height": 1349,
+      "variants": {},
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/05/microsoft-certified-devops-engineer-expert.png": {
+      "width": 600,
+      "height": 600,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/07/image-1.png": {
+      "width": 1438,
+      "height": 978,
+      "variants": {},
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/07/image-2.png": {
+      "width": 1438,
+      "height": 978,
+      "variants": {},
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/07/image-3.png": {
+      "width": 505,
+      "height": 100,
+      "variants": {},
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/07/image-4.png": {
+      "width": 715,
+      "height": 85,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/07/image-5.png": {
+      "width": 657,
+      "height": 445,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/07/image-6.png": {
+      "width": 517,
+      "height": 134,
+      "variants": {
+        "avif": [
+          320
+        ],
+        "webp": [
+          320
+        ],
+        "jpeg": [
+          320
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/07/image-7.png": {
+      "width": 1147,
+      "height": 583,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/07/image-8.png": {
+      "width": 1630,
+      "height": 2010,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/07/image.png": {
+      "width": 621,
+      "height": 367,
+      "variants": {},
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/2023/12/sre_foundation_badge.png": {
+      "width": 360,
+      "height": 360,
+      "variants": {
+        "avif": [
+          320
+        ],
+        "webp": [
+          320
+        ],
+        "jpeg": [
+          320
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/05e05f61-e3e1-482f-b7c4-c3d0274e27ed.png": {
+      "width": 798,
+      "height": 157,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          798
+        ],
+        "webp": [
+          320,
+          570,
+          798
+        ],
+        "jpeg": [
+          320,
+          570,
+          798
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/07328152-d534-4ba3-85b8-2f1b93a06e28.png": {
+      "width": 570,
+      "height": 436,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/095a816c-dc3b-4db1-956e-1ce751fbad5b.JPG": {
+      "width": 1200,
+      "height": 1600,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/0a6c57ad-52b4-4d50-b5a6-181dfacf0c5f.JPG": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/0a9545f5-fd82-41a0-9866-edb65d29d512.jpeg": {
+      "width": 1200,
+      "height": 899,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/0c62b2e4-54b8-4049-9311-fb0b18067edd.JPG": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/0dbd90ca-b8f0-4d38-9174-53695ea167fd.jpg": {
+      "width": 820,
+      "height": 820,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/0feb1995-6dd3-425c-953a-d59b7dd85fbf.jpg": {
+      "width": 820,
+      "height": 820,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/1565469f-a918-4249-b300-aff54ea6ccab.jpg": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/16e49e3f-eb7f-4d22-be41-9feb83953a6d.png": {
+      "width": 1200,
+      "height": 720,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/1992bd94-e5f2-4180-9702-5008bd99efd1.jpg": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/1a8e3678-541e-4cf5-aeea-778d0b23575f.jpg": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/1f3e7d24-0f55-4d54-ae4a-ec25e1e78132.JPG": {
+      "width": 1200,
+      "height": 1600,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/225ba344-d86c-446d-b424-c9435c61b6c7.JPG": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/242bc69d-f7e6-4836-b3da-f85bedd0c460.png": {
+      "width": 820,
+      "height": 1777,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/288146ab-577d-4d8e-9eee-7f2b10f51051.PNG": {
+      "width": 820,
+      "height": 820,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/2a26917a-4c03-4fc8-bed3-be96ef7ef8af.png": {
+      "width": 820,
+      "height": 517,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/2a2f6685-97c1-4700-a965-5b0357315a25.JPG": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/2b64730a-ee77-4d2b-8c3e-d238d047a0f7.png": {
+      "width": 820,
+      "height": 363,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/2fdbb63b-689e-45bd-b188-f3c4545280a5.JPG": {
+      "width": 820,
+      "height": 615,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/30f31ffe-1771-44a9-8295-8f6139ff446d.jpeg": {
+      "width": 820,
+      "height": 1093,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/32591036-345a-48c7-8cfd-1018df08ce22.JPG": {
+      "width": 1200,
+      "height": 1600,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/32984a89-b537-42b9-bc03-60f805f35346.jpeg": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/338cbdc0-8086-4fb3-82f3-9558ee78a392.jpg": {
+      "width": 820,
+      "height": 1093,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/33cb2475-a12b-4554-930c-779f49ca3f3e.png": {
+      "width": 820,
+      "height": 225,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/37830ab6-0979-4e69-8501-fc6042098d83.JPG": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/378f8343-231b-429a-b3b0-b58126e2afbf.jpg": {
+      "width": 820,
+      "height": 820,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/38c03cd5-9790-4a88-8184-6a2c0925ef47.png": {
+      "width": 820,
+      "height": 253,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/39818486-00bd-4961-b17f-9da4fab49788.jpg": {
+      "width": 1200,
+      "height": 797,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/3cdaee24-cc02-45cf-8430-88dbe68ad3a8.jpeg": {
+      "width": 820,
+      "height": 615,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/3df9da62-41ba-4873-8e0e-5925a851527d.jpg": {
+      "width": 820,
+      "height": 1093,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/4284ee6c-3b57-40ae-a381-e642ebf45477.jpg": {
+      "width": 1200,
+      "height": 1600,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/45d109bf-cc9c-4ad1-a83d-8d8da68f4d2d.jpeg": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/46eb6f28-5053-49e0-9f8e-98ef5399c461.jpg": {
+      "width": 820,
+      "height": 820,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/4fd9a6ae-9259-46c6-9ad3-5c24640e2068.JPG": {
+      "width": 1200,
+      "height": 1600,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/55239cb9-0937-4a28-99fb-6d27df10284b.jpg": {
+      "width": 1200,
+      "height": 1285,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/552b8a4e-95ec-4901-9b7b-83e1427c6dfa.png": {
+      "width": 568,
+      "height": 309,
+      "variants": {
+        "avif": [
+          320,
+          568
+        ],
+        "webp": [
+          320,
+          568
+        ],
+        "jpeg": [
+          320,
+          568
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/5536f677-1905-4d8b-a778-357471977155.png": {
+      "width": 570,
+      "height": 163,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/607b355b-e8ac-4991-9a47-5a9351a4699a.jpeg": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/61bd81d7-f6ee-4e7c-98ba-4a45bbc32598.png": {
+      "width": 820,
+      "height": 170,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/6234d3af-ae6c-470b-a19d-c716eb71adfb.png": {
+      "width": 570,
+      "height": 315,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/6332139f-c599-4afa-a167-7fe7c871607c.jpeg": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/63bc7618-5ab7-4f78-977c-13a86489a99b.jpg": {
+      "width": 820,
+      "height": 1093,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/6425520c-a2df-493b-a102-54aed79a7c27.png": {
+      "width": 820,
+      "height": 803,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/65cf5dc6-80e9-4f81-90d1-832cec5dde47.jpg": {
+      "width": 820,
+      "height": 820,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/664d52cf-4fc9-4e53-a37d-acd7a1b2ce66.jpg": {
+      "width": 1200,
+      "height": 1600,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/66d7b615-52de-4380-bdf9-7c81d9351009.JPG": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/673f2223-a932-410b-b524-5dbd75ae1f4e.jpg": {
+      "width": 820,
+      "height": 820,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/67957f52-3bfd-45f8-8a7b-9eddb0a987a8.JPG": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/6a0f89d8-00de-42fe-b727-8ddbd7ed0d7f.JPG": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/6a120742-a8c9-469e-8b16-31f1ee4e7bfc.jpg": {
+      "width": 820,
+      "height": 820,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/6c072f4e-e8f2-4bc1-a51e-23957c27759d.png": {
+      "width": 820,
+      "height": 1971,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/6c2b0607-5fe5-4681-80be-3cf2e885596f.png": {
+      "width": 820,
+      "height": 451,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/6c80feb6-1fa5-4db2-8cc0-2d93f4b414af.jpg": {
+      "width": 820,
+      "height": 1093,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/6d004745-d73b-489e-ac16-7b07b6300917.png": {
+      "width": 820,
+      "height": 179,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/6f9bdf38-a752-4f2f-b16c-635f27eb41f8.png": {
+      "width": 820,
+      "height": 1777,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/71432c05-ff6b-4bbe-bcfb-e5cc4d0410fc.png": {
+      "width": 570,
+      "height": 347,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/73a8d643-6466-48b8-981b-3883e20ce4f2.JPG": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/771d5980-23f0-4749-a130-531dfebf93f9.jpg": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/785e88a5-e757-46c3-8e0e-0beb7e0b4868.jpeg": {
+      "width": 1200,
+      "height": 1600,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/7c1cbb2b-d2c3-48d9-a879-0461ac24ca39.jpeg": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/7c762745-7de4-45ad-8640-cec33b5d99ee.JPG": {
+      "width": 1200,
+      "height": 1600,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/7dc966bb-cf79-462f-9e4f-53153df1a5a9.jpg": {
+      "width": 820,
+      "height": 1093,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/81745725-b023-4736-8084-25512a5a220f.jpeg": {
+      "width": 499,
+      "height": 981,
+      "variants": {
+        "avif": [
+          320,
+          499
+        ],
+        "webp": [
+          320,
+          499
+        ],
+        "jpeg": [
+          320,
+          499
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/81ca3c74-9fbf-4add-b083-2bfaf519b94b.JPG": {
+      "width": 1200,
+      "height": 1600,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/81efb770-dec6-439c-86d2-82923cbb91be.png": {
+      "width": 1200,
+      "height": 690,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/848e8c47-0d91-4957-aea1-69aa4f59e3b6.png": {
+      "width": 1200,
+      "height": 936,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/84f6325f-137c-446a-a4b0-468706957139.JPG": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/87373eb4-2df7-42d7-8cbf-b2362c3f5dfe.jpg": {
+      "width": 820,
+      "height": 1093,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/8740f038-5e64-473e-8654-b6942391a751.png": {
+      "width": 550,
+      "height": 550,
+      "variants": {
+        "avif": [
+          320,
+          550
+        ],
+        "webp": [
+          320,
+          550
+        ],
+        "jpeg": [
+          320,
+          550
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/888f545d-1860-4bc3-888d-cb44b2a0305c.JPG": {
+      "width": 1200,
+      "height": 1600,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/88935a0d-af49-4210-acb4-293b3fc06d14.jpg": {
+      "width": 820,
+      "height": 1093,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/8c57520a-3257-4cde-8d62-11ca150700b7.JPG": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/8cd3d88a-a3ff-4086-945a-8edc7a4c2206.JPG": {
+      "width": 1200,
+      "height": 1600,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/8d22897b-137b-4939-a8a0-2c1d137ae4a4.JPG": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/8d61226b-35e8-44df-bbf2-d5522b1033a3.jpg": {
+      "width": 1200,
+      "height": 873,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/8ee590e3-0bde-442c-bbd5-e66847f61726.JPG": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/9105746c-54a9-4a84-bada-59e15646e3d0.jpeg": {
+      "width": 820,
+      "height": 614,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/921b9b63-d441-4ff5-86cf-a02c4e6c1cae.JPG": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/93a0c5a3-5c70-44ec-93a9-c90467887abc.jpg": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/945830f6-0ee4-4396-951f-83050cb3beb7.png": {
+      "width": 820,
+      "height": 492,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/95e1c6f5-5a55-4441-8831-e6fb790380f6.JPG": {
+      "width": 1200,
+      "height": 1600,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/9d049e30-cdc7-4a26-9bdb-db34bb57b867.png": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/a12acb6d-d89a-45fa-8a72-951ead4e8437.jpg": {
+      "width": 500,
+      "height": 294,
+      "variants": {
+        "avif": [
+          320,
+          500
+        ],
+        "webp": [
+          320,
+          500
+        ],
+        "jpeg": [
+          320,
+          500
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/a2b4bc3b-f8fe-4ac7-bed3-2ed5670a2547.png": {
+      "width": 820,
+      "height": 1777,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/a39c6940-1107-4b2e-ba67-25c3c7d92aaa.jpg": {
+      "width": 820,
+      "height": 1093,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/a3e1a70c-43a5-4e74-b640-056a42abf978.JPG": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/a8043752-51c6-4457-9875-6e28bfbdcd0f.JPG": {
+      "width": 1200,
+      "height": 1600,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/a99f9abc-102b-4899-9122-6d3c21b99d83.jpg": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/a9f1a055-7d83-4ef3-83c7-8a34b193f80f.png": {
+      "width": 272,
+      "height": 205,
+      "variants": {
+        "avif": [
+          272
+        ],
+        "webp": [
+          272
+        ],
+        "jpeg": [
+          272
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/afcac53e-7025-4282-a663-48b089e8d6b1.jpeg": {
+      "width": 820,
+      "height": 1093,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/b080606a-d3bf-4d0f-bdb5-be0ace970ab1.jpg": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/b3334dac-d7e7-4002-bfe2-2c27a2351b92.jpg": {
+      "width": 820,
+      "height": 1093,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/b646cdfa-3038-4559-bf49-b3b4cb3f4179.jpg": {
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/b900ad6d-df3c-4a69-8992-b0cabfd5aa64.jpeg": {
+      "width": 820,
+      "height": 1093,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/bb6e6b03-f497-4917-866f-dede74494859.png": {
+      "width": 1200,
+      "height": 729,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/c269aa8c-7903-4ccd-b186-c9bfb855510d.jpeg": {
+      "width": 1200,
+      "height": 1664,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/c83402ee-2c43-48b5-b911-fd4e653f00a1.jpg": {
+      "width": 820,
+      "height": 1093,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/ca9bfedc-5514-4bc1-8a52-62fd616e5746.jpg": {
+      "width": 519,
+      "height": 496,
+      "variants": {
+        "avif": [
+          320,
+          519
+        ],
+        "webp": [
+          320,
+          519
+        ],
+        "jpeg": [
+          320,
+          519
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/cd87f72d-34eb-4b39-8b28-8a58769f96eb.jpg": {
+      "width": 1200,
+      "height": 906,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/cdfffac8-c9c6-4498-a948-6aa414135ff5.JPG": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/d016d7c9-495c-4188-99f6-421f532c5c11.jpg": {
+      "width": 1200,
+      "height": 1600,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/d2d6494e-3dfa-46e5-baeb-f3abe78fcc2b.jpg": {
+      "width": 1200,
+      "height": 800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/d58228f0-7d9d-46e4-9556-e06b6b7974cc.jpg": {
+      "width": 820,
+      "height": 614,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/da3c1fd0-580e-4da1-9925-4b51ebc24350.JPG": {
+      "width": 820,
+      "height": 615,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/dbfd0ed8-fbb7-4b09-baba-72d887f36330.JPG": {
+      "width": 1200,
+      "height": 1600,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/de777bd1-48de-45c6-97b2-c1c4fded82e9.jpg": {
+      "width": 820,
+      "height": 820,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/dfbe20a1-b417-435e-bdb5-a78cc3c5246d.jpg": {
+      "width": 820,
+      "height": 820,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/e3d2bd3d-7c8a-4415-a919-6777246ad904.JPG": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/e4703763-6786-40aa-b156-24cbd2435361.jpeg": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/e522cce2-aaf5-4d11-b544-791d10f8c9b8.jpeg": {
+      "width": 820,
+      "height": 615,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/e5cafef1-11ae-4a60-bd93-5458281e3e61.jpeg": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/e79c6a11-fcdf-49d6-866e-76c9f7520baa.jpeg": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/eac44bee-2023-4337-bad2-5dd17746f5f0.jpeg": {
+      "width": 820,
+      "height": 1093,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/eea93ef0-4801-4ff0-b532-61eb05c569bc.JPG": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/f042f5a5-9775-4775-a202-fbee186cb8c4.jpeg": {
+      "width": 1200,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/f3b6b9ef-54fd-4917-8416-c43dcdf7b0c5.jpeg": {
+      "width": 1200,
+      "height": 1598,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/f7b13518-c210-49c3-b696-90646352f23a.jpg": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/f84424fd-491d-4347-8d6a-6010b810b747.PNG": {
+      "width": 820,
+      "height": 820,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/fa7f6f27-48cc-4575-965a-526d86ae50f3.jpeg": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2012/01/screen-shot-2012-01-15-at-21-49-39.png": {
+      "width": 640,
+      "height": 250,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2012/07/screen-shot-2012-07-22-at-21-09-13.png": {
+      "width": 1012,
+      "height": 740,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2012/08/20120812-203141.jpg": {
+      "width": 1280,
+      "height": 1280,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2012/08/tumblr_m8xnwwhu8l1qz6f9yo1_r1_500.jpg": {
+      "width": 499,
+      "height": 750,
+      "variants": {
+        "avif": [
+          320
+        ],
+        "webp": [
+          320
+        ],
+        "jpeg": [
+          320
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/20121228-111005.jpg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/08/screenshot-250813-181546.png": {
+      "width": 998,
+      "height": 404,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/09/choosealicense-com.png": {
+      "width": 1396,
+      "height": 1055,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/09/repo_licenses.png": {
+      "width": 730,
+      "height": 120,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/09/smartphone_stack.jpg": {
+      "width": 499,
+      "height": 742,
+      "variants": {
+        "avif": [
+          320
+        ],
+        "webp": [
+          320
+        ],
+        "jpeg": [
+          320
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/11/image.jpg": {
+      "width": 2400,
+      "height": 3200,
+      "variants": {},
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/11/image1.jpg": {
+      "width": 2400,
+      "height": 3200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/11/image10.jpg": {
+      "width": 3200,
+      "height": 2400,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/11/image11.jpg": {
+      "width": 3200,
+      "height": 2400,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/11/image13.jpg": {
+      "width": 3200,
+      "height": 2400,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/11/image2.jpg": {
+      "width": 3200,
+      "height": 2400,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/11/image3.jpg": {
+      "width": 3200,
+      "height": 2400,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/11/image4.jpg": {
+      "width": 2400,
+      "height": 3200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/11/image5.jpg": {
+      "width": 3200,
+      "height": 2400,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/11/image6.jpg": {
+      "width": 3200,
+      "height": 2400,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/11/image7.jpg": {
+      "width": 3200,
+      "height": 2400,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/12/spotiamp.png": {
+      "width": 550,
+      "height": 232,
+      "variants": {
+        "avif": [
+          320
+        ],
+        "webp": [
+          320
+        ],
+        "jpeg": [
+          320
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2013/12/winamp1-006.png": {
+      "width": 276,
+      "height": 117,
+      "variants": {
+        "avif": [
+          276
+        ],
+        "webp": [
+          276
+        ],
+        "jpeg": [
+          276
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/05/2013-10-31-02-41-29-wine-and-cheese.jpg": {
+      "width": 1920,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/05/bloodspire_2560x1440.jpg": {
+      "width": 1600,
+      "height": 900,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/05/dating_header.png": {
+      "width": 1275,
+      "height": 537,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/09/space_hulk.png": {
+      "width": 447,
+      "height": 255,
+      "variants": {
+        "avif": [
+          320
+        ],
+        "webp": [
+          320
+        ],
+        "jpeg": [
+          320
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/09/space_hulk2.jpg": {
+      "width": 634,
+      "height": 382,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/11/b3ikisriyaae9ps.png": {
+      "width": 682,
+      "height": 1024,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/11/mslinux.png": {
+      "width": 560,
+      "height": 334,
+      "variants": {
+        "avif": [
+          320
+        ],
+        "webp": [
+          320
+        ],
+        "jpeg": [
+          320
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/11/pic1474980_md.jpg": {
+      "width": 500,
+      "height": 333,
+      "variants": {
+        "avif": [
+          320
+        ],
+        "webp": [
+          320
+        ],
+        "jpeg": [
+          320
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/11/rl9gatt.jpg": {
+      "width": 640,
+      "height": 960,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/11/tokaido2.jpg": {
+      "width": 590,
+      "height": 230,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2014/11/tokaido3.jpg": {
+      "width": 590,
+      "height": 230,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/01/1757-tom.jpg": {
+      "width": 3264,
+      "height": 2448,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/01/2015-01-16-09-02-15.jpg": {
+      "width": 3264,
+      "height": 2448,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/01/silverlight-upgrade-warning.png": {
+      "width": 482,
+      "height": 611,
+      "variants": {
+        "avif": [
+          320
+        ],
+        "webp": [
+          320
+        ],
+        "jpeg": [
+          320
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/02/2015-02-20-09-10-23.jpg": {
+      "width": 3264,
+      "height": 2448,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/02/alex_cornell_antarctica-3.jpg": {
+      "width": 1072,
+      "height": 715,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/02/phishing.png": {
+      "width": 736,
+      "height": 543,
+      "variants": {
+        "avif": [
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/02/sansbullshitsans.png": {
+      "width": 617,
+      "height": 57,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/03/broadband.png": {
+      "width": 588,
+      "height": 123,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/03/img_2239.jpg": {
+      "width": 2250,
+      "height": 3000,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/07/icloud_photo_data.jpg": {
+      "width": 2731,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/07/lotv-screenshot-04.jpg": {
+      "width": 1920,
+      "height": 1160,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/11/cuo34iywsaepiy3.jpg": {
+      "width": 454,
+      "height": 389,
+      "variants": {
+        "avif": [
+          320
+        ],
+        "webp": [
+          320
+        ],
+        "jpeg": [
+          320
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2015/12/wp-1449251159453.png": {
+      "width": 1440,
+      "height": 2560,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018-09-03-09_14_5-Gmail.png": {
+      "width": 879,
+      "height": 561,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/2018-09-06-09_24_32-Original-Message.png": {
+      "width": 978,
+      "height": 120,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/Enlight16.jpg": {
+      "width": 1158,
+      "height": 1544,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/IMG_0872.jpeg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/IMG_0873.jpeg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/IMG_0874.jpeg": {
+      "width": 2048,
+      "height": 1536,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/IMG_0875.jpeg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/IMG_0876.jpeg": {
+      "width": 2048,
+      "height": 1536,
+      "variants": {
+        "avif": [
+          320,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0052.jpg": {
+      "width": 699,
+      "height": 772,
+      "variants": {
+        "avif": [
+          320
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0053.jpg": {
+      "width": 837,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0054.jpg": {
+      "width": 736,
+      "height": 1058,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0055.jpg": {
+      "width": 1299,
+      "height": 1799,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0856.jpg": {
+      "width": 1800,
+      "height": 1350,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0862.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0863.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/img_0865.jpg": {
+      "width": 1800,
+      "height": 1350,
+      "variants": {
+        "avif": [
+          320,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2018/09/snapseed-1.jpg": {
+      "width": 1249,
+      "height": 1665,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/89DA13CB-BB69-457C-B224-6789015F158B.jpeg": {
+      "width": 1242,
+      "height": 762,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1506.jpg": {
+      "width": 1800,
+      "height": 1350,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1507.jpg": {
+      "width": 1800,
+      "height": 1350,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1508-e1558779174798.jpg": {
+      "width": 1800,
+      "height": 1350,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1508.jpg": {
+      "width": 1800,
+      "height": 1350,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/01/img_1509.jpg": {
+      "width": 1242,
+      "height": 1733,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/02/2019-02-26-10_07_55-Articles-IndieWeb-Textpattern-_-Textpattern-CMS.png": {
+      "width": 1227,
+      "height": 524,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/03/23580C6D-110F-4B15-945C-11F233A12CC8.png": {
+      "width": 1242,
+      "height": 2208,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/03/IMG_1699.jpeg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/03/IMG_1700-1650x2200.jpeg": {
+      "width": 1650,
+      "height": 2200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/03/IMG_1702-1-e1558779091606.jpg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/03/IMG_1703.jpeg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/03/IMG_1704.jpg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/03/IMG_1706.jpeg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/03/IMG_1707.jpeg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/03/IMG_1709.jpeg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/03/IMG_1710-1650x2200.jpeg": {
+      "width": 1650,
+      "height": 2200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/04/Screenshot_20190426_160751.jpg": {
+      "width": 1920,
+      "height": 1080,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/05/Screenshot_20190527_214713.png": {
+      "width": 574,
+      "height": 142,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/05/Screenshot_20190527_214739.png": {
+      "width": 403,
+      "height": 128,
+      "variants": {
+        "avif": [
+          320
+        ],
+        "webp": [
+          320
+        ],
+        "jpeg": [
+          320
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/06/2019-06-06-08_42_17-Window.png": {
+      "width": 1217,
+      "height": 671,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/06/2019-06-06-09_06_19-Window.png": {
+      "width": 920,
+      "height": 285,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/06/2019-06-06-09_07_14-Window.png": {
+      "width": 974,
+      "height": 541,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/06/4D659326-056C-4612-897B-F282A8EF3D51.jpeg": {
+      "width": 1242,
+      "height": 1449,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/06/7C59BF6E-AD5E-4A6B-AE9C-401BFC4BCFD3.jpeg": {
+      "width": 1242,
+      "height": 1240,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/06/B8D9D1F5-A102-4FAA-A8DE-66C12BCC96F3-e1559823306749.png": {
+      "width": 1242,
+      "height": 1700,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/3D90DF16-D180-480A-9F22-28CD7781552F.jpeg": {
+      "width": 1242,
+      "height": 1454,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/3E346254-D769-48C2-BE58-0AFF2767ECAB.png": {
+      "width": 1242,
+      "height": 2208,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/42F0D7AC-3A86-4953-A4C2-54208C09E3EC.jpeg": {
+      "width": 3889,
+      "height": 2915,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/67B27516-B70C-4AC0-BD7B-531B5693654F.jpeg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/92B0CE26-F4E1-4098-AED2-331EE82AA370.jpeg": {
+      "width": 1242,
+      "height": 1252,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/A5783979-4B7C-4DE6-A8FF-9FA6427F7F93.jpeg": {
+      "width": 1242,
+      "height": 712,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/A6182751-6FB1-48FF-AD7F-9A8C3D1CD221.jpeg": {
+      "width": 2876,
+      "height": 3835,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/B7254103-F566-4BE4-99A1-AFB9FCE97DCC.jpeg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/BA117C63-242D-4209-B134-4F1A6C6AB16D.jpeg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/C20F14E7-A582-4185-9557-3FDAB99F3AE1.jpeg": {
+      "width": 1242,
+      "height": 557,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/E5597AA9-7F1E-48B5-82B5-4915ECCF404D.jpeg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/FE42D253-DB11-4218-8554-EEE3D04C221B.png": {
+      "width": 1242,
+      "height": 2208,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/Imperial_Missionary_2.jpg": {
+      "width": 670,
+      "height": 635,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/JohnWick_Chapter2_Poster.jpg": {
+      "width": 1012,
+      "height": 1500,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/07/sisters-of-battle-codex.jpg": {
+      "width": 800,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/950D49FA-82BB-42BF-8932-10195C5DE734.jpeg": {
+      "width": 3699,
+      "height": 2773,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/CF11997D-A14A-4025-BA43-23AF96698FC9.jpeg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_1993.jpeg": {
+      "width": 2048,
+      "height": 1536,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_1994-e1565554517917.jpeg": {
+      "width": 2048,
+      "height": 1536,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_1995-e1565554527866.jpeg": {
+      "width": 2048,
+      "height": 1536,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_1997.jpeg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_1998.jpeg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_1999.jpeg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2001.jpeg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2002.jpeg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2003.jpeg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2004.jpeg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2005.jpeg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2006.jpeg": {
+      "width": 2048,
+      "height": 1536,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2007.jpeg": {
+      "width": 2048,
+      "height": 1536,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2008.jpeg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2009.jpg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2011.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2012.jpg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2014.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2016.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2017.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2020.jpg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2023.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/08/IMG_2024.jpeg": {
+      "width": 2048,
+      "height": 1536,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/10/5981C2EE-8761-4BA2-AAEA-C2D7EA63B946.png": {
+      "width": 1242,
+      "height": 2208,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/11/IMG_2405.jpg": {
+      "width": 1242,
+      "height": 1356,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/41807203-4A55-4403-8E9A-C52CE4E47027.jpeg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/87429183-F72A-44B2-BB2A-5422599362E2.jpeg": {
+      "width": 2761,
+      "height": 2070,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/8B5477A7-F406-4D2D-8948-9C6777A9553D.jpeg": {
+      "width": 2131,
+      "height": 2843,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/A5CE0D98-6583-4182-94D5-373773144D51.jpeg": {
+      "width": 3548,
+      "height": 2659,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/AF7B2996-D38E-41BB-B054-0B1387671DCE.jpeg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/DFF927B5-0958-4811-847B-EA6AB2EF6E44.jpeg": {
+      "width": 2460,
+      "height": 3282,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/F052B1DD-EA09-4128-9B2A-12A83BF97663.jpeg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/img_2432-1-scaled.jpg": {
+      "width": 1920,
+      "height": 2560,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/img_2435.jpg": {
+      "width": 2633,
+      "height": 3513,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/img_2437.jpg": {
+      "width": 2809,
+      "height": 3745,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/img_2438.jpg": {
+      "width": 3655,
+      "height": 2740,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/img_2439.jpg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/12/img_2440.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2020/02/IMG_2694-scaled.jpg": {
+      "width": 1919,
+      "height": 2560,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/292_25746608059_3425_n.jpg": {
+      "width": 604,
+      "height": 453,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2nd-ed-books-e1356819381603.jpg": {
+      "width": 929,
+      "height": 680,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/9c4c1e9c-794e-4ce7-b617-ed4882c98160.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/BlackstonePreview-Nov1-Content1jvfr.jpg": {
+      "width": 1000,
+      "height": 1000,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/IMG_0803.jpeg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/IMG_0804-Copy.jpg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/IMG_0805.jpeg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/IMG_0806.jpeg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/angel-exterminatus.jpg": {
+      "width": 600,
+      "height": 846,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/battery_usage-scaled500.png": {
+      "width": 480,
+      "height": 142,
+      "variants": {
+        "avif": [
+          320
+        ],
+        "webp": [
+          320
+        ],
+        "jpeg": [
+          320
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0802.jpg": {
+      "width": 1242,
+      "height": 1656,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0807-1.jpg": {
+      "width": 1536,
+      "height": 2048,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0811.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0815.jpg": {
+      "width": 1800,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0817.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0819.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0820.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0821.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0822.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0824.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0825.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0826.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0827.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0828.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0829.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0836.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0837.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0838.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0839.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0842.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0843.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0844.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0845.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0846.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0847.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0852.jpg": {
+      "width": 1800,
+      "height": 1350,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0853.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0854.jpg": {
+      "width": 1350,
+      "height": 1800,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0946.jpg": {
+      "width": 1800,
+      "height": 1012,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0947.jpg": {
+      "width": 1800,
+      "height": 1012,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/img_0972.jpg": {
+      "width": 1800,
+      "height": 1012,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/screen-shot-2012-08-14-at-20-12-02.png": {
+      "width": 1060,
+      "height": 495,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/security.png": {
+      "width": 448,
+      "height": 274,
+      "variants": {
+        "avif": [
+          320
+        ],
+        "webp": [
+          320
+        ],
+        "jpeg": [
+          320
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/boris.jpg": {
+      "width": 625,
+      "height": 267,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/can_vs_should.jpg": {
+      "width": 620,
+      "height": 337,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/docker-meme.png": {
+      "width": 882,
+      "height": 1192,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/e6bapw3xeauwbzy.jpg": {
+      "width": 1170,
+      "height": 1067,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0266-scaled.jpg": {
+      "width": 1920,
+      "height": 2560,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0269-scaled.jpg": {
+      "width": 1920,
+      "height": 2560,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0388-scaled.jpg": {
+      "width": 1920,
+      "height": 2560,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0486.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0498.jpg": {
+      "width": 2305,
+      "height": 3073,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0500.jpg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0501.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0505.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0506.jpg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0507.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0508.jpg": {
+      "width": 3517,
+      "height": 2695,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0509-scaled.jpg": {
+      "width": 2560,
+      "height": 1920,
+      "variants": {
+        "avif": [],
+        "webp": [],
+        "jpeg": []
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0509.jpg": {
+      "width": 3947,
+      "height": 2960,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0510.jpg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0511.jpg": {
+      "width": 4032,
+      "height": 3024,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0513.jpg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0515.jpg": {
+      "width": 3024,
+      "height": 4032,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          820
+        ],
+        "webp": [
+          320,
+          570,
+          820
+        ],
+        "jpeg": [
+          320,
+          570,
+          820
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-365-certified-fundamentals1-1.png": {
+      "width": 600,
+      "height": 600,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-certified-azure-ai-fundamentals1-1.png": {
+      "width": 600,
+      "height": 600,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-certified-azure-data-fundamentals.png": {
+      "width": 600,
+      "height": 600,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/images/microsoft-certified-power-platform-fundamentals.png": {
+      "width": 600,
+      "height": 600,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/lfc131-green-software-for-practitioners.png": {
+      "width": 600,
+      "height": 600,
+      "variants": {
+        "avif": [
+          320,
+          570
+        ],
+        "webp": [
+          320,
+          570
+        ],
+        "jpeg": [
+          320,
+          570
+        ]
+      },
+      "source": "probe"
+    }
+  }
+}

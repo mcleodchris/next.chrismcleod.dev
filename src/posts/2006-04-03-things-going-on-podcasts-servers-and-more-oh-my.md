@@ -1,14 +1,10 @@
 ---
 title: "Things Going On - Podcasts, Servers and More, Oh My!"
 date: 2006-04-03
-categories:
-  - articles
 tags:
   - personal
   - podcasting
   - miscellaneous
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5goys2p"
 ogImage: things-going-on-podcasts-servers-and-more-oh-my!-preview.jpeg

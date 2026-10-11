@@ -1,11 +1,6 @@
 ---
 title: "PSA: You Should Not Force Quit Apps on iOS"
 date: 2017-08-09
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - apple

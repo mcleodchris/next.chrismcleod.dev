@@ -1,13 +1,9 @@
 ---
 title: "When You Were Young"
 date: 2012-08-21
-categories:
-  - articles
 tags:
   - blogging
   - site-meta
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr3jkx22p"
 ogImage: when-you-were-young-preview.jpeg

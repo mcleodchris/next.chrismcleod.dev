@@ -1,14 +1,10 @@
 ---
 title: "It's 2013. Why can't I have the media I want, in the format I want, for a fair price?"
 date: 2013-06-21
-categories:
-  - articles
 tags:
   - media
   - movies
   - netflix
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2a5qs2p"
 ogImage: its-2013-why-cant-i-have-the-media-i-want-in-the-format-i-want-for-a-fair-price-preview.jpeg

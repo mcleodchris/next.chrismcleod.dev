@@ -1,8 +1,90 @@
 # chrismcleod.dev
 
-Personal website of [Chris McLeod](https://chrismcleod.dev).
+Personal website of [Chris McLeod](https://chrismcleod.dev), built with [Eleventy](https://www.11ty.dev/) and deployed to Bunny.
 
-Built with Eleventy. Deploys to Bunny.
+## Requirements and commands
+
+Node.js 22 or later (`.nvmrc` pins the version CI uses). Install with `npm ci`.
+
+| Command | What it does |
+| --- | --- |
+| `npm start` | Development server on http://localhost:3000 |
+| `npm run build` | Build the site into `dist/`, then index it for search with Pagefind |
+| `npm run check` | Check `dist/` for known classes of bugs (see `helpers/check-build.js`) |
+| `npm run data:sync` | Refresh the Paintslam snapshot, `data/hobby.json`, from mage |
+| `npm run images:sync` | Refresh the image manifest, `data/images.json` |
+| `npm run og` | Generate missing social preview images (`og:force` regenerates all) |
+| `npm run new:post`, `new:note`, `new:bookmark`, `new:like` | Create a content file |
+
+The two sync commands read `MAGE_API_TOKEN` (and optionally `MAGE_URL`) from the environment or from a `.env` file; see `.env-sample`. A build never needs the network or any secret.
+
+## Content
+
+| Folder | Content | Published at |
+| --- | --- | --- |
+| `src/posts/` | Blog posts | `/blog/<title>/` |
+| `src/notes/` | Short notes, many posted through mage's micropub endpoint | `/notes/<date>/` |
+| `src/bookmarks/` | Links | `/bookmarks/<title>/` |
+| `src/likes/` | Likes | not published |
+
+Front matter keys with special meaning:
+
+- `bookmarkOf`: the bookmarked URL (bookmarks).
+- `likeOf`: the liked URL (likes).
+- `redirectFrom`: old paths (a string or a list) that should forward to this page; each gets a small redirect page.
+- `ogImage`: the social preview image in `src/assets/images/social-preview/`; `npm run og` fills it in.
+- `atUri`: the post's AT Protocol record; Sequoia writes it.
+
+Feeds are defined once, in `src/_data/feeds.js`, and rendered by the templates in `src/feeds/`.
+
+## Images
+
+1. Upload the image through mage. mage stores the original on the CDN (`https://assets.chrismcleod.dev`) and resized copies in several widths and formats.
+2. Write ordinary Markdown with the CDN URL: `![Alt text](https://assets.chrismcleod.dev/... "Optional caption")`. An image on its own line becomes a `<figure>`, and its title becomes the caption.
+3. Run `npm run images:sync`, or let CI do it. It records the image's size and which resized copies exist in `data/images.json`, and the build turns the image into responsive `<picture>` markup from that. Nothing is downloaded or resized at build time.
+
+If the build warns `[images] N images have no manifest entry; run npm run images:sync`, those images are shown as a plain `<img>` of the original until the manifest is synced.
+
+Some old images share a file name with another image in a different folder. The CDN keeps resized copies in one flat folder, so such images cannot have their own copies; they are always shown as their original. `images:sync` lists them.
+
+Templates can use `{{ src | picture(alt, className) }}`, and the `{% image src, alt, caption, sizes, classes, lazy %}` shortcode remains for the few images that need a class or eager loading.
+
+## Snapshots in `data/`
+
+`data/` holds committed copies of external data: `hobby.json` (Paintslam entries from mage) and `images.json` (the image manifest). The sync commands only replace a snapshot with a valid response, write atomically, and never delete image entries; if a sync fails, the build uses the committed snapshot. To undo a bad sync, run `git checkout -- data/`.
+
+## Continuous integration
+
+`.github/workflows/check.yml` builds and checks every pull request, with no secrets.
+
+`.github/workflows/deploy-to-bunny.yml` runs on pushes to `develop`, on manual runs, and on the `function_trigger` repository dispatch that a Paintslam change sends. In order, it:
+
+1. syncs `data/hobby.json` (a failure stops a dispatch-triggered run, and is only a warning otherwise) and `data/images.json`;
+2. generates social preview images, builds, and runs `npm run check`;
+3. publishes new and changed posts to the AT Protocol with Sequoia (`npx sequoia publish`), which writes `atUri` into post front matter;
+4. builds again and checks again, so pages include the new `atUri` values;
+5. commits the generated state (`.sequoia-state.json`, posts, preview images, `data/`) back to `develop` with `[skip ci]`;
+6. uploads `dist/` to Bunny storage.
+
+If a run fails after step 3, re-run it. Posts already published are recorded in `.sequoia-state.json` only if step 5 ran; if it did not, Sequoia will see them as new again, so check the AT Protocol records first and, if necessary, commit the state file by hand.
+
+Sequoia republishes a post whenever its file changes in any way, front matter included, so bulk edits to `src/posts/` update many records at once (updates do not post to Bluesky). Preview with `npx sequoia publish --dry-run`.
+
+## Configuration outside this repository
+
+The Bunny pull zone has settings that are not in this repository:
+
+- Edge rules sending `/.well-known/webfinger*` and `/.well-known/host-meta*` to `https://fed.brid.gy/...` (Bridgy Fed), and `/feed/` to `/follow/blog/feed.atom`.
+- Response headers:
+  - `Content-Security-Policy: upgrade-insecure-requests; block-all-mixed-content;`
+  - `X-Content-Type-Options: nosniff`
+  - `X-Frame-Options: DENY`
+  - `Referrer-Policy: strict-origin-when-cross-origin`
+  - `Permissions-Policy: autoplay=(), camera=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), publickey-credentials-get=()`
+
+## Vendored code
+
+`src/assets/scripts/sequoia-comments.js` and `sequoia-subscribe.js` are web components from the [Sequoia](https://tangled.org/stevedylan.dev/sequoia) project, copied from `sequoia-cli` 0.5.7 (`node_modules/sequoia-cli/dist/components/`) and extended with CSS custom properties for the button styles. To update them, copy the new upstream files and re-apply those additions rather than refactoring them.
 
 ## Credits
 

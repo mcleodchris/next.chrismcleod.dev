@@ -1,14 +1,10 @@
 ---
 title: "Is it Wrong to Submit Your Own Entries to del.icio.us?"
 date: 2005-12-10
-categories:
-  - articles
 tags:
   - blogging
   - blogging-tools
   - bookmarks
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5p3kk2p"
 ogImage: is-it-wrong-to-submit-your-own-entries-to-delicious-preview.jpeg

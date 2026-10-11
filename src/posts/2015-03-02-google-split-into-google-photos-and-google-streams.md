@@ -1,15 +1,11 @@
 ---
 title: "Google+ Split into Google Photos and Google Streams"
 date: 2015-03-02
-categories:
-  - articles
 tags:
   - google
   - photos
   - software
   - social-media
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqweips2p"
 ogImage: google-split-into-google-photos-and-google-streams-preview.jpeg

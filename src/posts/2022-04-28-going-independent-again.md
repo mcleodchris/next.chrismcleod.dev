@@ -1,15 +1,11 @@
 ---
 title: 'Going Independent (again)'
 date: 2022-04-28
-categories:
-  - general-life
 tags:
   - activitypub
   - indieweb
   - blogging
   - blogging-tools
-authors:
-  - chris
 redirectFrom: ['/2022/04/28/going-independent-again/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqibh4s2p"
 ogImage: going-independent-again-preview.jpeg

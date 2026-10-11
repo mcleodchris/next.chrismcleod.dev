@@ -1,10 +1,6 @@
 ---
 title: "More Than Meets The Eye"
 date: 2005-02-08
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

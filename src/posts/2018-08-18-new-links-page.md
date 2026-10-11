@@ -1,10 +1,6 @@
 ---
 title: "New Links Page"
 date: 2018-08-18
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - site-meta

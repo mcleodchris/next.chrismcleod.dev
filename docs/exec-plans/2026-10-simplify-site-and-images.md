@@ -53,14 +53,21 @@ The work is delivered as three independently reviewable changes (pull requests):
   - [x] (2026-10-10) `data/hobby.json` synced with the owner's token and committed: 145 entries, 2018–2026. A second sync reports no change. The built `/paintslam/2026/` and `/paintslam/2019/` pages have the same text as the live site, and the menu links `/paintslam/2026/`. The sync keeps only `completedDate`, `game`, `item` and `modelCount` (see Decision Log).
   - [ ] After merge: the owner's Paintslam edit triggers a `repository_dispatch` deploy that commits `data/hobby.json`; record the run URL here.
 - [ ] Change C, Milestone 6 (prototype): manifest-driven `<picture>` rendering on representative images; verify mage's `/images/list` is complete.
+  - [x] (2026-10-10) `config/images/manifest.js`, `config/images/picture.js`, the probe functions (`helpers/image-probe.js`, shared with Milestone 7) and `helpers/prototype-picture.js`. Every URL the prototype printed answered 200; the colliding image rendered as a plain `<img>` of its original; the small legacy image listed only its existing width (320). `markdown-it-image-figures` 2.1.1 behaves as assumed. Output in Artifacts and Notes.
+  - [x] (2026-10-10) With the owner's token: `/images/list` returned 120 records, and every one of the 22 mage uploads referenced in content (`assets/<uuid>.<ext>`) is among them, so the `ORDER BY c.createdAt` risk does not affect the site and the contingency endpoint is not needed. The Cosmos `COUNT` was not run (mage's `.env` is not on this machine), so records not referenced in content could in principle be missing; that does not matter for the manifest. After collapsing double slashes, every variant URL in all 120 records equals `variantUrl(...)`, so no entry needs `resizedBase`.
 - [ ] Change C, Milestone 7: image manifest `data/images.json` and `npm run images:sync`; CI integration.
-- [ ] Change C, Milestone 8: Markdown image renderer, `picture` filter, shortcode on the same code path, manifest reload in the development server.
-- [ ] Change C, Milestone 9: content migration (shortcode to Markdown, tag case, legacy front matter) as one commit; old image code removed.
-- [ ] Change C, Milestone 10: documentation and retrospective.
+  - [x] (2026-10-10) `helpers/sync-images.js`, `npm run images:sync`, the CI "Sync images" step, and a first manifest committed: 270 entries, all probe-sourced (no token), in 3m33s. A second run changes nothing; a run with an invalid token reports `could not read mage (HTTP 401)` and changes nothing. All 13 colliding URLs are listed with empty variants. Every CDN URL in content has an entry except `…/chrismcleod.dev/images/970c78e0-a6bd-4c64-b434-699c3dc03a0c.jpg`, whose original returns 404 (reported as unreachable).
+  - [x] (2026-10-10) Synced with the owner's token: 368 entries, 120 from mage and 248 from probing. A second run reports no change. A production build passes every check with no allowances, and all 2,145 distinct CDN image URLs in it answer HTTP 200.
+- [x] (2026-10-10) Change C, Milestone 8: Markdown image renderer, `picture` filter, shortcode on the same code path, manifest reload in the development server. A production build passes `npm run check` with no allowances; the `--allow picture-img-dimensions` option is gone from both workflows. A cold development build (`rm -rf .cache dist`) takes 4.2 s and logs no "Processing". All 2,154 distinct CDN image URLs in the built site answer HTTP 200 (the baseline had 2,367, of which 177 did not). The development-server test passed: the scratch post's page and `/follow/blog/feed.json` both carry the `<picture>` with `<figcaption>Caption</figcaption>`, and deleting the entry's AVIF and then WebP widths in `data/images.json` was reflected on reload, as was restoring the file.
+- [x] (2026-10-10) Change C, Milestone 9: content migration (shortcode to Markdown, tag case, legacy front matter) as one commit; old image code removed. The codemod rewrote 207 calls and skipped 6 (the home-page portrait and three Bridgy screenshots with six arguments, and two inline calls in `2012-11-03-review-angel-exterminatus-graham-mcneill.md` and `2019-01-21-experiences-with-cloudflare-blocking-bridgy.md`). 1,022 `categories:`/`authors:` keys were removed and 7 tags lowercased; a script confirmed every changed file's front matter is otherwise identical and its body differs only in image syntax and blank lines. `<picture>` and `<figure>` counts are identical to Milestone 8 on every page; the only file-list change is `/tags/APIs/` and `/tags/TV/`, now merged into `/tags/apis/` and `/tags/tv/`. The check passes with no allowances; a cold development build takes 4.1 s.
+  - [x] (2026-10-10) Sequoia dry run (`npx sequoia publish --dry-run`, using the owner's local Sequoia login): "Found 565 posts", "521 posts to publish", every one marked `~ … (content changed) [bsky: skipped, older than 30 days]`, no new posts, "Dry run complete. No changes made." This equals the 521 changed post files, and the working tree was unchanged afterwards. Merging Change C will therefore update 521 AT Protocol records and post nothing to Bluesky.
+- [x] (2026-10-10) Change C, Milestone 10: documentation and retrospective. `readme.md` rewritten; `.env-sample` now lists `MAGE_API_TOKEN`. Nothing reads `ELEVENTY_PRODUCTION` or `.env` during a build any more, so the flag was dropped from the `build` and `start-prod` scripts and `dotenv` from `.eleventy.js` (the sync scripts load `.env` themselves).
+
+Branches (none pushed): Change A is `fix/production-and-checks`, Change B is `chore/simplify-config` (based on A), Change C is `feat/image-manifest` (based on B); the mage change is `fix/camelcase-frontmatter-keys` in the mage repository. Still to do by the owner, in order: open and merge A, deploy, run the live checks in Concrete Steps; merge and deploy mage; merge B; merge C (its Sequoia dry run is recorded under Milestone 9).
 
 Temporary check allowances in CI (each must be removed by the milestone named):
 
-- `picture-img-dimensions`: allowed from Milestone 2; removed in Milestone 8.
+- `picture-img-dimensions`: allowed from Milestone 2; removed in Milestone 8 (done 2026-10-10).
 
 
 ## Surprises & Discoveries
@@ -162,6 +169,24 @@ These were found during the audit and the plan review. Add new entries as work p
 - Observation (Milestone 0): the `slug` in `.sequoia-state.json` is not a URL. Sequoia derives it from the file name (`2025-08-26-installing-arch-with-….md` gives `installing-arch-with-…`), while the URL each AT Protocol record advertises comes from `sequoia.json`'s `pathTemplate`, `/blog/{title}`, where Sequoia slugifies the title its own way: lower-case, whitespace to `-`, then delete every character outside `[A-Za-z0-9_-]`. Eleventy's `slugifyString` differs for titles with punctuation, so 60 of the 565 published records point at URLs that return 404, for example `/blog/armies-on-parade---painting-update-2` (Eleventy: `/blog/armies-on-parade-painting-update-2/`) and `/blog/onoff` (Eleventy: `/blog/on/off/`). The check now resolves Sequoia's path per post (`sequoiaPath` in `config/utils/index.js`, mirroring `resolvePathTemplate` in the sequoia-cli 0.5.7 bundle) instead of testing `blog/<slug>/`.
 
 - Observation (Milestone 1): the output file list differs from the baseline exactly as expected, plus two items the plan did not list: the two `likes/*/index.html` pages are gone (intended by the Likes fix), and 60 extra redirect stubs exist under `/blog/` for the Sequoia paths (see the Decision Log). Totals: 126 files added (66 `redirectFrom` stubs and 60 Sequoia stubs), 15 removed (12 system tag pages, `_redirects`, 2 likes). No old `redirectFrom` path collided with a real page.
+
+- Observation (Milestone 7, with the owner's token): mage stores some variant URLs with a doubled slash (`…/assets//resized/…`), which made 41 entries carry a needless `resizedBase`; `mageEntry` now normalises the URLs before comparing them. Of the 22 content images known to both sources, mage and the probe agree on 19. The other 3 are the Bridgy screenshots in `2025-01-19-fediverse-bridging.md`, uploaded with widths `320,570`: mage records only those, while the CDN also has 820px files, upscaled from 611–613px originals by an older process. The manifest follows mage (mage entries replace probe entries), so those pages no longer offer the upscaled 820px files.
+
+- Observation (Milestone 9): the codemod also keeps a blank line on each side of every converted image. Without that, the twelve consecutive image lines in `2019-12-07-unboxing-darkness-in-the-blood-by-guy-haley.md` would have become one paragraph of inline images separated by `<br>` (with `breaks: true`), instead of twelve figures; before the migration the first shortcode's `<figure>` opened an HTML block that swallowed the rest. One alt text spans two lines (`2015-12-04-an-answer-from-forge-world-…`); a Markdown image allows that, so it was kept. The tag pages `/tags/APIs/` and `/tags/TV/` no longer exist (their posts are on `/tags/apis/` and `/tags/tv/`).
+
+- Observation (Milestone 9): with the image shortcode gone, nothing writes `.cache` any more and `@11ty/eleventy-fetch` (used only by the old `hobby.js`) is unused, so both were removed: the dependency, and the workflow's two `actions/cache` steps. The codemod was committed once and deleted in the following commit, so history keeps it; `helpers/prototype-picture.js` was deleted too.
+
+- Observation (Milestone 8, found in review): the reimplemented shortcode passed `loading: undefined` when `lazy` was falsy, so `renderPicture`'s default made the home-page portrait (`lazy` = `0`) `loading="lazy"`. The original shortcode omitted the attribute in that case. It now passes `loading: 'eager'`, which browsers treat the same as no attribute; the built home page's portrait has `loading="eager"` and is the only eager image on the site.
+
+- Observation (Milestone 8): watching `./data/images.json` itself stops working after the first atomic replacement (`images:sync` writes a temporary file and renames it; `git checkout` also replaces the file): the server logged `File deleted: ./data/images.json` and never rebuilt again. The plugin watches the `./data/` folder instead, which follows replacements; the test above was repeated with rename-style writes and `git checkout`.
+
+- Observation (Milestone 8): no caption CSS was needed. On production, `<figcaption class="cluster font-display"><p>…</p></figcaption>` computes to the inherited body font (Duo; `font-display` generates nothing), and the new plain `<figcaption>` measured identically in the browser (same font, size, colour, 0px gap below the image, 39px height, same left edge) on `/blog/magpuck-prototype-v2/`.
+
+- Observation (Milestone 8): two `{% image %}` calls in `src/posts/2019-06-14-8475.md` use originals on the old domain `mrkapowski.com`, which still answers 200; they are not CDN images, so they render as plain `<img>` without a manifest entry, and the missing-entry warning is limited to CDN URLs. The same originals exist on the CDN under `assets/images/2019/06/`, so the owner could point the post there to get responsive variants.
+
+- Observation (Milestone 7): the first probe shows why variants must be recorded per format: of 270 entries, 202 have `320, 570, 820` in all three formats, 26 have `320, 570`, 13 have only `320`, 3 have all six mage widths, 3 have no variants at all, and several have different widths per format (for example AVIF `320, 820` but WebP and JPEG `320, 570, 820`). The content URL `…/chrismcleod.dev/images/970c78e0-a6bd-4c64-b434-699c3dc03a0c.jpg` is broken on the CDN (404), so its post already shows a broken image; the renderer keeps rendering it as a plain `<img>` and `images:sync` reports it each run.
+
+- Observation (Milestone 6): Eleventy Image's `generateHTML` uses the smallest fallback-format variant for `<img src>` and the largest for `width` and `height`, not the largest for both as the plan assumed; the markup is still correct. It escapes only `alt`, so the renderer's own plain `<img>` path escapes `src`, `alt` and `class` itself (with a local helper rather than importing the transitive `entities` package). Probing reads the EXIF orientation that `ImageSize` reports and swaps width and height for orientations 5 to 8, because variants are generated upright. The mage upload `71432c05-….png` is 611px wide yet has 820px variants (older uploads were resized to fixed widths, upscaling small images); the manifest simply records what exists. Both `assets//x.png` and `assets/x.png` answer 200 on the CDN, so collapsing slashes in manifest keys is safe.
 
 - Observation (Milestone 5, found in review): `slugifyString` keeps `/` and `\`, so with the single slugify a title such as `CI/CD on Azure` produced `src/posts/2026-10-10-ci/cd-on-azure.md`, a nested file that the flat `src/posts/*.md` collections, feeds and OG generation never read. The old helper slugify had turned every non-alphanumeric character into `-`. File names and tags from the helpers now go through `pathSafeSlug` (separators to `-`, then `slugifyString`) in `helpers/shared-utils.js`, which also gained the shared `parseTags`; permalinks still use `slugifyString` unchanged. Verified by creating a `CI/CD on Azure` post through `new:post`: the file was `2026-10-10-ci-cd-on-azure.md` and the post appeared in `/blog/page-0/` and `/follow/blog/feed.json`.
 
@@ -275,7 +300,19 @@ These were found during the audit and the plan review. Add new entries as work p
 
 ## Outcomes & Retrospective
 
-Nothing yet. Fill in at the end of each milestone.
+(2026-10-10, after Milestone 10.) Everything in the plan is implemented on three stacked branches, verified locally. What was achieved, against the purpose:
+
+- Production bugs: a production build passes all eleven checks with no allowances. The original output failed nine. Every one of the 2,154 distinct CDN image URLs in the built site answers HTTP 200 (the original output referenced 2,367, of which 177 did not, besides `src="undefined"` on 119 pages). The 66 old URLs and, newly found, 60 AT Protocol record URLs now have redirect pages.
+- Simplification: `.eleventy.js` went from 200 lines to 50; twelve dependencies were removed and five added (four of them pinned tools); duplicated layouts, feed templates and partials were merged; builds read committed snapshots and need no network or secret.
+- Images: content uses plain Markdown; `data/images.json` describes 270 images; a cold development build takes about 4 seconds, against 3m15s before. A production Eleventy run also fell from about 16 s to under 4 s, mostly because the Prettier transform was removed.
+
+Compared with the plan's expectations: the audit missed that Sequoia's record URLs differ from the site's for 60 posts, that every note showed the build date, and that a watch on a single file stops after an atomic write; all three are fixed and recorded in Surprises & Discoveries. Every recorded output difference is deliberate.
+
+The steps that needed the owner's credentials were completed afterwards in the same session (Paintslam snapshot, mage records in the manifest, `/images/list` check, Sequoia dry run). What remains unverified needs a merge and deploy: the CI runs, the live redirect pages, and the Paintslam dispatch. The redirects need no Bunny configuration: each old URL is a static HTML page in `dist/` with an immediate `<meta http-equiv="refresh">` and a canonical link, so the live check is only that the old URL returns that page.
+
+Notes for the owner: `src/posts/2022-12-24-my-first-prototype.md` embeds `![](assets/images/Screenshot_20221224_200953-1024x585.png)`, a relative path that does not resolve; `src/posts/2019-06-14-8475.md` loads two images from `mrkapowski.com` whose originals also exist on the CDN; and the content URL `https://assets.chrismcleod.dev/chrismcleod.dev/images/970c78e0-a6bd-4c64-b434-699c3dc03a0c.jpg` returns 404.
+
+Lesson: building the check script first paid off. It turned each fix into a pass/fail line and caught the Sequoia URL problem the audit had missed.
 
 
 ## Context and Orientation
@@ -1178,7 +1215,31 @@ Milestone 4 feed comparison (`compare-feeds.mjs`, Milestone 1 output against Mil
     1x bookmarks/feed.xml.feed.title: "Chris McLeod's bookmarks" vs "Chris McLeod&#39;s bookmarks"
     24x bookmarks/feed.xml.feed.entry.N.content.@_xml:lang: "" vs "en"
 
-Record the Milestone 6 prototype output here.
+Milestone 6 prototype (`node helpers/prototype-picture.js`, abridged; every URL in each `src`/`srcset` was sent a HEAD request):
+
+    colliding URLs in content: 13
+    == mage upload: …/assets/71432c05-ff6b-4bbe-bcfb-e5cc4d0410fc.png
+    {"width":611,"height":373,"variants":{"avif":[320,570,820],"webp":[320,570,820],"jpeg":[320,570,820]},"source":"probe"}
+    <picture><source type="image/avif" srcset="…-320.avif 320w, …-570.avif 570w, …-820.avif 820w" sizes="(min-width: 55rem) 820px, 100vw"><source type="image/webp" …><img alt="mage upload" loading="lazy" decoding="async" src="…-320.jpeg" width="820" height="501" srcset="…-320.jpeg 320w, …-570.jpeg 570w, …-820.jpeg 820w" sizes="(min-width: 55rem) 820px, 100vw"></picture>
+      200 (all 9 URLs)
+    == large legacy: …/assets/images/2014/05/bloodspire_2560x1440.jpg
+    {"width":1600,"height":900,"variants":{"avif":[320,570,820],"webp":[320,570,820],"jpeg":[320,570,820]},"source":"probe"}
+      200 (all 9 URLs)
+    == small legacy: …/assets/images/2015/01/silverlight-upgrade-warning.png
+    {"width":482,"height":611,"variants":{"avif":[320],"webp":[320],"jpeg":[320]},"source":"probe"}
+    <picture><source type="image/avif" srcset="…-320.avif 320w" …><source type="image/webp" …><img alt="small legacy" loading="lazy" decoding="async" src="…-320.jpeg" width="320" height="406"></picture>
+      200 (all 3 URLs)
+    == colliding: …/2021/08/image.png
+    {"width":1113,"height":232,"variants":{},"source":"probe"}
+    <img src="…/2021/08/image.png" alt="colliding" width="1113" height="232" loading="lazy" decoding="async">
+      200
+
+markdown-it-image-figures 2.1.1 with `{ figcaption: 'title' }` (markdown-it with `typographer: true`):
+
+    ![alt *x*](https://e.com/a.png "Caption \"q\"")   ->  <figure><img src="https://e.com/a.png" alt="alt x"><figcaption>Caption “q”</figcaption></figure>
+    Text ![inline](https://e.com/b.png) more.         ->  <p>Text <img src="https://e.com/b.png" alt="inline"> more.</p>
+    ![no title](https://e.com/c.png)                  ->  <figure><img src="https://e.com/c.png" alt="no title"></figure>
+    with a custom md.renderer.rules.image:            ->  <figure><CUSTOM alt="alt x" src="https://e.com/a.png"><figcaption>Caption</figcaption></figure>
 
 
 ## Interfaces and Dependencies

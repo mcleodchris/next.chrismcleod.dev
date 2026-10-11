@@ -1,13 +1,9 @@
 ---
 title: "Random Thoughts on Game of Thrones"
 date: 2013-06-04
-categories:
-  - articles
 tags:
   - books
-  - TV
-authors:
-  - chris
+  - tv
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2bnm22p"
 ogImage: random-thoughts-on-game-of-thrones-preview.jpeg

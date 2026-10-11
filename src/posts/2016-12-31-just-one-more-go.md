@@ -1,14 +1,10 @@
 ---
 title: '"Just One More Go…"'
 date: 2016-12-31
-categories:
-  - articles
 tags:
   - nostalgia
   - gaming
   - nintendo
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqv7j4s2p"
 ogImage: just-one-more-go-preview.jpeg

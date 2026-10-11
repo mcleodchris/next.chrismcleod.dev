@@ -1,14 +1,10 @@
 ---
 title: "My Essentials for a Fresh Windows 7 Install"
 date: 2009-10-24
-categories:
-  - articles
 tags:
   - software
   - microsoft
   - windows
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4l74k2p"
 ogImage: my-essentials-for-a-fresh-windows-7-install-preview.jpeg

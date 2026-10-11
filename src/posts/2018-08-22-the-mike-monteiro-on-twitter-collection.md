@@ -1,11 +1,6 @@
 ---
 title: 'The Mike Monteiro "on Twitter" Collection'
 date: 2018-08-22
-categories:
-  - articles
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - social-media

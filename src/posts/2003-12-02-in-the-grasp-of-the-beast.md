@@ -1,13 +1,9 @@
 ---
 title: "In the Grasp of the Beast"
 date: 2003-12-02
-categories:
-  - articles
 tags:
   - dotnet
   - microsoft
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyra7bxk2p"
 ogImage: in-the-grasp-of-the-beast-preview.jpeg

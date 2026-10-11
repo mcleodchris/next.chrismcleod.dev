@@ -1,14 +1,10 @@
 ---
 title: "The Upgrade Conundrum"
 date: 2015-05-11
-categories:
-  - articles
 tags:
   - pc-building
   - computing
   - personal
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvz7fc2p"
 ogImage: the-upgrade-conundrum-preview.jpeg

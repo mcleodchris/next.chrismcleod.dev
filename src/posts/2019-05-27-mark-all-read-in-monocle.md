@@ -1,15 +1,11 @@
 ---
 title: "Mark All Read in Monocle"
 date: 2019-05-27
-categories:
-  - articles
 tags:
   - indieweb
   - programming
   - open-source
   - feeds
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqmx46s2p"
 ogImage: mark-all-read-in-monocle-preview.jpeg
@@ -19,7 +15,7 @@ If you're a [Monocle](https://monocle.p3k.io) user, you might have noticed a new
 
 The biggest feature I've been missing in Monocle over, say, Feedly, is a "mark all read" button. I follow too many busy sources to be able to keep up with everything, so I frequently mark everything as read and carry on. It helps me not get overloaded.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/05/Screenshot_20190527_214713.png", "Monocle 'view menu' on desktop" %}
+![Monocle 'view menu' on desktop](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/05/Screenshot_20190527_214713.png)
 
 [Aaron](https://aaronparecki.com/) had raised an issue to build the feature at some point, but I wanted it, and had a spare weekend, so figured I'd make myself useful!
 
@@ -27,7 +23,7 @@ In all, it was surprisingly straightforward. The [Microsub spec is well document
 
 The UI took the longest to build, mostly because I had to figure out the [Bulma](https://bulma.io/documentation/) frontend framework. [Rosemary](https://rosemaryorchard.com/) had already [come up with some ideas](https://github.com/aaronpk/Monocle/issues/12#issuecomment-491537925) on how it should work, so the hard part had pretty much been done.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/05/Screenshot_20190527_214739.png", "Monocle 'view menu' on mobile" %}
+![Monocle 'view menu' on mobile](https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/05/Screenshot_20190527_214739.png)
 
 And with a little bit of testing, there it was - "Mark All Read" in Monocle. I've been running it in my install for a little over a week now, and I hope you'll find it as useful as I have if you're a heavy Monocle user.
 

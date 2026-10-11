@@ -1,15 +1,11 @@
 ---
 title: 'Varying Degrees of Depth'
 date: 2021-08-19
-categories:
-  - general-life
 tags:
   - azure
   - certifications
   - microsoft
   - learning
-authors:
-  - chris
 redirectFrom: ['/2021/08/19/varying-degrees-of-depth/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqirdw22p"
 ogImage: varying-degrees-of-depth-preview.jpeg

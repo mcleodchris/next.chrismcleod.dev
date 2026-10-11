@@ -1,20 +1,16 @@
 ---
 title: 'Alpharius: Head of the Hydra, by Mike Brooks'
 date: 2021-05-22
-categories:
-  - books
 tags:
   - books
   - horus-heresy
   - warhammer
-authors:
-  - chris
 redirectFrom: ['/2021/05/22/alpharius-head-of-the-hydra-by-mike-brooks/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqjfan22p"
 ogImage: alpharius-head-of-the-hydra-by-mike-brooks-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/img_0442.jpg", "A photo of the front cover of the book Alpharius: Head of the Hydra, by Mike Brooks, taken shortly after I had finished reading it." %}
+![A photo of the front cover of the book Alpharius: Head of the Hydra, by Mike Brooks, taken shortly after I had finished reading it.](https://assets.chrismcleod.dev/chrismcleod.dev/2021/08/img_0442.jpg)
 
 [Black Library](https://www.blacklibrary.com/new-titles/featured/alpharius-head-of-the-hydra-ebook-2021.html)
 

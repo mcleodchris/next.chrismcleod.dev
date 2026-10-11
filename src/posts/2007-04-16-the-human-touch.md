@@ -1,14 +1,10 @@
 ---
 title: "The Human Touch"
 date: 2007-04-16
-categories:
-  - articles
 tags:
   - adobe
   - lightroom
   - apple
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr4vl5k2p"
 ogImage: the-human-touch-preview.jpeg

@@ -1,10 +1,6 @@
 ---
 title: "IE Weirdness"
 date: 2003-11-26
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - browsers

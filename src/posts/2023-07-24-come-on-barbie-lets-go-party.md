@@ -1,14 +1,10 @@
 ---
 title: 'Come on Barbie, let’s go party'
 date: 2023-07-24
-categories:
-  - general-life
 tags:
   - movies
   - review
   - barbie
-authors:
-  - chris
 gradient: true
 redirectFrom: ['/2023/07/24/come-on-barbie-lets-go-party/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqgp3sc2p"

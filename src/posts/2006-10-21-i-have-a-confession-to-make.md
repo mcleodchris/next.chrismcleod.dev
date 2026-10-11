@@ -1,12 +1,8 @@
 ---
 title: "I have a Confession to Make..."
 date: 2006-10-21
-categories:
-  - articles
 tags:
   - youtube
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5dbms2p"
 ogImage: i-have-a-confession-to-make-preview.jpeg

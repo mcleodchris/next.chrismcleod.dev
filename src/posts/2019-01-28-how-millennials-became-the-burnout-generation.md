@@ -1,13 +1,9 @@
 ---
 title: "How Millennials Became The Burnout Generation"
 date: 2019-01-28
-categories:
-  - notes
 tags:
   - link
   - miscellaneous
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqod3g22p"
 ogImage: how-millennials-became-the-burnout-generation-preview.jpeg

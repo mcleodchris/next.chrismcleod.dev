@@ -1,10 +1,6 @@
 ---
 title: "Games Workshop's Rate of Production"
 date: 2017-06-27
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - miscellaneous

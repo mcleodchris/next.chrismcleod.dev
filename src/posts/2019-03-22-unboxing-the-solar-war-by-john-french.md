@@ -1,16 +1,11 @@
 ---
 title: 'Unboxing "The Solar War" by John French'
 date: 2019-03-22
-categories:
-  - articles
-  - notes
 tags:
   - books
   - horus-heresy
   - gallery
   - warhammer
-authors:
-  - chris
 archived: true
 gallery:
   - image: https://assets.chrismcleod.dev/chrismcleod.dev/assets/images/2019/03/IMG_1699.jpeg

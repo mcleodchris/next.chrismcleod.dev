@@ -1,15 +1,11 @@
 ---
 title: 'Warhammer x Amazon'
 date: 2022-12-16
-categories:
-  - general-life
 tags:
   - warhammer
   - warhammer-40000
   - media
   - amazon
-authors:
-  - chris
 redirectFrom: ['/2022/12/16/warhammer-x-amazon/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqhs5uk2p"
 ogImage: warhammer-x-amazon-preview.jpeg

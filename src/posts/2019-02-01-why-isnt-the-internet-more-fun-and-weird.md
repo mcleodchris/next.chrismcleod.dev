@@ -1,17 +1,12 @@
 ---
 title: "Why isn't the internet more fun and weird?"
 date: 2019-02-01
-categories:
-  - articles
-  - notes
 tags:
   - link
   - programming
   - html
   - web
   - blogging
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqo46pk2p"
 ogImage: why-isnt-the-internet-more-fun-and-weird-preview.jpeg

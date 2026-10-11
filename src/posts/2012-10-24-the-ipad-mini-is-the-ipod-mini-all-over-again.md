@@ -1,14 +1,10 @@
 ---
 title: "The iPad Mini is The iPod Mini All Over Again"
 date: 2012-10-24
-categories:
-  - articles
 tags:
   - apple
   - ipad
   - technology
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr35zsk2p"
 ogImage: the-ipad-mini-is-the-ipod-mini-all-over-again-preview.jpeg

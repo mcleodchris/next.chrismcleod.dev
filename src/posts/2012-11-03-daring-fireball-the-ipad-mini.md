@@ -1,15 +1,11 @@
 ---
 title: "Daring Fireball: The iPad Mini"
 date: 2012-11-03
-categories:
-  - articles
 tags:
   - apple
   - daring-fireball
   - ipad
   - technology
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr2yurc2p"
 ogImage: daring-fireball-the-ipad-mini-preview.jpeg

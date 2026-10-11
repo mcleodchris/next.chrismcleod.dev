@@ -1,10 +1,6 @@
 ---
 title: "Centrino Wireless in Gentoo"
 date: 2004-05-25
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

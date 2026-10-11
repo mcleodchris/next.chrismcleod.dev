@@ -1,10 +1,6 @@
 ---
 title: 'Aberdeen AWPR Bypass to host "Worst Cycling Event Ever"'
 date: 2018-08-16
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - scotland

@@ -1,10 +1,6 @@
 ---
 title: "Kobayashi Maru Management"
 date: 2018-08-15
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - link

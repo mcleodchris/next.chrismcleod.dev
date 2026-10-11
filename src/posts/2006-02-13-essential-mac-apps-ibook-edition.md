@@ -1,14 +1,10 @@
 ---
 title: "Essential Mac Apps: iBook Edition"
 date: 2006-02-13
-categories:
-  - articles
 tags:
   - apple
   - laptops
   - software
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyr5lwxs2p"
 ogImage: essential-mac-apps-ibook-edition-preview.jpeg

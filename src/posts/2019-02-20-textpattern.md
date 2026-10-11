@@ -1,15 +1,11 @@
 ---
 title: "Textpattern"
 date: 2019-02-20
-categories:
-  - notes
 tags:
   - blogging
   - blogging-tools
   - indieweb
   - textpattern
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqo2kxc2p"
 ogImage: textpattern-preview.jpeg

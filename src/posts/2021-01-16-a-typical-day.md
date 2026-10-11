@@ -1,14 +1,9 @@
 ---
 title: 'A Typical Day'
 date: 2021-01-16
-categories:
-  - general-life
-  - work
 tags:
   - personal
   - work
-authors:
-  - chris
 redirectFrom: ['/2021/01/16/a-typical-day/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqkhp6c2p"
 ogImage: a-typical-day-preview.jpeg

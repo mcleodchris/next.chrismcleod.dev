@@ -1,10 +1,6 @@
 ---
 title: "Securing WordPress Plugins from Attacker’s Perspective"
 date: 2018-08-15
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - wordpress

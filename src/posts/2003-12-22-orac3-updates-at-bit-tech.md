@@ -1,10 +1,6 @@
 ---
 title: "Orac3 Updates at Bit-Tech"
 date: 2003-12-22
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - pc-building

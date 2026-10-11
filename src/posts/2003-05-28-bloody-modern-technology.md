@@ -1,12 +1,8 @@
 ---
 title: "Bloody Modern Technology…"
 date: 2003-05-28
-categories:
-  - articles
 tags:
   - personal
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbvhec2p"
 ogImage: bloody-modern-technology-preview.jpeg

@@ -1,13 +1,9 @@
 ---
 title: 'Microsoft Surface Studio Laptop'
 date: 2022-04-29
-categories:
-  - general-life
 tags:
   - laptops
   - microsoft
-authors:
-  - chris
 redirectFrom: ['/2022/04/29/microsoft-surface-studio-laptop/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqi7hnk2p"
 ogImage: microsoft-surface-studio-laptop-preview.jpeg
@@ -15,7 +11,7 @@ ogImage: microsoft-surface-studio-laptop-preview.jpeg
 
 This [review of the Microsoft Surface Studio Laptop, by Bill Bennett](https://billbennett.co.nz/surface-laptop-studio-review/), largely matches my own experiences with it. I've been using the Studio for the last couple of months, having bought it as a replacement for my aging self-built desktop, and it's easily one of the best laptops I've ever used. Definitely the best _Windows_ laptop.
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/2022/04/57C99C4A-0B89-4F4A-98F7-35972C5787CE.jpeg", "My Surface Studio Laptop, with a sticker saying `#include everyone' in rainbow text stuck to the top right corner", "My Surface Studio Laptop" %}
+![My Surface Studio Laptop, with a sticker saying \`#include everyone' in rainbow text stuck to the top right corner](https://assets.chrismcleod.dev/chrismcleod.dev/2022/04/57C99C4A-0B89-4F4A-98F7-35972C5787CE.jpeg "My Surface Studio Laptop")
 
 I've gone for the "middle of the road" spec - i7 + 16GB RAM, as I couldn't justify the jump in cost of the 32GB option - like Bill notes, these devices are expensive compared to available offerings from other PC manufacturers, but for me the following helped mitigate the price:
 

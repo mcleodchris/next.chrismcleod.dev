@@ -1,10 +1,6 @@
 ---
 title: "Retrograde"
 date: 2019-11-17
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - personal

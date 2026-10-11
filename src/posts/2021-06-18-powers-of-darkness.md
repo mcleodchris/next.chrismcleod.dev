@@ -1,20 +1,16 @@
 ---
 title: 'Powers of Darkness'
 date: 2021-06-18
-categories:
-  - books
 tags:
   - books
-authors:
-  - chris
 redirectFrom: ['/2021/06/18/powers-of-darkness/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqj7f522p"
 ogImage: powers-of-darkness-preview.jpeg
 ---
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0513.jpg", "Powers of Darkness front cover" %}
+![Powers of Darkness front cover](https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0513.jpg)
 
-{% image "https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0515.jpg", "Powers of Darkness inside cover blurb" %}
+![Powers of Darkness inside cover blurb](https://assets.chrismcleod.dev/chrismcleod.dev/images/img_0515.jpg)
 
 I ordered _Powers of Darkness_ for Caley’s birthday. It’s an “alternative” version of Dracula. The story behind it sounds like it could be worthy of a novel in and of itself:
 

@@ -1,14 +1,10 @@
 ---
 title: "The Reading List Links, 5th January"
 date: 2015-01-05
-categories:
-  - notes
 tags:
   - link-list
   - links
   - miscellaneous
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqxgfok2p"
 ogImage: the-reading-list-links-5th-january-preview.jpeg

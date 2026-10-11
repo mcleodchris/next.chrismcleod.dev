@@ -1,10 +1,6 @@
 ---
 title: '"File" Form Inputs & Internet Explorer'
 date: 2005-03-24
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - browsers

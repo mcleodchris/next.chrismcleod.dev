@@ -1,16 +1,11 @@
 ---
 title: "Declaring Hobby Bankruptcy and Maintaining Sanity"
 date: 2015-04-22
-categories:
-  - articles
-  - hobby
 tags:
   - tabletop-gaming
   - mental-health
   - miniatures
   - projects
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqw2s6c2p"
 ogImage: declaring-hobby-bankruptcy-and-maintaining-sanity-preview.jpeg

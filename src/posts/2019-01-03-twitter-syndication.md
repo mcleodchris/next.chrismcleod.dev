@@ -1,15 +1,11 @@
 ---
 title: "Twitter Syndication"
 date: 2019-01-03
-categories:
-  - notes
 tags:
   - brid-gy
   - indieweb
   - syndication
   - social-media
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqovees2p"
 ogImage: twitter-syndication-preview.jpeg

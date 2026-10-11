@@ -1,15 +1,11 @@
 ---
 title: "Mistakes Were Made (Google Account Follow-up)"
 date: 2015-05-18
-categories:
-  - articles
 tags:
   - google
   - software
   - user-experience
   - mistakes-were-made
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqvsw7s2p"
 ogImage: mistakes-were-made-google-account-follow-up-preview.jpeg

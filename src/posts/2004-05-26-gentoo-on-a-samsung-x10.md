@@ -1,10 +1,6 @@
 ---
 title: "Gentoo on a Samsung x10"
 date: 2004-05-26
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal

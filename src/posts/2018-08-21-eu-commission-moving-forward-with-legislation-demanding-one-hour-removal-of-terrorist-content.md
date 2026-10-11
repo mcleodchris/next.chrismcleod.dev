@@ -1,10 +1,6 @@
 ---
 title: "EU Commission Moving Forward With Legislation Demanding One Hour Removal Of 'Terrorist Content'"
 date: 2018-08-21
-categories:
-  - notes
-authors:
-  - chris
 archived: true
 tags:
   - link

@@ -1,14 +1,10 @@
 ---
 title: "Derek Bateman: We Are World-Class"
 date: 2014-07-29
-categories:
-  - articles
 tags:
   - politics
   - scotland
   - scottish-independence
-authors:
-  - chris
 archived: true
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqz735s2p"
 ogImage: derek-bateman-we-are-world-class-preview.jpeg

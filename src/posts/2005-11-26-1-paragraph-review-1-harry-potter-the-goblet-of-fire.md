@@ -1,10 +1,6 @@
 ---
 title: "1 Paragraph Review #1: Harry Potter & the Goblet of Fire"
 date: 2005-11-26
-categories:
-  - articles
-authors:
-  - chris
 archived: true
 tags:
   - personal
