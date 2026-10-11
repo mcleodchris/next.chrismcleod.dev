@@ -3630,6 +3630,37 @@
       },
       "source": "mage"
     },
+    "https://assets.chrismcleod.dev/chrismcleod.dev/assets/f75bb2c7-ba2c-4f6f-86c0-de455b16b9db.jpeg": {
+      "width": 1200,
+      "height": 1200,
+      "variants": {
+        "avif": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "webp": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ],
+        "jpeg": [
+          320,
+          570,
+          650,
+          820,
+          960,
+          1200
+        ]
+      },
+      "source": "mage"
+    },
     "https://assets.chrismcleod.dev/chrismcleod.dev/assets/f7b13518-c210-49c3-b696-90646352f23a.jpg": {
       "width": 1200,
       "height": 1200,
