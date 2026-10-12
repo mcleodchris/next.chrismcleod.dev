@@ -2,7 +2,7 @@ import site from '../../src/_data/meta.js';
 import MarkdownIt from 'markdown-it';
 import fs from 'fs';
 import { SYSTEM_TAGS } from '../collections/index.js';
-import { formatDate, slugifyString } from '../utils/index.js';
+import { formatDate, slugifyString, toDate } from '../utils/index.js';
 import { makeTootText, makeBlueskyText } from './posse.js';
 import { renderPicture } from '../images/picture.js';
 
@@ -13,7 +13,7 @@ const where = (items, key, value) =>
   items.filter(item => key.split('.').reduce((o, k) => o?.[k], item) === value);
 
 /** Converts the given date string to ISO8610 format. */
-const toISOString = dateString => new Date(dateString).toISOString();
+const toISOString = dateString => toDate(dateString).toISOString();
 
 /** A date some months later, its day clamped to the length of that month. */
 const addMonths = (date, months) => {
@@ -35,7 +35,7 @@ const monthsBetween = (start, end) => {
   return -(whole + (start - anchor) / (before ? anchor - anchor2 : anchor2 - anchor)) || 0;
 };
 
-const yearsAgo = date => monthsBetween(new Date(date), new Date()) / 12;
+const yearsAgo = date => monthsBetween(toDate(date), new Date()) / 12;
 
 const relativeTime = new Intl.RelativeTimeFormat('en');
 

@@ -43,13 +43,33 @@ const dateTokens = {
   a: date => (date.getHours() < 12 ? 'am' : 'pm')
 };
 
+const DATE_STRING = /^(\d{4})[-/]?(\d{1,2})?[-/]?(\d{0,2})[Tt\s]*(\d{1,2})?:?(\d{1,2})?:?(\d{1,2})?[.:]?(\d+)?$/;
+
+/**
+ * A Date from a value, read as dayjs reads it: no value means now, null is
+ * invalid, and a string without a time zone (such as `2026-01-04`, which
+ * `new Date()` would read as UTC) is local time.
+ */
+const toDate = value => {
+  if (value === null) return new Date(NaN);
+  if (value === undefined) return new Date();
+  if (typeof value === 'string' && !/Z$/i.test(value)) {
+    const parts = value.match(DATE_STRING);
+    if (parts) {
+      const [, year, month, day, hours, minutes, seconds, fraction] = parts;
+      return new Date(year, month - 1 || 0, day || 1, hours || 0, minutes || 0, seconds || 0, (fraction || '0').substring(0, 3));
+    }
+  }
+  return new Date(value);
+};
+
 /**
  * Formats a date in local time with dayjs-style tokens (YYYY, MMMM, MMM, MM,
- * Do, DD, D, HH, h, mm, a); text in [brackets] is kept as it is. As with
- * dayjs, no date means now, and an invalid one gives "Invalid Date".
+ * Do, DD, D, HH, h, mm, a); text in [brackets] is kept as it is. An invalid
+ * date gives "Invalid Date", as with dayjs.
  */
 const formatDate = (value, format) => {
-  const date = value === undefined ? new Date() : new Date(value);
+  const date = toDate(value);
   if (Number.isNaN(date.getTime())) return 'Invalid Date';
   return format.replace(/\[([^\]]*)]|YYYY|MMMM|MMM|MM|Do|DD|D|HH|h|mm|a/g, (token, literal) =>
     literal ?? dateTokens[token](date)
@@ -59,5 +79,6 @@ const formatDate = (value, format) => {
 export {
   slugifyString,
   sequoiaPath,
+  toDate,
   formatDate
 };
