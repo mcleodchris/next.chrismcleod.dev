@@ -6,25 +6,25 @@
   "license": "ISC",
   "main": ".eleventy.js",
   "engines": {
-    "node": ">=22"
+    "node": ">=22.17"
   },
   "type": "module",
   "scripts": {
-    "start": "run-p dev:*",
+    "start": "npm run dev:11ty",
     "og": "node helpers/generate-og-images.js",
     "og:force": "node helpers/generate-og-images.js --force",
     "new:note": "node helpers/newNote.js",
     "new:post": "node helpers/newPost.js",
     "new:bookmark": "node helpers/newBookmark.js",
     "new:like": "node helpers/newLike.js",
-    "clean": "rimraf dist",
-    "build": "run-s clean build:*",
+    "clean": "node -e \"fs.rmSync('dist', { recursive: true, force: true })\"",
+    "build": "npm run clean && npm run build:11ty && npm run build:index",
     "dev:11ty": "eleventy --serve --watch --port=3000",
     "build:11ty": "eleventy",
     "build:index": "pagefind --site dist",
     "index:serve": "pagefind --site dist --serve",
     "start-quick": "eleventy --serve --incremental --ignore-initial",
-    "start-prod": "run-s clean build:* start-quick",
+    "start-prod": "npm run build && npm run start-quick",
     "check": "node helpers/check-build.js dist",
     "data:sync": "node helpers/sync-data.js",
     "images:sync": "node helpers/sync-images.js"
@@ -35,22 +35,18 @@
     "url": "https://github.com/mcleodchris/next.chrismcleod.dev.git"
   },
   "devDependencies": {
-    "@11ty/eleventy": "3.1.2",
-    "@11ty/eleventy-img": "6.0.4",
+    "@11ty/eleventy": "4.0.0-alpha.10",
+    "@11ty/eleventy-img": "7.0.0",
     "@11ty/eleventy-plugin-inclusive-language": "1.0.3",
     "@11ty/eleventy-plugin-rss": "2.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "5.0.2",
-    "@inquirer/prompts": "8.1.0",
-    "@rknightuk/eleventy-plugin-post-graph": "1.0.8",
     "@toycode/markdown-it-class": "1.2.4",
     "autoprefixer": "10.4.23",
     "cssnano": "7.1.2",
-    "dayjs": "1.11.19",
-    "dotenv": "17.2.3",
     "esbuild": "0.27.2",
     "fast-xml-parser": "5.11.2",
-    "js-yaml": "4.1.1",
-    "markdown-it": "14.1.0",
+    "js-yaml": "5.4.3",
+    "markdown-it": "14.3.2",
     "markdown-it-abbr": "2.0.0",
     "markdown-it-anchor": "9.2.0",
     "markdown-it-footnote": "4.0.0",
@@ -59,25 +55,18 @@
     "markdown-it-link-attributes": "4.0.1",
     "markdown-it-mark": "4.0.0",
     "markdown-it-prism": "3.0.1",
-    "npm-run-all2": "8.0.4",
     "pagefind": "1.5.2",
-    "postcss": "8.5.6",
+    "postcss": "8.5.29",
     "postcss-import": "16.1.1",
-    "postcss-import-ext-glob": "2.1.1",
-    "postcss-js": "5.0.3",
     "prettier": "3.7.4",
-    "rimraf": "6.1.2",
     "sequoia-cli": "0.5.7",
+    "sharp": "0.35.5",
     "slugify": "1.6.6",
-    "tailwindcss": "3.4.19",
     "turndown": "7.2.2"
   },
   "dependencies": {
     "@zachleat/pagefind-search": "1.0.3",
     "cheerio": "1.1.2",
     "html-entities": "2.6.0"
-  },
-  "overrides": {
-    "js-yaml": "4.1.1"
   }
 }

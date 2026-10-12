@@ -1,11 +1,31 @@
 import fs from 'fs';
 import path from 'path';
 import { randomUUID } from 'crypto';
+import readline from 'readline/promises';
 import { fileURLToPath } from 'url';
 import * as cheerio from 'cheerio';
-import yaml from 'js-yaml';
-import { input } from '@inquirer/prompts';
+import * as yaml from 'js-yaml';
 import { slugifyString } from '../config/utils/index.js';
+
+/**
+ * Asks a question on the terminal. A default answer is pre-filled for editing,
+ * and an answer that `validate` rejects (by returning a message) is asked again.
+ */
+export async function ask({ message, default: defaultAnswer = '', validate = () => true }) {
+  const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+  try {
+    for (;;) {
+      const question = rl.question(`${message} `);
+      if (defaultAnswer) rl.write(defaultAnswer);
+      const answer = await question;
+      const result = validate(answer);
+      if (result === true) return answer;
+      console.log(result);
+    }
+  } finally {
+    rl.close();
+  }
+}
 
 export function getDateString() {
   const now = new Date();
@@ -66,7 +86,7 @@ export function createContentFile(type, filename, content) {
 
 /** Prompts for a URL, then fetches the page's metadata. */
 export async function promptForUrlWithMetadata(message) {
-  const url = (await input({
+  const url = (await ask({
     message,
     validate: value => {
       if (!value.trim()) return 'URL cannot be empty.';

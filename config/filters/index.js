@@ -1,13 +1,8 @@
-import dayjs from 'dayjs';
-import relativeTime from 'dayjs/plugin/relativeTime.js';
-import advancedFormat from 'dayjs/plugin/advancedFormat.js';
-dayjs.extend(advancedFormat);
-dayjs.extend(relativeTime);
 import site from '../../src/_data/meta.js';
 import MarkdownIt from 'markdown-it';
 import fs from 'fs';
 import { SYSTEM_TAGS } from '../collections/index.js';
-import { slugifyString } from '../utils/index.js';
+import { formatDate, slugifyString } from '../utils/index.js';
 import { makeTootText, makeBlueskyText } from './posse.js';
 import { renderPicture } from '../images/picture.js';
 
@@ -18,14 +13,37 @@ const where = (items, key, value) =>
   items.filter(item => key.split('.').reduce((o, k) => o?.[k], item) === value);
 
 /** Converts the given date string to ISO8610 format. */
-const toISOString = dateString => dayjs(dateString).toISOString();
+const toISOString = dateString => new Date(dateString).toISOString();
 
-/** Formats a date using dayjs's conventions: https://day.js.org/docs/en/display/format */
-const formatDate = (date, format) => dayjs(date).format(format);
+/** A date some months later, its day clamped to the length of that month. */
+const addMonths = (date, months) => {
+  const result = new Date(date);
+  result.setDate(1);
+  result.setMonth(result.getMonth() + months);
+  const daysInMonth = new Date(result.getFullYear(), result.getMonth() + 1, 0).getDate();
+  result.setDate(Math.min(date.getDate(), daysInMonth));
+  return result;
+};
 
-const longAgo = date => dayjs(date).fromNow();
+/** Months from start to end, a part month as a fraction (moment.js and dayjs's method). */
+const monthsBetween = (start, end) => {
+  if (end.getDate() < start.getDate()) return -monthsBetween(end, start);
+  const whole = (start.getFullYear() - end.getFullYear()) * 12 + (start.getMonth() - end.getMonth());
+  const anchor = addMonths(end, whole);
+  const before = start - anchor < 0;
+  const anchor2 = addMonths(end, whole + (before ? -1 : 1));
+  return -(whole + (start - anchor) / (before ? anchor - anchor2 : anchor2 - anchor)) || 0;
+};
 
-const dateDiff = date => dayjs().diff(dayjs(date), 'year');
+const yearsAgo = date => monthsBetween(new Date(date), new Date()) / 12;
+
+const relativeTime = new Intl.RelativeTimeFormat('en');
+
+/** How long ago a date was in years, such as "3 years ago"; meant for dates over 18 months ago. */
+const longAgo = date => relativeTime.format(-Math.round(Math.abs(yearsAgo(date))), 'year');
+
+/** Full years from a date until now. */
+const dateDiff = date => Math.trunc(yearsAgo(date)) || 0;
 
 /**
  * Render content as inline markdown if single line, or full

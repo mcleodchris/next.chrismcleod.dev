@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { input } from '@inquirer/prompts';
 import {
+  ask,
   createContentFile,
   generateFrontmatter,
   getDateString,
@@ -14,13 +14,13 @@ import {
 async function main() {
   const { url, metadata } = await promptForUrlWithMetadata('Enter the URL to bookmark:');
 
-  const title = await input({
+  const title = await ask({
     message: 'Enter the bookmark title:',
     default: metadata.title,
     validate: input => input.trim() ? true : 'Title cannot be empty.'
   });
 
-  const tags = await input({
+  const tags = await ask({
     message: 'Enter comma-separated tags (optional):'
   });
 
