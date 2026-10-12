@@ -15,14 +15,11 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { execSync } from 'child_process';
 import os from 'os';
-import yaml from 'js-yaml';
+import * as yaml from 'js-yaml';
 import Image from '@11ty/eleventy-img';
-import dayjs from 'dayjs';
-import advancedFormat from 'dayjs/plugin/advancedFormat.js';
-dayjs.extend(advancedFormat);
 
 import { renderOgTemplate } from './og-template.js';
-import { slugifyString } from '../config/utils/index.js';
+import { formatDate, slugifyString } from '../config/utils/index.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -75,7 +72,8 @@ const parseFrontmatter = (content) => {
   const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
   if (!match) return null;
   try {
-    return yaml.load(match[1]) || {};
+    // YAML 1.1, as Eleventy reads front matter (dates become Date objects)
+    return yaml.load(match[1], { schema: yaml.YAML11_SCHEMA }) || {};
   } catch {
     return null;
   }
@@ -138,7 +136,7 @@ const main = async () => {
     }
 
     // Render SVG from template
-    const formattedDate = data.date ? dayjs(data.date).format('MMMM Do, YYYY') : '';
+    const formattedDate = data.date ? formatDate(data.date, 'MMMM Do, YYYY') : '';
     const svgContent = renderOgTemplate({
       title: data.title,
       date: formattedDate,

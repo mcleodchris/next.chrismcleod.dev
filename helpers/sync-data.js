@@ -10,13 +10,20 @@
  * because mage answers with an empty array when its database query fails.
  */
 
-import 'dotenv/config';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SNAPSHOT = path.join(ROOT, 'data/hobby.json');
+
+// Load .env when present; variables already in the environment take precedence.
+try {
+  process.loadEnvFile();
+} catch (error) {
+  if (error.code !== 'ENOENT') throw error;
+}
+
 const MAGE_URL = process.env.MAGE_URL || 'https://mage.chrismcleod.dev';
 const allowEmpty = process.argv.includes('--allow-empty');
 

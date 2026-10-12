@@ -12,7 +12,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import * as cheerio from 'cheerio';
-import yaml from 'js-yaml';
+import * as yaml from 'js-yaml';
 import { XMLValidator, XMLParser } from 'fast-xml-parser';
 import { sequoiaPath } from '../config/utils/index.js';
 
@@ -50,7 +50,8 @@ const frontMatter = file => {
   const match = fs.readFileSync(file, 'utf8').match(/^---\r?\n([\s\S]*?)\r?\n---/);
   if (!match) return undefined;
   try {
-    return yaml.load(match[1]);
+    // YAML 1.1, as Eleventy reads front matter (dates become Date objects)
+    return yaml.load(match[1], { schema: yaml.YAML11_SCHEMA });
   } catch {
     return undefined;
   }

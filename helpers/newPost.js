@@ -1,16 +1,14 @@
 #!/usr/bin/env node
 
-import { input } from '@inquirer/prompts';
-import { createContentFile, generateFrontmatter, getDateString, parseTags, pathSafeSlug } from './shared-utils.js';
+import { ask, createContentFile, generateFrontmatter, getDateString, parseTags, pathSafeSlug } from './shared-utils.js';
 
 async function main() {
-  const title = await input({
+  const title = await ask({
     message: 'Enter the post title:',
-    validate: input => input.trim() ? true : 'Title cannot be empty.',
-    required: true
+    validate: input => input.trim() ? true : 'Title cannot be empty.'
   });
 
-  const tags = await input({
+  const tags = await ask({
     message: 'Enter comma-separated tags (optional):'
   });
 

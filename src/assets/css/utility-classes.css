@@ -1,0 +1,54 @@
+/* Single-purpose classes, imported last so that they win over blocks and compositions */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.mt-l-xl {
+  margin-top: var(--space-l-xl);
+}
+
+.mt-xs {
+  margin-top: var(--space-xs);
+}
+
+.grid {
+  display: grid;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-step-0 {
+  font-size: var(--size-step-0);
+}
+
+.no-underline {
+  text-decoration-line: none;
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

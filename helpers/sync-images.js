@@ -13,7 +13,6 @@
  * written atomically.
  */
 
-import 'dotenv/config';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -28,6 +27,14 @@ import {
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const MANIFEST = path.join(ROOT, 'data/images.json');
+
+// Load .env when present; variables already in the environment take precedence.
+try {
+  process.loadEnvFile();
+} catch (error) {
+  if (error.code !== 'ENOENT') throw error;
+}
+
 const MAGE_URL = process.env.MAGE_URL || 'https://mage.chrismcleod.dev';
 const reprobe = process.argv.includes('--reprobe');
 

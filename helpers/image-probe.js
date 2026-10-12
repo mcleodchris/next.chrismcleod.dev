@@ -6,7 +6,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import Image from '@11ty/eleventy-img';
+import sharp from 'sharp';
 import {
   CANDIDATE_WIDTHS,
   FORMATS,
@@ -52,11 +52,9 @@ const exists = async url => {
 export const probeImage = async url => {
   const response = await fetch(url);
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  const size = Image.ImageSize(Buffer.from(await response.arrayBuffer()));
-  // Variants are generated upright, so an EXIF rotation swaps the axes.
-  const rotated = size.orientation >= 5;
-  const width = rotated ? size.height : size.width;
-  const height = rotated ? size.width : size.height;
+  // Variants are generated upright, so use the size after any EXIF rotation.
+  const { autoOrient } = await sharp(Buffer.from(await response.arrayBuffer())).metadata();
+  const { width, height } = autoOrient;
 
   const widths = [...new Set([...CANDIDATE_WIDTHS, width])].sort((a, b) => a - b);
   const variants = {};
