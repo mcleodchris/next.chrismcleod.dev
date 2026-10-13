@@ -42,7 +42,10 @@ test('appendToList handles every form redirectFrom takes', () => {
     ['inline list', "redirectFrom: ['/2021/04/10/on-off/']", "redirectFrom: ['/2021/04/10/on-off/', '/blog/on/off/']"],
     ['inline list on the next line', "redirectFrom:\n  ['/2021/04/10/on-off/']\ndate: 2021-04-10", "redirectFrom: ['/2021/04/10/on-off/', '/blog/on/off/']\ndate: 2021-04-10"],
     ['block list', "redirectFrom:\n  - /a/\n  - /b/\ndate: 2021-04-10", "redirectFrom: ['/a/', '/b/', '/blog/on/off/']\ndate: 2021-04-10"],
-    ['block list at the key\'s indent', "redirectFrom:\n- /a/\ndate: 2021-04-10", "redirectFrom: ['/a/', '/blog/on/off/']\ndate: 2021-04-10"]
+    ['block list at the key\'s indent', "redirectFrom:\n- /a/\ndate: 2021-04-10", "redirectFrom: ['/a/', '/blog/on/off/']\ndate: 2021-04-10"],
+    ['block list with a blank line', "redirectFrom:\n  - /a/\n\n  - /b/\ndate: 2021-04-10", "redirectFrom: ['/a/', '/b/', '/blog/on/off/']\ndate: 2021-04-10"],
+    ['block list with a comment', "redirectFrom:\n  - /a/\n# moved twice\n  - /b/\ndate: 2021-04-10", "redirectFrom: ['/a/', '/b/', '/blog/on/off/']\ndate: 2021-04-10"],
+    ['last key, trailing blank line kept', "date: 2021-04-10\nredirectFrom:\n  - /a/\n", "date: 2021-04-10\nredirectFrom: ['/a/', '/blog/on/off/']\n"]
   ];
   for (const [form, before, after] of cases) {
     assert.equal(appendToList(post(before), 'redirectFrom', '/blog/on/off/'), post(after), form);
@@ -60,4 +63,9 @@ test('values that need quoting are quoted', () => {
     post("title: x\nredirectFrom: ['/blog/don''t/']")
   );
   assert.equal(setValue(post('title: x'), 'ogImage', 'a: b.jpeg'), post("title: x\nogImage: 'a: b.jpeg'"));
+});
+
+test('an edited block list still reads back as valid front matter', () => {
+  const edited = appendToList(post("redirectFrom:\n  - /a/\n\n  - /b/\ndate: 2021-04-10"), 'redirectFrom', '/c/');
+  assert.deepEqual(readFrontMatter(edited).redirectFrom, ['/a/', '/b/', '/c/']);
 });

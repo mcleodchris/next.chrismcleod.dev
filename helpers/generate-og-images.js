@@ -76,11 +76,10 @@ const main = async () => {
       return { file, filePath, content, data: readFrontMatter(content) };
     });
 
-  // How many posts use each image, so a renamed post's old image is only deleted when unused.
-  const imageUsers = new Map();
-  for (const { data } of posts) {
-    if (data?.ogImage) imageUsers.set(data.ogImage, (imageUsers.get(data.ogImage) ?? 0) + 1);
-  }
+  // Each post's ogImage as this run leaves it, and the images renamed posts stopped using:
+  // a retired image is deleted after every post is processed, if no post refers to it then.
+  const finalImages = new Map(posts.map(({ filePath, data }) => [filePath, data?.ogImage]));
+  const retiredImages = new Set();
 
   let generated = 0;
   let skipped = 0;
@@ -107,6 +106,7 @@ const main = async () => {
       // Still backfill ogImage frontmatter if missing
       if (!data.ogImage) {
         fs.writeFileSync(filePath, setValue(content, 'ogImage', jpegFilename));
+        finalImages.set(filePath, jpegFilename);
         frontmatterUpdated++;
       }
       continue;
@@ -146,6 +146,7 @@ const main = async () => {
     }
 
     let updated = setValue(content, 'ogImage', jpegFilename);
+    finalImages.set(filePath, jpegFilename);
 
     if (isRenamed) {
       renamed++;
@@ -153,17 +154,19 @@ const main = async () => {
       const former = data.permalink ? undefined : formerUrl('post', data.title, data.ogImage);
       if (former) updated = appendToList(updated, 'redirectFrom', former);
       console.log(`  renamed from ${data.ogImage}${former ? `; ${former} now redirects` : ''}`);
-
-      const users = imageUsers.get(data.ogImage) - 1;
-      imageUsers.set(data.ogImage, users);
-      const oldPath = path.join(OUTPUT_DIR, path.basename(data.ogImage));
-      if (users === 0 && fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
+      retiredImages.add(data.ogImage);
     }
 
     if (updated !== content) {
       fs.writeFileSync(filePath, updated);
       frontmatterUpdated++;
     }
+  }
+
+  const stillUsed = new Set(finalImages.values());
+  for (const image of retiredImages) {
+    const oldPath = path.join(OUTPUT_DIR, path.basename(image));
+    if (!stillUsed.has(image) && fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
   }
 
   console.log(

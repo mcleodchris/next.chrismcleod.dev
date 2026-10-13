@@ -25,12 +25,22 @@ const quote = value => `'${String(value).replace(/'/g, "''")}'`;
 const format = value =>
   Array.isArray(value) ? `[${value.map(quote).join(', ')}]` : yaml.dump(value, { lineWidth: -1 }).trimEnd();
 
-/** Where `key` sits in the block's lines: its own line plus any indented or `- ` lines after it. */
+const CONTINUES_VALUE = /^(\s+\S|-(\s|$))/;
+const BLANK_OR_COMMENT = /^\s*(#.*)?$/;
+
+/**
+ * Where `key` sits in the block's lines: its own line plus every indented or
+ * `- ` line of its value, including blank lines and comments between them.
+ * Blank lines and comments after the value's last line are not part of it.
+ */
 const findKey = (lines, key) => {
   const start = lines.findIndex(line => line.startsWith(`${key}:`));
   if (start === -1) return undefined;
   let end = start + 1;
-  while (end < lines.length && /^(\s+\S|-(\s|$))/.test(lines[end])) end++;
+  for (let i = start + 1; i < lines.length; i++) {
+    if (CONTINUES_VALUE.test(lines[i]) && !/^\s*#/.test(lines[i])) end = i + 1;
+    else if (!BLANK_OR_COMMENT.test(lines[i])) break;
+  }
   return { start, end };
 };
 
