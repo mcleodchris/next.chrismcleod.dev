@@ -23,18 +23,22 @@ export const readFrontMatter = text => {
 const quote = value => `'${String(value).replace(/'/g, "''")}'`;
 
 const format = value =>
-  Array.isArray(value) ? `[${value.map(quote).join(', ')}]` : yaml.dump(value, { lineWidth: -1 }).trimEnd();
+  Array.isArray(value) ? `[${value.map(quote).join(', ')}]` : yaml.dump(value, { schema: yaml.YAML11_SCHEMA, lineWidth: -1 }).trimEnd();
 
 const CONTINUES_VALUE = /^(\s+\S|-(\s|$))/;
+const escapeRegExp = text => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const BLANK_OR_COMMENT = /^\s*(#.*)?$/;
 
 /**
- * Where `key` sits in the block's lines: its own line plus every indented or
- * `- ` line of its value, including blank lines and comments between them.
- * Blank lines and comments after the value's last line are not part of it.
+ * Where `key` sits in the block's lines: its own line, whether the key is
+ * written plain, `"quoted"` or `'quoted'`, plus every indented or `- ` line of
+ * its value, including blank lines and comments between them. Blank lines and
+ * comments after the value's last line are not part of it.
  */
 const findKey = (lines, key) => {
-  const start = lines.findIndex(line => line.startsWith(`${key}:`));
+  const name = escapeRegExp(key);
+  const keyLine = new RegExp(`^(${name}|"${name}"|'${name}')\\s*:(\\s|$)`);
+  const start = lines.findIndex(line => keyLine.test(line));
   if (start === -1) return undefined;
   let end = start + 1;
   for (let i = start + 1; i < lines.length; i++) {
@@ -54,14 +58,24 @@ const editBlock = (text, edit) => {
   return `---${eol}${edited.join(eol)}${eol}---${text.slice(whole.length)}`;
 };
 
-/** Sets `key` to `value` (a string or a list), replacing its old value or adding it at the end. */
-export const setValue = (text, key, value) =>
-  editBlock(text, lines => {
+/**
+ * Sets `key` to `value` (a string or a list), replacing its old value or
+ * adding it at the end. Throws rather than return front matter that does not
+ * read back with `key` set to `value`.
+ */
+export const setValue = (text, key, value) => {
+  const result = editBlock(text, lines => {
     const line = `${key}: ${format(value)}`;
     const found = findKey(lines, key);
     if (!found) return [...lines, line];
     return [...lines.slice(0, found.start), line, ...lines.slice(found.end)];
   });
+  const readBack = readFrontMatter(result);
+  if (!readBack || JSON.stringify(readBack[key]) !== JSON.stringify(value)) {
+    throw new Error(`Setting ${key} would not leave valid front matter with that value`);
+  }
+  return result;
+};
 
 /**
  * Adds `value` to the list under `key`, creating the list if the key is

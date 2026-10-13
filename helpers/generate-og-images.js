@@ -105,9 +105,14 @@ const main = async () => {
       skipped++;
       // Still backfill ogImage frontmatter if missing
       if (!data.ogImage) {
-        fs.writeFileSync(filePath, setValue(content, 'ogImage', jpegFilename));
-        finalImages.set(filePath, jpegFilename);
-        frontmatterUpdated++;
+        try {
+          fs.writeFileSync(filePath, setValue(content, 'ogImage', jpegFilename));
+          finalImages.set(filePath, jpegFilename);
+          frontmatterUpdated++;
+        } catch (err) {
+          console.error(`✗ ${file}: ${err.message}; front matter unchanged`);
+          failed++;
+        }
       }
       continue;
     }
@@ -145,14 +150,22 @@ const main = async () => {
       continue;
     }
 
-    let updated = setValue(content, 'ogImage', jpegFilename);
+    // A post with its own permalink does not move when its title changes.
+    const former = isRenamed && !data.permalink ? formerUrl('post', data.title, data.ogImage) : undefined;
+    let updated;
+    try {
+      updated = setValue(content, 'ogImage', jpegFilename);
+      if (former) updated = appendToList(updated, 'redirectFrom', former);
+    } catch (err) {
+      // The new image stays; the post still names its old one, so the next run tries again.
+      console.error(`✗ ${file}: ${err.message}; front matter unchanged`);
+      failed++;
+      continue;
+    }
     finalImages.set(filePath, jpegFilename);
 
     if (isRenamed) {
       renamed++;
-      // A post with its own permalink does not move when its title changes.
-      const former = data.permalink ? undefined : formerUrl('post', data.title, data.ogImage);
-      if (former) updated = appendToList(updated, 'redirectFrom', former);
       console.log(`  renamed from ${data.ogImage}${former ? `; ${former} now redirects` : ''}`);
       retiredImages.add(data.ogImage);
     }

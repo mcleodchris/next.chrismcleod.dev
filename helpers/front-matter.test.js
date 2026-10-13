@@ -69,3 +69,33 @@ test('an edited block list still reads back as valid front matter', () => {
   const edited = appendToList(post("redirectFrom:\n  - /a/\n\n  - /b/\ndate: 2021-04-10"), 'redirectFrom', '/c/');
   assert.deepEqual(readFrontMatter(edited).redirectFrom, ['/a/', '/b/', '/c/']);
 });
+
+test('quoted keys are found and replaced, not duplicated', () => {
+  const cases = [
+    ['double-quoted', '"redirectFrom": [/earlier/]'],
+    ['single-quoted', "'redirectFrom': [/earlier/]"],
+    ['space before the colon', 'redirectFrom : [/earlier/]']
+  ];
+  for (const [form, line] of cases) {
+    const edited = appendToList(post(`title: x\n${line}\ndate: 2021-04-10`), 'redirectFrom', '/later/');
+    assert.equal(edited, post("title: x\nredirectFrom: ['/earlier/', '/later/']\ndate: 2021-04-10"), form);
+  }
+  assert.equal(setValue(post('"ogImage": old.jpeg'), 'ogImage', 'new.jpeg'), post('ogImage: new.jpeg'));
+});
+
+test('a key that only starts with the name is a different key', () => {
+  assert.equal(
+    setValue(post('ogImageAlt: A photo'), 'ogImage', 'a.jpeg'),
+    post('ogImageAlt: A photo\nogImage: a.jpeg')
+  );
+});
+
+test('YAML 1.1 words stay strings', () => {
+  assert.equal(setValue(post('title: x'), 'ogImage', 'yes'), post("title: x\nogImage: 'yes'"));
+});
+
+test('an edit that would not read back throws instead of writing broken front matter', () => {
+  // A flow mapping spread over lines is beyond the editor: the key's value is not found whole.
+  const text = post('redirectFrom: [\n/a/,\n/b/]\ndate: 2021-04-10');
+  assert.throws(() => appendToList(text, 'redirectFrom', '/c/'), /would not leave valid front matter/);
+});
