@@ -12,9 +12,9 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import * as cheerio from 'cheerio';
-import * as yaml from 'js-yaml';
 import { XMLValidator, XMLParser } from 'fast-xml-parser';
 import { identity } from '../config/identity/index.js';
+import { readFrontMatter } from './front-matter.js';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -46,16 +46,7 @@ const walk = (folder, filter, out = []) => {
   return out;
 };
 
-const frontMatter = file => {
-  const match = fs.readFileSync(file, 'utf8').match(/^---\r?\n([\s\S]*?)\r?\n---/);
-  if (!match) return undefined;
-  try {
-    // YAML 1.1, as Eleventy reads front matter (dates become Date objects)
-    return yaml.load(match[1], { schema: yaml.YAML11_SCHEMA });
-  } catch {
-    return undefined;
-  }
-};
+const frontMatter = file => readFrontMatter(fs.readFileSync(file, 'utf8'));
 
 const rel = file => path.relative(dir, file);
 const summarise = (problems, max = 5) =>

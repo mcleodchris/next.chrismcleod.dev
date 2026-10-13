@@ -15,12 +15,12 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { execSync } from 'child_process';
 import os from 'os';
-import * as yaml from 'js-yaml';
 import Image from '@11ty/eleventy-img';
 
 import { renderOgTemplate } from './og-template.js';
 import { formatDate } from '../config/utils/index.js';
 import { identity } from '../config/identity/index.js';
+import { readFrontMatter, setValue } from './front-matter.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -59,30 +59,6 @@ const ensureFontsInstalled = () => {
   console.log('✓ iA Writer fonts installed to ~/.local/share/fonts/ia-writer/');
 };
 
-/** Parse YAML frontmatter from markdown content, returning the data object or null. */
-const parseFrontmatter = (content) => {
-  const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
-  if (!match) return null;
-  try {
-    // YAML 1.1, as Eleventy reads front matter (dates become Date objects)
-    return yaml.load(match[1], { schema: yaml.YAML11_SCHEMA }) || {};
-  } catch {
-    return null;
-  }
-};
-
-/**
- * Add or replace the `ogImage` key in a file's frontmatter without re-serialising
- * the whole block (preserving existing formatting, dates, etc.).
- */
-const writeOgImageFrontmatter = (content, jpegFilename, replaceExisting) => {
-  if (replaceExisting && /^ogImage:/m.test(content)) {
-    return content.replace(/^ogImage:.*$/m, `ogImage: ${jpegFilename}`);
-  }
-  // Insert before the closing `---`
-  return content.replace(/^(---\r?\n[\s\S]*?)\r?\n---/m, `$1\nogImage: ${jpegFilename}\n---`);
-};
-
 const main = async () => {
   ensureFontsInstalled();
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -97,7 +73,7 @@ const main = async () => {
   for (const file of postFiles) {
     const filePath = path.join(POSTS_DIR, file);
     const content = fs.readFileSync(filePath, 'utf-8');
-    const data = parseFrontmatter(content);
+    const data = readFrontMatter(content);
 
     if (!data || !data.title) {
       console.log(`⚠ Skipping ${file} (no title or unreadable frontmatter)`);
@@ -115,8 +91,7 @@ const main = async () => {
       skipped++;
       // Still backfill ogImage frontmatter if missing
       if (!data.ogImage) {
-        const updated = writeOgImageFrontmatter(content, jpegFilename, false);
-        fs.writeFileSync(filePath, updated);
+        fs.writeFileSync(filePath, setValue(content, 'ogImage', jpegFilename));
         frontmatterUpdated++;
       }
       continue;
@@ -157,9 +132,7 @@ const main = async () => {
 
     // Write ogImage to frontmatter
     if (!data.ogImage || force) {
-      const replaceExisting = force && !!data.ogImage;
-      const updated = writeOgImageFrontmatter(content, jpegFilename, replaceExisting);
-      fs.writeFileSync(filePath, updated);
+      fs.writeFileSync(filePath, setValue(content, 'ogImage', jpegFilename));
       frontmatterUpdated++;
     }
   }
