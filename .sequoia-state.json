@@ -67,9 +67,9 @@
       "slug": "adventofcode-2024"
     },
     "src/posts/2024-11-10-next-steps-with-bluesky.md": {
-      "contentHash": "21b4a7855e0646a64b0c5d878d1f1675993a20db1b58debbc263a813a4f83e68",
+      "contentHash": "857cdb1f9505d5149fb932f0f1b684e1b530e63f94071d7880b65e09f3c189d6",
       "atUri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqe4yts2p",
-      "lastPublished": "2026-07-10T21:28:39.606Z",
+      "lastPublished": "2026-10-13T21:10:02.432Z",
       "slug": "next-steps-with-bluesky"
     },
     "src/posts/2024-10-23-unsatisfactory-positive-endings.md": {
@@ -337,9 +337,9 @@
       "slug": "microsoft-certified-azure-devops-engineer-expert"
     },
     "src/posts/2023-05-11-a-hello-world-for-bluesky-the-at-protocol.md": {
-      "contentHash": "5871b6da344b734b5762b61121de9233c8ba19d70d26bb1888897230f721c564",
+      "contentHash": "d58a73dbfdda972a1316d503b183f673bc77a03ca3e10301e3145c8ffcfe1b45",
       "atUri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqgxs4k2p",
-      "lastPublished": "2026-10-11T21:21:56.640Z",
+      "lastPublished": "2026-10-13T21:10:03.017Z",
       "slug": "a-hello-world-for-bluesky-the-at-protocol"
     },
     "src/posts/2023-05-03-quick-fire-thoughts-on-bluesky.md": {
@@ -613,9 +613,9 @@
       "slug": "an-endless-loop"
     },
     "src/posts/2021-04-10-on-off.md": {
-      "contentHash": "aff3afd152b8e4e447aacbd3bc37d0839b375bf7bef2e5a6761a415cbbf72427",
+      "contentHash": "73253e7875061bdb790cfdccda775abb31c9017d12b0f31a812e9cb15766c1a5",
       "atUri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqjqymc2p",
-      "lastPublished": "2026-10-11T21:22:20.397Z",
+      "lastPublished": "2026-10-13T21:10:03.472Z",
       "slug": "on-off"
     },
     "src/posts/2021-04-04-zone-of-control.md": {
@@ -985,9 +985,9 @@
       "slug": "calling-it-quits-on-k"
     },
     "src/posts/2019-05-01-flickr-photo-sharing.md": {
-      "contentHash": "fd7e11aa01fbf8e2897704d5d118aa8c811ff727a2a4f949c5c9963c540adbb1",
+      "contentHash": "4787ccd65b35cdcb6b837cd87176a76d821a5d515d90f6c8b96ed8884cda8fca",
       "atUri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqnamus2p",
-      "lastPublished": "2026-10-11T21:22:52.242Z",
+      "lastPublished": "2026-10-13T21:10:03.918Z",
       "slug": "flickr-photo-sharing"
     },
     "src/posts/2019-04-26-notes-from-installing-manjaro-linux.md": {
@@ -1081,9 +1081,9 @@
       "slug": "why-isnt-the-internet-more-fun-and-weird"
     },
     "src/posts/2019-01-29-small-sitek-theme-updates.md": {
-      "contentHash": "5fe84e2eff8ca8dc0d34ce81494503bdec7c3daa81db06544a2a6ead6d0701c2",
+      "contentHash": "319b90450f7d0f9f803bc33898e7212ef6e8c01462fcb96c452d70da312e04e4",
       "atUri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqo5oks2p",
-      "lastPublished": "2026-10-11T21:23:00.344Z",
+      "lastPublished": "2026-10-13T21:10:04.383Z",
       "slug": "small-sitek-theme-updates"
     },
     "src/posts/2019-01-29-paying-tribute-to-the-web-with-view-source.md": {
@@ -1819,9 +1819,9 @@
       "slug": "ios-11-public-beta-now-available"
     },
     "src/posts/2017-06-28-enable-http2-push-in-caddy.md": {
-      "contentHash": "f718f08c7f1a347fa6654abfd207b07c506c50e22c3685bc6751b5087b1d3041",
+      "contentHash": "c20c9e7f0f69de9fa436e2eda3649a9f2d3d35ca91526e6b475adce49a2619cc",
       "atUri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqui62k2p",
-      "lastPublished": "2026-10-11T21:24:03.286Z",
+      "lastPublished": "2026-10-13T21:10:04.829Z",
       "slug": "enable-http2-push-in-caddy"
     },
     "src/posts/2017-06-27-snes-classic-mini-successfully-preordered.md": {
@@ -2059,9 +2059,9 @@
       "slug": "sans-bullshit-sans"
     },
     "src/posts/2015-02-24-powerrangers-a-power-rangers-deboot-by-joseph-khan.md": {
-      "contentHash": "9c46e3ad0499b23009836fa27bc71774c1661a245c26c5e2a4aa0b72e6830206",
+      "contentHash": "20ed13bd58b5c61c7394837323db88910c30feec60e7cbdfb03a6b472c37fc84",
       "atUri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqwhle22p",
-      "lastPublished": "2026-10-11T21:24:23.667Z",
+      "lastPublished": "2026-10-13T21:10:05.277Z",
       "slug": "powerrangers-a-power-rangers-deboot-by-joseph-khan"
     },
     "src/posts/2015-02-24-community-is-the-best-thing.md": {
@@ -3367,9 +3367,9 @@
       "slug": "first-ever-smiley-found"
     },
     "src/posts/2002-05-20-pantellicablack-atom-gigs-and-the-radio-show.md": {
-      "contentHash": "4f9cb65060b413917bb35e4756aaee08520b68c4f01d7e7279021a88be35b39a",
+      "contentHash": "d5860461a819818b7ba08ceaa65380a1583342d7428aae2e8140d4e5793ef69a",
       "atUri": "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyrbyqtc2p",
-      "lastPublished": "2026-10-11T21:26:14.792Z",
+      "lastPublished": "2026-10-13T21:10:05.735Z",
       "slug": "pantellicablack-atom-gigs-and-the-radio-show"
     },
     "src/posts/2002-05-09-earliest-recoverable-blog-post.md": {
