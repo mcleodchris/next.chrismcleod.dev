@@ -14,7 +14,7 @@ import { fileURLToPath } from 'url';
 import * as cheerio from 'cheerio';
 import * as yaml from 'js-yaml';
 import { XMLValidator, XMLParser } from 'fast-xml-parser';
-import { sequoiaPath } from '../config/utils/index.js';
+import { identity } from '../config/identity/index.js';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -174,18 +174,17 @@ const checks = {
   },
 
   // The state file's `slug` is derived from the file name; the URL a record
-  // links to is the config's `pathTemplate`, resolved from the post's title.
+  // links to is the post's Sequoia path, resolved from its title.
   'sequoia-slugs-resolve': () => {
     const stateFile = path.join(ROOT, '.sequoia-state.json');
     if (!fs.existsSync(stateFile)) return null;
     const state = JSON.parse(fs.readFileSync(stateFile, 'utf8'));
-    const { pathTemplate } = JSON.parse(fs.readFileSync(path.join(ROOT, 'sequoia.json'), 'utf8'));
     const missing = [];
     for (const source of Object.keys(state.posts ?? {})) {
       const file = path.join(ROOT, source);
       if (!fs.existsSync(file)) continue;
       const { title } = frontMatter(file) ?? {};
-      const postPath = sequoiaPath(pathTemplate, title);
+      const postPath = identity('post', title).sequoiaPath;
       if (!fs.existsSync(path.join(dir, postPath, 'index.html'))) missing.push(postPath);
     }
     return missing.length ? summarise(missing) : null;

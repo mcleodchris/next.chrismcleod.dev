@@ -1,29 +1,3 @@
-import slugify from 'slugify';
-
-/** Converts string to a slug form. */
-const slugifyString = str => {
-  return slugify(str, {
-    replacement: '-',
-    remove: /[#,&,+()$~%.'":*?<>{}]/g,
-    lower: true
-  });
-};
-
-/**
- * The path Sequoia publishes a post's AT Protocol record under. Sequoia
- * (sequoia-cli 0.5.7, `resolvePathTemplate`) slugifies `{title}` its own way,
- * which differs from `slugifyString` for titles with punctuation, so the two
- * URLs can disagree; the redirects collection bridges the difference.
- */
-const sequoiaPath = (template, title) => {
-  const slug = String(title ?? '')
-    .toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/[^\w-]/g, '');
-  const result = template.replace(/\{title\}/g, slug);
-  return result.startsWith('/') ? result : `/${result}`;
-};
-
 const monthName = { MMMM: new Intl.DateTimeFormat('en', { month: 'long' }), MMM: new Intl.DateTimeFormat('en', { month: 'short' }) };
 const ordinalSuffix = { one: 'st', two: 'nd', few: 'rd', other: 'th' };
 const ordinalRules = new Intl.PluralRules('en', { type: 'ordinal' });
@@ -77,8 +51,6 @@ const formatDate = (value, format) => {
 };
 
 export {
-  slugifyString,
-  sequoiaPath,
   toDate,
   formatDate
 };

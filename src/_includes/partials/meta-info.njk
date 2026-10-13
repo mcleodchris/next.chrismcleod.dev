@@ -33,7 +33,7 @@ rel="canonical" href="{{ meta.url }}{{ page.url }}"> <!-- Links to information a
 <meta property="og:url" content="{{ meta.url }}{{ page.url }}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ meta.siteName }}{% endif %}">
-{% set socialImage = { ogImage: ogImage, title: title, layout: layout } | socialImageUrl %}
+{% set socialImage = { ogImage: ogImage } | socialImageUrl %}
 <meta property="og:image" content="{{ socialImage }}">
 <meta property="og:image:alt" content="{% if socialImage == meta.url + meta.meta_data.opengraph_default %}{{ meta.meta_data.opengraph_default_alt }}{% endif %}">
 <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ meta.siteDescription }}{% endif %}">

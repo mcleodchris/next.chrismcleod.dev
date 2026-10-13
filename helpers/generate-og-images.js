@@ -19,7 +19,8 @@ import * as yaml from 'js-yaml';
 import Image from '@11ty/eleventy-img';
 
 import { renderOgTemplate } from './og-template.js';
-import { formatDate, slugifyString } from '../config/utils/index.js';
+import { formatDate } from '../config/utils/index.js';
+import { identity } from '../config/identity/index.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -56,15 +57,6 @@ const ensureFontsInstalled = () => {
   } catch { /* fc-cache unavailable — fonts may still work */ }
   fs.writeFileSync(marker, '');
   console.log('✓ iA Writer fonts installed to ~/.local/share/fonts/ia-writer/');
-};
-
-/**
- * Derive a flat image basename from a post title.
- * Replaces `/` with `-` before slugifying to prevent nested directory creation.
- */
-const getImageBasename = (title) => {
-  const safeTitle = title.replace(/\//g, '-');
-  return `${slugifyString(safeTitle)}-preview`;
 };
 
 /** Parse YAML frontmatter from markdown content, returning the data object or null. */
@@ -112,10 +104,10 @@ const main = async () => {
       continue;
     }
 
-    const basename = getImageBasename(data.title);
+    const jpegFilename = identity('post', data.title).previewImage;
+    const basename = path.basename(jpegFilename, '.jpeg');
     const svgPath = path.join(OUTPUT_DIR, `${basename}.svg`);
-    const jpegPath = path.join(OUTPUT_DIR, `${basename}.jpeg`);
-    const jpegFilename = `${basename}.jpeg`;
+    const jpegPath = path.join(OUTPUT_DIR, jpegFilename);
 
     const jpegExists = fs.existsSync(jpegPath);
 

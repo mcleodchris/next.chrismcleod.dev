@@ -10,6 +10,7 @@ Node.js 22.17 or later (`.nvmrc` pins the version CI uses). Install with `npm ci
 | --- | --- |
 | `npm start` | Development server on http://localhost:3000 |
 | `npm run build` | Build the site into `dist/`, then index it for search with Pagefind |
+| `npm test` | Run the unit tests (`*.test.js`, with Node's built-in test runner) |
 | `npm run check` | Check `dist/` for known classes of bugs (see `helpers/check-build.js`) |
 | `npm run data:sync` | Refresh the Paintslam snapshot, `data/hobby.json`, from mage |
 | `npm run images:sync` | Refresh the image manifest, `data/images.json` |

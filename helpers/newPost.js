@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import { ask, createContentFile, generateFrontmatter, getDateString, parseTags, pathSafeSlug } from './shared-utils.js';
+import { ask, createContentFile, generateFrontmatter, getDateString, parseTags } from './shared-utils.js';
+import { identity } from '../config/identity/index.js';
 
 async function main() {
   const title = await ask({
@@ -14,7 +15,7 @@ async function main() {
 
   const tagsArray = parseTags(tags);
 
-  const filename = `${getDateString()}-${pathSafeSlug(title)}.md`;
+  const filename = identity('post', title).fileName(getDateString());
   createContentFile('posts', filename, generateFrontmatter(undefined, undefined, { title, tags: tagsArray }));
 }
 
