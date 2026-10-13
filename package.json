@@ -27,7 +27,8 @@
     "start-prod": "npm run build && npm run start-quick",
     "check": "node helpers/check-build.js dist",
     "data:sync": "node helpers/sync-data.js",
-    "images:sync": "node helpers/sync-images.js"
+    "images:sync": "node helpers/sync-images.js",
+    "test": "node --test"
   },
   "keywords": [],
   "repository": {

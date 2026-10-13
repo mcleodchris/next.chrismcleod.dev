@@ -10,6 +10,7 @@ Node.js 22.17 or later (`.nvmrc` pins the version CI uses). Install with `npm ci
 | --- | --- |
 | `npm start` | Development server on http://localhost:3000 |
 | `npm run build` | Build the site into `dist/`, then index it for search with Pagefind |
+| `npm test` | Run the unit tests (`*.test.js`, with Node's built-in test runner) |
 | `npm run check` | Check `dist/` for known classes of bugs (see `helpers/check-build.js`) |
 | `npm run data:sync` | Refresh the Paintslam snapshot, `data/hobby.json`, from mage |
 | `npm run images:sync` | Refresh the image manifest, `data/images.json` |
@@ -32,7 +33,9 @@ Front matter keys with special meaning:
 - `bookmarkOf`: the bookmarked URL (bookmarks).
 - `likeOf`: the liked URL (likes).
 - `redirectFrom`: old paths (a string or a list) that should forward to this page; each gets a small redirect page.
-- `ogImage`: the social preview image in `src/assets/images/social-preview/`; `npm run og` fills it in.
+- `ogImage`: the social preview image in `src/assets/images/social-preview/`; `npm run og` fills it in. Its name records the post's slug, so after a post's title changes `npm run og` makes a new image, deletes the old one, and adds the old URL to `redirectFrom` (see `docs/adr/0002-preview-image-name-records-the-slug.md`). A renamed bookmark needs its old URL added to `redirectFrom` by hand.
+
+Post and bookmark URLs, file names and preview image names all come from the title, through `config/identity/`; the terms are defined in `CONTEXT.md`.
 - `atUri`: the post's AT Protocol record; Sequoia writes it.
 
 Feeds are defined once, in `src/_data/feeds.js`, and rendered by the templates in `src/feeds/`.

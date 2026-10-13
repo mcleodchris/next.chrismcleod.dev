@@ -1,8 +1,7 @@
 import site from '../../src/_data/meta.js';
 import MarkdownIt from 'markdown-it';
-import fs from 'fs';
 import { SYSTEM_TAGS } from '../collections/index.js';
-import { formatDate, slugifyString, toDate } from '../utils/index.js';
+import { formatDate, toDate } from '../utils/index.js';
 import { makeTootText, makeBlueskyText } from './posse.js';
 import { renderPicture } from '../images/picture.js';
 
@@ -102,21 +101,9 @@ const filterTagsFromFeeds = (array) => {
 /** Removes the system tags, leaving the tags that describe a topic. */
 const topicTags = tags => [].concat(tags ?? []).filter(tag => !SYSTEM_TAGS.includes(tag));
 
-const SOCIAL_PREVIEW_DIR = 'src/assets/images/social-preview';
-let socialPreviewFiles;
-/** True when a generated social preview image with this file name exists. */
-const socialPreviewExists = name => {
-  socialPreviewFiles ??= new Set(fs.existsSync(SOCIAL_PREVIEW_DIR) ? fs.readdirSync(SOCIAL_PREVIEW_DIR) : []);
-  return socialPreviewFiles.has(name);
-};
-
-/** The absolute social preview image URL for a page's data. */
+/** The absolute URL of a page's Preview image, or of the site's default image. */
 const socialImageUrl = data => {
   if (data.ogImage) return `${site.url}/assets/images/social-preview/${data.ogImage}`;
-  const fallback = `${slugifyString(String(data.title ?? ''))}-preview.jpeg`;
-  if (data.layout === 'post' && socialPreviewExists(fallback)) {
-    return `${site.url}/assets/images/social-preview/${fallback}`;
-  }
   return `${site.url}${site.meta_data.opengraph_default}`;
 };
 
@@ -129,7 +116,6 @@ export default eleventyConfig => {
   eleventyConfig.addFilter('where', where);
   eleventyConfig.addFilter('toIsoString', toISOString);
   eleventyConfig.addFilter('formatDate', formatDate);
-  eleventyConfig.addFilter('slugify', slugifyString);
   eleventyConfig.addFilter('md', mdInline);
   eleventyConfig.addFilter('longAgo', longAgo);
   eleventyConfig.addFilter('dateDiff', dateDiff);
@@ -138,7 +124,6 @@ export default eleventyConfig => {
   eleventyConfig.addFilter('stripIndex', stripIndex);
   eleventyConfig.addFilter('filterTagsFromFeeds', filterTagsFromFeeds);
   eleventyConfig.addFilter('topicTags', topicTags);
-  eleventyConfig.addFilter('socialPreviewExists', socialPreviewExists);
   eleventyConfig.addFilter('socialImageUrl', socialImageUrl);
   eleventyConfig.addFilter('makeTootText', makeTootText);
   eleventyConfig.addFilter('makeBlueskyText', makeBlueskyText);

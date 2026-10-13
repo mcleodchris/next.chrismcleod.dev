@@ -6,10 +6,10 @@ import {
   generateFrontmatter,
   getDateString,
   parseTags,
-  pathSafeSlug,
   promptForUrlWithMetadata,
   referenceKey
 } from './shared-utils.js';
+import { identity } from '../config/identity/index.js';
 
 async function main() {
   const { url, metadata } = await promptForUrlWithMetadata('Enter the URL to bookmark:');
@@ -34,7 +34,7 @@ async function main() {
     frontmatterFields.references = { [referenceKey(url)]: metadata.hEntry };
   }
 
-  const filename = `${getDateString()}-${pathSafeSlug(title)}.md`;
+  const filename = identity('bookmark', title).fileName(getDateString());
   createContentFile('bookmarks', filename, generateFrontmatter(undefined, undefined, frontmatterFields));
 }
 

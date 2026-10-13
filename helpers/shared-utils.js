@@ -5,7 +5,7 @@ import readline from 'readline/promises';
 import { fileURLToPath } from 'url';
 import * as cheerio from 'cheerio';
 import * as yaml from 'js-yaml';
-import { slugifyString } from '../config/utils/index.js';
+import { slug } from '../config/identity/index.js';
 
 /**
  * Asks a question on the terminal. A default answer is pre-filled for editing,
@@ -62,19 +62,11 @@ export function generateFrontmatter(id = randomUUID(), date = new Date().toISOSt
   return `---\n${yaml.dump({ id, date, ...additionalFields })}---\n\n`;
 }
 
-/**
- * The site's slug, safe as one path segment: slugifyString keeps `/` and `\`,
- * which would put a file in a subfolder the collections never read.
- */
-export function pathSafeSlug(text) {
-  return slugifyString(text.replace(/[/\\]+/g, '-'));
-}
-
 /** Comma-separated tags as slugs, empty ones dropped. */
 export function parseTags(text) {
   return text
     .split(',')
-    .map(tag => pathSafeSlug(tag.trim()))
+    .map(tag => slug(tag.trim()))
     .filter(tag => tag.length > 0);
 }
 

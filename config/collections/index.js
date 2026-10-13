@@ -1,5 +1,4 @@
-import sequoiaConfig from '../../sequoia.json' with { type: 'json' };
-import { sequoiaPath } from '../utils/index.js';
+import { identity } from '../identity/index.js';
 
 /** Tags added by directory data to group content, rather than to describe a topic. */
 const SYSTEM_TAGS = ['posts', 'timeline', 'bookmark', 'notes', 'all'];
@@ -81,7 +80,7 @@ const redirects = collection => {
   items
     .filter(item => item.inputPath.startsWith('./src/posts/'))
     .forEach(item => {
-      add(`${sequoiaPath(sequoiaConfig.pathTemplate, item.data.title)}/`, item.url);
+      add(`${identity('post', item.data.title).sequoiaPath}/`, item.url);
     });
   return result;
 };

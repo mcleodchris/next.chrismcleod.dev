@@ -8,7 +8,7 @@ import markdownitMark from 'markdown-it-mark';
 import markdownitAbbr from 'markdown-it-abbr';
 import markdownItGithubAlerts from 'markdown-it-github-alerts';
 import markdownItImageFigures from 'markdown-it-image-figures';
-import { slugifyString } from '../utils/index.js';
+import { slug } from '../identity/index.js';
 import { isCdnImage } from '../images/manifest.js';
 import { renderPicture } from '../images/picture.js';
 
@@ -23,7 +23,7 @@ export const markdownLib = markdownIt({
     defaultLanguage: 'plaintext'
   })
   .use(markdownItAnchor, {
-    slugify: slugifyString,
+    slugify: slug,
     tabIndex: false,
     permalink: markdownItAnchor.permalink.headerLink({
       class: 'heading-anchor'

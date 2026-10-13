@@ -5,6 +5,8 @@ import esbuild from 'esbuild';
 
 export default eleventyConfig => {
   eleventyConfig.addTemplateFormats('js');
+  // Directory data files are data, not templates of this format.
+  eleventyConfig.ignores.add('./src/**/*.11tydata.js');
 
   eleventyConfig.addExtension('js', {
     outputFileExtension: 'js',

@@ -6,7 +6,7 @@ tags:
   - bluesky
   - learning
   - social-media
-redirectFrom: ['/2023/05/11/a-hello-world-for-bluesky-the-at-protocol/']
+redirectFrom: ['/2023/05/11/a-hello-world-for-bluesky-the-at-protocol/', '/blog/a-hello-world-for-bluesky/the-at-protocol/']
 atUri: "at://did:plc:fcewtyqycu5qlt26tnbnan6h/site.standard.document/3mpyyqgxs4k2p"
 ogImage: a-hello-world-for-bluesky-the-at-protocol-preview.jpeg
 ---

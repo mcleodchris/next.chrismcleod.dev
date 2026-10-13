@@ -1,8 +1,0 @@
-{
-  "layout": "post",
-  "tags": [
-    "posts",
-    "timeline"
-  ],
-  "permalink": "/blog/{{ title | slugify }}/index.html"
-}

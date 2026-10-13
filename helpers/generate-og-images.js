@@ -5,6 +5,10 @@
  *   npm run og           — generate missing images, add ogImage to frontmatter if absent
  *   npm run og:force     — regenerate all images, update all ogImage frontmatter
  *
+ * A post whose ogImage no longer matches its title's Slug has been renamed
+ * (docs/adr/0002): it gets a new image, its old URL is added to redirectFrom,
+ * and the old image is deleted unless another post still uses it.
+ *
  * Edit helpers/og-template.js to change the SVG design.
  * Images are written to src/assets/images/social-preview/ and committed to the repo.
  * The site build copies them to dist/ via Eleventy's passthrough copy.
@@ -15,11 +19,12 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { execSync } from 'child_process';
 import os from 'os';
-import * as yaml from 'js-yaml';
 import Image from '@11ty/eleventy-img';
 
 import { renderOgTemplate } from './og-template.js';
-import { formatDate, slugifyString } from '../config/utils/index.js';
+import { formatDate } from '../config/utils/index.js';
+import { formerUrl, identity } from '../config/identity/index.js';
+import { appendToList, readFrontMatter, setValue } from './front-matter.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -58,80 +63,62 @@ const ensureFontsInstalled = () => {
   console.log('✓ iA Writer fonts installed to ~/.local/share/fonts/ia-writer/');
 };
 
-/**
- * Derive a flat image basename from a post title.
- * Replaces `/` with `-` before slugifying to prevent nested directory creation.
- */
-const getImageBasename = (title) => {
-  const safeTitle = title.replace(/\//g, '-');
-  return `${slugifyString(safeTitle)}-preview`;
-};
-
-/** Parse YAML frontmatter from markdown content, returning the data object or null. */
-const parseFrontmatter = (content) => {
-  const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
-  if (!match) return null;
-  try {
-    // YAML 1.1, as Eleventy reads front matter (dates become Date objects)
-    return yaml.load(match[1], { schema: yaml.YAML11_SCHEMA }) || {};
-  } catch {
-    return null;
-  }
-};
-
-/**
- * Add or replace the `ogImage` key in a file's frontmatter without re-serialising
- * the whole block (preserving existing formatting, dates, etc.).
- */
-const writeOgImageFrontmatter = (content, jpegFilename, replaceExisting) => {
-  if (replaceExisting && /^ogImage:/m.test(content)) {
-    return content.replace(/^ogImage:.*$/m, `ogImage: ${jpegFilename}`);
-  }
-  // Insert before the closing `---`
-  return content.replace(/^(---\r?\n[\s\S]*?)\r?\n---/m, `$1\nogImage: ${jpegFilename}\n---`);
-};
-
 const main = async () => {
   ensureFontsInstalled();
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
-  const postFiles = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith('.md'));
+  const posts = fs
+    .readdirSync(POSTS_DIR)
+    .filter((f) => f.endsWith('.md'))
+    .map((file) => {
+      const filePath = path.join(POSTS_DIR, file);
+      const content = fs.readFileSync(filePath, 'utf-8');
+      return { file, filePath, content, data: readFrontMatter(content) };
+    });
+
+  // Each post's ogImage as this run leaves it, and the images renamed posts stopped using:
+  // a retired image is deleted after every post is processed, if no post refers to it then.
+  const finalImages = new Map(posts.map(({ filePath, data }) => [filePath, data?.ogImage]));
+  const retiredImages = new Set();
 
   let generated = 0;
   let skipped = 0;
   let frontmatterUpdated = 0;
+  let renamed = 0;
   let failed = 0;
 
-  for (const file of postFiles) {
-    const filePath = path.join(POSTS_DIR, file);
-    const content = fs.readFileSync(filePath, 'utf-8');
-    const data = parseFrontmatter(content);
-
+  for (const { file, filePath, content, data } of posts) {
     if (!data || !data.title) {
       console.log(`⚠ Skipping ${file} (no title or unreadable frontmatter)`);
       continue;
     }
 
-    const basename = getImageBasename(data.title);
+    const jpegFilename = identity('post', data.title).previewImage;
+    const basename = path.basename(jpegFilename, '.jpeg');
     const svgPath = path.join(OUTPUT_DIR, `${basename}.svg`);
-    const jpegPath = path.join(OUTPUT_DIR, `${basename}.jpeg`);
-    const jpegFilename = `${basename}.jpeg`;
+    const jpegPath = path.join(OUTPUT_DIR, jpegFilename);
 
     const jpegExists = fs.existsSync(jpegPath);
+    const isRenamed = Boolean(data.ogImage) && data.ogImage !== jpegFilename;
 
-    if (jpegExists && !force) {
+    if (jpegExists && !force && !isRenamed) {
       skipped++;
       // Still backfill ogImage frontmatter if missing
       if (!data.ogImage) {
-        const updated = writeOgImageFrontmatter(content, jpegFilename, false);
-        fs.writeFileSync(filePath, updated);
-        frontmatterUpdated++;
+        try {
+          fs.writeFileSync(filePath, setValue(content, 'ogImage', jpegFilename));
+          finalImages.set(filePath, jpegFilename);
+          frontmatterUpdated++;
+        } catch (err) {
+          console.error(`✗ ${file}: ${err.message}; front matter unchanged`);
+          failed++;
+        }
       }
       continue;
     }
 
     // Delete existing JPEG so eleventy-img doesn't skip it due to its own cache
-    if (force && jpegExists) {
+    if (jpegExists) {
       fs.unlinkSync(jpegPath);
     }
 
@@ -163,17 +150,40 @@ const main = async () => {
       continue;
     }
 
-    // Write ogImage to frontmatter
-    if (!data.ogImage || force) {
-      const replaceExisting = force && !!data.ogImage;
-      const updated = writeOgImageFrontmatter(content, jpegFilename, replaceExisting);
+    // A post with its own permalink does not move when its title changes.
+    const former = isRenamed && !data.permalink ? formerUrl('post', data.title, data.ogImage) : undefined;
+    let updated;
+    try {
+      updated = setValue(content, 'ogImage', jpegFilename);
+      if (former) updated = appendToList(updated, 'redirectFrom', former);
+    } catch (err) {
+      // The new image stays; the post still names its old one, so the next run tries again.
+      console.error(`✗ ${file}: ${err.message}; front matter unchanged`);
+      failed++;
+      continue;
+    }
+    finalImages.set(filePath, jpegFilename);
+
+    if (isRenamed) {
+      renamed++;
+      console.log(`  renamed from ${data.ogImage}${former ? `; ${former} now redirects` : ''}`);
+      retiredImages.add(data.ogImage);
+    }
+
+    if (updated !== content) {
       fs.writeFileSync(filePath, updated);
       frontmatterUpdated++;
     }
   }
 
+  const stillUsed = new Set(finalImages.values());
+  for (const image of retiredImages) {
+    const oldPath = path.join(OUTPUT_DIR, path.basename(image));
+    if (!stillUsed.has(image) && fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
+  }
+
   console.log(
-    `\nDone: ${generated} generated, ${skipped} skipped, ${frontmatterUpdated} frontmatter updated, ${failed} failed`
+    `\nDone: ${generated} generated, ${renamed} renamed, ${skipped} skipped, ${frontmatterUpdated} frontmatter updated, ${failed} failed`
   );
   if (failed > 0) process.exitCode = 1;
 };
