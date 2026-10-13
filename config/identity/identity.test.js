@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { identity, slug } from './index.js';
+import { formerUrl, identity, slug } from './index.js';
 
 test('a Post is named everywhere after its title', () => {
   const { slug: postSlug, url, previewImage, sequoiaPath, fileName } = identity('post', 'Whimsy Is Enough');
@@ -60,4 +60,20 @@ test('the Slug rule also names heading anchors', () => {
 
 test('an unknown kind is an error', () => {
   assert.throws(() => identity('note', 'Anything'), /Unknown kind "note"/);
+});
+
+test('a renamed Post remembers its Former URL through its stored Preview image', () => {
+  const cases = [
+    ['renamed', 'On and Off', 'on-off-preview.jpeg', '/blog/on-off/'],
+    ['not renamed', 'On/Off', 'on-off-preview.jpeg', undefined],
+    ['no Preview image yet', 'On/Off', undefined, undefined],
+    ['hand-picked image', 'On/Off', 'my-photo.jpg', undefined]
+  ];
+  for (const [situation, title, stored, expected] of cases) {
+    assert.equal(formerUrl('post', title, stored), expected, situation);
+  }
+});
+
+test('a Bookmark has no Preview image, so no Former URL is found', () => {
+  assert.equal(formerUrl('bookmark', 'New Title', 'old-title-preview.jpeg'), undefined);
 });

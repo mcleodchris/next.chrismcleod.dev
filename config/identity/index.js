@@ -61,3 +61,17 @@ export const identity = (kind, title) => {
     ...(syndicated && { sequoiaPath: sequoiaPath(title) })
   };
 };
+
+/**
+ * The URL a page had before its title changed, read from the Preview image
+ * name it stores, which records the Slug it was made for (docs/adr/0002).
+ * Undefined if the title has not changed or the stored name does not follow
+ * the rule.
+ */
+export const formerUrl = (kind, title, storedPreviewImage) => {
+  const { urlBase, hasPreviewImage } = kindOf(kind);
+  if (!hasPreviewImage || !storedPreviewImage?.endsWith(PREVIEW_IMAGE_SUFFIX)) return undefined;
+  const formerSlug = storedPreviewImage.slice(0, -PREVIEW_IMAGE_SUFFIX.length);
+  if (!formerSlug || formerSlug === slug(title)) return undefined;
+  return `${urlBase}${formerSlug}/`;
+};

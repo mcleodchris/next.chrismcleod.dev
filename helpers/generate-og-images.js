@@ -5,6 +5,10 @@
  *   npm run og           — generate missing images, add ogImage to frontmatter if absent
  *   npm run og:force     — regenerate all images, update all ogImage frontmatter
  *
+ * A post whose ogImage no longer matches its title's Slug has been renamed
+ * (docs/adr/0002): it gets a new image, its old URL is added to redirectFrom,
+ * and the old image is deleted unless another post still uses it.
+ *
  * Edit helpers/og-template.js to change the SVG design.
  * Images are written to src/assets/images/social-preview/ and committed to the repo.
  * The site build copies them to dist/ via Eleventy's passthrough copy.
@@ -19,8 +23,8 @@ import Image from '@11ty/eleventy-img';
 
 import { renderOgTemplate } from './og-template.js';
 import { formatDate } from '../config/utils/index.js';
-import { identity } from '../config/identity/index.js';
-import { readFrontMatter, setValue } from './front-matter.js';
+import { formerUrl, identity } from '../config/identity/index.js';
+import { appendToList, readFrontMatter, setValue } from './front-matter.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -63,18 +67,28 @@ const main = async () => {
   ensureFontsInstalled();
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
-  const postFiles = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith('.md'));
+  const posts = fs
+    .readdirSync(POSTS_DIR)
+    .filter((f) => f.endsWith('.md'))
+    .map((file) => {
+      const filePath = path.join(POSTS_DIR, file);
+      const content = fs.readFileSync(filePath, 'utf-8');
+      return { file, filePath, content, data: readFrontMatter(content) };
+    });
+
+  // How many posts use each image, so a renamed post's old image is only deleted when unused.
+  const imageUsers = new Map();
+  for (const { data } of posts) {
+    if (data?.ogImage) imageUsers.set(data.ogImage, (imageUsers.get(data.ogImage) ?? 0) + 1);
+  }
 
   let generated = 0;
   let skipped = 0;
   let frontmatterUpdated = 0;
+  let renamed = 0;
   let failed = 0;
 
-  for (const file of postFiles) {
-    const filePath = path.join(POSTS_DIR, file);
-    const content = fs.readFileSync(filePath, 'utf-8');
-    const data = readFrontMatter(content);
-
+  for (const { file, filePath, content, data } of posts) {
     if (!data || !data.title) {
       console.log(`⚠ Skipping ${file} (no title or unreadable frontmatter)`);
       continue;
@@ -86,8 +100,9 @@ const main = async () => {
     const jpegPath = path.join(OUTPUT_DIR, jpegFilename);
 
     const jpegExists = fs.existsSync(jpegPath);
+    const isRenamed = Boolean(data.ogImage) && data.ogImage !== jpegFilename;
 
-    if (jpegExists && !force) {
+    if (jpegExists && !force && !isRenamed) {
       skipped++;
       // Still backfill ogImage frontmatter if missing
       if (!data.ogImage) {
@@ -98,7 +113,7 @@ const main = async () => {
     }
 
     // Delete existing JPEG so eleventy-img doesn't skip it due to its own cache
-    if (force && jpegExists) {
+    if (jpegExists) {
       fs.unlinkSync(jpegPath);
     }
 
@@ -130,15 +145,29 @@ const main = async () => {
       continue;
     }
 
-    // Write ogImage to frontmatter
-    if (!data.ogImage || force) {
-      fs.writeFileSync(filePath, setValue(content, 'ogImage', jpegFilename));
+    let updated = setValue(content, 'ogImage', jpegFilename);
+
+    if (isRenamed) {
+      renamed++;
+      // A post with its own permalink does not move when its title changes.
+      const former = data.permalink ? undefined : formerUrl('post', data.title, data.ogImage);
+      if (former) updated = appendToList(updated, 'redirectFrom', former);
+      console.log(`  renamed from ${data.ogImage}${former ? `; ${former} now redirects` : ''}`);
+
+      const users = imageUsers.get(data.ogImage) - 1;
+      imageUsers.set(data.ogImage, users);
+      const oldPath = path.join(OUTPUT_DIR, path.basename(data.ogImage));
+      if (users === 0 && fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
+    }
+
+    if (updated !== content) {
+      fs.writeFileSync(filePath, updated);
       frontmatterUpdated++;
     }
   }
 
   console.log(
-    `\nDone: ${generated} generated, ${skipped} skipped, ${frontmatterUpdated} frontmatter updated, ${failed} failed`
+    `\nDone: ${generated} generated, ${renamed} renamed, ${skipped} skipped, ${frontmatterUpdated} frontmatter updated, ${failed} failed`
   );
   if (failed > 0) process.exitCode = 1;
 };
