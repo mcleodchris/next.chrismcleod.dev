@@ -181,6 +181,15 @@ const checks = {
     return missing.length ? summarise(missing) : null;
   },
 
+  // A Slug never contains `/` (docs/adr/0001), so a deeper page is a redirect stub or a bug.
+  'single-segment-pages': () => {
+    const bad = htmlFiles
+      .map(rel)
+      .filter(file => /^(blog|bookmarks)\/[^/]+\/[^/]+\/index\.html$/.test(file))
+      .filter(file => !readHtml(path.join(dir, file)).includes('http-equiv="refresh"'));
+    return bad.length ? summarise(bad) : null;
+  },
+
   'no-base-href': () => {
     const bad = htmlFiles.filter(f => readHtml(f).includes('<base href=')).map(rel);
     return bad.length ? summarise(bad) : null;

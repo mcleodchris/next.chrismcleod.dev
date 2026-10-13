@@ -12,7 +12,7 @@ ogImage: next-steps-with-bluesky-hosting-your-own-data-and-more-on-the-api-previ
 
 It's been a while since I wrote about Bluesky. My previous ["Hello World" for Bluesky][hw] was a quick overview of using the APIs to authenticate and post to Bluesky. It remains a popular post all these months later, and several people have let me know it helped get up and running with integrating with the AT protocol (ATproto) network[^1], which includes the Bluesky service.
 
-[hw]: https://chrismcleod.dev/blog/a-hello-world-for-bluesky/the-at-protocol/
+[hw]: https://chrismcleod.dev/blog/a-hello-world-for-bluesky-the-at-protocol/
 
 The thing is, ATproto/Bluesky have been growing a lot lately, and things have moved on very fast. Everything in that previous post still holds up and works, but there have been some interesting developments that warrant an update, namely: you can now host your own data. It's pretty straightforward too. It does have some implications for working with the APIs, which I'll get to shortly.
 

@@ -35,9 +35,19 @@ test('punctuation: the site and Sequoia slugify titles differently', () => {
   }
 });
 
-test('a title with a slash', () => {
+test('a Slug is always one path segment', () => {
+  const cases = [
+    ['On/Off', 'on-off'],
+    ['Enable HTTP/2 Push in Caddy', 'enable-http-2-push-in-caddy'],
+    ['A "Hello World" for bluesky/the AT protocol', 'a-hello-world-for-bluesky-the-at-protocol'],
+    ['Back\\Slash // Double', 'back-slash-double']
+  ];
+  for (const [title, expected] of cases) assert.equal(slug(title), expected, title);
+});
+
+test('a title with a slash names everything after the same Slug', () => {
   const post = identity('post', 'On/Off');
-  assert.equal(post.url, '/blog/on/off/');
+  assert.equal(post.url, '/blog/on-off/');
   assert.equal(post.previewImage, 'on-off-preview.jpeg');
   assert.equal(post.fileName('2021-04-10'), '2021-04-10-on-off.md');
   assert.equal(post.sequoiaPath, '/blog/onoff');
@@ -45,6 +55,7 @@ test('a title with a slash', () => {
 
 test('the Slug rule also names heading anchors', () => {
   assert.equal(slug('Step 2: Install & Configure'), 'step-2-install-and-configure');
+  assert.equal(slug('Blank Screen during/after boot'), 'blank-screen-during-after-boot');
 });
 
 test('an unknown kind is an error', () => {

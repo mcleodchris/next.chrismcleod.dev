@@ -21,16 +21,16 @@ const kindOf = kind => {
   return definition;
 };
 
-/** The Slug rule: lower case, URL-safe text. Also names heading anchors and tags. */
+/**
+ * The Slug rule: lower case, URL-safe text with no `/` or `\`, so it is always
+ * one path segment. Also names heading anchors and tags.
+ */
 export const slug = text =>
-  slugify(String(text ?? ''), {
+  slugify(String(text ?? '').replace(/[/\\]+/g, '-'), {
     replacement: '-',
     remove: /[#,&,+()$~%.'":*?<>{}]/g,
     lower: true
   });
-
-/** The Slug as one path segment: `/` and `\` would otherwise start a folder. */
-const fileSlug = text => slug(String(text ?? '').replace(/[/\\]+/g, '-'));
 
 /**
  * The path Sequoia publishes a Post's AT Protocol record under. Sequoia
@@ -52,13 +52,12 @@ const sequoiaPath = title => {
  */
 export const identity = (kind, title) => {
   const { urlBase, hasPreviewImage, syndicated } = kindOf(kind);
-  const urlSlug = slug(title);
-  const nameSlug = fileSlug(title);
+  const titleSlug = slug(title);
   return {
-    slug: urlSlug,
-    url: `${urlBase}${urlSlug}/`,
-    fileName: date => `${date}-${nameSlug}.md`,
-    ...(hasPreviewImage && { previewImage: `${nameSlug}${PREVIEW_IMAGE_SUFFIX}` }),
+    slug: titleSlug,
+    url: `${urlBase}${titleSlug}/`,
+    fileName: date => `${date}-${titleSlug}.md`,
+    ...(hasPreviewImage && { previewImage: `${titleSlug}${PREVIEW_IMAGE_SUFFIX}` }),
     ...(syndicated && { sequoiaPath: sequoiaPath(title) })
   };
 };

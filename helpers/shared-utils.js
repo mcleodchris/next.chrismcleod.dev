@@ -66,7 +66,7 @@ export function generateFrontmatter(id = randomUUID(), date = new Date().toISOSt
 export function parseTags(text) {
   return text
     .split(',')
-    .map(tag => slug(tag.trim().replace(/[/\\]+/g, '-')))
+    .map(tag => slug(tag.trim()))
     .filter(tag => tag.length > 0);
 }
 
