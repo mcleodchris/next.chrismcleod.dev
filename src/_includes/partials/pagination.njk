@@ -1,21 +1,30 @@
 {% if pagination.pages.length > 1 %}
-  <section class="wrapper  region">
+  {% set firstPage = pagination.pageNumber - 2 %}
+  {% if firstPage > pagination.pages.length - 5 %}
+    {% set firstPage = pagination.pages.length - 5 %}
+  {% endif %}
+  {% if firstPage < 0 %}
+    {% set firstPage = 0 %}
+  {% endif %}
+  <section class="wrapper region">
     <nav role="navigation" aria-label="Pagination">
-      <ul class="pagination">
+      <ul class="pagination" role="list">
         <li>
           {% if pagination.href.previous %}
-            <a href="{{ pagination.href.previous }}">Previous</a>
+            <a href="{{ pagination.href.previous }}" rel="prev">Previous</a>
           {% else %}Previous{% endif %}
         </li>
         {%- for pageEntry in pagination.pages %}
-          <li>
-            <a href="{{ pagination.hrefs[ loop.index0 ] }}" {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page" {% endif %}>
+          {% if loop.index0 >= firstPage and loop.index0 < firstPage + 5 %}
+          <li class="pagination__page">
+            <a href="{{ pagination.hrefs[ loop.index0 ] }}" aria-label="Page {{ loop.index }} of {{ pagination.pages.length }}" {% if pagination.pageNumber == loop.index0 %} aria-current="page" {% endif %}>
               {{ loop.index }}</a>
           </li>
+          {% endif %}
         {%- endfor %}
         <li>
           {% if pagination.href.next %}
-            <a href="{{ pagination.href.next }}">Next</a>
+            <a href="{{ pagination.href.next }}" rel="next">Next</a>
           {% else %}Next{% endif %}
         </li>
       </ul>

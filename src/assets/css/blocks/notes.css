@@ -1,0 +1,13 @@
+.notes-archive > .h-entry {
+  position: relative;
+}
+
+/* Centre the divider in the existing gap without adding to the note spacing. */
+.notes-archive__divider {
+  position: absolute;
+  inset-inline: 0;
+  inset-block-start: calc(100% + var(--flow-space, 1em) / 2);
+  transform: translateY(-50%);
+  text-align: center;
+  color: var(--color-subtext1);
+}

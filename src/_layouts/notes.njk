@@ -1,0 +1,30 @@
+---
+layout: base
+---
+
+<header class="section">
+  <div class="wrapper flow region">
+    <section class="prose text-center">
+      <h1 class="fade-in">{{ title }}</h1>
+    </section>
+  </div>
+</header>
+<div class="notes-archive wrapper flow prose h-feed">
+  {%- for item in pagination.items %}
+    <article class="region blog h-entry">
+      <div class="flow">
+        <div class="post-meta">
+          <a href="{{ item.url | url }}" class="u-url" rel="bookmark"><time datetime="{{ item.date | toIsoString }}" class="dt-published">{{ item.date | formatDate('MMMM D, YYYY [at] h:mma') }}</time></a>
+          by <a class="p-author h-card" href="{{ meta.authorWebsite }}">{{ meta.author }}</a>
+        </div>
+        <div class="e-content flow prose">
+          {{ item.templateContent | safe }}
+        </div>
+      </div>
+      {% if not loop.last %}
+        <span class="notes-archive__divider" aria-hidden="true">---</span>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>
+{% include "partials/pagination.njk" %}

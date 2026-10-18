@@ -28,6 +28,8 @@ The two sync commands read `MAGE_API_TOKEN` (and optionally `MAGE_URL`) from the
 | `src/bookmarks/` | Links | `/bookmarks/<title>/` |
 | `src/likes/` | Likes | not published |
 
+The notes archive starts at `/notes/`, with older pages at `/notes/page-1/`, `/notes/page-2/`, and so on. Each page shows up to 25 full notes, newest first. It is not linked in the site navigation.
+
 Front matter keys with special meaning:
 
 - `bookmarkOf`: the bookmarked URL (bookmarks).
