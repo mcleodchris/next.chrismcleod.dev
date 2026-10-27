@@ -891,6 +891,12 @@
       "game": "Pillage",
       "item": "Medieval Hut",
       "modelCount": 1
+    },
+    {
+      "completedDate": "2026-10-20",
+      "game": "Pillage",
+      "item": "Vikings",
+      "modelCount": 8
     }
   ]
 }
