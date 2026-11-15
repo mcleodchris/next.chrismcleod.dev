@@ -1,0 +1,55 @@
+.paintslam-chart {
+  margin: var(--space-xl) auto 0;
+  max-inline-size: 64rem;
+  padding: var(--space-s-m);
+  border: 1px solid var(--color-surface1);
+  border-radius: var(--border-radius);
+  background: var(--color-mantle);
+  color: var(--color-text);
+}
+
+.paintslam-chart figcaption {
+  font-size: var(--size-step-1);
+  font-weight: 700;
+  text-align: center;
+}
+
+.paintslam-chart__months {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: clamp(0.2rem, 1vw, 0.75rem);
+  margin: 3rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: clamp(0.6rem, 1.8vw, 0.9rem);
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.paintslam-chart__track {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  block-size: clamp(10rem, 25vw, 16rem);
+  border-bottom: 1px solid var(--color-overlay0);
+}
+
+.paintslam-chart__bar {
+  position: relative;
+  inline-size: 100%;
+  max-inline-size: 3rem;
+  background: var(--color-teal);
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+
+.paintslam-chart__count {
+  position: absolute;
+  inset-inline: 0;
+  bottom: calc(100% + 0.35rem);
+  font-weight: 700;
+}
+
+.paintslam-chart__label {
+  display: block;
+  margin-top: 0.5rem;
+}
